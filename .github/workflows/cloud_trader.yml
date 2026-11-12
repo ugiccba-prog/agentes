@@ -1,0 +1,48 @@
+name: Agente Trading 24/7 en la Nube
+
+on:
+  schedule:
+    # Se ejecuta automáticamente cada 15 minutos las 24 horas en los servidores de GitHub
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Permite también dispararlo manualmente con 1 clic desde GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trading-agent-cloud
+  cancel-in-progress: false
+
+jobs:
+  trade-in-cloud:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Descargar repositorio y cartera actual
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias cuantitativas
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy requests urllib3
+
+      - name: Ejecutar Agente en Vivo en la Nube (12 minutos de monitoreo continuo)
+        run: |
+          python -u cloud_runner.py --minutes 12 --tick 60
+
+      - name: Guardar Cartera Actualizada y Bitácora en GitHub
+        run: |
+          git config user.name "Agente Trading Cloud 24/7"
+          git config user.email "ugiccba@gmail.com"
+          git pull --rebase origin main || true
+          git add live_portfolio.json adaptive_config.json overnight_log.txt
+          git diff --staged --quiet || git commit -m "🤖 Auto-Update Cloud: Cartera y Trades en Vivo [skip ci]"
+          git push origin main
