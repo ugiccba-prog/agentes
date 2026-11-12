@@ -771,3 +771,11 @@
 [2026-11-12 22:10:23]    🔎 [USD/JPY] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.07, Ret=+1.3%)
 [2026-11-12 22:10:23]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=3.03, WinRate=71.4%, Ret=+20.8%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.3x ATR
 [2026-11-12 22:10:23] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (15 ajustes aplicados).
+[2026-11-12 22:11:25] ☁️ [GITHUB CLOUD] Pulso #91 de la sesión #10...
+[2026-11-12 22:11:45] ✅ CERRADA GBP/JPY (SHORT) a 211.54200744628906 | PnL: $-25.37 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-12 22:11:45] 💓 Pulso En Vivo | Equity: $9,975.18 USD (Efectivo: $9,624.88 | Flotante: $+350.30) | Abiertas: 11 | Cerradas: 39
+[2026-11-12 22:12:45] ☁️ [GITHUB CLOUD] Pulso #92 de la sesión #10...
+[2026-11-12 22:12:58] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT | Entrada: 211.32699585 | SL: 211.51873405 | TP: 210.97091061 | Tamaño: $16,625.30 USD (Riesgo controlado: $349.13)
+[2026-11-12 22:13:05] 💓 Pulso En Vivo | Equity: $9,946.54 USD (Efectivo: $9,624.88 | Flotante: $+321.66) | Abiertas: 12 | Cerradas: 39
+[2026-11-12 22:14:05] ☁️ [GITHUB CLOUD] Pulso #93 de la sesión #10...
+[2026-11-12 22:14:25] 💓 Pulso En Vivo | Equity: $9,928.71 USD (Efectivo: $9,624.88 | Flotante: $+303.83) | Abiertas: 12 | Cerradas: 39
