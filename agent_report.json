@@ -1,0 +1,161 @@
+{
+  "interval": "1h",
+  "total_initial_usd": 6000.0,
+  "total_final_usd": 6566.47,
+  "net_profit_usd": 566.47,
+  "portfolio_return_pct": 9.44,
+  "summary": [
+    {
+      "Par": "BTC/USDT",
+      "Mercado": "CRYPTO",
+      "Fuente": "Binance API (En Vivo)",
+      "Mejor Estrategia": "ema_pullback",
+      "Capital Inicial": "$1,000.00",
+      "Capital Final": "$1,042.25",
+      "Ganancia ($)": "$+42.25",
+      "Retorno (%)": "+4.23%",
+      "Trades": 12,
+      "Win Rate": "66.7%",
+      "Profit Factor": "1.45",
+      "Max Drawdown": "-7.59%"
+    },
+    {
+      "Par": "ETH/USDT",
+      "Mercado": "CRYPTO",
+      "Fuente": "Binance API (En Vivo)",
+      "Mejor Estrategia": "ema_pullback",
+      "Capital Inicial": "$1,000.00",
+      "Capital Final": "$1,110.37",
+      "Ganancia ($)": "$+110.37",
+      "Retorno (%)": "+11.04%",
+      "Trades": 13,
+      "Win Rate": "69.2%",
+      "Profit Factor": "2.15",
+      "Max Drawdown": "-7.04%"
+    },
+    {
+      "Par": "SOL/USDT",
+      "Mercado": "CRYPTO",
+      "Fuente": "Binance API (En Vivo)",
+      "Mejor Estrategia": "ema_pullback",
+      "Capital Inicial": "$1,000.00",
+      "Capital Final": "$1,182.22",
+      "Ganancia ($)": "$+182.22",
+      "Retorno (%)": "+18.22%",
+      "Trades": 14,
+      "Win Rate": "78.6%",
+      "Profit Factor": "3.46",
+      "Max Drawdown": "-6.27%"
+    },
+    {
+      "Par": "EUR/USD",
+      "Mercado": "FOREX",
+      "Fuente": "Yahoo Finance API (En Vivo)",
+      "Mejor Estrategia": "bollinger_reversion",
+      "Capital Inicial": "$1,000.00",
+      "Capital Final": "$1,098.77",
+      "Ganancia ($)": "$+98.77",
+      "Retorno (%)": "+9.88%",
+      "Trades": 45,
+      "Win Rate": "53.3%",
+      "Profit Factor": "1.23",
+      "Max Drawdown": "-10.31%"
+    },
+    {
+      "Par": "GBP/USD",
+      "Mercado": "FOREX",
+      "Fuente": "Yahoo Finance API (En Vivo)",
+      "Mejor Estrategia": "volatility_breakout",
+      "Capital Inicial": "$1,000.00",
+      "Capital Final": "$1,160.02",
+      "Ganancia ($)": "$+160.02",
+      "Retorno (%)": "+16.00%",
+      "Trades": 21,
+      "Win Rate": "61.9%",
+      "Profit Factor": "2.10",
+      "Max Drawdown": "-11.10%"
+    },
+    {
+      "Par": "USD/JPY",
+      "Mercado": "FOREX",
+      "Fuente": "Yahoo Finance API (En Vivo)",
+      "Mejor Estrategia": "bollinger_reversion",
+      "Capital Inicial": "$1,000.00",
+      "Capital Final": "$972.84",
+      "Ganancia ($)": "$-27.16",
+      "Retorno (%)": "-2.72%",
+      "Trades": 41,
+      "Win Rate": "51.2%",
+      "Profit Factor": "0.93",
+      "Max Drawdown": "-16.97%"
+    }
+  ],
+  "live_signals": [
+    {
+      "symbol": "BTC/USDT",
+      "market": "CRYPTO",
+      "strategy": "ema_pullback",
+      "action": "HOLD (ESPERAR)",
+      "confidence": 50.0,
+      "entry": "$73,684.78",
+      "stop_loss": "$72,925.28",
+      "take_profit": "$75,298.73",
+      "reason": "Sin confluencia suficiente aún (RSI=43.5, MACD Hist=-25.58620, Bollinger %B=0.21). El agente protege tu capital esperando confirmación clara."
+    },
+    {
+      "symbol": "ETH/USDT",
+      "market": "CRYPTO",
+      "strategy": "ema_pullback",
+      "action": "HOLD (ESPERAR)",
+      "confidence": 50.0,
+      "entry": "$2,050.99",
+      "stop_loss": "$2,022.73",
+      "take_profit": "$2,111.05",
+      "reason": "Sin confluencia suficiente aún (RSI=41.7, MACD Hist=-0.97680, Bollinger %B=0.18). El agente protege tu capital esperando confirmación clara."
+    },
+    {
+      "symbol": "SOL/USDT",
+      "market": "CRYPTO",
+      "strategy": "ema_pullback",
+      "action": "HOLD (ESPERAR)",
+      "confidence": 50.0,
+      "entry": "$83.100",
+      "stop_loss": "$81.698",
+      "take_profit": "$86.079",
+      "reason": "Sin confluencia suficiente aún (RSI=41.1, MACD Hist=-0.12154, Bollinger %B=0.19). El agente protege tu capital esperando confirmación clara."
+    },
+    {
+      "symbol": "EUR/USD",
+      "market": "FOREX",
+      "strategy": "bollinger_reversion",
+      "action": "HOLD (ESPERAR)",
+      "confidence": 50.0,
+      "entry": "1.10975",
+      "stop_loss": "1.10827",
+      "take_profit": "1.11240",
+      "reason": "Sin confluencia suficiente aún (RSI=30.7, MACD Hist=0.00022, Bollinger %B=0.36). El agente protege tu capital esperando confirmación clara."
+    },
+    {
+      "symbol": "GBP/USD",
+      "market": "FOREX",
+      "strategy": "volatility_breakout",
+      "action": "HOLD (ESPERAR)",
+      "confidence": 50.0,
+      "entry": "1.32762",
+      "stop_loss": "1.32592",
+      "take_profit": "1.33139",
+      "reason": "Sin confluencia suficiente aún (RSI=29.1, MACD Hist=0.00026, Bollinger %B=0.33). El agente protege tu capital esperando confirmación clara."
+    },
+    {
+      "symbol": "USD/JPY",
+      "market": "FOREX",
+      "strategy": "bollinger_reversion",
+      "action": "HOLD (ESPERAR)",
+      "confidence": 50.0,
+      "entry": "159.610",
+      "stop_loss": "159.340",
+      "take_profit": "160.090",
+      "reason": "Sin confluencia suficiente aún (RSI=63.3, MACD Hist=-0.04925, Bollinger %B=0.56). El agente protege tu capital esperando confirmación clara."
+    }
+  ]
+}

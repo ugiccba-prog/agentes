@@ -1,0 +1,420 @@
+[2026-11-11 22:37:12] ============================================================================================
+[2026-11-11 22:37:12] 🌙 INICIANDO SUPERVISOR NOCTURNO AUTÓNOMO: Sesiones de 60 min de Trading + 20 min de Auto-Corrección
+[2026-11-11 22:37:12] ============================================================================================
+[2026-11-11 22:37:12] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-11 22:37:23]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.31, WinRate=55.6%)
+[2026-11-11 22:37:30]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.30, WinRate=50.0%)
+[2026-11-11 22:37:46]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.77, WinRate=60.0%)
+[2026-11-11 22:38:04]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | Pausado temporalmente por mercado errático (PF=0.96, Ret=-0.7%)
+[2026-11-11 22:38:07]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=3.47, WinRate=82.6%)
+[2026-11-11 22:38:13]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.17, WinRate=65.4%)
+[2026-11-11 22:38:15]    🔎 [USD/JPY] -> PAUSADO | Estrategia: volatility_breakout | Pausado temporalmente por mercado errático (PF=1.02, Ret=+0.1%)
+[2026-11-11 22:38:17]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.00, WinRate=64.5%)
+[2026-11-11 22:38:17] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (5 ajustes aplicados).
+[2026-11-11 22:38:17] 🟢 SESIÓN OPERATIVA #1 INICIADA (Duración: 60 minutos)...
+[2026-11-11 22:38:27] 💓 Pulso En Vivo | Equity: $9,951.22 USD (Efectivo: $10,000.00 | Flotante: $-48.78) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:39:37] 💓 Pulso En Vivo | Equity: $9,957.00 USD (Efectivo: $10,000.00 | Flotante: $-43.00) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:40:49] 💓 Pulso En Vivo | Equity: $9,952.83 USD (Efectivo: $10,000.00 | Flotante: $-47.17) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:41:56] 💓 Pulso En Vivo | Equity: $9,948.16 USD (Efectivo: $10,000.00 | Flotante: $-51.84) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:43:05] 💓 Pulso En Vivo | Equity: $9,957.08 USD (Efectivo: $10,000.00 | Flotante: $-42.92) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:44:13] 💓 Pulso En Vivo | Equity: $9,974.60 USD (Efectivo: $10,000.00 | Flotante: $-25.40) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:45:22] 💓 Pulso En Vivo | Equity: $9,943.73 USD (Efectivo: $10,000.00 | Flotante: $-56.27) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:46:30] 💓 Pulso En Vivo | Equity: $9,950.63 USD (Efectivo: $10,000.00 | Flotante: $-49.37) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:47:37] 💓 Pulso En Vivo | Equity: $9,925.23 USD (Efectivo: $10,000.00 | Flotante: $-74.77) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:48:44] 💓 Pulso En Vivo | Equity: $9,941.52 USD (Efectivo: $10,000.00 | Flotante: $-58.48) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:49:52] 💓 Pulso En Vivo | Equity: $9,960.54 USD (Efectivo: $10,000.00 | Flotante: $-39.46) | Abiertas: 4 | Cerradas: 0
+[2026-11-11 22:50:55] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT | Entrada: 83.09000 | SL: 83.79725 | TP: 81.54290 | Tamaño: $4,980.27 USD (Riesgo controlado: $179.29)
+[2026-11-11 22:51:07] 💓 Pulso En Vivo | Equity: $9,973.84 USD (Efectivo: $10,000.00 | Flotante: $-26.16) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 22:52:16] 💓 Pulso En Vivo | Equity: $9,956.98 USD (Efectivo: $10,000.00 | Flotante: $-43.02) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 22:53:24] 💓 Pulso En Vivo | Equity: $9,973.67 USD (Efectivo: $10,000.00 | Flotante: $-26.33) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 22:54:32] 💓 Pulso En Vivo | Equity: $9,945.19 USD (Efectivo: $10,000.00 | Flotante: $-54.81) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 22:55:40] 💓 Pulso En Vivo | Equity: $9,942.01 USD (Efectivo: $10,000.00 | Flotante: $-57.99) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 22:56:49] 💓 Pulso En Vivo | Equity: $9,987.09 USD (Efectivo: $10,000.00 | Flotante: $-12.91) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 22:57:56] 💓 Pulso En Vivo | Equity: $9,979.26 USD (Efectivo: $10,000.00 | Flotante: $-20.74) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 22:59:05] 💓 Pulso En Vivo | Equity: $9,968.97 USD (Efectivo: $10,000.00 | Flotante: $-31.03) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:00:15] 💓 Pulso En Vivo | Equity: $9,948.40 USD (Efectivo: $10,000.00 | Flotante: $-51.60) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:01:23] 💓 Pulso En Vivo | Equity: $10,012.63 USD (Efectivo: $10,000.00 | Flotante: $+12.63) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:02:31] 💓 Pulso En Vivo | Equity: $9,971.35 USD (Efectivo: $10,000.00 | Flotante: $-28.65) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:03:40] 💓 Pulso En Vivo | Equity: $9,970.38 USD (Efectivo: $10,000.00 | Flotante: $-29.62) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:04:48] 💓 Pulso En Vivo | Equity: $9,941.75 USD (Efectivo: $10,000.00 | Flotante: $-58.25) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:05:56] 💓 Pulso En Vivo | Equity: $9,922.50 USD (Efectivo: $10,000.00 | Flotante: $-77.50) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:07:03] 💓 Pulso En Vivo | Equity: $9,913.17 USD (Efectivo: $10,000.00 | Flotante: $-86.83) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:08:11] 💓 Pulso En Vivo | Equity: $9,885.45 USD (Efectivo: $10,000.00 | Flotante: $-114.55) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:09:19] 💓 Pulso En Vivo | Equity: $9,899.55 USD (Efectivo: $10,000.00 | Flotante: $-100.45) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:10:27] 💓 Pulso En Vivo | Equity: $9,889.15 USD (Efectivo: $10,000.00 | Flotante: $-110.85) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:11:35] 💓 Pulso En Vivo | Equity: $9,820.73 USD (Efectivo: $10,000.00 | Flotante: $-179.27) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:12:43] 💓 Pulso En Vivo | Equity: $9,829.93 USD (Efectivo: $10,000.00 | Flotante: $-170.07) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:13:51] 💓 Pulso En Vivo | Equity: $9,830.58 USD (Efectivo: $10,000.00 | Flotante: $-169.42) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:14:59] 💓 Pulso En Vivo | Equity: $9,847.36 USD (Efectivo: $10,000.00 | Flotante: $-152.64) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:16:08] 💓 Pulso En Vivo | Equity: $9,835.72 USD (Efectivo: $10,000.00 | Flotante: $-164.28) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:17:16] 💓 Pulso En Vivo | Equity: $9,837.99 USD (Efectivo: $10,000.00 | Flotante: $-162.01) | Abiertas: 5 | Cerradas: 0
+[2026-11-11 23:18:19] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> EUR/USD SHORT | Entrada: 1.10939 | SL: 1.11007 | TP: 1.10795 | Tamaño: $14,054.27 USD (Riesgo controlado: $177.08)
+[2026-11-11 23:18:20] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT | Entrada: 1.32703 | SL: 1.32786 | TP: 1.32529 | Tamaño: $12,297.49 USD (Riesgo controlado: $177.08)
+[2026-11-11 23:18:26] ✅ CERRADA USD/JPY (SHORT) a 159.8249969482422 | PnL: $-22.92 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-11 23:18:26] 💓 Pulso En Vivo | Equity: $9,777.32 USD (Efectivo: $9,977.08 | Flotante: $-199.76) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:19:35] 💓 Pulso En Vivo | Equity: $9,780.82 USD (Efectivo: $9,977.08 | Flotante: $-196.26) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:20:43] 💓 Pulso En Vivo | Equity: $9,751.31 USD (Efectivo: $9,977.08 | Flotante: $-225.77) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:21:51] 💓 Pulso En Vivo | Equity: $9,803.89 USD (Efectivo: $9,977.08 | Flotante: $-173.19) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:23:00] 💓 Pulso En Vivo | Equity: $9,820.86 USD (Efectivo: $9,977.08 | Flotante: $-156.22) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:24:09] 💓 Pulso En Vivo | Equity: $9,794.68 USD (Efectivo: $9,977.08 | Flotante: $-182.40) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:25:18] 💓 Pulso En Vivo | Equity: $9,797.42 USD (Efectivo: $9,977.08 | Flotante: $-179.66) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:26:26] 💓 Pulso En Vivo | Equity: $9,818.74 USD (Efectivo: $9,977.08 | Flotante: $-158.34) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:27:35] 💓 Pulso En Vivo | Equity: $9,822.54 USD (Efectivo: $9,977.08 | Flotante: $-154.54) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:28:43] 💓 Pulso En Vivo | Equity: $9,801.00 USD (Efectivo: $9,977.08 | Flotante: $-176.08) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:29:53] 💓 Pulso En Vivo | Equity: $9,791.72 USD (Efectivo: $9,977.08 | Flotante: $-185.36) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:31:01] 💓 Pulso En Vivo | Equity: $9,771.58 USD (Efectivo: $9,977.08 | Flotante: $-205.50) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:32:09] 💓 Pulso En Vivo | Equity: $9,761.99 USD (Efectivo: $9,977.08 | Flotante: $-215.09) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:33:17] 💓 Pulso En Vivo | Equity: $9,752.85 USD (Efectivo: $9,977.08 | Flotante: $-224.23) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:34:26] 💓 Pulso En Vivo | Equity: $9,789.85 USD (Efectivo: $9,977.08 | Flotante: $-187.23) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:35:36] 💓 Pulso En Vivo | Equity: $9,806.87 USD (Efectivo: $9,977.08 | Flotante: $-170.21) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:36:44] 💓 Pulso En Vivo | Equity: $9,818.82 USD (Efectivo: $9,977.08 | Flotante: $-158.26) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:37:53] 🔒 Trailing Stop bajado en EUR/USD SHORT a 1.10908
+[2026-11-11 23:37:53] 💓 Pulso En Vivo | Equity: $9,815.83 USD (Efectivo: $9,977.08 | Flotante: $-161.25) | Abiertas: 6 | Cerradas: 1
+[2026-11-11 23:38:53] 🔧 ENTRANDO EN VENTANA DE 20 MINUTOS DE AUDITORÍA, CORRECCIÓN Y RECALIBRACIÓN...
+[2026-11-11 23:38:53] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-11 23:38:54]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.31, WinRate=55.6%)
+[2026-11-11 23:38:55]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.16, WinRate=44.4%)
+[2026-11-11 23:38:56]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.74, WinRate=60.0%)
+[2026-11-11 23:38:57]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | Pausado temporalmente por mercado errático (PF=0.96, Ret=-0.7%)
+[2026-11-11 23:38:58]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=3.17, WinRate=78.3%)
+[2026-11-11 23:38:59]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=1.85, WinRate=63.0%)
+[2026-11-11 23:39:00]    🔎 [USD/JPY] -> PAUSADO | Estrategia: volatility_breakout | Pausado temporalmente por mercado errático (PF=0.93, Ret=-0.5%)
+[2026-11-11 23:39:01]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.01, WinRate=64.5%)
+[2026-11-11 23:39:01] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (2 ajustes aplicados).
+[2026-11-11 23:49:35] 🔬 Verificación intermedia de estructura en temporalidad 1h durante ventana de corrección...
+[2026-11-11 23:49:35] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-11 23:49:36]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.31, WinRate=55.6%)
+[2026-11-11 23:49:36]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.15, WinRate=44.4%)
+[2026-11-11 23:49:37]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.73, WinRate=60.0%)
+[2026-11-11 23:49:39]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | Pausado temporalmente por mercado errático (PF=0.96, Ret=-0.7%)
+[2026-11-11 23:49:40]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=4.01, WinRate=82.6%)
+[2026-11-11 23:49:40]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=1.99, WinRate=65.4%)
+[2026-11-11 23:49:41]    🔎 [USD/JPY] -> PAUSADO | Estrategia: volatility_breakout | Pausado temporalmente por mercado errático (PF=0.93, Ret=-0.5%)
+[2026-11-11 23:49:42]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.00, WinRate=64.5%)
+[2026-11-11 23:49:42] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (2 ajustes aplicados).
+[2026-11-11 23:59:06] 🟢 SESIÓN OPERATIVA #2 INICIADA (Duración: 60 minutos)...
+[2026-11-11 23:59:09] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> EUR/USD SHORT | Entrada: 1.10767 | SL: 1.10858 | TP: 1.10574 | Tamaño: $14,115.86 USD (Riesgo controlado: $177.86)
+[2026-11-11 23:59:11] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD SHORT | Entrada: 0.68442 | SL: 0.68500 | TP: 0.68325 | Tamaño: $12,351.38 USD (Riesgo controlado: $177.86)
+[2026-11-11 23:59:15] 💓 Pulso En Vivo | Equity: $9,872.37 USD (Efectivo: $9,996.12 | Flotante: $-123.75) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:00:27] 💓 Pulso En Vivo | Equity: $9,877.84 USD (Efectivo: $9,996.12 | Flotante: $-118.28) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:01:36] 💓 Pulso En Vivo | Equity: $9,853.80 USD (Efectivo: $9,996.12 | Flotante: $-142.32) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:02:45] 🔒 Trailing Stop bajado en GBP/USD SHORT a 1.32614
+[2026-11-12 00:02:45] 💓 Pulso En Vivo | Equity: $9,839.28 USD (Efectivo: $9,996.12 | Flotante: $-156.84) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:03:54] 💓 Pulso En Vivo | Equity: $9,833.27 USD (Efectivo: $9,996.12 | Flotante: $-162.85) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:05:04] 💓 Pulso En Vivo | Equity: $9,846.42 USD (Efectivo: $9,996.12 | Flotante: $-149.70) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:06:13] 💓 Pulso En Vivo | Equity: $9,880.98 USD (Efectivo: $9,996.12 | Flotante: $-115.14) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:07:24] 💓 Pulso En Vivo | Equity: $9,865.40 USD (Efectivo: $9,996.12 | Flotante: $-130.72) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:08:33] 💓 Pulso En Vivo | Equity: $9,865.45 USD (Efectivo: $9,996.12 | Flotante: $-130.67) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:09:42] 💓 Pulso En Vivo | Equity: $9,861.21 USD (Efectivo: $9,996.12 | Flotante: $-134.91) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:10:51] 💓 Pulso En Vivo | Equity: $9,878.58 USD (Efectivo: $9,996.12 | Flotante: $-117.54) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:12:00] 💓 Pulso En Vivo | Equity: $9,916.83 USD (Efectivo: $9,996.12 | Flotante: $-79.29) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:13:09] 💓 Pulso En Vivo | Equity: $9,913.04 USD (Efectivo: $9,996.12 | Flotante: $-83.08) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:14:18] 💓 Pulso En Vivo | Equity: $9,928.20 USD (Efectivo: $9,996.12 | Flotante: $-67.92) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:15:27] 💓 Pulso En Vivo | Equity: $9,918.40 USD (Efectivo: $9,996.12 | Flotante: $-77.72) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:16:35] 🔒 Trailing Stop bajado en GBP/USD SHORT a 1.32612
+[2026-11-12 00:16:35] 💓 Pulso En Vivo | Equity: $9,933.49 USD (Efectivo: $9,996.12 | Flotante: $-62.63) | Abiertas: 7 | Cerradas: 2
+[2026-11-12 00:17:44] ✅ CERRADA GBP/USD (SHORT) a 1.3250298500061035 | PnL: $+16.08 USD (Take Profit Alcanzado)
+[2026-11-12 00:17:44] 💓 Pulso En Vivo | Equity: $9,933.12 USD (Efectivo: $10,012.20 | Flotante: $-79.08) | Abiertas: 6 | Cerradas: 3
+[2026-11-12 00:18:48] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT | Entrada: 1.32517 | SL: 1.32613 | TP: 1.32315 | Tamaño: $12,416.40 USD (Riesgo controlado: $178.80)
+[2026-11-12 00:18:54] 💓 Pulso En Vivo | Equity: $9,903.13 USD (Efectivo: $10,012.20 | Flotante: $-109.07) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:20:04] 💓 Pulso En Vivo | Equity: $9,891.42 USD (Efectivo: $10,012.20 | Flotante: $-120.78) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:21:13] 💓 Pulso En Vivo | Equity: $9,914.90 USD (Efectivo: $10,012.20 | Flotante: $-97.30) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:22:23] 💓 Pulso En Vivo | Equity: $9,912.77 USD (Efectivo: $10,012.20 | Flotante: $-99.43) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:23:32] 💓 Pulso En Vivo | Equity: $9,912.13 USD (Efectivo: $10,012.20 | Flotante: $-100.07) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:24:41] 💓 Pulso En Vivo | Equity: $9,938.40 USD (Efectivo: $10,012.20 | Flotante: $-73.80) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:25:50] 💓 Pulso En Vivo | Equity: $9,939.44 USD (Efectivo: $10,012.20 | Flotante: $-72.76) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:26:59] 💓 Pulso En Vivo | Equity: $9,922.84 USD (Efectivo: $10,012.20 | Flotante: $-89.36) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:28:08] 💓 Pulso En Vivo | Equity: $9,918.04 USD (Efectivo: $10,012.20 | Flotante: $-94.16) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:29:16] 💓 Pulso En Vivo | Equity: $9,883.65 USD (Efectivo: $10,012.20 | Flotante: $-128.55) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:30:25] 💓 Pulso En Vivo | Equity: $9,884.24 USD (Efectivo: $10,012.20 | Flotante: $-127.96) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:31:34] 💓 Pulso En Vivo | Equity: $9,887.68 USD (Efectivo: $10,012.20 | Flotante: $-124.52) | Abiertas: 7 | Cerradas: 3
+[2026-11-12 00:32:42] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> EUR/USD LONG | Entrada: 1.10767 | SL: 1.10672 | TP: 1.10966 | Tamaño: $12,322.70 USD (Riesgo controlado: $177.45)
+[2026-11-12 00:32:48] 💓 Pulso En Vivo | Equity: $9,856.25 USD (Efectivo: $10,009.44 | Flotante: $-153.19) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:33:58] 💓 Pulso En Vivo | Equity: $9,892.59 USD (Efectivo: $10,009.44 | Flotante: $-116.85) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:35:07] 💓 Pulso En Vivo | Equity: $9,884.57 USD (Efectivo: $10,009.44 | Flotante: $-124.87) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:36:17] 💓 Pulso En Vivo | Equity: $9,921.15 USD (Efectivo: $10,009.44 | Flotante: $-88.29) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:37:27] 💓 Pulso En Vivo | Equity: $9,919.52 USD (Efectivo: $10,009.44 | Flotante: $-89.92) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:38:36] 💓 Pulso En Vivo | Equity: $9,920.63 USD (Efectivo: $10,009.44 | Flotante: $-88.81) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:39:45] 💓 Pulso En Vivo | Equity: $9,927.80 USD (Efectivo: $10,009.44 | Flotante: $-81.64) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:40:54] 💓 Pulso En Vivo | Equity: $9,920.63 USD (Efectivo: $10,009.44 | Flotante: $-88.81) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:42:03] 💓 Pulso En Vivo | Equity: $9,920.92 USD (Efectivo: $10,009.44 | Flotante: $-88.52) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:43:12] 💓 Pulso En Vivo | Equity: $9,919.22 USD (Efectivo: $10,009.44 | Flotante: $-90.22) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:44:21] 💓 Pulso En Vivo | Equity: $9,910.62 USD (Efectivo: $10,009.44 | Flotante: $-98.82) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:45:30] 💓 Pulso En Vivo | Equity: $9,915.40 USD (Efectivo: $10,009.44 | Flotante: $-94.04) | Abiertas: 7 | Cerradas: 4
+[2026-11-12 00:46:37] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> EUR/USD SHORT | Entrada: 1.10767 | SL: 1.10865 | TP: 1.10558 | Tamaño: $12,384.54 USD (Riesgo controlado: $178.34)
+[2026-11-12 00:46:45] 💓 Pulso En Vivo | Equity: $9,905.37 USD (Efectivo: $10,006.92 | Flotante: $-101.55) | Abiertas: 7 | Cerradas: 5
+[2026-11-12 00:47:54] 💓 Pulso En Vivo | Equity: $9,892.54 USD (Efectivo: $10,006.92 | Flotante: $-114.38) | Abiertas: 7 | Cerradas: 5
+[2026-11-12 00:49:03] 💓 Pulso En Vivo | Equity: $9,890.76 USD (Efectivo: $10,006.92 | Flotante: $-116.16) | Abiertas: 7 | Cerradas: 5
+[2026-11-12 00:50:13] 💓 Pulso En Vivo | Equity: $9,893.38 USD (Efectivo: $10,006.92 | Flotante: $-113.54) | Abiertas: 7 | Cerradas: 5
+[2026-11-12 00:51:24] 💓 Pulso En Vivo | Equity: $9,897.36 USD (Efectivo: $10,006.92 | Flotante: $-109.56) | Abiertas: 7 | Cerradas: 5
+[2026-11-12 00:52:33] ✅ CERRADA AUD/USD (SHORT) a 0.6850253343582153 | PnL: $-13.40 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-12 00:52:33] 💓 Pulso En Vivo | Equity: $9,897.51 USD (Efectivo: $9,993.52 | Flotante: $-96.01) | Abiertas: 6 | Cerradas: 6
+[2026-11-12 00:53:41] 💓 Pulso En Vivo | Equity: $9,902.51 USD (Efectivo: $9,993.52 | Flotante: $-91.01) | Abiertas: 6 | Cerradas: 6
+[2026-11-12 00:54:49] 💓 Pulso En Vivo | Equity: $9,912.17 USD (Efectivo: $9,993.52 | Flotante: $-81.35) | Abiertas: 6 | Cerradas: 6
+[2026-11-12 00:55:58] 💓 Pulso En Vivo | Equity: $9,906.99 USD (Efectivo: $9,993.52 | Flotante: $-86.53) | Abiertas: 6 | Cerradas: 6
+[2026-11-12 00:57:07] 💓 Pulso En Vivo | Equity: $9,905.43 USD (Efectivo: $9,993.52 | Flotante: $-88.09) | Abiertas: 6 | Cerradas: 6
+[2026-11-12 00:58:14] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG | Entrada: 1.32559 | SL: 1.32466 | TP: 1.32755 | Tamaño: $14,131.79 USD (Riesgo controlado: $178.06)
+[2026-11-12 00:58:19] 💓 Pulso En Vivo | Equity: $9,890.27 USD (Efectivo: $9,987.08 | Flotante: $-96.81) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 00:59:19] 🔧 ENTRANDO EN VENTANA DE 20 MINUTOS DE AUDITORÍA, CORRECCIÓN Y RECALIBRACIÓN...
+[2026-11-12 00:59:19] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 00:59:20]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.30, WinRate=55.6%)
+[2026-11-12 00:59:21]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.18, WinRate=40.0%)
+[2026-11-12 00:59:22]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.77, WinRate=60.0%)
+[2026-11-12 00:59:23]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | Pausado temporalmente por mercado errático (PF=0.96, Ret=-0.7%)
+[2026-11-12 00:59:24]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=4.01, WinRate=82.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 00:59:25]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.05, WinRate=66.7%)
+[2026-11-12 00:59:26]    🔎 [USD/JPY] -> PAUSADO | Estrategia: volatility_breakout | Pausado temporalmente por mercado errático (PF=0.93, Ret=-0.5%)
+[2026-11-12 00:59:27]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.02, WinRate=65.6%)
+[2026-11-12 00:59:27] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (3 ajustes aplicados).
+[2026-11-12 01:10:06] 🔬 Verificación intermedia de estructura en temporalidad 1h durante ventana de corrección...
+[2026-11-12 01:10:06] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 01:10:07]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.30, WinRate=55.6%)
+[2026-11-12 01:10:08]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.18, WinRate=40.0%)
+[2026-11-12 01:10:09]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.75, WinRate=60.0%)
+[2026-11-12 01:10:10]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | Pausado temporalmente por mercado errático (PF=0.96, Ret=-0.6%)
+[2026-11-12 01:10:11]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=3.98, WinRate=82.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 01:10:12]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.25, WinRate=69.2%)
+[2026-11-12 01:10:13]    🔎 [USD/JPY] -> PAUSADO | Estrategia: volatility_breakout | Pausado temporalmente por mercado errático (PF=0.93, Ret=-0.5%)
+[2026-11-12 01:10:14]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=1.93, WinRate=64.5%)
+[2026-11-12 01:10:14] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (3 ajustes aplicados).
+[2026-11-12 01:19:42] 🟢 SESIÓN OPERATIVA #3 INICIADA (Duración: 60 minutos)...
+[2026-11-12 01:19:51] 💓 Pulso En Vivo | Equity: $9,913.59 USD (Efectivo: $9,987.08 | Flotante: $-73.49) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:20:59] 💓 Pulso En Vivo | Equity: $9,921.91 USD (Efectivo: $9,987.08 | Flotante: $-65.17) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:22:07] 💓 Pulso En Vivo | Equity: $9,915.12 USD (Efectivo: $9,987.08 | Flotante: $-71.96) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:23:15] 💓 Pulso En Vivo | Equity: $9,920.72 USD (Efectivo: $9,987.08 | Flotante: $-66.36) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:24:23] 💓 Pulso En Vivo | Equity: $9,914.65 USD (Efectivo: $9,987.08 | Flotante: $-72.43) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:25:31] 💓 Pulso En Vivo | Equity: $9,915.53 USD (Efectivo: $9,987.08 | Flotante: $-71.55) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:26:39] 💓 Pulso En Vivo | Equity: $9,917.16 USD (Efectivo: $9,987.08 | Flotante: $-69.92) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:27:48] 💓 Pulso En Vivo | Equity: $9,917.78 USD (Efectivo: $9,987.08 | Flotante: $-69.30) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:28:56] 💓 Pulso En Vivo | Equity: $9,904.55 USD (Efectivo: $9,987.08 | Flotante: $-82.53) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:30:05] 💓 Pulso En Vivo | Equity: $9,921.14 USD (Efectivo: $9,987.08 | Flotante: $-65.94) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:31:13] 💓 Pulso En Vivo | Equity: $9,949.66 USD (Efectivo: $9,987.08 | Flotante: $-37.42) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:32:22] 💓 Pulso En Vivo | Equity: $9,957.77 USD (Efectivo: $9,987.08 | Flotante: $-29.31) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:33:31] 💓 Pulso En Vivo | Equity: $9,985.27 USD (Efectivo: $9,987.08 | Flotante: $-1.81) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:34:39] 💓 Pulso En Vivo | Equity: $9,979.86 USD (Efectivo: $9,987.08 | Flotante: $-7.22) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:35:48] 💓 Pulso En Vivo | Equity: $9,999.07 USD (Efectivo: $9,987.08 | Flotante: $+11.99) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:36:57] 💓 Pulso En Vivo | Equity: $9,995.67 USD (Efectivo: $9,987.08 | Flotante: $+8.59) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:38:05] 💓 Pulso En Vivo | Equity: $9,970.68 USD (Efectivo: $9,987.08 | Flotante: $-16.40) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:39:14] 💓 Pulso En Vivo | Equity: $9,954.25 USD (Efectivo: $9,987.08 | Flotante: $-32.83) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:40:23] 💓 Pulso En Vivo | Equity: $9,979.07 USD (Efectivo: $9,987.08 | Flotante: $-8.01) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:41:32] 💓 Pulso En Vivo | Equity: $9,973.00 USD (Efectivo: $9,987.08 | Flotante: $-14.08) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:42:40] 💓 Pulso En Vivo | Equity: $9,982.60 USD (Efectivo: $9,987.08 | Flotante: $-4.48) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:43:48] 💓 Pulso En Vivo | Equity: $9,962.24 USD (Efectivo: $9,987.08 | Flotante: $-24.84) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:44:57] 💓 Pulso En Vivo | Equity: $9,951.44 USD (Efectivo: $9,987.08 | Flotante: $-35.64) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:46:05] 💓 Pulso En Vivo | Equity: $9,937.76 USD (Efectivo: $9,987.08 | Flotante: $-49.32) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:47:13] 💓 Pulso En Vivo | Equity: $9,939.17 USD (Efectivo: $9,987.08 | Flotante: $-47.91) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:48:21] 💓 Pulso En Vivo | Equity: $9,930.87 USD (Efectivo: $9,987.08 | Flotante: $-56.21) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:49:30] 💓 Pulso En Vivo | Equity: $9,927.63 USD (Efectivo: $9,987.08 | Flotante: $-59.45) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:50:37] 💓 Pulso En Vivo | Equity: $9,930.08 USD (Efectivo: $9,987.08 | Flotante: $-57.00) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:51:46] 💓 Pulso En Vivo | Equity: $9,912.35 USD (Efectivo: $9,987.08 | Flotante: $-74.73) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:52:54] 💓 Pulso En Vivo | Equity: $9,912.71 USD (Efectivo: $9,987.08 | Flotante: $-74.37) | Abiertas: 6 | Cerradas: 7
+[2026-11-12 01:54:00] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD SHORT | Entrada: 0.68432 | SL: 0.68482 | TP: 0.68333 | Tamaño: $12,390.89 USD (Riesgo controlado: $178.43)
+[2026-11-12 01:54:04] 💓 Pulso En Vivo | Equity: $9,918.50 USD (Efectivo: $9,987.08 | Flotante: $-68.58) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 01:55:14] 💓 Pulso En Vivo | Equity: $9,914.51 USD (Efectivo: $9,987.08 | Flotante: $-72.57) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 01:56:24] 💓 Pulso En Vivo | Equity: $9,925.95 USD (Efectivo: $9,987.08 | Flotante: $-61.13) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 01:57:33] 💓 Pulso En Vivo | Equity: $9,945.21 USD (Efectivo: $9,987.08 | Flotante: $-41.87) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 01:58:42] 💓 Pulso En Vivo | Equity: $9,951.93 USD (Efectivo: $9,987.08 | Flotante: $-35.15) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 01:59:50] 💓 Pulso En Vivo | Equity: $9,955.54 USD (Efectivo: $9,987.08 | Flotante: $-31.54) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:00:59] 💓 Pulso En Vivo | Equity: $9,969.56 USD (Efectivo: $9,987.08 | Flotante: $-17.52) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:02:08] 💓 Pulso En Vivo | Equity: $9,986.06 USD (Efectivo: $9,987.08 | Flotante: $-1.02) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:03:17] 💓 Pulso En Vivo | Equity: $10,003.30 USD (Efectivo: $9,987.08 | Flotante: $+16.22) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:04:27] 💓 Pulso En Vivo | Equity: $10,017.32 USD (Efectivo: $9,987.08 | Flotante: $+30.24) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:05:36] 💓 Pulso En Vivo | Equity: $10,005.13 USD (Efectivo: $9,987.08 | Flotante: $+18.05) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:06:44] 💓 Pulso En Vivo | Equity: $10,005.12 USD (Efectivo: $9,987.08 | Flotante: $+18.04) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:07:53] 💓 Pulso En Vivo | Equity: $9,997.26 USD (Efectivo: $9,987.08 | Flotante: $+10.18) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:09:02] 💓 Pulso En Vivo | Equity: $10,001.62 USD (Efectivo: $9,987.08 | Flotante: $+14.54) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:10:12] 💓 Pulso En Vivo | Equity: $9,995.44 USD (Efectivo: $9,987.08 | Flotante: $+8.36) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:11:20] 💓 Pulso En Vivo | Equity: $9,989.74 USD (Efectivo: $9,987.08 | Flotante: $+2.66) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:12:29] 💓 Pulso En Vivo | Equity: $10,026.64 USD (Efectivo: $9,987.08 | Flotante: $+39.56) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:13:38] 💓 Pulso En Vivo | Equity: $10,049.63 USD (Efectivo: $9,987.08 | Flotante: $+62.55) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:14:47] 🔒 Trailing Stop bajado en BNB/USDT SHORT a 676.80683
+[2026-11-12 02:14:47] 💓 Pulso En Vivo | Equity: $10,062.98 USD (Efectivo: $9,987.08 | Flotante: $+75.90) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:15:55] 🔒 Trailing Stop bajado en BNB/USDT SHORT a 676.65013
+[2026-11-12 02:15:55] 💓 Pulso En Vivo | Equity: $10,059.96 USD (Efectivo: $9,987.08 | Flotante: $+72.88) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:17:07] 🔒 Trailing Stop bajado en BNB/USDT SHORT a 676.59013
+[2026-11-12 02:17:07] 💓 Pulso En Vivo | Equity: $10,064.43 USD (Efectivo: $9,987.08 | Flotante: $+77.35) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:18:16] 🔒 Trailing Stop bajado en BNB/USDT SHORT a 676.42881
+[2026-11-12 02:18:16] 💓 Pulso En Vivo | Equity: $10,080.79 USD (Efectivo: $9,987.08 | Flotante: $+93.71) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:19:24] 💓 Pulso En Vivo | Equity: $10,073.56 USD (Efectivo: $9,987.08 | Flotante: $+86.48) | Abiertas: 7 | Cerradas: 7
+[2026-11-12 02:20:24] 🔧 ENTRANDO EN VENTANA DE 20 MINUTOS DE AUDITORÍA, CORRECCIÓN Y RECALIBRACIÓN...
+[2026-11-12 02:20:24] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 02:20:25]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.24, WinRate=53.6%)
+[2026-11-12 02:20:26]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.19, WinRate=44.4%)
+[2026-11-12 02:20:27]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.75, WinRate=60.0%)
+[2026-11-12 02:20:28]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | Pausado temporalmente por mercado errático (PF=0.96, Ret=-0.7%)
+[2026-11-12 02:20:29]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=4.08, WinRate=82.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 02:20:30]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.05, WinRate=66.7%)
+[2026-11-12 02:20:31]    🔎 [USD/JPY] -> ACTIVO | Estrategia: volatility_breakout | Optimizado con volatility_breakout (PF=1.08, WinRate=53.8%)
+[2026-11-12 02:20:32]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=1.94, WinRate=64.5%)
+[2026-11-12 02:20:32] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (2 ajustes aplicados).
+[2026-11-12 02:31:19] 🔬 Verificación intermedia de estructura en temporalidad 1h durante ventana de corrección...
+[2026-11-12 02:31:19] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 02:31:20]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.30, WinRate=55.6%)
+[2026-11-12 02:31:21]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.20, WinRate=44.4%)
+[2026-11-12 02:31:21]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.75, WinRate=60.0%)
+[2026-11-12 02:31:22]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | Pausado temporalmente por mercado errático (PF=0.96, Ret=-0.7%)
+[2026-11-12 02:31:23]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=4.08, WinRate=82.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 02:31:24]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.05, WinRate=66.7%)
+[2026-11-12 02:31:25]    🔎 [USD/JPY] -> ACTIVO | Estrategia: volatility_breakout | Optimizado con volatility_breakout (PF=1.11, WinRate=53.8%)
+[2026-11-12 02:31:26]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=1.94, WinRate=64.5%)
+[2026-11-12 02:31:26] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (2 ajustes aplicados).
+[2026-11-12 02:40:59] 🟢 SESIÓN OPERATIVA #4 INICIADA (Duración: 60 minutos)...
+[2026-11-12 02:41:04] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG | Entrada: 73578.34000 | SL: 73268.02122 | TP: 74130.01783 | Tamaño: $3,763.82 USD (Riesgo controlado: $180.66)
+[2026-11-12 02:41:12] 💓 Pulso En Vivo | Equity: $10,035.00 USD (Efectivo: $9,986.10 | Flotante: $+48.90) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:42:22] 💓 Pulso En Vivo | Equity: $10,044.46 USD (Efectivo: $9,986.10 | Flotante: $+58.36) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:43:30] 💓 Pulso En Vivo | Equity: $10,047.54 USD (Efectivo: $9,986.10 | Flotante: $+61.44) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:44:40] 💓 Pulso En Vivo | Equity: $10,047.66 USD (Efectivo: $9,986.10 | Flotante: $+61.56) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:45:48] 💓 Pulso En Vivo | Equity: $10,031.26 USD (Efectivo: $9,986.10 | Flotante: $+45.16) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:46:57] 💓 Pulso En Vivo | Equity: $10,027.87 USD (Efectivo: $9,986.10 | Flotante: $+41.77) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:48:06] 💓 Pulso En Vivo | Equity: $10,026.43 USD (Efectivo: $9,986.10 | Flotante: $+40.33) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:49:15] 💓 Pulso En Vivo | Equity: $10,027.27 USD (Efectivo: $9,986.10 | Flotante: $+41.17) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:50:24] 💓 Pulso En Vivo | Equity: $10,031.15 USD (Efectivo: $9,986.10 | Flotante: $+45.05) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:51:33] 💓 Pulso En Vivo | Equity: $10,031.47 USD (Efectivo: $9,986.10 | Flotante: $+45.37) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:52:41] 💓 Pulso En Vivo | Equity: $10,034.83 USD (Efectivo: $9,986.10 | Flotante: $+48.73) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:53:51] 💓 Pulso En Vivo | Equity: $10,041.42 USD (Efectivo: $9,986.10 | Flotante: $+55.32) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:55:00] 💓 Pulso En Vivo | Equity: $10,041.96 USD (Efectivo: $9,986.10 | Flotante: $+55.86) | Abiertas: 7 | Cerradas: 8
+[2026-11-12 02:56:09] ✅ CERRADA AUD/USD (SHORT) a 0.6839009523391724 | PnL: $+5.11 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-12 02:56:09] 💓 Pulso En Vivo | Equity: $10,038.92 USD (Efectivo: $9,991.21 | Flotante: $+47.71) | Abiertas: 6 | Cerradas: 9
+[2026-11-12 02:57:14] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD SHORT | Entrada: 0.68390 | SL: 0.68441 | TP: 0.68288 | Tamaño: $12,548.65 USD (Riesgo controlado: $180.70)
+[2026-11-12 02:57:18] 💓 Pulso En Vivo | Equity: $10,025.24 USD (Efectivo: $9,991.21 | Flotante: $+34.03) | Abiertas: 7 | Cerradas: 9
+[2026-11-12 02:58:27] 💓 Pulso En Vivo | Equity: $10,032.14 USD (Efectivo: $9,991.21 | Flotante: $+40.93) | Abiertas: 7 | Cerradas: 9
+[2026-11-12 02:59:37] 💓 Pulso En Vivo | Equity: $10,040.42 USD (Efectivo: $9,991.21 | Flotante: $+49.21) | Abiertas: 7 | Cerradas: 9
+[2026-11-12 03:00:46] 🔒 Trailing Stop bajado en BNB/USDT SHORT a 676.28305
+[2026-11-12 03:00:46] 💓 Pulso En Vivo | Equity: $10,036.40 USD (Efectivo: $9,991.21 | Flotante: $+45.19) | Abiertas: 7 | Cerradas: 9
+[2026-11-12 03:01:55] 💓 Pulso En Vivo | Equity: $10,030.51 USD (Efectivo: $9,991.21 | Flotante: $+39.30) | Abiertas: 7 | Cerradas: 9
+[2026-11-12 03:03:04] 💓 Pulso En Vivo | Equity: $10,027.40 USD (Efectivo: $9,991.21 | Flotante: $+36.19) | Abiertas: 7 | Cerradas: 9
+[2026-11-12 03:04:09] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> USD/JPY LONG | Entrada: 159.72501 | SL: 159.60256 | TP: 160.01071 | Tamaño: $11,141.56 USD (Riesgo controlado: $180.49)
+[2026-11-12 03:04:15] 💓 Pulso En Vivo | Equity: $10,022.37 USD (Efectivo: $9,991.21 | Flotante: $+31.16) | Abiertas: 8 | Cerradas: 9
+[2026-11-12 03:05:25] 💓 Pulso En Vivo | Equity: $10,009.14 USD (Efectivo: $9,991.21 | Flotante: $+17.93) | Abiertas: 8 | Cerradas: 9
+[2026-11-12 03:06:34] 💓 Pulso En Vivo | Equity: $10,016.07 USD (Efectivo: $9,991.21 | Flotante: $+24.86) | Abiertas: 8 | Cerradas: 9
+[2026-11-12 03:07:43] 💓 Pulso En Vivo | Equity: $10,025.51 USD (Efectivo: $9,991.21 | Flotante: $+34.30) | Abiertas: 8 | Cerradas: 9
+[2026-11-12 06:38:55] ============================================================================================
+[2026-11-12 06:38:55] 🌙 INICIANDO SUPERVISOR NOCTURNO AUTÓNOMO: Sesiones de 60 min de Trading + 20 min de Auto-Corrección
+[2026-11-12 06:38:55] ============================================================================================
+[2026-11-12 06:38:55] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 06:38:58]    🔎 [BTC/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado con bollinger_reversion (PF=1.12, WinRate=51.9%)
+[2026-11-12 06:38:59]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado con ema_pullback (PF=1.76, WinRate=62.5%)
+[2026-11-12 06:39:02]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado con trend_macd (PF=1.92, WinRate=61.1%)
+[2026-11-12 06:39:05]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | Pausado temporalmente por mercado errático (PF=0.67, Ret=-3.8%)
+[2026-11-12 06:39:16]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.21, WinRate=68.0%)
+[2026-11-12 06:39:20]    🔎 [USD/JPY] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=1.12, WinRate=50.0%)
+[2026-11-12 06:39:24]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado con confluence (PF=2.15, WinRate=65.6%)
+[2026-11-12 06:39:24] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (3 ajustes aplicados).
+[2026-11-12 06:39:24] 🟢 SESIÓN OPERATIVA #5 INICIADA (Duración: 60 minutos)...
+[2026-11-12 06:39:44] ✅ CERRADA BNB/USDT (SHORT) a 671.56 | PnL: $+68.81 USD (Take Profit Alcanzado)
+[2026-11-12 06:39:44] ✅ CERRADA EUR/USD (SHORT) a 1.1097548007965088 | PnL: $-25.79 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-12 06:39:44] 🔒 Trailing Stop subido en GBP/USD LONG a 1.32668
+[2026-11-12 06:39:44] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68371
+[2026-11-12 06:39:44] 💓 Pulso En Vivo | Equity: $10,063.18 USD (Efectivo: $10,034.23 | Flotante: $+28.95) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:40:55] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68371
+[2026-11-12 06:40:55] 💓 Pulso En Vivo | Equity: $10,071.22 USD (Efectivo: $10,034.23 | Flotante: $+36.99) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:42:05] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68362
+[2026-11-12 06:42:05] 💓 Pulso En Vivo | Equity: $10,069.01 USD (Efectivo: $10,034.23 | Flotante: $+34.78) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:43:15] 💓 Pulso En Vivo | Equity: $10,072.68 USD (Efectivo: $10,034.23 | Flotante: $+38.45) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:44:23] 💓 Pulso En Vivo | Equity: $10,063.36 USD (Efectivo: $10,034.23 | Flotante: $+29.13) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:45:36] 💓 Pulso En Vivo | Equity: $10,066.62 USD (Efectivo: $10,034.23 | Flotante: $+32.39) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:46:45] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68357
+[2026-11-12 06:46:45] 💓 Pulso En Vivo | Equity: $10,067.56 USD (Efectivo: $10,034.23 | Flotante: $+33.33) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:47:56] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6835
+[2026-11-12 06:47:56] 💓 Pulso En Vivo | Equity: $10,062.96 USD (Efectivo: $10,034.23 | Flotante: $+28.73) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:49:05] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6835
+[2026-11-12 06:49:05] 💓 Pulso En Vivo | Equity: $10,062.76 USD (Efectivo: $10,034.23 | Flotante: $+28.53) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:50:13] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68345
+[2026-11-12 06:50:13] 💓 Pulso En Vivo | Equity: $10,062.93 USD (Efectivo: $10,034.23 | Flotante: $+28.70) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:51:23] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68345
+[2026-11-12 06:51:23] 💓 Pulso En Vivo | Equity: $10,062.61 USD (Efectivo: $10,034.23 | Flotante: $+28.38) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:52:48] ============================================================================================
+[2026-11-12 06:52:48] 🌙 INICIANDO SUPERVISOR NOCTURNO AUTÓNOMO: Sesiones de 60 min de Trading + 20 min de Auto-Corrección
+[2026-11-12 06:52:48] ============================================================================================
+[2026-11-12 06:52:48] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 06:52:50]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=1.14, Ret=+4.8%)
+[2026-11-12 06:52:51]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.73, WinRate=62.5%, Ret=+7.8%)
+[2026-11-12 06:52:52]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.90, WinRate=61.1%, Ret=+18.6%)
+[2026-11-12 06:52:54]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-8.8%)
+[2026-11-12 06:52:55]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.56, Ret=-9.9%)
+[2026-11-12 06:52:57]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.36, WinRate=62.5%, Ret=+4.5%)
+[2026-11-12 06:52:59]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.25, WinRate=52.9%, Ret=+8.0%)
+[2026-11-12 06:53:01]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=1.13, Ret=+2.9%)
+[2026-11-12 06:53:03]    🔎 [LINK/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.36, WinRate=62.5%, Ret=+14.1%)
+[2026-11-12 06:53:04]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.65, WinRate=66.7%, Ret=+29.6%)
+[2026-11-12 06:53:06]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.80, WinRate=53.8%, Ret=+15.9%)
+[2026-11-12 06:53:07]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.28, WinRate=64.3%, Ret=+49.5%)
+[2026-11-12 06:53:09]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.27, WinRate=57.1%, Ret=+6.6%)
+[2026-11-12 06:53:10]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.19, WinRate=50.0%, Ret=+3.1%)
+[2026-11-12 06:53:12]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.87, WinRate=85.7%, Ret=+31.4%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 06:53:13]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.21, WinRate=68.0%, Ret=+18.5%)
+[2026-11-12 06:53:15]    🔎 [USD/JPY] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=1.10, Ret=+2.8%)
+[2026-11-12 06:53:17]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.09, WinRate=65.6%, Ret=+28.2%)
+[2026-11-12 06:53:17] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (17 ajustes aplicados).
+[2026-11-12 06:53:17] 🟢 SESIÓN OPERATIVA #6 INICIADA (Duración: 60 minutos)...
+[2026-11-12 06:53:39] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68345
+[2026-11-12 06:53:39] 💓 Pulso En Vivo | Equity: $10,070.66 USD (Efectivo: $10,034.23 | Flotante: $+36.43) | Abiertas: 6 | Cerradas: 11
+[2026-11-12 06:54:53] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG | Entrada: 0.00000 | SL: 0.00000 | TP: 0.00000 | Tamaño: $8,631.99 USD (Riesgo controlado: $476.34)
+[2026-11-12 06:55:03] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.68345
+[2026-11-12 06:55:03] ✅ CERRADA PEPE/USDT (LONG) a 4.42e-06 | PnL: $+8608.20 USD (Take Profit Alcanzado)
+[2026-11-12 06:55:03] 💓 Pulso En Vivo | Equity: $18,680.40 USD (Efectivo: $18,642.43 | Flotante: $+37.97) | Abiertas: 6 | Cerradas: 12
+[2026-11-12 06:56:08] ============================================================================================
+[2026-11-12 06:56:08] 🌙 INICIANDO SUPERVISOR NOCTURNO AUTÓNOMO: Sesiones de 60 min de Trading + 20 min de Auto-Corrección
+[2026-11-12 06:56:08] ============================================================================================
+[2026-11-12 06:56:08] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 06:56:10]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=1.14, Ret=+4.8%)
+[2026-11-12 06:56:11]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.73, WinRate=62.5%, Ret=+7.8%)
+[2026-11-12 06:56:13]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.90, WinRate=61.1%, Ret=+18.6%)
+[2026-11-12 06:56:15]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-8.8%)
+[2026-11-12 06:56:20]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.56, Ret=-9.9%)
+[2026-11-12 06:56:24]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.36, WinRate=62.5%, Ret=+4.5%)
+[2026-11-12 06:56:26]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.25, WinRate=52.9%, Ret=+8.0%)
+[2026-11-12 06:56:28]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=1.13, Ret=+2.9%)
+[2026-11-12 06:56:29]    🔎 [LINK/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.36, WinRate=62.5%, Ret=+14.1%)
+[2026-11-12 06:56:31]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.65, WinRate=66.7%, Ret=+29.6%)
+[2026-11-12 06:56:32]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.80, WinRate=53.8%, Ret=+15.9%)
+[2026-11-12 06:56:34]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=1.99, WinRate=62.1%, Ret=+44.0%)
+[2026-11-12 06:56:36]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.27, WinRate=57.1%, Ret=+6.6%)
+[2026-11-12 06:56:38]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.19, WinRate=50.0%, Ret=+3.1%)
+[2026-11-12 06:56:39]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.87, WinRate=85.7%, Ret=+31.4%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 06:56:41]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.21, WinRate=68.0%, Ret=+18.5%)
+[2026-11-12 06:56:42]    🔎 [USD/JPY] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=1.10, Ret=+2.8%)
+[2026-11-12 06:56:43]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.09, WinRate=65.6%, Ret=+28.2%)
+[2026-11-12 06:56:43] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (12 ajustes aplicados).
+[2026-11-12 06:56:43] 🟢 SESIÓN OPERATIVA #7 INICIADA (Duración: 60 minutos)...
+[2026-11-12 06:58:23] ============================================================================================
+[2026-11-12 06:58:23] 🌙 INICIANDO SUPERVISOR NOCTURNO AUTÓNOMO: Sesiones de 60 min de Trading + 20 min de Auto-Corrección
+[2026-11-12 06:58:23] ============================================================================================
+[2026-11-12 06:58:23] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 06:58:25]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=1.14, Ret=+4.8%)
+[2026-11-12 06:58:27]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.73, WinRate=62.5%, Ret=+7.8%)
+[2026-11-12 06:58:29]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.90, WinRate=61.1%, Ret=+18.6%)
+[2026-11-12 06:58:30]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-8.8%)
+[2026-11-12 06:58:33]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.56, Ret=-9.9%)
+[2026-11-12 06:58:35]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.36, WinRate=62.5%, Ret=+4.5%)
+[2026-11-12 06:58:37]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.25, WinRate=52.9%, Ret=+8.0%)
+[2026-11-12 06:58:38]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=1.13, Ret=+2.9%)
+[2026-11-12 06:58:40]    🔎 [LINK/USDT] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.36, WinRate=62.5%, Ret=+14.1%)
+[2026-11-12 06:58:42]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.65, WinRate=66.7%, Ret=+29.6%)
+[2026-11-12 06:58:43]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.80, WinRate=53.8%, Ret=+15.9%)
+[2026-11-12 06:58:45]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=1.99, WinRate=62.1%, Ret=+44.0%)
+[2026-11-12 06:58:46]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.27, WinRate=57.1%, Ret=+6.6%)
+[2026-11-12 06:58:48]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.19, WinRate=50.0%, Ret=+3.1%)
+[2026-11-12 06:58:50]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.87, WinRate=85.7%, Ret=+31.4%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 06:58:52]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.21, WinRate=68.0%, Ret=+18.5%)
+[2026-11-12 06:58:53]    🔎 [USD/JPY] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=1.10, Ret=+2.8%)
+[2026-11-12 06:58:55]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.09, WinRate=65.6%, Ret=+28.2%)
+[2026-11-12 06:58:55] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (12 ajustes aplicados).
+[2026-11-12 06:58:55] 🟢 SESIÓN OPERATIVA #8 INICIADA (Duración: 60 minutos)...
+[2026-11-12 06:59:12] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG | Entrada: 0.00000443 | SL: 0.00000436 | TP: 0.00000457 | Tamaño: $10,011.27 USD (Riesgo controlado: $473.53)
+[2026-11-12 06:59:13] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ADA/USDT LONG | Entrada: 0.17380000 | SL: 0.17227044 | TP: 0.17692865 | Tamaño: $8,581.09 USD (Riesgo controlado: $473.53)
+[2026-11-12 06:59:22] 💓 Pulso En Vivo | Equity: $9,974.62 USD (Efectivo: $9,999.15 | Flotante: $-24.53) | Abiertas: 7 | Cerradas: 13
+[2026-11-12 07:00:42] 💓 Pulso En Vivo | Equity: $9,997.75 USD (Efectivo: $9,999.15 | Flotante: $-1.40) | Abiertas: 7 | Cerradas: 13
+[2026-11-12 07:01:54] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> LINK/USDT SHORT | Entrada: 10.10000000 | SL: 10.16217621 | TP: 9.98946451 | Tamaño: $7,498.31 USD (Riesgo controlado: $349.92)
+[2026-11-12 07:02:05] 💓 Pulso En Vivo | Equity: $10,015.24 USD (Efectivo: $9,999.15 | Flotante: $+16.09) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:03:22] 💓 Pulso En Vivo | Equity: $10,025.34 USD (Efectivo: $9,999.15 | Flotante: $+26.19) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:04:39] 💓 Pulso En Vivo | Equity: $10,002.39 USD (Efectivo: $9,999.15 | Flotante: $+3.24) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:05:54] 💓 Pulso En Vivo | Equity: $10,012.53 USD (Efectivo: $9,999.15 | Flotante: $+13.38) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:07:10] 💓 Pulso En Vivo | Equity: $9,994.65 USD (Efectivo: $9,999.15 | Flotante: $-4.50) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:08:26] 💓 Pulso En Vivo | Equity: $9,999.15 USD (Efectivo: $9,999.15 | Flotante: $+0.00) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:09:43] 💓 Pulso En Vivo | Equity: $10,024.21 USD (Efectivo: $9,999.15 | Flotante: $+25.06) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:10:59] 💓 Pulso En Vivo | Equity: $10,051.39 USD (Efectivo: $9,999.15 | Flotante: $+52.24) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:12:14] 💓 Pulso En Vivo | Equity: $10,052.05 USD (Efectivo: $9,999.15 | Flotante: $+52.90) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:13:29] 💓 Pulso En Vivo | Equity: $10,052.87 USD (Efectivo: $9,999.15 | Flotante: $+53.72) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:14:47] 💓 Pulso En Vivo | Equity: $10,061.83 USD (Efectivo: $9,999.15 | Flotante: $+62.68) | Abiertas: 8 | Cerradas: 13
+[2026-11-12 07:15:53] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG | Entrada: 0.06726000 | SL: 0.06683488 | TP: 0.06815276 | Tamaño: $6,707.89 USD (Riesgo controlado: $352.16)
