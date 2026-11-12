@@ -572,3 +572,17 @@
 [2026-11-12 20:42:51] 💓 Pulso En Vivo | Equity: $9,822.85 USD (Efectivo: $9,304.30 | Flotante: $+518.55) | Abiertas: 12 | Cerradas: 29
 [2026-11-12 20:43:51] ☁️ [GITHUB CLOUD] Pulso #27 de la sesión #10...
 [2026-11-12 20:44:12] 💓 Pulso En Vivo | Equity: $9,825.58 USD (Efectivo: $9,304.30 | Flotante: $+521.28) | Abiertas: 12 | Cerradas: 29
+[2026-11-12 20:45:13] ☁️ [GITHUB CLOUD] Pulso #28 de la sesión #10...
+[2026-11-12 20:45:34] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0655435764
+[2026-11-12 20:45:34] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7986352802
+[2026-11-12 20:45:34] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1713517485
+[2026-11-12 20:45:34] 💓 Pulso En Vivo | Equity: $9,864.87 USD (Efectivo: $9,304.30 | Flotante: $+560.57) | Abiertas: 12 | Cerradas: 29
+[2026-11-12 20:46:34] ☁️ [GITHUB CLOUD] Pulso #29 de la sesión #10...
+[2026-11-12 20:46:44] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT LONG | Entrada: 2021.56000000 | SL: 2007.88154904 | TP: 2050.62670829 | Tamaño: $4,942.14 USD (Riesgo controlado: $345.95)
+[2026-11-12 20:47:03] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0656077907
+[2026-11-12 20:47:03] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7999002802
+[2026-11-12 20:47:03] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1716131771
+[2026-11-12 20:47:03] 💓 Pulso En Vivo | Equity: $9,885.90 USD (Efectivo: $9,288.33 | Flotante: $+597.57) | Abiertas: 12 | Cerradas: 30
+[2026-11-12 20:48:03] ☁️ [GITHUB CLOUD] Pulso #30 de la sesión #10...
+[2026-11-12 20:48:23] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1717035342
+[2026-11-12 20:48:23] 💓 Pulso En Vivo | Equity: $9,891.80 USD (Efectivo: $9,288.33 | Flotante: $+603.47) | Abiertas: 12 | Cerradas: 30
