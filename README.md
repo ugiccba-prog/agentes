@@ -1,7 +1,7 @@
 # 🦈 Agente de Trading Cuantitativo Multi-Mercado (EN VIVO 24/7 EN LA NUBE)
 
 > 🟢 **ESTADO DEL AGENTE:** OPERANDO EN GITHUB CLOUD (Sin necesidad de PC encendida)  
-> 🕒 **Última actualización en vivo:** `2026-11-12 22:30:46 UTC` | **Sesión #:** `10` | **Auto-correcciones:** `123`
+> 🕒 **Última actualización en vivo:** `2026-11-12 22:34:58 UTC` | **Sesión #:** `10` | **Auto-correcciones:** `123`
 
 ---
 
@@ -10,10 +10,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$9,878.14 USD`** (`-1.22%` / `$-121.86 USD`) |
-| **Efectivo Cerrado (Cash)** | `$9,602.96 USD` (PnL Realizado: `$-397.04 USD`) |
-| **PnL Flotante Actual** | `$+275.18 USD` |
-| **Posiciones Abiertas / Cerradas** | `12` abiertas / `40` cerradas (Ganadoras: `13` / Perdedoras: `27`) |
+| **Equity Total en Vivo** | **`$9,871.98 USD`** (`-1.28%` / `$-128.02 USD`) |
+| **Efectivo Cerrado (Cash)** | `$9,595.17 USD` (PnL Realizado: `$-404.83 USD`) |
+| **PnL Flotante Actual** | `$+276.81 USD` |
+| **Posiciones Abiertas / Cerradas** | `12` abiertas / `41` cerradas (Ganadoras: `13` / Perdedoras: `28`) |
 
 ---
 
@@ -21,18 +21,18 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `EUR/USD` | **SHORT** | `confluence` | `1.1059499979` | `1.1058276891708374` | `1.1072770256` | `1.1031613165` | **$-1.79** (-0.01%) |
-| `DOGE/USDT` | **LONG** | `trend_macd` | `0.06478` | `0.06629` | `0.0660880427` | `0.0667834817` | **$+324.12** (+2.23%) |
-| `SOL/USDT` | **SHORT** | `trend_macd` | `81.5` | `81.49` | `82.1740590933` | `80.0254957334` | **$-6.49** (-0.09%) |
+| `EUR/USD` | **SHORT** | `confluence` | `1.1059499979` | `1.1055831909179688` | `1.1072770256` | `1.1031613165` | **$+2.64** (+0.01%) |
+| `DOGE/USDT` | **LONG** | `trend_macd` | `0.06478` | `0.06627` | `0.0660880427` | `0.0667834817` | **$+319.63** (+2.20%) |
+| `SOL/USDT` | **SHORT** | `trend_macd` | `81.5` | `81.44` | `82.1740590933` | `80.0254957334` | **$-1.95** (-0.03%) |
 | `XAU/USD` | **SHORT** | `confluence` | `3888.0` | `3881.699951171875` | `3902.3488812201` | `3857.7079174243` | **$+31.15** (+0.14%) |
-| `EUR/JPY` | **SHORT** | `trend_macd` | `176.68699646` | `176.656005859375` | `176.8943011463` | `176.2629641469` | **$-0.40** (-0.00%) |
+| `EUR/JPY` | **SHORT** | `trend_macd` | `176.68699646` | `176.64599609375` | `176.8943011463` | `176.2629641469` | **$+0.52** (+0.00%) |
 | `AUD/USD` | **SHORT** | `ema_pullback` | `0.6807815433` | `0.6808279156684875` | `0.6813458432` | `0.6795965134` | **$-4.39** (-0.03%) |
-| `GBP/USD` | **SHORT** | `confluence` | `1.3238370419` | `1.3238019943237305` | `1.3248251178` | `1.3217606504` | **$-2.83** (-0.02%) |
-| `PEPE/USDT` | **SHORT** | `trend_macd` | `4.57e-06` | `4.55e-06` | `4.6553e-06` | `4.391e-06` | **$+16.66** (+0.34%) |
-| `SUI/USDT` | **LONG** | `trend_macd` | `0.8062` | `0.801` | `0.7962629075` | `0.8265258711` | **$-37.11** (-0.74%) |
-| `ADA/USDT` | **LONG** | `trend_macd` | `0.1739` | `0.1734` | `0.1718629445` | `0.1780667044` | **$-19.40** (-0.39%) |
-| `GBP/JPY` | **SHORT** | `bollinger_reversion` | `211.3269958496` | `211.48800659179688` | `211.5187340548` | `210.9709106114` | **$-15.99** (-0.10%) |
-| `ETH/USDT` | **SHORT** | `ema_pullback` | `2013.25` | `2014.62` | `2026.5468646249` | `1985.3554905152` | **$-8.34** (-0.17%) |
+| `PEPE/USDT` | **SHORT** | `trend_macd` | `4.57e-06` | `4.56e-06` | `4.6553e-06` | `4.391e-06` | **$+5.87** (+0.12%) |
+| `SUI/USDT` | **LONG** | `trend_macd` | `0.8062` | `0.8014` | `0.7962629075` | `0.8265258711` | **$-34.64** (-0.70%) |
+| `ADA/USDT` | **LONG** | `trend_macd` | `0.1739` | `0.1735` | `0.1718629445` | `0.1780667044` | **$-16.52** (-0.33%) |
+| `GBP/JPY` | **SHORT** | `bollinger_reversion` | `211.3269958496` | `211.50900268554688` | `211.5187340548` | `210.9709106114` | **$-17.65** (-0.11%) |
+| `ETH/USDT` | **SHORT** | `ema_pullback` | `2013.25` | `2013.09` | `2026.5468646249` | `1985.3554905152` | **$-4.57** (-0.09%) |
+| `GBP/USD` | **LONG** | `confluence` | `1.3242051601` | `1.3242051601409912` | `1.3232515917` | `1.3262090358` | **$-3.29** (-0.02%) |
 
 ---
 
@@ -40,6 +40,7 @@
 
 | Fecha Cierre | Par | Lado | Estrategia | PnL Realizado | Motivo |
 |---|---|---|---|---|---|
+| `` | `GBP/USD` | **SHORT** | `confluence` | **$-7.79** | `Giro de Señal a LONG` |
 | `` | `ETH/USDT` | **LONG** | `trend_macd` | **$-21.92** | `Giro de Señal a SHORT` |
 | `` | `GBP/JPY` | **SHORT** | `bollinger_reversion` | **$-25.37** | `Stop Loss / Trailing Stop Ejecutado` |
 | `` | `GBP/JPY` | **SHORT** | `ema_pullback` | **$+44.76** | `Take Profit Alcanzado` |
@@ -49,25 +50,24 @@
 | `` | `PEPE/USDT` | **SHORT** | `trend_macd` | **$-103.14** | `Stop Loss / Trailing Stop Ejecutado` |
 | `` | `GBP/USD` | **SHORT** | `confluence` | **$-79.64** | `Stop Loss / Trailing Stop Ejecutado` |
 | `` | `ETH/USDT` | **LONG** | `ema_pullback` | **$-19.55** | `Giro de Señal a SHORT` |
-| `` | `AUD/USD` | **LONG** | `ema_pullback` | **$-5.91** | `Giro de Señal a SHORT` |
 
 ---
 
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-12 22:23:41] ☁️ [GITHUB CLOUD] Pulso #100 de la sesión #10...
-[2026-11-12 22:24:02] 💓 Pulso En Vivo | Equity: $9,913.93 USD (Efectivo: $9,602.96 | Flotante: $+310.97) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:25:02] ☁️ [GITHUB CLOUD] Pulso #101 de la sesión #10...
-[2026-11-12 22:25:23] 💓 Pulso En Vivo | Equity: $9,907.17 USD (Efectivo: $9,602.96 | Flotante: $+304.21) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:26:23] ☁️ [GITHUB CLOUD] Pulso #102 de la sesión #10...
-[2026-11-12 22:26:43] 💓 Pulso En Vivo | Equity: $9,900.38 USD (Efectivo: $9,602.96 | Flotante: $+297.42) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:27:44] ☁️ [GITHUB CLOUD] Pulso #103 de la sesión #10...
 [2026-11-12 22:28:06] 💓 Pulso En Vivo | Equity: $9,883.21 USD (Efectivo: $9,602.96 | Flotante: $+280.25) | Abiertas: 12 | Cerradas: 40
 [2026-11-12 22:29:06] ☁️ [GITHUB CLOUD] Pulso #104 de la sesión #10...
 [2026-11-12 22:29:26] 💓 Pulso En Vivo | Equity: $9,878.10 USD (Efectivo: $9,602.96 | Flotante: $+275.14) | Abiertas: 12 | Cerradas: 40
 [2026-11-12 22:30:26] ☁️ [GITHUB CLOUD] Pulso #105 de la sesión #10...
 [2026-11-12 22:30:46] 💓 Pulso En Vivo | Equity: $9,878.14 USD (Efectivo: $9,602.96 | Flotante: $+275.18) | Abiertas: 12 | Cerradas: 40
+[2026-11-12 22:31:48] ☁️ [GITHUB CLOUD] Pulso #106 de la sesión #10...
+[2026-11-12 22:32:09] 💓 Pulso En Vivo | Equity: $9,887.19 USD (Efectivo: $9,602.96 | Flotante: $+284.23) | Abiertas: 12 | Cerradas: 40
+[2026-11-12 22:33:09] ☁️ [GITHUB CLOUD] Pulso #107 de la sesión #10...
+[2026-11-12 22:33:30] 💓 Pulso En Vivo | Equity: $9,881.71 USD (Efectivo: $9,602.96 | Flotante: $+278.75) | Abiertas: 12 | Cerradas: 40
+[2026-11-12 22:34:30] ☁️ [GITHUB CLOUD] Pulso #108 de la sesión #10...
+[2026-11-12 22:34:41] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG | Entrada: 1.32420516 | SL: 1.32325159 | TP: 1.32620904 | Tamaño: $16,456.75 USD (Riesgo controlado: $224.14)
+[2026-11-12 22:34:58] 💓 Pulso En Vivo | Equity: $9,871.98 USD (Efectivo: $9,595.17 | Flotante: $+276.81) | Abiertas: 12 | Cerradas: 41
 ```
 
 ---
