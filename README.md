@@ -1,7 +1,7 @@
 # 🦈 Agente de Trading Cuantitativo Multi-Mercado (EN VIVO 24/7 EN LA NUBE)
 
 > 🟢 **ESTADO DEL AGENTE:** OPERANDO EN GITHUB CLOUD (Sin necesidad de PC encendida)  
-> 🕒 **Última actualización en vivo:** `2026-11-12 23:11:39 UTC` | **Sesión #:** `10` | **Auto-correcciones:** `123`
+> 🕒 **Última actualización en vivo:** `2026-11-12 23:15:58 UTC` | **Sesión #:** `10` | **Auto-correcciones:** `138`
 
 ---
 
@@ -10,9 +10,9 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$9,854.18 USD`** (`-1.46%` / `$-145.82 USD`) |
+| **Equity Total en Vivo** | **`$9,853.87 USD`** (`-1.46%` / `$-146.13 USD`) |
 | **Efectivo Cerrado (Cash)** | `$9,543.51 USD` (PnL Realizado: `$-456.49 USD`) |
-| **PnL Flotante Actual** | `$+310.67 USD` |
+| **PnL Flotante Actual** | `$+310.36 USD` |
 | **Posiciones Abiertas / Cerradas** | `12` abiertas / `44` cerradas (Ganadoras: `13` / Perdedoras: `31`) |
 
 ---
@@ -22,17 +22,17 @@
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
 | `EUR/USD` | **SHORT** | `confluence` | `1.1059499979` | `1.1058276891708374` | `1.1072770256` | `1.1031613165` | **$-1.79** (-0.01%) |
-| `DOGE/USDT` | **LONG** | `trend_macd` | `0.06478` | `0.06643` | `0.0660990693` | `0.0667834817` | **$+355.52** (+2.45%) |
-| `SOL/USDT` | **SHORT** | `trend_macd` | `81.5` | `81.72` | `82.1740590933` | `80.0254957334` | **$-27.38** (-0.37%) |
-| `XAU/USD` | **SHORT** | `confluence` | `3888.0` | `3882.60009765625` | `3902.3488812201` | `3857.7079174243` | **$+26.07** (+0.12%) |
-| `EUR/JPY` | **SHORT** | `trend_macd` | `176.68699646` | `176.70399475097656` | `176.8943011463` | `176.2629641469` | **$-4.84** (-0.03%) |
-| `AUD/USD` | **SHORT** | `ema_pullback` | `0.6807815433` | `0.6809669733047485` | `0.6813458432` | `0.6795965134` | **$-7.74** (-0.05%) |
+| `DOGE/USDT` | **LONG** | `trend_macd` | `0.06478` | `0.06641` | `0.0660990693` | `0.0667834817` | **$+351.03** (+2.41%) |
+| `SOL/USDT` | **SHORT** | `trend_macd` | `81.5` | `81.68` | `82.1740590933` | `80.0254957334` | **$-23.75** (-0.32%) |
+| `XAU/USD` | **SHORT** | `confluence` | `3888.0` | `3882.300048828125` | `3902.3488812201` | `3857.7079174243` | **$+27.76** (+0.13%) |
+| `EUR/JPY` | **SHORT** | `trend_macd` | `176.68699646` | `176.6999969482422` | `176.8943011463` | `176.2629641469` | **$-4.47** (-0.03%) |
+| `AUD/USD` | **SHORT** | `ema_pullback` | `0.6807815433` | `0.6807815432548523` | `0.6813458432` | `0.6795965134` | **$-3.28** (-0.02%) |
 | `PEPE/USDT` | **SHORT** | `trend_macd` | `4.57e-06` | `4.54e-06` | `4.6553e-06` | `4.391e-06` | **$+27.46** (+0.56%) |
-| `SUI/USDT` | **LONG** | `trend_macd` | `0.8062` | `0.8037` | `0.7962629075` | `0.8265258711` | **$-20.43** (-0.41%) |
-| `ADA/USDT` | **LONG** | `trend_macd` | `0.1739` | `0.1736` | `0.1718629445` | `0.1780667044` | **$-13.64** (-0.27%) |
-| `GBP/USD` | **SHORT** | `confluence` | `1.3236442804` | `1.3236618041992188` | `1.3246490963` | `1.3215327109` | **$-3.83** (-0.02%) |
-| `GBP/JPY` | **SHORT** | `bollinger_reversion` | `211.5070037842` | `211.55299377441406` | `211.711897083` | `211.1264876578` | **$-6.86** (-0.04%) |
-| `ETH/USDT` | **LONG** | `ema_pullback` | `2019.63` | `2016.8` | `2006.222412195` | `2047.7567874606` | **$-11.85** (-0.24%) |
+| `SUI/USDT` | **LONG** | `trend_macd` | `0.8062` | `0.8032` | `0.7962629075` | `0.8265258711` | **$-23.52** (-0.47%) |
+| `ADA/USDT` | **LONG** | `trend_macd` | `0.1739` | `0.1735` | `0.1718629445` | `0.1780667044` | **$-16.52** (-0.33%) |
+| `GBP/USD` | **SHORT** | `confluence` | `1.3236442804` | `1.3236967325210571` | `1.3246490963` | `1.3215327109` | **$-4.31** (-0.02%) |
+| `GBP/JPY` | **SHORT** | `bollinger_reversion` | `211.5070037842` | `211.55999755859375` | `211.711897083` | `211.1264876578` | **$-7.40** (-0.05%) |
+| `ETH/USDT` | **LONG** | `ema_pullback` | `2019.63` | `2017.21` | `2006.222412195` | `2047.7567874606` | **$-10.85** (-0.22%) |
 
 ---
 
@@ -56,18 +56,18 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-12 23:06:08] 💓 Pulso En Vivo | Equity: $9,892.84 USD (Efectivo: $9,564.20 | Flotante: $+328.64) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:07:08] ☁️ [GITHUB CLOUD] Pulso #132 de la sesión #10...
-[2026-11-12 23:07:28] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0660919622
-[2026-11-12 23:07:28] 💓 Pulso En Vivo | Equity: $9,877.76 USD (Efectivo: $9,564.20 | Flotante: $+313.56) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:08:30] ☁️ [GITHUB CLOUD] Pulso #133 de la sesión #10...
-[2026-11-12 23:08:39] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT LONG | Entrada: 2019.63000000 | SL: 2006.22241219 | TP: 2047.75678746 | Tamaño: $4,935.98 USD (Riesgo controlado: $224.09)
-[2026-11-12 23:08:58] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0660990693
-[2026-11-12 23:08:58] 💓 Pulso En Vivo | Equity: $9,866.90 USD (Efectivo: $9,543.51 | Flotante: $+323.39) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:09:58] ☁️ [GITHUB CLOUD] Pulso #134 de la sesión #10...
-[2026-11-12 23:10:19] 💓 Pulso En Vivo | Equity: $9,845.78 USD (Efectivo: $9,543.51 | Flotante: $+302.27) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:11:19] ☁️ [GITHUB CLOUD] Pulso #135 de la sesión #10...
-[2026-11-12 23:11:39] 💓 Pulso En Vivo | Equity: $9,854.18 USD (Efectivo: $9,543.51 | Flotante: $+310.67) | Abiertas: 12 | Cerradas: 44
+[2026-11-12 23:11:52]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.21, WinRate=64.3%, Ret=+2.4%)
+[2026-11-12 23:11:53]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=5.56, WinRate=87.0%, Ret=+35.0%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 23:11:53]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.57, WinRate=76.0%, Ret=+27.1%) | Ajuste defensivo aplicado tras 5 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 23:11:53]    🔎 [USD/JPY] -> ACTIVO | Estrategia: confluence | Optimizado agresivo con confluence (PF=1.17, WinRate=52.0%, Ret=+4.0%)
+[2026-11-12 23:11:54]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=2.96, WinRate=71.4%, Ret=+20.0%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.3x ATR
+[2026-11-12 23:11:54] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (15 ajustes aplicados).
+[2026-11-12 23:12:55] ☁️ [GITHUB CLOUD] Pulso #136 de la sesión #10...
+[2026-11-12 23:13:17] 💓 Pulso En Vivo | Equity: $9,837.82 USD (Efectivo: $9,543.51 | Flotante: $+294.31) | Abiertas: 12 | Cerradas: 44
+[2026-11-12 23:14:17] ☁️ [GITHUB CLOUD] Pulso #137 de la sesión #10...
+[2026-11-12 23:14:37] 💓 Pulso En Vivo | Equity: $9,838.20 USD (Efectivo: $9,543.51 | Flotante: $+294.69) | Abiertas: 12 | Cerradas: 44
+[2026-11-12 23:15:37] ☁️ [GITHUB CLOUD] Pulso #138 de la sesión #10...
+[2026-11-12 23:15:58] 💓 Pulso En Vivo | Equity: $9,853.87 USD (Efectivo: $9,543.51 | Flotante: $+310.36) | Abiertas: 12 | Cerradas: 44
 ```
 
 ---
