@@ -1,7 +1,7 @@
 # 🦈 Agente de Trading Cuantitativo Multi-Mercado (EN VIVO 24/7 EN LA NUBE)
 
 > 🟢 **ESTADO DEL AGENTE:** OPERANDO EN GITHUB CLOUD (Sin necesidad de PC encendida)  
-> 🕒 **Última actualización en vivo:** `2026-11-12 20:06:17 UTC` | **Sesión #:** `9` | **Auto-correcciones:** `79`
+> 🕒 **Última actualización en vivo:** `2026-11-12 20:08:15 UTC` | **Sesión #:** `10` | **Auto-correcciones:** `94`
 
 ---
 
@@ -55,18 +55,18 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-12 15:27:54] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD SHORT | Entrada: 0.68078154 | SL: 0.68183435 | TP: 0.67857065 | Tamaño: $17,558.18 USD (Riesgo controlado: $456.78)
-[2026-11-12 15:28:13] 💓 Pulso En Vivo | Equity: $9,657.55 USD (Efectivo: $9,681.21 | Flotante: $-23.66) | Abiertas: 11 | Cerradas: 21
-[2026-11-12 15:29:13] ☁️ [GITHUB CLOUD] Pulso #6 de la sesión #9...
-[2026-11-12 15:29:40] 💓 Pulso En Vivo | Equity: $9,709.52 USD (Efectivo: $9,681.21 | Flotante: $+28.31) | Abiertas: 11 | Cerradas: 21
-[2026-11-12 15:30:40] ☁️ [GITHUB CLOUD] Pulso #7 de la sesión #9...
-[2026-11-12 15:31:06] 💓 Pulso En Vivo | Equity: $9,642.34 USD (Efectivo: $9,681.21 | Flotante: $-38.87) | Abiertas: 11 | Cerradas: 21
-[2026-11-12 15:32:06] ☁️ [GITHUB CLOUD] Pulso #8 de la sesión #9...
-[2026-11-12 15:32:31] 💓 Pulso En Vivo | Equity: $9,655.88 USD (Efectivo: $9,681.21 | Flotante: $-25.33) | Abiertas: 11 | Cerradas: 21
-[2026-11-12 15:33:31] ☁️ [GITHUB CLOUD] Pulso #9 de la sesión #9...
-[2026-11-12 15:33:47] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD LONG | Entrada: 0.68087423 | SL: 0.67994483 | TP: 0.68282597 | Tamaño: $17,587.73 USD (Riesgo controlado: $457.54)
-[2026-11-12 15:34:07] 💓 Pulso En Vivo | Equity: $9,691.18 USD (Efectivo: $9,675.31 | Flotante: $+15.87) | Abiertas: 11 | Cerradas: 22
-[2026-11-12 15:34:07] ✅ [GITHUB CLOUD] Bloque #9 completado. Persistiendo cartera en el repositorio.
+[2026-11-12 20:08:09]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.00, Ret=-0.1%)
+[2026-11-12 20:08:10]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.89, Ret=-3.3%)
+[2026-11-12 20:08:11]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.98, WinRate=62.5%, Ret=+21.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
+[2026-11-12 20:08:13]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.67, WinRate=66.7%, Ret=+24.6%)
+[2026-11-12 20:08:13]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.85, WinRate=72.0%, Ret=+53.1%)
+[2026-11-12 20:08:14]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.42, WinRate=61.5%, Ret=+8.7%)
+[2026-11-12 20:08:14]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.18, WinRate=57.1%, Ret=+2.4%)
+[2026-11-12 20:08:14]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=6.04, WinRate=87.5%, Ret=+38.8%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 20:08:15]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.99, WinRate=73.1%, Ret=+24.8%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 20:08:15]    🔎 [USD/JPY] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.50, Ret=-7.1%)
+[2026-11-12 20:08:15]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=4.21, WinRate=76.9%, Ret=+23.9%)
+[2026-11-12 20:08:15] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (15 ajustes aplicados).
 ```
 
 ---
