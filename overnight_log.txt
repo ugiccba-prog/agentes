@@ -20,3 +20,5 @@ Inicio de la nueva cartera paper.
 [2026-11-13 22:54:38]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:54:39]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:54:39] ✅ FASE WALK-FORWARD COMPLETADA (18 ajustes aplicados).
+[2026-11-13 22:54:40] ☁️ [GITHUB CLOUD] Cierre de vela #1 de la sesión #1...
+[2026-11-13 22:55:01] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0

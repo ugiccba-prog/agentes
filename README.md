@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `1` | **Última actualización:** `2026-11-13 22:54:39 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `1` | **Última actualización:** `2026-11-13 22:57:01 UTC`
 
 ---
 
@@ -41,8 +41,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 22:54:22]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 22:54:24]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:54:27]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:54:29]    🔎 [AVAX/USDT] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=1.16, Exp=+0.08R, WR=30.3%, Trades=33
 [2026-11-13 22:54:32]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
@@ -56,4 +54,6 @@
 [2026-11-13 22:54:38]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:54:39]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:54:39] ✅ FASE WALK-FORWARD COMPLETADA (18 ajustes aplicados).
+[2026-11-13 22:54:40] ☁️ [GITHUB CLOUD] Cierre de vela #1 de la sesión #1...
+[2026-11-13 22:55:01] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
 ```
