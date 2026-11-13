@@ -723,3 +723,23 @@
 [2026-11-13 06:00:45] ☁️ [GITHUB CLOUD] Cierre de vela #107 de la sesión #14...
 [2026-11-13 06:01:03] 💓 Cierre de Vela | Equity: $31,644.90 USD (Efectivo: $31,646.73 | Flotante: $-1.83 | Peak: $31,650.67) | Abiertas: 2 | Cerradas: 41
 [2026-11-13 06:07:07] 🔒 Stop (Breakeven) en USD/JPY LONG ajustado a 159.8789978027
+[2026-11-13 06:12:11] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...
+[2026-11-13 06:12:13]    🔎 [BTC/USDT] -> ACTIVO | WF OOS APROBADO (ema_pullback) | PF=1.77, Exp=+0.39R, WR=50.0%, Trades=8
+[2026-11-13 06:12:15]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:18]    🔎 [SOL/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:21]    🔎 [BNB/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:23]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:25]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:27]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:30]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:32]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:34]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:36]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).

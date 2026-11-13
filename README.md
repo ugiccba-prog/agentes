@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 06:11:09 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 06:14:38 UTC`
 
 ---
 
@@ -56,19 +56,19 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 05:11:16]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 05:11:16]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 05:11:17]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 05:11:17]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 05:11:17]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 05:11:17] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-13 05:15:19] ☁️ [GITHUB CLOUD] Cierre de vela #63 de la sesión #14...
-[2026-11-13 05:15:37] 💓 Cierre de Vela | Equity: $31,643.92 USD (Efectivo: $31,646.73 | Flotante: $-2.81 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 05:30:47] ☁️ [GITHUB CLOUD] Cierre de vela #78 de la sesión #14...
-[2026-11-13 05:31:06] 💓 Cierre de Vela | Equity: $31,645.14 USD (Efectivo: $31,646.73 | Flotante: $-1.59 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 05:45:16] ☁️ [GITHUB CLOUD] Cierre de vela #92 de la sesión #14...
-[2026-11-13 05:45:35] 💓 Cierre de Vela | Equity: $31,645.52 USD (Efectivo: $31,646.73 | Flotante: $-1.21 | Peak: $31,650.67) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 06:00:45] ☁️ [GITHUB CLOUD] Cierre de vela #107 de la sesión #14...
-[2026-11-13 06:01:03] 💓 Cierre de Vela | Equity: $31,644.90 USD (Efectivo: $31,646.73 | Flotante: $-1.83 | Peak: $31,650.67) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 06:07:07] 🔒 Stop (Breakeven) en USD/JPY LONG ajustado a 159.8789978027
+[2026-11-13 06:12:23]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:25]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:27]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:30]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:32]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:34]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:36]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 06:12:37] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 ```
