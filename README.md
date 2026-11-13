@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `13` | **Última actualización:** `2026-11-13 02:25:38 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 04:10:32 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$9,732.80 USD`** (`-2.67%` / `$-267.20 USD`) |
+| **Equity Total en Vivo** | **`$9,761.95 USD`** (`-2.38%` / `$-238.05 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,000.00 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$9,723.04 USD` (PnL Realizado: `$-276.96 USD`) |
-| **PnL Flotante Actual** | `$+9.76 USD` |
+| **PnL Flotante Actual** | `$+38.91 USD` |
 | **Win Rate & Profit Factor Real** | `41.7%` (`15W / 21L` de `36`) · **PF `0.84`** |
 | **Meta Paper Trading (100 Trades)** | `36 / 100` cerrados |
 
@@ -27,12 +27,12 @@
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
 | `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1062` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-8.45** (-0.04%) |
-| `GBP/JPY` | **SHORT** | `ema_pullback` | `211.54` | `211.64` | `211.75` (🛡️ Inicial) | `211.08` | **$-14.69** (-0.07%) |
-| `SOL/USDT` | **SHORT** | `trend_macd` | `81.5` | `80.95` | `81.5` (🔒 BE/Trail) | `80.061` | **$+33.75** (+0.58%) |
-| `BNB/USDT` | **SHORT** | `ema_pullback` | `654.41` | `652.02` | `659.11` (🛡️ Inicial) | `644.54` | **$+14.16** (+0.27%) |
-| `XRP/USDT` | **LONG** | `trend_macd` | `1.0326` | `1.0271` | `1.0204` (🛡️ Inicial) | `1.0576` | **$-30.92** (-0.63%) |
-| `ETH/USDT` | **SHORT** | `ema_pullback` | `2015.7` | `2004.7` | `2015.7` (🔒 BE/Trail) | `1985.2` | **$+18.98** (+0.45%) |
-| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.89` | `159.72` (🛡️ Inicial) | `160.21` | **$-3.06** (-0.02%) |
+| `DOGE/USDT` | **SHORT** | `trend_macd` | `211.54` | `211.63` | `211.75` (🛡️ Inicial) | `211.08` | **$-14.08** (-0.07%) |
+| `SOL/USDT` | **SHORT** | `trend_macd` | `81.5` | `80.79` | `81.5` (🔒 BE/Trail) | `80.061` | **$+45.27** (+0.77%) |
+| `BNB/USDT` | **SHORT** | `ema_pullback` | `654.41` | `650.41` | `659.11` (🛡️ Inicial) | `644.54` | **$+27.29** (+0.51%) |
+| `XRP/USDT` | **LONG** | `trend_macd` | `1.0326` | `1.0257` | `1.0204` (🛡️ Inicial) | `1.0576` | **$-37.54** (-0.77%) |
+| `ETH/USDT` | **SHORT** | `ema_pullback` | `2015.7` | `1999.4` | `2015.7` (🔒 BE/Trail) | `1985.2` | **$+29.99** (+0.71%) |
+| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.88` | `159.72` (🛡️ Inicial) | `160.21` | **$-3.55** (-0.02%) |
 
 ---
 
@@ -61,19 +61,19 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-12 23:25:07]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:09]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:12]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:15]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:17]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:20]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:23]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:26]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:28]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:30]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:32]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:34]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:36]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:38]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-12 23:25:38] ✅ FASE WALK-FORWARD COMPLETADA (2 ajustes aplicados).
+[2026-11-13 04:10:18]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:20]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:22]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:24]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:27]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:29]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:31]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 04:10:32] ✅ FASE WALK-FORWARD COMPLETADA (2 ajustes aplicados).
 ```

@@ -1,6 +1,6 @@
 {
-  "session_count": 13,
-  "corrections_applied": 121,
+  "session_count": 14,
+  "corrections_applied": 123,
   "global_risk_pct": 3.5,
   "symbols": {
     "BTC/USDT": {
@@ -67,7 +67,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "USD/JPY": {
-      "enabled": true,
+      "enabled": false,
       "strategy": "confluence",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
@@ -177,7 +177,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "EUR/JPY": {
-      "enabled": true,
+      "enabled": false,
       "strategy": "trend_macd",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
@@ -187,7 +187,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-13 02:25:38 UTC",
+  "last_updated": "2026-11-13 04:10:32 UTC",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
   "risk_config": {
     "base_risk_pct": 1.5,
