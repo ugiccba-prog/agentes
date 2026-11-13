@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 04:22:22 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 04:25:24 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$31,643.56 USD`** (`+216.44%` / `$+21,643.56 USD`) |
+| **Equity Total en Vivo** | **`$31,643.58 USD`** (`+216.44%` / `$+21,643.58 USD`) |
 | **Pico Máximo (Peak Equity)** | `$31,645.42 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$31,646.73 USD` (PnL Realizado: `$+21,646.73 USD`) |
-| **PnL Flotante Actual** | `$-3.17 USD` |
+| **PnL Flotante Actual** | `$-3.15 USD` |
 | **Win Rate & Profit Factor Real** | `46.3%` (`19W / 22L` de `41`) · **PF `12.51`** |
 | **Meta Paper Trading (100 Trades)** | `41 / 100` cerrados |
 
@@ -26,8 +26,8 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1061` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-6.23** (-0.03%) |
-| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.94` | `159.72` (🛡️ Inicial) | `160.21` | **$+3.07** (+0.02%) |
+| `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1059` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-4.01** (-0.02%) |
+| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.92` | `159.72` (🛡️ Inicial) | `160.21` | **$+0.86** (+0.00%) |
 
 ---
 
