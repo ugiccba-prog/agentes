@@ -1,5 +1,5 @@
 {
-  "session_count": 1,
+  "session_count": 2,
   "corrections_applied": 18,
   "global_risk_pct": 3.5,
   "symbols": {
@@ -196,7 +196,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-13 22:54:39 UTC",
+  "last_updated": "2026-11-13 23:22:51 UTC",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
   "risk_config": {
     "base_risk_pct": 1.5,
