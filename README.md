@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 05:08:48 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 05:12:17 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$31,639.12 USD`** (`+216.39%` / `$+21,639.12 USD`) |
+| **Equity Total en Vivo** | **`$31,644.02 USD`** (`+216.44%` / `$+21,644.02 USD`) |
 | **Pico Máximo (Peak Equity)** | `$31,645.42 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$31,646.73 USD` (PnL Realizado: `$+21,646.73 USD`) |
-| **PnL Flotante Actual** | `$-7.61 USD` |
+| **PnL Flotante Actual** | `$-2.71 USD` |
 | **Win Rate & Profit Factor Real** | `46.3%` (`19W / 22L` de `41`) · **PF `12.51`** |
 | **Meta Paper Trading (100 Trades)** | `41 / 100` cerrados |
 
@@ -27,7 +27,7 @@
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
 | `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1063` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-10.67** (-0.05%) |
-| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.94` | `159.72` (🛡️ Inicial) | `160.21` | **$+3.07** (+0.02%) |
+| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.98` | `159.72` (🛡️ Inicial) | `160.21` | **$+7.97** (+0.04%) |
 
 ---
 
@@ -56,19 +56,19 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 04:10:34] ☁️ [GITHUB CLOUD] Cierre de vela #1 de la sesión #14...
-[2026-11-13 04:10:57] ✅ CERRADA DOGE/USDT (SHORT) a 0.06368 | PnL: $+21517.24 USD (Take Profit Alcanzado)
-[2026-11-13 04:10:57] ✅ CERRADA SOL/USDT (SHORT) a 78.52 | PnL: $+208.77 USD (Take Profit Alcanzado)
-[2026-11-13 04:10:57] ✅ CERRADA BNB/USDT (SHORT) a 635.3 | PnL: $+150.50 USD (Take Profit Alcanzado)
-[2026-11-13 04:10:57] ✅ CERRADA XRP/USDT (LONG) a 1.0095 | PnL: $-114.21 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 04:10:57] ✅ CERRADA ETH/USDT (SHORT) a 1936.88 | PnL: $+161.39 USD (Take Profit Alcanzado)
-[2026-11-13 04:10:57] 💓 Cierre de Vela | Equity: $31,632.73 USD (Efectivo: $31,646.73 | Flotante: $-14.00 | Peak: $31,632.73) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 04:16:00] ☁️ [GITHUB CLOUD] Cierre de vela #6 de la sesión #14...
-[2026-11-13 04:16:18] 💓 Cierre de Vela | Equity: $31,641.60 USD (Efectivo: $31,646.73 | Flotante: $-5.13 | Peak: $31,642.22) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 04:30:28] ☁️ [GITHUB CLOUD] Cierre de vela #20 de la sesión #14...
-[2026-11-13 04:30:46] 💓 Cierre de Vela | Equity: $31,638.77 USD (Efectivo: $31,646.73 | Flotante: $-7.96 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 04:45:56] ☁️ [GITHUB CLOUD] Cierre de vela #35 de la sesión #14...
-[2026-11-13 04:46:15] 💓 Cierre de Vela | Equity: $31,637.54 USD (Efectivo: $31,646.73 | Flotante: $-9.19 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
-[2026-11-13 05:00:25] ☁️ [GITHUB CLOUD] Cierre de vela #49 de la sesión #14...
-[2026-11-13 05:00:43] 💓 Cierre de Vela | Equity: $31,633.84 USD (Efectivo: $31,646.73 | Flotante: $-12.89 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
+[2026-11-13 05:11:02]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:04]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:07]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:09]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:11]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:14]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:16]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:16]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:16]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:16]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:16]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:17]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:17]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:17]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 05:11:17] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 ```
