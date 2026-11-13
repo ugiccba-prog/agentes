@@ -1,17 +1,37 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 31613.49,
-  "equity_usd": 31613.49,
+  "equity_usd": 31530.78,
   "realized_pnl_usd": 21613.49,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -82.71,
   "peak_equity_usd": 31672.73,
   "day_start_equity_usd": 9784.76,
   "current_day_utc": "2026-11-13",
   "total_trades": 43,
   "winning_trades": 19,
   "losing_trades": 24,
-  "last_updated": "2026-11-13 12:59:36 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-13 13:03:00 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-841167",
+      "symbol": "BTC/USDT",
+      "market": "CRYPTO",
+      "strategy": "ema_pullback",
+      "side": "SHORT",
+      "entry_time": "2026-11-13 13:00:41 UTC",
+      "entry_price": 69204.36,
+      "current_price": 69180.28,
+      "size": 1.83344,
+      "notional_usd": 126882.2,
+      "stop_loss": 69587.1478817391,
+      "take_profit": 68438.7842365219,
+      "initial_risk_dist": 382.7878817391,
+      "unrealized_pnl_usd": -82.71,
+      "unrealized_pnl_pct": -0.07,
+      "reason": "Pullback Bajista bajo EMA rápida en tendencia estructural (RSI=48.7)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-98906",
