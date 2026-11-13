@@ -1132,3 +1132,24 @@
 [2026-11-13 19:46:14] 💓 Cierre de Vela | Equity: $31,392.79 USD (Efectivo: $31,696.93 | Flotante: $-304.14 | Peak: $31,696.93) | Abiertas: 1 | Cerradas: 45
 [2026-11-13 20:00:35] ☁️ [GITHUB CLOUD] Cierre de vela #222 de la sesión #17...
 [2026-11-13 20:00:49] 💓 Cierre de Vela | Equity: $31,339.02 USD (Efectivo: $31,696.93 | Flotante: $-357.91 | Peak: $31,696.93) | Abiertas: 1 | Cerradas: 45
+[2026-11-13 20:11:24] ☁️ [GITHUB CLOUD] Iniciando bloque continuo #18 (240 min)...
+[2026-11-13 20:11:24] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...
+[2026-11-13 20:11:27]    🔎 [BTC/USDT] -> ACTIVO | WF OOS APROBADO (ema_pullback) | PF=1.77, Exp=+0.39R, WR=50.0%, Trades=8
+[2026-11-13 20:11:29]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:32]    🔎 [SOL/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:34]    🔎 [BNB/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:36]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:38]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:41]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:43]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:45]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:47]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:50]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:51]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:51]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:51]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:51]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:52]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:52]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:52]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 20:11:52] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
