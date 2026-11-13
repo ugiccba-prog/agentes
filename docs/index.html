@@ -172,6 +172,15 @@
       </div>
     </div>
 
+    <section class="card" aria-label="Mesa de operaciones" style="margin:16px 0;padding:20px">
+      <h2>Mesa de operaciones · Paper USD</h2>
+      <p id="pulse" role="status"></p><p id="guidance"></p>
+      <label for="profile">Perfil de estrategia</label>
+      <select id="profile"><option>🦈 Violenta &amp; Sagaz (Recomendado)</option><option>🔥 Berserker / Full Tiburón</option><option>🛡️ Conservador Institucional</option></select>
+      <button class="btn" onclick="requestPaper('Perfil / '+document.getElementById('profile').value)">Solicitar cambio</button>
+      <p id="profile-help"></p><div id="exits"></div><p id="receipt"></p>
+      <small>Confirmá la solicitud con tu cuenta en GitHub. El agente la revisa en el siguiente ciclo. Los cierres se liquidan al precio disponible y suman el resultado al efectivo simulado.</small>
+    </section>
     <div class="grid" id="kpi-grid"></div>
 
     <div class="section">
@@ -337,6 +346,32 @@
       return res;
     }
 
+    function requestPaper(command) {
+      const url = new URL('https://github.com/ugiccba-prog/agentes/issues/new');
+      url.searchParams.set('title','Paper / '+command);
+      url.searchParams.set('body','Confirmo esta solicitud para la cartera simulada.');
+      window.open(url.toString(),'_blank','noopener,noreferrer');
+    }
+    const profile = document.getElementById('profile');
+    function explainProfile() {
+      document.getElementById('profile-help').textContent = ['Riesgo base por entrada 1,5 % · exposición de riesgo total hasta 10 %.','Riesgo base 2,5 % · riesgo total hasta 14 %.','Riesgo base 1 % · riesgo total hasta 8 %.'][profile.selectedIndex];
+    }
+    profile.onchange = explainProfile;
+    function renderDesk(p,cfg) {
+      const age = (Date.now()-Date.parse(p.last_updated.replace(' ','T').replace(' UTC','Z')))/60000;
+      const eligible = Object.entries(cfg.symbols||{}).filter(([,x])=>x.enabled);
+      document.getElementById('pulse').textContent = (age<=8?'Actividad reciente':'Actualización demorada')+' · '+Math.max(0,Math.floor(age))+' min desde el último reporte · '+eligible.length+' mercados habilitados';
+      document.getElementById('guidance').textContent = eligible.length ? 'Seguimiento en esta sesión: '+eligible.map(([sym])=>sym).join(', ')+'. Consultá la bitácora para ver qué señal espera el agente.' : 'Esperá la próxima validación de mercados antes de ampliar el riesgo.';
+      if (!profile.dataset.ready && Array.from(profile.options).some(x=>x.value===cfg.preset_name)) {profile.value=cfg.preset_name;profile.dataset.ready='1';}
+      explainProfile();
+      const exits=document.getElementById('exits'); exits.replaceChildren();
+      for(const pos of p.open_positions.filter(x=>(x.broker_mode||'').startsWith('Paper Trading'))) {
+        const btn=document.createElement('button');btn.className='btn';btn.textContent='Cerrar '+pos.symbol+' · '+fmtUsd(pos.unrealized_pnl_usd,true);
+        btn.onclick=()=>requestPaper(['Cerrar',pos.id,pos.entry_time,pos.symbol].join(' / '));exits.append(btn);
+      }
+      if(!p.open_positions.length) exits.textContent='Sin posiciones para cerrar.';
+      document.getElementById('receipt').textContent=cfg.panel_result?'Última solicitud #'+cfg.panel_result.id+' · '+cfg.panel_result.message:'';
+    }
     async function loadAll() {
       try {
         const [pRes, cRes, lRes] = await Promise.all([
@@ -347,6 +382,7 @@
         const p = await pRes.json();
         const cfg = await cRes.json();
         lastPortfolio = p;
+        renderDesk(p,cfg);
 
         const eq = Number(p.equity_usd || 0);
         const init = Number(p.initial_balance_usd || 10000);

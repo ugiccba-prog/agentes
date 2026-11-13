@@ -7,6 +7,8 @@ Ejecutor Cloud 24/7 para GitHub Actions (corre en los servidores de GitHub con t
 
 from __future__ import annotations
 
+from paper_panel import apply_requests, acknowledge
+import requests
 import argparse
 from datetime import datetime, timezone
 from pathlib import Path
@@ -136,7 +138,7 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
     README_FILE.write_text(md, encoding="utf-8")
 
 
-def sync_to_github() -> None:
+def sync_to_github() -> bool:
     """Guarda y sube el estado actual al repositorio para que se vea en vivo desde el celular."""
     try:
         subprocess.run(["git", "config", "user.name", "Agente Trading Cloud 24/7"], check=False)
@@ -160,10 +162,12 @@ def sync_to_github() -> None:
                 ["git", "commit", "-m", "🤖 Auto-Update Cloud: Cartera y Dashboard en Vivo [skip ci]"],
                 check=False,
             )
-            subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
-            subprocess.run(["git", "push", "origin", "main"], check=False)
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
+            subprocess.run(["git", "push", "origin", "main"], check=True)
+        return True
     except Exception as exc:
         log_event(f"⚠️ Aviso en sync_to_github: {exc}")
+        return False
 
 
 def main() -> None:
@@ -196,6 +200,11 @@ def main() -> None:
 
     while time.time() < end_time:
         ticks += 1
+        done = []
+        try:
+            done = apply_requests(broker, cfg, save_adaptive_config, run_self_correction_phase, log_event)
+        except requests.RequestException as exc:
+            log_event(f"Panel temporalmente inaccesible: {type(exc).__name__}")
         if first_tick or gate.is_new_closed_candle():
             log_event(f"☁️ [GITHUB CLOUD] Cierre de vela #{ticks} de la sesión #{session_num}...")
             atr_map = run_trading_tick(broker, cfg, rm=rm, interval="15m")
@@ -211,8 +220,12 @@ def main() -> None:
             cfg = run_self_correction_phase(broker, cfg, interval="15m")
             last_recal = time.time()
 
-        if ticks % args.sync_every == 0:
-            sync_to_github()
+        if done or ticks % args.sync_every == 0:
+            if sync_to_github() and done:
+                try:
+                    acknowledge(done)
+                except requests.RequestException:
+                    log_event("Confirmación del panel pendiente")
 
         if time.time() + args.tick < end_time:
             time.sleep(args.tick)

@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/paper-reset-20261113'
+      - 'paper_panel.py'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
@@ -11,6 +12,7 @@ on:
 permissions:
   contents: write
   actions: write
+  issues: write
 
 concurrency:
   group: trading-agent-cloud
@@ -38,6 +40,8 @@ jobs:
           pip install pandas numpy requests urllib3
 
       - name: Ejecutar Agente en Vivo en la Nube (4 horas continuas con actualizaciÃ³n en vivo del README)
+        env:
+          PANEL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -u cloud_runner.py --minutes 240 --tick 60 --sync-every 3
 

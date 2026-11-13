@@ -232,6 +232,8 @@ def run_trading_tick(
             elif decision.action.startswith("SHORT"):
                 side = "SHORT"
 
+            if side is None:
+                log_event(f"   {sym} | Esperando señal de {strat_name}")
             if side is not None:
                 existing = next((p for p in broker.state.open_positions if p['symbol'] == sym), None)
                 if (existing and existing['side'] != side and decision.confidence >= 86
@@ -266,8 +268,7 @@ def run_trading_tick(
                     reason=decision.reasons[0] if decision.reasons else reason_rm,
                     confidence=decision.confidence,
                 )
-                if ok:
-                    log_event(f"{msg} | {reason_rm}")
+                log_event(f"{sym} | {msg} | {reason_rm}")
         except Exception as exc:
             log_event(f"   ⚠️ Error en tick de {sym}: {exc}")
 
