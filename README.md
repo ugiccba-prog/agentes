@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-13 13:32:00 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-13 13:35:03 UTC`
 
 ---
 
@@ -11,22 +11,22 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$30,845.23 USD`** (`+208.45%` / `$+20,845.23 USD`) |
+| **Equity Total en Vivo** | **`$30,439.87 USD`** (`+204.40%` / `$+20,439.87 USD`) |
 | **Pico Máximo (Peak Equity)** | `$31,672.73 USD` (Inicio Día UTC: `$9,784.76 USD`) |
-| **Efectivo Cerrado (Cash)** | `$31,613.49 USD` (PnL Realizado: `$+21,613.49 USD`) |
-| **PnL Flotante Actual** | `$-768.26 USD` |
-| **Win Rate & Profit Factor Real** | `44.2%` (`19W / 24L` de `43`) · **PF `12.30`** |
-| **Meta Paper Trading (100 Trades)** | `43 / 100` cerrados |
+| **Efectivo Cerrado (Cash)** | `$30,439.87 USD` (PnL Realizado: `$+20,439.87 USD`) |
+| **PnL Flotante Actual** | `$+0.00 USD` |
+| **Win Rate & Profit Factor Real** | `43.2%` (`19W / 25L` de `44`) · **PF `7.62`** |
+| **Meta Paper Trading (100 Trades)** | `44 / 100` cerrados |
 
 **Mercados aprobados por Walk-Forward OOS esta semana:** `BTC/USDT` (`ema_pullback`, PF OOS `1.77`)
 
 ---
 
-## 📌 Posiciones Abiertas Ahora Mismo (1)
+## 📌 Posiciones Abiertas Ahora Mismo (0)
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `69204` | `69554` | `69587` (🛡️ Inicial) | `68439` | **$-768.26** (-0.61%) |
+| *Sin posiciones abiertas* | - | - | - | - | - | - | - |
 
 ---
 
@@ -34,6 +34,7 @@
 
 | Resultado | Fecha Cierre | Par | Lado | Estrategia | Entrada -> Salida | PnL Realizado | Motivo |
 |---|---|---|---|---|---|---|---|
+| ❌ PÉRDIDA | `2026-11-13 13:33:01 UTC` | `BTC/USDT` | **SHORT** | `ema_pullback` | `69204` -> `69775` | **$-1173.62** (-0.92%) | `Stop Loss / Trailing Stop Ejecutado` |
 | ❌ PÉRDIDA | `2026-11-13 07:01:17 UTC` | `EUR/USD` | **SHORT** | `confluence` | `1.1059` -> `1.1073` | **$-28.46** (-0.14%) | `Stop Loss / Trailing Stop Ejecutado` |
 | ❌ PÉRDIDA | `2026-11-13 06:37:29 UTC` | `USD/JPY` | **LONG** | `trend_macd` | `159.88` -> `159.87` | **$-4.78** (-0.02%) | `Stop Loss / Trailing Stop Ejecutado` |
 | ✅ GANANCIA | `2026-11-13 04:10:51 UTC` | `ETH/USDT` | **SHORT** | `ema_pullback` | `2015.7` -> `1936.9` | **$+161.39** (+3.81%) | `Take Profit Alcanzado` |
@@ -48,14 +49,12 @@
 | ❌ PÉRDIDA | `2026-11-13 02:06:01 UTC` | `PEPE/USDT` | **SHORT** | `trend_macd` | `4.53e-06` -> `4.66e-06` | **$-135.85** (-2.97%) | `Stop Loss / Trailing Stop Ejecutado` |
 | ❌ PÉRDIDA | `2026-11-13 02:06:01 UTC` | `XAU/USD` | **SHORT** | `confluence` | `3888.9` -> `3915` | **$-96.56** (-0.69%) | `Stop Loss / Trailing Stop Ejecutado` |
 | ✅ GANANCIA | `2026-11-13 02:06:01 UTC` | `SUI/USDT` | **LONG** | `ema_pullback` | `0.7869` -> `0.8014` | **$+202.54** (+1.74%) | `Stop Loss / Trailing Stop Ejecutado` |
-| ❌ PÉRDIDA | `2026-11-12 20:59:57 UTC` | `GBP/USD` | **SHORT** | `confluence` | `1.3225` -> `1.324` | **$-82.21** (-0.13%) | `Stop Loss / Trailing Stop Ejecutado` |
 
 ---
 
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 13:11:41]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 13:11:43]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 13:11:45]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 13:11:45]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
@@ -70,4 +69,5 @@
 [2026-11-13 13:16:13] 💓 Cierre de Vela | Equity: $31,476.78 USD (Efectivo: $31,613.49 | Flotante: $-136.71 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 43
 [2026-11-13 13:30:39] ☁️ [GITHUB CLOUD] Cierre de vela #77 de la sesión #16...
 [2026-11-13 13:30:58] 💓 Cierre de Vela | Equity: $31,182.75 USD (Efectivo: $31,613.49 | Flotante: $-430.74 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 43
+[2026-11-13 13:33:03] ✅ CERRADA BTC/USDT (SHORT) a 69774.99 | PnL: $-1173.62 USD (Stop Loss / Trailing Stop Ejecutado)
 ```
