@@ -1067,3 +1067,5 @@
 [2026-11-13 17:12:38]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 17:12:38]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 17:12:38] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-13 17:15:39] ☁️ [GITHUB CLOUD] Cierre de vela #63 de la sesión #17...
+[2026-11-13 17:15:52] 💓 Cierre de Vela | Equity: $31,696.93 USD (Efectivo: $31,696.93 | Flotante: $+0.00 | Peak: $31,696.93) | Abiertas: 0 | Cerradas: 45
