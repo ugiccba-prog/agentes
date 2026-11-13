@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `17` | **Última actualización:** `2026-11-13 18:29:48 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `17` | **Última actualización:** `2026-11-13 18:33:03 UTC`
 
 ---
 
@@ -55,8 +55,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 18:13:16]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 18:13:18]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 18:13:20]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 18:13:21]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 18:13:23]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
@@ -70,4 +68,6 @@
 [2026-11-13 18:13:24] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-13 18:15:25] ☁️ [GITHUB CLOUD] Cierre de vela #121 de la sesión #17...
 [2026-11-13 18:15:42] 💓 Cierre de Vela | Equity: $31,696.93 USD (Efectivo: $31,696.93 | Flotante: $+0.00 | Peak: $31,696.93) | Abiertas: 0 | Cerradas: 45
+[2026-11-13 18:30:49] ☁️ [GITHUB CLOUD] Cierre de vela #136 de la sesión #17...
+[2026-11-13 18:31:03] 💓 Cierre de Vela | Equity: $31,696.93 USD (Efectivo: $31,696.93 | Flotante: $+0.00 | Peak: $31,696.93) | Abiertas: 0 | Cerradas: 45
 ```
