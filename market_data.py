@@ -270,6 +270,7 @@ def get_historical_data(
     interval: str = "1h",
     limit: int = 1500,
     use_cache: bool = True,
+    live_only: bool = False,
 ) -> tuple[pd.DataFrame, str]:
     """
     Obtiene datos históricos OHLCV para cualquier par Cripto o Forex.
@@ -297,6 +298,9 @@ def get_historical_data(
         if use_cache:
             df.to_csv(cache_file, index=False)
         return df, source
+
+    if live_only:
+        return pd.DataFrame(), "Sin cotización de mercado"
 
     if use_cache and cache_file.exists():
         cached_df = pd.read_csv(cache_file, parse_dates=["timestamp"])

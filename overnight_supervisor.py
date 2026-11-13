@@ -87,7 +87,7 @@ def run_self_correction_phase(
 
     for sym in DEFAULT_SYMBOLS:
         try:
-            df_raw, source = get_historical_data(sym, interval=interval, limit=1500, use_cache=True)
+            df_raw, source = get_historical_data(sym, interval=interval, limit=1500, use_cache=True, live_only=True)
             df_closed = closed_only(df_raw, interval)
             if df_closed is None or len(df_closed) < 800:
                 log_event(
@@ -166,7 +166,7 @@ def run_self_correction_phase(
 def _get_macro_bias_1h(symbol: str) -> int:
     """Calcula el sesgo macro en velas cerradas de 1 hora: 1 = Alcista, -1 = Bajista, 0 = Neutro."""
     try:
-        df_1h, _ = get_historical_data(symbol, interval="1h", limit=120, use_cache=False)
+        df_1h, _ = get_historical_data(symbol, interval="1h", limit=120, use_cache=False, live_only=True)
         df_1h = closed_only(df_1h, "1h")
         if df_1h is None or len(df_1h) < 50:
             return 0
@@ -199,7 +199,7 @@ def run_trading_tick(
 
     for sym, sym_cfg in cfg.get("symbols", {}).items():
         try:
-            df_raw, _ = get_historical_data(sym, interval=interval, limit=300, use_cache=False)
+            df_raw, _ = get_historical_data(sym, interval=interval, limit=300, use_cache=False, live_only=True)
             df_closed = closed_only(df_raw, interval)
             if df_closed is None or len(df_closed) < 60:
                 continue
@@ -233,6 +233,11 @@ def run_trading_tick(
                 side = "SHORT"
 
             if side is not None:
+                existing = next((p for p in broker.state.open_positions if p['symbol'] == sym), None)
+                if (existing and existing['side'] != side and decision.confidence >= 86
+                        and existing.get('broker_mode', '').startswith('Paper Trading')):
+                    log_event(broker.close_position_by_symbol(sym, reason='Señal contraria confirmada'))
+                    continue
                 st = broker.state
                 ok_rm, risk_rm, reason_rm = rm.decide(
                     equity=st.equity_usd,

@@ -12,6 +12,7 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 import hashlib
 import hmac
+import math
 import json
 import os
 from pathlib import Path
@@ -96,6 +97,7 @@ class PortfolioState:
     last_updated: str = ""
     open_positions: list[dict] = field(default_factory=list)
     closed_trades: list[dict] = field(default_factory=list)
+    excluded_trades: list[dict] = field(default_factory=list)
 
 
 class BinanceTestnetConnector:
@@ -215,6 +217,20 @@ class LiveExecutionBroker:
             try:
                 raw = json.loads(PORTFOLIO_FILE.read_text(encoding="utf-8"))
                 st = PortfolioState(**raw)
+                for trade in st.closed_trades.copy():
+                    if (trade.get("id") == "ORD-144949" and trade.get("symbol") == "DOGE/USDT"
+                            and trade.get("pnl_usd") == 21517.24):
+                        st.closed_trades.remove(trade)
+                        st.excluded_trades.append(trade)
+                        gain = trade["pnl_usd"]
+                        st.cash_balance_usd = round(st.cash_balance_usd - gain, 2)
+                        st.realized_pnl_usd = round(st.realized_pnl_usd - gain, 2)
+                        st.equity_usd = round(st.equity_usd - gain, 2)
+                        st.peak_equity_usd = max(st.initial_balance_usd, round(st.peak_equity_usd - gain, 2))
+                        if st.current_day_utc > trade["exit_time"][:10]:
+                            st.day_start_equity_usd = round(st.day_start_equity_usd - gain, 2)
+                        st.total_trades -= 1
+                        st.winning_trades -= 1
                 self._sync_watermarks(st)
                 return st
             except Exception:
@@ -254,7 +270,7 @@ class LiveExecutionBroker:
         self.save()
         return self.state
 
-    def get_live_price(self, symbol: str) -> float:
+    def get_live_price(self, symbol: str) -> float | None:
         """Obtiene el último precio en tiempo real desde Binance API (Cripto) o Yahoo Finance (Forex)."""
         market = get_market_type(symbol)
         if market == "crypto":
@@ -266,12 +282,17 @@ class LiveExecutionBroker:
                     timeout=6,
                 )
                 if resp.status_code == 200:
-                    return float(resp.json()["price"])
+                    price = float(resp.json()["price"])
+                    if math.isfinite(price) and price > 0:
+                        return price
             except Exception:
                 pass
 
-        df, _ = get_historical_data(symbol, interval="15m", limit=5, use_cache=False)
-        return float(df["close"].iloc[-1])
+        df, _ = get_historical_data(symbol, interval="15m", limit=5, use_cache=False, live_only=True)
+        if df.empty:
+            return None
+        price = float(df["close"].iloc[-1])
+        return price if math.isfinite(price) and price > 0 else None
 
     def update_open_positions(self, atr_by_symbol: dict[str, float] | None = None) -> list[str]:
         """
@@ -286,6 +307,10 @@ class LiveExecutionBroker:
         for pos in self.state.open_positions:
             sym = pos["symbol"]
             live_price = self.get_live_price(sym)
+            if live_price is None:
+                remaining_positions.append(pos)
+                unrealized_total += float(pos.get("unrealized_pnl_usd", 0))
+                continue
             pos["current_price"] = live_price
 
             side_mult = 1.0 if pos["side"] == "LONG" else -1.0
@@ -401,9 +426,21 @@ class LiveExecutionBroker:
                     if age_minutes < 45.0 and confidence < 86.0 and float(pos.get("unrealized_pnl_usd", 0.0)) <= 0:
                         return False, f"Cooldown anti-whipsaw activo en {symbol} ({age_minutes:.0f}m abierta)."
                     self.close_position_by_symbol(symbol, reason=f"Giro de Señal a {side}")
+                    if any(p["symbol"] == symbol for p in self.state.open_positions):
+                        return False, f"Cierre pendiente en {symbol}."
                     break
                 return False, f"Ya existe una posición {pos['side']} abierta en {symbol}."
 
+        # La señal usa una vela cerrada. Simular el fill con una cotización actual.
+        quote = self.get_live_price(symbol)
+        planned_risk = abs(entry_price - stop_loss)
+        if quote is None or not all(map(math.isfinite, (entry_price, stop_loss, take_profit))):
+            return False, f"Sin precio verificable en {symbol}."
+        if planned_risk <= 0 or abs(quote - entry_price) > 0.25 * planned_risk:
+            return False, f"Precio fuera del margen de entrada en {symbol}."
+        if not (stop_loss < quote < take_profit if side == "LONG" else take_profit < quote < stop_loss):
+            return False, f"Niveles de salida incompatibles con el precio de {symbol}."
+        entry_price = quote
         stop_dist = abs(entry_price - stop_loss)
         if stop_dist <= 0:
             return False, f"Distancia de Stop Loss inválida en {symbol}."
@@ -531,6 +568,8 @@ class LiveExecutionBroker:
         for pos in self.state.open_positions:
             if pos["symbol"] == symbol:
                 live_price = self.get_live_price(symbol)
+                if live_price is None:
+                    return f"Sin cotización para cerrar {symbol}."
                 side_mult = 1.0 if pos["side"] == "LONG" else -1.0
                 entry = float(pos["entry_price"])
                 size = float(pos["size"])
