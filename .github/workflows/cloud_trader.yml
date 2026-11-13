@@ -1,6 +1,9 @@
 name: Agente Trading 24/7 en la Nube
 
 on:
+  push:
+    paths:
+      - '.github/paper-reset-20261113'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
@@ -11,7 +14,7 @@ permissions:
 
 concurrency:
   group: trading-agent-cloud
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'push' }}
 
 jobs:
   trade-in-cloud:
@@ -34,11 +37,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas numpy requests urllib3
 
-      - name: Ejecutar Agente en Vivo en la Nube (4 horas continuas con actualización en vivo del README)
+      - name: Ejecutar Agente en Vivo en la Nube (4 horas continuas con actualizaciÃ³n en vivo del README)
         run: |
           python -u cloud_runner.py --minutes 240 --tick 60 --sync-every 3
 
-      - name: Auto-Encadenar Siguiente Sesión 24/7 sin pausa
+      - name: Auto-Encadenar Siguiente SesiÃ³n 24/7 sin pausa
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
