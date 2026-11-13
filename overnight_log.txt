@@ -986,3 +986,25 @@
 [2026-11-13 14:45:54] 💓 Cierre de Vela | Equity: $30,420.14 USD (Efectivo: $30,439.87 | Flotante: $-19.73 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 44
 [2026-11-13 15:00:21] ☁️ [GITHUB CLOUD] Cierre de vela #163 de la sesión #16...
 [2026-11-13 15:00:41] 💓 Cierre de Vela | Equity: $30,607.07 USD (Efectivo: $30,439.87 | Flotante: $+167.20 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 44
+[2026-11-13 15:13:05] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...
+[2026-11-13 15:13:07]    🔎 [BTC/USDT] -> ACTIVO | WF OOS APROBADO (ema_pullback) | PF=1.77, Exp=+0.39R, WR=50.0%, Trades=8
+[2026-11-13 15:13:10]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:12]    🔎 [SOL/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:15]    🔎 [BNB/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:17]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:19]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:21]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:23]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:26]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:28]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:30]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:31]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:31]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:31]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:31]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:31]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:32]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:32]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 15:13:32] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-13 15:15:33] ☁️ [GITHUB CLOUD] Cierre de vela #177 de la sesión #16...
+[2026-11-13 15:15:53] 💓 Cierre de Vela | Equity: $30,734.61 USD (Efectivo: $30,439.87 | Flotante: $+294.74 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 44
