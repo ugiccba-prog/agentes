@@ -1260,3 +1260,13 @@
 [2026-11-13 02:15:35] ☁️ [GITHUB CLOUD] Pulso #87 de la sesión #11...
 [2026-11-13 02:15:44] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT | Entrada: 0.06581000 | SL: 0.06645136 | TP: 0.06449813 | Tamaño: $4,859.45 USD (Riesgo controlado: $340.16)
 [2026-11-13 02:16:00] 💓 Pulso En Vivo | Equity: $9,703.74 USD (Efectivo: $9,654.36 | Flotante: $+49.38) | Abiertas: 12 | Cerradas: 71
+[2026-11-13 02:17:01] ☁️ [GITHUB CLOUD] Pulso #88 de la sesión #11...
+[2026-11-13 02:17:27] ✅ CERRADA SUI/USDT (LONG) a 0.7961 | PnL: $-67.38 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-13 02:17:27] 🔒 Trailing Stop bajado en SOL/USDT SHORT a 81.1357214197
+[2026-11-13 02:17:27] 💓 Pulso En Vivo | Equity: $9,708.56 USD (Efectivo: $9,586.98 | Flotante: $+121.58) | Abiertas: 11 | Cerradas: 72
+[2026-11-13 02:18:27] ☁️ [GITHUB CLOUD] Pulso #89 de la sesión #11...
+[2026-11-13 02:18:50] 🔒 Trailing Stop bajado en ETH/USDT SHORT a 2007.7467387769
+[2026-11-13 02:18:50] 🔒 Trailing Stop bajado en SOL/USDT SHORT a 81.0611499911
+[2026-11-13 02:18:50] 💓 Pulso En Vivo | Equity: $9,722.69 USD (Efectivo: $9,586.98 | Flotante: $+135.71) | Abiertas: 11 | Cerradas: 72
+[2026-11-13 02:19:50] ☁️ [GITHUB CLOUD] Pulso #90 de la sesión #11...
+[2026-11-13 02:20:14] 💓 Pulso En Vivo | Equity: $9,698.87 USD (Efectivo: $9,586.98 | Flotante: $+111.89) | Abiertas: 11 | Cerradas: 72
