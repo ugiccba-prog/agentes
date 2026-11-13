@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `18` | **Última actualización:** `2026-11-13 22:27:52 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `18` | **Última actualización:** `2026-11-13 22:31:15 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$32,325.50 USD`** (`+223.25%` / `$+22,325.50 USD`) |
+| **Equity Total en Vivo** | **`$32,364.82 USD`** (`+223.65%` / `$+22,364.82 USD`) |
 | **Pico Máximo (Peak Equity)** | `$32,677.22 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$31,696.93 USD` (PnL Realizado: `$+21,696.93 USD`) |
-| **PnL Flotante Actual** | `$+628.57 USD` |
+| **PnL Flotante Actual** | `$+667.89 USD` |
 | **Win Rate & Profit Factor Real** | `44.4%` (`20W / 25L` de `45`) · **PF `8.03`** |
 | **Meta Paper Trading (100 Trades)** | `45 / 100` cerrados |
 
@@ -26,7 +26,7 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `68847` | `68351` | `68847` (🔒 BE/Trail) | `67890` | **$+628.57** (+0.62%) |
+| `BTC/USDT` | **SHORT** | `ema_pullback` | `68847` | `68324` | `68847` (🔒 BE/Trail) | `67890` | **$+667.89** (+0.66%) |
 
 ---
 
@@ -55,8 +55,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 22:12:59]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 22:13:01]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:13:03]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:13:06]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 22:13:08]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
@@ -70,4 +68,6 @@
 [2026-11-13 22:13:09] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-13 22:15:11] ☁️ [GITHUB CLOUD] Cierre de vela #117 de la sesión #18...
 [2026-11-13 22:15:29] 💓 Cierre de Vela | Equity: $32,666.54 USD (Efectivo: $31,696.93 | Flotante: $+969.61 | Peak: $32,677.22) | Abiertas: 1 | Cerradas: 45
+[2026-11-13 22:30:56] ☁️ [GITHUB CLOUD] Cierre de vela #132 de la sesión #18...
+[2026-11-13 22:31:15] 💓 Cierre de Vela | Equity: $32,364.82 USD (Efectivo: $31,696.93 | Flotante: $+667.89 | Peak: $32,677.22) | Abiertas: 1 | Cerradas: 45
 ```
