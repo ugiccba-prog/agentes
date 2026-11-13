@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 06:05:05 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 06:08:07 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$31,642.66 USD`** (`+216.43%` / `$+21,642.66 USD`) |
-| **Pico Máximo (Peak Equity)** | `$31,650.67 USD` (Inicio Día UTC: `$9,784.76 USD`) |
+| **Equity Total en Vivo** | **`$31,652.85 USD`** (`+216.53%` / `$+21,652.85 USD`) |
+| **Pico Máximo (Peak Equity)** | `$31,658.01 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$31,646.73 USD` (PnL Realizado: `$+21,646.73 USD`) |
-| **PnL Flotante Actual** | `$-4.07 USD` |
+| **PnL Flotante Actual** | `$+6.12 USD` |
 | **Win Rate & Profit Factor Real** | `46.3%` (`19W / 22L` de `41`) · **PF `12.51`** |
 | **Meta Paper Trading (100 Trades)** | `41 / 100` cerrados |
 
@@ -26,8 +26,8 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1064` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-12.90** (-0.06%) |
-| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.98` | `159.72` (🛡️ Inicial) | `160.21` | **$+8.83** (+0.05%) |
+| `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1063` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-10.67** (-0.05%) |
+| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `160.05` | `159.88` (🔒 BE/Trail) | `160.21` | **$+16.79** (+0.09%) |
 
 ---
 
@@ -56,7 +56,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 05:11:16]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 05:11:16]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 05:11:16]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 05:11:17]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
@@ -71,4 +70,5 @@
 [2026-11-13 05:45:35] 💓 Cierre de Vela | Equity: $31,645.52 USD (Efectivo: $31,646.73 | Flotante: $-1.21 | Peak: $31,650.67) | Abiertas: 2 | Cerradas: 41
 [2026-11-13 06:00:45] ☁️ [GITHUB CLOUD] Cierre de vela #107 de la sesión #14...
 [2026-11-13 06:01:03] 💓 Cierre de Vela | Equity: $31,644.90 USD (Efectivo: $31,646.73 | Flotante: $-1.83 | Peak: $31,650.67) | Abiertas: 2 | Cerradas: 41
+[2026-11-13 06:07:07] 🔒 Stop (Breakeven) en USD/JPY LONG ajustado a 159.8789978027
 ```
