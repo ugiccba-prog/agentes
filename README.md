@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-13 14:11:56 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-13 14:15:41 UTC`
 
 ---
 
@@ -55,19 +55,19 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 13:11:46]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 13:11:46]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 13:11:46]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 13:11:47]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 13:11:47]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 13:11:47] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-13 13:15:53] ☁️ [GITHUB CLOUD] Cierre de vela #63 de la sesión #16...
-[2026-11-13 13:16:13] 💓 Cierre de Vela | Equity: $31,476.78 USD (Efectivo: $31,613.49 | Flotante: $-136.71 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 43
-[2026-11-13 13:30:39] ☁️ [GITHUB CLOUD] Cierre de vela #77 de la sesión #16...
-[2026-11-13 13:30:58] 💓 Cierre de Vela | Equity: $31,182.75 USD (Efectivo: $31,613.49 | Flotante: $-430.74 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 43
-[2026-11-13 13:33:03] ✅ CERRADA BTC/USDT (SHORT) a 69774.99 | PnL: $-1173.62 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 13:45:08] ☁️ [GITHUB CLOUD] Cierre de vela #91 de la sesión #16...
-[2026-11-13 13:45:26] 💓 Cierre de Vela | Equity: $30,439.87 USD (Efectivo: $30,439.87 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 44
-[2026-11-13 14:00:33] ☁️ [GITHUB CLOUD] Cierre de vela #106 de la sesión #16...
-[2026-11-13 14:00:52] 💓 Cierre de Vela | Equity: $30,439.87 USD (Efectivo: $30,439.87 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 44
+[2026-11-13 14:12:12]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:14]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:16]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:18]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:20]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:21]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:21]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:21]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:21]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:21]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:22]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:22]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 14:12:22] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-13 14:15:23] ☁️ [GITHUB CLOUD] Cierre de vela #120 de la sesión #16...
+[2026-11-13 14:15:41] 💓 Cierre de Vela | Equity: $30,439.87 USD (Efectivo: $30,439.87 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 44
 ```
