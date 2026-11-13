@@ -1,1 +1,22 @@
 Inicio de la nueva cartera paper.
+[2026-11-13 22:54:09] ☁️ [GITHUB CLOUD] Iniciando bloque continuo #1 (240 min)...
+[2026-11-13 22:54:09] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...
+[2026-11-13 22:54:12]    🔎 [BTC/USDT] -> ACTIVO | WF OOS APROBADO (ema_pullback) | PF=1.46, Exp=+0.26R, WR=44.4%, Trades=9
+[2026-11-13 22:54:15]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:17]    🔎 [SOL/USDT] -> ACTIVO | WF OOS APROBADO (ema_pullback) | PF=1.68, Exp=+0.26R, WR=33.3%, Trades=12
+[2026-11-13 22:54:20]    🔎 [BNB/USDT] -> ACTIVO | WF OOS APROBADO (ema_pullback) | PF=1.51, Exp=+0.29R, WR=46.2%, Trades=13
+[2026-11-13 22:54:22]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:24]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:27]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:29]    🔎 [AVAX/USDT] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=1.16, Exp=+0.08R, WR=30.3%, Trades=33
+[2026-11-13 22:54:32]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:34]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:37]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:37]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:37]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:38]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:38]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:38]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:38]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:39]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-13 22:54:39] ✅ FASE WALK-FORWARD COMPLETADA (18 ajustes aplicados).

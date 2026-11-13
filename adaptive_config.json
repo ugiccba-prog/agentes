@@ -1,9 +1,202 @@
 {
-  "session_count": 0,
-  "corrections_applied": 0,
+  "session_count": 1,
+  "corrections_applied": 18,
   "global_risk_pct": 3.5,
-  "symbols": {},
-  "last_updated": "2026-11-13 22:13:09 UTC",
+  "symbols": {
+    "BTC/USDT": {
+      "enabled": true,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "backtest_return_pct": 2.38,
+      "backtest_profit_factor": 1.46,
+      "backtest_win_rate": 44.4,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "WF OOS APROBADO (ema_pullback) | PF=1.46, Exp=+0.26R, WR=44.4%, Trades=9"
+    },
+    "ETH/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "SOL/USDT": {
+      "enabled": true,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 4.0,
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "backtest_return_pct": 3.12,
+      "backtest_profit_factor": 1.68,
+      "backtest_win_rate": 33.3,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "WF OOS APROBADO (ema_pullback) | PF=1.68, Exp=+0.26R, WR=33.3%, Trades=12"
+    },
+    "BNB/USDT": {
+      "enabled": true,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "backtest_return_pct": 3.79,
+      "backtest_profit_factor": 1.51,
+      "backtest_win_rate": 46.2,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "WF OOS APROBADO (ema_pullback) | PF=1.51, Exp=+0.29R, WR=46.2%, Trades=13"
+    },
+    "XRP/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "DOGE/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "SUI/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "AVAX/USDT": {
+      "enabled": true,
+      "strategy": "bollinger_reversion",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "backtest_return_pct": 2.68,
+      "backtest_profit_factor": 1.16,
+      "backtest_win_rate": 30.3,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "WF OOS APROBADO (bollinger_reversion) | PF=1.16, Exp=+0.08R, WR=30.3%, Trades=33"
+    },
+    "LINK/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "PEPE/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "ADA/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "XAU/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "GBP/JPY": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "EUR/JPY": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "EUR/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "GBP/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "USD/JPY": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "AUD/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    }
+  },
+  "last_updated": "2026-11-13 22:54:39 UTC",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
   "risk_config": {
     "base_risk_pct": 1.5,

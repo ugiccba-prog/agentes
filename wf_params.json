@@ -1,1 +1,154 @@
-{}
+{
+  "BTC/USDT": {
+    "ts": 1794610452.503131,
+    "params": {
+      "strategy": "ema_pullback",
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "train": {
+        "n": 15,
+        "expectancy": 0.06116941799787375,
+        "pf": 1.13918858742771,
+        "win_rate": 0.26666666666666666,
+        "max_dd_r": 2.7942918598879882
+      },
+      "oos": {
+        "n": 9,
+        "expectancy": 0.2647500074328328,
+        "pf": 1.459527889898867,
+        "win_rate": 0.4444444444444444,
+        "max_dd_r": 2.348055076581217
+      }
+    }
+  },
+  "ETH/USDT": {
+    "ts": 1794610455.0656886,
+    "params": null
+  },
+  "SOL/USDT": {
+    "ts": 1794610457.5494142,
+    "params": {
+      "strategy": "ema_pullback",
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 4.0,
+      "train": {
+        "n": 13,
+        "expectancy": 0.07370533782519002,
+        "pf": 1.1428937471121843,
+        "win_rate": 0.3076923076923077,
+        "max_dd_r": 3.5137587794548435
+      },
+      "oos": {
+        "n": 12,
+        "expectancy": 0.25962166163332173,
+        "pf": 1.6752352096544785,
+        "win_rate": 0.3333333333333333,
+        "max_dd_r": 2.187555645160848
+      }
+    }
+  },
+  "BNB/USDT": {
+    "ts": 1794610460.0214024,
+    "params": {
+      "strategy": "ema_pullback",
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "train": {
+        "n": 12,
+        "expectancy": 0.17019790920563374,
+        "pf": 1.2773535186640785,
+        "win_rate": 0.4166666666666667,
+        "max_dd_r": 2.6141344470901684
+      },
+      "oos": {
+        "n": 13,
+        "expectancy": 0.2915471843729599,
+        "pf": 1.5142532519598564,
+        "win_rate": 0.46153846153846156,
+        "max_dd_r": 3.898214247309265
+      }
+    }
+  },
+  "XRP/USDT": {
+    "ts": 1794610462.4253058,
+    "params": null
+  },
+  "DOGE/USDT": {
+    "ts": 1794610464.8694513,
+    "params": null
+  },
+  "SUI/USDT": {
+    "ts": 1794610467.358689,
+    "params": null
+  },
+  "AVAX/USDT": {
+    "ts": 1794610469.8040664,
+    "params": {
+      "strategy": "bollinger_reversion",
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "train": {
+        "n": 41,
+        "expectancy": 0.23884323182824027,
+        "pf": 1.5113753352066015,
+        "win_rate": 0.36585365853658536,
+        "max_dd_r": 3.8405161363013214
+      },
+      "oos": {
+        "n": 33,
+        "expectancy": 0.0812455062027927,
+        "pf": 1.160570315930589,
+        "win_rate": 0.30303030303030304,
+        "max_dd_r": 3.51718101474651
+      }
+    }
+  },
+  "LINK/USDT": {
+    "ts": 1794610472.2220492,
+    "params": null
+  },
+  "PEPE/USDT": {
+    "ts": 1794610474.6545932,
+    "params": null
+  },
+  "ADA/USDT": {
+    "ts": 1794610477.069523,
+    "params": null
+  },
+  "XAU/USD": {
+    "ts": 1794610477.4097507,
+    "params": null
+  },
+  "GBP/JPY": {
+    "ts": 1794610477.7159467,
+    "params": null
+  },
+  "EUR/JPY": {
+    "ts": 1794610478.0063875,
+    "params": null
+  },
+  "EUR/USD": {
+    "ts": 1794610478.2846668,
+    "params": null
+  },
+  "GBP/USD": {
+    "ts": 1794610478.5712562,
+    "params": null
+  },
+  "USD/JPY": {
+    "ts": 1794610478.84496,
+    "params": null
+  },
+  "AUD/USD": {
+    "ts": 1794610479.1422787,
+    "params": null
+  }
+}
