@@ -1,6 +1,6 @@
 {
   "session_count": 11,
-  "corrections_applied": 169,
+  "corrections_applied": 186,
   "global_risk_pct": 3.5,
   "symbols": {
     "BTC/USDT": {
@@ -25,11 +25,11 @@
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 0.65,
-      "backtest_return_pct": 12.1,
-      "backtest_profit_factor": 1.9,
-      "backtest_win_rate": 54.5,
+      "backtest_return_pct": 13.58,
+      "backtest_profit_factor": 2.1,
+      "backtest_win_rate": 60.0,
       "data_source": "Binance API (En Vivo)",
-      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.90, WinRate=54.5%, Ret=+12.1%) | Ajuste defensivo aplicado tras 10 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.5x ATR"
+      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.10, WinRate=60.0%, Ret=+13.6%) | Ajuste defensivo aplicado tras 10 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.5x ATR"
     },
     "SOL/USDT": {
       "enabled": true,
@@ -39,11 +39,11 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "risk_multiplier": 1.35,
-      "backtest_return_pct": 18.83,
-      "backtest_profit_factor": 1.84,
-      "backtest_win_rate": 56.2,
+      "backtest_return_pct": 26.17,
+      "backtest_profit_factor": 2.27,
+      "backtest_win_rate": 62.5,
       "data_source": "Binance API (En Vivo)",
-      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.84, WinRate=56.2%, Ret=+18.8%)"
+      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.27, WinRate=62.5%, Ret=+26.2%)"
     },
     "BNB/USDT": {
       "enabled": false,
@@ -53,7 +53,7 @@
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 1.0,
-      "backtest_return_pct": -3.49,
+      "backtest_return_pct": -3.48,
       "backtest_profit_factor": 0.85,
       "backtest_win_rate": 36.4,
       "data_source": "Binance API (En Vivo)",
@@ -67,11 +67,11 @@
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 0.65,
-      "backtest_return_pct": 39.47,
-      "backtest_profit_factor": 7.84,
+      "backtest_return_pct": 38.67,
+      "backtest_profit_factor": 7.74,
       "backtest_win_rate": 90.9,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=7.84, WinRate=90.9%, Ret=+39.5%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR"
+      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=7.74, WinRate=90.9%, Ret=+38.7%) | Ajuste defensivo aplicado tras 4 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR"
     },
     "GBP/USD": {
       "enabled": true,
@@ -81,27 +81,13 @@
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 0.65,
-      "backtest_return_pct": 27.44,
-      "backtest_profit_factor": 3.59,
-      "backtest_win_rate": 76.0,
+      "backtest_return_pct": 26.45,
+      "backtest_profit_factor": 4.17,
+      "backtest_win_rate": 79.2,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.59, WinRate=76.0%, Ret=+27.4%) | Ajuste defensivo aplicado tras 5 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR"
+      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.17, WinRate=79.2%, Ret=+26.5%) | Ajuste defensivo aplicado tras 8 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR"
     },
     "USD/JPY": {
-      "enabled": false,
-      "strategy": "trend_macd",
-      "sl_atr_mult": 2.2,
-      "tp_atr_mult": 4.5,
-      "ema_fast": 9,
-      "ema_slow": 21,
-      "risk_multiplier": 1.0,
-      "backtest_return_pct": 1.3,
-      "backtest_profit_factor": 1.07,
-      "backtest_win_rate": 46.2,
-      "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "DESCARTADO por baja rentabilidad (PF=1.07, Ret=+1.3%)"
-    },
-    "AUD/USD": {
       "enabled": true,
       "strategy": "confluence",
       "sl_atr_mult": 1.5,
@@ -109,11 +95,25 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "risk_multiplier": 1.0,
-      "backtest_return_pct": 17.42,
-      "backtest_profit_factor": 1.63,
-      "backtest_win_rate": 60.0,
+      "backtest_return_pct": 3.98,
+      "backtest_profit_factor": 1.17,
+      "backtest_win_rate": 52.0,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "Optimizado agresivo con confluence (PF=1.63, WinRate=60.0%, Ret=+17.4%)"
+      "notes": "Optimizado agresivo con confluence (PF=1.17, WinRate=52.0%, Ret=+4.0%)"
+    },
+    "AUD/USD": {
+      "enabled": true,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 4.2,
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "risk_multiplier": 1.35,
+      "backtest_return_pct": 20.76,
+      "backtest_profit_factor": 3.03,
+      "backtest_win_rate": 73.3,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=3.03, WinRate=73.3%, Ret=+20.8%)"
     },
     "XRP/USDT": {
       "enabled": false,
@@ -123,27 +123,13 @@
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 1.0,
-      "backtest_return_pct": -3.13,
-      "backtest_profit_factor": 0.81,
-      "backtest_win_rate": 50.0,
+      "backtest_return_pct": 1.86,
+      "backtest_profit_factor": 1.15,
+      "backtest_win_rate": 58.3,
       "data_source": "Binance API (En Vivo)",
-      "notes": "DESCARTADO por baja rentabilidad (PF=0.81, Ret=-3.1%)"
+      "notes": "DESCARTADO por baja rentabilidad (PF=1.15, Ret=+1.9%)"
     },
     "DOGE/USDT": {
-      "enabled": true,
-      "strategy": "ema_pullback",
-      "sl_atr_mult": 2.0,
-      "tp_atr_mult": 4.2,
-      "ema_fast": 9,
-      "ema_slow": 21,
-      "risk_multiplier": 1.0,
-      "backtest_return_pct": 8.04,
-      "backtest_profit_factor": 1.65,
-      "backtest_win_rate": 62.5,
-      "data_source": "Binance API (En Vivo)",
-      "notes": "Optimizado agresivo con ema_pullback (PF=1.65, WinRate=62.5%, Ret=+8.0%)"
-    },
-    "SUI/USDT": {
       "enabled": true,
       "strategy": "trend_macd",
       "sl_atr_mult": 2.2,
@@ -151,39 +137,53 @@
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 1.0,
-      "backtest_return_pct": 5.28,
-      "backtest_profit_factor": 1.3,
-      "backtest_win_rate": 54.5,
+      "backtest_return_pct": 6.48,
+      "backtest_profit_factor": 1.31,
+      "backtest_win_rate": 57.1,
       "data_source": "Binance API (En Vivo)",
-      "notes": "Optimizado agresivo con trend_macd (PF=1.30, WinRate=54.5%, Ret=+5.3%)"
+      "notes": "Optimizado agresivo con trend_macd (PF=1.31, WinRate=57.1%, Ret=+6.5%)"
+    },
+    "SUI/USDT": {
+      "enabled": false,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.4,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "risk_multiplier": 1.0,
+      "backtest_return_pct": 1.58,
+      "backtest_profit_factor": 1.04,
+      "backtest_win_rate": 40.0,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "DESCARTADO por baja rentabilidad (PF=1.04, Ret=+1.6%)"
     },
     "AVAX/USDT": {
       "enabled": false,
       "strategy": "trend_macd",
-      "sl_atr_mult": 1.6,
-      "tp_atr_mult": 3.5,
-      "ema_fast": 12,
-      "ema_slow": 26,
-      "risk_multiplier": 1.0,
-      "backtest_return_pct": -0.07,
-      "backtest_profit_factor": 1.0,
-      "backtest_win_rate": 53.3,
-      "data_source": "Binance API (En Vivo)",
-      "notes": "DESCARTADO por baja rentabilidad (PF=1.00, Ret=-0.1%)"
-    },
-    "LINK/USDT": {
-      "enabled": false,
-      "strategy": "ema_pullback",
-      "sl_atr_mult": 2.0,
-      "tp_atr_mult": 4.2,
+      "sl_atr_mult": 2.2,
+      "tp_atr_mult": 4.5,
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 1.0,
-      "backtest_return_pct": -1.34,
-      "backtest_profit_factor": 0.95,
-      "backtest_win_rate": 46.2,
+      "backtest_return_pct": -2.85,
+      "backtest_profit_factor": 0.88,
+      "backtest_win_rate": 46.7,
       "data_source": "Binance API (En Vivo)",
-      "notes": "DESCARTADO por baja rentabilidad (PF=0.95, Ret=-1.3%)"
+      "notes": "DESCARTADO por baja rentabilidad (PF=0.88, Ret=-2.9%)"
+    },
+    "LINK/USDT": {
+      "enabled": false,
+      "strategy": "bollinger_reversion",
+      "sl_atr_mult": 1.8,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "risk_multiplier": 1.0,
+      "backtest_return_pct": -1.81,
+      "backtest_profit_factor": 0.96,
+      "backtest_win_rate": 56.5,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "DESCARTADO por baja rentabilidad (PF=0.96, Ret=-1.8%)"
     },
     "PEPE/USDT": {
       "enabled": true,
@@ -193,7 +193,7 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "risk_multiplier": 0.65,
-      "backtest_return_pct": 25.16,
+      "backtest_return_pct": 25.17,
       "backtest_profit_factor": 2.35,
       "backtest_win_rate": 64.3,
       "data_source": "Binance API (En Vivo)",
@@ -201,31 +201,31 @@
     },
     "ADA/USDT": {
       "enabled": true,
-      "strategy": "ema_pullback",
-      "sl_atr_mult": 2.0,
-      "tp_atr_mult": 4.2,
+      "strategy": "trend_macd",
+      "sl_atr_mult": 2.2,
+      "tp_atr_mult": 4.5,
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 1.0,
-      "backtest_return_pct": 6.72,
-      "backtest_profit_factor": 1.41,
-      "backtest_win_rate": 55.6,
+      "backtest_return_pct": 6.45,
+      "backtest_profit_factor": 1.25,
+      "backtest_win_rate": 46.7,
       "data_source": "Binance API (En Vivo)",
-      "notes": "Optimizado agresivo con ema_pullback (PF=1.41, WinRate=55.6%, Ret=+6.7%)"
+      "notes": "Optimizado agresivo con trend_macd (PF=1.25, WinRate=46.7%, Ret=+6.4%)"
     },
     "XAU/USD": {
       "enabled": true,
       "strategy": "confluence",
-      "sl_atr_mult": 1.8,
-      "tp_atr_mult": 3.8,
-      "ema_fast": 9,
-      "ema_slow": 21,
-      "risk_multiplier": 1.35,
-      "backtest_return_pct": 62.7,
-      "backtest_profit_factor": 3.36,
-      "backtest_win_rate": 73.9,
+      "sl_atr_mult": 1.72,
+      "tp_atr_mult": 3.61,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "risk_multiplier": 0.65,
+      "backtest_return_pct": 67.96,
+      "backtest_profit_factor": 2.46,
+      "backtest_win_rate": 64.3,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.36, WinRate=73.9%, Ret=+62.7%)"
+      "notes": "🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.46, WinRate=64.3%, Ret=+68.0%) | Ajuste defensivo aplicado tras 7 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.72x ATR"
     },
     "GBP/JPY": {
       "enabled": true,
@@ -235,11 +235,11 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "risk_multiplier": 0.65,
-      "backtest_return_pct": 7.57,
+      "backtest_return_pct": 7.55,
       "backtest_profit_factor": 1.43,
       "backtest_win_rate": 60.0,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "Optimizado agresivo con bollinger_reversion (PF=1.43, WinRate=60.0%, Ret=+7.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.61x ATR"
+      "notes": "Optimizado agresivo con bollinger_reversion (PF=1.43, WinRate=60.0%, Ret=+7.5%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.61x ATR"
     },
     "EUR/JPY": {
       "enabled": true,
@@ -249,12 +249,12 @@
       "ema_fast": 9,
       "ema_slow": 21,
       "risk_multiplier": 1.0,
-      "backtest_return_pct": 2.46,
+      "backtest_return_pct": 2.35,
       "backtest_profit_factor": 1.18,
       "backtest_win_rate": 57.1,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "Optimizado agresivo con trend_macd (PF=1.18, WinRate=57.1%, Ret=+2.5%)"
+      "notes": "Optimizado agresivo con trend_macd (PF=1.18, WinRate=57.1%, Ret=+2.4%)"
     }
   },
-  "last_updated": "2026-11-13 01:10:56 UTC"
+  "last_updated": "2026-11-13 02:11:42 UTC"
 }
