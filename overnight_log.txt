@@ -747,3 +747,4 @@
 [2026-11-13 06:15:57] 💓 Cierre de Vela | Equity: $31,672.73 USD (Efectivo: $31,646.73 | Flotante: $+26.00 | Peak: $31,672.73) | Abiertas: 2 | Cerradas: 41
 [2026-11-13 06:30:05] ☁️ [GITHUB CLOUD] Cierre de vela #135 de la sesión #14...
 [2026-11-13 06:30:24] 💓 Cierre de Vela | Equity: $31,662.56 USD (Efectivo: $31,646.73 | Flotante: $+15.83 | Peak: $31,672.73) | Abiertas: 2 | Cerradas: 41
+[2026-11-13 06:37:29] ✅ CERRADA USD/JPY (LONG) a 159.8719940185547 | PnL: $-4.78 USD (Stop Loss / Trailing Stop Ejecutado)
