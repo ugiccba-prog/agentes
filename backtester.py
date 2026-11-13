@@ -333,6 +333,8 @@ def optimize_for_symbol(
         {"strategy_name": "ema_pullback", "sl_atr_mult": 2.0, "tp_atr_mult": 4.2, "ema_fast": 9, "ema_slow": 21},
         {"strategy_name": "momentum_shark", "sl_atr_mult": 1.3, "tp_atr_mult": 3.8, "ema_fast": 8, "ema_slow": 21},
         {"strategy_name": "momentum_shark", "sl_atr_mult": 1.5, "tp_atr_mult": 4.5, "ema_fast": 9, "ema_slow": 21},
+        {"strategy_name": "chimichurri_alpha", "sl_atr_mult": 1.6, "tp_atr_mult": 4.2, "ema_fast": 9, "ema_slow": 21},
+        {"strategy_name": "chimichurri_alpha", "sl_atr_mult": 1.8, "tp_atr_mult": 5.0, "ema_fast": 12, "ema_slow": 26},
     ]
 
     results: list[BacktestResult] = []

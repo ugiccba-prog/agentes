@@ -19,6 +19,7 @@ import time
 from urllib.parse import urlencode
 
 from market_data import _http_get, get_historical_data, get_market_type
+from risk_manager import RiskConfig, RiskManager
 import requests
 
 PORTFOLIO_FILE = Path(__file__).parent / "live_portfolio.json"
@@ -86,6 +87,9 @@ class PortfolioState:
     equity_usd: float = 10000.0
     realized_pnl_usd: float = 0.0
     unrealized_pnl_usd: float = 0.0
+    peak_equity_usd: float = 10000.0
+    day_start_equity_usd: float = 10000.0
+    current_day_utc: str = ""
     total_trades: int = 0
     winning_trades: int = 0
     losing_trades: int = 0
@@ -199,18 +203,31 @@ class LiveExecutionBroker:
 
         self.state = self._load_or_init(initial_balance_usd)
 
+    def _sync_watermarks(self, st: PortfolioState) -> None:
+        today_utc = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
+        st.peak_equity_usd = round(max(float(st.peak_equity_usd), float(st.equity_usd), float(st.initial_balance_usd)), 2)
+        if st.current_day_utc != today_utc:
+            st.current_day_utc = today_utc
+            st.day_start_equity_usd = round(float(st.equity_usd), 2)
+
     def _load_or_init(self, initial_balance_usd: float) -> PortfolioState:
         if PORTFOLIO_FILE.exists():
             try:
                 raw = json.loads(PORTFOLIO_FILE.read_text(encoding="utf-8"))
-                return PortfolioState(**raw)
+                st = PortfolioState(**raw)
+                self._sync_watermarks(st)
+                return st
             except Exception:
                 pass
-        now_str = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        now_utc = datetime.now(tz=timezone.utc)
+        now_str = now_utc.strftime("%Y-%m-%d %H:%M:%S UTC")
         st = PortfolioState(
             initial_balance_usd=initial_balance_usd,
             cash_balance_usd=initial_balance_usd,
             equity_usd=initial_balance_usd,
+            peak_equity_usd=initial_balance_usd,
+            day_start_equity_usd=initial_balance_usd,
+            current_day_utc=now_utc.strftime("%Y-%m-%d"),
             last_updated=now_str,
         )
         self.save(st)
@@ -218,15 +235,20 @@ class LiveExecutionBroker:
 
     def save(self, state: PortfolioState | None = None) -> None:
         target = state or self.state
+        self._sync_watermarks(target)
         target.last_updated = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
         PORTFOLIO_FILE.write_text(json.dumps(asdict(target), indent=2, ensure_ascii=False), encoding="utf-8")
 
     def reset_portfolio(self, initial_balance_usd: float = 10000.0) -> PortfolioState:
-        now_str = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        now_utc = datetime.now(tz=timezone.utc)
+        now_str = now_utc.strftime("%Y-%m-%d %H:%M:%S UTC")
         self.state = PortfolioState(
             initial_balance_usd=initial_balance_usd,
             cash_balance_usd=initial_balance_usd,
             equity_usd=initial_balance_usd,
+            peak_equity_usd=initial_balance_usd,
+            day_start_equity_usd=initial_balance_usd,
+            current_day_utc=now_utc.strftime("%Y-%m-%d"),
             last_updated=now_str,
         )
         self.save()
@@ -285,28 +307,34 @@ class LiveExecutionBroker:
             pos["unrealized_pnl_pct"] = round(pnl_pct, 2)
 
             closed_reason = ""
+            atr_val = (atr_by_symbol or {}).get(sym, init_risk / 1.6)
             if pos["side"] == "LONG":
                 if live_price <= sl:
                     closed_reason = "Stop Loss / Trailing Stop Ejecutado"
                 elif live_price >= tp:
                     closed_reason = "Take Profit Alcanzado"
-                elif init_risk > 0 and (live_price - entry) >= 1.1 * init_risk:
-                    atr_val = (atr_by_symbol or {}).get(sym, init_risk / 1.6)
-                    new_sl = max(sl, entry + 0.15 * init_risk, live_price - 1.35 * atr_val)
-                    if new_sl > sl:
-                        pos["stop_loss"] = round(new_sl, 10)
-                        events.append(f"🔒 Trailing Stop subido en {sym} LONG a {pos['stop_loss']}")
             else:  # SHORT
                 if live_price >= sl:
                     closed_reason = "Stop Loss / Trailing Stop Ejecutado"
                 elif live_price <= tp:
                     closed_reason = "Take Profit Alcanzado"
-                elif init_risk > 0 and (entry - live_price) >= 1.1 * init_risk:
-                    atr_val = (atr_by_symbol or {}).get(sym, init_risk / 1.6)
-                    new_sl = min(sl, entry - 0.15 * init_risk, live_price + 1.35 * atr_val)
-                    if new_sl < sl:
-                        pos["stop_loss"] = round(new_sl, 10)
-                        events.append(f"🔒 Trailing Stop bajado en {sym} SHORT a {pos['stop_loss']}")
+
+            if not closed_reason and init_risk > 0:
+                trail_mult = RiskConfig.from_adaptive_config().trail_atr_mult
+                managed_sl = RiskManager.manage_stop(
+                    side=pos["side"],
+                    entry=entry,
+                    price=live_price,
+                    sl=sl,
+                    atr=atr_val,
+                    initial_risk=init_risk,
+                    trail_atr_mult=trail_mult,
+                )
+                improved = (managed_sl > sl) if pos["side"] == "LONG" else (managed_sl < sl)
+                if improved:
+                    pos["stop_loss"] = round(managed_sl, 10)
+                    label = "Breakeven" if abs(managed_sl - entry) < 1e-9 else f"Trailing {trail_mult:.1f} ATR"
+                    events.append(f"🔒 Stop ({label}) en {sym} {pos['side']} ajustado a {pos['stop_loss']}")
 
             if closed_reason:
                 self.state.cash_balance_usd = round(self.state.cash_balance_usd + net_pnl, 2)
@@ -357,12 +385,21 @@ class LiveExecutionBroker:
         take_profit: float,
         risk_pct: float = 2.0,
         reason: str = "",
+        confidence: float = 75.0,
     ) -> tuple[bool, str]:
-        """Abre una nueva posición en tiempo real si el par no tiene ya una posición abierta."""
+        """Abre una nueva posición en tiempo real con tamaño dinámico por convicción y protección anti-ruido."""
         for pos in self.state.open_positions:
             if pos["symbol"] == symbol:
-                # Si la señal cambió al lado opuesto, cerramos primero la posición actual
                 if pos["side"] != side:
+                    # Cooldown Anti-Whipsaw: no girar por ruido en menos de 45 min salvo convicción extrema (>= 86)
+                    age_minutes = 999.0
+                    try:
+                        opened_dt = datetime.strptime(pos["entry_time"], "%Y-%m-%d %H:%M:%S UTC").replace(tzinfo=timezone.utc)
+                        age_minutes = (datetime.now(tz=timezone.utc) - opened_dt).total_seconds() / 60.0
+                    except Exception:
+                        pass
+                    if age_minutes < 45.0 and confidence < 86.0 and float(pos.get("unrealized_pnl_usd", 0.0)) <= 0:
+                        return False, f"Cooldown anti-whipsaw activo en {symbol} ({age_minutes:.0f}m abierta)."
                     self.close_position_by_symbol(symbol, reason=f"Giro de Señal a {side}")
                     break
                 return False, f"Ya existe una posición {pos['side']} abierta en {symbol}."
@@ -371,14 +408,18 @@ class LiveExecutionBroker:
         if stop_dist <= 0:
             return False, f"Distancia de Stop Loss inválida en {symbol}."
 
+        # Usar el risk_pct ya calibrado y limitado por RiskManager (tope de apalancamiento 3x)
         market = get_market_type(symbol).upper()
         risk_usd = self.state.equity_usd * (risk_pct / 100.0)
         size = risk_usd / stop_dist
 
-        max_lev = 6.0 if market == "CRYPTO" else 20.0
-        max_notional = (self.state.equity_usd * max_lev) / max(1, len(self.state.open_positions) + 1)
-        if size * entry_price > max_notional:
-            size = max_notional / entry_price
+        max_lev = RiskConfig.from_adaptive_config().max_leverage
+        notional_open = sum(float(p.get("notional_usd", 0.0)) for p in self.state.open_positions)
+        room_notional = max(0.0, self.state.equity_usd * max_lev - notional_open)
+        if room_notional <= 0:
+            return False, f"Apalancamiento total al tope ({max_lev}x)."
+        if size * entry_price > room_notional:
+            size = room_notional / entry_price
 
         notional_usd = size * entry_price
         now_str = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
@@ -415,11 +456,72 @@ class LiveExecutionBroker:
         self.state.open_positions.append(asdict(new_pos))
         self.save()
         msg = (
-            f"🚀 ORDEN ABIERTA [{broker_mode}] -> {symbol} {side} | "
+            f"🚀 ORDEN ABIERTA [{broker_mode}] -> {symbol} {side} (Conv {confidence:.0f}%) | "
             f"Entrada: {entry_price:.8f} | SL: {stop_loss:.8f} | TP: {take_profit:.8f} | "
             f"Tamaño: ${notional_usd:,.2f} USD (Riesgo controlado: ${risk_usd:,.2f})"
         )
         return True, msg
+
+    def try_pyramid_position(
+        self,
+        symbol: str,
+        live_price: float,
+        atr_val: float,
+        adx_val: float,
+        macro_bias: int,
+    ) -> tuple[bool, str]:
+        """
+        Piramidación ('Agrandar las Ganadoras'):
+        Si una posición ya está >= +1.2R en ganancia, su Stop Loss ya protege el capital (Break-Even o mejor)
+        y la tendencia acelera (ADX >= 23 y macro 1h alineado), agrega +50% de tamaño gratis de riesgo inicial.
+        """
+        for pos in self.state.open_positions:
+            if pos["symbol"] != symbol:
+                continue
+            if int(pos.get("pyramid_count", 0)) >= 1:
+                return False, ""
+            if adx_val < 23.0:
+                return False, ""
+
+            side = pos["side"]
+            if (side == "LONG" and macro_bias == -1) or (side == "SHORT" and macro_bias == 1):
+                return False, ""
+
+            entry = float(pos["entry_price"])
+            sl = float(pos["stop_loss"])
+            init_risk = float(pos.get("initial_risk_dist", 0.0))
+            if init_risk <= 0:
+                return False, ""
+
+            if side == "LONG":
+                gain = live_price - entry
+                sl_safe = sl >= entry
+            else:
+                gain = entry - live_price
+                sl_safe = sl <= entry
+
+            if gain >= 1.2 * init_risk and sl_safe:
+                old_size = float(pos["size"])
+                add_size = round(old_size * 0.5, 5)
+                new_size = round(old_size + add_size, 5)
+                new_entry = ((entry * old_size) + (live_price * add_size)) / new_size
+                pos["entry_price"] = round(new_entry, 10)
+                pos["size"] = new_size
+                pos["notional_usd"] = round(new_size * live_price, 2)
+                pos["pyramid_count"] = 1
+                if side == "LONG":
+                    pos["stop_loss"] = max(sl, round(new_entry + 0.05 * init_risk, 10))
+                    pos["take_profit"] = max(float(pos["take_profit"]), round(live_price + 3.2 * atr_val, 10))
+                else:
+                    pos["stop_loss"] = min(sl, round(new_entry - 0.05 * init_risk, 10))
+                    pos["take_profit"] = min(float(pos["take_profit"]), round(live_price - 3.2 * atr_val, 10))
+
+                self.save()
+                return True, (
+                    f"🔥 PIRAMIDACIÓN +50% en {symbol} {side} (ADX={adx_val:.1f}) | "
+                    f"Nuevo Tamaño: ${pos['notional_usd']:,.2f} USD | SL protegido en {pos['stop_loss']}"
+                )
+        return False, ""
 
     def close_position_by_symbol(self, symbol: str, reason: str = "Cierre Manual / Señal") -> str:
         remaining: list[dict] = []

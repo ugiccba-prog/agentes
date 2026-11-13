@@ -1,8 +1,8 @@
 """
 Ejecutor Cloud 24/7 para GitHub Actions (corre en los servidores de GitHub con tu PC 100% apagada).
-- Ejecuta ciclos continuos de Trading + Auto-Corrección.
-- Actualiza `README.md` con un Dashboard en Vivo visible directamente al abrir el repositorio en GitHub.
-- Hace commit + push periódico cada pocos minutos para que siempre veas el estado actualizado en GitHub.
+- Usa Walk-Forward OOS semanal, Gate de Velas Cerradas y RiskManager (Violenta pero Sagaz).
+- Actualiza `README.md` y la Web App móvil (`docs/index.html` -> `https://ugiccba-prog.github.io/agentes/`).
+- Hace commit + push periódico para ver todo desde el celular sin tener la PC prendida.
 """
 
 from __future__ import annotations
@@ -13,6 +13,7 @@ from pathlib import Path
 import subprocess
 import time
 
+from candle_clock import NewCandleGate
 from exchange_connector import LiveExecutionBroker
 from overnight_supervisor import (
     load_adaptive_config,
@@ -21,9 +22,17 @@ from overnight_supervisor import (
     run_trading_tick,
     save_adaptive_config,
 )
+from risk_manager import RiskManager
 
 README_FILE = Path(__file__).parent / "README.md"
 LOG_FILE = Path(__file__).parent / "overnight_log.txt"
+
+
+def _compute_real_stats(closed_trades: list[dict]) -> dict[str, float]:
+    gross_win = sum(float(t.get("pnl_usd", 0.0)) for t in closed_trades if float(t.get("pnl_usd", 0.0)) > 0)
+    gross_loss = abs(sum(float(t.get("pnl_usd", 0.0)) for t in closed_trades if float(t.get("pnl_usd", 0.0)) <= 0))
+    pf = (gross_win / gross_loss) if gross_loss > 0 else (99.0 if gross_win > 0 else 0.0)
+    return {"gross_win": gross_win, "gross_loss": gross_loss, "pf": pf}
 
 
 def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
@@ -32,13 +41,21 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
     now_utc = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     pnl_total = st.equity_usd - st.initial_balance_usd
     pnl_pct = (pnl_total / st.initial_balance_usd) * 100.0 if st.initial_balance_usd else 0.0
+    win_rate = (st.winning_trades / st.total_trades * 100.0) if st.total_trades > 0 else 0.0
+    stats = _compute_real_stats(st.closed_trades)
+    preset = cfg.get("preset_name", "Violenta & Sagaz")
 
     open_rows = []
     for p in st.open_positions:
+        side = str(p.get("side", ""))
+        entry = float(p.get("entry_price", 0.0))
+        sl = float(p.get("stop_loss", 0.0))
+        protected = (sl >= entry) if side == "LONG" else (sl <= entry)
+        sl_badge = "🔒 BE/Trail" if protected else "🛡️ Inicial"
         open_rows.append(
-            f"| `{p['symbol']}` | **{p['side']}** | `{p['strategy']}` | "
-            f"`{p['entry_price']}` | `{p['current_price']}` | `{p['stop_loss']}` | `{p['take_profit']}` | "
-            f"**${p['unrealized_pnl_usd']:+.2f}** ({p['unrealized_pnl_pct']:+.2f}%) |"
+            f"| `{p['symbol']}` | **{side}** | `{p['strategy']}` | "
+            f"`{entry:.5g}` | `{float(p.get('current_price', 0.0)):.5g}` | `{sl:.5g}` ({sl_badge}) | `{float(p.get('take_profit', 0.0)):.5g}` | "
+            f"**${float(p.get('unrealized_pnl_usd', 0.0)):+.2f}** ({float(p.get('unrealized_pnl_pct', 0.0)):+.2f}%) |"
         )
     open_table = (
         "| Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |\n"
@@ -47,27 +64,38 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
     )
 
     closed_rows = []
-    for t in list(reversed(st.closed_trades))[:10]:
+    for t in list(reversed(st.closed_trades))[:15]:
+        pnl_u = float(t.get("pnl_usd", 0.0))
+        res_badge = "✅ GANANCIA" if pnl_u > 0 else "❌ PÉRDIDA"
         closed_rows.append(
-            f"| `{t.get('closed_at', '')}` | `{t.get('symbol', '')}` | **{t.get('side', '')}** | "
-            f"`{t.get('strategy', '')}` | **${float(t.get('pnl_usd', 0.0)):+.2f}** | `{t.get('exit_reason', '')}` |"
+            f"| {res_badge} | `{t.get('exit_time', t.get('closed_at', ''))}` | `{t.get('symbol', '')}` | **{t.get('side', '')}** | "
+            f"`{t.get('strategy', '')}` | `{float(t.get('entry_price', 0.0)):.5g}` -> `{float(t.get('exit_price', 0.0)):.5g}` | "
+            f"**${pnl_u:+.2f}** ({float(t.get('pnl_pct', 0.0)):+.2f}%) | `{t.get('exit_reason', '')}` |"
         )
     closed_table = (
-        "| Fecha Cierre | Par | Lado | Estrategia | PnL Realizado | Motivo |\n"
-        "|---|---|---|---|---|---|"
-        + ("\n" + "\n".join(closed_rows) if closed_rows else "\n| *Sin operaciones cerradas aún* | - | - | - | - | - |")
+        "| Resultado | Fecha Cierre | Par | Lado | Estrategia | Entrada -> Salida | PnL Realizado | Motivo |\n"
+        "|---|---|---|---|---|---|---|---|"
+        + ("\n" + "\n".join(closed_rows) if closed_rows else "\n| - | *Sin operaciones cerradas aún* | - | - | - | - | - | - |")
     )
+
+    active_syms = [
+        f"`{sym}` (`{sc.get('strategy')}`, PF OOS `{sc.get('backtest_profit_factor', 0):.2f}`)"
+        for sym, sc in cfg.get("symbols", {}).items()
+        if sc.get("enabled")
+    ]
+    active_line = ", ".join(active_syms) if active_syms else "*Ningún mercado aprobó el filtro Walk-Forward OOS esta semana*"
 
     recent_logs = []
     if LOG_FILE.exists():
         lines = LOG_FILE.read_text(encoding="utf-8", errors="ignore").splitlines()
-        recent_logs = lines[-12:]
+        recent_logs = lines[-15:]
     log_block = "\n".join(recent_logs) if recent_logs else "Iniciando bitácora..."
 
-    md = f"""# 🦈 Agente de Trading Cuantitativo Multi-Mercado (EN VIVO 24/7 EN LA NUBE)
+    md = f"""# 🦈 Agente de Trading Cuantitativo Multi-Mercado (EN VIVO 24/7)
 
-> 🟢 **ESTADO DEL AGENTE:** OPERANDO EN GITHUB CLOUD (Sin necesidad de PC encendida)  
-> 🕒 **Última actualización en vivo:** `{now_utc}` | **Sesión #:** `{cfg.get('session_count', 1)}` | **Auto-correcciones:** `{cfg.get('corrections_applied', 0)}`
+> 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
+> 👉 **https://ugiccba-prog.github.io/agentes/**  
+> 🟢 **Modo Activo:** `{preset}` | **Sesión #:** `{cfg.get('session_count', 1)}` | **Última actualización:** `{now_utc}`
 
 ---
 
@@ -77,9 +105,13 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
 |---|---|
 | **Capital Inicial** | `${st.initial_balance_usd:,.2f} USD` |
 | **Equity Total en Vivo** | **`${st.equity_usd:,.2f} USD`** (`{pnl_pct:+.2f}%` / `${pnl_total:+,.2f} USD`) |
+| **Pico Máximo (Peak Equity)** | `${st.peak_equity_usd:,.2f} USD` (Inicio Día UTC: `${st.day_start_equity_usd:,.2f} USD`) |
 | **Efectivo Cerrado (Cash)** | `${st.cash_balance_usd:,.2f} USD` (PnL Realizado: `${st.realized_pnl_usd:+,.2f} USD`) |
 | **PnL Flotante Actual** | `${st.unrealized_pnl_usd:+,.2f} USD` |
-| **Posiciones Abiertas / Cerradas** | `{len(st.open_positions)}` abiertas / `{st.total_trades}` cerradas (Ganadoras: `{st.winning_trades}` / Perdedoras: `{st.losing_trades}`) |
+| **Win Rate & Profit Factor Real** | `{win_rate:.1f}%` (`{st.winning_trades}W / {st.losing_trades}L` de `{st.total_trades}`) · **PF `{stats['pf']:.2f}`** |
+| **Meta Paper Trading (100 Trades)** | `{st.total_trades} / 100` cerrados |
+
+**Mercados aprobados por Walk-Forward OOS esta semana:** {active_line}
 
 ---
 
@@ -89,7 +121,7 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
 
 ---
 
-## 🏁 Últimas 10 Operaciones Cerradas
+## 🏁 Últimas 15 Operaciones Realizadas y su Resultado
 
 {closed_table}
 
@@ -100,28 +132,26 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
 ```text
 {log_block}
 ```
-
----
-
-## 💻 Cómo correrlo también en otra PC local (Opcional)
-
-```powershell
-git clone https://github.com/ugiccba-prog/agentes.git
-cd agentes
-python -m pip install -r requirements.txt
-.\\INICIAR_AGENTE_24_7.bat
-```
 """
     README_FILE.write_text(md, encoding="utf-8")
 
 
 def sync_to_github() -> None:
-    """Guarda y sube el estado actual al repositorio para que se vea en tiempo real."""
+    """Guarda y sube el estado actual al repositorio para que se vea en vivo desde el celular."""
     try:
         subprocess.run(["git", "config", "user.name", "Agente Trading Cloud 24/7"], check=False)
         subprocess.run(["git", "config", "user.email", "ugiccba@gmail.com"], check=False)
         subprocess.run(
-            ["git", "add", "live_portfolio.json", "adaptive_config.json", "overnight_log.txt", "README.md"],
+            [
+                "git",
+                "add",
+                "live_portfolio.json",
+                "adaptive_config.json",
+                "wf_params.json",
+                "overnight_log.txt",
+                "README.md",
+                "docs/index.html",
+            ],
             check=False,
         )
         diff = subprocess.run(["git", "diff", "--staged", "--quiet"], check=False)
@@ -144,13 +174,16 @@ def main() -> None:
     args = parser.parse_args()
 
     broker = LiveExecutionBroker(initial_balance_usd=10000.0)
+    rm = RiskManager()
+    gate = NewCandleGate("15m")
     cfg = load_adaptive_config()
 
     session_num = int(cfg.get("session_count", 0)) + 1
     cfg["session_count"] = session_num
+    save_adaptive_config(cfg)
     log_event(f"☁️ [GITHUB CLOUD] Iniciando bloque continuo #{session_num} ({args.minutes} min)...")
 
-    # Calibración inicial al arrancar el bloque
+    # Calibración Walk-Forward al arrancar el bloque (respeta caché de 7 días en wf_params.json)
     cfg = run_self_correction_phase(broker, cfg, interval="15m")
     update_live_readme(broker, cfg)
     sync_to_github()
@@ -158,14 +191,22 @@ def main() -> None:
     end_time = time.time() + (args.minutes * 60)
     ticks = 0
     last_recal = time.time()
+    atr_map: dict[str, float] = {}
+    first_tick = True
 
     while time.time() < end_time:
         ticks += 1
-        log_event(f"☁️ [GITHUB CLOUD] Pulso #{ticks} de la sesión #{session_num}...")
-        run_trading_tick(broker, cfg, interval="15m")
+        if first_tick or gate.is_new_closed_candle():
+            log_event(f"☁️ [GITHUB CLOUD] Cierre de vela #{ticks} de la sesión #{session_num}...")
+            atr_map = run_trading_tick(broker, cfg, rm=rm, interval="15m")
+            first_tick = False
+        else:
+            events = broker.update_open_positions(atr_by_symbol=atr_map)
+            for ev in events:
+                log_event(ev)
+
         update_live_readme(broker, cfg)
 
-        # Auto-corrección cada 60 minutos dentro del mismo bloque de 4 horas
         if time.time() - last_recal >= 3600:
             cfg = run_self_correction_phase(broker, cfg, interval="15m")
             last_recal = time.time()

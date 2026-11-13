@@ -469,812 +469,192 @@
 [2026-11-12 15:33:47] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD LONG | Entrada: 0.68087423 | SL: 0.67994483 | TP: 0.68282597 | Tamaño: $17,587.73 USD (Riesgo controlado: $457.54)
 [2026-11-12 15:34:07] 💓 Pulso En Vivo | Equity: $9,691.18 USD (Efectivo: $9,675.31 | Flotante: $+15.87) | Abiertas: 11 | Cerradas: 22
 [2026-11-12 15:34:07] ✅ [GITHUB CLOUD] Bloque #9 completado. Persistiendo cartera en el repositorio.
-[2026-11-12 20:08:00] ☁️ [GITHUB CLOUD] Iniciando bloque continuo #10 (240 min)...
-[2026-11-12 20:08:00] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
-[2026-11-12 20:08:01]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-3.4%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 20:08:02]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.60, WinRate=55.6%, Ret=+8.9%)
-[2026-11-12 20:08:03]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.64, WinRate=55.6%, Ret=+15.7%)
-[2026-11-12 20:08:04]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-5.3%)
-[2026-11-12 20:08:06]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.59, Ret=-8.8%)
-[2026-11-12 20:08:07]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.65, WinRate=66.7%, Ret=+8.1%)
-[2026-11-12 20:08:08]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.64, WinRate=60.0%, Ret=+9.3%)
-[2026-11-12 20:08:09]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.00, Ret=-0.1%)
-[2026-11-12 20:08:10]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.89, Ret=-3.3%)
-[2026-11-12 20:08:11]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.98, WinRate=62.5%, Ret=+21.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 20:08:13]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.67, WinRate=66.7%, Ret=+24.6%)
-[2026-11-12 20:08:13]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.85, WinRate=72.0%, Ret=+53.1%)
-[2026-11-12 20:08:14]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.42, WinRate=61.5%, Ret=+8.7%)
-[2026-11-12 20:08:14]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.18, WinRate=57.1%, Ret=+2.4%)
-[2026-11-12 20:08:14]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=6.04, WinRate=87.5%, Ret=+38.8%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 20:08:15]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.99, WinRate=73.1%, Ret=+24.8%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 20:08:15]    🔎 [USD/JPY] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.50, Ret=-7.1%)
-[2026-11-12 20:08:15]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=4.21, WinRate=76.9%, Ret=+23.9%)
-[2026-11-12 20:08:15] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (15 ajustes aplicados).
-[2026-11-12 20:08:17] ☁️ [GITHUB CLOUD] Pulso #1 de la sesión #10...
-[2026-11-12 20:08:26] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT | Entrada: 81.50000000 | SL: 82.17405909 | TP: 80.02549573 | Tamaño: $7,399.84 USD (Riesgo controlado: $345.33)
-[2026-11-12 20:08:37] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD SHORT | Entrada: 3888.00000000 | SL: 3902.34888122 | TP: 3857.70791742 | Tamaño: $21,925.44 USD (Riesgo controlado: $466.68)
-[2026-11-12 20:08:43] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0653930442
-[2026-11-12 20:08:43] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7947955117
-[2026-11-12 20:08:43] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.170603984
-[2026-11-12 20:08:43] 💓 Pulso En Vivo | Equity: $9,851.55 USD (Efectivo: $9,334.20 | Flotante: $+517.35) | Abiertas: 9 | Cerradas: 26
-[2026-11-12 20:09:43] ☁️ [GITHUB CLOUD] Pulso #2 de la sesión #10...
-[2026-11-12 20:10:02] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0654530442
-[2026-11-12 20:10:02] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7954955117
-[2026-11-12 20:10:02] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.170703984
-[2026-11-12 20:10:02] 💓 Pulso En Vivo | Equity: $9,881.39 USD (Efectivo: $9,334.20 | Flotante: $+547.19) | Abiertas: 9 | Cerradas: 26
-[2026-11-12 20:11:03] ☁️ [GITHUB CLOUD] Pulso #3 de la sesión #10...
-[2026-11-12 20:11:14] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG | Entrada: 0.00000448 | SL: 0.00000439 | TP: 0.00000466 | Tamaño: $5,928.83 USD (Riesgo controlado: $224.31)
-[2026-11-12 20:11:22] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0654830442
-[2026-11-12 20:11:22] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7956955117
-[2026-11-12 20:11:22] 💓 Pulso En Vivo | Equity: $9,887.75 USD (Efectivo: $9,334.20 | Flotante: $+553.55) | Abiertas: 10 | Cerradas: 26
-[2026-11-12 20:12:24] ☁️ [GITHUB CLOUD] Pulso #4 de la sesión #10...
-[2026-11-12 20:12:43] 💓 Pulso En Vivo | Equity: $9,879.63 USD (Efectivo: $9,334.20 | Flotante: $+545.43) | Abiertas: 10 | Cerradas: 26
-[2026-11-12 20:13:43] ☁️ [GITHUB CLOUD] Pulso #5 de la sesión #10...
-[2026-11-12 20:14:03] 💓 Pulso En Vivo | Equity: $9,843.14 USD (Efectivo: $9,334.20 | Flotante: $+508.94) | Abiertas: 10 | Cerradas: 26
-[2026-11-12 20:15:03] ☁️ [GITHUB CLOUD] Pulso #6 de la sesión #10...
-[2026-11-12 20:15:21] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT | Entrada: 0.00000448 | SL: 0.00000456 | TP: 0.00000431 | Tamaño: $5,900.36 USD (Riesgo controlado: $223.23)
-[2026-11-12 20:15:30] 💓 Pulso En Vivo | Equity: $9,812.62 USD (Efectivo: $9,328.27 | Flotante: $+484.35) | Abiertas: 10 | Cerradas: 27
-[2026-11-12 20:16:31] ☁️ [GITHUB CLOUD] Pulso #7 de la sesión #10...
-[2026-11-12 20:16:33] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT SHORT | Entrada: 2017.55000000 | SL: 2032.04163374 | TP: 1986.75527829 | Tamaño: $5,352.34 USD (Riesgo controlado: $343.44)
-[2026-11-12 20:16:45] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> EUR/JPY SHORT | Entrada: 176.68699646 | SL: 176.89430115 | TP: 176.26296415 | Tamaño: $16,354.37 USD (Riesgo controlado: $343.44)
-[2026-11-12 20:16:52] 💓 Pulso En Vivo | Equity: $9,793.71 USD (Efectivo: $9,328.27 | Flotante: $+465.44) | Abiertas: 12 | Cerradas: 27
-[2026-11-12 20:17:52] ☁️ [GITHUB CLOUD] Pulso #8 de la sesión #10...
-[2026-11-12 20:18:11] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG | Entrada: 0.00000449 | SL: 0.00000441 | TP: 0.00000467 | Tamaño: $4,887.40 USD (Riesgo controlado: $221.89)
-[2026-11-12 20:18:19] 💓 Pulso En Vivo | Equity: $9,768.24 USD (Efectivo: $9,309.19 | Flotante: $+459.05) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:19:19] ☁️ [GITHUB CLOUD] Pulso #9 de la sesión #10...
-[2026-11-12 20:19:39] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1707554851
-[2026-11-12 20:19:39] 💓 Pulso En Vivo | Equity: $9,825.30 USD (Efectivo: $9,309.19 | Flotante: $+516.11) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:20:41] ☁️ [GITHUB CLOUD] Pulso #10 de la sesión #10...
-[2026-11-12 20:21:02] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7959883068
-[2026-11-12 20:21:02] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1708361994
-[2026-11-12 20:21:02] 💓 Pulso En Vivo | Equity: $9,833.69 USD (Efectivo: $9,309.19 | Flotante: $+524.50) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:22:02] ☁️ [GITHUB CLOUD] Pulso #11 de la sesión #10...
-[2026-11-12 20:22:22] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0654975768
-[2026-11-12 20:22:22] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7961593782
-[2026-11-12 20:22:22] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1709361994
-[2026-11-12 20:22:22] 💓 Pulso En Vivo | Equity: $9,843.77 USD (Efectivo: $9,309.19 | Flotante: $+534.58) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:23:22] ☁️ [GITHUB CLOUD] Pulso #12 de la sesión #10...
-[2026-11-12 20:23:42] 💓 Pulso En Vivo | Equity: $9,816.15 USD (Efectivo: $9,309.19 | Flotante: $+506.96) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:24:44] ☁️ [GITHUB CLOUD] Pulso #13 de la sesión #10...
-[2026-11-12 20:25:07] 💓 Pulso En Vivo | Equity: $9,801.09 USD (Efectivo: $9,309.19 | Flotante: $+491.90) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:26:07] ☁️ [GITHUB CLOUD] Pulso #14 de la sesión #10...
-[2026-11-12 20:26:27] 💓 Pulso En Vivo | Equity: $9,810.10 USD (Efectivo: $9,309.19 | Flotante: $+500.91) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:27:27] ☁️ [GITHUB CLOUD] Pulso #15 de la sesión #10...
-[2026-11-12 20:27:47] 💓 Pulso En Vivo | Equity: $9,785.70 USD (Efectivo: $9,309.19 | Flotante: $+476.51) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:28:48] ☁️ [GITHUB CLOUD] Pulso #16 de la sesión #10...
-[2026-11-12 20:29:10] 💓 Pulso En Vivo | Equity: $9,808.18 USD (Efectivo: $9,309.19 | Flotante: $+498.99) | Abiertas: 12 | Cerradas: 28
-[2026-11-12 20:30:10] ☁️ [GITHUB CLOUD] Pulso #17 de la sesión #10...
-[2026-11-12 20:30:28] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT | Entrada: 0.00000449 | SL: 0.00000457 | TP: 0.00000432 | Tamaño: $4,898.60 USD (Riesgo controlado: $222.40)
-[2026-11-12 20:30:37] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.796490494
-[2026-11-12 20:30:37] 💓 Pulso En Vivo | Equity: $9,811.95 USD (Efectivo: $9,304.30 | Flotante: $+507.65) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:31:37] ☁️ [GITHUB CLOUD] Pulso #18 de la sesión #10...
-[2026-11-12 20:31:59] 💓 Pulso En Vivo | Equity: $9,775.13 USD (Efectivo: $9,304.30 | Flotante: $+470.83) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:33:01] ☁️ [GITHUB CLOUD] Pulso #19 de la sesión #10...
-[2026-11-12 20:33:22] 💓 Pulso En Vivo | Equity: $9,787.45 USD (Efectivo: $9,304.30 | Flotante: $+483.15) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:34:22] ☁️ [GITHUB CLOUD] Pulso #20 de la sesión #10...
-[2026-11-12 20:34:42] 💓 Pulso En Vivo | Equity: $9,801.35 USD (Efectivo: $9,304.30 | Flotante: $+497.05) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:35:42] ☁️ [GITHUB CLOUD] Pulso #21 de la sesión #10...
-[2026-11-12 20:36:03] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7968037083
-[2026-11-12 20:36:03] 💓 Pulso En Vivo | Equity: $9,798.90 USD (Efectivo: $9,304.30 | Flotante: $+494.60) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:37:05] ☁️ [GITHUB CLOUD] Pulso #22 de la sesión #10...
-[2026-11-12 20:37:26] 💓 Pulso En Vivo | Equity: $9,796.55 USD (Efectivo: $9,304.30 | Flotante: $+492.25) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:38:26] ☁️ [GITHUB CLOUD] Pulso #23 de la sesión #10...
-[2026-11-12 20:38:47] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.797187994
-[2026-11-12 20:38:47] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1711757566
-[2026-11-12 20:38:47] 💓 Pulso En Vivo | Equity: $9,839.31 USD (Efectivo: $9,304.30 | Flotante: $+535.01) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:39:47] ☁️ [GITHUB CLOUD] Pulso #24 de la sesión #10...
-[2026-11-12 20:40:09] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.797187994
-[2026-11-12 20:40:09] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1712757566
-[2026-11-12 20:40:09] 💓 Pulso En Vivo | Equity: $9,824.60 USD (Efectivo: $9,304.30 | Flotante: $+520.30) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:41:10] ☁️ [GITHUB CLOUD] Pulso #25 de la sesión #10...
-[2026-11-12 20:41:31] 💓 Pulso En Vivo | Equity: $9,836.51 USD (Efectivo: $9,304.30 | Flotante: $+532.21) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:42:31] ☁️ [GITHUB CLOUD] Pulso #26 de la sesión #10...
-[2026-11-12 20:42:51] 💓 Pulso En Vivo | Equity: $9,822.85 USD (Efectivo: $9,304.30 | Flotante: $+518.55) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:43:51] ☁️ [GITHUB CLOUD] Pulso #27 de la sesión #10...
-[2026-11-12 20:44:12] 💓 Pulso En Vivo | Equity: $9,825.58 USD (Efectivo: $9,304.30 | Flotante: $+521.28) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:45:13] ☁️ [GITHUB CLOUD] Pulso #28 de la sesión #10...
-[2026-11-12 20:45:34] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0655435764
-[2026-11-12 20:45:34] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7986352802
-[2026-11-12 20:45:34] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1713517485
-[2026-11-12 20:45:34] 💓 Pulso En Vivo | Equity: $9,864.87 USD (Efectivo: $9,304.30 | Flotante: $+560.57) | Abiertas: 12 | Cerradas: 29
-[2026-11-12 20:46:34] ☁️ [GITHUB CLOUD] Pulso #29 de la sesión #10...
-[2026-11-12 20:46:44] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT LONG | Entrada: 2021.56000000 | SL: 2007.88154904 | TP: 2050.62670829 | Tamaño: $4,942.14 USD (Riesgo controlado: $345.95)
-[2026-11-12 20:47:03] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0656077907
-[2026-11-12 20:47:03] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7999002802
-[2026-11-12 20:47:03] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1716131771
-[2026-11-12 20:47:03] 💓 Pulso En Vivo | Equity: $9,885.90 USD (Efectivo: $9,288.33 | Flotante: $+597.57) | Abiertas: 12 | Cerradas: 30
-[2026-11-12 20:48:03] ☁️ [GITHUB CLOUD] Pulso #30 de la sesión #10...
-[2026-11-12 20:48:23] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1717035342
-[2026-11-12 20:48:23] 💓 Pulso En Vivo | Equity: $9,891.80 USD (Efectivo: $9,288.33 | Flotante: $+603.47) | Abiertas: 12 | Cerradas: 30
-[2026-11-12 20:49:24] ☁️ [GITHUB CLOUD] Pulso #31 de la sesión #10...
-[2026-11-12 20:49:45] 💓 Pulso En Vivo | Equity: $9,847.04 USD (Efectivo: $9,288.33 | Flotante: $+558.71) | Abiertas: 12 | Cerradas: 30
-[2026-11-12 20:50:45] ☁️ [GITHUB CLOUD] Pulso #32 de la sesión #10...
-[2026-11-12 20:51:05] 💓 Pulso En Vivo | Equity: $9,821.38 USD (Efectivo: $9,288.33 | Flotante: $+533.05) | Abiertas: 12 | Cerradas: 30
-[2026-11-12 20:52:05] ☁️ [GITHUB CLOUD] Pulso #33 de la sesión #10...
-[2026-11-12 20:52:17] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD SHORT | Entrada: 0.68078154 | SL: 0.68134584 | TP: 0.67959651 | Tamaño: $16,389.38 USD (Riesgo controlado: $465.13)
-[2026-11-12 20:52:32] 💓 Pulso En Vivo | Equity: $9,848.17 USD (Efectivo: $9,282.42 | Flotante: $+565.75) | Abiertas: 12 | Cerradas: 31
-[2026-11-12 20:53:34] ☁️ [GITHUB CLOUD] Pulso #34 de la sesión #10...
-[2026-11-12 20:53:55] 💓 Pulso En Vivo | Equity: $9,839.81 USD (Efectivo: $9,282.42 | Flotante: $+557.39) | Abiertas: 12 | Cerradas: 31
-[2026-11-12 20:54:55] ☁️ [GITHUB CLOUD] Pulso #35 de la sesión #10...
-[2026-11-12 20:55:15] 💓 Pulso En Vivo | Equity: $9,800.11 USD (Efectivo: $9,282.42 | Flotante: $+517.69) | Abiertas: 12 | Cerradas: 31
-[2026-11-12 20:56:15] ☁️ [GITHUB CLOUD] Pulso #36 de la sesión #10...
-[2026-11-12 20:56:35] 💓 Pulso En Vivo | Equity: $9,792.01 USD (Efectivo: $9,282.42 | Flotante: $+509.59) | Abiertas: 12 | Cerradas: 31
-[2026-11-12 20:57:37] ☁️ [GITHUB CLOUD] Pulso #37 de la sesión #10...
-[2026-11-12 20:57:48] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT SHORT | Entrada: 2015.58000000 | SL: 2029.92816525 | TP: 1985.09014885 | Tamaño: $4,887.77 USD (Riesgo controlado: $342.14)
-[2026-11-12 20:58:06] 💓 Pulso En Vivo | Equity: $9,762.54 USD (Efectivo: $9,262.87 | Flotante: $+499.67) | Abiertas: 12 | Cerradas: 32
-[2026-11-12 20:59:06] ☁️ [GITHUB CLOUD] Pulso #38 de la sesión #10...
-[2026-11-12 20:59:27] ✅ CERRADA GBP/USD (SHORT) a 1.3239071369171143 | PnL: $-79.64 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-12 20:59:27] 💓 Pulso En Vivo | Equity: $9,760.42 USD (Efectivo: $9,183.23 | Flotante: $+577.19) | Abiertas: 11 | Cerradas: 33
-[2026-11-12 21:00:27] ☁️ [GITHUB CLOUD] Pulso #39 de la sesión #10...
-[2026-11-12 21:00:47] 💓 Pulso En Vivo | Equity: $9,774.01 USD (Efectivo: $9,183.23 | Flotante: $+590.78) | Abiertas: 11 | Cerradas: 33
-[2026-11-12 21:01:49] ☁️ [GITHUB CLOUD] Pulso #40 de la sesión #10...
-[2026-11-12 21:01:54] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT | Entrada: 1.32383704 | SL: 1.32482512 | TP: 1.32176065 | Tamaño: $16,290.02 USD (Riesgo controlado: $221.87)
-[2026-11-12 21:02:11] 💓 Pulso En Vivo | Equity: $9,723.35 USD (Efectivo: $9,183.23 | Flotante: $+540.12) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:03:11] ☁️ [GITHUB CLOUD] Pulso #41 de la sesión #10...
-[2026-11-12 21:03:31] 💓 Pulso En Vivo | Equity: $9,724.76 USD (Efectivo: $9,183.23 | Flotante: $+541.53) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:04:31] ☁️ [GITHUB CLOUD] Pulso #42 de la sesión #10...
-[2026-11-12 21:04:52] 💓 Pulso En Vivo | Equity: $9,747.72 USD (Efectivo: $9,183.23 | Flotante: $+564.49) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:05:54] ☁️ [GITHUB CLOUD] Pulso #43 de la sesión #10...
-[2026-11-12 21:06:15] 💓 Pulso En Vivo | Equity: $9,754.10 USD (Efectivo: $9,183.23 | Flotante: $+570.87) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:07:15] ☁️ [GITHUB CLOUD] Pulso #44 de la sesión #10...
-[2026-11-12 21:07:36] 💓 Pulso En Vivo | Equity: $9,778.46 USD (Efectivo: $9,183.23 | Flotante: $+595.23) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:08:36] ☁️ [GITHUB CLOUD] Pulso #45 de la sesión #10...
-[2026-11-12 21:08:56] 💓 Pulso En Vivo | Equity: $9,788.34 USD (Efectivo: $9,183.23 | Flotante: $+605.11) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:08:56] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
-[2026-11-12 21:08:57]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-3.4%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 21:08:58]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.55, WinRate=70.0%, Ret=+16.8%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.5x ATR
-[2026-11-12 21:08:59]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.63, WinRate=55.6%, Ret=+15.6%)
-[2026-11-12 21:09:01]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.85, Ret=-3.5%)
-[2026-11-12 21:09:02]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.67, Ret=-6.6%)
-[2026-11-12 21:09:03]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.46, WinRate=57.1%, Ret=+9.9%)
-[2026-11-12 21:09:04]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.64, WinRate=60.0%, Ret=+9.2%)
-[2026-11-12 21:09:05]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.87, Ret=-3.3%)
-[2026-11-12 21:09:06]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=0.98, Ret=-1.0%)
-[2026-11-12 21:09:07]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.46, WinRate=68.8%, Ret=+27.7%) | Ajuste defensivo aplicado tras 6 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 21:09:08]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.81, WinRate=57.1%, Ret=+16.6%)
-[2026-11-12 21:09:09]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.54, WinRate=68.0%, Ret=+51.0%)
-[2026-11-12 21:09:09]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.41, WinRate=63.6%, Ret=+8.3%)
-[2026-11-12 21:09:10]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.20, WinRate=57.1%, Ret=+2.6%)
-[2026-11-12 21:09:10]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=6.06, WinRate=87.5%, Ret=+38.8%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 21:09:10]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.61, WinRate=76.0%, Ret=+27.8%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 21:09:11]    🔎 [USD/JPY] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=0.99, Ret=-0.4%)
-[2026-11-12 21:09:11]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=4.23, WinRate=76.9%, Ret=+24.1%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.3x ATR
-[2026-11-12 21:09:11] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (14 ajustes aplicados).
-[2026-11-12 21:10:12] ☁️ [GITHUB CLOUD] Pulso #46 de la sesión #10...
-[2026-11-12 21:10:33] 💓 Pulso En Vivo | Equity: $9,774.02 USD (Efectivo: $9,183.23 | Flotante: $+590.79) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:11:33] ☁️ [GITHUB CLOUD] Pulso #47 de la sesión #10...
-[2026-11-12 21:11:54] 💓 Pulso En Vivo | Equity: $9,824.94 USD (Efectivo: $9,183.23 | Flotante: $+641.71) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:12:54] ☁️ [GITHUB CLOUD] Pulso #48 de la sesión #10...
-[2026-11-12 21:13:16] 💓 Pulso En Vivo | Equity: $9,813.27 USD (Efectivo: $9,183.23 | Flotante: $+630.04) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:14:18] ☁️ [GITHUB CLOUD] Pulso #49 de la sesión #10...
-[2026-11-12 21:14:40] 💓 Pulso En Vivo | Equity: $9,793.73 USD (Efectivo: $9,183.23 | Flotante: $+610.50) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:15:40] ☁️ [GITHUB CLOUD] Pulso #50 de la sesión #10...
-[2026-11-12 21:16:00] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0656203454
-[2026-11-12 21:16:00] 💓 Pulso En Vivo | Equity: $9,812.69 USD (Efectivo: $9,183.23 | Flotante: $+629.46) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:17:00] ☁️ [GITHUB CLOUD] Pulso #51 de la sesión #10...
-[2026-11-12 21:17:21] 💓 Pulso En Vivo | Equity: $9,828.80 USD (Efectivo: $9,183.23 | Flotante: $+645.57) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:18:22] ☁️ [GITHUB CLOUD] Pulso #52 de la sesión #10...
-[2026-11-12 21:18:43] 💓 Pulso En Vivo | Equity: $9,851.89 USD (Efectivo: $9,183.23 | Flotante: $+668.66) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:19:43] ☁️ [GITHUB CLOUD] Pulso #53 de la sesión #10...
-[2026-11-12 21:20:04] 💓 Pulso En Vivo | Equity: $9,835.97 USD (Efectivo: $9,183.23 | Flotante: $+652.74) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:21:04] ☁️ [GITHUB CLOUD] Pulso #54 de la sesión #10...
-[2026-11-12 21:21:24] 💓 Pulso En Vivo | Equity: $9,840.88 USD (Efectivo: $9,183.23 | Flotante: $+657.65) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:22:26] ☁️ [GITHUB CLOUD] Pulso #55 de la sesión #10...
-[2026-11-12 21:22:47] 💓 Pulso En Vivo | Equity: $9,834.05 USD (Efectivo: $9,183.23 | Flotante: $+650.82) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:23:47] ☁️ [GITHUB CLOUD] Pulso #56 de la sesión #10...
-[2026-11-12 21:24:08] 💓 Pulso En Vivo | Equity: $9,837.53 USD (Efectivo: $9,183.23 | Flotante: $+654.30) | Abiertas: 12 | Cerradas: 33
-[2026-11-12 21:25:08] ☁️ [GITHUB CLOUD] Pulso #57 de la sesión #10...
-[2026-11-12 21:25:28] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0656597383
-[2026-11-12 21:25:28] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1718628724
-[2026-11-12 21:25:28] ✅ CERRADA PEPE/USDT (SHORT) a 4.58e-06 | PnL: $-103.14 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-12 21:25:28] 💓 Pulso En Vivo | Equity: $9,832.39 USD (Efectivo: $9,080.09 | Flotante: $+752.30) | Abiertas: 11 | Cerradas: 34
-[2026-11-12 21:26:30] ☁️ [GITHUB CLOUD] Pulso #58 de la sesión #10...
-[2026-11-12 21:26:39] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT LONG | Entrada: 2019.47000000 | SL: 1998.43090620 | TP: 2063.65209698 | Tamaño: $5,380.91 USD (Riesgo controlado: $223.94)
-[2026-11-12 21:26:48] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT | Entrada: 0.00000457 | SL: 0.00000466 | TP: 0.00000439 | Tamaño: $4,932.50 USD (Riesgo controlado: $223.94)
-[2026-11-12 21:26:57] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0657458811
-[2026-11-12 21:26:57] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1721532296
-[2026-11-12 21:26:57] 💓 Pulso En Vivo | Equity: $9,877.00 USD (Efectivo: $9,065.76 | Flotante: $+811.24) | Abiertas: 12 | Cerradas: 35
-[2026-11-12 21:27:57] ☁️ [GITHUB CLOUD] Pulso #59 de la sesión #10...
-[2026-11-12 21:28:17] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0659094883
-[2026-11-12 21:28:17] ✅ CERRADA SUI/USDT (LONG) a 0.8061 | PnL: $+271.96 USD (Take Profit Alcanzado)
-[2026-11-12 21:28:17] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1725050153
-[2026-11-12 21:28:17] 💓 Pulso En Vivo | Equity: $9,966.29 USD (Efectivo: $9,337.72 | Flotante: $+628.57) | Abiertas: 11 | Cerradas: 36
-[2026-11-12 21:29:17] ☁️ [GITHUB CLOUD] Pulso #60 de la sesión #10...
-[2026-11-12 21:29:26] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG | Entrada: 0.80620000 | SL: 0.79626291 | TP: 0.82652587 | Tamaño: $4,983.15 USD (Riesgo controlado: $348.82)
-[2026-11-12 21:29:37] 💓 Pulso En Vivo | Equity: $9,951.97 USD (Efectivo: $9,337.72 | Flotante: $+614.25) | Abiertas: 12 | Cerradas: 36
-[2026-11-12 21:30:39] ☁️ [GITHUB CLOUD] Pulso #61 de la sesión #10...
-[2026-11-12 21:30:59] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.065975757
-[2026-11-12 21:30:59] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1725789172
-[2026-11-12 21:30:59] 💓 Pulso En Vivo | Equity: $9,966.57 USD (Efectivo: $9,337.72 | Flotante: $+628.85) | Abiertas: 12 | Cerradas: 36
-[2026-11-12 21:31:59] ☁️ [GITHUB CLOUD] Pulso #62 de la sesión #10...
-[2026-11-12 21:32:20] 💓 Pulso En Vivo | Equity: $9,954.75 USD (Efectivo: $9,337.72 | Flotante: $+617.03) | Abiertas: 12 | Cerradas: 36
-[2026-11-12 21:33:20] ☁️ [GITHUB CLOUD] Pulso #63 de la sesión #10...
-[2026-11-12 21:33:40] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.066025757
-[2026-11-12 21:33:40] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1726692744
-[2026-11-12 21:33:40] 💓 Pulso En Vivo | Equity: $9,977.00 USD (Efectivo: $9,337.72 | Flotante: $+639.28) | Abiertas: 12 | Cerradas: 36
-[2026-11-12 21:34:41] ☁️ [GITHUB CLOUD] Pulso #64 de la sesión #10...
-[2026-11-12 21:35:03] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0660880427
-[2026-11-12 21:35:03] ✅ CERRADA ADA/USDT (LONG) a 0.174 | PnL: $+267.77 USD (Take Profit Alcanzado)
-[2026-11-12 21:35:03] 💓 Pulso En Vivo | Equity: $10,016.53 USD (Efectivo: $9,605.49 | Flotante: $+411.04) | Abiertas: 11 | Cerradas: 37
-[2026-11-12 21:36:03] ☁️ [GITHUB CLOUD] Pulso #65 de la sesión #10...
-[2026-11-12 21:36:15] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ADA/USDT LONG | Entrada: 0.17390000 | SL: 0.17186294 | TP: 0.17806670 | Tamaño: $5,008.27 USD (Riesgo controlado: $473.78)
-[2026-11-12 21:36:23] 💓 Pulso En Vivo | Equity: $10,000.07 USD (Efectivo: $9,605.49 | Flotante: $+394.58) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:37:23] ☁️ [GITHUB CLOUD] Pulso #66 de la sesión #10...
-[2026-11-12 21:37:43] 💓 Pulso En Vivo | Equity: $10,012.21 USD (Efectivo: $9,605.49 | Flotante: $+406.72) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:38:45] ☁️ [GITHUB CLOUD] Pulso #67 de la sesión #10...
-[2026-11-12 21:39:05] 💓 Pulso En Vivo | Equity: $10,028.99 USD (Efectivo: $9,605.49 | Flotante: $+423.50) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:40:05] ☁️ [GITHUB CLOUD] Pulso #68 de la sesión #10...
-[2026-11-12 21:40:25] 💓 Pulso En Vivo | Equity: $10,034.13 USD (Efectivo: $9,605.49 | Flotante: $+428.64) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:41:25] ☁️ [GITHUB CLOUD] Pulso #69 de la sesión #10...
-[2026-11-12 21:41:45] 💓 Pulso En Vivo | Equity: $10,057.07 USD (Efectivo: $9,605.49 | Flotante: $+451.58) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:42:47] ☁️ [GITHUB CLOUD] Pulso #70 de la sesión #10...
-[2026-11-12 21:43:08] 💓 Pulso En Vivo | Equity: $10,041.72 USD (Efectivo: $9,605.49 | Flotante: $+436.23) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:44:08] ☁️ [GITHUB CLOUD] Pulso #71 de la sesión #10...
-[2026-11-12 21:44:28] 💓 Pulso En Vivo | Equity: $10,028.85 USD (Efectivo: $9,605.49 | Flotante: $+423.36) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:45:28] ☁️ [GITHUB CLOUD] Pulso #72 de la sesión #10...
-[2026-11-12 21:45:49] 💓 Pulso En Vivo | Equity: $9,988.94 USD (Efectivo: $9,605.49 | Flotante: $+383.45) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:46:50] ☁️ [GITHUB CLOUD] Pulso #73 de la sesión #10...
-[2026-11-12 21:47:11] 💓 Pulso En Vivo | Equity: $10,008.82 USD (Efectivo: $9,605.49 | Flotante: $+403.33) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:48:11] ☁️ [GITHUB CLOUD] Pulso #74 de la sesión #10...
-[2026-11-12 21:48:32] 💓 Pulso En Vivo | Equity: $10,018.37 USD (Efectivo: $9,605.49 | Flotante: $+412.88) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:49:32] ☁️ [GITHUB CLOUD] Pulso #75 de la sesión #10...
-[2026-11-12 21:49:52] 💓 Pulso En Vivo | Equity: $10,013.02 USD (Efectivo: $9,605.49 | Flotante: $+407.53) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:50:54] ☁️ [GITHUB CLOUD] Pulso #76 de la sesión #10...
-[2026-11-12 21:51:15] 💓 Pulso En Vivo | Equity: $10,016.17 USD (Efectivo: $9,605.49 | Flotante: $+410.68) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:52:15] ☁️ [GITHUB CLOUD] Pulso #77 de la sesión #10...
-[2026-11-12 21:52:35] 💓 Pulso En Vivo | Equity: $9,995.36 USD (Efectivo: $9,605.49 | Flotante: $+389.87) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:53:35] ☁️ [GITHUB CLOUD] Pulso #78 de la sesión #10...
-[2026-11-12 21:53:55] 💓 Pulso En Vivo | Equity: $9,970.03 USD (Efectivo: $9,605.49 | Flotante: $+364.54) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:54:56] ☁️ [GITHUB CLOUD] Pulso #79 de la sesión #10...
-[2026-11-12 21:55:18] 💓 Pulso En Vivo | Equity: $9,959.01 USD (Efectivo: $9,605.49 | Flotante: $+353.52) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:56:18] ☁️ [GITHUB CLOUD] Pulso #80 de la sesión #10...
-[2026-11-12 21:56:39] 💓 Pulso En Vivo | Equity: $9,964.72 USD (Efectivo: $9,605.49 | Flotante: $+359.23) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:57:39] ☁️ [GITHUB CLOUD] Pulso #81 de la sesión #10...
-[2026-11-12 21:57:59] 💓 Pulso En Vivo | Equity: $9,961.87 USD (Efectivo: $9,605.49 | Flotante: $+356.38) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 21:59:01] ☁️ [GITHUB CLOUD] Pulso #82 de la sesión #10...
-[2026-11-12 21:59:22] 💓 Pulso En Vivo | Equity: $9,924.72 USD (Efectivo: $9,605.49 | Flotante: $+319.23) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 22:00:22] ☁️ [GITHUB CLOUD] Pulso #83 de la sesión #10...
-[2026-11-12 22:00:42] 💓 Pulso En Vivo | Equity: $9,935.02 USD (Efectivo: $9,605.49 | Flotante: $+329.53) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 22:01:42] ☁️ [GITHUB CLOUD] Pulso #84 de la sesión #10...
-[2026-11-12 22:02:02] 💓 Pulso En Vivo | Equity: $9,957.41 USD (Efectivo: $9,605.49 | Flotante: $+351.92) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 22:03:04] ☁️ [GITHUB CLOUD] Pulso #85 de la sesión #10...
-[2026-11-12 22:03:24] 💓 Pulso En Vivo | Equity: $9,962.55 USD (Efectivo: $9,605.49 | Flotante: $+357.06) | Abiertas: 12 | Cerradas: 37
-[2026-11-12 22:04:24] ☁️ [GITHUB CLOUD] Pulso #86 de la sesión #10...
-[2026-11-12 22:04:45] ✅ CERRADA GBP/JPY (SHORT) a 211.05599975585938 | PnL: $+44.76 USD (Take Profit Alcanzado)
-[2026-11-12 22:04:45] 💓 Pulso En Vivo | Equity: $10,041.42 USD (Efectivo: $9,650.25 | Flotante: $+391.17) | Abiertas: 11 | Cerradas: 38
-[2026-11-12 22:05:45] ☁️ [GITHUB CLOUD] Pulso #87 de la sesión #10...
-[2026-11-12 22:05:58] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT | Entrada: 211.26400757 | SL: 211.52450584 | TP: 210.80089953 | Tamaño: $16,735.70 USD (Riesgo controlado: $351.45)
-[2026-11-12 22:06:05] 💓 Pulso En Vivo | Equity: $10,003.93 USD (Efectivo: $9,650.25 | Flotante: $+353.68) | Abiertas: 12 | Cerradas: 38
-[2026-11-12 22:07:07] ☁️ [GITHUB CLOUD] Pulso #88 de la sesión #10...
-[2026-11-12 22:07:27] 💓 Pulso En Vivo | Equity: $9,977.53 USD (Efectivo: $9,650.25 | Flotante: $+327.28) | Abiertas: 12 | Cerradas: 38
-[2026-11-12 22:08:27] ☁️ [GITHUB CLOUD] Pulso #89 de la sesión #10...
-[2026-11-12 22:08:48] 💓 Pulso En Vivo | Equity: $9,979.84 USD (Efectivo: $9,650.25 | Flotante: $+329.59) | Abiertas: 12 | Cerradas: 38
-[2026-11-12 22:09:48] ☁️ [GITHUB CLOUD] Pulso #90 de la sesión #10...
-[2026-11-12 22:10:08] 💓 Pulso En Vivo | Equity: $9,994.85 USD (Efectivo: $9,650.25 | Flotante: $+344.60) | Abiertas: 12 | Cerradas: 38
-[2026-11-12 22:10:08] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
-[2026-11-12 22:10:09]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-3.4%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 22:10:10]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.43, WinRate=45.5%, Ret=+7.0%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 22:10:12]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.86, WinRate=58.8%, Ret=+19.1%)
-[2026-11-12 22:10:13]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.85, Ret=-3.5%)
-[2026-11-12 22:10:14]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.87, Ret=-2.2%)
-[2026-11-12 22:10:15]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.46, WinRate=57.1%, Ret=+10.0%)
-[2026-11-12 22:10:16]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.65, WinRate=60.0%, Ret=+9.4%)
-[2026-11-12 22:10:17]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.00, Ret=-0.1%)
-[2026-11-12 22:10:18]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=0.98, Ret=-1.0%)
-[2026-11-12 22:10:20]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.46, WinRate=68.8%, Ret=+27.9%) | Ajuste defensivo aplicado tras 7 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 22:10:21]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.27, WinRate=61.5%, Ret=+21.5%)
-[2026-11-12 22:10:21]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.84, WinRate=72.0%, Ret=+52.9%)
-[2026-11-12 22:10:21]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.66, WinRate=66.7%, Ret=+12.2%)
-[2026-11-12 22:10:22]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.22, WinRate=64.3%, Ret=+2.4%)
-[2026-11-12 22:10:22]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=5.87, WinRate=87.0%, Ret=+34.6%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 22:10:22]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.25, WinRate=79.2%, Ret=+27.3%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 22:10:23]    🔎 [USD/JPY] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.07, Ret=+1.3%)
-[2026-11-12 22:10:23]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=3.03, WinRate=71.4%, Ret=+20.8%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.3x ATR
-[2026-11-12 22:10:23] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (15 ajustes aplicados).
-[2026-11-12 22:11:25] ☁️ [GITHUB CLOUD] Pulso #91 de la sesión #10...
-[2026-11-12 22:11:45] ✅ CERRADA GBP/JPY (SHORT) a 211.54200744628906 | PnL: $-25.37 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-12 22:11:45] 💓 Pulso En Vivo | Equity: $9,975.18 USD (Efectivo: $9,624.88 | Flotante: $+350.30) | Abiertas: 11 | Cerradas: 39
-[2026-11-12 22:12:45] ☁️ [GITHUB CLOUD] Pulso #92 de la sesión #10...
-[2026-11-12 22:12:58] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT | Entrada: 211.32699585 | SL: 211.51873405 | TP: 210.97091061 | Tamaño: $16,625.30 USD (Riesgo controlado: $349.13)
-[2026-11-12 22:13:05] 💓 Pulso En Vivo | Equity: $9,946.54 USD (Efectivo: $9,624.88 | Flotante: $+321.66) | Abiertas: 12 | Cerradas: 39
-[2026-11-12 22:14:05] ☁️ [GITHUB CLOUD] Pulso #93 de la sesión #10...
-[2026-11-12 22:14:25] 💓 Pulso En Vivo | Equity: $9,928.71 USD (Efectivo: $9,624.88 | Flotante: $+303.83) | Abiertas: 12 | Cerradas: 39
-[2026-11-12 22:15:27] ☁️ [GITHUB CLOUD] Pulso #94 de la sesión #10...
-[2026-11-12 22:15:36] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT SHORT | Entrada: 2013.25000000 | SL: 2026.54686462 | TP: 1985.35549052 | Tamaño: $4,961.32 USD (Riesgo controlado: $225.24)
-[2026-11-12 22:15:55] 💓 Pulso En Vivo | Equity: $9,905.92 USD (Efectivo: $9,602.96 | Flotante: $+302.96) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:16:55] ☁️ [GITHUB CLOUD] Pulso #95 de la sesión #10...
-[2026-11-12 22:17:16] 💓 Pulso En Vivo | Equity: $9,885.05 USD (Efectivo: $9,602.96 | Flotante: $+282.09) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:18:16] ☁️ [GITHUB CLOUD] Pulso #96 de la sesión #10...
-[2026-11-12 22:18:35] 💓 Pulso En Vivo | Equity: $9,888.16 USD (Efectivo: $9,602.96 | Flotante: $+285.20) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:19:37] ☁️ [GITHUB CLOUD] Pulso #97 de la sesión #10...
-[2026-11-12 22:19:59] 💓 Pulso En Vivo | Equity: $9,917.51 USD (Efectivo: $9,602.96 | Flotante: $+314.55) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:20:59] ☁️ [GITHUB CLOUD] Pulso #98 de la sesión #10...
-[2026-11-12 22:21:19] 💓 Pulso En Vivo | Equity: $9,925.87 USD (Efectivo: $9,602.96 | Flotante: $+322.91) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:22:19] ☁️ [GITHUB CLOUD] Pulso #99 de la sesión #10...
-[2026-11-12 22:22:40] 💓 Pulso En Vivo | Equity: $9,914.88 USD (Efectivo: $9,602.96 | Flotante: $+311.92) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:23:41] ☁️ [GITHUB CLOUD] Pulso #100 de la sesión #10...
-[2026-11-12 22:24:02] 💓 Pulso En Vivo | Equity: $9,913.93 USD (Efectivo: $9,602.96 | Flotante: $+310.97) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:25:02] ☁️ [GITHUB CLOUD] Pulso #101 de la sesión #10...
-[2026-11-12 22:25:23] 💓 Pulso En Vivo | Equity: $9,907.17 USD (Efectivo: $9,602.96 | Flotante: $+304.21) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:26:23] ☁️ [GITHUB CLOUD] Pulso #102 de la sesión #10...
-[2026-11-12 22:26:43] 💓 Pulso En Vivo | Equity: $9,900.38 USD (Efectivo: $9,602.96 | Flotante: $+297.42) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:27:44] ☁️ [GITHUB CLOUD] Pulso #103 de la sesión #10...
-[2026-11-12 22:28:06] 💓 Pulso En Vivo | Equity: $9,883.21 USD (Efectivo: $9,602.96 | Flotante: $+280.25) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:29:06] ☁️ [GITHUB CLOUD] Pulso #104 de la sesión #10...
-[2026-11-12 22:29:26] 💓 Pulso En Vivo | Equity: $9,878.10 USD (Efectivo: $9,602.96 | Flotante: $+275.14) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:30:26] ☁️ [GITHUB CLOUD] Pulso #105 de la sesión #10...
-[2026-11-12 22:30:46] 💓 Pulso En Vivo | Equity: $9,878.14 USD (Efectivo: $9,602.96 | Flotante: $+275.18) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:31:48] ☁️ [GITHUB CLOUD] Pulso #106 de la sesión #10...
-[2026-11-12 22:32:09] 💓 Pulso En Vivo | Equity: $9,887.19 USD (Efectivo: $9,602.96 | Flotante: $+284.23) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:33:09] ☁️ [GITHUB CLOUD] Pulso #107 de la sesión #10...
-[2026-11-12 22:33:30] 💓 Pulso En Vivo | Equity: $9,881.71 USD (Efectivo: $9,602.96 | Flotante: $+278.75) | Abiertas: 12 | Cerradas: 40
-[2026-11-12 22:34:30] ☁️ [GITHUB CLOUD] Pulso #108 de la sesión #10...
-[2026-11-12 22:34:41] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG | Entrada: 1.32420516 | SL: 1.32325159 | TP: 1.32620904 | Tamaño: $16,456.75 USD (Riesgo controlado: $224.14)
-[2026-11-12 22:34:58] 💓 Pulso En Vivo | Equity: $9,871.98 USD (Efectivo: $9,595.17 | Flotante: $+276.81) | Abiertas: 12 | Cerradas: 41
-[2026-11-12 22:36:00] ☁️ [GITHUB CLOUD] Pulso #109 de la sesión #10...
-[2026-11-12 22:36:21] ✅ CERRADA GBP/JPY (SHORT) a 211.54800415039062 | PnL: $-20.71 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-12 22:36:21] 💓 Pulso En Vivo | Equity: $9,873.27 USD (Efectivo: $9,574.46 | Flotante: $+298.81) | Abiertas: 11 | Cerradas: 42
-[2026-11-12 22:37:21] ☁️ [GITHUB CLOUD] Pulso #110 de la sesión #10...
-[2026-11-12 22:37:42] 💓 Pulso En Vivo | Equity: $9,850.19 USD (Efectivo: $9,574.46 | Flotante: $+275.73) | Abiertas: 11 | Cerradas: 42
-[2026-11-12 22:38:42] ☁️ [GITHUB CLOUD] Pulso #111 de la sesión #10...
-[2026-11-12 22:39:01] 💓 Pulso En Vivo | Equity: $9,875.28 USD (Efectivo: $9,574.46 | Flotante: $+300.82) | Abiertas: 11 | Cerradas: 42
-[2026-11-12 22:40:03] ☁️ [GITHUB CLOUD] Pulso #112 de la sesión #10...
-[2026-11-12 22:40:24] 💓 Pulso En Vivo | Equity: $9,886.80 USD (Efectivo: $9,574.46 | Flotante: $+312.34) | Abiertas: 11 | Cerradas: 42
-[2026-11-12 22:41:24] ☁️ [GITHUB CLOUD] Pulso #113 de la sesión #10...
-[2026-11-12 22:41:43] 💓 Pulso En Vivo | Equity: $9,869.85 USD (Efectivo: $9,574.46 | Flotante: $+295.39) | Abiertas: 11 | Cerradas: 42
-[2026-11-12 22:42:43] ☁️ [GITHUB CLOUD] Pulso #114 de la sesión #10...
-[2026-11-12 22:43:04] 💓 Pulso En Vivo | Equity: $9,878.02 USD (Efectivo: $9,574.46 | Flotante: $+303.56) | Abiertas: 11 | Cerradas: 42
-[2026-11-12 22:44:05] ☁️ [GITHUB CLOUD] Pulso #115 de la sesión #10...
-[2026-11-12 22:44:17] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT | Entrada: 1.32364428 | SL: 1.32464910 | TP: 1.32153271 | Tamaño: $17,979.64 USD (Riesgo controlado: $224.48)
-[2026-11-12 22:44:33] 💓 Pulso En Vivo | Equity: $9,857.43 USD (Efectivo: $9,564.20 | Flotante: $+293.23) | Abiertas: 11 | Cerradas: 43
-[2026-11-12 22:45:33] ☁️ [GITHUB CLOUD] Pulso #116 de la sesión #10...
-[2026-11-12 22:45:46] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT | Entrada: 211.50700378 | SL: 211.71189708 | TP: 211.12648766 | Tamaño: $16,429.05 USD (Riesgo controlado: $345.01)
-[2026-11-12 22:45:53] 💓 Pulso En Vivo | Equity: $9,859.47 USD (Efectivo: $9,564.20 | Flotante: $+295.27) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:46:53] ☁️ [GITHUB CLOUD] Pulso #117 de la sesión #10...
-[2026-11-12 22:47:13] 💓 Pulso En Vivo | Equity: $9,859.79 USD (Efectivo: $9,564.20 | Flotante: $+295.59) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:48:14] ☁️ [GITHUB CLOUD] Pulso #118 de la sesión #10...
-[2026-11-12 22:48:35] 💓 Pulso En Vivo | Equity: $9,870.48 USD (Efectivo: $9,564.20 | Flotante: $+306.28) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:49:35] ☁️ [GITHUB CLOUD] Pulso #119 de la sesión #10...
-[2026-11-12 22:49:55] 💓 Pulso En Vivo | Equity: $9,859.73 USD (Efectivo: $9,564.20 | Flotante: $+295.53) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:50:55] ☁️ [GITHUB CLOUD] Pulso #120 de la sesión #10...
-[2026-11-12 22:51:15] 💓 Pulso En Vivo | Equity: $9,874.09 USD (Efectivo: $9,564.20 | Flotante: $+309.89) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:52:16] ☁️ [GITHUB CLOUD] Pulso #121 de la sesión #10...
-[2026-11-12 22:52:38] 💓 Pulso En Vivo | Equity: $9,862.57 USD (Efectivo: $9,564.20 | Flotante: $+298.37) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:53:38] ☁️ [GITHUB CLOUD] Pulso #122 de la sesión #10...
-[2026-11-12 22:53:58] 💓 Pulso En Vivo | Equity: $9,889.09 USD (Efectivo: $9,564.20 | Flotante: $+324.89) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:54:58] ☁️ [GITHUB CLOUD] Pulso #123 de la sesión #10...
-[2026-11-12 22:55:19] 💓 Pulso En Vivo | Equity: $9,887.90 USD (Efectivo: $9,564.20 | Flotante: $+323.70) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:56:20] ☁️ [GITHUB CLOUD] Pulso #124 de la sesión #10...
-[2026-11-12 22:56:42] 💓 Pulso En Vivo | Equity: $9,883.54 USD (Efectivo: $9,564.20 | Flotante: $+319.34) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:57:42] ☁️ [GITHUB CLOUD] Pulso #125 de la sesión #10...
-[2026-11-12 22:58:02] 💓 Pulso En Vivo | Equity: $9,870.24 USD (Efectivo: $9,564.20 | Flotante: $+306.04) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 22:59:02] ☁️ [GITHUB CLOUD] Pulso #126 de la sesión #10...
-[2026-11-12 22:59:23] 💓 Pulso En Vivo | Equity: $9,866.64 USD (Efectivo: $9,564.20 | Flotante: $+302.44) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:00:25] ☁️ [GITHUB CLOUD] Pulso #127 de la sesión #10...
-[2026-11-12 23:00:45] 💓 Pulso En Vivo | Equity: $9,867.78 USD (Efectivo: $9,564.20 | Flotante: $+303.58) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:01:45] ☁️ [GITHUB CLOUD] Pulso #128 de la sesión #10...
-[2026-11-12 23:02:06] 💓 Pulso En Vivo | Equity: $9,873.10 USD (Efectivo: $9,564.20 | Flotante: $+308.90) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:03:06] ☁️ [GITHUB CLOUD] Pulso #129 de la sesión #10...
-[2026-11-12 23:03:26] 💓 Pulso En Vivo | Equity: $9,873.75 USD (Efectivo: $9,564.20 | Flotante: $+309.55) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:04:28] ☁️ [GITHUB CLOUD] Pulso #130 de la sesión #10...
-[2026-11-12 23:04:48] 💓 Pulso En Vivo | Equity: $9,867.55 USD (Efectivo: $9,564.20 | Flotante: $+303.35) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:05:48] ☁️ [GITHUB CLOUD] Pulso #131 de la sesión #10...
-[2026-11-12 23:06:08] 💓 Pulso En Vivo | Equity: $9,892.84 USD (Efectivo: $9,564.20 | Flotante: $+328.64) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:07:08] ☁️ [GITHUB CLOUD] Pulso #132 de la sesión #10...
-[2026-11-12 23:07:28] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0660919622
-[2026-11-12 23:07:28] 💓 Pulso En Vivo | Equity: $9,877.76 USD (Efectivo: $9,564.20 | Flotante: $+313.56) | Abiertas: 12 | Cerradas: 43
-[2026-11-12 23:08:30] ☁️ [GITHUB CLOUD] Pulso #133 de la sesión #10...
-[2026-11-12 23:08:39] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT LONG | Entrada: 2019.63000000 | SL: 2006.22241219 | TP: 2047.75678746 | Tamaño: $4,935.98 USD (Riesgo controlado: $224.09)
-[2026-11-12 23:08:58] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0660990693
-[2026-11-12 23:08:58] 💓 Pulso En Vivo | Equity: $9,866.90 USD (Efectivo: $9,543.51 | Flotante: $+323.39) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:09:58] ☁️ [GITHUB CLOUD] Pulso #134 de la sesión #10...
-[2026-11-12 23:10:19] 💓 Pulso En Vivo | Equity: $9,845.78 USD (Efectivo: $9,543.51 | Flotante: $+302.27) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:11:19] ☁️ [GITHUB CLOUD] Pulso #135 de la sesión #10...
-[2026-11-12 23:11:39] 💓 Pulso En Vivo | Equity: $9,854.18 USD (Efectivo: $9,543.51 | Flotante: $+310.67) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:11:39] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
-[2026-11-12 23:11:40]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-3.4%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 23:11:41]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.43, WinRate=45.5%, Ret=+7.0%) | Ajuste defensivo aplicado tras 5 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 23:11:42]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.65, WinRate=52.9%, Ret=+15.7%)
-[2026-11-12 23:11:43]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.85, Ret=-3.5%)
-[2026-11-12 23:11:44]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.87, Ret=-2.2%)
-[2026-11-12 23:11:46]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.53, WinRate=62.5%, Ret=+6.5%)
-[2026-11-12 23:11:47]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.66, WinRate=60.0%, Ret=+9.5%)
-[2026-11-12 23:11:48]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=1.07, Ret=+4.0%)
-[2026-11-12 23:11:49]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.95, Ret=-1.3%)
-[2026-11-12 23:11:50]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.98, WinRate=62.5%, Ret=+21.6%) | Ajuste defensivo aplicado tras 7 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 23:11:51]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.71, WinRate=53.8%, Ret=+14.2%)
-[2026-11-12 23:11:52]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.85, WinRate=72.0%, Ret=+53.2%)
-[2026-11-12 23:11:52]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.87, WinRate=73.3%, Ret=+8.1%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-12 23:11:52]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.21, WinRate=64.3%, Ret=+2.4%)
-[2026-11-12 23:11:53]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=5.56, WinRate=87.0%, Ret=+35.0%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 23:11:53]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.57, WinRate=76.0%, Ret=+27.1%) | Ajuste defensivo aplicado tras 5 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-12 23:11:53]    🔎 [USD/JPY] -> ACTIVO | Estrategia: confluence | Optimizado agresivo con confluence (PF=1.17, WinRate=52.0%, Ret=+4.0%)
-[2026-11-12 23:11:54]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=2.96, WinRate=71.4%, Ret=+20.0%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.3x ATR
-[2026-11-12 23:11:54] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (15 ajustes aplicados).
-[2026-11-12 23:12:55] ☁️ [GITHUB CLOUD] Pulso #136 de la sesión #10...
-[2026-11-12 23:13:17] 💓 Pulso En Vivo | Equity: $9,837.82 USD (Efectivo: $9,543.51 | Flotante: $+294.31) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:14:17] ☁️ [GITHUB CLOUD] Pulso #137 de la sesión #10...
-[2026-11-12 23:14:37] 💓 Pulso En Vivo | Equity: $9,838.20 USD (Efectivo: $9,543.51 | Flotante: $+294.69) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:15:37] ☁️ [GITHUB CLOUD] Pulso #138 de la sesión #10...
-[2026-11-12 23:15:58] 💓 Pulso En Vivo | Equity: $9,853.87 USD (Efectivo: $9,543.51 | Flotante: $+310.36) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:16:59] ☁️ [GITHUB CLOUD] Pulso #139 de la sesión #10...
-[2026-11-12 23:17:19] 💓 Pulso En Vivo | Equity: $9,846.51 USD (Efectivo: $9,543.51 | Flotante: $+303.00) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:18:19] ☁️ [GITHUB CLOUD] Pulso #140 de la sesión #10...
-[2026-11-12 23:18:41] 💓 Pulso En Vivo | Equity: $9,857.11 USD (Efectivo: $9,543.51 | Flotante: $+313.60) | Abiertas: 12 | Cerradas: 44
-[2026-11-12 23:19:41] ☁️ [GITHUB CLOUD] Pulso #141 de la sesión #10...
-[2026-11-12 23:19:50] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT SHORT | Entrada: 2015.28000000 | SL: 2028.12681725 | TP: 1988.32961164 | Tamaño: $4,927.28 USD (Riesgo controlado: $223.70)
-[2026-11-12 23:19:53] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> USD/JPY LONG | Entrada: 159.83599854 | SL: 159.73719786 | TP: 160.03359988 | Tamaño: $15,160.86 USD (Riesgo controlado: $344.91)
-[2026-11-12 23:20:10] 💓 Pulso En Vivo | Equity: $9,841.77 USD (Efectivo: $9,527.95 | Flotante: $+313.82) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:21:11] ☁️ [GITHUB CLOUD] Pulso #142 de la sesión #10...
-[2026-11-12 23:21:34] 💓 Pulso En Vivo | Equity: $9,858.67 USD (Efectivo: $9,527.95 | Flotante: $+330.72) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:22:34] ☁️ [GITHUB CLOUD] Pulso #143 de la sesión #10...
-[2026-11-12 23:22:55] 💓 Pulso En Vivo | Equity: $9,869.07 USD (Efectivo: $9,527.95 | Flotante: $+341.12) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:23:55] ☁️ [GITHUB CLOUD] Pulso #144 de la sesión #10...
-[2026-11-12 23:24:16] 💓 Pulso En Vivo | Equity: $9,867.71 USD (Efectivo: $9,527.95 | Flotante: $+339.76) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:25:18] ☁️ [GITHUB CLOUD] Pulso #145 de la sesión #10...
-[2026-11-12 23:25:40] 💓 Pulso En Vivo | Equity: $9,874.06 USD (Efectivo: $9,527.95 | Flotante: $+346.11) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:26:40] ☁️ [GITHUB CLOUD] Pulso #146 de la sesión #10...
-[2026-11-12 23:27:00] 💓 Pulso En Vivo | Equity: $9,878.22 USD (Efectivo: $9,527.95 | Flotante: $+350.27) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:28:00] ☁️ [GITHUB CLOUD] Pulso #147 de la sesión #10...
-[2026-11-12 23:28:20] 💓 Pulso En Vivo | Equity: $9,873.99 USD (Efectivo: $9,527.95 | Flotante: $+346.04) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:29:22] ☁️ [GITHUB CLOUD] Pulso #148 de la sesión #10...
-[2026-11-12 23:29:44] 💓 Pulso En Vivo | Equity: $9,862.80 USD (Efectivo: $9,527.95 | Flotante: $+334.85) | Abiertas: 13 | Cerradas: 45
-[2026-11-12 23:30:44] ☁️ [GITHUB CLOUD] Pulso #149 de la sesión #10...
-[2026-11-12 23:30:54] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT LONG | Entrada: 2018.30000000 | SL: 2005.64776766 | TP: 2044.84218306 | Tamaño: $4,553.35 USD (Riesgo controlado: $223.95)
-[2026-11-12 23:31:13] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0661288149
-[2026-11-12 23:31:13] 💓 Pulso En Vivo | Equity: $9,863.04 USD (Efectivo: $9,515.37 | Flotante: $+347.67) | Abiertas: 13 | Cerradas: 46
-[2026-11-12 23:32:13] ☁️ [GITHUB CLOUD] Pulso #150 de la sesión #10...
-[2026-11-12 23:32:33] 💓 Pulso En Vivo | Equity: $9,846.11 USD (Efectivo: $9,515.37 | Flotante: $+330.74) | Abiertas: 13 | Cerradas: 46
-[2026-11-12 23:33:35] ☁️ [GITHUB CLOUD] Pulso #151 de la sesión #10...
-[2026-11-12 23:33:57] 💓 Pulso En Vivo | Equity: $9,877.04 USD (Efectivo: $9,515.37 | Flotante: $+361.67) | Abiertas: 13 | Cerradas: 46
-[2026-11-12 23:34:57] ☁️ [GITHUB CLOUD] Pulso #152 de la sesión #10...
-[2026-11-12 23:35:19] 💓 Pulso En Vivo | Equity: $9,878.60 USD (Efectivo: $9,515.37 | Flotante: $+363.23) | Abiertas: 13 | Cerradas: 46
-[2026-11-12 23:36:19] ☁️ [GITHUB CLOUD] Pulso #153 de la sesión #10...
-[2026-11-12 23:36:29] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT SHORT | Entrada: 2015.81000000 | SL: 2028.78028948 | TP: 1988.60058836 | Tamaño: $4,554.84 USD (Riesgo controlado: $224.02)
-[2026-11-12 23:36:48] 💓 Pulso En Vivo | Equity: $9,865.01 USD (Efectivo: $9,505.20 | Flotante: $+359.81) | Abiertas: 13 | Cerradas: 47
-[2026-11-12 23:37:50] ☁️ [GITHUB CLOUD] Pulso #154 de la sesión #10...
-[2026-11-12 23:38:11] 💓 Pulso En Vivo | Equity: $9,871.08 USD (Efectivo: $9,505.20 | Flotante: $+365.88) | Abiertas: 13 | Cerradas: 47
-[2026-11-12 23:39:11] ☁️ [GITHUB CLOUD] Pulso #155 de la sesión #10...
-[2026-11-12 23:39:31] 💓 Pulso En Vivo | Equity: $9,856.18 USD (Efectivo: $9,505.20 | Flotante: $+350.98) | Abiertas: 13 | Cerradas: 47
-[2026-11-12 23:40:31] ☁️ [GITHUB CLOUD] Pulso #156 de la sesión #10...
-[2026-11-12 23:40:52] 💓 Pulso En Vivo | Equity: $9,885.64 USD (Efectivo: $9,505.20 | Flotante: $+380.44) | Abiertas: 13 | Cerradas: 47
-[2026-11-12 23:41:53] ☁️ [GITHUB CLOUD] Pulso #157 de la sesión #10...
-[2026-11-12 23:42:15] 💓 Pulso En Vivo | Equity: $9,884.59 USD (Efectivo: $9,505.20 | Flotante: $+379.39) | Abiertas: 13 | Cerradas: 47
-[2026-11-12 23:43:15] ☁️ [GITHUB CLOUD] Pulso #158 de la sesión #10...
-[2026-11-12 23:43:25] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT LONG | Entrada: 2017.51000000 | SL: 2004.27422480 | TP: 2045.27635449 | Tamaño: $4,570.53 USD (Riesgo controlado: $224.79)
-[2026-11-12 23:43:44] 💓 Pulso En Vivo | Equity: $9,879.87 USD (Efectivo: $9,496.80 | Flotante: $+383.07) | Abiertas: 13 | Cerradas: 48
-[2026-11-12 23:44:44] ☁️ [GITHUB CLOUD] Pulso #159 de la sesión #10...
-[2026-11-12 23:45:06] 💓 Pulso En Vivo | Equity: $9,890.71 USD (Efectivo: $9,496.80 | Flotante: $+393.91) | Abiertas: 13 | Cerradas: 48
-[2026-11-12 23:46:07] ☁️ [GITHUB CLOUD] Pulso #160 de la sesión #10...
-[2026-11-12 23:46:19] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG | Entrada: 81.74000000 | SL: 81.25597172 | TP: 82.79881185 | Tamaño: $4,572.37 USD (Riesgo controlado: $346.74)
-[2026-11-12 23:46:38] 💓 Pulso En Vivo | Equity: $9,893.10 USD (Efectivo: $9,467.60 | Flotante: $+425.50) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:47:38] ☁️ [GITHUB CLOUD] Pulso #161 de la sesión #10...
-[2026-11-12 23:47:58] 💓 Pulso En Vivo | Equity: $9,900.89 USD (Efectivo: $9,467.60 | Flotante: $+433.29) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:48:58] ☁️ [GITHUB CLOUD] Pulso #162 de la sesión #10...
-[2026-11-12 23:49:19] 💓 Pulso En Vivo | Equity: $9,896.79 USD (Efectivo: $9,467.60 | Flotante: $+429.19) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:50:21] ☁️ [GITHUB CLOUD] Pulso #163 de la sesión #10...
-[2026-11-12 23:50:43] 💓 Pulso En Vivo | Equity: $9,891.98 USD (Efectivo: $9,467.60 | Flotante: $+424.38) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:51:43] ☁️ [GITHUB CLOUD] Pulso #164 de la sesión #10...
-[2026-11-12 23:52:05] 💓 Pulso En Vivo | Equity: $9,893.43 USD (Efectivo: $9,467.60 | Flotante: $+425.83) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:53:05] ☁️ [GITHUB CLOUD] Pulso #165 de la sesión #10...
-[2026-11-12 23:53:27] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0661446138
-[2026-11-12 23:53:27] 💓 Pulso En Vivo | Equity: $9,920.80 USD (Efectivo: $9,467.60 | Flotante: $+453.20) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:54:28] ☁️ [GITHUB CLOUD] Pulso #166 de la sesión #10...
-[2026-11-12 23:54:50] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0661878638
-[2026-11-12 23:54:50] 💓 Pulso En Vivo | Equity: $9,937.13 USD (Efectivo: $9,467.60 | Flotante: $+469.53) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:55:50] ☁️ [GITHUB CLOUD] Pulso #167 de la sesión #10...
-[2026-11-12 23:56:11] 💓 Pulso En Vivo | Equity: $9,891.31 USD (Efectivo: $9,467.60 | Flotante: $+423.71) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:57:11] ☁️ [GITHUB CLOUD] Pulso #168 de la sesión #10...
-[2026-11-12 23:57:31] 💓 Pulso En Vivo | Equity: $9,874.04 USD (Efectivo: $9,467.60 | Flotante: $+406.44) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:58:33] ☁️ [GITHUB CLOUD] Pulso #169 de la sesión #10...
-[2026-11-12 23:58:54] 💓 Pulso En Vivo | Equity: $9,885.60 USD (Efectivo: $9,467.60 | Flotante: $+418.00) | Abiertas: 13 | Cerradas: 49
-[2026-11-12 23:59:54] ☁️ [GITHUB CLOUD] Pulso #170 de la sesión #10...
-[2026-11-13 00:00:22] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0661930164
-[2026-11-13 00:00:22] 💓 Pulso En Vivo | Equity: $9,890.49 USD (Efectivo: $9,467.60 | Flotante: $+422.89) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:01:22] ☁️ [GITHUB CLOUD] Pulso #171 de la sesión #10...
-[2026-11-13 00:01:44] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0661953021
-[2026-11-13 00:01:44] 💓 Pulso En Vivo | Equity: $9,914.16 USD (Efectivo: $9,467.60 | Flotante: $+446.56) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:02:46] ☁️ [GITHUB CLOUD] Pulso #172 de la sesión #10...
-[2026-11-13 00:03:06] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0662253021
-[2026-11-13 00:03:06] 💓 Pulso En Vivo | Equity: $9,911.91 USD (Efectivo: $9,467.60 | Flotante: $+444.31) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:04:06] ☁️ [GITHUB CLOUD] Pulso #173 de la sesión #10...
-[2026-11-13 00:04:28] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.066324695
-[2026-11-13 00:04:28] 💓 Pulso En Vivo | Equity: $9,943.48 USD (Efectivo: $9,467.60 | Flotante: $+475.88) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:05:28] ☁️ [GITHUB CLOUD] Pulso #174 de la sesión #10...
-[2026-11-13 00:05:49] 💓 Pulso En Vivo | Equity: $9,925.46 USD (Efectivo: $9,467.60 | Flotante: $+457.86) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:06:50] ☁️ [GITHUB CLOUD] Pulso #175 de la sesión #10...
-[2026-11-13 00:07:13] 💓 Pulso En Vivo | Equity: $9,910.49 USD (Efectivo: $9,467.60 | Flotante: $+442.89) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:08:13] ☁️ [GITHUB CLOUD] Pulso #176 de la sesión #10...
-[2026-11-13 00:08:34] 💓 Pulso En Vivo | Equity: $9,898.74 USD (Efectivo: $9,467.60 | Flotante: $+431.14) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:09:03] ☁️ [GITHUB CLOUD] Iniciando bloque continuo #11 (240 min)...
-[2026-11-13 00:09:03] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
-[2026-11-13 00:09:05]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.88, Ret=-1.8%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-13 00:09:06]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.41, WinRate=52.9%, Ret=+8.4%) | Ajuste defensivo aplicado tras 9 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-13 00:09:08]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.85, WinRate=56.2%, Ret=+19.0%)
-[2026-11-13 00:09:10]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.85, Ret=-3.5%)
-[2026-11-13 00:09:11]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.81, Ret=-3.1%)
-[2026-11-13 00:09:13]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.42, WinRate=53.8%, Ret=+8.9%)
-[2026-11-13 00:09:14]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.67, WinRate=60.0%, Ret=+9.5%)
-[2026-11-13 00:09:16]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=0.95, Ret=-2.7%)
-[2026-11-13 00:09:17]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.95, Ret=-1.3%)
-[2026-11-13 00:09:19]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.41, WinRate=66.7%, Ret=+26.7%) | Ajuste defensivo aplicado tras 7 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-13 00:09:20]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.41, WinRate=55.6%, Ret=+6.7%)
-[2026-11-13 00:09:21]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.35, WinRate=64.3%, Ret=+60.8%)
-[2026-11-13 00:09:21]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.69, WinRate=61.5%, Ret=+12.9%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.61x ATR
-[2026-11-13 00:09:21]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.19, WinRate=57.1%, Ret=+2.6%)
-[2026-11-13 00:09:22]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.58, WinRate=83.3%, Ret=+34.9%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-13 00:09:22]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.59, WinRate=76.0%, Ret=+27.5%) | Ajuste defensivo aplicado tras 5 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-13 00:09:22]    🔎 [USD/JPY] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=1.10, Ret=+2.5%)
-[2026-11-13 00:09:22]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado agresivo con confluence (PF=1.66, WinRate=60.0%, Ret=+18.1%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.72x ATR
-[2026-11-13 00:09:22] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (17 ajustes aplicados).
-[2026-11-13 00:09:24] ☁️ [GITHUB CLOUD] Pulso #1 de la sesión #11...
-[2026-11-13 00:09:49] 💓 Pulso En Vivo | Equity: $9,895.09 USD (Efectivo: $9,467.60 | Flotante: $+427.49) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:10:49] ☁️ [GITHUB CLOUD] Pulso #2 de la sesión #11...
-[2026-11-13 00:11:15] 💓 Pulso En Vivo | Equity: $9,884.67 USD (Efectivo: $9,467.60 | Flotante: $+417.07) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:12:15] ☁️ [GITHUB CLOUD] Pulso #3 de la sesión #11...
-[2026-11-13 00:12:40] 💓 Pulso En Vivo | Equity: $9,890.81 USD (Efectivo: $9,467.60 | Flotante: $+423.21) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:13:41] ☁️ [GITHUB CLOUD] Pulso #4 de la sesión #11...
-[2026-11-13 00:14:06] 💓 Pulso En Vivo | Equity: $9,877.98 USD (Efectivo: $9,467.60 | Flotante: $+410.38) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:15:06] ☁️ [GITHUB CLOUD] Pulso #5 de la sesión #11...
-[2026-11-13 00:15:31] 💓 Pulso En Vivo | Equity: $9,863.05 USD (Efectivo: $9,467.60 | Flotante: $+395.45) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:16:31] ☁️ [GITHUB CLOUD] Pulso #6 de la sesión #11...
-[2026-11-13 00:16:57] 💓 Pulso En Vivo | Equity: $9,905.08 USD (Efectivo: $9,467.60 | Flotante: $+437.48) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:17:58] ☁️ [GITHUB CLOUD] Pulso #7 de la sesión #11...
-[2026-11-13 00:18:24] 💓 Pulso En Vivo | Equity: $9,883.62 USD (Efectivo: $9,467.60 | Flotante: $+416.02) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:19:24] ☁️ [GITHUB CLOUD] Pulso #8 de la sesión #11...
-[2026-11-13 00:19:50] 💓 Pulso En Vivo | Equity: $9,876.06 USD (Efectivo: $9,467.60 | Flotante: $+408.46) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:20:50] ☁️ [GITHUB CLOUD] Pulso #9 de la sesión #11...
-[2026-11-13 00:21:17] 💓 Pulso En Vivo | Equity: $9,868.59 USD (Efectivo: $9,467.60 | Flotante: $+400.99) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:22:18] ☁️ [GITHUB CLOUD] Pulso #10 de la sesión #11...
-[2026-11-13 00:22:44] 💓 Pulso En Vivo | Equity: $9,874.86 USD (Efectivo: $9,467.60 | Flotante: $+407.26) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:23:44] ☁️ [GITHUB CLOUD] Pulso #11 de la sesión #11...
-[2026-11-13 00:24:09] 💓 Pulso En Vivo | Equity: $9,857.33 USD (Efectivo: $9,467.60 | Flotante: $+389.73) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:25:09] ☁️ [GITHUB CLOUD] Pulso #12 de la sesión #11...
-[2026-11-13 00:25:35] 💓 Pulso En Vivo | Equity: $9,854.89 USD (Efectivo: $9,467.60 | Flotante: $+387.29) | Abiertas: 13 | Cerradas: 49
-[2026-11-13 00:26:37] ☁️ [GITHUB CLOUD] Pulso #13 de la sesión #11...
-[2026-11-13 00:26:49] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT SHORT | Entrada: 2013.91000000 | SL: 2026.48186928 | TP: 1987.53640465 | Tamaño: $4,538.65 USD (Riesgo controlado: $223.23)
-[2026-11-13 00:27:10] 💓 Pulso En Vivo | Equity: $9,843.77 USD (Efectivo: $9,454.88 | Flotante: $+388.89) | Abiertas: 13 | Cerradas: 50
-[2026-11-13 00:28:10] ☁️ [GITHUB CLOUD] Pulso #14 de la sesión #11...
-[2026-11-13 00:28:36] 💓 Pulso En Vivo | Equity: $9,836.54 USD (Efectivo: $9,454.88 | Flotante: $+381.66) | Abiertas: 13 | Cerradas: 50
-[2026-11-13 00:29:36] ☁️ [GITHUB CLOUD] Pulso #15 de la sesión #11...
-[2026-11-13 00:30:03] 💓 Pulso En Vivo | Equity: $9,844.72 USD (Efectivo: $9,454.88 | Flotante: $+389.84) | Abiertas: 13 | Cerradas: 50
-[2026-11-13 00:31:05] ☁️ [GITHUB CLOUD] Pulso #16 de la sesión #11...
-[2026-11-13 00:31:29] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ADA/USDT SHORT | Entrada: 0.17490000 | SL: 0.17640990 | TP: 0.17172921 | Tamaño: $4,544.46 USD (Riesgo controlado: $344.62)
-[2026-11-13 00:31:38] 💓 Pulso En Vivo | Equity: $9,845.53 USD (Efectivo: $9,478.66 | Flotante: $+366.87) | Abiertas: 13 | Cerradas: 51
-[2026-11-13 00:32:38] ☁️ [GITHUB CLOUD] Pulso #17 de la sesión #11...
-[2026-11-13 00:32:53] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT | Entrada: 81.52000000 | SL: 81.98479003 | TP: 80.50327182 | Tamaño: $4,543.87 USD (Riesgo controlado: $465.67)
-[2026-11-13 00:33:14] 💓 Pulso En Vivo | Equity: $9,843.32 USD (Efectivo: $9,462.35 | Flotante: $+380.97) | Abiertas: 13 | Cerradas: 52
-[2026-11-13 00:34:14] ☁️ [GITHUB CLOUD] Pulso #18 de la sesión #11...
-[2026-11-13 00:34:41] 💓 Pulso En Vivo | Equity: $9,841.00 USD (Efectivo: $9,462.35 | Flotante: $+378.65) | Abiertas: 13 | Cerradas: 52
-[2026-11-13 00:35:42] ☁️ [GITHUB CLOUD] Pulso #19 de la sesión #11...
-[2026-11-13 00:36:07] 💓 Pulso En Vivo | Equity: $9,838.95 USD (Efectivo: $9,462.35 | Flotante: $+376.60) | Abiertas: 13 | Cerradas: 52
-[2026-11-13 00:37:07] ☁️ [GITHUB CLOUD] Pulso #20 de la sesión #11...
-[2026-11-13 00:37:34] ✅ CERRADA DOGE/USDT (LONG) a 0.06629 | PnL: $+324.12 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 00:37:34] 💓 Pulso En Vivo | Equity: $9,854.24 USD (Efectivo: $9,786.47 | Flotante: $+67.77) | Abiertas: 12 | Cerradas: 53
-[2026-11-13 00:38:34] ☁️ [GITHUB CLOUD] Pulso #21 de la sesión #11...
-[2026-11-13 00:38:58] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6804801736
-[2026-11-13 00:38:58] 💓 Pulso En Vivo | Equity: $9,897.66 USD (Efectivo: $9,786.47 | Flotante: $+111.19) | Abiertas: 12 | Cerradas: 53
-[2026-11-13 00:39:59] ☁️ [GITHUB CLOUD] Pulso #22 de la sesión #11...
-[2026-11-13 00:40:23] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6804377438
-[2026-11-13 00:40:23] 💓 Pulso En Vivo | Equity: $9,872.48 USD (Efectivo: $9,786.47 | Flotante: $+86.01) | Abiertas: 12 | Cerradas: 53
-[2026-11-13 00:41:23] ☁️ [GITHUB CLOUD] Pulso #23 de la sesión #11...
-[2026-11-13 00:41:48] 💓 Pulso En Vivo | Equity: $9,893.50 USD (Efectivo: $9,786.47 | Flotante: $+107.03) | Abiertas: 12 | Cerradas: 53
-[2026-11-13 00:42:48] ☁️ [GITHUB CLOUD] Pulso #24 de la sesión #11...
-[2026-11-13 00:43:10] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG | Entrada: 0.00000455 | SL: 0.00000447 | TP: 0.00000472 | Tamaño: $4,918.35 USD (Riesgo controlado: $223.29)
-[2026-11-13 00:43:19] 💓 Pulso En Vivo | Equity: $9,834.89 USD (Efectivo: $9,813.93 | Flotante: $+20.96) | Abiertas: 12 | Cerradas: 54
-[2026-11-13 00:44:20] ☁️ [GITHUB CLOUD] Pulso #25 de la sesión #11...
-[2026-11-13 00:44:44] 💓 Pulso En Vivo | Equity: $9,830.82 USD (Efectivo: $9,813.93 | Flotante: $+16.89) | Abiertas: 12 | Cerradas: 54
-[2026-11-13 00:45:44] ☁️ [GITHUB CLOUD] Pulso #26 de la sesión #11...
-[2026-11-13 00:46:10] 💓 Pulso En Vivo | Equity: $9,832.62 USD (Efectivo: $9,813.93 | Flotante: $+18.69) | Abiertas: 12 | Cerradas: 54
-[2026-11-13 00:47:10] ☁️ [GITHUB CLOUD] Pulso #27 de la sesión #11...
-[2026-11-13 00:47:35] 💓 Pulso En Vivo | Equity: $9,821.98 USD (Efectivo: $9,813.93 | Flotante: $+8.05) | Abiertas: 12 | Cerradas: 54
-[2026-11-13 00:48:36] ☁️ [GITHUB CLOUD] Pulso #28 de la sesión #11...
-[2026-11-13 00:48:59] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ADA/USDT LONG | Entrada: 0.17510000 | SL: 0.17340918 | TP: 0.17865073 | Tamaño: $4,902.06 USD (Riesgo controlado: $343.14)
-[2026-11-13 00:49:08] 💓 Pulso En Vivo | Equity: $9,798.14 USD (Efectivo: $9,806.79 | Flotante: $-8.65) | Abiertas: 12 | Cerradas: 55
-[2026-11-13 00:50:08] ☁️ [GITHUB CLOUD] Pulso #29 de la sesión #11...
-[2026-11-13 00:50:33] 💓 Pulso En Vivo | Equity: $9,784.15 USD (Efectivo: $9,806.79 | Flotante: $-22.64) | Abiertas: 12 | Cerradas: 55
-[2026-11-13 00:51:33] ☁️ [GITHUB CLOUD] Pulso #30 de la sesión #11...
-[2026-11-13 00:51:57] 💓 Pulso En Vivo | Equity: $9,798.29 USD (Efectivo: $9,806.79 | Flotante: $-8.50) | Abiertas: 12 | Cerradas: 55
-[2026-11-13 00:52:58] ☁️ [GITHUB CLOUD] Pulso #31 de la sesión #11...
-[2026-11-13 00:53:07] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG | Entrada: 0.06642000 | SL: 0.06581300 | TP: 0.06766158 | Tamaño: $4,522.29 USD (Riesgo controlado: $342.94)
-[2026-11-13 00:53:24] 💓 Pulso En Vivo | Equity: $9,801.81 USD (Efectivo: $9,806.79 | Flotante: $-4.98) | Abiertas: 13 | Cerradas: 55
-[2026-11-13 00:54:24] ☁️ [GITHUB CLOUD] Pulso #32 de la sesión #11...
-[2026-11-13 00:54:49] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6804251391
-[2026-11-13 00:54:49] 💓 Pulso En Vivo | Equity: $9,821.90 USD (Efectivo: $9,806.79 | Flotante: $+15.11) | Abiertas: 13 | Cerradas: 55
-[2026-11-13 00:55:49] ☁️ [GITHUB CLOUD] Pulso #33 de la sesión #11...
-[2026-11-13 00:56:15] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6803829736
-[2026-11-13 00:56:15] 💓 Pulso En Vivo | Equity: $9,817.87 USD (Efectivo: $9,806.79 | Flotante: $+11.08) | Abiertas: 13 | Cerradas: 55
-[2026-11-13 00:57:16] ☁️ [GITHUB CLOUD] Pulso #34 de la sesión #11...
-[2026-11-13 00:57:42] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6803829736
-[2026-11-13 00:57:42] 💓 Pulso En Vivo | Equity: $9,805.74 USD (Efectivo: $9,806.79 | Flotante: $-1.05) | Abiertas: 13 | Cerradas: 55
-[2026-11-13 00:58:42] ☁️ [GITHUB CLOUD] Pulso #35 de la sesión #11...
-[2026-11-13 00:59:09] 🔒 Trailing Stop bajado en AUD/USD SHORT a 0.6803826546
-[2026-11-13 00:59:09] 💓 Pulso En Vivo | Equity: $9,776.56 USD (Efectivo: $9,806.79 | Flotante: $-30.23) | Abiertas: 13 | Cerradas: 55
-[2026-11-13 01:00:09] ☁️ [GITHUB CLOUD] Pulso #36 de la sesión #11...
-[2026-11-13 01:00:34] 💓 Pulso En Vivo | Equity: $9,809.90 USD (Efectivo: $9,806.79 | Flotante: $+3.11) | Abiertas: 13 | Cerradas: 55
-[2026-11-13 01:01:35] ☁️ [GITHUB CLOUD] Pulso #37 de la sesión #11...
-[2026-11-13 01:02:04] ✅ CERRADA AUD/USD (SHORT) a 0.6804109811782837 | PnL: $+5.64 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 01:02:04] 💓 Pulso En Vivo | Equity: $9,794.46 USD (Efectivo: $9,812.43 | Flotante: $-17.97) | Abiertas: 12 | Cerradas: 56
-[2026-11-13 01:03:04] ☁️ [GITHUB CLOUD] Pulso #38 de la sesión #11...
-[2026-11-13 01:03:30] 💓 Pulso En Vivo | Equity: $9,773.29 USD (Efectivo: $9,812.43 | Flotante: $-39.14) | Abiertas: 12 | Cerradas: 56
-[2026-11-13 01:04:30] ☁️ [GITHUB CLOUD] Pulso #39 de la sesión #11...
-[2026-11-13 01:04:54] 💓 Pulso En Vivo | Equity: $9,765.60 USD (Efectivo: $9,812.43 | Flotante: $-46.83) | Abiertas: 12 | Cerradas: 56
-[2026-11-13 01:05:56] ☁️ [GITHUB CLOUD] Pulso #40 de la sesión #11...
-[2026-11-13 01:06:20] 💓 Pulso En Vivo | Equity: $9,761.08 USD (Efectivo: $9,812.43 | Flotante: $-51.35) | Abiertas: 12 | Cerradas: 56
-[2026-11-13 01:07:20] ☁️ [GITHUB CLOUD] Pulso #41 de la sesión #11...
-[2026-11-13 01:07:46] 💓 Pulso En Vivo | Equity: $9,769.75 USD (Efectivo: $9,812.43 | Flotante: $-42.68) | Abiertas: 12 | Cerradas: 56
-[2026-11-13 01:08:46] ☁️ [GITHUB CLOUD] Pulso #42 de la sesión #11...
-[2026-11-13 01:09:11] 💓 Pulso En Vivo | Equity: $9,769.48 USD (Efectivo: $9,812.43 | Flotante: $-42.95) | Abiertas: 12 | Cerradas: 56
-[2026-11-13 01:10:12] ☁️ [GITHUB CLOUD] Pulso #43 de la sesión #11...
-[2026-11-13 01:10:38] 💓 Pulso En Vivo | Equity: $9,770.71 USD (Efectivo: $9,812.43 | Flotante: $-41.72) | Abiertas: 12 | Cerradas: 56
-[2026-11-13 01:10:38] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
-[2026-11-13 01:10:39]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.88, Ret=-1.8%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-13 01:10:41]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.90, WinRate=54.5%, Ret=+12.1%) | Ajuste defensivo aplicado tras 10 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.5x ATR
-[2026-11-13 01:10:42]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.84, WinRate=56.2%, Ret=+18.8%)
-[2026-11-13 01:10:44]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.85, Ret=-3.5%)
-[2026-11-13 01:10:45]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.81, Ret=-3.1%)
-[2026-11-13 01:10:46]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.65, WinRate=62.5%, Ret=+8.0%)
-[2026-11-13 01:10:48]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.30, WinRate=54.5%, Ret=+5.3%)
-[2026-11-13 01:10:49]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.00, Ret=-0.1%)
-[2026-11-13 01:10:51]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.95, Ret=-1.3%)
-[2026-11-13 01:10:52]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.35, WinRate=64.3%, Ret=+25.2%) | Ajuste defensivo aplicado tras 7 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-13 01:10:53]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.41, WinRate=55.6%, Ret=+6.7%)
-[2026-11-13 01:10:54]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.36, WinRate=73.9%, Ret=+62.7%)
-[2026-11-13 01:10:54]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.43, WinRate=60.0%, Ret=+7.6%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.61x ATR
-[2026-11-13 01:10:55]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.18, WinRate=57.1%, Ret=+2.5%)
-[2026-11-13 01:10:55]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=7.84, WinRate=90.9%, Ret=+39.5%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-13 01:10:55]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.59, WinRate=76.0%, Ret=+27.4%) | Ajuste defensivo aplicado tras 5 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-13 01:10:56]    🔎 [USD/JPY] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.07, Ret=+1.3%)
-[2026-11-13 01:10:56]    🔎 [AUD/USD] -> ACTIVO | Estrategia: confluence | Optimizado agresivo con confluence (PF=1.63, WinRate=60.0%, Ret=+17.4%)
-[2026-11-13 01:10:56] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (14 ajustes aplicados).
-[2026-11-13 01:11:56] ☁️ [GITHUB CLOUD] Pulso #44 de la sesión #11...
-[2026-11-13 01:12:21] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD LONG | Entrada: 3892.89990234 | SL: 3881.56921785 | TP: 3916.82023627 | Tamaño: $16,215.72 USD (Riesgo controlado: $460.20)
-[2026-11-13 01:12:30] 💓 Pulso En Vivo | Equity: $9,726.44 USD (Efectivo: $9,780.41 | Flotante: $-53.97) | Abiertas: 12 | Cerradas: 57
-[2026-11-13 01:13:30] ☁️ [GITHUB CLOUD] Pulso #45 de la sesión #11...
-[2026-11-13 01:13:55] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> EUR/JPY LONG | Entrada: 176.77499390 | SL: 176.58749121 | TP: 177.15852213 | Tamaño: $16,226.78 USD (Riesgo controlado: $340.76)
-[2026-11-13 01:14:04] 💓 Pulso En Vivo | Equity: $9,738.97 USD (Efectivo: $9,768.99 | Flotante: $-30.02) | Abiertas: 12 | Cerradas: 58
-[2026-11-13 01:15:05] ☁️ [GITHUB CLOUD] Pulso #46 de la sesión #11...
-[2026-11-13 01:15:31] 💓 Pulso En Vivo | Equity: $9,745.11 USD (Efectivo: $9,768.99 | Flotante: $-23.88) | Abiertas: 12 | Cerradas: 58
-[2026-11-13 01:16:31] ☁️ [GITHUB CLOUD] Pulso #47 de la sesión #11...
-[2026-11-13 01:16:57] 💓 Pulso En Vivo | Equity: $9,732.62 USD (Efectivo: $9,768.99 | Flotante: $-36.37) | Abiertas: 12 | Cerradas: 58
-[2026-11-13 01:17:57] ☁️ [GITHUB CLOUD] Pulso #48 de la sesión #11...
-[2026-11-13 01:18:22] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG | Entrada: 211.65400696 | SL: 211.48645283 | TP: 212.00576655 | Tamaño: $16,202.85 USD (Riesgo controlado: $220.68)
-[2026-11-13 01:18:30] 💓 Pulso En Vivo | Equity: $9,719.10 USD (Efectivo: $9,754.28 | Flotante: $-35.18) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:19:31] ☁️ [GITHUB CLOUD] Pulso #49 de la sesión #11...
-[2026-11-13 01:19:57] 💓 Pulso En Vivo | Equity: $9,716.15 USD (Efectivo: $9,754.28 | Flotante: $-38.13) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:20:57] ☁️ [GITHUB CLOUD] Pulso #50 de la sesión #11...
-[2026-11-13 01:21:22] 💓 Pulso En Vivo | Equity: $9,698.14 USD (Efectivo: $9,754.28 | Flotante: $-56.14) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:22:22] ☁️ [GITHUB CLOUD] Pulso #51 de la sesión #11...
-[2026-11-13 01:22:47] 💓 Pulso En Vivo | Equity: $9,688.74 USD (Efectivo: $9,754.28 | Flotante: $-65.54) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:23:49] ☁️ [GITHUB CLOUD] Pulso #52 de la sesión #11...
-[2026-11-13 01:24:13] 💓 Pulso En Vivo | Equity: $9,698.27 USD (Efectivo: $9,754.28 | Flotante: $-56.01) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:25:13] ☁️ [GITHUB CLOUD] Pulso #53 de la sesión #11...
-[2026-11-13 01:25:38] 💓 Pulso En Vivo | Equity: $9,691.63 USD (Efectivo: $9,754.28 | Flotante: $-62.65) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:26:38] ☁️ [GITHUB CLOUD] Pulso #54 de la sesión #11...
-[2026-11-13 01:27:05] 💓 Pulso En Vivo | Equity: $9,718.95 USD (Efectivo: $9,754.28 | Flotante: $-35.33) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:28:06] ☁️ [GITHUB CLOUD] Pulso #55 de la sesión #11...
-[2026-11-13 01:28:32] 💓 Pulso En Vivo | Equity: $9,720.38 USD (Efectivo: $9,754.28 | Flotante: $-33.90) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:29:32] ☁️ [GITHUB CLOUD] Pulso #56 de la sesión #11...
-[2026-11-13 01:29:57] 💓 Pulso En Vivo | Equity: $9,712.33 USD (Efectivo: $9,754.28 | Flotante: $-41.95) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:30:57] ☁️ [GITHUB CLOUD] Pulso #57 de la sesión #11...
-[2026-11-13 01:31:23] 🔒 Trailing Stop subido en XAU/USD LONG a 3899.5183725482
-[2026-11-13 01:31:23] 💓 Pulso En Vivo | Equity: $9,736.33 USD (Efectivo: $9,754.28 | Flotante: $-17.95) | Abiertas: 12 | Cerradas: 59
-[2026-11-13 01:32:24] ☁️ [GITHUB CLOUD] Pulso #58 de la sesión #11...
-[2026-11-13 01:32:39] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> EUR/USD LONG | Entrada: 1.10643947 | SL: 1.10572312 | TP: 1.10794484 | Tamaño: $16,279.38 USD (Riesgo controlado: $221.73)
-[2026-11-13 01:32:49] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG | Entrada: 1.32381952 | SL: 1.32296553 | TP: 1.32561414 | Tamaño: $16,268.47 USD (Riesgo controlado: $221.58)
-[2026-11-13 01:33:07] 🔒 Trailing Stop subido en XAU/USD LONG a 3905.359013492
-[2026-11-13 01:33:07] 💓 Pulso En Vivo | Equity: $9,752.80 USD (Efectivo: $9,735.40 | Flotante: $+17.40) | Abiertas: 12 | Cerradas: 61
-[2026-11-13 01:34:07] ☁️ [GITHUB CLOUD] Pulso #59 de la sesión #11...
-[2026-11-13 01:34:21] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT | Entrada: 1.32371438 | SL: 1.32457057 | TP: 1.32191512 | Tamaño: $17,751.53 USD (Riesgo controlado: $221.63)
-[2026-11-13 01:34:40] 💓 Pulso En Vivo | Equity: $9,760.62 USD (Efectivo: $9,831.32 | Flotante: $-70.70) | Abiertas: 11 | Cerradas: 63
-[2026-11-13 01:35:40] ☁️ [GITHUB CLOUD] Pulso #60 de la sesión #11...
-[2026-11-13 01:35:56] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD LONG | Entrada: 3913.00000000 | SL: 3898.81076822 | TP: 3942.95504486 | Tamaño: $16,267.70 USD (Riesgo controlado: $461.68)
-[2026-11-13 01:36:05] 💓 Pulso En Vivo | Equity: $9,764.61 USD (Efectivo: $9,831.32 | Flotante: $-66.71) | Abiertas: 12 | Cerradas: 63
-[2026-11-13 01:37:06] ☁️ [GITHUB CLOUD] Pulso #61 de la sesión #11...
-[2026-11-13 01:37:21] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG | Entrada: 1.32394218 | SL: 1.32307155 | TP: 1.32577177 | Tamaño: $16,304.63 USD (Riesgo controlado: $222.07)
-[2026-11-13 01:37:40] 💓 Pulso En Vivo | Equity: $9,780.13 USD (Efectivo: $9,824.71 | Flotante: $-44.58) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:38:40] ☁️ [GITHUB CLOUD] Pulso #62 de la sesión #11...
-[2026-11-13 01:39:06] 💓 Pulso En Vivo | Equity: $9,763.99 USD (Efectivo: $9,824.71 | Flotante: $-60.72) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:40:06] ☁️ [GITHUB CLOUD] Pulso #63 de la sesión #11...
-[2026-11-13 01:40:31] 💓 Pulso En Vivo | Equity: $9,764.80 USD (Efectivo: $9,824.71 | Flotante: $-59.91) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:41:33] ☁️ [GITHUB CLOUD] Pulso #64 de la sesión #11...
-[2026-11-13 01:41:57] 💓 Pulso En Vivo | Equity: $9,774.41 USD (Efectivo: $9,824.71 | Flotante: $-50.30) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:42:57] ☁️ [GITHUB CLOUD] Pulso #65 de la sesión #11...
-[2026-11-13 01:43:23] 💓 Pulso En Vivo | Equity: $9,766.97 USD (Efectivo: $9,824.71 | Flotante: $-57.74) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:44:23] ☁️ [GITHUB CLOUD] Pulso #66 de la sesión #11...
-[2026-11-13 01:44:49] 💓 Pulso En Vivo | Equity: $9,762.79 USD (Efectivo: $9,824.71 | Flotante: $-61.92) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:45:51] ☁️ [GITHUB CLOUD] Pulso #67 de la sesión #11...
-[2026-11-13 01:46:16] 💓 Pulso En Vivo | Equity: $9,768.55 USD (Efectivo: $9,824.71 | Flotante: $-56.16) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:47:16] ☁️ [GITHUB CLOUD] Pulso #68 de la sesión #11...
-[2026-11-13 01:47:42] 💓 Pulso En Vivo | Equity: $9,776.51 USD (Efectivo: $9,824.71 | Flotante: $-48.20) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:48:42] ☁️ [GITHUB CLOUD] Pulso #69 de la sesión #11...
-[2026-11-13 01:49:07] 💓 Pulso En Vivo | Equity: $9,771.73 USD (Efectivo: $9,824.71 | Flotante: $-52.98) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:50:09] ☁️ [GITHUB CLOUD] Pulso #70 de la sesión #11...
-[2026-11-13 01:50:33] 💓 Pulso En Vivo | Equity: $9,782.27 USD (Efectivo: $9,824.71 | Flotante: $-42.44) | Abiertas: 12 | Cerradas: 64
-[2026-11-13 01:51:33] ☁️ [GITHUB CLOUD] Pulso #71 de la sesión #11...
-[2026-11-13 01:51:40] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD LONG | Entrada: 0.68152386 | SL: 0.68107689 | TP: 0.68241779 | Tamaño: $15,049.65 USD (Riesgo controlado: $342.38)
-[2026-11-13 01:51:59] 💓 Pulso En Vivo | Equity: $9,749.24 USD (Efectivo: $9,824.71 | Flotante: $-75.47) | Abiertas: 13 | Cerradas: 64
-[2026-11-13 01:52:59] ☁️ [GITHUB CLOUD] Pulso #72 de la sesión #11...
-[2026-11-13 01:53:24] 💓 Pulso En Vivo | Equity: $9,755.81 USD (Efectivo: $9,824.71 | Flotante: $-68.90) | Abiertas: 13 | Cerradas: 64
-[2026-11-13 01:54:26] ☁️ [GITHUB CLOUD] Pulso #73 de la sesión #11...
-[2026-11-13 01:54:50] 💓 Pulso En Vivo | Equity: $9,762.68 USD (Efectivo: $9,824.71 | Flotante: $-62.03) | Abiertas: 13 | Cerradas: 64
-[2026-11-13 01:55:50] ☁️ [GITHUB CLOUD] Pulso #74 de la sesión #11...
-[2026-11-13 01:56:15] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD SHORT | Entrada: 3912.19995117 | SL: 3926.09710460 | TP: 3882.86151615 | Tamaño: $15,003.83 USD (Riesgo controlado: $461.29)
-[2026-11-13 01:56:24] 💓 Pulso En Vivo | Equity: $9,757.12 USD (Efectivo: $9,818.13 | Flotante: $-61.01) | Abiertas: 13 | Cerradas: 65
-[2026-11-13 01:57:24] ☁️ [GITHUB CLOUD] Pulso #75 de la sesión #11...
-[2026-11-13 01:57:50] 💓 Pulso En Vivo | Equity: $9,764.21 USD (Efectivo: $9,818.13 | Flotante: $-53.92) | Abiertas: 13 | Cerradas: 65
-[2026-11-13 01:58:52] ☁️ [GITHUB CLOUD] Pulso #76 de la sesión #11...
-[2026-11-13 01:59:17] 💓 Pulso En Vivo | Equity: $9,771.21 USD (Efectivo: $9,818.13 | Flotante: $-46.92) | Abiertas: 13 | Cerradas: 65
-[2026-11-13 02:00:17] ☁️ [GITHUB CLOUD] Pulso #77 de la sesión #11...
-[2026-11-13 02:00:44] 💓 Pulso En Vivo | Equity: $9,758.01 USD (Efectivo: $9,818.13 | Flotante: $-60.12) | Abiertas: 13 | Cerradas: 65
-[2026-11-13 02:01:44] ☁️ [GITHUB CLOUD] Pulso #78 de la sesión #11...
-[2026-11-13 02:02:10] 💓 Pulso En Vivo | Equity: $9,818.35 USD (Efectivo: $9,818.13 | Flotante: $+0.22) | Abiertas: 13 | Cerradas: 65
-[2026-11-13 02:03:12] ☁️ [GITHUB CLOUD] Pulso #79 de la sesión #11...
-[2026-11-13 02:03:38] 💓 Pulso En Vivo | Equity: $9,796.80 USD (Efectivo: $9,818.13 | Flotante: $-21.33) | Abiertas: 13 | Cerradas: 65
-[2026-11-13 02:04:38] ☁️ [GITHUB CLOUD] Pulso #80 de la sesión #11...
-[2026-11-13 02:05:04] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD LONG | Entrada: 3915.69995117 | SL: 3901.58699262 | TP: 3945.49397477 | Tamaño: $15,038.72 USD (Riesgo controlado: $462.37)
-[2026-11-13 02:05:13] 💓 Pulso En Vivo | Equity: $9,770.03 USD (Efectivo: $9,801.70 | Flotante: $-31.67) | Abiertas: 13 | Cerradas: 66
-[2026-11-13 02:06:13] ☁️ [GITHUB CLOUD] Pulso #81 de la sesión #11...
-[2026-11-13 02:06:38] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD SHORT | Entrada: 3915.50000000 | SL: 3929.67360084 | TP: 3885.57795379 | Tamaño: $15,107.29 USD (Riesgo controlado: $464.47)
-[2026-11-13 02:06:47] 🔒 Trailing Stop subido en PEPE/USDT LONG a 4.5938e-06
-[2026-11-13 02:06:47] 💓 Pulso En Vivo | Equity: $9,821.67 USD (Efectivo: $9,797.92 | Flotante: $+23.75) | Abiertas: 13 | Cerradas: 67
-[2026-11-13 02:07:48] ☁️ [GITHUB CLOUD] Pulso #82 de la sesión #11...
-[2026-11-13 02:08:15] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD LONG | Entrada: 3915.80004883 | SL: 3901.44642916 | TP: 3946.10213480 | Tamaño: $15,117.83 USD (Riesgo controlado: $464.80)
-[2026-11-13 02:08:24] 🔒 Trailing Stop subido en PEPE/USDT LONG a 4.6038e-06
-[2026-11-13 02:08:24] 💓 Pulso En Vivo | Equity: $9,832.73 USD (Efectivo: $9,793.74 | Flotante: $+38.99) | Abiertas: 13 | Cerradas: 68
-[2026-11-13 02:09:24] ☁️ [GITHUB CLOUD] Pulso #83 de la sesión #11...
-[2026-11-13 02:09:50] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> XAU/USD SHORT | Entrada: 3912.50000000 | SL: 3926.64789283 | TP: 3882.63222625 | Tamaño: $15,098.06 USD (Riesgo controlado: $464.19)
-[2026-11-13 02:09:58] 💓 Pulso En Vivo | Equity: $9,803.28 USD (Efectivo: $9,777.98 | Flotante: $+25.30) | Abiertas: 13 | Cerradas: 69
-[2026-11-13 02:10:58] ☁️ [GITHUB CLOUD] Pulso #84 de la sesión #11...
-[2026-11-13 02:11:24] 🔒 Trailing Stop bajado en SOL/USDT SHORT a 81.4291313091
-[2026-11-13 02:11:24] 🔒 Trailing Stop subido en PEPE/USDT LONG a 4.6119e-06
-[2026-11-13 02:11:24] 💓 Pulso En Vivo | Equity: $9,812.64 USD (Efectivo: $9,777.98 | Flotante: $+34.66) | Abiertas: 13 | Cerradas: 69
-[2026-11-13 02:11:24] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
-[2026-11-13 02:11:26]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.88, Ret=-1.8%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-13 02:11:27]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.10, WinRate=60.0%, Ret=+13.6%) | Ajuste defensivo aplicado tras 10 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.5x ATR
-[2026-11-13 02:11:28]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.27, WinRate=62.5%, Ret=+26.2%)
-[2026-11-13 02:11:30]    🔎 [BNB/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.85, Ret=-3.5%)
-[2026-11-13 02:11:31]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=1.15, Ret=+1.9%)
-[2026-11-13 02:11:33]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.31, WinRate=57.1%, Ret=+6.5%)
-[2026-11-13 02:11:34]    🔎 [SUI/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=1.04, Ret=+1.6%)
-[2026-11-13 02:11:35]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.88, Ret=-2.9%)
-[2026-11-13 02:11:37]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=0.96, Ret=-1.8%)
-[2026-11-13 02:11:38]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.35, WinRate=64.3%, Ret=+25.2%) | Ajuste defensivo aplicado tras 7 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
-[2026-11-13 02:11:40]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.25, WinRate=46.7%, Ret=+6.4%)
-[2026-11-13 02:11:40]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.46, WinRate=64.3%, Ret=+68.0%) | Ajuste defensivo aplicado tras 7 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.72x ATR
-[2026-11-13 02:11:40]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.43, WinRate=60.0%, Ret=+7.5%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.61x ATR
-[2026-11-13 02:11:41]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.18, WinRate=57.1%, Ret=+2.4%)
-[2026-11-13 02:11:41]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=7.74, WinRate=90.9%, Ret=+38.7%) | Ajuste defensivo aplicado tras 4 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-13 02:11:42]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.17, WinRate=79.2%, Ret=+26.5%) | Ajuste defensivo aplicado tras 8 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
-[2026-11-13 02:11:42]    🔎 [USD/JPY] -> ACTIVO | Estrategia: confluence | Optimizado agresivo con confluence (PF=1.17, WinRate=52.0%, Ret=+4.0%)
-[2026-11-13 02:11:42]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=3.03, WinRate=73.3%, Ret=+20.8%)
-[2026-11-13 02:11:42] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (17 ajustes aplicados).
-[2026-11-13 02:12:44] ☁️ [GITHUB CLOUD] Pulso #85 de la sesión #11...
-[2026-11-13 02:13:10] 💓 Pulso En Vivo | Equity: $9,775.92 USD (Efectivo: $9,777.98 | Flotante: $-2.06) | Abiertas: 13 | Cerradas: 69
-[2026-11-13 02:14:10] ☁️ [GITHUB CLOUD] Pulso #86 de la sesión #11...
-[2026-11-13 02:14:35] 🔒 Trailing Stop bajado en ETH/USDT SHORT a 2008.5821445065
-[2026-11-13 02:14:35] 🔒 Trailing Stop bajado en SOL/USDT SHORT a 81.1416670234
-[2026-11-13 02:14:35] ✅ CERRADA ADA/USDT (LONG) a 0.1726 | PnL: $-74.86 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 02:14:35] ✅ CERRADA DOGE/USDT (LONG) a 0.06577 | PnL: $-48.76 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 02:14:35] 💓 Pulso En Vivo | Equity: $9,718.90 USD (Efectivo: $9,654.36 | Flotante: $+64.54) | Abiertas: 11 | Cerradas: 71
-[2026-11-13 02:15:35] ☁️ [GITHUB CLOUD] Pulso #87 de la sesión #11...
-[2026-11-13 02:15:44] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT | Entrada: 0.06581000 | SL: 0.06645136 | TP: 0.06449813 | Tamaño: $4,859.45 USD (Riesgo controlado: $340.16)
-[2026-11-13 02:16:00] 💓 Pulso En Vivo | Equity: $9,703.74 USD (Efectivo: $9,654.36 | Flotante: $+49.38) | Abiertas: 12 | Cerradas: 71
-[2026-11-13 02:17:01] ☁️ [GITHUB CLOUD] Pulso #88 de la sesión #11...
-[2026-11-13 02:17:27] ✅ CERRADA SUI/USDT (LONG) a 0.7961 | PnL: $-67.38 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 02:17:27] 🔒 Trailing Stop bajado en SOL/USDT SHORT a 81.1357214197
-[2026-11-13 02:17:27] 💓 Pulso En Vivo | Equity: $9,708.56 USD (Efectivo: $9,586.98 | Flotante: $+121.58) | Abiertas: 11 | Cerradas: 72
-[2026-11-13 02:18:27] ☁️ [GITHUB CLOUD] Pulso #89 de la sesión #11...
-[2026-11-13 02:18:50] 🔒 Trailing Stop bajado en ETH/USDT SHORT a 2007.7467387769
-[2026-11-13 02:18:50] 🔒 Trailing Stop bajado en SOL/USDT SHORT a 81.0611499911
-[2026-11-13 02:18:50] 💓 Pulso En Vivo | Equity: $9,722.69 USD (Efectivo: $9,586.98 | Flotante: $+135.71) | Abiertas: 11 | Cerradas: 72
-[2026-11-13 02:19:50] ☁️ [GITHUB CLOUD] Pulso #90 de la sesión #11...
-[2026-11-13 02:20:14] 💓 Pulso En Vivo | Equity: $9,698.87 USD (Efectivo: $9,586.98 | Flotante: $+111.89) | Abiertas: 11 | Cerradas: 72
-[2026-11-13 02:21:15] ☁️ [GITHUB CLOUD] Pulso #91 de la sesión #11...
-[2026-11-13 02:21:38] 💓 Pulso En Vivo | Equity: $9,701.36 USD (Efectivo: $9,586.98 | Flotante: $+114.38) | Abiertas: 11 | Cerradas: 72
-[2026-11-13 02:22:38] ☁️ [GITHUB CLOUD] Pulso #92 de la sesión #11...
-[2026-11-13 02:23:01] ✅ CERRADA SOL/USDT (SHORT) a 81.1 | PnL: $+18.88 USD (Stop Loss / Trailing Stop Ejecutado)
-[2026-11-13 02:23:01] 💓 Pulso En Vivo | Equity: $9,660.63 USD (Efectivo: $9,605.86 | Flotante: $+54.77) | Abiertas: 10 | Cerradas: 73
-[2026-11-13 02:24:01] ☁️ [GITHUB CLOUD] Pulso #93 de la sesión #11...
-[2026-11-13 02:24:05] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT | Entrada: 80.98000000 | SL: 81.59753226 | TP: 79.62914817 | Tamaño: $5,269.43 USD (Riesgo controlado: $456.95)
-[2026-11-13 02:24:25] 💓 Pulso En Vivo | Equity: $9,662.82 USD (Efectivo: $9,605.86 | Flotante: $+56.96) | Abiertas: 11 | Cerradas: 73
+[2026-11-12 17:34:32] ============================================================================================
+[2026-11-12 17:34:32] 🌙 INICIANDO SUPERVISOR NOCTURNO AUTÓNOMO: Sesiones de 60 min de Trading + 20 min de Auto-Corrección
+[2026-11-12 17:34:32] ============================================================================================
+[2026-11-12 17:34:32] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 17:34:34]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-3.4%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
+[2026-11-12 17:34:37]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.42, WinRate=45.5%, Ret=+6.9%)
+[2026-11-12 17:34:39]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.62, WinRate=55.6%, Ret=+15.3%)
+[2026-11-12 17:34:41]    🔎 [BNB/USDT] -> ACTIVO | Estrategia: chimichurri_alpha | Optimizado agresivo con chimichurri_alpha (PF=1.77, WinRate=55.6%, Ret=+11.6%)
+[2026-11-12 17:34:43]    🔎 [XRP/USDT] -> ACTIVO | Estrategia: chimichurri_alpha | Optimizado agresivo con chimichurri_alpha (PF=1.32, WinRate=50.0%, Ret=+3.8%)
+[2026-11-12 17:34:46]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: chimichurri_alpha | Optimizado agresivo con chimichurri_alpha (PF=1.68, WinRate=70.0%, Ret=+8.8%)
+[2026-11-12 17:34:48]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.64, WinRate=60.0%, Ret=+9.2%)
+[2026-11-12 17:34:51]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.88, Ret=-3.4%)
+[2026-11-12 17:34:53]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.88, Ret=-3.3%)
+[2026-11-12 17:34:56]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.98, WinRate=62.5%, Ret=+21.6%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
+[2026-11-12 17:34:59]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.50, WinRate=53.3%, Ret=+11.9%)
+[2026-11-12 17:35:01]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.38, WinRate=65.5%, Ret=+62.4%)
+[2026-11-12 17:35:05]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.38, WinRate=57.7%, Ret=+8.1%)
+[2026-11-12 17:35:09]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.21, WinRate=57.1%, Ret=+2.8%)
+[2026-11-12 17:35:11]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.73, WinRate=79.2%, Ret=+32.1%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 17:35:14]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=3.30, WinRate=76.0%, Ret=+24.3%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 17:35:17]    🔎 [USD/JPY] -> PAUSADO | Estrategia: chimichurri_alpha | DESCARTADO por baja rentabilidad (PF=0.48, Ret=-6.2%)
+[2026-11-12 17:35:20]    🔎 [AUD/USD] -> ACTIVO | Estrategia: chimichurri_alpha | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con chimichurri_alpha (PF=2.51, WinRate=64.7%, Ret=+22.6%)
+[2026-11-12 17:35:20] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (14 ajustes aplicados).
+[2026-11-12 17:35:20] 🟢 SESIÓN OPERATIVA #10 INICIADA (Duración: 60 minutos)...
+[2026-11-12 17:36:02] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7962037083
+[2026-11-12 17:36:02] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1707046852
+[2026-11-12 17:36:02] 💓 Pulso En Vivo | Equity: $9,763.85 USD (Efectivo: $9,261.78 | Flotante: $+502.07) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:37:37] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7966747798
+[2026-11-12 17:37:37] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1708046852
+[2026-11-12 17:37:37] 💓 Pulso En Vivo | Equity: $9,795.24 USD (Efectivo: $9,261.78 | Flotante: $+533.46) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:39:36] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0654278213
+[2026-11-12 17:39:36] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.796787994
+[2026-11-12 17:39:36] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1710757566
+[2026-11-12 17:39:36] 💓 Pulso En Vivo | Equity: $9,824.90 USD (Efectivo: $9,261.78 | Flotante: $+563.12) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:41:14] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.796787994
+[2026-11-12 17:41:14] 💓 Pulso En Vivo | Equity: $9,824.91 USD (Efectivo: $9,261.78 | Flotante: $+563.13) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:43:00] 💓 Pulso En Vivo | Equity: $9,840.35 USD (Efectivo: $9,261.78 | Flotante: $+578.57) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:44:40] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.065446857
+[2026-11-12 17:44:40] 🚀 RUNNER MODE SUI/USDT LONG: TP extendido a 0.8128864453 y SL asegurado en 0.7984684398
+[2026-11-12 17:44:40] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1711661137
+[2026-11-12 17:44:40] 💓 Pulso En Vivo | Equity: $9,857.99 USD (Efectivo: $9,261.78 | Flotante: $+596.21) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:46:22] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0655335764
+[2026-11-12 17:46:22] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.7985352802
+[2026-11-12 17:46:22] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1713517485
+[2026-11-12 17:46:22] 💓 Pulso En Vivo | Equity: $9,884.59 USD (Efectivo: $9,261.78 | Flotante: $+622.81) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:48:13] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0656168264
+[2026-11-12 17:48:13] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.8000906373
+[2026-11-12 17:48:13] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1717131771
+[2026-11-12 17:48:13] 💓 Pulso En Vivo | Equity: $9,933.72 USD (Efectivo: $9,261.78 | Flotante: $+671.94) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:49:56] 💓 Pulso En Vivo | Equity: $9,908.74 USD (Efectivo: $9,261.78 | Flotante: $+646.96) | Abiertas: 13 | Cerradas: 26
+[2026-11-12 17:51:26] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 81%) | Entrada: 0.00000453 | SL: 0.00000462 | TP: 0.00000435 | Tamaño: $4,572.19 USD (Riesgo controlado: $258.61)
+[2026-11-12 17:51:41] 💓 Pulso En Vivo | Equity: $9,914.68 USD (Efectivo: $9,297.45 | Flotante: $+617.23) | Abiertas: 13 | Cerradas: 27
+[2026-11-12 17:53:19] 💓 Pulso En Vivo | Equity: $9,923.69 USD (Efectivo: $9,297.45 | Flotante: $+626.24) | Abiertas: 13 | Cerradas: 27
+[2026-11-12 17:54:54] 💓 Pulso En Vivo | Equity: $9,924.30 USD (Efectivo: $9,297.45 | Flotante: $+626.85) | Abiertas: 13 | Cerradas: 27
+[2026-11-12 17:56:15] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AUD/USD SHORT (Conv 98%) | Entrada: 0.68073523 | SL: 0.68118137 | TP: 0.67956411 | Tamaño: $15,224.08 USD (Riesgo controlado: $631.89)
+[2026-11-12 17:56:43] 💓 Pulso En Vivo | Equity: $9,874.45 USD (Efectivo: $9,290.34 | Flotante: $+584.11) | Abiertas: 13 | Cerradas: 28
+[2026-11-12 17:57:46] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> ETH/USDT SHORT (Conv 89%) | Entrada: 2015.73000000 | SL: 2030.07816525 | TP: 1985.24014885 | Tamaño: $4,231.91 USD (Riesgo controlado: $466.57)
+[2026-11-12 17:58:26] 💓 Pulso En Vivo | Equity: $9,851.51 USD (Efectivo: $9,290.34 | Flotante: $+561.17) | Abiertas: 14 | Cerradas: 28
+[2026-11-12 18:00:10] ✅ CERRADA GBP/USD (SHORT) a 1.3239597082138062 | PnL: $-82.21 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-12 18:00:10] 💓 Pulso En Vivo | Equity: $9,828.71 USD (Efectivo: $9,208.13 | Flotante: $+620.58) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:01:57] 💓 Pulso En Vivo | Equity: $9,860.00 USD (Efectivo: $9,208.13 | Flotante: $+651.87) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:03:33] 💓 Pulso En Vivo | Equity: $9,828.96 USD (Efectivo: $9,208.13 | Flotante: $+620.83) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:05:11] 💓 Pulso En Vivo | Equity: $9,820.84 USD (Efectivo: $9,208.13 | Flotante: $+612.71) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:06:43] 💓 Pulso En Vivo | Equity: $9,823.26 USD (Efectivo: $9,208.13 | Flotante: $+615.13) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:08:14] 💓 Pulso En Vivo | Equity: $9,847.97 USD (Efectivo: $9,208.13 | Flotante: $+639.84) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:09:53] 💓 Pulso En Vivo | Equity: $9,838.77 USD (Efectivo: $9,208.13 | Flotante: $+630.64) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:11:36] 💓 Pulso En Vivo | Equity: $9,876.56 USD (Efectivo: $9,208.13 | Flotante: $+668.43) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:13:13] 💓 Pulso En Vivo | Equity: $9,874.57 USD (Efectivo: $9,208.13 | Flotante: $+666.44) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:14:45] 💓 Pulso En Vivo | Equity: $9,855.61 USD (Efectivo: $9,208.13 | Flotante: $+647.48) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:16:18] 💓 Pulso En Vivo | Equity: $9,873.42 USD (Efectivo: $9,208.13 | Flotante: $+665.29) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:18:01] 💓 Pulso En Vivo | Equity: $9,877.87 USD (Efectivo: $9,208.13 | Flotante: $+669.74) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:19:37] 💓 Pulso En Vivo | Equity: $9,877.67 USD (Efectivo: $9,208.13 | Flotante: $+669.54) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:21:10] 💓 Pulso En Vivo | Equity: $9,907.91 USD (Efectivo: $9,208.13 | Flotante: $+699.78) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:22:41] 💓 Pulso En Vivo | Equity: $9,880.94 USD (Efectivo: $9,208.13 | Flotante: $+672.81) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:24:18] 💓 Pulso En Vivo | Equity: $9,894.64 USD (Efectivo: $9,208.13 | Flotante: $+686.51) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:26:05] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0656897383
+[2026-11-12 18:26:05] 🚀 RUNNER MODE ADA/USDT LONG: TP extendido a 0.1752762297 y SL asegurado en 0.1722377897
+[2026-11-12 18:26:05] 💓 Pulso En Vivo | Equity: $9,913.97 USD (Efectivo: $9,208.13 | Flotante: $+705.84) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:27:41] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0658229883
+[2026-11-12 18:27:41] 💓 Pulso En Vivo | Equity: $9,991.93 USD (Efectivo: $9,208.13 | Flotante: $+783.80) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:29:13] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0659175597
+[2026-11-12 18:29:13] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.8001022387
+[2026-11-12 18:29:13] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1726050153
+[2026-11-12 18:29:13] 💓 Pulso En Vivo | Equity: $10,054.72 USD (Efectivo: $9,208.13 | Flotante: $+846.59) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:31:23] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.0659515427
+[2026-11-12 18:31:23] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.8006972828
+[2026-11-12 18:31:23] 💓 Pulso En Vivo | Equity: $10,047.13 USD (Efectivo: $9,208.13 | Flotante: $+839.00) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:33:59] 🔒 Trailing Stop subido en DOGE/USDT LONG a 0.065975757
+[2026-11-12 18:33:59] 🔒 Trailing Stop subido en SUI/USDT LONG a 0.8014587114
+[2026-11-12 18:33:59] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1726692744
+[2026-11-12 18:33:59] 💓 Pulso En Vivo | Equity: $10,075.09 USD (Efectivo: $9,208.13 | Flotante: $+866.96) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:35:50] 🚀 RUNNER MODE DOGE/USDT LONG: TP extendido a 0.0672745454 y SL asegurado en 0.0661462554
+[2026-11-12 18:35:50] 🔒 Trailing Stop subido en ADA/USDT LONG a 0.1728499887
+[2026-11-12 18:35:50] 💓 Pulso En Vivo | Equity: $10,112.74 USD (Efectivo: $9,208.13 | Flotante: $+904.61) | Abiertas: 13 | Cerradas: 29
+[2026-11-12 18:36:50] 🔧 ENTRANDO EN VENTANA DE 20 MINUTOS DE AUDITORÍA, CORRECCIÓN Y RECALIBRACIÓN...
+[2026-11-12 18:36:50] 🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...
+[2026-11-12 18:36:54]    🔎 [BTC/USDT] -> PAUSADO | Estrategia: ema_pullback | DESCARTADO por baja rentabilidad (PF=0.78, Ret=-3.4%) | Ajuste defensivo aplicado tras 2 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
+[2026-11-12 18:36:56]    🔎 [ETH/USDT] -> ACTIVO | Estrategia: ema_pullback | Optimizado agresivo con ema_pullback (PF=1.43, WinRate=45.5%, Ret=+7.0%)
+[2026-11-12 18:36:59]    🔎 [SOL/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.85, WinRate=58.8%, Ret=+19.0%)
+[2026-11-12 18:37:02]    🔎 [BNB/USDT] -> ACTIVO | Estrategia: chimichurri_alpha | Optimizado agresivo con chimichurri_alpha (PF=1.77, WinRate=55.6%, Ret=+11.6%)
+[2026-11-12 18:37:08]    🔎 [XRP/USDT] -> PAUSADO | Estrategia: chimichurri_alpha | DESCARTADO por baja rentabilidad (PF=0.99, Ret=-0.2%)
+[2026-11-12 18:37:12]    🔎 [DOGE/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.46, WinRate=57.1%, Ret=+9.9%)
+[2026-11-12 18:37:14]    🔎 [SUI/USDT] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.65, WinRate=60.0%, Ret=+9.3%)
+[2026-11-12 18:37:18]    🔎 [AVAX/USDT] -> PAUSADO | Estrategia: trend_macd | DESCARTADO por baja rentabilidad (PF=0.87, Ret=-3.6%)
+[2026-11-12 18:37:24]    🔎 [LINK/USDT] -> PAUSADO | Estrategia: bollinger_reversion | DESCARTADO por baja rentabilidad (PF=0.98, Ret=-1.0%)
+[2026-11-12 18:37:27]    🔎 [PEPE/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=2.46, WinRate=68.8%, Ret=+27.9%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
+[2026-11-12 18:37:30]    🔎 [ADA/USDT] -> ACTIVO | Estrategia: trend_macd | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con trend_macd (PF=1.82, WinRate=57.1%, Ret=+16.6%)
+[2026-11-12 18:37:34]    🔎 [XAU/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=2.36, WinRate=65.5%, Ret=+61.4%)
+[2026-11-12 18:37:37]    🔎 [GBP/JPY] -> ACTIVO | Estrategia: bollinger_reversion | Optimizado agresivo con bollinger_reversion (PF=1.61, WinRate=60.0%, Ret=+11.4%)
+[2026-11-12 18:37:40]    🔎 [EUR/JPY] -> ACTIVO | Estrategia: trend_macd | Optimizado agresivo con trend_macd (PF=1.20, WinRate=57.1%, Ret=+2.6%)
+[2026-11-12 18:37:44]    🔎 [EUR/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=6.03, WinRate=87.5%, Ret=+38.8%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 18:37:49]    🔎 [GBP/USD] -> ACTIVO | Estrategia: confluence | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con confluence (PF=4.38, WinRate=79.2%, Ret=+28.7%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 2.07x ATR
+[2026-11-12 18:37:52]    🔎 [USD/JPY] -> PAUSADO | Estrategia: confluence | DESCARTADO por baja rentabilidad (PF=1.09, Ret=+2.4%)
+[2026-11-12 18:37:56]    🔎 [AUD/USD] -> ACTIVO | Estrategia: chimichurri_alpha | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con chimichurri_alpha (PF=2.13, WinRate=61.1%, Ret=+19.3%) | Ajuste defensivo aplicado tras 3 pérdidas en vivo: riesgo x0.65 y SL ampliado a 1.84x ATR
+[2026-11-12 18:37:56] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (13 ajustes aplicados).
+[2026-11-12 23:12:29] ============================================================================================
+[2026-11-12 23:12:29] 🌙 INICIANDO SUPERVISOR AUTÓNOMO (Walk-Forward + RiskManager + Velas Cerradas): 60 min Trading + 20 min Auditoría | Tick SL/Trail: 60s
+[2026-11-12 23:12:29] ============================================================================================
+[2026-11-12 23:12:29] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...
+[2026-11-12 23:12:31]    🔎 [BTC/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:32]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:34]    🔎 [SOL/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:35]    🔎 [BNB/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:36]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:38]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:39]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=0.00, Ret=+0.0%, WR=0.0%, Trades=0
+[2026-11-12 23:12:41]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:43]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:44]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:45]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:46]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:47]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:48]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:49]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:51]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:52]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:53]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:12:53] ✅ FASE WALK-FORWARD COMPLETADA (13 ajustes aplicados).
+[2026-11-12 23:12:53] 🟢 SESIÓN OPERATIVA #12 INICIADA (Duración: 60 minutos)...
+[2026-11-12 23:13:06] ============================================================================================
+[2026-11-12 23:13:06] 🌙 INICIANDO SUPERVISOR AUTÓNOMO (Walk-Forward + RiskManager + Velas Cerradas): 60 min Trading + 20 min Auditoría | Tick SL/Trail: 60s
+[2026-11-12 23:13:06] ============================================================================================
+[2026-11-12 23:13:06] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...
+[2026-11-12 23:13:08]    🔎 [BTC/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:10]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:11]    🔎 [SOL/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:14]    🔎 [BNB/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:15]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:17]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:19]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=1.20, Exp=+0.13R, WR=40.0%, Trades=20
+[2026-11-12 23:13:20]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:22]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:24]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:25]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:26]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:27]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:28]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:29]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:30]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:31]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:32]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:13:32] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-12 23:13:32] 🟢 SESIÓN OPERATIVA #13 INICIADA (Duración: 60 minutos)...
+[2026-11-12 23:13:54] 💓 Cierre de Vela | Equity: $9,759.07 USD (Efectivo: $9,443.40 | Flotante: $+315.67 | Peak: $10,000.00) | Abiertas: 9 | Cerradas: 34
+[2026-11-12 23:15:00] ✅ CERRADA ADA/USDT (LONG) a 0.1728 | PnL: $+208.61 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-12 23:15:00] ✅ CERRADA BTC/USDT (SHORT) a 70596.27 | PnL: $+71.03 USD (Take Profit Alcanzado)
+[2026-11-12 23:15:00] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 81.5
+[2026-11-12 23:15:00] 🔒 Stop (Breakeven) en ETH/USDT SHORT ajustado a 2015.73
+[2026-11-12 23:16:20] 💓 Cierre de Vela | Equity: $9,746.66 USD (Efectivo: $9,723.04 | Flotante: $+23.62 | Peak: $10,000.00) | Abiertas: 7 | Cerradas: 36
+[2026-11-12 23:24:56] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...
+[2026-11-12 23:24:59]    🔎 [BTC/USDT] -> ACTIVO | WF OOS APROBADO (ema_pullback) | PF=1.77, Exp=+0.39R, WR=50.0%, Trades=8
+[2026-11-12 23:25:01]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:03]    🔎 [SOL/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:05]    🔎 [BNB/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:07]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:09]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:12]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:15]    🔎 [AVAX/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:17]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:20]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:23]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:26]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:28]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:30]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:32]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:34]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:36]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:38]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-12 23:25:38] ✅ FASE WALK-FORWARD COMPLETADA (2 ajustes aplicados).

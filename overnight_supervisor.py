@@ -17,11 +17,13 @@ from pathlib import Path
 import time
 import traceback
 
-from backtester import optimize_for_symbol, run_backtest
+from candle_clock import NewCandleGate, closed_only
 from exchange_connector import LiveExecutionBroker
 from indicators import compute_indicators
 from market_data import DEFAULT_SYMBOLS, get_historical_data
+from risk_manager import RiskConfig, RiskManager
 from strategies import evaluate_latest_candle, generate_signals
+from walk_forward import get_validated_params
 
 LOG_FILE = Path(__file__).parent / "overnight_log.txt"
 ADAPTIVE_CONFIG_FILE = Path(__file__).parent / "adaptive_config.json"
@@ -68,149 +70,199 @@ def save_adaptive_config(cfg: dict) -> None:
     ADAPTIVE_CONFIG_FILE.write_text(json.dumps(cfg, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def run_self_correction_phase(broker: LiveExecutionBroker, cfg: dict, interval: str = "15m") -> dict:
+def run_self_correction_phase(
+    broker: LiveExecutionBroker,
+    cfg: dict,
+    interval: str = "15m",
+    force: bool = False,
+) -> dict:
     """
-    Fase de Corrección y Auto-Ajuste:
-    1. Analiza el historial real en vivo (`closed_trades` y `open_positions`) de `live_portfolio.json`.
-    2. Descarga las últimas velas frescas de cada moneda y re-entrena/optimiza las 5 estrategias.
-    3. Si un par tuvo pérdidas consecutivas en vivo, reduce su riesgo a la mitad o cambia a una
-       estrategia más conservadora con Stop Loss más holgado para evitar barridos de liquidez.
+    Fase de auto-evaluación y validación Walk-Forward semanal (OOS):
+    1. Descarga hasta 1500 velas cerradas por mercado.
+    2. Selecciona parámetros en el 60% más viejo y valida en el 40% más nuevo (PF >= 1.15 OOS).
+    3. Cachea resultados y rechazos por 7 días en wf_params.json.
     """
-    log_event("🛠️ INICIANDO FASE DE AUTO-CORRECCIÓN Y RECALIBRACIÓN DE ESTRATEGIAS...")
-    closed = broker.state.closed_trades
+    log_event("🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...")
     corrections_made = 0
-
-    cfg["global_risk_pct"] = 3.5
 
     for sym in DEFAULT_SYMBOLS:
         try:
-            df_raw, source = get_historical_data(sym, interval=interval, limit=500, use_cache=False)
-            best_res, all_res = optimize_for_symbol(
-                df_raw=df_raw,
-                symbol=sym,
-                initial_capital=1000.0,
-                risk_per_trade_pct=cfg.get("global_risk_pct", 3.5),
-            )
+            df_raw, source = get_historical_data(sym, interval=interval, limit=1500, use_cache=True)
+            df_closed = closed_only(df_raw, interval)
+            if df_closed is None or len(df_closed) < 800:
+                log_event(
+                    f"   🔎 [{sym}] -> PAUSADO (Historial insuficiente: {0 if df_closed is None else len(df_closed)} velas cerradas)"
+                )
+                cfg["symbols"][sym] = {
+                    "enabled": False,
+                    "strategy": "confluence",
+                    "sl_atr_mult": 1.6,
+                    "tp_atr_mult": 3.2,
+                    "ema_fast": 12,
+                    "ema_slow": 26,
+                    "data_source": source,
+                    "notes": "Historial insuficiente para Walk-Forward",
+                }
+                continue
 
-            sym_trades = [t for t in closed if t.get("symbol") == sym]
-            sym_wins = [t for t in sym_trades if float(t.get("pnl_usd", 0.0)) > 0]
-            sym_losses = [t for t in sym_trades if float(t.get("pnl_usd", 0.0)) <= 0]
-
+            wf_params = get_validated_params(sym, df_closed, force=force)
+            prev_enabled = cfg["symbols"].get(sym, {}).get("enabled")
             prev_strat = cfg["symbols"].get(sym, {}).get("strategy", "confluence")
-            new_strat = best_res.strategy
-            sl_mult = float(best_res.params["sl_atr_mult"])
-            tp_mult = float(best_res.params["tp_atr_mult"])
-            ema_f = int(best_res.params["ema_fast"])
-            ema_s = int(best_res.params["ema_slow"])
-            risk_mult = 1.0
-            enabled = True
-            notes: list[str] = []
 
-            # Regla 1: Filtrar sin piedad mercados flojos (PF < 1.15) y potenciar mercados Élite (PF >= 1.70)
-            if best_res.profit_factor < 1.15 or best_res.total_return_pct <= 2.0:
-                enabled = False
-                notes.append(
-                    f"DESCARTADO por baja rentabilidad (PF={best_res.profit_factor:.2f}, Ret={best_res.total_return_pct:+.1f}%)"
-                )
-            elif best_res.profit_factor >= 1.70 and best_res.total_return_pct >= 12.0:
-                risk_mult = 1.35  # Sube el riesgo a ~4.7% por trade en los mercados más ganadores
-                notes.append(
-                    f"🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con {new_strat} (PF={best_res.profit_factor:.2f}, WinRate={best_res.win_rate_pct:.1f}%, Ret={best_res.total_return_pct:+.1f}%)"
-                )
-            else:
-                notes.append(
-                    f"Optimizado agresivo con {new_strat} (PF={best_res.profit_factor:.2f}, WinRate={best_res.win_rate_pct:.1f}%, Ret={best_res.total_return_pct:+.1f}%)"
-                )
+            if wf_params is None:
+                if prev_enabled is not False:
+                    corrections_made += 1
+                cfg["symbols"][sym] = {
+                    "enabled": False,
+                    "strategy": prev_strat,
+                    "sl_atr_mult": 1.6,
+                    "tp_atr_mult": 3.2,
+                    "ema_fast": 12,
+                    "ema_slow": 26,
+                    "data_source": source,
+                    "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)",
+                }
+                log_event(f"   🔎 [{sym}] -> PAUSADO | Walk-Forward OOS rechazado")
+                continue
 
-            # Regla 2: Auditar trades reales cerrados en la noche
-            if len(sym_losses) >= 2 and len(sym_losses) > len(sym_wins):
-                risk_mult = 0.65
-                sl_mult = min(2.5, round(sl_mult * 1.15, 2))
-                tp_mult = round(sl_mult * 2.1, 2)
-                notes.append(
-                    f"Ajuste defensivo aplicado tras {len(sym_losses)} pérdidas en vivo: riesgo x{risk_mult} y SL ampliado a {sl_mult}x ATR"
-                )
+            oos = wf_params.get("oos", {})
+            new_strat = str(wf_params["strategy"])
+            sl_mult = float(wf_params["sl_atr_mult"])
+            tp_mult = float(wf_params["tp_atr_mult"])
+            ema_f = int(wf_params["ema_fast"])
+            ema_s = int(wf_params["ema_slow"])
 
-            if prev_strat != new_strat or not enabled or risk_mult != 1.0:
+            if prev_strat != new_strat or prev_enabled is not True:
                 corrections_made += 1
 
+            note = (
+                f"WF OOS APROBADO ({new_strat}) | PF={oos.get('pf', 0):.2f}, "
+                f"Exp={oos.get('expectancy', 0):+.2f}R, "
+                f"WR={oos.get('win_rate', 0) * 100:.1f}%, Trades={oos.get('n', 0)}"
+            )
             cfg["symbols"][sym] = {
-                "enabled": enabled,
+                "enabled": True,
                 "strategy": new_strat,
                 "sl_atr_mult": sl_mult,
                 "tp_atr_mult": tp_mult,
                 "ema_fast": ema_f,
                 "ema_slow": ema_s,
-                "risk_multiplier": risk_mult,
-                "backtest_return_pct": round(best_res.total_return_pct, 2),
-                "backtest_profit_factor": round(best_res.profit_factor, 2),
-                "backtest_win_rate": round(best_res.win_rate_pct, 1),
+                "backtest_return_pct": round(float(oos.get("expectancy", 0.0)) * float(oos.get("n", 0)), 2),
+                "backtest_profit_factor": round(float(oos.get("pf", 0.0)), 2),
+                "backtest_win_rate": round(float(oos.get("win_rate", 0.0)) * 100.0, 1),
                 "data_source": source,
-                "notes": " | ".join(notes),
+                "notes": note,
             }
-            log_event(f"   🔎 [{sym}] -> {'ACTIVO' if enabled else 'PAUSADO'} | Estrategia: {new_strat} | {' | '.join(notes)}")
+            log_event(f"   🔎 [{sym}] -> ACTIVO | {note}")
         except Exception as exc:
             log_event(f"   ⚠️ Error calibrando {sym}: {exc}")
 
     cfg["corrections_applied"] = int(cfg.get("corrections_applied", 0)) + corrections_made
     save_adaptive_config(cfg)
-    log_event(f"✅ FASE DE AUTO-CORRECCIÓN COMPLETADA ({corrections_made} ajustes aplicados).")
+    log_event(f"✅ FASE WALK-FORWARD COMPLETADA ({corrections_made} ajustes aplicados).")
     return cfg
 
 
-def run_trading_tick(broker: LiveExecutionBroker, cfg: dict, interval: str = "15m") -> None:
-    """Ejecuta un pulso de vigilancia y trading en vivo usando los parámetros auto-corregidos."""
+def _get_macro_bias_1h(symbol: str) -> int:
+    """Calcula el sesgo macro en velas cerradas de 1 hora: 1 = Alcista, -1 = Bajista, 0 = Neutro."""
+    try:
+        df_1h, _ = get_historical_data(symbol, interval="1h", limit=120, use_cache=False)
+        df_1h = closed_only(df_1h, "1h")
+        if df_1h is None or len(df_1h) < 50:
+            return 0
+        ind_1h = compute_indicators(df_1h, ema_fast=12, ema_slow=26)
+        last = ind_1h.iloc[-1]
+        close_1h = float(last["close"])
+        ema_f = float(last["ema_fast"])
+        ema_s = float(last["ema_slow"])
+        macd_h = float(last["macd_hist"])
+        if close_1h > ema_s and ema_f > ema_s and macd_h >= 0:
+            return 1
+        if close_1h < ema_s and ema_f < ema_s and macd_h <= 0:
+            return -1
+    except Exception:
+        pass
+    return 0
+
+
+def run_trading_tick(
+    broker: LiveExecutionBroker,
+    cfg: dict,
+    rm: RiskManager | None = None,
+    interval: str = "15m",
+) -> dict[str, float]:
+    """Evalúa señales al cierre de vela usando parámetros Walk-Forward y RiskManager."""
+    rm = rm or RiskManager()
+    rm.cfg = RiskConfig.from_adaptive_config()
+    cfg = load_adaptive_config()
     atr_by_symbol: dict[str, float] = {}
-    base_risk = float(cfg.get("global_risk_pct", 1.8))
 
     for sym, sym_cfg in cfg.get("symbols", {}).items():
         try:
             df_raw, _ = get_historical_data(sym, interval=interval, limit=300, use_cache=False)
+            df_closed = closed_only(df_raw, interval)
+            if df_closed is None or len(df_closed) < 60:
+                continue
+
             df_ind = compute_indicators(
-                df_raw,
+                df_closed,
                 ema_fast=int(sym_cfg.get("ema_fast", 12)),
                 ema_slow=int(sym_cfg.get("ema_slow", 26)),
             )
             strat_name = str(sym_cfg.get("strategy", "confluence"))
             df_sig = generate_signals(df_ind, strategy_name=strat_name)
-            atr_by_symbol[sym] = float(df_sig["atr"].iloc[-1])
+            atr_val = float(df_sig.iloc[-1]["atr"])
+            atr_by_symbol[sym] = atr_val
 
             if not sym_cfg.get("enabled", True):
                 continue
 
+            macro_bias = _get_macro_bias_1h(sym)
             decision = evaluate_latest_candle(
                 df_sig,
                 sl_atr_mult=float(sym_cfg.get("sl_atr_mult", 1.6)),
                 tp_atr_mult=float(sym_cfg.get("tp_atr_mult", 3.2)),
+                lookback_bars=1,
+                macro_bias=macro_bias,
             )
-            effective_risk = round(base_risk * float(sym_cfg.get("risk_multiplier", 1.0)), 2)
 
+            side = None
             if decision.action.startswith("LONG"):
-                ok, msg = broker.open_order(
-                    symbol=sym,
-                    side="LONG",
-                    strategy=strat_name,
-                    entry_price=decision.entry_price,
-                    stop_loss=decision.stop_loss,
-                    take_profit=decision.take_profit,
-                    risk_pct=effective_risk,
-                    reason=decision.reasons[0] if decision.reasons else "",
-                )
-                if ok:
-                    log_event(msg)
+                side = "LONG"
             elif decision.action.startswith("SHORT"):
+                side = "SHORT"
+
+            if side is not None:
+                st = broker.state
+                ok_rm, risk_rm, reason_rm = rm.decide(
+                    equity=st.equity_usd,
+                    peak_equity=st.peak_equity_usd,
+                    day_start_equity=st.day_start_equity_usd,
+                    open_positions=st.open_positions,
+                    symbol=sym,
+                    side=side,
+                    entry=decision.entry_price,
+                    sl=decision.stop_loss,
+                    tp=decision.take_profit,
+                    confidence=decision.confidence,
+                )
+                if not ok_rm:
+                    log_event(f"   🛡️ [RiskManager] {sym} {side} bloqueado: {reason_rm}")
+                    continue
+
                 ok, msg = broker.open_order(
                     symbol=sym,
-                    side="SHORT",
+                    side=side,
                     strategy=strat_name,
                     entry_price=decision.entry_price,
                     stop_loss=decision.stop_loss,
                     take_profit=decision.take_profit,
-                    risk_pct=effective_risk,
-                    reason=decision.reasons[0] if decision.reasons else "",
+                    risk_pct=risk_rm,
+                    reason=decision.reasons[0] if decision.reasons else reason_rm,
+                    confidence=decision.confidence,
                 )
                 if ok:
-                    log_event(msg)
+                    log_event(f"{msg} | {reason_rm}")
         except Exception as exc:
             log_event(f"   ⚠️ Error en tick de {sym}: {exc}")
 
@@ -220,10 +272,11 @@ def run_trading_tick(broker: LiveExecutionBroker, cfg: dict, interval: str = "15
 
     st = broker.state
     log_event(
-        f"💓 Pulso En Vivo | Equity: ${st.equity_usd:,.2f} USD "
-        f"(Efectivo: ${st.cash_balance_usd:,.2f} | Flotante: ${st.unrealized_pnl_usd:+,.2f}) | "
-        f"Abiertas: {len(st.open_positions)} | Cerradas: {st.total_trades}"
+        f"💓 Cierre de Vela | Equity: ${st.equity_usd:,.2f} USD "
+        f"(Efectivo: ${st.cash_balance_usd:,.2f} | Flotante: ${st.unrealized_pnl_usd:+,.2f} | "
+        f"Peak: ${st.peak_equity_usd:,.2f}) | Abiertas: {len(st.open_positions)} | Cerradas: {st.total_trades}"
     )
+    return atr_by_symbol
 
 
 def run_overnight_daemon(
@@ -232,16 +285,19 @@ def run_overnight_daemon(
     tick_seconds: int = 60,
 ) -> None:
     broker = LiveExecutionBroker(initial_balance_usd=10000.0)
+    rm = RiskManager()
+    gate = NewCandleGate("15m")
     cfg = load_adaptive_config()
+    atr_map: dict[str, float] = {}
 
     log_event("=" * 92)
     log_event(
-        f"🌙 INICIANDO SUPERVISOR NOCTURNO AUTÓNOMO: "
-        f"Sesiones de {trading_minutes} min de Trading + {correction_minutes} min de Auto-Corrección"
+        f"🌙 INICIANDO SUPERVISOR AUTÓNOMO (Walk-Forward + RiskManager + Velas Cerradas): "
+        f"{trading_minutes} min Trading + {correction_minutes} min Auditoría | Tick SL/Trail: {tick_seconds}s"
     )
     log_event("=" * 92)
 
-    # Calibración inicial inmediata antes de empezar la primera sesión de 1 hora
+    # Calibración inicial Walk-Forward antes de empezar la primera sesión de 1 hora
     cfg = run_self_correction_phase(broker, cfg, interval="15m")
 
     while True:
@@ -252,9 +308,16 @@ def run_overnight_daemon(
 
             log_event(f"🟢 SESIÓN OPERATIVA #{session_num} INICIADA (Duración: {trading_minutes} minutos)...")
             session_end = time.time() + (trading_minutes * 60)
+            first_tick = True
 
             while time.time() < session_end:
-                run_trading_tick(broker, cfg, interval="15m")
+                if first_tick or gate.is_new_closed_candle():
+                    atr_map = run_trading_tick(broker, cfg, rm=rm, interval="15m")
+                    first_tick = False
+                else:
+                    events = broker.update_open_positions(atr_by_symbol=atr_map)
+                    for ev in events:
+                        log_event(ev)
                 time.sleep(tick_seconds)
 
             log_event(
@@ -264,15 +327,10 @@ def run_overnight_daemon(
             cfg = run_self_correction_phase(broker, cfg, interval="15m")
 
             # Durante los 20 minutos de corrección seguimos protegiendo Stop Loss / Trailing Stop de posiciones abiertas
-            # y realizamos una segunda validación profunda en 1h a mitad de la ventana
-            mid_checked = False
             while time.time() < correction_end:
-                broker.update_open_positions()
-                remaining_sec = correction_end - time.time()
-                if not mid_checked and remaining_sec <= (correction_minutes * 30):
-                    log_event("🔬 Verificación intermedia de estructura en temporalidad 1h durante ventana de corrección...")
-                    cfg = run_self_correction_phase(broker, cfg, interval="15m")
-                    mid_checked = True
+                events = broker.update_open_positions(atr_by_symbol=atr_map)
+                for ev in events:
+                    log_event(ev)
                 time.sleep(tick_seconds)
 
         except Exception as exc:

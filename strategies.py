@@ -30,6 +30,7 @@ STRATEGY_CATALOG: dict[str, str] = {
     "volatility_breakout": "Ruptura de Volatilidad (Squeeze de Bollinger + MACD)",
     "ema_pullback": "Retroceso Institucional a la Media (Pullback EMA + RSI + MACD)",
     "momentum_shark": "Modo Tiburón Agresivo (Explosión de Momento + Aceleración MACD)",
+    "chimichurri_alpha": "Chimichurri Quant Alpha (ADX + Donchian + Volumen + Confluencia)",
 }
 
 
@@ -62,6 +63,12 @@ def generate_signals(
     bb_width = data["bb_width"].to_numpy()
     bb_upper = data["bb_upper"].to_numpy()
     bb_lower = data["bb_lower"].to_numpy()
+    adx = data["adx"].to_numpy() if "adx" in data.columns else np.full(n, 22.0)
+    plus_di = data["plus_di"].to_numpy() if "plus_di" in data.columns else np.full(n, 20.0)
+    minus_di = data["minus_di"].to_numpy() if "minus_di" in data.columns else np.full(n, 20.0)
+    vol_ratio = data["vol_ratio"].to_numpy() if "vol_ratio" in data.columns else np.ones(n)
+    donchian_high = data["donchian_high"].to_numpy() if "donchian_high" in data.columns else close
+    donchian_low = data["donchian_low"].to_numpy() if "donchian_low" in data.columns else close
 
     for i in range(30, n):
         if strategy_name == "confluence":
@@ -187,6 +194,46 @@ def generate_signals(
                 scores[i] = -90.0
                 reasons[i] = f"Explosión Bajista Shark (3 velas de aceleración MACD + RSI={rsi[i]:.1f})"
 
+        elif strategy_name == "chimichurri_alpha":
+            # Régimen de Tendencia (ADX >= 22) + Ruptura Donchian o Pullback con Volumen
+            strong_trend = adx[i] >= 22.0
+            vol_ok = vol_ratio[i] >= 1.10 or vol_ratio[i] == 1.0  # Forex puede tener vol=0 -> 1.0
+
+            donchian_bull = close[i] > donchian_high[i] and plus_di[i] > minus_di[i] and macd_hist[i] > 0
+            donchian_bear = close[i] < donchian_low[i] and minus_di[i] > plus_di[i] and macd_hist[i] < 0
+
+            pullback_bull = (
+                strong_trend
+                and ema_fast[i] > ema_slow[i] > ema_trend[i]
+                and close[i - 1] <= ema_fast[i - 1]
+                and close[i] > ema_fast[i]
+                and macd_hist[i] > macd_hist[i - 1]
+                and 42.0 <= rsi[i] <= 68.0
+            )
+            pullback_bear = (
+                strong_trend
+                and ema_fast[i] < ema_slow[i] < ema_trend[i]
+                and close[i - 1] >= ema_fast[i - 1]
+                and close[i] < ema_fast[i]
+                and macd_hist[i] < macd_hist[i - 1]
+                and 32.0 <= rsi[i] <= 58.0
+            )
+
+            if (donchian_bull and strong_trend and vol_ok and rsi[i] < 76.0) or pullback_bull:
+                signals[i] = 1
+                scores[i] = min(98.0, 78.0 + (adx[i] - 20.0) * 0.6 + (10.0 if vol_ratio[i] >= 1.3 else 0.0))
+                reasons[i] = (
+                    f"Chimichurri Alpha LONG (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
+                    f"RSI={rsi[i]:.1f}, {'Ruptura Donchian' if donchian_bull else 'Pullback Tendencia'})"
+                )
+            elif (donchian_bear and strong_trend and vol_ok and rsi[i] > 24.0) or pullback_bear:
+                signals[i] = -1
+                scores[i] = -min(98.0, 78.0 + (adx[i] - 20.0) * 0.6 + (10.0 if vol_ratio[i] >= 1.3 else 0.0))
+                reasons[i] = (
+                    f"Chimichurri Alpha SHORT (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
+                    f"RSI={rsi[i]:.1f}, {'Ruptura Donchian' if donchian_bear else 'Pullback Tendencia'})"
+                )
+
     data["signal"] = signals
     data["signal_score"] = scores
     data["signal_reason"] = reasons
@@ -197,18 +244,21 @@ def evaluate_latest_candle(
     df_with_signals: pd.DataFrame,
     sl_atr_mult: float = 1.6,
     tp_atr_mult: float = 3.2,
-    lookback_bars: int = 4,
+    lookback_bars: int = 1,
+    macro_bias: int = 0,
 ) -> SignalDecision:
     """
-    Evalúa las últimas velas cerradas para emitir una orden operativa en tiempo real.
-    Verifica primero la señal de la estrategia optimizada en las últimas `lookback_bars` velas,
-    y también evalúa si hay confluencia técnica inmediata en la vela actual.
+    Evalúa la última vela cerrada para emitir una orden operativa en tiempo real.
+    Usa únicamente la señal emitida por la estrategia validada (sin entradas improvisadas).
     """
     last = df_with_signals.iloc[-1]
     price = float(last["close"])
     atr = float(last["atr"])
+    adx_val = float(last["adx"]) if "adx" in last.index else 22.0
+    vol_ratio = float(last["vol_ratio"]) if "vol_ratio" in last.index else 1.0
+    rsi = float(last["rsi"])
 
-    # Buscar la señal más reciente dentro de la ventana de vigencia (últimas lookback_bars velas)
+    # Buscar la señal más reciente dentro de la ventana de vigencia (por defecto solo última vela cerrada)
     chosen_row = last
     for offset in range(1, min(lookback_bars + 1, len(df_with_signals))):
         candidate = df_with_signals.iloc[-offset]
@@ -220,42 +270,24 @@ def evaluate_latest_candle(
     reason_text = str(chosen_row["signal_reason"])
     conf_score = abs(float(chosen_row["signal_score"]))
 
-    # Si la estrategia principal no disparó en las últimas velas, verificar confluencia direccional fuerte en vivo
-    if sig_val == 0:
-        ema_fast = float(last["ema_fast"])
-        ema_slow = float(last["ema_slow"])
-        ema_trend = float(last["ema_trend"])
-        rsi = float(last["rsi"])
-        macd = float(last["macd"])
-        macd_sig = float(last["macd_signal"])
-        macd_hist = float(last["macd_hist"])
-        prev_hist = float(df_with_signals.iloc[-2]["macd_hist"])
-        bb_pct = float(last["bb_pct_b"])
+    # Filtro Multi-Timeframe: si va contra la tendencia 1h y NO es un extremo de RSI, bloquear entrada débil
+    if sig_val == 1 and macro_bias == -1 and rsi > 30.0:
+        if conf_score < 85.0:
+            sig_val = 0
+            reason_text = f"Señal LONG filtrada por tendencia Macro 1h Bajista (RSI={rsi:.1f}, ADX={adx_val:.1f})."
+    elif sig_val == -1 and macro_bias == 1 and rsi < 70.0:
+        if conf_score < 85.0:
+            sig_val = 0
+            reason_text = f"Señal SHORT filtrada por tendencia Macro 1h Alcista (RSI={rsi:.1f}, ADX={adx_val:.1f})."
 
-        if price > ema_trend and ema_fast > ema_slow and macd > macd_sig and macd_hist >= prev_hist and 45.0 <= rsi <= 68.0:
-            sig_val = 1
-            conf_score = 72.0
-            reason_text = f"Confluencia Alcista en Vivo (Precio > EMA100, EMA rápida > lenta, MACD+ y RSI={rsi:.1f})"
-        elif price < ema_trend and ema_fast < ema_slow and macd < macd_sig and macd_hist <= prev_hist and 32.0 <= rsi <= 55.0:
-            sig_val = -1
-            conf_score = 72.0
-            reason_text = f"Confluencia Bajista en Vivo (Precio < EMA100, EMA rápida < lenta, MACD- y RSI={rsi:.1f})"
-        elif rsi < 33.0 and bb_pct < 0.22 and macd_hist > prev_hist:
-            sig_val = 1
-            conf_score = 70.0
-            reason_text = f"Rebote de Sobreventa en Vivo (RSI={rsi:.1f}, Bollinger %B={bb_pct:.2f}, giro MACD)"
-        elif rsi > 67.0 and bb_pct > 0.78 and macd_hist < prev_hist:
-            sig_val = -1
-            conf_score = 70.0
-            reason_text = f"Rechazo de Sobrecompra en Vivo (RSI={rsi:.1f}, Bollinger %B={bb_pct:.2f}, giro MACD)"
-        elif ema_fast > ema_slow and macd_hist > prev_hist and 48.0 <= rsi <= 72.0:
-            sig_val = 1
-            conf_score = 68.0
-            reason_text = f"Impulso Tiburón Alcista (EMA rápida > lenta + Aceleración MACD + RSI={rsi:.1f})"
-        elif ema_fast < ema_slow and macd_hist < prev_hist and 28.0 <= rsi <= 52.0:
-            sig_val = -1
-            conf_score = 68.0
-            reason_text = f"Impulso Tiburón Bajista (EMA rápida < lenta + Aceleración MACD + RSI={rsi:.1f})"
+    # Bonificación de convicción si hay alineación macro + ADX fuerte + volumen
+    if sig_val != 0:
+        if (sig_val == 1 and macro_bias == 1) or (sig_val == -1 and macro_bias == -1):
+            conf_score += 7.0
+        if adx_val >= 26.0:
+            conf_score += 5.0
+        if vol_ratio >= 1.35:
+            conf_score += 5.0
 
     if sig_val == 1:
         sl = price - sl_atr_mult * atr

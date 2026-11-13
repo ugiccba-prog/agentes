@@ -1,12 +1,13 @@
 """
 Motor de Indicadores Técnicos Vectorizados (Pandas / NumPy).
 Incluye:
-- Medias Móviles Exponenciales y Simples (EMA rápida, EMA lenta, EMA de tendencia 200)
+- Medias Móviles Exponenciales (EMA rápida, EMA lenta, EMA 100, EMA 200)
 - RSI (Relative Strength Index de Wilder)
 - MACD (Línea MACD, Línea de Señal e Histograma)
 - Bandas de Bollinger (Superior, Media, Inferior, %B y Ancho de Banda)
 - ATR (Average True Range) para Stop Loss y Take Profit dinámicos según volatilidad
-- ADX / Fuerza de Tendencia para distinguir entre mercados en tendencia (Cripto) y laterales (Forex)
+- ADX (+DI, -DI, ADX) para detectar fuerza real de tendencia vs mercado lateral
+- Volumen Relativo (vol_ratio) y Canales de Donchian (rupturas institucionales)
 """
 
 from __future__ import annotations
@@ -27,17 +28,20 @@ def compute_indicators(
     bb_period: int = 20,
     bb_std: float = 2.0,
     atr_period: int = 14,
+    adx_period: int = 14,
 ) -> pd.DataFrame:
     """Calcula todos los indicadores técnicos sobre un DataFrame OHLCV y devuelve una copia enriquecida."""
     out = df.copy()
     close = out["close"]
     high = out["high"]
     low = out["low"]
+    volume = out["volume"] if "volume" in out.columns else pd.Series(0.0, index=out.index)
 
-    # 1. Medias Móviles (EMA rápida, lenta y filtro de tendencia)
+    # 1. Medias Móviles (EMA rápida, lenta, tendencia 100 y macro 200)
     out["ema_fast"] = close.ewm(span=ema_fast, adjust=False).mean()
     out["ema_slow"] = close.ewm(span=ema_slow, adjust=False).mean()
     out["ema_trend"] = close.ewm(span=ema_trend, adjust=False).mean()
+    out["ema_200"] = close.ewm(span=200, adjust=False).mean()
 
     # 2. RSI (Suavizado de Wilder)
     delta = close.diff()
@@ -73,7 +77,27 @@ def compute_indicators(
     true_range = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
     out["atr"] = true_range.ewm(alpha=1.0 / atr_period, min_periods=atr_period, adjust=False).mean().bfill()
 
-    # 6. Pendiente normalizada de tendencia (Fuerza direccional)
+    # 6. ADX (+DI, -DI, ADX) — Detector de régimen (Tendencia fuerte vs Rango)
+    up_move = high.diff()
+    down_move = -low.diff()
+    plus_dm = np.where((up_move > down_move) & (up_move > 0), up_move, 0.0)
+    minus_dm = np.where((down_move > up_move) & (down_move > 0), down_move, 0.0)
+
+    atr_smooth = true_range.ewm(alpha=1.0 / adx_period, min_periods=adx_period, adjust=False).mean().replace(0, np.nan)
+    plus_di = 100.0 * pd.Series(plus_dm, index=out.index).ewm(alpha=1.0 / adx_period, min_periods=adx_period, adjust=False).mean() / atr_smooth
+    minus_di = 100.0 * pd.Series(minus_dm, index=out.index).ewm(alpha=1.0 / adx_period, min_periods=adx_period, adjust=False).mean() / atr_smooth
+    dx = (100.0 * (plus_di - minus_di).abs() / (plus_di + minus_di).replace(0, np.nan)).fillna(0.0)
+    out["plus_di"] = plus_di.fillna(0.0)
+    out["minus_di"] = minus_di.fillna(0.0)
+    out["adx"] = dx.ewm(alpha=1.0 / adx_period, min_periods=adx_period, adjust=False).mean().fillna(20.0)
+
+    # 7. Volumen Relativo (Volumen actual vs media de 20 velas) y Canales de Donchian
+    vol_sma = volume.rolling(window=20).mean().replace(0, np.nan)
+    out["vol_ratio"] = (volume / vol_sma).fillna(1.0)
+    out["donchian_high"] = high.rolling(window=20).max().shift(1).bfill()
+    out["donchian_low"] = low.rolling(window=20).min().shift(1).bfill()
+
+    # 8. Pendiente normalizada de tendencia (Fuerza direccional)
     out["trend_strength"] = ((out["ema_fast"] - out["ema_slow"]).abs() / out["atr"].replace(0, np.nan)).fillna(0.0)
 
     return out

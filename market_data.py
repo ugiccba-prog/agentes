@@ -63,8 +63,8 @@ def get_market_type(symbol: str) -> MarketType:
     return "forex"
 
 
-def fetch_binance_klines(symbol: str, interval: str = "1h", limit: int = 1000) -> pd.DataFrame | None:
-    """Descarga datos OHLCV históricos reales desde el endpoint público de Binance."""
+def fetch_binance_klines(symbol: str, interval: str = "1h", limit: int = 1500) -> pd.DataFrame | None:
+    """Descarga datos OHLCV históricos reales desde el endpoint público de Binance (con paginación >1000)."""
     binance_sym = DEFAULT_SYMBOLS.get(symbol, {}).get("binance", symbol.replace("/", ""))
     if not binance_sym:
         return None
@@ -74,17 +74,37 @@ def fetch_binance_klines(symbol: str, interval: str = "1h", limit: int = 1000) -
         "https://api1.binance.com/api/v3/klines",
         "https://data-api.binance.vision/api/v3/klines",
     ]
-    params = {"symbol": binance_sym, "interval": interval, "limit": min(limit, 1000)}
 
     for url in endpoints:
         try:
-            resp = _http_get(url, params=params, timeout=10)
-            if resp.status_code == 200:
+            all_raw: list = []
+            end_time: int | None = None
+            remaining = limit
+            while remaining > 0:
+                batch_limit = min(remaining, 1000)
+                params: dict[str, object] = {
+                    "symbol": binance_sym,
+                    "interval": interval,
+                    "limit": batch_limit,
+                }
+                if end_time is not None:
+                    params["endTime"] = end_time
+                resp = _http_get(url, params=params, timeout=10)
+                if resp.status_code != 200:
+                    all_raw = []
+                    break
                 raw = resp.json()
                 if not raw or not isinstance(raw, list):
-                    continue
+                    break
+                all_raw = raw + all_raw
+                remaining -= len(raw)
+                if len(raw) < batch_limit:
+                    break
+                end_time = int(raw[0][0]) - 1
+
+            if all_raw:
                 df = pd.DataFrame(
-                    raw,
+                    all_raw,
                     columns=[
                         "open_time", "open", "high", "low", "close", "volume",
                         "close_time", "quote_vol", "trades", "taker_base", "taker_quote", "ignore",
@@ -93,7 +113,14 @@ def fetch_binance_klines(symbol: str, interval: str = "1h", limit: int = 1000) -
                 df["timestamp"] = pd.to_datetime(df["open_time"], unit="ms", utc=True)
                 for col in ["open", "high", "low", "close", "volume"]:
                     df[col] = df[col].astype(float)
-                df = df[["timestamp", "open", "high", "low", "close", "volume"]].sort_values("timestamp").reset_index(drop=True)
+                df = (
+                    df[["timestamp", "open", "high", "low", "close", "volume"]]
+                    .drop_duplicates(subset=["timestamp"])
+                    .sort_values("timestamp")
+                    .reset_index(drop=True)
+                )
+                if len(df) > limit:
+                    df = df.iloc[-limit:].reset_index(drop=True)
                 return df
         except Exception:
             continue
@@ -241,7 +268,7 @@ def generate_synthetic_ohlcv(symbol: str, interval: str = "1h", limit: int = 100
 def get_historical_data(
     symbol: str,
     interval: str = "1h",
-    limit: int = 800,
+    limit: int = 1500,
     use_cache: bool = True,
 ) -> tuple[pd.DataFrame, str]:
     """

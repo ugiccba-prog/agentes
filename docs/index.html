@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>🦈 Agente Tiburón 24/7 — En Vivo</title>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card: #111827;
+      --card-alt: #1a2335;
+      --border: #1f2937;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --green: #10b981;
+      --green-bg: rgba(16, 185, 129, 0.14);
+      --red: #ef4444;
+      --red-bg: rgba(239, 68, 68, 0.14);
+      --blue: #3b82f6;
+      --blue-bg: rgba(59, 130, 246, 0.14);
+      --amber: #f59e0b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: radial-gradient(circle at top right, #172554 0%, var(--bg) 42%);
+      color: var(--text);
+      padding: 14px;
+      line-height: 1.4;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .topbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+    }
+    .title { font-size: 1.15rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      background: var(--green-bg);
+      color: var(--green);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+    .btn {
+      background: var(--blue);
+      color: #fff;
+      border: none;
+      border-radius: 9px;
+      padding: 8px 13px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .btn:active { transform: scale(0.98); }
+    .meta { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 13px 14px;
+    }
+    .kpi-label { font-size: 0.74rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .kpi-val { font-size: 1.32rem; font-weight: 700; margin-top: 4px; }
+    .kpi-sub { font-size: 0.8rem; margin-top: 3px; color: var(--muted); }
+    .pos { color: var(--green); }
+    .neg { color: var(--red); }
+    .section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+    .section-head {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .section-title { font-size: 1rem; font-weight: 700; }
+    .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+    .filter-btn {
+      background: var(--card-alt);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 5px 10px;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+    .filter-btn.active { background: var(--blue-bg); border-color: var(--blue); color: #93c5fd; font-weight: 600; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.84rem; min-width: 640px; }
+    th, td { padding: 9px 8px; border-bottom: 1px solid var(--border); text-align: left; white-space: nowrap; }
+    th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.74rem;
+      font-weight: 700;
+    }
+    .b-win { background: var(--green-bg); color: var(--green); }
+    .b-loss { background: var(--red-bg); color: var(--red); }
+    .b-info { background: var(--blue-bg); color: #93c5fd; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      background: var(--card-alt);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 0.78rem;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--card-alt);
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 6px;
+    }
+    .progress-fill { height: 100%; background: linear-gradient(90deg, var(--blue), var(--green)); }
+    pre.log {
+      background: #070b14;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 0.75rem;
+      overflow-x: auto;
+      max-height: 240px;
+      color: #cbd5e1;
+      margin: 0;
+    }
+    svg.spark { width: 100%; height: 110px; display: block; }
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .kpi-val { font-size: 1.15rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <div>
+        <div class="title">🦈 Agente Tiburón 24/7 <span id="preset-badge" class="pill">Cargando...</span></div>
+        <div class="meta" id="last-sync">Sincronizando datos en vivo desde GitHub Cloud...</div>
+      </div>
+      <div style="display:flex; gap:8px; align-items:center;">
+        <button class="btn" onclick="loadAll()">🔄 Actualizar ahora</button>
+      </div>
+    </div>
+
+    <div class="grid" id="kpi-grid"></div>
+
+    <div class="section">
+      <div class="section-head">
+        <div class="section-title">📈 Evolución del Capital Cerrado</div>
+        <div class="meta" id="chart-summary"></div>
+      </div>
+      <svg id="equity-svg" class="spark" viewBox="0 0 600 110" preserveAspectRatio="none"></svg>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div class="section-title">📌 Posiciones Abiertas (<span id="open-count">0</span>)</div>
+        <div class="meta" id="open-exp"></div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Par</th>
+              <th>Lado</th>
+              <th>Estrategia</th>
+              <th>Entrada</th>
+              <th>Actual</th>
+              <th>Stop Loss</th>
+              <th>Take Profit</th>
+              <th>PnL Flotante</th>
+            </tr>
+          </thead>
+          <tbody id="open-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div class="section-title">🏁 Operaciones Realizadas y Resultado (<span id="closed-count">0</span>)</div>
+        <div class="filters">
+          <button class="filter-btn active" onclick="setFilter('all', this)">Todas</button>
+          <button class="filter-btn" onclick="setFilter('win', this)">✅ Ganadoras</button>
+          <button class="filter-btn" onclick="setFilter('loss', this)">❌ Perdedoras</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Resultado</th>
+              <th>Cierre</th>
+              <th>Par</th>
+              <th>Lado</th>
+              <th>Estrategia</th>
+              <th>Entrada → Salida</th>
+              <th>PnL ($)</th>
+              <th>Motivo</th>
+            </tr>
+          </thead>
+          <tbody id="closed-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div class="section-title">🎯 Mercados Activos (Aprobados Walk-Forward OOS)</div>
+      </div>
+      <div class="chips" id="markets-chips"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div class="section-title">📜 Últimos Eventos del Supervisor</div>
+      </div>
+      <pre class="log" id="log-box">Cargando bitácora...</pre>
+    </div>
+  </div>
+
+  <script>
+    const RAW_BASE = "https://raw.githubusercontent.com/ugiccba-prog/agentes/main/";
+    let currentFilter = "all";
+    let lastPortfolio = null;
+
+    function fmtNum(v) {
+      const n = Number(v || 0);
+      if (Math.abs(n) < 0.001) return n.toFixed(7);
+      if (Math.abs(n) < 10) return n.toFixed(4);
+      return n.toFixed(2);
+    }
+
+    function fmtUsd(v, signed = false) {
+      const n = Number(v || 0);
+      const s = signed && n >= 0 ? "+" : (n < 0 ? "-" : "");
+      return `${s}$${Math.abs(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    }
+
+    function setFilter(f, btn) {
+      currentFilter = f;
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      if (lastPortfolio) renderClosed(lastPortfolio.closed_trades || []);
+    }
+
+    function renderClosed(closed) {
+      const list = [...closed].reverse().filter(t => {
+        const pnl = Number(t.pnl_usd || 0);
+        if (currentFilter === "win") return pnl > 0;
+        if (currentFilter === "loss") return pnl <= 0;
+        return true;
+      });
+      document.getElementById("closed-count").textContent = closed.length;
+      const body = document.getElementById("closed-body");
+      if (!list.length) {
+        body.innerHTML = `<tr><td colspan="8" style="color:var(--muted)">Sin operaciones en este filtro.</td></tr>`;
+        return;
+      }
+      body.innerHTML = list.slice(0, 60).map(t => {
+        const pnl = Number(t.pnl_usd || 0);
+        const pct = Number(t.pnl_pct || 0);
+        const win = pnl > 0;
+        return `
+          <tr>
+            <td><span class="badge ${win ? "b-win" : "b-loss"}">${win ? "✅ GANANCIA" : "❌ PÉRDIDA"}</span></td>
+            <td>${t.exit_time || "-"}</td>
+            <td><strong>${t.symbol}</strong></td>
+            <td><span class="badge ${t.side === "LONG" ? "b-win" : "b-loss"}">${t.side}</span></td>
+            <td>${t.strategy}</td>
+            <td>${fmtNum(t.entry_price)} → ${fmtNum(t.exit_price)}</td>
+            <td class="${win ? "pos" : "neg"}"><strong>${fmtUsd(pnl, true)}</strong> (${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%)</td>
+            <td>${t.exit_reason || "-"}</td>
+          </tr>`;
+      }).join("");
+    }
+
+    function renderChart(initialBal, closed) {
+      let cur = Number(initialBal || 10000);
+      const pts = [cur];
+      for (const t of closed) {
+        cur += Number(t.pnl_usd || 0);
+        pts.push(cur);
+      }
+      const min = Math.min(...pts);
+      const max = Math.max(...pts);
+      const span = Math.max(max - min, 1);
+      const w = 600, h = 110, pad = 8;
+      const coords = pts.map((v, idx) => {
+        const x = pts.length === 1 ? w / 2 : (idx / (pts.length - 1)) * (w - pad * 2) + pad;
+        const y = h - pad - ((v - min) / span) * (h - pad * 2);
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+      }).join(" ");
+      const lastVal = pts[pts.length - 1];
+      const color = lastVal >= pts[0] ? "#10b981" : "#ef4444";
+      document.getElementById("equity-svg").innerHTML = `
+        <polyline fill="none" stroke="${color}" stroke-width="2.5" points="${coords}" />
+      `;
+      document.getElementById("chart-summary").textContent =
+        `Inicio: ${fmtUsd(pts[0])} · Cerrado actual: ${fmtUsd(lastVal)} (${closed.length} trades)`;
+    }
+
+    async function fetchAsset(name) {
+      const bust = `?t=${Date.now()}`;
+      const res = await fetch(RAW_BASE + name + bust, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res;
+    }
+
+    async function loadAll() {
+      try {
+        const [pRes, cRes, lRes] = await Promise.all([
+          fetchAsset("live_portfolio.json"),
+          fetchAsset("adaptive_config.json"),
+          fetchAsset("overnight_log.txt").catch(() => null),
+        ]);
+        const p = await pRes.json();
+        const cfg = await cRes.json();
+        lastPortfolio = p;
+
+        const eq = Number(p.equity_usd || 0);
+        const init = Number(p.initial_balance_usd || 10000);
+        const totalDiff = eq - init;
+        const totalPct = init ? (totalDiff / init) * 100 : 0;
+        const realized = Number(p.realized_pnl_usd || 0);
+        const unreal = Number(p.unrealized_pnl_usd || 0);
+        const closed = p.closed_trades || [];
+        const wins = closed.filter(t => Number(t.pnl_usd || 0) > 0);
+        const losses = closed.filter(t => Number(t.pnl_usd || 0) <= 0);
+        const gWin = wins.reduce((a, t) => a + Number(t.pnl_usd || 0), 0);
+        const gLoss = Math.abs(losses.reduce((a, t) => a + Number(t.pnl_usd || 0), 0));
+        const pf = gLoss > 0 ? gWin / gLoss : (gWin > 0 ? 99 : 0);
+        const wr = closed.length ? (wins.length / closed.length) * 100 : 0;
+        const openPos = p.open_positions || [];
+        const totalNotional = openPos.reduce((a, x) => a + Number(x.notional_usd || 0), 0);
+        const lev = eq > 0 ? totalNotional / eq : 0;
+        const progress = Math.min(100, (closed.length / 100) * 100);
+
+        document.getElementById("preset-badge").textContent = `${cfg.preset_name || "Violenta & Sagaz"} · Sesión #${cfg.session_count || 1}`;
+        document.getElementById("last-sync").textContent = `Último dato cartera: ${p.last_updated || "-"} | Refresco automático cada 30s`;
+
+        document.getElementById("kpi-grid").innerHTML = `
+          <div class="card">
+            <div class="kpi-label">Equity en Vivo</div>
+            <div class="kpi-val ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(eq)}</div>
+            <div class="kpi-sub ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(totalDiff, true)} (${totalPct >= 0 ? "+" : ""}${totalPct.toFixed(2)}%)</div>
+          </div>
+          <div class="card">
+            <div class="kpi-label">PnL Realizado</div>
+            <div class="kpi-val ${realized >= 0 ? "pos" : "neg"}">${fmtUsd(realized, true)}</div>
+            <div class="kpi-sub">Cash: ${fmtUsd(p.cash_balance_usd)}</div>
+          </div>
+          <div class="card">
+            <div class="kpi-label">PnL Flotante</div>
+            <div class="kpi-val ${unreal >= 0 ? "pos" : "neg"}">${fmtUsd(unreal, true)}</div>
+            <div class="kpi-sub">Apalancamiento: ${lev.toFixed(2)}x</div>
+          </div>
+          <div class="card">
+            <div class="kpi-label">Profit Factor / Win Rate</div>
+            <div class="kpi-val">PF ${pf.toFixed(2)}</div>
+            <div class="kpi-sub">${wr.toFixed(1)}% (${wins.length}W / ${losses.length}L)</div>
+          </div>
+          <div class="card">
+            <div class="kpi-label">Meta Validación (100 Trades)</div>
+            <div class="kpi-val">${closed.length} / 100</div>
+            <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
+          </div>
+        `;
+
+        document.getElementById("open-count").textContent = openPos.length;
+        document.getElementById("open-exp").textContent = `Exposición abierta: ${fmtUsd(totalNotional)} (${lev.toFixed(2)}x)`;
+        const openBody = document.getElementById("open-body");
+        if (!openPos.length) {
+          openBody.innerHTML = `<tr><td colspan="8" style="color:var(--muted)">Sin posiciones abiertas en este momento.</td></tr>`;
+        } else {
+          openBody.innerHTML = openPos.map(x => {
+            const pnl = Number(x.unrealized_pnl_usd || 0);
+            const pct = Number(x.unrealized_pnl_pct || 0);
+            const entry = Number(x.entry_price || 0);
+            const sl = Number(x.stop_loss || 0);
+            const prot = x.side === "LONG" ? sl >= entry : sl <= entry;
+            return `
+              <tr>
+                <td><strong>${x.symbol}</strong></td>
+                <td><span class="badge ${x.side === "LONG" ? "b-win" : "b-loss"}">${x.side}</span></td>
+                <td>${x.strategy}</td>
+                <td>${fmtNum(entry)}</td>
+                <td>${fmtNum(x.current_price)}</td>
+                <td>${fmtNum(sl)} <span class="badge ${prot ? "b-win" : "b-info"}">${prot ? "🔒 BE/Trail" : "🛡️ Inicial"}</span></td>
+                <td>${fmtNum(x.take_profit)}</td>
+                <td class="${pnl >= 0 ? "pos" : "neg"}"><strong>${fmtUsd(pnl, true)}</strong> (${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%)</td>
+              </tr>`;
+          }).join("");
+        }
+
+        renderClosed(closed);
+        renderChart(init, closed);
+
+        const syms = cfg.symbols || {};
+        const activeChips = Object.entries(syms)
+          .filter(([, v]) => v.enabled)
+          .map(([k, v]) => `<div class="chip">🟢 <strong>${k}</strong> · ${v.strategy} (PF OOS ${Number(v.backtest_profit_factor || 0).toFixed(2)})</div>`);
+        document.getElementById("markets-chips").innerHTML = activeChips.length
+          ? activeChips.join("")
+          : `<div class="chip">⏸️ Ningún par pasó Walk-Forward OOS esta semana (protegiendo capital)</div>`;
+
+        if (lRes && lRes.ok) {
+          const txt = await lRes.text();
+          document.getElementById("log-box").textContent = txt.trim().split("\n").slice(-25).join("\n");
+        }
+      } catch (err) {
+        document.getElementById("last-sync").textContent = "Error al cargar datos: " + err.message;
+      }
+    }
+
+    loadAll();
+    setInterval(loadAll, 30000);
+  </script>
+</body>
+</html>
