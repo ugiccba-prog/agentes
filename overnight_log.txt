@@ -686,3 +686,5 @@
 [2026-11-13 04:10:57] ✅ CERRADA XRP/USDT (LONG) a 1.0095 | PnL: $-114.21 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-13 04:10:57] ✅ CERRADA ETH/USDT (SHORT) a 1936.88 | PnL: $+161.39 USD (Take Profit Alcanzado)
 [2026-11-13 04:10:57] 💓 Cierre de Vela | Equity: $31,632.73 USD (Efectivo: $31,646.73 | Flotante: $-14.00 | Peak: $31,632.73) | Abiertas: 2 | Cerradas: 41
+[2026-11-13 04:16:00] ☁️ [GITHUB CLOUD] Cierre de vela #6 de la sesión #14...
+[2026-11-13 04:16:18] 💓 Cierre de Vela | Equity: $31,641.60 USD (Efectivo: $31,646.73 | Flotante: $-5.13 | Peak: $31,642.22) | Abiertas: 2 | Cerradas: 41
