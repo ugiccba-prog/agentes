@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `18` | **Última actualización:** `2026-11-13 20:29:59 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `18` | **Última actualización:** `2026-11-13 20:33:23 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$31,455.42 USD`** (`+214.55%` / `$+21,455.42 USD`) |
+| **Equity Total en Vivo** | **`$31,480.72 USD`** (`+214.81%` / `$+21,480.72 USD`) |
 | **Pico Máximo (Peak Equity)** | `$31,696.93 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$31,696.93 USD` (PnL Realizado: `$+21,696.93 USD`) |
-| **PnL Flotante Actual** | `$-241.51 USD` |
+| **PnL Flotante Actual** | `$-216.21 USD` |
 | **Win Rate & Profit Factor Real** | `44.4%` (`20W / 25L` de `45`) · **PF `8.03`** |
 | **Meta Paper Trading (100 Trades)** | `45 / 100` cerrados |
 
@@ -26,7 +26,7 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `68847` | `68942` | `69325` (🛡️ Inicial) | `67890` | **$-241.51** (-0.24%) |
+| `BTC/USDT` | **SHORT** | `ema_pullback` | `68847` | `68925` | `69325` (🛡️ Inicial) | `67890` | **$-216.21** (-0.21%) |
 
 ---
 
@@ -55,9 +55,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 20:11:45]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 20:11:47]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 20:11:50]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 20:11:51]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 20:11:51]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 20:11:51]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
@@ -70,4 +67,7 @@
 [2026-11-13 20:12:11] 💓 Cierre de Vela | Equity: $31,271.22 USD (Efectivo: $31,696.93 | Flotante: $-425.71 | Peak: $31,696.93) | Abiertas: 1 | Cerradas: 45
 [2026-11-13 20:15:15] ☁️ [GITHUB CLOUD] Cierre de vela #4 de la sesión #18...
 [2026-11-13 20:15:34] 💓 Cierre de Vela | Equity: $31,242.93 USD (Efectivo: $31,696.93 | Flotante: $-454.00 | Peak: $31,696.93) | Abiertas: 1 | Cerradas: 45
+[2026-11-13 20:31:01] ☁️ [GITHUB CLOUD] Cierre de vela #19 de la sesión #18...
+[2026-11-13 20:31:03]    🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-13 20:31:21] 💓 Cierre de Vela | Equity: $31,459.51 USD (Efectivo: $31,696.93 | Flotante: $-237.42 | Peak: $31,696.93) | Abiertas: 1 | Cerradas: 45
 ```
