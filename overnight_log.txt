@@ -979,3 +979,6 @@
 [2026-11-13 14:12:22] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-13 14:15:23] ☁️ [GITHUB CLOUD] Cierre de vela #120 de la sesión #16...
 [2026-11-13 14:15:41] 💓 Cierre de Vela | Equity: $30,439.87 USD (Efectivo: $30,439.87 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 44
+[2026-11-13 14:30:48] ☁️ [GITHUB CLOUD] Cierre de vela #135 de la sesión #16...
+[2026-11-13 14:30:52] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 82%) | Entrada: 69171.88000000 | SL: 69636.88515416 | TP: 68241.86969169 | Tamaño: $100,523.50 USD (Riesgo controlado: $675.77) | OK riesgo 2.22% (dd 3.9%)
+[2026-11-13 14:31:09] 💓 Cierre de Vela | Equity: $30,186.84 USD (Efectivo: $30,439.87 | Flotante: $-253.03 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 44
