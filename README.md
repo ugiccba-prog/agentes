@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 04:59:24 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-13 05:02:44 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$31,632.23 USD`** (`+216.32%` / `$+21,632.23 USD`) |
+| **Equity Total en Vivo** | **`$31,637.29 USD`** (`+216.37%` / `$+21,637.29 USD`) |
 | **Pico Máximo (Peak Equity)** | `$31,645.42 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$31,646.73 USD` (PnL Realizado: `$+21,646.73 USD`) |
-| **PnL Flotante Actual** | `$-14.50 USD` |
+| **PnL Flotante Actual** | `$-9.44 USD` |
 | **Win Rate & Profit Factor Real** | `46.3%` (`19W / 22L` de `41`) · **PF `12.51`** |
 | **Meta Paper Trading (100 Trades)** | `41 / 100` cerrados |
 
@@ -26,8 +26,8 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1066` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-15.12** (-0.08%) |
-| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.92` | `159.72` (🛡️ Inicial) | `160.21` | **$+0.62** (+0.00%) |
+| `EUR/USD` | **SHORT** | `confluence` | `1.1059` | `1.1063` | `1.1073` (🛡️ Inicial) | `1.1032` | **$-10.67** (-0.05%) |
+| `USD/JPY` | **LONG** | `trend_macd` | `159.88` | `159.92` | `159.72` (🛡️ Inicial) | `160.21` | **$+1.23** (+0.01%) |
 
 ---
 
@@ -56,8 +56,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 04:10:32]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 04:10:32] ✅ FASE WALK-FORWARD COMPLETADA (2 ajustes aplicados).
 [2026-11-13 04:10:34] ☁️ [GITHUB CLOUD] Cierre de vela #1 de la sesión #14...
 [2026-11-13 04:10:57] ✅ CERRADA DOGE/USDT (SHORT) a 0.06368 | PnL: $+21517.24 USD (Take Profit Alcanzado)
 [2026-11-13 04:10:57] ✅ CERRADA SOL/USDT (SHORT) a 78.52 | PnL: $+208.77 USD (Take Profit Alcanzado)
@@ -71,4 +69,6 @@
 [2026-11-13 04:30:46] 💓 Cierre de Vela | Equity: $31,638.77 USD (Efectivo: $31,646.73 | Flotante: $-7.96 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
 [2026-11-13 04:45:56] ☁️ [GITHUB CLOUD] Cierre de vela #35 de la sesión #14...
 [2026-11-13 04:46:15] 💓 Cierre de Vela | Equity: $31,637.54 USD (Efectivo: $31,646.73 | Flotante: $-9.19 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
+[2026-11-13 05:00:25] ☁️ [GITHUB CLOUD] Cierre de vela #49 de la sesión #14...
+[2026-11-13 05:00:43] 💓 Cierre de Vela | Equity: $31,633.84 USD (Efectivo: $31,646.73 | Flotante: $-12.89 | Peak: $31,645.42) | Abiertas: 2 | Cerradas: 41
 ```
