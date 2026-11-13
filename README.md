@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `15` | **Última actualización:** `2026-11-13 08:44:12 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `15` | **Última actualización:** `2026-11-13 08:47:30 UTC`
 
 ---
 
@@ -55,8 +55,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-13 08:11:05]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-13 08:11:05]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 08:11:06]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 08:11:06]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-13 08:11:06]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
@@ -70,4 +68,6 @@
 [2026-11-13 08:15:43] 💓 Cierre de Vela | Equity: $31,613.49 USD (Efectivo: $31,613.49 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 43
 [2026-11-13 08:30:50] ☁️ [GITHUB CLOUD] Cierre de vela #20 de la sesión #15...
 [2026-11-13 08:31:07] 💓 Cierre de Vela | Equity: $31,613.49 USD (Efectivo: $31,613.49 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 43
+[2026-11-13 08:45:13] ☁️ [GITHUB CLOUD] Cierre de vela #34 de la sesión #15...
+[2026-11-13 08:45:30] 💓 Cierre de Vela | Equity: $31,613.49 USD (Efectivo: $31,613.49 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 43
 ```
