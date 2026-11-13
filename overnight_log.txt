@@ -1249,3 +1249,14 @@
 [2026-11-13 02:11:42]    🔎 [USD/JPY] -> ACTIVO | Estrategia: confluence | Optimizado agresivo con confluence (PF=1.17, WinRate=52.0%, Ret=+4.0%)
 [2026-11-13 02:11:42]    🔎 [AUD/USD] -> ACTIVO | Estrategia: ema_pullback | 🔥 MERCADO ÉLITE TIBURÓN (Riesgo Potenciado x1.35) con ema_pullback (PF=3.03, WinRate=73.3%, Ret=+20.8%)
 [2026-11-13 02:11:42] ✅ FASE DE AUTO-CORRECCIÓN COMPLETADA (17 ajustes aplicados).
+[2026-11-13 02:12:44] ☁️ [GITHUB CLOUD] Pulso #85 de la sesión #11...
+[2026-11-13 02:13:10] 💓 Pulso En Vivo | Equity: $9,775.92 USD (Efectivo: $9,777.98 | Flotante: $-2.06) | Abiertas: 13 | Cerradas: 69
+[2026-11-13 02:14:10] ☁️ [GITHUB CLOUD] Pulso #86 de la sesión #11...
+[2026-11-13 02:14:35] 🔒 Trailing Stop bajado en ETH/USDT SHORT a 2008.5821445065
+[2026-11-13 02:14:35] 🔒 Trailing Stop bajado en SOL/USDT SHORT a 81.1416670234
+[2026-11-13 02:14:35] ✅ CERRADA ADA/USDT (LONG) a 0.1726 | PnL: $-74.86 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-13 02:14:35] ✅ CERRADA DOGE/USDT (LONG) a 0.06577 | PnL: $-48.76 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-13 02:14:35] 💓 Pulso En Vivo | Equity: $9,718.90 USD (Efectivo: $9,654.36 | Flotante: $+64.54) | Abiertas: 11 | Cerradas: 71
+[2026-11-13 02:15:35] ☁️ [GITHUB CLOUD] Pulso #87 de la sesión #11...
+[2026-11-13 02:15:44] 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT | Entrada: 0.06581000 | SL: 0.06645136 | TP: 0.06449813 | Tamaño: $4,859.45 USD (Riesgo controlado: $340.16)
+[2026-11-13 02:16:00] 💓 Pulso En Vivo | Equity: $9,703.74 USD (Efectivo: $9,654.36 | Flotante: $+49.38) | Abiertas: 12 | Cerradas: 71
