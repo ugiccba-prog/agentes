@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `17` | **Última actualización:** `2026-11-13 19:10:17 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `17` | **Última actualización:** `2026-11-13 19:13:22 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$31,302.69 USD`** (`+213.03%` / `$+21,302.69 USD`) |
+| **Equity Total en Vivo** | **`$31,346.38 USD`** (`+213.46%` / `$+21,346.38 USD`) |
 | **Pico Máximo (Peak Equity)** | `$31,696.93 USD` (Inicio Día UTC: `$9,784.76 USD`) |
 | **Efectivo Cerrado (Cash)** | `$31,696.93 USD` (PnL Realizado: `$+21,696.93 USD`) |
-| **PnL Flotante Actual** | `$-394.24 USD` |
+| **PnL Flotante Actual** | `$-350.55 USD` |
 | **Win Rate & Profit Factor Real** | `44.4%` (`20W / 25L` de `45`) · **PF `8.03`** |
 | **Meta Paper Trading (100 Trades)** | `45 / 100` cerrados |
 
@@ -26,7 +26,7 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `68847` | `69046` | `69325` (🛡️ Inicial) | `67890` | **$-394.24** (-0.39%) |
+| `BTC/USDT` | **SHORT** | `ema_pullback` | `68847` | `69016` | `69325` (🛡️ Inicial) | `67890` | **$-350.55** (-0.35%) |
 
 ---
 
