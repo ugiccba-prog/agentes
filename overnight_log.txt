@@ -750,3 +750,6 @@
 [2026-11-13 06:37:29] ✅ CERRADA USD/JPY (LONG) a 159.8719940185547 | PnL: $-4.78 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-13 06:45:33] ☁️ [GITHUB CLOUD] Cierre de vela #150 de la sesión #14...
 [2026-11-13 06:45:51] 💓 Cierre de Vela | Equity: $31,633.50 USD (Efectivo: $31,641.95 | Flotante: $-8.45 | Peak: $31,672.73) | Abiertas: 1 | Cerradas: 42
+[2026-11-13 07:00:59] ☁️ [GITHUB CLOUD] Cierre de vela #165 de la sesión #14...
+[2026-11-13 07:01:17] ✅ CERRADA EUR/USD (SHORT) a 1.1072970628738403 | PnL: $-28.46 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-13 07:01:17] 💓 Cierre de Vela | Equity: $31,613.49 USD (Efectivo: $31,613.49 | Flotante: $+0.00 | Peak: $31,672.73) | Abiertas: 0 | Cerradas: 43
