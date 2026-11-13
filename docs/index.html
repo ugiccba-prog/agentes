@@ -362,6 +362,14 @@
       const eligible = Object.entries(cfg.symbols||{}).filter(([,x])=>x.enabled);
       document.getElementById('pulse').textContent = (age<=8?'Actividad reciente':'Actualización demorada')+' · '+Math.max(0,Math.floor(age))+' min desde el último reporte · '+eligible.length+' mercados habilitados';
       document.getElementById('guidance').textContent = eligible.length ? 'Seguimiento en esta sesión: '+eligible.map(([sym])=>sym).join(', ')+'. Consultá la bitácora para ver qué señal espera el agente.' : 'Esperá la próxima validación de mercados antes de ampliar el riesgo.';
+      const tip=document.getElementById('guidance');
+      const winners=p.open_positions.filter(x=>Number(x.unrealized_pnl_usd)>0);
+      if(winners.length){
+        const best=winners.reduce((a,b)=>a.unrealized_pnl_usd>b.unrealized_pnl_usd?a:b);
+        tip.textContent=best.symbol+' lidera con '+fmtUsd(best.unrealized_pnl_usd,true)+' flotantes. Podés realizar ese resultado aproximado al cerrar, o seguir la posición con el stop en '+fmtNum(best.stop_loss)+'.';
+      } else if(p.total_trades<100) {
+        tip.textContent+=' Perfil sugerido: Conservador mientras reunís la muestra de 100 cierres paper. Van '+p.total_trades+'.';
+      }
       if (!profile.dataset.ready && Array.from(profile.options).some(x=>x.value===cfg.preset_name)) {profile.value=cfg.preset_name;profile.dataset.ready='1';}
       explainProfile();
       const exits=document.getElementById('exits'); exits.replaceChildren();
