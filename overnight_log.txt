@@ -255,3 +255,6 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 15:16:02] [6. Resorte] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 85%) | Entrada: 7.68200000 | SL: 7.56987741 | TP: 7.87825498 | Tamaño: $15,998.49 USD (Riesgo controlado: $233.51) | OK riesgo 2.40% (dd 2.7%)
 [2026-11-14 15:16:02] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-14 15:16:02] 📊 Marcador 7 Opciones | 1. WF Base: $10,575.48 (3A/1C) | 2. WF+Impulso: $10,575.48 (3A/1C) | 3. Chimichurri: $10,612.55 (2A/2C) | 4. Francotirador: $10,332.77 (2A/1C) | 5. Berserker: $10,923.60 (3A/1C) | 6. Resorte: $9,775.76 (2A/1C) | 7. Escape: $10,606.49 (3A/3C)
+[2026-11-14 15:20:28] [7. Escape] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 74.4
+[2026-11-14 15:22:39] [3. Chimichurri] ✅ CERRADA SOL/USDT (SHORT) a 73.56 | PnL: $+112.33 USD (Take Profit Alcanzado)
+[2026-11-14 15:22:39] [3. Chimichurri] 🔒 Stop (Breakeven) en DOGE/USDT SHORT ajustado a 0.06155
