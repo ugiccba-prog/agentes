@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 12812.72,
-  "equity_usd": 12834.12,
+  "equity_usd": 12845.97,
   "realized_pnl_usd": 2812.72,
-  "unrealized_pnl_usd": 21.4,
+  "unrealized_pnl_usd": 33.25,
   "peak_equity_usd": 13551.65,
   "day_start_equity_usd": 10000.0,
   "current_day_utc": "2026-11-14",
@@ -11,7 +11,7 @@
   "total_trades": 9,
   "winning_trades": 6,
   "losing_trades": 3,
-  "last_updated": "2026-11-14 22:25:01 UTC",
+  "last_updated": "2026-11-14 22:28:13 UTC",
   "open_positions": [
     {
       "id": "ORD-143128",
@@ -21,14 +21,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-14 20:45:43 UTC",
       "entry_price": 3.86e-06,
-      "current_price": 3.82e-06,
+      "current_price": 3.8e-06,
       "size": 591875122.86742,
       "notional_usd": 2284.64,
       "stop_loss": 3.86e-06,
       "take_profit": 3.6464e-06,
       "initial_risk_dist": 1.175e-07,
-      "unrealized_pnl_usd": 21.4,
-      "unrealized_pnl_pct": 0.94,
+      "unrealized_pnl_usd": 33.25,
+      "unrealized_pnl_pct": 1.46,
       "reason": "Explosión Bajista Shark (ADX=44.1, Vol=1.15x, 3 velas MACD, RSI=29.3)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
