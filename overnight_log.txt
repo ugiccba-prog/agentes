@@ -789,3 +789,22 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 21:15:01] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0578277772
 [2026-11-14 21:15:01] [5. Berserker] ✅ CERRADA BTC/USDT (SHORT) a 64254.79 | PnL: $+819.20 USD (Take Profit Alcanzado)
 [2026-11-14 21:15:01] [5. Berserker] 🔒 Stop (Trailing 1.3 ATR) en DOGE/USDT SHORT ajustado a 0.0577000736
+[2026-11-14 21:16:03] ☁️ [GITHUB CLOUD] Cierre de vela #13 (7 Opciones) de la sesión #3...
+[2026-11-14 21:16:05]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 21:16:07]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 21:16:09]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 21:16:11]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 21:16:13]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 21:16:15]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 21:16:17]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 21:16:18] 💓 Cierre de Vela | Equity: $12,028.03 USD (Efectivo: $11,488.70 | Flotante: $+539.33 | Peak: $12,096.15) | Abiertas: 1 | Cerradas: 7
+[2026-11-14 21:16:19] [3. Chimichurri] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 64368.01000000 | SL: 64939.02194329 | TP: 62938.00155795 | Tamaño: $29,689.40 USD (Riesgo controlado: $300.06) | OK riesgo 2.27% (dd 0.0%)
+[2026-11-14 21:16:20] 📊 Marcador 7 Opciones | 1. WF Base: $12,028.03 (1A/7C) | 2. WF+Impulso: $12,028.03 (1A/7C) | 3. Chimichurri: $13,137.45 (3A/6C) | 4. Francotirador: $11,882.97 (2A/4C) | 5. Berserker: $13,174.36 (2A/7C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
+[2026-11-14 21:18:25] ✅ CERRADA DOGE/USDT (SHORT) a 0.05652 | PnL: $+711.11 USD (Take Profit Alcanzado)
+[2026-11-14 21:18:25] [2. WF+Impulso] ✅ CERRADA DOGE/USDT (SHORT) a 0.05652 | PnL: $+711.11 USD (Take Profit Alcanzado)
+[2026-11-14 21:18:27] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en PEPE/USDT SHORT ajustado a 3.8307e-06
+[2026-11-14 21:18:27] [3. Chimichurri] ✅ CERRADA DOGE/USDT (SHORT) a 0.05652 | PnL: $+146.12 USD (Take Profit Alcanzado)
+[2026-11-14 21:18:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 64759.0868218375
+[2026-11-14 21:18:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0575486503
+[2026-11-14 21:18:27] [5. Berserker] ✅ CERRADA DOGE/USDT (SHORT) a 0.05652 | PnL: $+1213.52 USD (Take Profit Alcanzado)
+[2026-11-14 21:18:27] [5. Berserker] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 3.86e-06
