@@ -392,3 +392,15 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 16:45:38] 📊 Marcador 7 Opciones | 1. WF Base: $10,769.59 (1A/4C) | 2. WF+Impulso: $10,769.59 (1A/4C) | 3. Chimichurri: $11,209.68 (1A/3C) | 4. Francotirador: $10,916.98 (0A/3C) | 5. Berserker: $11,199.34 (1A/4C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $11,972.46 (1A/5C)
 [2026-11-14 16:46:41] [3. Chimichurri] ✅ CERRADA DOGE/USDT (SHORT) a 0.05972 | PnL: $+679.90 USD (Take Profit Alcanzado)
 [2026-11-14 16:46:41] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0605729357
+[2026-11-14 17:00:25] ☁️ [GITHUB CLOUD] Cierre de vela #214 (7 Opciones) de la sesión #1...
+[2026-11-14 17:00:28]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 17:00:30]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 17:00:33]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 17:00:35]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 17:00:38]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 17:00:41]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 17:00:43]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 17:00:45] 💓 Cierre de Vela | Equity: $10,691.96 USD (Efectivo: $10,785.76 | Flotante: $-93.80 | Peak: $10,909.34) | Abiertas: 1 | Cerradas: 4
+[2026-11-14 17:00:45] [6. Resorte] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: pérdida diaria -8.6%
+[2026-11-14 17:00:45] [6. Resorte] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: pérdida diaria -8.6%
+[2026-11-14 17:00:46] 📊 Marcador 7 Opciones | 1. WF Base: $10,691.96 (1A/4C) | 2. WF+Impulso: $10,691.96 (1A/4C) | 3. Chimichurri: $11,301.95 (0A/4C) | 4. Francotirador: $10,916.98 (0A/3C) | 5. Berserker: $11,056.95 (1A/4C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,058.22 (1A/5C)
