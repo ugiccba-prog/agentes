@@ -258,3 +258,7 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 15:20:28] [7. Escape] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 74.4
 [2026-11-14 15:22:39] [3. Chimichurri] ✅ CERRADA SOL/USDT (SHORT) a 73.56 | PnL: $+112.33 USD (Take Profit Alcanzado)
 [2026-11-14 15:22:39] [3. Chimichurri] 🔒 Stop (Breakeven) en DOGE/USDT SHORT ajustado a 0.06155
+[2026-11-14 15:23:46] [7. Escape] 🔒 Stop (Breakeven) en DOGE/USDT SHORT ajustado a 0.06148
+[2026-11-14 15:24:50] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.2e-06
+[2026-11-14 15:24:50] [2. WF+Impulso] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.2e-06
+[2026-11-14 15:24:50] [5. Berserker] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.2e-06
