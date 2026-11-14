@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 10785.76,
-  "equity_usd": 10719.99,
+  "equity_usd": 10717.84,
   "realized_pnl_usd": 785.76,
-  "unrealized_pnl_usd": -65.77,
+  "unrealized_pnl_usd": -67.92,
   "peak_equity_usd": 10937.78,
   "day_start_equity_usd": 10000.0,
   "current_day_utc": "2026-11-14",
@@ -11,7 +11,7 @@
   "total_trades": 4,
   "winning_trades": 3,
   "losing_trades": 1,
-  "last_updated": "2026-11-14 17:55:32 UTC",
+  "last_updated": "2026-11-14 17:58:38 UTC",
   "open_positions": [
     {
       "id": "ORD-736611",
@@ -21,14 +21,14 @@
       "side": "LONG",
       "entry_time": "2026-11-14 16:45:36 UTC",
       "entry_price": 7.496,
-      "current_price": 7.473,
+      "current_price": 7.472,
       "size": 2157.35485,
       "notional_usd": 16171.53,
       "stop_loss": 7.3910098728,
       "take_profit": 7.7667394647,
       "initial_risk_dist": 0.1049901272,
-      "unrealized_pnl_usd": -65.77,
-      "unrealized_pnl_pct": -0.41,
+      "unrealized_pnl_usd": -67.92,
+      "unrealized_pnl_pct": -0.42,
       "reason": "Rebote en Banda Inferior Bollinger (%B=0.03) + Giro RSI (17.6)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
