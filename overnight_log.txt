@@ -828,3 +828,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 21:30:27] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT (Conv 98%) | Entrada: 70.07000000 | SL: 71.43017467 | TP: 67.51803669 | Tamaño: $18,677.71 USD (Riesgo controlado: $362.57) | OK riesgo 3.00% (dd 0.0%)
 [2026-11-14 21:30:27] 📊 Marcador 7 Opciones | 1. WF Base: $12,185.75 (1A/8C) | 2. WF+Impulso: $12,185.75 (1A/8C) | 3. Chimichurri: $13,011.23 (2A/7C) | 4. Francotirador: $11,827.26 (2A/4C) | 5. Berserker: $13,423.23 (2A/8C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,066.83 (1A/6C)
 [2026-11-14 21:39:13] [4. Francotirador] ✅ CERRADA BTC/USDT (SHORT) a 64766.9 | PnL: $+188.55 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 21:42:30] [3. Chimichurri] ✅ CERRADA PEPE/USDT (SHORT) a 3.84e-06 | PnL: $+121.82 USD (Stop Loss / Trailing Stop Ejecutado)
