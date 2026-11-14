@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-14 07:59:22 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-14 08:02:51 UTC`
 
 ---
 
@@ -41,12 +41,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 07:15:42]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-14 07:15:48]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-14 07:15:52] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
-[2026-11-14 07:30:16] ☁️ [GITHUB CLOUD] Cierre de vela #141 de la sesión #4...
-[2026-11-14 07:30:18]    🛡️ [RiskManager] BTC/USDT SHORT bloqueado: R:R 2.00 < 2.0
-[2026-11-14 07:30:21]    SOL/USDT | Esperando señal de ema_pullback
 [2026-11-14 07:30:23]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 07:30:28]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 07:30:32] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
@@ -56,4 +50,10 @@
 [2026-11-14 07:45:22]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 07:45:27]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 07:45:31] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-14 08:00:24] ☁️ [GITHUB CLOUD] Cierre de vela #169 de la sesión #4...
+[2026-11-14 08:00:26]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 08:00:30]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 08:00:32]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 08:00:37]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 08:00:41] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
 ```
