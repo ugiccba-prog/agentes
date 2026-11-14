@@ -22,11 +22,14 @@ import time
 from candle_clock import NewCandleGate
 from exchange_connector import LiveExecutionBroker
 from overnight_supervisor import (
+    OPTION_SPECS,
+    build_option_runners,
     load_adaptive_config,
     log_event,
+    run_all_options_tick,
     run_self_correction_phase,
-    run_trading_tick,
     save_adaptive_config,
+    sync_base_to_live_portfolio,
 )
 from risk_manager import RiskManager
 
@@ -41,8 +44,37 @@ def _compute_real_stats(closed_trades: list[dict]) -> dict[str, float]:
     return {"gross_win": gross_win, "gross_loss": gross_loss, "pf": pf}
 
 
-def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
-    """Genera un panel en vivo directamente en el README.md de GitHub."""
+def _normalize_runners(target) -> list[tuple[dict, LiveExecutionBroker]]:
+    if isinstance(target, list):
+        return [(item[0], item[1]) for item in target]
+    out: list[tuple[dict, LiveExecutionBroker]] = []
+    root = Path(__file__).parent
+    for idx, spec in enumerate(OPTION_SPECS):
+        b = target if idx == 0 else LiveExecutionBroker(
+            initial_balance_usd=10000.0,
+            portfolio_file=root / spec["file"],
+            paper_only=True,
+            risk_config=spec["risk_cfg"],
+        )
+        out.append((spec, b))
+    return out
+
+
+def _format_open_summary(positions: list[dict]) -> str:
+    if not positions:
+        return "⚪ *Sin abiertas*"
+    parts = []
+    for p in positions:
+        icon = "🟢" if p.get("side") == "LONG" else "🔴"
+        pnl = float(p.get("unrealized_pnl_usd", 0.0))
+        parts.append(f"{icon} `{p.get('symbol')}` {p.get('side')} (`${pnl:+.2f}`)")
+    return "<br>".join(parts)
+
+
+def update_live_readme(runners_or_broker, cfg: dict) -> None:
+    """Genera un panel en vivo de las 5 opciones en el README.md de GitHub."""
+    runners = _normalize_runners(runners_or_broker)
+    broker = runners[0][1]
     st = broker.state
     now_utc = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     pnl_total = st.equity_usd - st.initial_balance_usd
@@ -50,6 +82,44 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
     win_rate = (st.winning_trades / st.total_trades * 100.0) if st.total_trades > 0 else 0.0
     stats = _compute_real_stats(st.closed_trades)
     preset = cfg.get("preset_name", "Violenta & Sagaz")
+
+    comp_rows = []
+    for spec, b in runners:
+        bs = b.state
+        b_net = bs.equity_usd - bs.initial_balance_usd
+        b_pct = (b_net / bs.initial_balance_usd * 100.0) if bs.initial_balance_usd else 0.0
+        b_stats = _compute_real_stats(bs.closed_trades)
+        open_txt = _format_open_summary(bs.open_positions)
+        comp_rows.append(
+            f"| **{spec['name']}** | `{spec['rule_summary']}` | `${bs.equity_usd:,.2f}` | "
+            f"**`${b_net:+,.2f}`** (`{b_pct:+.2f}%`) | {open_txt} | "
+            f"`{bs.winning_trades}W / {bs.losing_trades}L` (`{bs.total_trades}`) | `{b_stats['pf']:.2f}` | `{bs.max_drawdown_pct:.2f}%` |"
+        )
+    comp_table = (
+        "| Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída |\n"
+        "|---|---|---|---|---|---|---|---|\n"
+        + "\n".join(comp_rows)
+    )
+
+    enabled_syms = [sym for sym, sc in cfg.get("symbols", {}).items() if sc.get("enabled")]
+    matrix_header = "| Mercado Activo | " + " | ".join(spec["short_name"] for spec, _ in runners) + " |"
+    matrix_sep = "|---|" + "|".join(["---"] * len(runners)) + "|"
+    matrix_rows = []
+    for sym in enabled_syms:
+        cells = []
+        for _, b in runners:
+            pos = next((p for p in b.state.open_positions if p.get("symbol") == sym), None)
+            if pos is None:
+                cells.append("⚪ Esperando")
+            else:
+                icon = "🟢" if pos.get("side") == "LONG" else "🔴"
+                pnl_p = float(pos.get("unrealized_pnl_usd", 0.0))
+                cells.append(f"{icon} **{pos.get('side')}** (`${pnl_p:+.2f}`)")
+        matrix_rows.append(f"| `{sym}` | " + " | ".join(cells) + " |")
+    matrix_table = (
+        matrix_header + "\n" + matrix_sep + "\n"
+        + ("\n".join(matrix_rows) if matrix_rows else "| *Sin mercados activos* | " + " | ".join(["-"] * len(runners)) + " |")
+    )
 
     open_rows = []
     for p in st.open_positions:
@@ -85,19 +155,19 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
     )
 
     active_syms = [
-        f"`{sym}` (`{sc.get('strategy')}`, PF OOS `{sc.get('backtest_profit_factor', 0):.2f}`)"
+        f"`{sym}` (`{sc.get('strategy')}`)"
         for sym, sc in cfg.get("symbols", {}).items()
         if sc.get("enabled")
     ]
-    active_line = ", ".join(active_syms) if active_syms else "*Ningún mercado aprobó el filtro Walk-Forward OOS esta semana*"
+    active_line = ", ".join(active_syms) if active_syms else "*Ningún mercado activo esta semana*"
 
     recent_logs = []
     if LOG_FILE.exists():
         lines = LOG_FILE.read_text(encoding="utf-8", errors="ignore").splitlines()
-        recent_logs = lines[-15:]
+        recent_logs = lines[-20:]
     log_block = "\n".join(recent_logs) if recent_logs else "Iniciando bitácora..."
 
-    md = f"""# 🦈 Agente de Trading Cuantitativo Multi-Mercado (EN VIVO 24/7)
+    md = f"""# 🦈 Agente de Trading Cuantitativo Multi-Mercado — 5 Opciones en Vivo 24/7
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
@@ -105,7 +175,19 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
 
 ---
 
-## 💰 Resumen de Cuenta en Tiempo Real
+## 🏆 Comparativa en Vivo: 5 Opciones Corriendo sobre los Mismos Mercados ($10,000 USD c/u)
+
+{comp_table}
+
+---
+
+## 🎯 Qué Hay Abierto y Qué No por Mercado en las 5 Opciones
+
+{matrix_table}
+
+---
+
+## 💰 Detalle Opción 1 (`1. WF Estricta (Base)` / `live_portfolio.json`)
 
 | Métrica | Valor Actual |
 |---|---|
@@ -117,17 +199,17 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
 | **Win Rate & Profit Factor Real** | `{win_rate:.1f}%` (`{st.winning_trades}W / {st.losing_trades}L` de `{st.total_trades}`) · **PF `{stats['pf']:.2f}`** |
 | **Meta Paper Trading (100 Trades)** | `{st.total_trades} / 100` cerrados |
 
-**Mercados aprobados por Walk-Forward OOS esta semana:** {active_line}
+**Canasta Compartida Activa (7 mercados):** {active_line}
 
 ---
 
-## 📌 Posiciones Abiertas Ahora Mismo ({len(st.open_positions)})
+## 📌 Posiciones Abiertas en Opción 1 Base ({len(st.open_positions)})
 
 {open_table}
 
 ---
 
-## 🏁 Últimas 15 Operaciones Realizadas y su Resultado
+## 🏁 Últimas 15 Operaciones Realizadas en Opción 1 Base
 
 {closed_table}
 
@@ -143,18 +225,18 @@ def update_live_readme(broker: LiveExecutionBroker, cfg: dict) -> None:
 
 
 def sync_to_github() -> bool:
-    """Guarda y sube el estado actual al repositorio para que se vea en vivo desde el celular."""
+    """Guarda y sube el estado actual de las 5 opciones al repositorio para verlo en vivo."""
     try:
         subprocess.run(["git", "config", "user.name", "Agente Trading Cloud 24/7"], check=False)
         subprocess.run(["git", "config", "user.email", "ugiccba@gmail.com"], check=False)
+        option_files = [spec["file"] for spec in OPTION_SPECS]
         subprocess.run(
             [
                 "git",
                 "add",
                 "live_portfolio.json",
+                *option_files,
                 *(["impulse_study.json"] if REPORT.exists() else []),
-                "paper_base.json",
-                "paper_momentum.json",
                 "adaptive_config.json",
                 "wf_params.json",
                 "overnight_log.txt",
@@ -166,7 +248,7 @@ def sync_to_github() -> bool:
         diff = subprocess.run(["git", "diff", "--staged", "--quiet"], check=False)
         if diff.returncode != 0:
             subprocess.run(
-                ["git", "commit", "-m", "🤖 Auto-Update Cloud: Cartera y Dashboard en Vivo [skip ci]"],
+                ["git", "commit", "-m", "🤖 Auto-Update Cloud: 5 Opciones y Dashboard en Vivo [skip ci]"],
                 check=False,
             )
             subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
@@ -184,24 +266,21 @@ def main() -> None:
     parser.add_argument("--sync-every", type=int, default=3, help="Hacer git push cada N pulsos")
     args = parser.parse_args()
 
-    broker = LiveExecutionBroker(initial_balance_usd=10000.0)
-    comparisons = [LiveExecutionBroker(portfolio_file=Path(__file__).with_name(filename), paper_only=True)
-                   for filename in ("paper_base.json", "paper_momentum.json")]
-    quote = lru_cache(maxsize=None)(broker.get_live_price)
-    for account in comparisons:
-        account.get_live_price = quote
-    rm = RiskManager()
+    runners, quote = build_option_runners()
+    base_broker = runners[0][1]
+    mom_broker = next(b for spec, b, _ in runners if spec["key"] == "momentum")
     gate = NewCandleGate("15m")
     cfg = load_adaptive_config()
 
     session_num = int(cfg.get("session_count", 0)) + 1
     cfg["session_count"] = session_num
     save_adaptive_config(cfg)
-    log_event(f"☁️ [GITHUB CLOUD] Iniciando bloque continuo #{session_num} ({args.minutes} min)...")
+    log_event(f"☁️ [GITHUB CLOUD] Iniciando bloque continuo 5 Opciones #{session_num} ({args.minutes} min)...")
 
-    # Calibración Walk-Forward al arrancar el bloque (respeta caché de 7 días en wf_params.json)
-    cfg = run_self_correction_phase(broker, cfg, interval="15m")
-    update_live_readme(broker, cfg)
+    # Calibración Walk-Forward al arrancar el bloque (mantiene canasta compartida y caché de 7 días)
+    cfg = run_self_correction_phase(base_broker, cfg, interval="15m")
+    sync_base_to_live_portfolio(base_broker)
+    update_live_readme(runners, cfg)
     sync_to_github()
 
     end_time = time.time() + (args.minutes * 60)
@@ -214,34 +293,34 @@ def main() -> None:
         ticks += 1
         done = []
         try:
-            done = apply_requests(broker, cfg, save_adaptive_config, run_self_correction_phase, log_event)
+            done = apply_requests(base_broker, cfg, save_adaptive_config, run_self_correction_phase, log_event)
+            if done:
+                sync_base_to_live_portfolio(base_broker)
         except requests.RequestException as exc:
             log_event(f"Panel temporalmente inaccesible: {type(exc).__name__}")
-        quote.cache_clear()
+        if hasattr(quote, "cache_clear"):
+            quote.cache_clear()
         if first_tick or gate.is_new_closed_candle():
-            log_event(f"☁️ [GITHUB CLOUD] Cierre de vela #{ticks} de la sesión #{session_num}...")
+            log_event(f"☁️ [GITHUB CLOUD] Cierre de vela #{ticks} (5 Opciones) de la sesión #{session_num}...")
             history = lru_cache(maxsize=None)(get_historical_data)
             macro = lru_cache(maxsize=None)(_get_macro_bias_1h)
-            atr_map = run_trading_tick(broker, cfg, rm=rm, history=history, macro=macro)
-            for index, account in enumerate(comparisons):
-                run_trading_tick(account, cfg, rm=rm, history=history, macro=macro,
-                                 extra_entry=bool(index), report=lambda message: None)
+            atr_map = run_all_options_tick(runners, cfg, history=history, macro=macro, report=log_event)
             try:
-                update_study(comparisons[1].state, history)
+                update_study(mom_broker.state, history)
             except Exception as exc:
                 log_event(f"Referencia de impulso pendiente: {exc}")
             first_tick = False
         else:
-            events = broker.update_open_positions(atr_by_symbol=atr_map)
-            for account in comparisons:
-                account.update_open_positions(atr_by_symbol=atr_map)
-            for ev in events:
-                log_event(ev)
+            for spec, account, _ in runners:
+                events = account.update_open_positions(atr_by_symbol=atr_map)
+                for ev in events:
+                    log_event(ev if spec["key"] == "base" else f"[{spec['short_name']}] {ev}")
+            sync_base_to_live_portfolio(base_broker)
 
-        update_live_readme(broker, cfg)
+        update_live_readme(runners, cfg)
 
         if time.time() - last_recal >= 3600:
-            cfg = run_self_correction_phase(broker, cfg, interval="15m")
+            cfg = run_self_correction_phase(base_broker, cfg, interval="15m")
             last_recal = time.time()
 
         if done or ticks % args.sync_every == 0:
@@ -256,7 +335,7 @@ def main() -> None:
         else:
             break
 
-    update_live_readme(broker, cfg)
+    update_live_readme(runners, cfg)
     sync_to_github()
     log_event(f"✅ [GITHUB CLOUD] Bloque #{session_num} completado.")
 

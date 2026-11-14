@@ -178,13 +178,14 @@ class RiskManager:
                 return False, 0.0, f"bloque correlacionado {ccy} {direction} al tope ({used_pct:.1f}% de {c.max_cluster_risk_pct}%)"
             risk = min(risk, room)
 
-        # apalancamiento total
-        notional_new = equity * risk / 100 / (sl_pct / 100)
+        # apalancamiento total y tope por posición individual (máx 45% de la palanca total)
+        per_pos_cap = equity * c.max_leverage * 0.45
         notional_open = sum(p["notional_usd"] for p in open_positions)
-        if (notional_open + notional_new) / equity > c.max_leverage:
-            room_notional = c.max_leverage * equity - notional_open
-            if room_notional <= 0:
-                return False, 0.0, f"apalancamiento al tope ({c.max_leverage}x)"
+        room_notional = min(max(0.0, c.max_leverage * equity - notional_open), per_pos_cap)
+        if room_notional <= 0:
+            return False, 0.0, f"apalancamiento al tope ({c.max_leverage}x)"
+        notional_new = equity * risk / 100 / (sl_pct / 100)
+        if notional_new > room_notional:
             risk = min(risk, room_notional * (sl_pct / 100) / equity * 100)
             if risk < c.min_risk_pct:
                 return False, 0.0, "poco margen de apalancamiento restante"

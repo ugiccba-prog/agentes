@@ -125,6 +125,25 @@
     .b-win { background: var(--green-bg); color: var(--green); }
     .b-loss { background: var(--red-bg); color: var(--red); }
     .b-info { background: var(--blue-bg); color: #93c5fd; }
+    .b-wait { background: rgba(148, 163, 184, 0.12); color: var(--muted); }
+    .opt-tabs { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; }
+    .opt-tab {
+      background: var(--card-alt);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 7px 11px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .opt-tab.active {
+      background: var(--blue-bg);
+      border-color: var(--blue);
+      color: #93c5fd;
+    }
+    .matrix-sub { font-size: 0.72rem; color: var(--muted); display: block; margin-top: 2px; }
+    .open-list { display: flex; flex-direction: column; gap: 3px; white-space: normal; min-width: 170px; }
     .chips { display: flex; flex-wrap: wrap; gap: 6px; }
     .chip {
       background: var(--card-alt);
@@ -172,26 +191,93 @@
       </div>
     </div>
 
-    <section class="card" aria-label="Mesa de operaciones" style="margin:16px 0;padding:20px">
-      <h2>Mesa de operaciones · Paper USD</h2>
-      <p id="pulse" role="status"></p><p id="guidance"></p>
-      <label for="profile">Perfil de estrategia</label>
-      <select id="profile"><option>🦈 Violenta &amp; Sagaz (Recomendado)</option><option>🔥 Berserker / Full Tiburón</option><option>🛡️ Conservador Institucional</option></select>
-      <button class="btn" onclick="requestPaper('Perfil / '+document.getElementById('profile').value)">Solicitar cambio</button>
-      <p id="profile-help"></p><div id="exits"></div><p id="receipt"></p>
-      <small>Confirmá la solicitud con tu cuenta en GitHub. El agente la revisa en el siguiente ciclo. Los cierres se liquidan al precio disponible y suman el resultado al efectivo simulado.</small>
-    </section>
-    <section class="card" style="margin:16px 0;padding:20px;overflow-x:auto">
-      <h2>Comparación de estrategias</h2>
-      <p>Dos carteras simuladas independientes de USD 10.000. La variante busca impulsos cuando la estrategia base espera.</p>
-      <table><thead><tr><th>Estrategia</th><th>Entradas</th><th>Cerradas</th><th>Resultado neto con abiertas</th><th>Peor caída</th></tr></thead><tbody id="comparison"></tbody></table>
-      <h3>Qué aportó el impulso</h3><p id="extra-net"></p><p id="random-net"></p><small>Referencia de timing: entradas al azar en el mismo par y sentido, con igual nominal y comisiones. Usa velas previas de la misma sesión de estudio, hasta 24 h anteriores, y replica la duración redondeada a 15 minutos. No reproduce los stops ni el deslizamiento intravela.</small><p id="comparison-note"></p>
-    </section>
-    <div class="grid" id="kpi-grid"></div>
+    <div class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-title">🏆 5 Opciones Corriendo en Paralelo (Mismos Mercados · $10,000 USD c/u)</div>
+          <div class="meta" id="comparison-note">Sincronizando las 5 carteras...</div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Opción</th>
+              <th>Reglas / Perfil</th>
+              <th>Equity Actual</th>
+              <th>Resultado Neto</th>
+              <th>Qué Hay Abierto Ahora</th>
+              <th>Cerradas (W/L)</th>
+              <th>PF Real</th>
+              <th>Peor Caída</th>
+            </tr>
+          </thead>
+          <tbody id="comparison"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:12px; padding-top:10px; border-top:1px solid var(--border);">
+        <div class="kpi-label" style="margin-bottom:4px;">🔬 Estudio A/B del Impulso (Opción 2 vs Base)</div>
+        <div id="extra-net" style="font-size:0.84rem;"></div>
+        <div id="random-net" class="meta" style="margin-top:3px;"></div>
+      </div>
+    </div>
 
     <div class="section">
       <div class="section-head">
-        <div class="section-title">📈 Evolución del Capital Cerrado</div>
+        <div>
+          <div class="section-title">🎯 Matriz en Vivo: Qué Hay Abierto y Qué No por Mercado</div>
+          <div class="meta">Comparación directa sobre exactamente la misma canasta de mercados activos</div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Mercado Activo</th>
+              <th>1. WF Base</th>
+              <th>2. WF + Impulso</th>
+              <th>3. Chimichurri</th>
+              <th>4. Francotirador</th>
+              <th>5. Berserker</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-title">🔎 Inspeccionar Cartera Individual</div>
+          <div class="meta">Elegí cualquiera de las 5 opciones para ver sus KPIs, posiciones abiertas y cierres</div>
+        </div>
+      </div>
+      <div class="opt-tabs" id="option-selector"></div>
+    </div>
+
+    <div class="grid" id="kpi-grid"></div>
+
+    <section class="card" aria-label="Mesa de operaciones" style="margin:14px 0;padding:16px">
+      <div class="section-head">
+        <div class="section-title">🕹️ Mesa de Operaciones (Opción 1 Base / Paper USD)</div>
+      </div>
+      <p id="pulse" role="status" style="margin:4px 0;font-size:0.86rem;"></p>
+      <p id="guidance" style="margin:4px 0 10px;font-size:0.85rem;color:var(--muted);"></p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px;">
+        <label for="profile" style="font-size:0.82rem;color:var(--muted);">Perfil Base:</label>
+        <select id="profile" style="background:var(--card-alt);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:6px 9px;"><option>🦈 Violenta &amp; Sagaz (Recomendado)</option><option>🔥 Berserker / Full Tiburón</option><option>🛡️ Conservador Institucional</option></select>
+        <button class="btn" onclick="requestPaper('Perfil / '+document.getElementById('profile').value)">Solicitar cambio</button>
+      </div>
+      <p id="profile-help" class="meta"></p>
+      <div id="exits" style="display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;"></div>
+      <p id="receipt" class="meta"></p>
+      <small style="color:var(--muted);">Confirmá la solicitud con tu cuenta en GitHub. El agente la revisa en el siguiente ciclo.</small>
+    </section>
+
+    <div class="section">
+      <div class="section-head">
+        <div class="section-title">📈 Evolución del Capital Cerrado — <span id="selected-opt-label-chart"></span></div>
         <div class="meta" id="chart-summary"></div>
       </div>
       <svg id="equity-svg" class="spark" viewBox="0 0 600 110" preserveAspectRatio="none"></svg>
@@ -199,7 +285,7 @@
 
     <div class="section">
       <div class="section-head">
-        <div class="section-title">📌 Posiciones Abiertas (<span id="open-count">0</span>)</div>
+        <div class="section-title">📌 Posiciones Abiertas (<span id="open-count">0</span>) — <span id="selected-opt-label-open"></span></div>
         <div class="meta" id="open-exp"></div>
       </div>
       <div class="table-wrap">
@@ -223,7 +309,7 @@
 
     <div class="section">
       <div class="section-head">
-        <div class="section-title">🏁 Operaciones Realizadas y Resultado (<span id="closed-count">0</span>)</div>
+        <div class="section-title">🏁 Operaciones Realizadas (<span id="closed-count">0</span>) — <span id="selected-opt-label-closed"></span></div>
         <div class="filters">
           <button class="filter-btn active" onclick="setFilter('all', this)">Todas</button>
           <button class="filter-btn" onclick="setFilter('win', this)">✅ Ganadoras</button>
@@ -251,7 +337,7 @@
 
     <div class="section">
       <div class="section-head">
-        <div class="section-title">🎯 Mercados Activos (Aprobados Walk-Forward OOS)</div>
+        <div class="section-title">🎯 Canasta Compartida de Mercados Activos</div>
       </div>
       <div class="chips" id="markets-chips"></div>
     </div>
@@ -266,8 +352,17 @@
 
   <script>
     const RAW_BASE = "https://raw.githubusercontent.com/ugiccba-prog/agentes/main/";
+    const OPTIONS = [
+      { key: "base", name: "1. WF Estricta (Base)", shortName: "1. WF Base", file: "paper_base.json", rule: "WF/Canasta · Riesgo 1.5-3% · 5x · RR≥2" },
+      { key: "momentum", name: "2. WF + Impulso Shark", shortName: "2. WF+Impulso", file: "paper_momentum.json", rule: "Base + Impulso Shark · Riesgo 1.5-3% · 5x" },
+      { key: "chimichurri", name: "3. Chimichurri Alpha", shortName: "3. Chimichurri", file: "paper_chimichurri.json", rule: "Donchian+ADX≥22 · Trail 1.8 ATR · 5x" },
+      { key: "sniper", name: "4. Francotirador", shortName: "4. Francotirador", file: "paper_sniper.json", rule: "Conf≥90 · TP 2.5R · Macro 1H · 1-2% · 3x" },
+      { key: "berserker", name: "5. Berserker / Tiburón", shortName: "5. Berserker", file: "paper_berserker.json", rule: "Shark · Riesgo 2.5-4.5% · 8x · Conf≥65" },
+    ];
+    let selectedOptionKey = "base";
     let currentFilter = "all";
-    let lastPortfolio = null;
+    let portfoliosByKey = {};
+    let lastCfg = {};
 
     function fmtNum(v) {
       const n = Number(v || 0);
@@ -282,11 +377,39 @@
       return `${s}$${Math.abs(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     }
 
+    function calcStats(p) {
+      const closed = p.closed_trades || [];
+      const wins = closed.filter(t => Number(t.pnl_usd || 0) > 0);
+      const losses = closed.filter(t => Number(t.pnl_usd || 0) <= 0);
+      const gWin = wins.reduce((a, t) => a + Number(t.pnl_usd || 0), 0);
+      const gLoss = Math.abs(losses.reduce((a, t) => a + Number(t.pnl_usd || 0), 0));
+      const pf = gLoss > 0 ? gWin / gLoss : (gWin > 0 ? 99 : 0);
+      const wr = closed.length ? (wins.length / closed.length) * 100 : 0;
+      return { closed, wins, losses, pf, wr };
+    }
+
+    function selectOption(key) {
+      selectedOptionKey = key;
+      renderOptionTabs();
+      renderSelectedDetail();
+    }
+
+    function renderOptionTabs() {
+      const container = document.getElementById("option-selector");
+      container.innerHTML = OPTIONS.map(opt => {
+        const p = portfoliosByKey[opt.key];
+        const eq = p ? fmtUsd(p.equity_usd) : "$10,000.00";
+        const openN = p ? (p.open_positions || []).length : 0;
+        return `<button class="opt-tab ${selectedOptionKey === opt.key ? "active" : ""}" onclick="selectOption('${opt.key}')">${opt.shortName} · ${eq} (${openN}A)</button>`;
+      }).join("");
+    }
+
     function setFilter(f, btn) {
       currentFilter = f;
       document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
-      if (lastPortfolio) renderClosed(lastPortfolio.closed_trades || []);
+      const p = portfoliosByKey[selectedOptionKey];
+      if (p) renderClosed(p.closed_trades || []);
     }
 
     function renderClosed(closed) {
@@ -363,155 +486,221 @@
       document.getElementById('profile-help').textContent = ['Riesgo base por entrada 1,5 % · exposición de riesgo total hasta 10 %.','Riesgo base 2,5 % · riesgo total hasta 14 %.','Riesgo base 1 % · riesgo total hasta 8 %.'][profile.selectedIndex];
     }
     profile.onchange = explainProfile;
-    function renderDesk(p,cfg) {
-      const age = (Date.now()-Date.parse(p.last_updated.replace(' ','T').replace(' UTC','Z')))/60000;
+
+    function renderDesk(p, cfg) {
+      const age = (Date.now()-Date.parse((p.last_updated || "").replace(' ','T').replace(' UTC','Z')))/60000;
       const eligible = Object.entries(cfg.symbols||{}).filter(([,x])=>x.enabled);
-      document.getElementById('pulse').textContent = (age<=8?'Actividad reciente':'Actualización demorada')+' · '+Math.max(0,Math.floor(age))+' min desde el último reporte · '+eligible.length+' mercados habilitados';
-      document.getElementById('guidance').textContent = eligible.length ? 'Seguimiento en esta sesión: '+eligible.map(([sym])=>sym).join(', ')+'. Consultá la bitácora para ver qué señal espera el agente.' : 'Esperá la próxima validación de mercados antes de ampliar el riesgo.';
-      const tip=document.getElementById('guidance');
-      const winners=p.open_positions.filter(x=>Number(x.unrealized_pnl_usd)>0);
+      document.getElementById('pulse').textContent = (age<=8?'Actividad reciente':'Actualización demorada')+' · '+Math.max(0,Math.floor(age || 0))+' min desde el último reporte · '+eligible.length+' mercados habilitados';
+      const tip = document.getElementById('guidance');
+      tip.textContent = eligible.length ? 'Canasta compartida (5 opciones): '+eligible.map(([sym])=>sym).join(', ')+'.' : 'Sin mercados activos.';
+      const winners = (p.open_positions || []).filter(x=>Number(x.unrealized_pnl_usd)>0);
       if(winners.length){
         const best=winners.reduce((a,b)=>a.unrealized_pnl_usd>b.unrealized_pnl_usd?a:b);
-        tip.textContent=best.symbol+' lidera con '+fmtUsd(best.unrealized_pnl_usd,true)+' flotantes. Podés realizar ese resultado aproximado al cerrar, o seguir la posición con el stop en '+fmtNum(best.stop_loss)+'.';
-      } else if(p.total_trades<100) {
-        tip.textContent+=' Perfil sugerido: Conservador mientras reunís la muestra de 100 cierres paper. Van '+p.total_trades+'.';
+        tip.textContent += ' ' + best.symbol+' lidera en Opción Base con '+fmtUsd(best.unrealized_pnl_usd,true)+' flotantes.';
       }
       if (!profile.dataset.ready && Array.from(profile.options).some(x=>x.value===cfg.preset_name)) {profile.value=cfg.preset_name;profile.dataset.ready='1';}
       explainProfile();
       const exits=document.getElementById('exits'); exits.replaceChildren();
-      for(const pos of p.open_positions.filter(x=>(x.broker_mode||'').startsWith('Paper Trading'))) {
+      for(const pos of (p.open_positions || []).filter(x=>(x.broker_mode||'').startsWith('Paper Trading'))) {
         const btn=document.createElement('button');btn.className='btn';btn.textContent='Cerrar '+pos.symbol+' · '+fmtUsd(pos.unrealized_pnl_usd,true);
         btn.onclick=()=>requestPaper(['Cerrar',pos.id,pos.entry_time,pos.symbol].join(' / '));exits.append(btn);
       }
-      if(!p.open_positions.length) exits.textContent='Sin posiciones para cerrar.';
+      if(!(p.open_positions || []).length) exits.textContent='Sin posiciones abiertas en Opción Base para cerrar manualmente.';
       document.getElementById('receipt').textContent=cfg.panel_result?'Última solicitud #'+cfg.panel_result.id+' · '+cfg.panel_result.message:'';
     }
-    async function loadComparison() {
-      const note = document.getElementById('comparison-note');
-      try {
-        const accounts = await Promise.all(['paper_base.json','paper_momentum.json'].map(async file => (await fetchAsset(file)).json()));
-        const body = document.getElementById('comparison');
-        body.replaceChildren();
-        const counts = accounts.map(p => p.closed_trades.length + p.open_positions.length);
-        accounts.forEach((p,i) => {
-          const row = body.insertRow();
-          for (const value of [[ 'Base', 'Base + impulso'][i], counts[i], p.closed_trades.length, fmtUsd(p.equity_usd-p.initial_balance_usd,true), Number(p.max_drawdown_pct).toFixed(2)+' %']) row.insertCell().textContent=value;
-        });
-        const extra=t=>['momentum_shark','momentum_extra'].includes(t.strategy);
-        const closed=accounts[1].closed_trades.filter(extra), opened=accounts[1].open_positions.filter(extra);
-        const sum=(rows,key)=>rows.reduce((n,t)=>n+Number(t[key]||0),0);
-        const dd=accounts[1].max_drawdown_pct-accounts[0].max_drawdown_pct;
-        document.getElementById('extra-net').textContent=(closed.length+opened.length)+' entradas adicionales · '+closed.length+' cerradas · Neto realizado '+fmtUsd(sum(closed,'pnl_usd'),true)+' · Flotante '+fmtUsd(sum(opened,'unrealized_pnl_usd'),true)+' · Diferencia de peor caída entre carteras '+dd.toFixed(2)+' puntos porcentuales.';
-        const ref=document.getElementById('random-net');
-        try {
-          const study=await (await fetchAsset('impulse_study.json')).json();
-          const matches=closed.map(t=>study.controls[[t.symbol,t.entry_time,t.id].join('|')]).filter(Boolean);
-          if(matches.length){
-            const sims=Array.from({length:200},(_,i)=>matches.reduce((n,t)=>n+t.random_net[i],0)).sort((a,b)=>a-b);
-            ref.textContent='Cierres comparables: '+matches.length+' de '+closed.length+'. Impulso '+fmtUsd(sum(matches,'trade_net'),true)+' · Mediana al azar '+fmtUsd((sims[99]+sims[100])/2,true)+' · Rango central del 90 %: '+fmtUsd(sims[10],true)+' a '+fmtUsd(sims[189],true)+'.';
-          }else ref.textContent='Esperando cierres con al menos cinco ventanas comparables.';
-        }catch{ref.textContent='Referencia al azar pendiente de publicación.';}
-        note.textContent='Diferencia de entradas de la variante: '+(counts[1]-counts[0])+'. Último reporte: '+accounts[1].last_updated;
-      } catch { note.textContent='Comparación pendiente de actualización.'; }
+
+    function renderSelectedDetail() {
+      const opt = OPTIONS.find(o => o.key === selectedOptionKey) || OPTIONS[0];
+      const p = portfoliosByKey[opt.key];
+      if (!p) return;
+
+      document.getElementById("selected-opt-label-chart").textContent = opt.name;
+      document.getElementById("selected-opt-label-open").textContent = opt.name;
+      document.getElementById("selected-opt-label-closed").textContent = opt.name;
+
+      const eq = Number(p.equity_usd || 0);
+      const init = Number(p.initial_balance_usd || 10000);
+      const totalDiff = eq - init;
+      const totalPct = init ? (totalDiff / init) * 100 : 0;
+      const realized = Number(p.realized_pnl_usd || 0);
+      const unreal = Number(p.unrealized_pnl_usd || 0);
+      const st = calcStats(p);
+      const openPos = p.open_positions || [];
+      const totalNotional = openPos.reduce((a, x) => a + Number(x.notional_usd || 0), 0);
+      const lev = eq > 0 ? totalNotional / eq : 0;
+      const progress = Math.min(100, (st.closed.length / 100) * 100);
+
+      document.getElementById("kpi-grid").innerHTML = `
+        <div class="card">
+          <div class="kpi-label">Equity en Vivo (${opt.shortName})</div>
+          <div class="kpi-val ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(eq)}</div>
+          <div class="kpi-sub ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(totalDiff, true)} (${totalPct >= 0 ? "+" : ""}${totalPct.toFixed(2)}%)</div>
+        </div>
+        <div class="card">
+          <div class="kpi-label">PnL Realizado</div>
+          <div class="kpi-val ${realized >= 0 ? "pos" : "neg"}">${fmtUsd(realized, true)}</div>
+          <div class="kpi-sub">Cash: ${fmtUsd(p.cash_balance_usd)}</div>
+        </div>
+        <div class="card">
+          <div class="kpi-label">PnL Flotante</div>
+          <div class="kpi-val ${unreal >= 0 ? "pos" : "neg"}">${fmtUsd(unreal, true)}</div>
+          <div class="kpi-sub">Apalancamiento: ${lev.toFixed(2)}x · Abiertas: ${openPos.length}</div>
+        </div>
+        <div class="card">
+          <div class="kpi-label">Profit Factor / Win Rate</div>
+          <div class="kpi-val">PF ${st.pf.toFixed(2)}</div>
+          <div class="kpi-sub">${st.wr.toFixed(1)}% (${st.wins.length}W / ${st.losses.length}L)</div>
+        </div>
+        <div class="card">
+          <div class="kpi-label">Meta Validación (100 Trades)</div>
+          <div class="kpi-val">${st.closed.length} / 100</div>
+          <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
+        </div>
+      `;
+
+      document.getElementById("open-count").textContent = openPos.length;
+      document.getElementById("open-exp").textContent = `Exposición abierta: ${fmtUsd(totalNotional)} (${lev.toFixed(2)}x)`;
+      const openBody = document.getElementById("open-body");
+      if (!openPos.length) {
+        openBody.innerHTML = `<tr><td colspan="8" style="color:var(--muted)">Sin posiciones abiertas en ${opt.name}.</td></tr>`;
+      } else {
+        openBody.innerHTML = openPos.map(x => {
+          const pnl = Number(x.unrealized_pnl_usd || 0);
+          const pct = Number(x.unrealized_pnl_pct || 0);
+          const entry = Number(x.entry_price || 0);
+          const sl = Number(x.stop_loss || 0);
+          const prot = x.side === "LONG" ? sl >= entry : sl <= entry;
+          return `
+            <tr>
+              <td><strong>${x.symbol}</strong></td>
+              <td><span class="badge ${x.side === "LONG" ? "b-win" : "b-loss"}">${x.side}</span></td>
+              <td>${x.strategy}</td>
+              <td>${fmtNum(entry)}</td>
+              <td>${fmtNum(x.current_price)}</td>
+              <td>${fmtNum(sl)} <span class="badge ${prot ? "b-win" : "b-info"}">${prot ? "🔒 BE/Trail" : "🛡️ Inicial"}</span></td>
+              <td>${fmtNum(x.take_profit)}</td>
+              <td class="${pnl >= 0 ? "pos" : "neg"}"><strong>${fmtUsd(pnl, true)}</strong> (${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%)</td>
+            </tr>`;
+        }).join("");
+      }
+
+      renderClosed(st.closed);
+      renderChart(init, st.closed);
     }
+
+    function renderComparisonAndMatrix(cfg, study) {
+      const body = document.getElementById("comparison");
+      body.innerHTML = OPTIONS.map(opt => {
+        const p = portfoliosByKey[opt.key];
+        if (!p) return "";
+        const net = Number(p.equity_usd || 10000) - Number(p.initial_balance_usd || 10000);
+        const netPct = Number(p.initial_balance_usd || 10000) ? (net / Number(p.initial_balance_usd || 10000)) * 100 : 0;
+        const st = calcStats(p);
+        const openPos = p.open_positions || [];
+        const openHtml = openPos.length
+          ? `<div class="open-list">${openPos.map(x => {
+              const pnl = Number(x.unrealized_pnl_usd || 0);
+              return `<span><span class="badge ${x.side === "LONG" ? "b-win" : "b-loss"}">${x.side}</span> <strong>${x.symbol}</strong> <span class="${pnl >= 0 ? "pos" : "neg"}">(${fmtUsd(pnl, true)})</span></span>`;
+            }).join("")}</div>`
+          : `<span class="badge b-wait">⚪ Sin abiertas</span>`;
+        return `
+          <tr>
+            <td><strong>${opt.name}</strong></td>
+            <td style="white-space:normal;min-width:170px;font-size:0.78rem;color:var(--muted);">${opt.rule}</td>
+            <td><strong>${fmtUsd(p.equity_usd)}</strong></td>
+            <td class="${net >= 0 ? "pos" : "neg"}"><strong>${fmtUsd(net, true)}</strong> (${netPct >= 0 ? "+" : ""}${netPct.toFixed(2)}%)</td>
+            <td>${openHtml}</td>
+            <td>${st.wins.length}W / ${st.losses.length}L (${st.closed.length})</td>
+            <td>PF ${st.pf.toFixed(2)}</td>
+            <td>${Number(p.max_drawdown_pct || 0).toFixed(2)}%</td>
+          </tr>`;
+      }).join("");
+
+      const enabledSyms = Object.entries(cfg.symbols || {}).filter(([, v]) => v.enabled).map(([k]) => k);
+      const extraOpenSyms = new Set();
+      for (const opt of OPTIONS) {
+        for (const pos of (portfoliosByKey[opt.key]?.open_positions || [])) {
+          if (!enabledSyms.includes(pos.symbol)) extraOpenSyms.add(pos.symbol);
+        }
+      }
+      const allMatrixSyms = [...enabledSyms, ...extraOpenSyms];
+      const mBody = document.getElementById("matrix-body");
+      if (!allMatrixSyms.length) {
+        mBody.innerHTML = `<tr><td colspan="6" style="color:var(--muted)">Sin mercados activos configurados.</td></tr>`;
+      } else {
+        mBody.innerHTML = allMatrixSyms.map(sym => {
+          const cells = OPTIONS.map(opt => {
+            const pos = (portfoliosByKey[opt.key]?.open_positions || []).find(x => x.symbol === sym);
+            if (!pos) return `<td><span class="badge b-wait">⚪ Sin posición</span></td>`;
+            const pnl = Number(pos.unrealized_pnl_usd || 0);
+            const cls = pos.side === "LONG" ? "b-win" : "b-loss";
+            const icon = pos.side === "LONG" ? "🟢" : "🔴";
+            return `<td><span class="badge ${cls}">${icon} ${pos.side}</span><span class="matrix-sub">${fmtNum(pos.entry_price)} · <strong class="${pnl >= 0 ? "pos" : "neg"}">${fmtUsd(pnl, true)}</strong></span></td>`;
+          }).join("");
+          return `<tr><td><strong>${sym}</strong></td>${cells}</tr>`;
+        }).join("");
+      }
+
+      const baseP = portfoliosByKey["base"];
+      const momP = portfoliosByKey["momentum"];
+      if (baseP && momP) {
+        const extra = t => ["momentum_shark", "momentum_extra"].includes(t.strategy);
+        const closed = (momP.closed_trades || []).filter(extra);
+        const opened = (momP.open_positions || []).filter(extra);
+        const sum = (rows, key) => rows.reduce((n, t) => n + Number(t[key] || 0), 0);
+        const dd = Number(momP.max_drawdown_pct || 0) - Number(baseP.max_drawdown_pct || 0);
+        document.getElementById("extra-net").textContent =
+          `${closed.length + opened.length} entradas adicionales · ${closed.length} cerradas · Neto realizado ${fmtUsd(sum(closed, "pnl_usd"), true)} · Flotante ${fmtUsd(sum(opened, "unrealized_pnl_usd"), true)} · Diferencia max DD ${dd.toFixed(2)} pp.`;
+        const ref = document.getElementById("random-net");
+        const matches = closed.map(t => study?.controls?.[`${t.symbol}|${t.entry_time}|${t.id}`]).filter(Boolean);
+        if (matches.length) {
+          const sims = Array.from({ length: 200 }, (_, i) => matches.reduce((n, t) => n + t.random_net[i], 0)).sort((a, b) => a - b);
+          ref.textContent = `Cierres comparables: ${matches.length} de ${closed.length}. Impulso ${fmtUsd(sum(matches, "trade_net"), true)} · Mediana azar ${fmtUsd((sims[99] + sims[100]) / 2, true)}.`;
+        } else {
+          ref.textContent = "Referencia Monte Carlo esperando cierres adicionales con impulso.";
+        }
+        document.getElementById("comparison-note").textContent = `Última actualización: ${baseP.last_updated || "-"}`;
+      }
+    }
+
     async function loadAll() {
       try {
-        const [pRes, cRes, lRes] = await Promise.all([
-          fetchAsset("live_portfolio.json"),
+        const optFetches = OPTIONS.map(opt =>
+          fetchAsset(opt.file).then(r => r.json()).catch(() => null)
+        );
+        const [optResults, cRes, sRes, lRes] = await Promise.all([
+          Promise.all(optFetches),
           fetchAsset("adaptive_config.json"),
+          fetchAsset("impulse_study.json").catch(() => null),
           fetchAsset("overnight_log.txt").catch(() => null),
         ]);
-        const p = await pRes.json();
+
         const cfg = await cRes.json();
-        lastPortfolio = p;
-        renderDesk(p,cfg);
-        loadComparison();
+        lastCfg = cfg;
+        const study = sRes && sRes.ok ? await sRes.json().catch(() => ({ controls: {} })) : { controls: {} };
 
-        const eq = Number(p.equity_usd || 0);
-        const init = Number(p.initial_balance_usd || 10000);
-        const totalDiff = eq - init;
-        const totalPct = init ? (totalDiff / init) * 100 : 0;
-        const realized = Number(p.realized_pnl_usd || 0);
-        const unreal = Number(p.unrealized_pnl_usd || 0);
-        const closed = p.closed_trades || [];
-        const wins = closed.filter(t => Number(t.pnl_usd || 0) > 0);
-        const losses = closed.filter(t => Number(t.pnl_usd || 0) <= 0);
-        const gWin = wins.reduce((a, t) => a + Number(t.pnl_usd || 0), 0);
-        const gLoss = Math.abs(losses.reduce((a, t) => a + Number(t.pnl_usd || 0), 0));
-        const pf = gLoss > 0 ? gWin / gLoss : (gWin > 0 ? 99 : 0);
-        const wr = closed.length ? (wins.length / closed.length) * 100 : 0;
-        const openPos = p.open_positions || [];
-        const totalNotional = openPos.reduce((a, x) => a + Number(x.notional_usd || 0), 0);
-        const lev = eq > 0 ? totalNotional / eq : 0;
-        const progress = Math.min(100, (closed.length / 100) * 100);
+        OPTIONS.forEach((opt, i) => {
+          if (optResults[i]) portfoliosByKey[opt.key] = optResults[i];
+        });
 
-        document.getElementById("preset-badge").textContent = `${cfg.preset_name || "Violenta & Sagaz"} · Sesión #${cfg.session_count || 1}`;
-        document.getElementById("last-sync").textContent = `Último dato cartera: ${p.last_updated || "-"} | Refresco automático cada 30s`;
-
-        document.getElementById("kpi-grid").innerHTML = `
-          <div class="card">
-            <div class="kpi-label">Equity en Vivo</div>
-            <div class="kpi-val ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(eq)}</div>
-            <div class="kpi-sub ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(totalDiff, true)} (${totalPct >= 0 ? "+" : ""}${totalPct.toFixed(2)}%)</div>
-          </div>
-          <div class="card">
-            <div class="kpi-label">PnL Realizado</div>
-            <div class="kpi-val ${realized >= 0 ? "pos" : "neg"}">${fmtUsd(realized, true)}</div>
-            <div class="kpi-sub">Cash: ${fmtUsd(p.cash_balance_usd)}</div>
-          </div>
-          <div class="card">
-            <div class="kpi-label">PnL Flotante</div>
-            <div class="kpi-val ${unreal >= 0 ? "pos" : "neg"}">${fmtUsd(unreal, true)}</div>
-            <div class="kpi-sub">Apalancamiento: ${lev.toFixed(2)}x</div>
-          </div>
-          <div class="card">
-            <div class="kpi-label">Profit Factor / Win Rate</div>
-            <div class="kpi-val">PF ${pf.toFixed(2)}</div>
-            <div class="kpi-sub">${wr.toFixed(1)}% (${wins.length}W / ${losses.length}L)</div>
-          </div>
-          <div class="card">
-            <div class="kpi-label">Meta Validación (100 Trades)</div>
-            <div class="kpi-val">${closed.length} / 100</div>
-            <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
-          </div>
-        `;
-
-        document.getElementById("open-count").textContent = openPos.length;
-        document.getElementById("open-exp").textContent = `Exposición abierta: ${fmtUsd(totalNotional)} (${lev.toFixed(2)}x)`;
-        const openBody = document.getElementById("open-body");
-        if (!openPos.length) {
-          openBody.innerHTML = `<tr><td colspan="8" style="color:var(--muted)">Sin posiciones abiertas en este momento.</td></tr>`;
-        } else {
-          openBody.innerHTML = openPos.map(x => {
-            const pnl = Number(x.unrealized_pnl_usd || 0);
-            const pct = Number(x.unrealized_pnl_pct || 0);
-            const entry = Number(x.entry_price || 0);
-            const sl = Number(x.stop_loss || 0);
-            const prot = x.side === "LONG" ? sl >= entry : sl <= entry;
-            return `
-              <tr>
-                <td><strong>${x.symbol}</strong></td>
-                <td><span class="badge ${x.side === "LONG" ? "b-win" : "b-loss"}">${x.side}</span></td>
-                <td>${x.strategy}</td>
-                <td>${fmtNum(entry)}</td>
-                <td>${fmtNum(x.current_price)}</td>
-                <td>${fmtNum(sl)} <span class="badge ${prot ? "b-win" : "b-info"}">${prot ? "🔒 BE/Trail" : "🛡️ Inicial"}</span></td>
-                <td>${fmtNum(x.take_profit)}</td>
-                <td class="${pnl >= 0 ? "pos" : "neg"}"><strong>${fmtUsd(pnl, true)}</strong> (${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%)</td>
-              </tr>`;
-          }).join("");
+        const baseP = portfoliosByKey["base"];
+        if (baseP) {
+          renderDesk(baseP, cfg);
+          document.getElementById("last-sync").textContent = `Último dato 5 opciones: ${baseP.last_updated || "-"} | Refresco automático cada 30s`;
         }
+        document.getElementById("preset-badge").textContent = `5 Opciones en Vivo · Sesión #${cfg.session_count || 1}`;
 
-        renderClosed(closed);
-        renderChart(init, closed);
+        renderComparisonAndMatrix(cfg, study);
+        renderOptionTabs();
+        renderSelectedDetail();
 
         const syms = cfg.symbols || {};
         const activeChips = Object.entries(syms)
           .filter(([, v]) => v.enabled)
-          .map(([k, v]) => `<div class="chip">🟢 <strong>${k}</strong> · ${v.strategy} (PF OOS ${Number(v.backtest_profit_factor || 0).toFixed(2)})</div>`);
+          .map(([k, v]) => `<div class="chip">🟢 <strong>${k}</strong> · ${v.strategy}${v.backtest_profit_factor ? ` (PF ${Number(v.backtest_profit_factor).toFixed(2)})` : ""}</div>`);
         document.getElementById("markets-chips").innerHTML = activeChips.length
           ? activeChips.join("")
-          : `<div class="chip">⏸️ Ningún par pasó Walk-Forward OOS esta semana (protegiendo capital)</div>`;
+          : `<div class="chip">⏸️ Sin mercados activos configurados</div>`;
 
         if (lRes && lRes.ok) {
           const txt = await lRes.text();

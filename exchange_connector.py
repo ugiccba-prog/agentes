@@ -194,8 +194,16 @@ class LiveExecutionBroker:
       en `.env`, replica también las órdenes hacia el exchange/broker externo automáticamente.
     """
 
-    def __init__(self, initial_balance_usd: float = 10000.0, *, portfolio_file=PORTFOLIO_FILE, paper_only=False) -> None:
+    def __init__(
+        self,
+        initial_balance_usd: float = 10000.0,
+        *,
+        portfolio_file=PORTFOLIO_FILE,
+        paper_only=False,
+        risk_config: RiskConfig | None = None,
+    ) -> None:
         self.portfolio_file = portfolio_file
+        self.risk_config = risk_config
         load_env_file()
         self.binance_key = os.environ.get("BINANCE_TESTNET_API_KEY", "").strip()
         self.binance_secret = os.environ.get("BINANCE_TESTNET_API_SECRET", "").strip()
@@ -344,7 +352,7 @@ class LiveExecutionBroker:
                     closed_reason = "Take Profit Alcanzado"
 
             if not closed_reason and init_risk > 0:
-                trail_mult = RiskConfig.from_adaptive_config().trail_atr_mult
+                trail_mult = (self.risk_config or RiskConfig.from_adaptive_config()).trail_atr_mult
                 managed_sl = RiskManager.manage_stop(
                     side=pos["side"],
                     entry=entry,
@@ -451,9 +459,10 @@ class LiveExecutionBroker:
         risk_usd = self.state.equity_usd * (risk_pct / 100.0)
         size = risk_usd / stop_dist
 
-        max_lev = RiskConfig.from_adaptive_config().max_leverage
+        max_lev = (self.risk_config or RiskConfig.from_adaptive_config()).max_leverage
+        per_pos_cap = self.state.equity_usd * max_lev * 0.45
         notional_open = sum(float(p.get("notional_usd", 0.0)) for p in self.state.open_positions)
-        room_notional = max(0.0, self.state.equity_usd * max_lev - notional_open)
+        room_notional = min(max(0.0, self.state.equity_usd * max_lev - notional_open), per_pos_cap)
         if room_notional <= 0:
             return False, f"Apalancamiento total al tope ({max_lev}x)."
         if size * entry_price > room_notional:

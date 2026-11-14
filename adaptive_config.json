@@ -1,17 +1,17 @@
 {
-  "session_count": 6,
+  "session_count": 1,
   "corrections_applied": 25,
   "global_risk_pct": 3.5,
   "symbols": {
     "BTC/USDT": {
-      "enabled": false,
+      "enabled": true,
       "strategy": "ema_pullback",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "Canasta Compartida 5 Opciones (ema_pullback)"
     },
     "ETH/USDT": {
       "enabled": false,
@@ -24,24 +24,24 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "SOL/USDT": {
-      "enabled": false,
+      "enabled": true,
       "strategy": "ema_pullback",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "Canasta Compartida 5 Opciones (ema_pullback)"
     },
     "BNB/USDT": {
-      "enabled": false,
+      "enabled": true,
       "strategy": "ema_pullback",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "Canasta Compartida 5 Opciones (ema_pullback)"
     },
     "XRP/USDT": {
       "enabled": false,
@@ -80,14 +80,14 @@
       "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24"
     },
     "AVAX/USDT": {
-      "enabled": false,
+      "enabled": true,
       "strategy": "bollinger_reversion",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "Canasta Compartida 5 Opciones (bollinger_reversion)"
     },
     "LINK/USDT": {
       "enabled": false,
@@ -193,7 +193,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-14 12:34:46 UTC",
+  "last_updated": "2026-11-14 12:52:58 UTC",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
   "risk_config": {
     "base_risk_pct": 1.5,

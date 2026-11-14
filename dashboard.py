@@ -25,9 +25,14 @@ from indicators import compute_indicators
 from live_trader import execute_live_cycle
 from market_data import DEFAULT_SYMBOLS, get_historical_data
 from overnight_supervisor import (
+    OPTION_SPECS,
+    build_option_runners,
     load_adaptive_config,
+    reset_all_portfolios,
+    run_all_options_tick,
     run_self_correction_phase,
     save_adaptive_config,
+    sync_base_to_live_portfolio,
 )
 from risk_manager import RiskConfig
 from strategies import STRATEGY_CATALOG, evaluate_latest_candle, generate_signals
@@ -151,28 +156,110 @@ tab_live, tab_params, tab_mobile, tab_backtest = st.tabs(
 # PESTAÑA 1: OPERATIVA EN VIVO & RESULTADOS
 # ==============================================================================
 with tab_live:
-    broker = LiveExecutionBroker(initial_balance_usd=10000.0)
+    runners, _ = build_option_runners(ROOT_DIR)
+    latest_acfg = load_adaptive_config()
 
-    b1, b2, b3 = st.columns(3)
+    b1, b2, b3, b4 = st.columns(4)
     with b1:
-        if st.button("🚀 Ejecutar Ciclo de Escaneo Ahora (Velas Cerradas)", use_container_width=True):
-            with st.spinner("Evaluando velas cerradas, Walk-Forward OOS y RiskManager..."):
-                execute_live_cycle(broker, symbols=list(DEFAULT_SYMBOLS.keys()), interval="15m")
-            st.success("Ciclo ejecutado y live_portfolio.json actualizado.")
+        if st.button("🚀 Ejecutar Ciclo 5 Opciones Ahora", use_container_width=True):
+            with st.spinner("Evaluando las 5 opciones sobre los mismos mercados..."):
+                run_all_options_tick(runners, latest_acfg, interval="15m")
+            st.success("Ciclo sincronizado de las 5 opciones ejecutado.")
             st.rerun()
     with b2:
-        if st.button("🔄 Actualizar Precios, Stops y PnL en Vivo", use_container_width=True):
-            events = broker.update_open_positions()
-            for ev in events:
-                st.toast(ev)
-            st.success("Precios, stops y equity actualizados al segundo.")
+        if st.button("🔄 Actualizar Precios y Stops (5 Opciones)", use_container_width=True):
+            for spec, b_opt, _ in runners:
+                events = b_opt.update_open_positions()
+                for ev in events:
+                    st.toast(f"[{spec['short_name']}] {ev}")
+            sync_base_to_live_portfolio(runners[0][1])
+            st.success("Precios, stops y PnL actualizados en las 5 opciones.")
             st.rerun()
     with b3:
-        if st.button("☁️ Sincronizar Estado al Link Público Móvil (GitHub)", use_container_width=True):
-            with st.spinner("Actualizando README, Web App móvil y subiendo a GitHub..."):
-                update_live_readme(broker, load_adaptive_config())
+        if st.button("☁️ Sincronizar 5 Opciones al Link Móvil", use_container_width=True):
+            with st.spinner("Actualizando README, matrices y subiendo a GitHub..."):
+                update_live_readme(runners, latest_acfg)
                 sync_to_github()
-            st.success("Estado sincronizado con GitHub Pages y el repositorio.")
+            st.success("Estado de las 5 opciones sincronizado con GitHub Pages.")
+    with b4:
+        if st.button("🧹 Reiniciar 5 Carteras a $10,000 USD", use_container_width=True):
+            reset_all_portfolios(10000.0, ROOT_DIR)
+            st.success("Las 5 carteras fueron reiniciadas a $10,000.00 USD desde cero.")
+            st.rerun()
+
+    st.subheader("🏆 Comparativa en Vivo: 5 Opciones sobre los Mismos Mercados ($10,000 USD c/u)")
+    comp5_rows = []
+    for spec, b_opt, _ in runners:
+        bs = b_opt.state
+        ct = bs.closed_trades or []
+        op = bs.open_positions or []
+        gw = sum(float(t.get("pnl_usd", 0.0)) for t in ct if float(t.get("pnl_usd", 0.0)) > 0)
+        gl = abs(sum(float(t.get("pnl_usd", 0.0)) for t in ct if float(t.get("pnl_usd", 0.0)) <= 0))
+        pf_o = (gw / gl) if gl > 0 else (99.0 if gw > 0 else 0.0)
+        net_o = bs.equity_usd - bs.initial_balance_usd
+        open_desc = (
+            " | ".join(
+                f"{'🟢' if p.get('side') == 'LONG' else '🔴'} {p.get('symbol')} {p.get('side')} (${float(p.get('unrealized_pnl_usd', 0.0)):+.2f})"
+                for p in op
+            )
+            if op
+            else "⚪ Sin abiertas"
+        )
+        comp5_rows.append(
+            {
+                "Opción": spec["name"],
+                "Reglas": spec["rule_summary"],
+                "Equity ($ USD)": float(bs.equity_usd),
+                "Resultado Neto ($)": round(net_o, 2),
+                "Qué Hay Abierto Ahora": open_desc,
+                "Cerradas (W/L)": f"{bs.winning_trades}W / {bs.losing_trades}L ({len(ct)})",
+                "PF Real": round(pf_o, 2),
+                "Peor Caída (%)": round(float(bs.max_drawdown_pct), 2),
+            }
+        )
+    st.dataframe(
+        pd.DataFrame(comp5_rows),
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "Equity ($ USD)": st.column_config.NumberColumn(format="$%,.2f"),
+            "Resultado Neto ($)": st.column_config.NumberColumn(format="$%+,.2f"),
+            "PF Real": st.column_config.NumberColumn(format="%.2f"),
+            "Peor Caída (%)": st.column_config.NumberColumn(format="%.2f%%"),
+        },
+    )
+
+    st.subheader("🎯 Matriz en Vivo: Qué Hay Abierto y Qué No por Mercado")
+    enabled_syms = [s for s, sc in latest_acfg.get("symbols", {}).items() if sc.get("enabled")]
+    extra_open_syms = [
+        p.get("symbol")
+        for _, b_opt, _ in runners
+        for p in b_opt.state.open_positions
+        if p.get("symbol") not in enabled_syms
+    ]
+    matrix_syms = list(dict.fromkeys([*enabled_syms, *extra_open_syms]))
+    matrix_rows = []
+    for sym in matrix_syms:
+        row_dict = {"Mercado": sym}
+        for spec, b_opt, _ in runners:
+            pos = next((p for p in b_opt.state.open_positions if p.get("symbol") == sym), None)
+            if pos is None:
+                row_dict[spec["short_name"]] = "⚪ Sin posición"
+            else:
+                icon = "🟢" if pos.get("side") == "LONG" else "🔴"
+                row_dict[spec["short_name"]] = f"{icon} {pos.get('side')} (${float(pos.get('unrealized_pnl_usd', 0.0)):+.2f})"
+        matrix_rows.append(row_dict)
+    if matrix_rows:
+        st.dataframe(pd.DataFrame(matrix_rows), use_container_width=True, hide_index=True)
+
+    st.markdown("---")
+    selected_opt_name = st.selectbox(
+        "🔎 Inspeccionar Cartera en Detalle:",
+        [spec["name"] for spec, _, _ in runners],
+        index=0,
+    )
+    sel_spec, broker, _ = next(r for r in runners if r[0]["name"] == selected_opt_name)
+    st.caption(f"Mostrando **{sel_spec['name']}** (`{sel_spec['file']}`) · {sel_spec['rule_summary']}")
 
     st_state = broker.state
     closed = st_state.closed_trades or []
@@ -252,6 +339,8 @@ with tab_live:
             if st.button("✂️ Cerrar Posición Seleccionada", use_container_width=True):
                 target_sym = selected_pos_label.split(" ")[0]
                 msg_close = broker.close_position_by_symbol(target_sym, reason="Cierre Manual desde Panel")
+                if sel_spec["key"] == "base":
+                    sync_base_to_live_portfolio(broker)
                 if msg_close.startswith("✅"):
                     st.success(msg_close)
                     st.rerun()
