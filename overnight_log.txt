@@ -281,3 +281,20 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 15:32:51] [4. Francotirador] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.14e-06
 [2026-11-14 15:32:51] [5. Berserker] ✅ CERRADA PEPE/USDT (SHORT) a 4.04e-06 | PnL: $+368.67 USD (Take Profit Alcanzado)
 [2026-11-14 15:32:53] [7. Escape] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.15e-06
+[2026-11-14 15:46:04] ☁️ [GITHUB CLOUD] Cierre de vela #147 (7 Opciones) de la sesión #1...
+[2026-11-14 15:46:07]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:46:10]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:46:12]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:46:15]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:46:17]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:46:20]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:46:23]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 15:46:25] 💓 Cierre de Vela | Equity: $10,806.50 USD (Efectivo: $10,593.70 | Flotante: $+212.80 | Peak: $10,909.34) | Abiertas: 2 | Cerradas: 2
+[2026-11-14 15:46:25] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:46:26] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-14 15:46:27] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:46:27] [6. Resorte] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:46:28] [6. Resorte] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 80%) | Entrada: 599.49000000 | SL: 592.66255284 | TP: 611.13469009 | Tamaño: $9,734.61 USD (Riesgo controlado: $110.87) | OK riesgo 1.15% (dd 3.4%)
+[2026-11-14 15:46:28] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: bloque correlacionado CRYPTO largo al tope (6.0% de 6.0%)
+[2026-11-14 15:46:28] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:46:30] 📊 Marcador 7 Opciones | 1. WF Base: $10,806.50 (2A/2C) | 2. WF+Impulso: $10,806.50 (2A/2C) | 3. Chimichurri: $10,732.96 (1A/3C) | 4. Francotirador: $10,477.45 (2A/1C) | 5. Berserker: $11,305.65 (2A/2C) | 6. Resorte: $9,710.44 (3A/1C) | 7. Escape: $10,938.06 (3A/3C)
