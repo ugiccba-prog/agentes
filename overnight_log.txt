@@ -342,3 +342,9 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 16:11:00] [5. Berserker] ✅ CERRADA AVAX/USDT (LONG) a 7.565 | PnL: $-504.71 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-14 16:11:01] [6. Resorte] ✅ CERRADA AVAX/USDT (LONG) a 7.565 | PnL: $-259.54 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-14 16:11:01] [6. Resorte] ✅ CERRADA BNB/USDT (LONG) a 592.47 | PnL: $-123.67 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 16:12:07] [4. Francotirador] ✅ CERRADA DOGE/USDT (SHORT) a 0.06023 | PnL: $+302.44 USD (Take Profit Alcanzado)
+[2026-11-14 16:12:07] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT SHORT ajustado a 4.0238e-06
+[2026-11-14 16:12:08] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 72.77 | PnL: $+199.38 USD (Take Profit Alcanzado)
+[2026-11-14 16:12:08] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.95e-06 | PnL: $+586.84 USD (Take Profit Alcanzado)
+[2026-11-14 16:13:10] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en DOGE/USDT SHORT ajustado a 0.0609842315
+[2026-11-14 16:13:12] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT SHORT ajustado a 3.9838e-06
