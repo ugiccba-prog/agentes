@@ -1,18 +1,38 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 10000.0,
-  "equity_usd": 10000.0,
+  "equity_usd": 9974.55,
   "realized_pnl_usd": 0.0,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -25.45,
   "peak_equity_usd": 10000.0,
   "day_start_equity_usd": 10000.0,
   "current_day_utc": "2026-11-14",
-  "max_drawdown_pct": 0.0,
+  "max_drawdown_pct": 0.25450000000000195,
   "total_trades": 0,
   "winning_trades": 0,
   "losing_trades": 0,
-  "last_updated": "2026-11-14 01:12:22 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-14 01:15:48 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-948097",
+      "symbol": "SOL/USDT",
+      "market": "CRYPTO",
+      "strategy": "momentum_shark",
+      "side": "SHORT",
+      "entry_time": "2026-11-14 01:15:48 UTC",
+      "entry_price": 77.39,
+      "current_price": 77.39,
+      "size": 328.82616,
+      "notional_usd": 25447.86,
+      "stop_loss": 78.3023361791,
+      "take_profit": 75.5653276418,
+      "initial_risk_dist": 0.9123361791,
+      "unrealized_pnl_usd": -25.45,
+      "unrealized_pnl_pct": -0.1,
+      "reason": "Explosión Bajista Shark (3 velas de aceleración MACD + RSI=31.5)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [],
   "excluded_trades": []
 }
