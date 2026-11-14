@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `5` | **Última actualización:** `2026-11-14 11:44:21 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `5` | **Última actualización:** `2026-11-14 11:48:08 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$9,922.51 USD`** (`-0.77%` / `$-77.49 USD`) |
+| **Equity Total en Vivo** | **`$9,954.25 USD`** (`-0.46%` / `$-45.75 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,005.43 USD` (Inicio Día UTC: `$10,000.00 USD`) |
 | **Efectivo Cerrado (Cash)** | `$10,000.00 USD` (PnL Realizado: `$+0.00 USD`) |
-| **PnL Flotante Actual** | `$-77.49 USD` |
+| **PnL Flotante Actual** | `$-45.75 USD` |
 | **Win Rate & Profit Factor Real** | `0.0%` (`0W / 0L` de `0`) · **PF `0.00`** |
 | **Meta Paper Trading (100 Trades)** | `0 / 100` cerrados |
 
@@ -26,8 +26,8 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `67232` | `67272` | `67655` (🛡️ Inicial) | `66441` | **$-63.74** (-0.16%) |
-| `BNB/USDT` | **SHORT** | `ema_pullback` | `617.13` | `617.52` | `621.69` (🛡️ Inicial) | `609.76` | **$-13.75** (-0.16%) |
+| `BTC/USDT` | **SHORT** | `ema_pullback` | `67232` | `67234` | `67655` (🛡️ Inicial) | `66441` | **$-41.29** (-0.10%) |
+| `BNB/USDT` | **SHORT** | `ema_pullback` | `617.13` | `616.84` | `621.69` (🛡️ Inicial) | `609.76` | **$-4.46** (-0.05%) |
 
 ---
 
@@ -42,12 +42,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 11:03:18]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 11:03:18]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 11:03:18] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-14 11:15:25] ☁️ [GITHUB CLOUD] Cierre de vela #119 de la sesión #5...
-[2026-11-14 11:15:28]    🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
-[2026-11-14 11:15:33]    SOL/USDT | Esperando señal de ema_pullback
 [2026-11-14 11:15:36]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 11:15:44]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 11:15:51] 💓 Cierre de Vela | Equity: $9,952.75 USD (Efectivo: $10,000.00 | Flotante: $-47.25 | Peak: $10,000.00) | Abiertas: 1 | Cerradas: 0
@@ -57,4 +51,10 @@
 [2026-11-14 11:30:26] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 94%) | Entrada: 617.13000000 | SL: 621.68601289 | TP: 609.75797421 | Tamaño: $8,424.25 USD (Riesgo controlado: $62.19) | OK riesgo 0.63% (dd 0.5%)
 [2026-11-14 11:30:34]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 11:30:42] 💓 Cierre de Vela | Equity: $9,967.00 USD (Efectivo: $10,000.00 | Flotante: $-33.00 | Peak: $10,000.00) | Abiertas: 2 | Cerradas: 0
+[2026-11-14 11:45:22] ☁️ [GITHUB CLOUD] Cierre de vela #145 de la sesión #5...
+[2026-11-14 11:45:26]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 11:45:30]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 11:45:33]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 11:45:40]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 11:45:49] 💓 Cierre de Vela | Equity: $9,945.14 USD (Efectivo: $10,000.00 | Flotante: $-54.86 | Peak: $10,005.43) | Abiertas: 2 | Cerradas: 0
 ```

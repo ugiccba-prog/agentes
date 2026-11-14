@@ -602,3 +602,9 @@ Inicio de la nueva cartera paper.
 [2026-11-14 11:30:26] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 94%) | Entrada: 617.13000000 | SL: 621.68601289 | TP: 609.75797421 | Tamaño: $8,424.25 USD (Riesgo controlado: $62.19) | OK riesgo 0.63% (dd 0.5%)
 [2026-11-14 11:30:34]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 11:30:42] 💓 Cierre de Vela | Equity: $9,967.00 USD (Efectivo: $10,000.00 | Flotante: $-33.00 | Peak: $10,000.00) | Abiertas: 2 | Cerradas: 0
+[2026-11-14 11:45:22] ☁️ [GITHUB CLOUD] Cierre de vela #145 de la sesión #5...
+[2026-11-14 11:45:26]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 11:45:30]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 11:45:33]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 11:45:40]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 11:45:49] 💓 Cierre de Vela | Equity: $9,945.14 USD (Efectivo: $10,000.00 | Flotante: $-54.86 | Peak: $10,005.43) | Abiertas: 2 | Cerradas: 0
