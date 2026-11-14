@@ -332,3 +332,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 16:06:33]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 16:06:33]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 16:06:33] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-14 16:09:56] [6. Resorte] ✅ CERRADA SOL/USDT (LONG) a 73.24 | PnL: $-268.70 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 16:10:59] ✅ CERRADA DOGE/USDT (SHORT) a 0.06048 | PnL: $+476.60 USD (Take Profit Alcanzado)
+[2026-11-14 16:10:59] ✅ CERRADA AVAX/USDT (LONG) a 7.565 | PnL: $-284.54 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 16:10:59] [2. WF+Impulso] ✅ CERRADA DOGE/USDT (SHORT) a 0.06048 | PnL: $+476.60 USD (Take Profit Alcanzado)
+[2026-11-14 16:10:59] [2. WF+Impulso] ✅ CERRADA AVAX/USDT (LONG) a 7.565 | PnL: $-284.54 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 16:11:00] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0612168596
+[2026-11-14 16:11:00] [5. Berserker] ✅ CERRADA DOGE/USDT (SHORT) a 0.06048 | PnL: $+769.64 USD (Take Profit Alcanzado)
+[2026-11-14 16:11:00] [5. Berserker] ✅ CERRADA AVAX/USDT (LONG) a 7.565 | PnL: $-504.71 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 16:11:01] [6. Resorte] ✅ CERRADA AVAX/USDT (LONG) a 7.565 | PnL: $-259.54 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 16:11:01] [6. Resorte] ✅ CERRADA BNB/USDT (LONG) a 592.47 | PnL: $-123.67 USD (Stop Loss / Trailing Stop Ejecutado)
