@@ -667,3 +667,9 @@ Inicio de la nueva cartera paper.
 [2026-11-14 12:23:22]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 12:23:27]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 12:23:33] 💓 Cierre de Vela | Equity: $10,057.36 USD (Efectivo: $10,000.00 | Flotante: $+57.36 | Peak: $10,057.38) | Abiertas: 2 | Cerradas: 0
+[2026-11-14 12:30:06] ☁️ [GITHUB CLOUD] Cierre de vela #7 de la sesión #6...
+[2026-11-14 12:30:08]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 12:30:11]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 12:30:13]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 12:30:18]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 12:30:24] 💓 Cierre de Vela | Equity: $10,004.02 USD (Efectivo: $10,000.00 | Flotante: $+4.02 | Peak: $10,057.38) | Abiertas: 2 | Cerradas: 0
