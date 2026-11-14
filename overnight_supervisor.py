@@ -229,9 +229,9 @@ def run_trading_tick(
 
             if (extra_entry and decision.action.startswith("HOLD")
                     and not any(p["symbol"] == sym for p in broker.state.open_positions)):
-                strat_name = "momentum_shark"
+                strat_name = "momentum_extra"
                 decision = evaluate_latest_candle(
-                    generate_signals(df_ind, strategy_name=strat_name),
+                    generate_signals(df_ind, strategy_name="momentum_shark"),
                     sl_atr_mult=float(sym_cfg.get("sl_atr_mult", 1.6)),
                     tp_atr_mult=float(sym_cfg.get("tp_atr_mult", 3.2)),
                     lookback_bars=1, macro_bias=macro_bias,
@@ -270,7 +270,7 @@ def run_trading_tick(
                 ok, msg = broker.open_order(
                     symbol=sym,
                     side=side,
-                    strategy=strat_name,
+                    strategy=('momentum_base' if strat_name == 'momentum_shark' else strat_name),
                     entry_price=decision.entry_price,
                     stop_loss=decision.stop_loss,
                     take_profit=decision.take_profit,

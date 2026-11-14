@@ -9,6 +9,7 @@ from __future__ import annotations
 
 from paper_panel import apply_requests, acknowledge
 import requests
+from impulse_study import update_study, REPORT
 from functools import lru_cache
 from market_data import get_historical_data
 from overnight_supervisor import _get_macro_bias_1h
@@ -151,6 +152,7 @@ def sync_to_github() -> bool:
                 "git",
                 "add",
                 "live_portfolio.json",
+                *(["impulse_study.json"] if REPORT.exists() else []),
                 "paper_base.json",
                 "paper_momentum.json",
                 "adaptive_config.json",
@@ -224,6 +226,10 @@ def main() -> None:
             for index, account in enumerate(comparisons):
                 run_trading_tick(account, cfg, rm=rm, history=history, macro=macro,
                                  extra_entry=bool(index), report=lambda message: None)
+            try:
+                update_study(comparisons[1].state, history)
+            except Exception as exc:
+                log_event(f"Referencia de impulso pendiente: {exc}")
             first_tick = False
         else:
             events = broker.update_open_positions(atr_by_symbol=atr_map)

@@ -185,7 +185,7 @@
       <h2>Comparación de estrategias</h2>
       <p>Dos carteras simuladas independientes de USD 10.000. La variante busca impulsos cuando la estrategia base espera.</p>
       <table><thead><tr><th>Estrategia</th><th>Entradas</th><th>Cerradas</th><th>Resultado neto con abiertas</th><th>Peor caída</th></tr></thead><tbody id="comparison"></tbody></table>
-      <p id="comparison-note"></p>
+      <h3>Qué aportó el impulso</h3><p id="extra-net"></p><p id="random-net"></p><small>Referencia de timing: entradas al azar en el mismo par y sentido, con igual nominal y comisiones. Usa velas previas de la misma sesión de estudio, hasta 24 h anteriores, y replica la duración redondeada a 15 minutos. No reproduce los stops ni el deslizamiento intravela.</small><p id="comparison-note"></p>
     </section>
     <div class="grid" id="kpi-grid"></div>
 
@@ -397,6 +397,20 @@
           const row = body.insertRow();
           for (const value of [[ 'Base', 'Base + impulso'][i], counts[i], p.closed_trades.length, fmtUsd(p.equity_usd-p.initial_balance_usd,true), Number(p.max_drawdown_pct).toFixed(2)+' %']) row.insertCell().textContent=value;
         });
+        const extra=t=>['momentum_shark','momentum_extra'].includes(t.strategy);
+        const closed=accounts[1].closed_trades.filter(extra), opened=accounts[1].open_positions.filter(extra);
+        const sum=(rows,key)=>rows.reduce((n,t)=>n+Number(t[key]||0),0);
+        const dd=accounts[1].max_drawdown_pct-accounts[0].max_drawdown_pct;
+        document.getElementById('extra-net').textContent=(closed.length+opened.length)+' entradas adicionales · '+closed.length+' cerradas · Neto realizado '+fmtUsd(sum(closed,'pnl_usd'),true)+' · Flotante '+fmtUsd(sum(opened,'unrealized_pnl_usd'),true)+' · Diferencia de peor caída entre carteras '+dd.toFixed(2)+' puntos porcentuales.';
+        const ref=document.getElementById('random-net');
+        try {
+          const study=await (await fetchAsset('impulse_study.json')).json();
+          const matches=closed.map(t=>study.controls[[t.symbol,t.entry_time,t.id].join('|')]).filter(Boolean);
+          if(matches.length){
+            const sims=Array.from({length:200},(_,i)=>matches.reduce((n,t)=>n+t.random_net[i],0)).sort((a,b)=>a-b);
+            ref.textContent='Cierres comparables: '+matches.length+' de '+closed.length+'. Impulso '+fmtUsd(sum(matches,'trade_net'),true)+' · Mediana al azar '+fmtUsd((sims[99]+sims[100])/2,true)+' · Rango central del 90 %: '+fmtUsd(sims[10],true)+' a '+fmtUsd(sims[189],true)+'.';
+          }else ref.textContent='Esperando cierres con al menos cinco ventanas comparables.';
+        }catch{ref.textContent='Referencia al azar pendiente de publicación.';}
         note.textContent='Diferencia de entradas de la variante: '+(counts[1]-counts[0])+'. Último reporte: '+accounts[1].last_updated;
       } catch { note.textContent='Comparación pendiente de actualización.'; }
     }
