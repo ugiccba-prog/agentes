@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `1` | **Última actualización:** `2026-11-14 14:45:37 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `1` | **Última actualización:** `2026-11-14 14:48:51 UTC`
 
 ---
 
@@ -10,13 +10,13 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,565.44` | **`$+565.44`** (`+5.65%`) | 🔴 `DOGE/USDT` SHORT (`$+128.24`)<br>🔴 `PEPE/USDT` SHORT (`$+65.16`) | `1W / 0L` (`1`) | `99.00` | `3.15%` |
-| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,565.44` | **`$+565.44`** (`+5.65%`) | 🔴 `DOGE/USDT` SHORT (`$+128.24`)<br>🔴 `PEPE/USDT` SHORT (`$+65.16`) | `1W / 0L` (`1`) | `99.00` | `3.15%` |
-| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$10,566.41` | **`$+566.41`** (`+5.66%`) | 🔴 `SOL/USDT` SHORT (`$+53.43`)<br>🔴 `DOGE/USDT` SHORT (`$+3.26`) | `2W / 0L` (`2`) | `99.00` | `2.11%` |
-| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$10,344.97` | **`$+344.97`** (`+3.45%`) | 🔴 `DOGE/USDT` SHORT (`$+68.80`) | `1W / 0L` (`1`) | `99.00` | `1.65%` |
-| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$10,910.87` | **`$+910.87`** (`+9.11%`) | 🔴 `DOGE/USDT` SHORT (`$+207.09`)<br>🔴 `PEPE/USDT` SHORT (`$+108.38`) | `1W / 0L` (`1`) | `99.00` | `4.99%` |
+| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,656.01` | **`$+656.01`** (`+6.56%`) | 🔴 `DOGE/USDT` SHORT (`$+218.81`)<br>🔴 `PEPE/USDT` SHORT (`$+65.16`) | `1W / 0L` (`1`) | `99.00` | `3.15%` |
+| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,656.01` | **`$+656.01`** (`+6.56%`) | 🔴 `DOGE/USDT` SHORT (`$+218.81`)<br>🔴 `PEPE/USDT` SHORT (`$+65.16`) | `1W / 0L` (`1`) | `99.00` | `3.15%` |
+| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$10,689.93` | **`$+689.93`** (`+6.90%`) | 🔴 `SOL/USDT` SHORT (`$+76.99`)<br>🔴 `DOGE/USDT` SHORT (`$+103.22`) | `2W / 0L` (`2`) | `99.00` | `2.20%` |
+| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$10,393.57` | **`$+393.57`** (`+3.94%`) | 🔴 `DOGE/USDT` SHORT (`$+117.40`) | `1W / 0L` (`1`) | `99.00` | `1.65%` |
+| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$11,057.13` | **`$+1,057.13`** (`+10.57%`) | 🔴 `DOGE/USDT` SHORT (`$+353.35`)<br>🔴 `PEPE/USDT` SHORT (`$+108.38`) | `1W / 0L` (`1`) | `99.00` | `4.99%` |
 | **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$9,795.46` | **`$-204.54`** (`-2.05%`) | ⚪ *Sin abiertas* | `0W / 1L` (`1`) | `0.00` | `2.05%` |
-| **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$10,589.68` | **`$+589.68`** (`+5.90%`) | 🔴 `SOL/USDT` SHORT (`$+8.41`)<br>🔴 `DOGE/USDT` SHORT (`$-23.95`)<br>🔴 `PEPE/USDT` SHORT (`$-12.43`) | `3W / 0L` (`3`) | `99.00` | `2.41%` |
+| **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$10,726.92` | **`$+726.92`** (`+7.27%`) | 🔴 `SOL/USDT` SHORT (`$+44.30`)<br>🔴 `DOGE/USDT` SHORT (`$+77.40`)<br>🔴 `PEPE/USDT` SHORT (`$-12.43`) | `3W / 0L` (`3`) | `99.00` | `2.41%` |
 
 ---
 
@@ -25,9 +25,9 @@
 | Mercado Activo | 1. WF Base | 2. WF+Impulso | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
 | `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+53.43`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+8.41`) |
+| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+76.99`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+44.30`) |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `DOGE/USDT` | 🔴 **SHORT** (`$+128.24`) | 🔴 **SHORT** (`$+128.24`) | 🔴 **SHORT** (`$+3.26`) | 🔴 **SHORT** (`$+68.80`) | 🔴 **SHORT** (`$+207.09`) | ⚪ Esperando | 🔴 **SHORT** (`$-23.95`) |
+| `DOGE/USDT` | 🔴 **SHORT** (`$+218.81`) | 🔴 **SHORT** (`$+218.81`) | 🔴 **SHORT** (`$+103.22`) | 🔴 **SHORT** (`$+117.40`) | 🔴 **SHORT** (`$+353.35`) | ⚪ Esperando | 🔴 **SHORT** (`$+77.40`) |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | 🔴 **SHORT** (`$+65.16`) | 🔴 **SHORT** (`$+65.16`) | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+108.38`) | ⚪ Esperando | 🔴 **SHORT** (`$-12.43`) |
@@ -39,10 +39,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$10,565.44 USD`** (`+5.65%` / `$+565.44 USD`) |
+| **Equity Total en Vivo** | **`$10,656.01 USD`** (`+6.56%` / `$+656.01 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,740.50 USD` (Inicio Día UTC: `$10,000.00 USD`) |
 | **Efectivo Cerrado (Cash)** | `$10,372.04 USD` (PnL Realizado: `$+372.04 USD`) |
-| **PnL Flotante Actual** | `$+193.40 USD` |
+| **PnL Flotante Actual** | `$+283.97 USD` |
 | **Win Rate & Profit Factor Real** | `100.0%` (`1W / 0L` de `1`) · **PF `99.00`** |
 | **Meta Paper Trading (100 Trades)** | `1 / 100` cerrados |
 
@@ -54,7 +54,7 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `DOGE/USDT` | **SHORT** | `chimichurri_alpha` | `0.06191` | `0.06148` | `0.06191` (🔒 BE/Trail) | `0.06055` | **$+128.24** (+0.59%) |
+| `DOGE/USDT` | **SHORT** | `chimichurri_alpha` | `0.06191` | `0.06122` | `0.06191` (🔒 BE/Trail) | `0.06055` | **$+218.81** (+1.02%) |
 | `PEPE/USDT` | **SHORT** | `volatility_breakout` | `4.2e-06` | `4.15e-06` | `4.2901e-06` (🛡️ Inicial) | `4.0435e-06` | **$+65.16** (+1.09%) |
 
 ---
