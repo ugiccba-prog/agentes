@@ -665,3 +665,23 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 20:33:43] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT SHORT ajustado a 0.7218609151
 [2026-11-14 20:33:43] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.719784096
 [2026-11-14 20:33:43] [5. Berserker] 🔒 Stop (Trailing 1.3 ATR) en SUI/USDT SHORT ajustado a 0.7183995498
+[2026-11-14 20:45:24] ☁️ [GITHUB CLOUD] Cierre de vela #209 (7 Opciones) de la sesión #2...
+[2026-11-14 20:45:26]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 20:45:28]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 20:45:30]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 20:45:33] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.05898000 | SL: 0.05997450 | TP: 0.05657264 | Tamaño: $17,459.18 USD (Riesgo controlado: $324.76) | OK riesgo 3.00% (dd 1.0%)
+[2026-11-14 20:45:35]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:45:37]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 20:45:40]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 20:45:41] 💓 Cierre de Vela | Equity: $10,791.94 USD (Efectivo: $10,497.90 | Flotante: $+294.04 | Peak: $10,937.78) | Abiertas: 3 | Cerradas: 5
+[2026-11-14 20:45:41] [2. WF+Impulso] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.05898000 | SL: 0.05997450 | TP: 0.05657264 | Tamaño: $17,459.18 USD (Riesgo controlado: $324.76) | OK riesgo 3.00% (dd 1.0%)
+[2026-11-14 20:45:41] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:45:41] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: apalancamiento al tope (5.0x)
+[2026-11-14 20:45:42] [3. Chimichurri] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.05898000 | SL: 0.05997450 | TP: 0.05657264 | Tamaño: $3,587.60 USD (Riesgo controlado: $67.36) | OK riesgo 0.56% (dd 1.3%)
+[2026-11-14 20:45:42] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:45:43] [4. Francotirador] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.05898000 | SL: 0.05997450 | TP: 0.05611317 | Tamaño: $6,545.92 USD (Riesgo controlado: $122.83) | OK riesgo 1.09% (dd 0.6%)
+[2026-11-14 20:45:43] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:45:43] [5. Berserker] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.05898000 | SL: 0.05997450 | TP: 0.05657264 | Tamaño: $29,794.44 USD (Riesgo controlado: $502.38) | OK riesgo 4.50% (dd 3.0%)
+[2026-11-14 20:45:43] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:45:43] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 98%) | Entrada: 0.00000386 | SL: 0.00000398 | TP: 0.00000365 | Tamaño: $2,284.64 USD (Riesgo controlado: $69.55) | OK riesgo 0.62% (dd 3.0%)
+[2026-11-14 20:45:43] 📊 Marcador 7 Opciones | 1. WF Base: $10,791.94 (3A/5C) | 2. WF+Impulso: $10,791.94 (3A/5C) | 3. Chimichurri: $11,971.68 (4A/4C) | 4. Francotirador: $11,197.97 (3A/3C) | 5. Berserker: $11,108.30 (4A/5C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
