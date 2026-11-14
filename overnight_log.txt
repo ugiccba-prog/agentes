@@ -845,3 +845,15 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 21:46:04] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pérdida diaria -8.6%
 [2026-11-14 21:46:04] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -8.6%
 [2026-11-14 21:46:05] 📊 Marcador 7 Opciones | 1. WF Base: $12,207.40 (1A/8C) | 2. WF+Impulso: $12,207.40 (1A/8C) | 3. Chimichurri: $12,872.49 (1A/8C) | 4. Francotirador: $11,765.65 (1A/5C) | 5. Berserker: $13,446.27 (2A/8C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $11,973.49 (1A/6C)
+[2026-11-14 22:00:19] ☁️ [GITHUB CLOUD] Cierre de vela #53 (7 Opciones) de la sesión #3...
+[2026-11-14 22:00:21]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 22:00:23]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 22:00:25]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 22:00:27]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 22:00:29]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 22:00:31]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 22:00:33]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 22:00:34] 💓 Cierre de Vela | Equity: $12,073.57 USD (Efectivo: $12,199.81 | Flotante: $-126.24 | Peak: $12,266.45) | Abiertas: 1 | Cerradas: 8
+[2026-11-14 22:00:37] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 97%) | Entrada: 64395.24000000 | SL: 65182.04666382 | TP: 62945.14533926 | Tamaño: $25,124.07 USD (Riesgo controlado: $306.98) | OK riesgo 2.54% (dd 0.4%)
+[2026-11-14 22:00:37] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 22:00:38] 📊 Marcador 7 Opciones | 1. WF Base: $12,073.57 (1A/8C) | 2. WF+Impulso: $12,073.57 (1A/8C) | 3. Chimichurri: $13,046.97 (1A/8C) | 4. Francotirador: $11,830.05 (1A/5C) | 5. Berserker: $13,229.52 (2A/8C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,124.38 (2A/6C)
