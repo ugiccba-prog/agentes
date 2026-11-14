@@ -743,3 +743,14 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 21:02:59]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 21:02:59]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 21:02:59] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-14 21:03:01] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #3...
+[2026-11-14 21:03:03]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 21:03:05]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 21:03:07]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 21:03:09]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 21:03:11]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 21:03:13]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 21:03:15]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 21:03:17] 💓 Cierre de Vela | Equity: $11,646.93 USD (Efectivo: $10,993.45 | Flotante: $+653.48 | Peak: $11,646.93) | Abiertas: 2 | Cerradas: 6
+[2026-11-14 21:03:17] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 21:03:18] 📊 Marcador 7 Opciones | 1. WF Base: $11,646.93 (2A/6C) | 2. WF+Impulso: $11,646.93 (2A/6C) | 3. Chimichurri: $12,854.30 (3A/5C) | 4. Francotirador: $11,727.68 (2A/4C) | 5. Berserker: $12,490.87 (3A/6C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
