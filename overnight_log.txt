@@ -62,3 +62,26 @@
 [2026-11-14 12:54:12]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 12:54:12]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 12:54:12] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-14 12:54:14] ☁️ [GITHUB CLOUD] Cierre de vela #1 (5 Opciones) de la sesión #2...
+[2026-11-14 12:54:16]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 12:54:17]    🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:19]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 12:54:22] DOGE/USDT | Precio fuera del margen de entrada en DOGE/USDT. | OK riesgo 0.78% (dd 0.4%)
+[2026-11-14 12:54:24]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:26]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 12:54:28]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 12:54:30] 💓 Cierre de Vela | Equity: $9,960.09 USD (Efectivo: $10,000.00 | Flotante: $-39.91 | Peak: $10,000.00) | Abiertas: 2 | Cerradas: 0
+[2026-11-14 12:54:30] [2. WF+Impulso] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:30] [2. WF+Impulso] DOGE/USDT | Precio fuera del margen de entrada en DOGE/USDT. | OK riesgo 0.78% (dd 0.4%)
+[2026-11-14 12:54:30] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:30] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:30] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: apalancamiento al tope (5.0x)
+[2026-11-14 12:54:30] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:30] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:31] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: confianza 89 < 90
+[2026-11-14 12:54:31] [4. Francotirador] DOGE/USDT | Precio fuera del margen de entrada en DOGE/USDT. | OK riesgo 1.20% (dd 0.1%)
+[2026-11-14 12:54:31] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:31] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:31] [5. Berserker] DOGE/USDT | Precio fuera del margen de entrada en DOGE/USDT. | OK riesgo 1.24% (dd 0.7%)
+[2026-11-14 12:54:31] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:54:31] 📊 Marcador 5 Opciones | 1. WF Base: $9,960.09 (2A/0C) | 2. WF+Impulso: $9,960.09 (2A/0C) | 3. Chimichurri: $9,941.05 (3A/0C) | 4. Francotirador: $9,985.98 (1A/0C) | 5. Berserker: $9,936.13 (2A/0C)
