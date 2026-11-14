@@ -262,3 +262,22 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 15:24:50] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.2e-06
 [2026-11-14 15:24:50] [2. WF+Impulso] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.2e-06
 [2026-11-14 15:24:50] [5. Berserker] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.2e-06
+[2026-11-14 15:30:18] ☁️ [GITHUB CLOUD] Cierre de vela #133 (7 Opciones) de la sesión #1...
+[2026-11-14 15:30:20]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:30:23]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:30:25]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:30:28]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:30:31]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:30:33]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 15:30:36]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:30:39] 💓 Cierre de Vela | Equity: $10,844.68 USD (Efectivo: $10,372.04 | Flotante: $+472.64 | Peak: $10,868.78) | Abiertas: 3 | Cerradas: 1
+[2026-11-14 15:30:39] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:30:39] [4. Francotirador] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:30:39] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:30:41] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:30:41] 📊 Marcador 7 Opciones | 1. WF Base: $10,844.68 (3A/1C) | 2. WF+Impulso: $10,844.68 (3A/1C) | 3. Chimichurri: $10,940.56 (1A/3C) | 4. Francotirador: $10,592.72 (2A/1C) | 5. Berserker: $11,348.19 (3A/1C) | 6. Resorte: $9,487.24 (2A/1C) | 7. Escape: $11,245.17 (3A/3C)
+[2026-11-14 15:32:51] ✅ CERRADA PEPE/USDT (SHORT) a 4.04e-06 | PnL: $+221.66 USD (Take Profit Alcanzado)
+[2026-11-14 15:32:51] [2. WF+Impulso] ✅ CERRADA PEPE/USDT (SHORT) a 4.04e-06 | PnL: $+221.66 USD (Take Profit Alcanzado)
+[2026-11-14 15:32:51] [4. Francotirador] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.14e-06
+[2026-11-14 15:32:51] [5. Berserker] ✅ CERRADA PEPE/USDT (SHORT) a 4.04e-06 | PnL: $+368.67 USD (Take Profit Alcanzado)
+[2026-11-14 15:32:53] [7. Escape] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 4.15e-06
