@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-14 03:29:48 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-14 03:33:15 UTC`
 
 ---
 
@@ -41,12 +41,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 03:02:03]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 03:02:04]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 03:02:04]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 03:02:04]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 03:02:04]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 03:02:05]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 03:02:05]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 03:02:05]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 03:02:05] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
@@ -56,4 +50,10 @@
 [2026-11-14 03:15:26]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 03:15:33]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 03:15:38] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-14 03:30:50] ☁️ [GITHUB CLOUD] Cierre de vela #142 de la sesión #3...
+[2026-11-14 03:30:53]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 03:30:57]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 03:30:59]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 03:31:06]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 03:31:12] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
 ```
