@@ -148,3 +148,10 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 14:15:51] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-14 14:15:51] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-14 14:15:51] 📊 Marcador 7 Opciones | 1. WF Base: $10,141.36 (3A/0C) | 2. WF+Impulso: $10,141.36 (3A/0C) | 3. Chimichurri: $10,250.23 (3A/0C) | 4. Francotirador: $10,089.75 (2A/0C) | 5. Berserker: $10,225.53 (3A/0C) | 6. Resorte: $9,795.46 (0A/1C) | 7. Escape: $10,122.92 (3A/0C)
+[2026-11-14 14:24:57] ✅ CERRADA SUI/USDT (SHORT) a 0.751 | PnL: $+372.04 USD (Take Profit Alcanzado)
+[2026-11-14 14:24:57] [2. WF+Impulso] ✅ CERRADA SUI/USDT (SHORT) a 0.751 | PnL: $+372.04 USD (Take Profit Alcanzado)
+[2026-11-14 14:25:01] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 66618.9281523786
+[2026-11-14 14:25:01] [3. Chimichurri] ✅ CERRADA BNB/USDT (SHORT) a 602.85 | PnL: $+276.32 USD (Take Profit Alcanzado)
+[2026-11-14 14:25:01] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7576912614
+[2026-11-14 14:25:01] [5. Berserker] ✅ CERRADA SUI/USDT (SHORT) a 0.751 | PnL: $+595.40 USD (Take Profit Alcanzado)
+[2026-11-14 14:25:01] [7. Escape] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 66638.4
