@@ -754,3 +754,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 21:03:17] 💓 Cierre de Vela | Equity: $11,646.93 USD (Efectivo: $10,993.45 | Flotante: $+653.48 | Peak: $11,646.93) | Abiertas: 2 | Cerradas: 6
 [2026-11-14 21:03:17] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-14 21:03:18] 📊 Marcador 7 Opciones | 1. WF Base: $11,646.93 (2A/6C) | 2. WF+Impulso: $11,646.93 (2A/6C) | 3. Chimichurri: $12,854.30 (3A/5C) | 4. Francotirador: $11,727.68 (2A/4C) | 5. Berserker: $12,490.87 (3A/6C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
+[2026-11-14 21:06:29] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 65180.593885034
+[2026-11-14 21:06:29] [2. WF+Impulso] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 65180.593885034
+[2026-11-14 21:06:30] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 65295.8046620408
+[2026-11-14 21:06:30] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 65180.593885034
+[2026-11-14 21:06:30] [5. Berserker] 🔒 Stop (Trailing 1.3 ATR) en BTC/USDT SHORT ajustado a 65103.7867003628
+[2026-11-14 21:08:36] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 65162.053885034
+[2026-11-14 21:08:36] [2. WF+Impulso] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 65162.053885034
+[2026-11-14 21:08:37] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 65277.2646620408
+[2026-11-14 21:08:37] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 65162.053885034
+[2026-11-14 21:08:37] [5. Berserker] 🔒 Stop (Trailing 1.3 ATR) en BTC/USDT SHORT ajustado a 65085.2467003628
