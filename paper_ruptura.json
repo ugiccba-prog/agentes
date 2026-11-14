@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11403.87,
-  "equity_usd": 11980.25,
-  "realized_pnl_usd": 1403.87,
-  "unrealized_pnl_usd": 576.38,
-  "peak_equity_usd": 12066.02,
+  "cash_balance_usd": 12085.51,
+  "equity_usd": 12085.51,
+  "realized_pnl_usd": 2085.51,
+  "unrealized_pnl_usd": 0.0,
+  "peak_equity_usd": 12085.51,
   "day_start_equity_usd": 10000.0,
   "current_day_utc": "2026-11-14",
   "max_drawdown_pct": 3.7006972813072303,
-  "total_trades": 5,
-  "winning_trades": 5,
+  "total_trades": 6,
+  "winning_trades": 6,
   "losing_trades": 0,
-  "last_updated": "2026-11-14 17:05:10 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-537030",
-      "symbol": "DOGE/USDT",
-      "market": "CRYPTO",
-      "strategy": "volatility_breakout",
-      "side": "SHORT",
-      "entry_time": "2026-11-14 14:45:37 UTC",
-      "entry_price": 0.06148,
-      "current_price": 0.05994,
-      "size": 389635.36923,
-      "notional_usd": 23954.78,
-      "stop_loss": 0.0605729357,
-      "take_profit": 0.059676087,
-      "initial_risk_dist": 0.0007043812,
-      "unrealized_pnl_usd": 576.38,
-      "unrealized_pnl_pct": 2.41,
-      "reason": "Ruptura Bajista de Bollinger con expansión MACD (RSI=24.2)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "last_updated": "2026-11-14 17:08:18 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-848732",
@@ -123,6 +103,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 280.02,
       "r_multiple": 2.096
+    },
+    {
+      "id": "ORD-537030",
+      "symbol": "DOGE/USDT",
+      "market": "CRYPTO",
+      "strategy": "volatility_breakout",
+      "side": "SHORT",
+      "entry_time": "2026-11-14 14:45:37 UTC",
+      "exit_time": "2026-11-14 17:07:16 UTC",
+      "entry_price": 0.06148,
+      "exit_price": 0.05967,
+      "size": 389635.36923,
+      "pnl_usd": 681.64,
+      "pnl_pct": 2.85,
+      "exit_reason": "Take Profit Alcanzado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 274.45,
+      "r_multiple": 2.484
     }
   ],
   "excluded_trades": []
