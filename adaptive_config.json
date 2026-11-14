@@ -1,5 +1,5 @@
 {
-  "session_count": 0,
+  "session_count": 1,
   "corrections_applied": 0,
   "global_risk_pct": 3.5,
   "symbols": {
@@ -11,7 +11,7 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "Canasta Compartida 5 Opciones (ema_pullback)"
+      "notes": "Canasta Compartida 7 Opciones (ema_pullback)"
     },
     "ETH/USDT": {
       "enabled": false,
@@ -31,7 +31,7 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "Canasta Compartida 5 Opciones (ema_pullback)"
+      "notes": "Canasta Compartida 7 Opciones (ema_pullback)"
     },
     "BNB/USDT": {
       "enabled": true,
@@ -41,7 +41,7 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "Canasta Compartida 5 Opciones (ema_pullback)"
+      "notes": "Canasta Compartida 7 Opciones (ema_pullback)"
     },
     "XRP/USDT": {
       "enabled": false,
@@ -87,7 +87,7 @@
       "ema_fast": 12,
       "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "Canasta Compartida 5 Opciones (bollinger_reversion)"
+      "notes": "Canasta Compartida 7 Opciones (bollinger_reversion)"
     },
     "LINK/USDT": {
       "enabled": false,
@@ -193,7 +193,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-14 12:54:12 UTC",
+  "last_updated": "2026-11-14 13:02:38 UTC",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
   "risk_config": {
     "base_risk_pct": 1.5,
