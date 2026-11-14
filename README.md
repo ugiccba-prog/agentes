@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `1` | **Última actualización:** `2026-11-14 14:07:53 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `1` | **Última actualización:** `2026-11-14 14:11:08 UTC`
 
 ---
 
@@ -10,13 +10,13 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,130.61` | **`$+130.61`** (`+1.31%`) | 🔴 `SUI/USDT` SHORT (`$+130.61`) | `0W / 0L` (`0`) | `0.00` | `1.94%` |
-| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,130.61` | **`$+130.61`** (`+1.31%`) | 🔴 `SUI/USDT` SHORT (`$+130.61`) | `0W / 0L` (`0`) | `0.00` | `1.94%` |
-| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$10,251.11` | **`$+251.11`** (`+2.51%`) | 🔴 `BTC/USDT` SHORT (`$+75.75`)<br>🔴 `BNB/USDT` SHORT (`$+175.36`) | `0W / 0L` (`0`) | `0.00` | `1.89%` |
-| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$10,078.35` | **`$+78.35`** (`+0.78%`) | 🔴 `SUI/USDT` SHORT (`$+78.35`) | `0W / 0L` (`0`) | `0.00` | `1.18%` |
-| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$10,209.02` | **`$+209.02`** (`+2.09%`) | 🔴 `SUI/USDT` SHORT (`$+209.02`) | `0W / 0L` (`0`) | `0.00` | `3.06%` |
+| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,163.00` | **`$+163.00`** (`+1.63%`) | 🔴 `SUI/USDT` SHORT (`$+163.00`) | `0W / 0L` (`0`) | `0.00` | `1.94%` |
+| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,163.00` | **`$+163.00`** (`+1.63%`) | 🔴 `SUI/USDT` SHORT (`$+163.00`) | `0W / 0L` (`0`) | `0.00` | `1.94%` |
+| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$10,290.20` | **`$+290.20`** (`+2.90%`) | 🔴 `BTC/USDT` SHORT (`$+85.73`)<br>🔴 `BNB/USDT` SHORT (`$+204.47`) | `0W / 0L` (`0`) | `0.00` | `1.89%` |
+| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$10,097.78` | **`$+97.78`** (`+0.98%`) | 🔴 `SUI/USDT` SHORT (`$+97.78`) | `0W / 0L` (`0`) | `0.00` | `1.18%` |
+| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$10,260.85` | **`$+260.85`** (`+2.61%`) | 🔴 `SUI/USDT` SHORT (`$+260.85`) | `0W / 0L` (`0`) | `0.00` | `3.06%` |
 | **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$9,795.46` | **`$-204.54`** (`-2.05%`) | ⚪ *Sin abiertas* | `0W / 1L` (`1`) | `0.00` | `2.05%` |
-| **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$10,106.29` | **`$+106.29`** (`+1.06%`) | 🔴 `BTC/USDT` SHORT (`$+15.51`)<br>🔴 `BNB/USDT` SHORT (`$+71.74`)<br>🔴 `SUI/USDT` SHORT (`$+19.04`) | `0W / 0L` (`0`) | `0.00` | `2.14%` |
+| **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$10,153.90` | **`$+153.90`** (`+1.54%`) | 🔴 `BTC/USDT` SHORT (`$+24.73`)<br>🔴 `BNB/USDT` SHORT (`$+100.33`)<br>🔴 `SUI/USDT` SHORT (`$+28.83`) | `0W / 0L` (`0`) | `0.00` | `2.14%` |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Mercado Activo | 1. WF Base | 2. WF+Impulso | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+75.75`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+15.51`) |
+| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+85.73`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+24.73`) |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+175.36`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+71.74`) |
+| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+204.47`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+100.33`) |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | 🔴 **SHORT** (`$+130.61`) | 🔴 **SHORT** (`$+130.61`) | ⚪ Esperando | 🔴 **SHORT** (`$+78.35`) | 🔴 **SHORT** (`$+209.02`) | ⚪ Esperando | 🔴 **SHORT** (`$+19.04`) |
+| `SUI/USDT` | 🔴 **SHORT** (`$+163.00`) | 🔴 **SHORT** (`$+163.00`) | ⚪ Esperando | 🔴 **SHORT** (`$+97.78`) | 🔴 **SHORT** (`$+260.85`) | ⚪ Esperando | 🔴 **SHORT** (`$+28.83`) |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
@@ -39,10 +39,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$10,130.61 USD`** (`+1.31%` / `$+130.61 USD`) |
+| **Equity Total en Vivo** | **`$10,163.00 USD`** (`+1.63%` / `$+163.00 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,304.32 USD` (Inicio Día UTC: `$10,000.00 USD`) |
 | **Efectivo Cerrado (Cash)** | `$10,000.00 USD` (PnL Realizado: `$+0.00 USD`) |
-| **PnL Flotante Actual** | `$+130.61 USD` |
+| **PnL Flotante Actual** | `$+163.00 USD` |
 | **Win Rate & Profit Factor Real** | `0.0%` (`0W / 0L` de `0`) · **PF `0.00`** |
 | **Meta Paper Trading (100 Trades)** | `0 / 100` cerrados |
 
@@ -54,7 +54,7 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `SUI/USDT` | **SHORT** | `chimichurri_alpha` | `0.7644` | `0.7592` | `0.7644` (🔒 BE/Trail) | `0.75127` | **$+130.61** (+0.58%) |
+| `SUI/USDT` | **SHORT** | `chimichurri_alpha` | `0.7644` | `0.7581` | `0.7644` (🔒 BE/Trail) | `0.75127` | **$+163.00** (+0.72%) |
 
 ---
 
