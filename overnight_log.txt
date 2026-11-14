@@ -240,3 +240,18 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 15:04:53]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 15:04:53]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 15:04:53] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-14 15:15:38] ☁️ [GITHUB CLOUD] Cierre de vela #120 (7 Opciones) de la sesión #1...
+[2026-11-14 15:15:41]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:15:44]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:15:46]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:15:49]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:15:52]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:15:56] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 85%) | Entrada: 7.68200000 | SL: 7.56987741 | TP: 7.87825498 | Tamaño: $17,539.81 USD (Riesgo controlado: $256.00) | OK riesgo 2.40% (dd 0.7%)
+[2026-11-14 15:15:58]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 15:16:01] 💓 Cierre de Vela | Equity: $10,575.48 USD (Efectivo: $10,372.04 | Flotante: $+203.44 | Peak: $10,740.50) | Abiertas: 3 | Cerradas: 1
+[2026-11-14 15:16:01] [2. WF+Impulso] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 85%) | Entrada: 7.68200000 | SL: 7.56987741 | TP: 7.87825498 | Tamaño: $17,539.81 USD (Riesgo controlado: $256.00) | OK riesgo 2.40% (dd 0.7%)
+[2026-11-14 15:16:02] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-14 15:16:02] [5. Berserker] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 85%) | Entrada: 7.68200000 | SL: 7.56987741 | TP: 7.87825498 | Tamaño: $31,111.11 USD (Riesgo controlado: $454.08) | OK riesgo 4.10% (dd 1.1%)
+[2026-11-14 15:16:02] [6. Resorte] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 85%) | Entrada: 7.68200000 | SL: 7.56987741 | TP: 7.87825498 | Tamaño: $15,998.49 USD (Riesgo controlado: $233.51) | OK riesgo 2.40% (dd 2.7%)
+[2026-11-14 15:16:02] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:16:02] 📊 Marcador 7 Opciones | 1. WF Base: $10,575.48 (3A/1C) | 2. WF+Impulso: $10,575.48 (3A/1C) | 3. Chimichurri: $10,612.55 (2A/2C) | 4. Francotirador: $10,332.77 (2A/1C) | 5. Berserker: $10,923.60 (3A/1C) | 6. Resorte: $9,775.76 (2A/1C) | 7. Escape: $10,606.49 (3A/3C)
