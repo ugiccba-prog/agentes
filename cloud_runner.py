@@ -72,7 +72,7 @@ def _format_open_summary(positions: list[dict]) -> str:
 
 
 def update_live_readme(runners_or_broker, cfg: dict) -> None:
-    """Genera un panel en vivo de las 5 opciones en el README.md de GitHub."""
+    """Genera un panel en vivo de las 7 opciones en el README.md de GitHub."""
     runners = _normalize_runners(runners_or_broker)
     broker = runners[0][1]
     st = broker.state
@@ -167,7 +167,7 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
         recent_logs = lines[-20:]
     log_block = "\n".join(recent_logs) if recent_logs else "Iniciando bitácora..."
 
-    md = f"""# 🦈 Agente de Trading Cuantitativo Multi-Mercado — 5 Opciones en Vivo 24/7
+    md = f"""# 🦈 Agente de Trading Cuantitativo Multi-Mercado — 7 Opciones en Vivo 24/7
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
@@ -175,13 +175,13 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
 
 ---
 
-## 🏆 Comparativa en Vivo: 5 Opciones Corriendo sobre los Mismos Mercados ($10,000 USD c/u)
+## 🏆 Comparativa en Vivo: 7 Opciones Corriendo sobre los Mismos Mercados ($10,000 USD c/u)
 
 {comp_table}
 
 ---
 
-## 🎯 Qué Hay Abierto y Qué No por Mercado en las 5 Opciones
+## 🎯 Qué Hay Abierto y Qué No por Mercado en las 7 Opciones
 
 {matrix_table}
 
@@ -225,7 +225,7 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
 
 
 def sync_to_github() -> bool:
-    """Guarda y sube el estado actual de las 5 opciones al repositorio para verlo en vivo."""
+    """Guarda y sube el estado actual de las 7 opciones al repositorio para verlo en vivo."""
     try:
         subprocess.run(["git", "config", "user.name", "Agente Trading Cloud 24/7"], check=False)
         subprocess.run(["git", "config", "user.email", "ugiccba@gmail.com"], check=False)
@@ -248,7 +248,7 @@ def sync_to_github() -> bool:
         diff = subprocess.run(["git", "diff", "--staged", "--quiet"], check=False)
         if diff.returncode != 0:
             subprocess.run(
-                ["git", "commit", "-m", "🤖 Auto-Update Cloud: 5 Opciones y Dashboard en Vivo [skip ci]"],
+                ["git", "commit", "-m", "🤖 Auto-Update Cloud: 7 Opciones y Dashboard en Vivo [skip ci]"],
                 check=False,
             )
             subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
@@ -275,7 +275,7 @@ def main() -> None:
     session_num = int(cfg.get("session_count", 0)) + 1
     cfg["session_count"] = session_num
     save_adaptive_config(cfg)
-    log_event(f"☁️ [GITHUB CLOUD] Iniciando bloque continuo 5 Opciones #{session_num} ({args.minutes} min)...")
+    log_event(f"☁️ [GITHUB CLOUD] Iniciando bloque continuo 7 Opciones #{session_num} ({args.minutes} min)...")
 
     # Calibración Walk-Forward al arrancar el bloque (mantiene canasta compartida y caché de 7 días)
     cfg = run_self_correction_phase(base_broker, cfg, interval="15m")
@@ -301,7 +301,7 @@ def main() -> None:
         if hasattr(quote, "cache_clear"):
             quote.cache_clear()
         if first_tick or gate.is_new_closed_candle():
-            log_event(f"☁️ [GITHUB CLOUD] Cierre de vela #{ticks} (5 Opciones) de la sesión #{session_num}...")
+            log_event(f"☁️ [GITHUB CLOUD] Cierre de vela #{ticks} (7 Opciones) de la sesión #{session_num}...")
             history = lru_cache(maxsize=None)(get_historical_data)
             macro = lru_cache(maxsize=None)(_get_macro_bias_1h)
             atr_map = run_all_options_tick(runners, cfg, history=history, macro=macro, report=log_event)

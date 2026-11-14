@@ -163,6 +163,15 @@ OPTION_SPECS: list[dict] = [
 ]
 
 
+# Contraste de señal con el mismo presupuesto de riesgo que Base.
+for key, name, strategy, description in (
+    ("rebote", "6. Resorte", "bollinger_reversion", "Busca el giro después de un movimiento extremo"),
+    ("ruptura", "7. Escape", "volatility_breakout", "Sigue una ruptura con volatilidad y fuerza crecientes"),
+):
+    OPTION_SPECS.append(dict(OPTION_SPECS[0], key=key, name=name, short_name=name,
+                             file=f"paper_{key}.json", strategy_override=strategy,
+                             rule_summary=description))
+
 def log_event(message: str) -> None:
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{now_str}] {message}"
@@ -235,7 +244,7 @@ def run_self_correction_phase(
                         "ema_fast": int(existing_sym.get("ema_fast", 12)),
                         "ema_slow": int(existing_sym.get("ema_slow", 26)),
                         "data_source": source,
-                        "notes": f"Canasta Compartida 5 Opciones ({kept_strat})",
+                        "notes": f"Canasta Compartida 7 Opciones ({kept_strat})",
                     }
                     log_event(f"   🔎 [{sym}] -> ACTIVO (Canasta Compartida, historial temporal {0 if df_closed is None else len(df_closed)})")
                     continue
@@ -270,7 +279,7 @@ def run_self_correction_phase(
                         "ema_fast": int(existing_sym.get("ema_fast", 12)),
                         "ema_slow": int(existing_sym.get("ema_slow", 26)),
                         "data_source": source,
-                        "notes": f"Canasta Compartida 5 Opciones ({kept_strat})",
+                        "notes": f"Canasta Compartida 7 Opciones ({kept_strat})",
                     }
                     if prev_enabled is not True:
                         corrections_made += 1
@@ -585,7 +594,7 @@ def run_all_options_tick(
         f"{spec['short_name']}: ${b.state.equity_usd:,.2f} ({len(b.state.open_positions)}A/{b.state.total_trades}C)"
         for spec, b, _ in runners
     )
-    report(f"📊 Marcador 5 Opciones | {board}")
+    report(f"📊 Marcador 7 Opciones | {board}")
     return atr_map
 
 
@@ -615,7 +624,7 @@ def run_overnight_daemon(
             save_adaptive_config(cfg)
             session_num = cfg["session_count"]
 
-            log_event(f"🟢 SESIÓN OPERATIVA #{session_num} INICIADA (5 Opciones sobre la misma canasta, {trading_minutes} min)...")
+            log_event(f"🟢 SESIÓN OPERATIVA #{session_num} INICIADA (7 Opciones sobre la misma canasta, {trading_minutes} min)...")
             session_end = time.time() + (trading_minutes * 60)
             first_tick = True
 

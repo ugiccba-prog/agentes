@@ -1,6 +1,6 @@
 {
-  "session_count": 2,
-  "corrections_applied": 25,
+  "session_count": 0,
+  "corrections_applied": 0,
   "global_risk_pct": 3.5,
   "symbols": {
     "BTC/USDT": {
@@ -218,5 +218,6 @@
     "min_trades_oos": 8,
     "top_k_candidates": 5,
     "trail_atr_mult": 1.5
-  }
+  },
+  "trial_start_utc": "2026-11-14T13:01:29+00:00"
 }

@@ -191,11 +191,15 @@
       </div>
     </div>
 
+    <section class="card" style="margin:14px 0;padding:16px">
+<h2>Tu prueba de siete días</h2><p id="trial-period">Siete carteras de USD 10.000 simulados cada una.</p>
+<p>Primero compará el resultado neto y la peor caída. Después tocá el nombre de una cartera para verla en detalle. El gráfico muestra operaciones cerradas; el capital actual también incluye las abiertas.</p>
+<details><summary>Diccionario del panel · tocá para abrir</summary><dl><dt><strong>Capital actual (equity)</strong></dt><dd style="margin:3px 0 12px">Efectivo más el resultado estimado de las operaciones abiertas. Partís de USD 10.000 ficticios por cartera.</dd><dt><strong>Resultado neto (PnL)</strong></dt><dd style="margin:3px 0 12px">Ganancia o pérdida después de las comisiones simuladas. Realizado: la operación ya cerró. Flotante: todavía puede cambiar.</dd><dt><strong>Peor caída</strong></dt><dd style="margin:3px 0 12px">Cuánto bajó desde su mejor valor. Subir a 11.000 y caer a 9.900 es una caída del 10 %, aunque después se recupere.</dd><dt><strong>Long / short</strong></dt><dd style="margin:3px 0 12px">Long gana si el precio sube. Short gana si baja. El par BTC/USDT indica el precio de bitcoin expresado en USDT.</dd><dt><strong>Stop, objetivo y trailing</strong></dt><dd style="margin:3px 0 12px">Stop loss: salida para limitar pérdidas. Take profit: salida para tomar ganancia. Trailing: mueve el stop a favor si el precio acompaña.</dd><dt><strong>Aciertos, W/L y PF</strong></dt><dd style="margin:3px 0 12px">W/L cuenta ganadoras y perdedoras. La tasa de acierto es el porcentaje de cierres ganadores. PF compara ganancias y pérdidas acumuladas: 1,20 significa que ganó $1,20 por cada $1 perdido.</dd><dt><strong>Riesgo, R y apalancamiento</strong></dt><dd style="margin:3px 0 12px">1R es lo que se planea perder si salta el stop. Un objetivo 2R busca el doble. Apalancar 3x permite exposición de hasta tres veces el capital; también amplifica pérdidas.</dd><dt><strong>WF, OOS y mercado activo</strong></dt><dd style="margin:3px 0 12px">El agente elige reglas con datos antiguos y las prueba en un tramo posterior. Si pasa, el mercado queda habilitado. Puede seguir esperando una señal para entrar.</dd><dt><strong>Señal, confianza e indicadores</strong></dt><dd style="margin:3px 0 12px">Una vela resume 15 minutos de precios. La confianza puntúa una señal: 90 no significa 90 % de probabilidad de ganar. ATR mide cuánto se mueve el precio; ADX, la fuerza de la tendencia.</dd><dt><strong>Impulso frente al azar</strong></dt><dd style="margin:3px 0 12px">Compara el resultado de las entradas extra con momentos elegidos al azar en el mismo mercado. Pocos cierres dan poca evidencia. Las 100 operaciones del contador son una referencia de muestra.</dd></dl></details></section>
     <div class="section">
       <div class="section-head">
         <div>
-          <div class="section-title">🏆 5 Opciones Corriendo en Paralelo (Mismos Mercados · $10,000 USD c/u)</div>
-          <div class="meta" id="comparison-note">Sincronizando las 5 carteras...</div>
+          <div class="section-title">🏆 7 Opciones Corriendo en Paralelo (Mismos Mercados · $10,000 USD c/u)</div>
+          <div class="meta" id="comparison-note">Sincronizando las 7 carteras...</div>
         </div>
       </div>
       <div class="table-wrap">
@@ -204,7 +208,7 @@
             <tr>
               <th>Opción</th>
               <th>Reglas / Perfil</th>
-              <th>Equity Actual</th>
+              <th>Capital actual</th>
               <th>Resultado Neto</th>
               <th>Qué Hay Abierto Ahora</th>
               <th>Cerradas (W/L)</th>
@@ -238,7 +242,7 @@
               <th>2. WF + Impulso</th>
               <th>3. Chimichurri</th>
               <th>4. Francotirador</th>
-              <th>5. Berserker</th>
+              <th>5. Berserker</th><th>6. Resorte</th><th>7. Escape</th>
             </tr>
           </thead>
           <tbody id="matrix-body"></tbody>
@@ -250,7 +254,7 @@
       <div class="section-head">
         <div>
           <div class="section-title">🔎 Inspeccionar Cartera Individual</div>
-          <div class="meta">Elegí cualquiera de las 5 opciones para ver sus KPIs, posiciones abiertas y cierres</div>
+          <div class="meta">Elegí cualquiera de las 7 opciones para ver sus indicadores, posiciones abiertas y cierres</div>
         </div>
       </div>
       <div class="opt-tabs" id="option-selector"></div>
@@ -265,14 +269,14 @@
       <p id="pulse" role="status" style="margin:4px 0;font-size:0.86rem;"></p>
       <p id="guidance" style="margin:4px 0 10px;font-size:0.85rem;color:var(--muted);"></p>
       <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px;">
-        <label for="profile" style="font-size:0.82rem;color:var(--muted);">Perfil Base:</label>
+        <label for="profile" style="font-size:0.82rem;color:var(--muted);">Filtro para habilitar mercados:</label>
         <select id="profile" style="background:var(--card-alt);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:6px 9px;"><option>🦈 Violenta &amp; Sagaz (Recomendado)</option><option>🔥 Berserker / Full Tiburón</option><option>🛡️ Conservador Institucional</option></select>
-        <button class="btn" onclick="requestPaper('Perfil / '+document.getElementById('profile').value)">Solicitar cambio</button>
+        <button class="btn" onclick="requestPaper('Perfil / '+document.getElementById('profile').value)">Cambiar perfil de validación…</button>
       </div>
       <p id="profile-help" class="meta"></p>
       <div id="exits" style="display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;"></div>
-      <p id="receipt" class="meta"></p>
-      <small style="color:var(--muted);">Confirmá la solicitud con tu cuenta en GitHub. El agente la revisa en el siguiente ciclo.</small>
+      <div id="order-guide" hidden style="padding:12px;border:1px solid var(--border);border-radius:10px"><strong id="order-action"></strong><ol><li>Abrí la solicitud con el enlace de abajo. Si te pide entrar, usá tu cuenta ugiccba-prog.</li><li>El formulario ya está completo. Dejá el título como está y tocá el botón verde <b>Create / Crear</b>. Una “issue” es el mensaje con la orden.</li><li>Volvé a esta pestaña. El resultado aparece en “Última solicitud” cuando el agente la procesa. La solicitud vence a los diez minutos.</li></ol><a id="confirm-link" class="btn" target="_blank" rel="noopener noreferrer">Abrir formulario ya completo</a> <button class="btn" onclick="document.getElementById('order-guide').hidden=true">Volver sin enviar</button></div><p id="receipt" class="meta"></p>
+      <small style="color:var(--muted);">Mirar una cartera es gratis y no cambia nada. Los controles son opcionales. Cambiar el filtro puede modificar los mercados de todas las carteras; cerrar a mano modifica sólo Base. Para comparar la semana, dejalas operar solas.</small>
     </section>
 
     <div class="section">
@@ -299,7 +303,7 @@
               <th>Actual</th>
               <th>Stop Loss</th>
               <th>Take Profit</th>
-              <th>PnL Flotante</th>
+              <th>Resultado abierto</th>
             </tr>
           </thead>
           <tbody id="open-body"></tbody>
@@ -353,11 +357,13 @@
   <script>
     const RAW_BASE = "https://raw.githubusercontent.com/ugiccba-prog/agentes/main/";
     const OPTIONS = [
-      { key: "base", name: "1. WF Estricta (Base)", shortName: "1. WF Base", file: "paper_base.json", rule: "WF/Canasta · Riesgo 1.5-3% · 5x · RR≥2" },
-      { key: "momentum", name: "2. WF + Impulso Shark", shortName: "2. WF+Impulso", file: "paper_momentum.json", rule: "Base + Impulso Shark · Riesgo 1.5-3% · 5x" },
-      { key: "chimichurri", name: "3. Chimichurri Alpha", shortName: "3. Chimichurri", file: "paper_chimichurri.json", rule: "Donchian+ADX≥22 · Trail 1.8 ATR · 5x" },
-      { key: "sniper", name: "4. Francotirador", shortName: "4. Francotirador", file: "paper_sniper.json", rule: "Conf≥90 · TP 2.5R · Macro 1H · 1-2% · 3x" },
-      { key: "berserker", name: "5. Berserker / Tiburón", shortName: "5. Berserker", file: "paper_berserker.json", rule: "Shark · Riesgo 2.5-4.5% · 8x · Conf≥65" },
+      { key: "base", name: "1. WF Estricta (Base)", shortName: "1. WF Base", file: "paper_base.json", rule: "Usa la estrategia que pasó la prueba histórica para ese mercado." },
+      { key: "momentum", name: "2. WF + Impulso Shark", shortName: "2. WF+Impulso", file: "paper_momentum.json", rule: "Cuando Base espera, busca un movimiento que gana velocidad." },
+      { key: "chimichurri", name: "3. Chimichurri Alpha", shortName: "3. Chimichurri", file: "paper_chimichurri.json", rule: "Sigue una tendencia cuando el precio rompe su rango y muestra fuerza." },
+      { key: "sniper", name: "4. Francotirador", shortName: "4. Francotirador", file: "paper_sniper.json", rule: "Espera una señal fuerte alineada con la tendencia de una hora." },
+      { key: "berserker", name: "5. Berserker / Tiburón", shortName: "5. Berserker", file: "paper_berserker.json", rule: "Acepta más señales de impulso y arriesga más dinero por entrada." },
+      {key:"rebote",name:"6. Resorte",shortName:"6. Resorte",file:"paper_rebote.json",rule:"Busca un rebote después de un precio extremo."},
+      {key:"ruptura",name:"7. Escape",shortName:"7. Escape",file:"paper_ruptura.json",rule:"Entra cuando el precio sale de su rango y el movimiento acelera."},
     ];
     let selectedOptionKey = "base";
     let currentFilter = "all";
@@ -479,7 +485,11 @@
       const url = new URL('https://github.com/ugiccba-prog/agentes/issues/new');
       url.searchParams.set('title','Paper / '+command);
       url.searchParams.set('body','Confirmo esta solicitud para la cartera simulada.');
-      window.open(url.toString(),'_blank','noopener,noreferrer');
+      const box=document.getElementById('order-guide');
+      box.hidden=false;
+      document.getElementById('order-action').textContent=command.startsWith('Cerrar')?'Cerrar una posición simulada de Base':'Cambiar la validación de mercados compartidos';
+      document.getElementById('confirm-link').href=url.toString();
+      box.scrollIntoView({block:'nearest'});
     }
     const profile = document.getElementById('profile');
     function explainProfile() {
@@ -492,7 +502,7 @@
       const eligible = Object.entries(cfg.symbols||{}).filter(([,x])=>x.enabled);
       document.getElementById('pulse').textContent = (age<=8?'Actividad reciente':'Actualización demorada')+' · '+Math.max(0,Math.floor(age || 0))+' min desde el último reporte · '+eligible.length+' mercados habilitados';
       const tip = document.getElementById('guidance');
-      tip.textContent = eligible.length ? 'Canasta compartida (5 opciones): '+eligible.map(([sym])=>sym).join(', ')+'.' : 'Sin mercados activos.';
+      tip.textContent = eligible.length ? 'Canasta compartida (7 opciones): '+eligible.map(([sym])=>sym).join(', ')+'.' : 'Sin mercados activos.';
       const winners = (p.open_positions || []).filter(x=>Number(x.unrealized_pnl_usd)>0);
       if(winners.length){
         const best=winners.reduce((a,b)=>a.unrealized_pnl_usd>b.unrealized_pnl_usd?a:b);
@@ -532,23 +542,23 @@
 
       document.getElementById("kpi-grid").innerHTML = `
         <div class="card">
-          <div class="kpi-label">Equity en Vivo (${opt.shortName})</div>
+          <div class="kpi-label">Capital actual (${opt.shortName})</div>
           <div class="kpi-val ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(eq)}</div>
           <div class="kpi-sub ${totalDiff >= 0 ? "pos" : "neg"}">${fmtUsd(totalDiff, true)} (${totalPct >= 0 ? "+" : ""}${totalPct.toFixed(2)}%)</div>
         </div>
         <div class="card">
-          <div class="kpi-label">PnL Realizado</div>
+          <div class="kpi-label">Resultado ya cerrado</div>
           <div class="kpi-val ${realized >= 0 ? "pos" : "neg"}">${fmtUsd(realized, true)}</div>
           <div class="kpi-sub">Cash: ${fmtUsd(p.cash_balance_usd)}</div>
         </div>
         <div class="card">
-          <div class="kpi-label">PnL Flotante</div>
+          <div class="kpi-label">Resultado abierto</div>
           <div class="kpi-val ${unreal >= 0 ? "pos" : "neg"}">${fmtUsd(unreal, true)}</div>
           <div class="kpi-sub">Apalancamiento: ${lev.toFixed(2)}x · Abiertas: ${openPos.length}</div>
         </div>
         <div class="card">
           <div class="kpi-label">Profit Factor / Win Rate</div>
-          <div class="kpi-val">PF ${st.pf.toFixed(2)}</div>
+          <div class="kpi-val">${st.losses.length ? 'PF '+st.pf.toFixed(2) : 'PF: sin pérdidas para comparar'}</div>
           <div class="kpi-sub">${st.wr.toFixed(1)}% (${st.wins.length}W / ${st.losses.length}L)</div>
         </div>
         <div class="card">
@@ -611,7 +621,7 @@
             <td class="${net >= 0 ? "pos" : "neg"}"><strong>${fmtUsd(net, true)}</strong> (${netPct >= 0 ? "+" : ""}${netPct.toFixed(2)}%)</td>
             <td>${openHtml}</td>
             <td>${st.wins.length}W / ${st.losses.length}L (${st.closed.length})</td>
-            <td>PF ${st.pf.toFixed(2)}</td>
+            <td>${st.losses.length ? 'PF '+st.pf.toFixed(2) : 'PF: sin pérdidas para comparar'}</td>
             <td>${Number(p.max_drawdown_pct || 0).toFixed(2)}%</td>
           </tr>`;
       }).join("");
@@ -626,7 +636,7 @@
       const allMatrixSyms = [...enabledSyms, ...extraOpenSyms];
       const mBody = document.getElementById("matrix-body");
       if (!allMatrixSyms.length) {
-        mBody.innerHTML = `<tr><td colspan="6" style="color:var(--muted)">Sin mercados activos configurados.</td></tr>`;
+        mBody.innerHTML = `<tr><td colspan="8" style="color:var(--muted)">Sin mercados activos configurados.</td></tr>`;
       } else {
         mBody.innerHTML = allMatrixSyms.map(sym => {
           const cells = OPTIONS.map(opt => {
@@ -677,6 +687,11 @@
 
         const cfg = await cRes.json();
         lastCfg = cfg;
+        if(cfg.trial_start_utc){
+          const start=new Date(cfg.trial_start_utc);
+          const fmt=d=>d.toLocaleString('es-AR',{timeZone:'America/Argentina/Buenos_Aires',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+          document.getElementById('trial-period').textContent='Cada cartera arrancó con USD 10.000 simulados el '+fmt(start)+'. Primera comparación semanal: '+fmt(new Date(start.getTime()+7*86400000))+' (Argentina).';
+        }
         const study = sRes && sRes.ok ? await sRes.json().catch(() => ({ controls: {} })) : { controls: {} };
 
         OPTIONS.forEach((opt, i) => {
@@ -686,9 +701,9 @@
         const baseP = portfoliosByKey["base"];
         if (baseP) {
           renderDesk(baseP, cfg);
-          document.getElementById("last-sync").textContent = `Último dato 5 opciones: ${baseP.last_updated || "-"} | Refresco automático cada 30s`;
+          document.getElementById("last-sync").textContent = `Último dato 7 opciones: ${baseP.last_updated || "-"} | Refresco automático cada 30s`;
         }
-        document.getElementById("preset-badge").textContent = `5 Opciones en Vivo · Sesión #${cfg.session_count || 1}`;
+        document.getElementById("preset-badge").textContent = `7 Opciones en Vivo · Sesión #${cfg.session_count || 1}`;
 
         renderComparisonAndMatrix(cfg, study);
         renderOptionTabs();
