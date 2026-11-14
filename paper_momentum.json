@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 10785.76,
-  "equity_usd": 10785.76,
+  "equity_usd": 10672.56,
   "realized_pnl_usd": 785.76,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -113.2,
   "peak_equity_usd": 10909.34,
   "day_start_equity_usd": 10000.0,
   "current_day_utc": "2026-11-14",
@@ -11,8 +11,28 @@
   "total_trades": 4,
   "winning_trades": 3,
   "losing_trades": 1,
-  "last_updated": "2026-11-14 16:43:12 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-14 16:46:39 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-736611",
+      "symbol": "AVAX/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "LONG",
+      "entry_time": "2026-11-14 16:45:36 UTC",
+      "entry_price": 7.496,
+      "current_price": 7.451,
+      "size": 2157.35485,
+      "notional_usd": 16171.53,
+      "stop_loss": 7.3910098728,
+      "take_profit": 7.7667394647,
+      "initial_risk_dist": 0.1049901272,
+      "unrealized_pnl_usd": -113.2,
+      "unrealized_pnl_pct": -0.7,
+      "reason": "Rebote en Banda Inferior Bollinger (%B=0.03) + Giro RSI (17.6)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-128038",
