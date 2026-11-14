@@ -204,3 +204,19 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 14:45:37] [7. Escape] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.06148000 | SL: 0.06218438 | TP: 0.05967609 | Tamaño: $23,954.78 USD (Riesgo controlado: $317.91) | OK riesgo 2.99% (dd 0.2%)
 [2026-11-14 14:45:37] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 90%) | Entrada: 0.00000415 | SL: 0.00000424 | TP: 0.00000396 | Tamaño: $12,428.71 USD (Riesgo controlado: $280.11) | OK riesgo 2.63% (dd 0.2%)
 [2026-11-14 14:45:37] 📊 Marcador 7 Opciones | 1. WF Base: $10,565.44 (2A/1C) | 2. WF+Impulso: $10,565.44 (2A/1C) | 3. Chimichurri: $10,566.41 (2A/2C) | 4. Francotirador: $10,344.97 (1A/1C) | 5. Berserker: $10,910.87 (2A/1C) | 6. Resorte: $9,795.46 (0A/1C) | 7. Escape: $10,589.68 (3A/3C)
+[2026-11-14 15:00:42] ☁️ [GITHUB CLOUD] Cierre de vela #107 (7 Opciones) de la sesión #1...
+[2026-11-14 15:00:45]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:00:47]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:00:50]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 15:00:52]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:00:55]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 15:00:58]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 15:01:00]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:01:03] 💓 Cierre de Vela | Equity: $10,611.02 USD (Efectivo: $10,372.04 | Flotante: $+238.98 | Peak: $10,740.50) | Abiertas: 2 | Cerradas: 1
+[2026-11-14 15:01:03] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:01:04] [4. Francotirador] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 97%) | Entrada: 0.00000414 | SL: 0.00000423 | TP: 0.00000391 | Tamaño: $5,936.31 USD (Riesgo controlado: $132.73) | OK riesgo 1.28% (dd 0.4%)
+[2026-11-14 15:01:04] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:01:04] [6. Resorte] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 85%) | Entrada: 74.20000000 | SL: 73.29558206 | TP: 75.74238932 | Tamaño: $19,287.27 USD (Riesgo controlado: $235.09) | OK riesgo 2.40% (dd 2.0%)
+[2026-11-14 15:01:04] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:01:04] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 15:01:04] 📊 Marcador 7 Opciones | 1. WF Base: $10,611.02 (2A/1C) | 2. WF+Impulso: $10,611.02 (2A/1C) | 3. Chimichurri: $10,606.06 (2A/2C) | 4. Francotirador: $10,355.86 (2A/1C) | 5. Berserker: $10,985.16 (2A/1C) | 6. Resorte: $9,776.17 (1A/1C) | 7. Escape: $10,662.42 (3A/3C)
