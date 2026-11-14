@@ -155,3 +155,7 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 14:25:01] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7576912614
 [2026-11-14 14:25:01] [5. Berserker] ✅ CERRADA SUI/USDT (SHORT) a 0.751 | PnL: $+595.40 USD (Take Profit Alcanzado)
 [2026-11-14 14:25:01] [7. Escape] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 66638.4
+[2026-11-14 14:26:08] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 66549.9181523786
+[2026-11-14 14:26:08] [3. Chimichurri] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 74.97
+[2026-11-14 14:26:09] [4. Francotirador] ✅ CERRADA SUI/USDT (SHORT) a 0.748 | PnL: $+276.17 USD (Take Profit Alcanzado)
+[2026-11-14 14:26:11] [7. Escape] ✅ CERRADA SUI/USDT (SHORT) a 0.748 | PnL: $+118.74 USD (Take Profit Alcanzado)
