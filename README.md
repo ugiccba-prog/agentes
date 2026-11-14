@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-14 05:28:26 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-14 05:31:51 UTC`
 
 ---
 
@@ -41,12 +41,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 05:00:35]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 05:00:35]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 05:00:35] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-14 05:00:37] ☁️ [GITHUB CLOUD] Cierre de vela #1 de la sesión #4...
-[2026-11-14 05:00:39]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-14 05:00:42]    SOL/USDT | Esperando señal de ema_pullback
 [2026-11-14 05:00:44]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 05:00:49]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 05:00:53] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
@@ -56,4 +50,10 @@
 [2026-11-14 05:15:39]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 05:15:44]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 05:15:49] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-14 05:30:30] ☁️ [GITHUB CLOUD] Cierre de vela #29 de la sesión #4...
+[2026-11-14 05:30:32]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 05:30:35]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 05:30:37]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 05:30:42]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 05:30:47] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
 ```
