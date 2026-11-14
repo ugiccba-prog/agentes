@@ -93,3 +93,31 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 14:00:48] [7. Escape] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 97%) | Entrada: 0.76210000 | SL: 0.76866945 | TP: 0.74905155 | Tamaño: $6,781.23 USD (Riesgo controlado: $58.46) | OK riesgo 0.59% (dd 0.9%)
 [2026-11-14 14:00:48] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-14 14:00:48] 📊 Marcador 7 Opciones | 1. WF Base: $10,045.22 (1A/0C) | 2. WF+Impulso: $10,045.22 (1A/0C) | 3. Chimichurri: $10,076.87 (2A/0C) | 4. Francotirador: $10,027.13 (1A/0C) | 5. Berserker: $10,072.37 (1A/0C) | 6. Resorte: $9,977.50 (1A/0C) | 7. Escape: $9,915.32 (3A/0C)
+[2026-11-14 14:01:51] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.7644
+[2026-11-14 14:01:51] [2. WF+Impulso] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.7644
+[2026-11-14 14:01:54] [3. Chimichurri] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 66813.51
+[2026-11-14 14:01:54] [4. Francotirador] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.7644
+[2026-11-14 14:01:54] [5. Berserker] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.7644
+[2026-11-14 14:01:54] [6. Resorte] ✅ CERRADA BTC/USDT (LONG) a 66281.61 | PnL: $-204.54 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 14:01:54] [7. Escape] 🔒 Stop (Breakeven) en BNB/USDT SHORT ajustado a 608.18
+[2026-11-14 14:01:54] [7. Escape] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.7621
+[2026-11-14 14:02:58] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
+[2026-11-14 14:03:01]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-14 14:03:04]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:08]    🔎 [SOL/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-14 14:03:11]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-14 14:03:14]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:17]    🔎 [DOGE/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21
+[2026-11-14 14:03:20]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24
+[2026-11-14 14:03:23]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
+[2026-11-14 14:03:26]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:29]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
+[2026-11-14 14:03:32]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:32]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:33]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:33]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:33]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:34]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:34]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:34]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 14:03:34] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
