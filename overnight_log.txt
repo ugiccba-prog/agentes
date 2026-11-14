@@ -181,3 +181,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 14:30:58] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-14 14:30:58] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-14 14:30:59] 📊 Marcador 7 Opciones | 1. WF Base: $10,541.06 (2A/1C) | 2. WF+Impulso: $10,541.06 (2A/1C) | 3. Chimichurri: $10,423.76 (3A/1C) | 4. Francotirador: $10,331.89 (1A/1C) | 5. Berserker: $10,871.49 (2A/1C) | 6. Resorte: $9,795.46 (0A/1C) | 7. Escape: $10,358.23 (3A/1C)
+[2026-11-14 14:35:28] [7. Escape] ✅ CERRADA BNB/USDT (SHORT) a 599.36 | PnL: $+297.23 USD (Take Profit Alcanzado)
