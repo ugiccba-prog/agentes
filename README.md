@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-14 01:28:15 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-14 01:31:44 UTC`
 
 ---
 
@@ -41,12 +41,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 01:00:39]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-14 01:00:45]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-14 01:00:51] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
-[2026-11-14 01:01:52] ☁️ [GITHUB CLOUD] Cierre de vela #2 de la sesión #3...
-[2026-11-14 01:01:54]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-14 01:01:59]    SOL/USDT | Esperando señal de ema_pullback
 [2026-11-14 01:02:01]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 01:02:08]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 01:02:13] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
@@ -56,4 +50,10 @@
 [2026-11-14 01:15:34]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 01:15:41]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 01:15:46] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-14 01:30:19] ☁️ [GITHUB CLOUD] Cierre de vela #29 de la sesión #3...
+[2026-11-14 01:30:22]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 01:30:26]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 01:30:29]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 01:30:35]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 01:30:41] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
 ```
