@@ -39,7 +39,7 @@ def execute_live_cycle(
     open_syms = {p["symbol"] for p in broker.state.open_positions}
 
     for sym in symbols:
-        df_raw, source = get_historical_data(sym, interval=interval, limit=1500, use_cache=True, live_only=True)
+        df_raw, source = get_historical_data(sym, interval=interval, limit=2500, use_cache=True, live_only=True)
         df_closed = closed_only(df_raw, interval)
         if df_closed is None or len(df_closed) < 40:
             continue

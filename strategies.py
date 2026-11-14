@@ -170,29 +170,45 @@ def generate_signals(
                 reasons[i] = f"Pullback Bajista bajo EMA rápida en tendencia estructural (RSI={rsi[i]:.1f})"
 
         elif strategy_name == "momentum_shark":
-            # Estrategia agresiva para capturar impulsos fuertes y rupturas de momento
+            # Impulso explosivo con filtro de tendencia real (ADX + DI), volumen y anti-agotamiento
+            trend_up = adx[i] >= 20.0 and plus_di[i] > minus_di[i]
+            trend_down = adx[i] >= 20.0 and minus_di[i] > plus_di[i]
+            vol_ok = vol_ratio[i] >= 1.05 or vol_ratio[i] == 1.0
             bull_surge = (
-                close[i] > ema_fast[i]
+                trend_up
+                and vol_ok
+                and close[i] > ema_fast[i]
                 and ema_fast[i] >= ema_slow[i] * 0.999
                 and macd_hist[i] > macd_hist[i - 1] > macd_hist[i - 2]
-                and 52.0 <= rsi[i] <= 78.0
+                and 52.0 <= rsi[i] <= 74.0
+                and bb_pct[i] <= 0.92
                 and close[i] > open_p[i]
             )
             bear_surge = (
-                close[i] < ema_fast[i]
+                trend_down
+                and vol_ok
+                and close[i] < ema_fast[i]
                 and ema_fast[i] <= ema_slow[i] * 1.001
                 and macd_hist[i] < macd_hist[i - 1] < macd_hist[i - 2]
-                and 22.0 <= rsi[i] <= 48.0
+                and 26.0 <= rsi[i] <= 48.0
+                and bb_pct[i] >= 0.08
                 and close[i] < open_p[i]
             )
+            shark_score = min(94.0, 82.0 + max(0.0, adx[i] - 20.0) * 0.4 + (4.0 if vol_ratio[i] >= 1.3 else 0.0))
             if bull_surge:
                 signals[i] = 1
-                scores[i] = 90.0
-                reasons[i] = f"Explosión Alcista Shark (3 velas de aceleración MACD + RSI={rsi[i]:.1f})"
+                scores[i] = shark_score
+                reasons[i] = (
+                    f"Explosión Alcista Shark (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
+                    f"3 velas MACD, RSI={rsi[i]:.1f})"
+                )
             elif bear_surge:
                 signals[i] = -1
-                scores[i] = -90.0
-                reasons[i] = f"Explosión Bajista Shark (3 velas de aceleración MACD + RSI={rsi[i]:.1f})"
+                scores[i] = -shark_score
+                reasons[i] = (
+                    f"Explosión Bajista Shark (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
+                    f"3 velas MACD, RSI={rsi[i]:.1f})"
+                )
 
         elif strategy_name == "chimichurri_alpha":
             # Régimen de Tendencia (ADX >= 22) + Ruptura Donchian o Pullback con Volumen

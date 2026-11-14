@@ -45,7 +45,8 @@ SLTP_PAIRS = [(1.2, 2.4), (1.6, 3.2), (2.0, 4.0)]
 
 @dataclass
 class WFConfig:
-    train_frac: float = 0.60
+    train_frac: float = 0.50
+    val_frac: float = 0.25
     cost_pct_per_side: float = 0.03   # spread + comisión + slippage aprox, en % del precio
     min_trades_train: int = 12
     min_trades_oos: int = 8
@@ -159,65 +160,74 @@ def metrics(rs: list[float]) -> dict:
 
 
 # ---------------------------------------------------------------- walk-forward
+WF_SCHEMA_VERSION = 2  # v2: train / validación / test intocable (sin sesgo de selección en el test)
+
+
+def _score(m: dict) -> float:
+    return m["expectancy"] * math.sqrt(m["n"])
+
+
 def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> dict | None:
+    """
+    Tres tramos cronológicos:
+      TRAIN (50%)  -> se generan candidatos (las 63 combinaciones) y se quedan los top-k.
+      VALID (25%)  -> entre esos top-k se elige UNO (acá sí hay selección).
+      TEST  (25%)  -> el elegido se confirma en datos que nunca participaron de ninguna elección.
+    Se acepta solo si: el test no pierde (exp > 0) y el tramo fuera de muestra completo
+    (validación + test) supera los mínimos de trades, expectancy y profit factor.
+    """
     cfg = cfg or WFConfig.from_adaptive_config()
     n = len(df_raw)
     if n < 800:
         return None
-    split = int(n * cfg.train_frac)
+    s_train = int(n * cfg.train_frac)
+    s_val = int(n * (cfg.train_frac + cfg.val_frac))
 
     candidates: list[tuple[float, dict, dict]] = []
     for (ef, es) in EMA_PAIRS:
         df_ind = compute_indicators(df_raw, ema_fast=ef, ema_slow=es)
         for strat in STRATEGY_CATALOG:
             df_sig = generate_signals(df_ind, strategy_name=strat)
-            train = df_sig.iloc[:split]
+            train = df_sig.iloc[:s_train]
             for (slm, tpm) in SLTP_PAIRS:
                 m = metrics(simulate(train, slm, tpm, cfg.cost_pct_per_side, cfg.trail_atr_mult))
                 if m["n"] < cfg.min_trades_train or m["expectancy"] <= 0 or m["pf"] < 1.10:
                     continue
-                score = m["expectancy"] * math.sqrt(m["n"])
                 candidates.append(
-                    (
-                        score,
-                        dict(strategy=strat, ema_fast=ef, ema_slow=es, sl_atr_mult=slm, tp_atr_mult=tpm),
-                        m,
-                    )
+                    (_score(m), dict(strategy=strat, ema_fast=ef, ema_slow=es, sl_atr_mult=slm, tp_atr_mult=tpm), m)
                 )
     if not candidates:
         return None
-
     candidates.sort(key=lambda item: item[0], reverse=True)
-    best_valid: tuple[float, dict, dict, dict] | None = None
 
+    # Validación: elegir un único candidato. Indicadores calculados sobre toda la serie (EMAs "calientes"),
+    # pero cada tramo se simula por separado.
+    chosen = None
     for _, params, train_m in candidates[: max(1, cfg.top_k_candidates)]:
-        # Fuera de muestra: se recalculan indicadores/señales sobre toda la serie (para que
-        # las EMAs estén "calientes") pero se simula solo el tramo nuevo.
         df_ind = compute_indicators(df_raw, ema_fast=params["ema_fast"], ema_slow=params["ema_slow"])
         df_sig = generate_signals(df_ind, strategy_name=params["strategy"])
-        oos_m = metrics(
-            simulate(
-                df_sig.iloc[split:],
-                params["sl_atr_mult"],
-                params["tp_atr_mult"],
-                cfg.cost_pct_per_side,
-                cfg.trail_atr_mult,
-            )
-        )
-        if (
-            oos_m["n"] < cfg.min_trades_oos
-            or oos_m["expectancy"] <= 0
-            or oos_m["pf"] < cfg.min_profit_factor_oos
-        ):
+        sim = lambda part: simulate(part, params["sl_atr_mult"], params["tp_atr_mult"],  # noqa: E731
+                                    cfg.cost_pct_per_side, cfg.trail_atr_mult)
+        val_rs = sim(df_sig.iloc[s_train:s_val])
+        val_m = metrics(val_rs)
+        if val_m["n"] < 3 or val_m["expectancy"] <= 0:
             continue
-        oos_score = oos_m["expectancy"] * math.sqrt(oos_m["n"])
-        if best_valid is None or oos_score > best_valid[0]:
-            best_valid = (oos_score, params, train_m, oos_m)
-
-    if best_valid is None:
+        if chosen is None or _score(val_m) > _score(chosen[2]):
+            chosen = (params, train_m, val_m, val_rs, df_sig)
+    if chosen is None:
         return None
-    _, best_params, best_train, best_oos = best_valid
-    return {**best_params, "train": best_train, "oos": best_oos}
+
+    params, train_m, val_m, val_rs, df_sig = chosen
+    test_rs = simulate(df_sig.iloc[s_val:], params["sl_atr_mult"], params["tp_atr_mult"],
+                       cfg.cost_pct_per_side, cfg.trail_atr_mult)
+    test_m = metrics(test_rs)
+    oos_m = metrics(val_rs + test_rs)  # todo lo que no es train
+
+    if test_m["n"] < 2 or test_m["expectancy"] <= 0:
+        return None
+    if oos_m["n"] < cfg.min_trades_oos or oos_m["expectancy"] <= 0 or oos_m["pf"] < cfg.min_profit_factor_oos:
+        return None
+    return {**params, "train": train_m, "val": val_m, "test": test_m, "oos": oos_m, "schema": WF_SCHEMA_VERSION}
 
 
 # ---------------------------------------------------------------- cache semanal
@@ -234,11 +244,12 @@ def get_validated_params(symbol: str, df_long: pd.DataFrame, force: bool = False
     cfg = cfg or WFConfig.from_adaptive_config()
     cache = _load()
     entry = cache.get(symbol)
-    if entry and not force and (time.time() - entry["ts"]) < cfg.max_age_days * 86400:
+    fresh = entry and (time.time() - entry["ts"]) < cfg.max_age_days * 86400
+    if fresh and not force and entry.get("schema") == WF_SCHEMA_VERSION:
         return entry["params"]  # puede ser None (rechazado): no se recalcula por 7 días
 
     params = walk_forward_select(df_long, cfg)
-    cache[symbol] = {"ts": time.time(), "params": params}
+    cache[symbol] = {"ts": time.time(), "schema": WF_SCHEMA_VERSION, "bars": len(df_long), "params": params}
     CACHE_FILE.write_text(json.dumps(cache, indent=2), encoding="utf-8")
     if params is None:
         print(f"  🚫 {symbol}: sin edge validado fuera de muestra, no se opera esta semana")

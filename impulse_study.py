@@ -19,7 +19,7 @@ def update_study(state, history):
     report = json.loads(REPORT.read_text()) if REPORT.exists() else {"controls": {}}
     controls = report["controls"]
     for trade in state.closed_trades:
-        if trade["strategy"] not in ("momentum_extra", "momentum_shark"):
+        if trade["strategy"] not in ("momentum_extra", "momentum_shark", "momentum_base"):
             continue
         key = "|".join((trade["symbol"], trade["entry_time"], trade["id"]))
         if key in controls:
@@ -39,7 +39,7 @@ def update_study(state, history):
         candidates = []
         for t, price in sorted(prices.items()):
             end = t + timedelta(minutes=15*bars)
-            if max(START,entry-timedelta(hours=24)) <= t and end <= entry and end in prices:
+            if (entry - timedelta(hours=24)) <= t and end <= entry and end in prices:
                 ratio = prices[end]/price
                 candidates.append(notional*(sign*(ratio-1)-fee*(1+ratio)))
         if len(candidates) < 5:

@@ -77,17 +77,17 @@ def run_self_correction_phase(
     force: bool = False,
 ) -> dict:
     """
-    Fase de auto-evaluación y validación Walk-Forward semanal (OOS):
-    1. Descarga hasta 1500 velas cerradas por mercado.
-    2. Selecciona parámetros en el 60% más viejo y valida en el 40% más nuevo (PF >= 1.15 OOS).
+    Fase de auto-evaluación y validación Walk-Forward semanal (3 etapas: Train/Val/Test):
+    1. Descarga hasta 2500 velas cerradas por mercado.
+    2. Selecciona candidatos en Train (50%), elige uno en Validación (25%) y confirma en Test intocable (25%).
     3. Cachea resultados y rechazos por 7 días en wf_params.json.
     """
-    log_event("🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (OOS 60/40)...")
+    log_event("🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...")
     corrections_made = 0
 
     for sym in DEFAULT_SYMBOLS:
         try:
-            df_raw, source = get_historical_data(sym, interval=interval, limit=1500, use_cache=True, live_only=True)
+            df_raw, source = get_historical_data(sym, interval=interval, limit=2500, use_cache=True, live_only=True)
             df_closed = closed_only(df_raw, interval)
             if df_closed is None or len(df_closed) < 800:
                 log_event(

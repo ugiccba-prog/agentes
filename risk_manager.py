@@ -46,6 +46,7 @@ class RiskConfig:
     dd_halt_pct: float = 15.0         # drawdown desde el pico -> no abrir más
     min_sl_pct: float = 0.08          # SL más chico que esto se lo come el spread
     trail_atr_mult: float = 1.5       # multiplicador ATR para trailing desde +2R
+    max_cluster_risk_pct: float = 6.0  # riesgo máx. en un mismo bloque correlacionado (p.ej. cripto corta)
 
     @classmethod
     def from_adaptive_config(cls) -> "RiskConfig":
@@ -153,17 +154,29 @@ class RiskManager:
 
         risk = self._risk_pct(confidence, dd)
 
-        # riesgo total abierto
-        open_risk_usd = sum(
-            p["notional_usd"] * abs(p["entry_price"] - p["stop_loss"]) / p["entry_price"]
-            for p in open_positions
-        )
+        # riesgo total abierto (solo cuenta lo que realmente se puede perder:
+        # una posición con stop en breakeven o trailing en ganancia no consume riesgo)
+        open_risk_usd = sum(self.open_risk_usd(p) for p in open_positions)
         new_risk_usd = equity * risk / 100
         if (open_risk_usd + new_risk_usd) / equity * 100 > c.max_total_open_risk_pct:
             room = c.max_total_open_risk_pct - open_risk_usd / equity * 100
             if room < c.min_risk_pct:
                 return False, 0.0, f"riesgo total abierto al tope ({c.max_total_open_risk_pct}%)"
             risk = room
+
+        # riesgo correlacionado: 4 cortos en cripto son UNA sola apuesta contra el BTC-beta
+        bucket_risk: dict[tuple[str, int], float] = {}
+        for p in open_positions:
+            r_usd = self.open_risk_usd(p)
+            for ccy, s in currency_exposure(p["symbol"], p["side"]).items():
+                bucket_risk[(ccy, s)] = bucket_risk.get((ccy, s), 0.0) + r_usd
+        for ccy, s in currency_exposure(symbol, side).items():
+            used_pct = bucket_risk.get((ccy, s), 0.0) / equity * 100
+            room = c.max_cluster_risk_pct - used_pct
+            if room < c.min_risk_pct:
+                direction = "largo" if s > 0 else "corto"
+                return False, 0.0, f"bloque correlacionado {ccy} {direction} al tope ({used_pct:.1f}% de {c.max_cluster_risk_pct}%)"
+            risk = min(risk, room)
 
         # apalancamiento total
         notional_new = equity * risk / 100 / (sl_pct / 100)
@@ -179,6 +192,16 @@ class RiskManager:
         return True, round(risk, 3), f"OK riesgo {risk:.2f}% (dd {dd:.1f}%)"
 
     # ---------- gestión de salida: dejar correr ganadoras ----------
+    @staticmethod
+    def open_risk_usd(p: dict) -> float:
+        """USD que se pierden si salta el stop actual (0 si el stop ya está en breakeven o ganancia)."""
+        entry = float(p["entry_price"])
+        sl = float(p["stop_loss"])
+        if entry <= 0:
+            return 0.0
+        dist = (entry - sl) if str(p["side"]).upper().startswith("LONG") else (sl - entry)
+        return float(p["notional_usd"]) * max(0.0, dist) / entry
+
     @staticmethod
     def manage_stop(
         side: str, entry: float, price: float, sl: float, atr: float,

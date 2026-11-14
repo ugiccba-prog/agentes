@@ -157,7 +157,7 @@ with tab_live:
     with b1:
         if st.button("🚀 Ejecutar Ciclo de Escaneo Ahora (Velas Cerradas)", use_container_width=True):
             with st.spinner("Evaluando velas cerradas, Walk-Forward OOS y RiskManager..."):
-                execute_live_cycle(broker, symbols=list(DEFAULT_SYMBOLS.keys()), interval="15m", risk_pct=rcfg.base_risk_pct)
+                execute_live_cycle(broker, symbols=list(DEFAULT_SYMBOLS.keys()), interval="15m")
             st.success("Ciclo ejecutado y live_portfolio.json actualizado.")
             st.rerun()
     with b2:
@@ -251,8 +251,8 @@ with tab_live:
             st.write("")
             if st.button("✂️ Cerrar Posición Seleccionada", use_container_width=True):
                 target_sym = selected_pos_label.split(" ")[0]
-                ok_close, msg_close = broker.close_position_by_symbol(target_sym, reason="Cierre Manual desde Panel")
-                if ok_close:
+                msg_close = broker.close_position_by_symbol(target_sym, reason="Cierre Manual desde Panel")
+                if msg_close.startswith("✅"):
                     st.success(msg_close)
                     st.rerun()
                 else:
@@ -308,6 +308,7 @@ with tab_live:
                     "Salida": float(t.get("exit_price", 0.0)),
                     "PnL ($ USD)": pnl_u,
                     "PnL (%)": float(t.get("pnl_pct", 0.0)),
+                    "R-Múltiplo": float(t.get("r_multiple", 0.0)),
                     "Motivo de Cierre": t.get("exit_reason", ""),
                 }
             )
@@ -321,6 +322,7 @@ with tab_live:
                 "Salida": st.column_config.NumberColumn(format="%.6g"),
                 "PnL ($ USD)": st.column_config.NumberColumn(format="$%+.2f"),
                 "PnL (%)": st.column_config.NumberColumn(format="%+.2f%%"),
+                "R-Múltiplo": st.column_config.NumberColumn(format="%+.2fR"),
             },
         )
 
@@ -371,6 +373,63 @@ with tab_live:
             st.altair_chart(chart_sym, use_container_width=True)
     else:
         st.caption("Aún no se han cerrado operaciones en la cuenta en vivo.")
+
+    st.markdown("---")
+    st.subheader("🔬 Sección C — Comparativa A/B en Vivo: Base vs Base + Impulso (Monte Carlo)")
+    base_file = ROOT_DIR / "paper_base.json"
+    mom_file = ROOT_DIR / "paper_momentum.json"
+    study_file = ROOT_DIR / "impulse_study.json"
+    if base_file.exists() and mom_file.exists():
+        p_base = json.loads(base_file.read_text(encoding="utf-8"))
+        p_mom = json.loads(mom_file.read_text(encoding="utf-8"))
+        comp_rows = []
+        for label, pdata in [("Estrategia Base (OOS)", p_base), ("Base + Impulso (Shark)", p_mom)]:
+            ct = pdata.get("closed_trades", [])
+            op = pdata.get("open_positions", [])
+            net_eq = float(pdata.get("equity_usd", 10000.0)) - float(pdata.get("initial_balance_usd", 10000.0))
+            comp_rows.append(
+                {
+                    "Cartera": label,
+                    "Equity ($ USD)": float(pdata.get("equity_usd", 10000.0)),
+                    "Resultado Neto ($ USD)": round(net_eq, 2),
+                    "Cerradas": len(ct),
+                    "Abiertas": len(op),
+                    "Peor Caída (%)": round(float(pdata.get("max_drawdown_pct", 0.0)), 2),
+                    "Último Reporte": str(pdata.get("last_updated", "")),
+                }
+            )
+        st.dataframe(
+            pd.DataFrame(comp_rows),
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "Equity ($ USD)": st.column_config.NumberColumn(format="$%,.2f"),
+                "Resultado Neto ($ USD)": st.column_config.NumberColumn(format="$%+,.2f"),
+                "Peor Caída (%)": st.column_config.NumberColumn(format="%.2f%%"),
+            },
+        )
+        if study_file.exists():
+            study_data = json.loads(study_file.read_text(encoding="utf-8")).get("controls", {})
+            mom_closed = [
+                t for t in p_mom.get("closed_trades", [])
+                if t.get("strategy") in ("momentum_extra", "momentum_shark", "momentum_base")
+            ]
+            matched = [
+                study_data.get(f"{t.get('symbol')}|{t.get('entry_time')}|{t.get('id')}")
+                for t in mom_closed
+            ]
+            matched = [m for m in matched if m]
+            if matched:
+                sims = sorted(sum(m["random_net"][i] for m in matched) for i in range(200))
+                impulse_net = sum(float(m["trade_net"]) for m in matched)
+                median_rng = (sims[99] + sims[100]) / 2.0
+                st.info(
+                    f"📊 **Estudio de Timing vs Entradas al Azar ({len(matched)} cierres comparables):** "
+                    f"Impulso Neto: **${impulse_net:+,.2f}** · Mediana al Azar: **${median_rng:+,.2f}** · "
+                    f"Rango 90% Azar: `${sims[10]:+,.2f}` a `${sims[189]:+,.2f}`"
+                )
+    else:
+        st.caption("Comparativa A/B pendiente de generación (`paper_base.json` / `paper_momentum.json`).")
 
 
 # ==============================================================================

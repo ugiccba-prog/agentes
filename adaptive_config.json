@@ -1,20 +1,17 @@
 {
   "session_count": 6,
-  "corrections_applied": 18,
+  "corrections_applied": 25,
   "global_risk_pct": 3.5,
   "symbols": {
     "BTC/USDT": {
-      "enabled": true,
+      "enabled": false,
       "strategy": "ema_pullback",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
-      "ema_fast": 20,
-      "ema_slow": 50,
-      "backtest_return_pct": 2.38,
-      "backtest_profit_factor": 1.46,
-      "backtest_win_rate": 44.4,
+      "ema_fast": 12,
+      "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (ema_pullback) | PF=1.46, Exp=+0.26R, WR=44.4%, Trades=9"
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "ETH/USDT": {
       "enabled": false,
@@ -27,30 +24,24 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "SOL/USDT": {
-      "enabled": true,
-      "strategy": "ema_pullback",
-      "sl_atr_mult": 2.0,
-      "tp_atr_mult": 4.0,
-      "ema_fast": 20,
-      "ema_slow": 50,
-      "backtest_return_pct": 3.12,
-      "backtest_profit_factor": 1.68,
-      "backtest_win_rate": 33.3,
-      "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (ema_pullback) | PF=1.68, Exp=+0.26R, WR=33.3%, Trades=12"
-    },
-    "BNB/USDT": {
-      "enabled": true,
+      "enabled": false,
       "strategy": "ema_pullback",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
-      "ema_fast": 20,
-      "ema_slow": 50,
-      "backtest_return_pct": 3.79,
-      "backtest_profit_factor": 1.51,
-      "backtest_win_rate": 46.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
       "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (ema_pullback) | PF=1.51, Exp=+0.29R, WR=46.2%, Trades=13"
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "BNB/USDT": {
+      "enabled": false,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "XRP/USDT": {
       "enabled": false,
@@ -63,37 +54,40 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "DOGE/USDT": {
-      "enabled": false,
-      "strategy": "confluence",
-      "sl_atr_mult": 1.6,
-      "tp_atr_mult": 3.2,
+      "enabled": true,
+      "strategy": "chimichurri_alpha",
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 4.0,
       "ema_fast": 12,
       "ema_slow": 26,
+      "backtest_return_pct": 2.63,
+      "backtest_profit_factor": 1.24,
+      "backtest_win_rate": 33.3,
       "data_source": "Binance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21"
     },
     "SUI/USDT": {
-      "enabled": false,
-      "strategy": "confluence",
-      "sl_atr_mult": 1.6,
-      "tp_atr_mult": 3.2,
-      "ema_fast": 12,
-      "ema_slow": 26,
-      "data_source": "Binance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
-    },
-    "AVAX/USDT": {
       "enabled": true,
-      "strategy": "bollinger_reversion",
+      "strategy": "chimichurri_alpha",
       "sl_atr_mult": 1.6,
       "tp_atr_mult": 3.2,
       "ema_fast": 9,
       "ema_slow": 21,
-      "backtest_return_pct": 2.68,
-      "backtest_profit_factor": 1.16,
-      "backtest_win_rate": 30.3,
+      "backtest_return_pct": 8.47,
+      "backtest_profit_factor": 1.94,
+      "backtest_win_rate": 37.5,
       "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (bollinger_reversion) | PF=1.16, Exp=+0.08R, WR=30.3%, Trades=33"
+      "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24"
+    },
+    "AVAX/USDT": {
+      "enabled": false,
+      "strategy": "bollinger_reversion",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "LINK/USDT": {
       "enabled": false,
@@ -106,14 +100,17 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "PEPE/USDT": {
-      "enabled": false,
-      "strategy": "confluence",
-      "sl_atr_mult": 1.6,
-      "tp_atr_mult": 3.2,
-      "ema_fast": 12,
-      "ema_slow": 26,
+      "enabled": true,
+      "strategy": "volatility_breakout",
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 4.0,
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "backtest_return_pct": 5.15,
+      "backtest_profit_factor": 1.35,
+      "backtest_win_rate": 33.3,
       "data_source": "Binance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30"
     },
     "ADA/USDT": {
       "enabled": false,
@@ -196,7 +193,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-14 12:23:13 UTC",
+  "last_updated": "2026-11-14 12:34:46 UTC",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
   "risk_config": {
     "base_risk_pct": 1.5,

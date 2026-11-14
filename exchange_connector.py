@@ -79,6 +79,14 @@ class ClosedLiveTrade:
     pnl_pct: float
     exit_reason: str
     broker_mode: str
+    risk_usd: float = 0.0      # riesgo inicial en USD (distancia SL inicial * tamaño)
+    r_multiple: float = 0.0    # resultado en múltiplos de R: la métrica honesta para comparar estrategias
+
+
+def _risk_and_r(pos: dict, net_pnl: float) -> tuple[float, float]:
+    risk_usd = float(pos.get("initial_risk_dist", 0.0)) * float(pos.get("size", 0.0))
+    r_mult = (net_pnl / risk_usd) if risk_usd > 0 else 0.0
+    return round(risk_usd, 2), round(r_mult, 3)
 
 
 @dataclass
@@ -220,21 +228,8 @@ class LiveExecutionBroker:
         if self.portfolio_file.exists():
             try:
                 raw = json.loads(self.portfolio_file.read_text(encoding="utf-8"))
-                st = PortfolioState(**raw)
-                for trade in st.closed_trades.copy():
-                    if (trade.get("id") == "ORD-144949" and trade.get("symbol") == "DOGE/USDT"
-                            and trade.get("pnl_usd") == 21517.24):
-                        st.closed_trades.remove(trade)
-                        st.excluded_trades.append(trade)
-                        gain = trade["pnl_usd"]
-                        st.cash_balance_usd = round(st.cash_balance_usd - gain, 2)
-                        st.realized_pnl_usd = round(st.realized_pnl_usd - gain, 2)
-                        st.equity_usd = round(st.equity_usd - gain, 2)
-                        st.peak_equity_usd = max(st.initial_balance_usd, round(st.peak_equity_usd - gain, 2))
-                        if st.current_day_utc > trade["exit_time"][:10]:
-                            st.day_start_equity_usd = round(st.day_start_equity_usd - gain, 2)
-                        st.total_trades -= 1
-                        st.winning_trades -= 1
+                known = {f for f in PortfolioState.__dataclass_fields__}
+                st = PortfolioState(**{k: v for k, v in raw.items() if k in known})
                 self._sync_watermarks(st)
                 return st
             except Exception:
@@ -389,6 +384,8 @@ class LiveExecutionBroker:
                     pnl_pct=round(pnl_pct, 2),
                     exit_reason=closed_reason,
                     broker_mode=pos.get("broker_mode", "Paper Trading En Vivo"),
+                    risk_usd=_risk_and_r(pos, net_pnl)[0],
+                    r_multiple=_risk_and_r(pos, net_pnl)[1],
                 )
                 self.state.closed_trades.append(asdict(closed_record))
                 events.append(
@@ -606,6 +603,8 @@ class LiveExecutionBroker:
                     pnl_pct=round(pnl_pct, 2),
                     exit_reason=reason,
                     broker_mode=pos.get("broker_mode", "Paper Trading En Vivo"),
+                    risk_usd=_risk_and_r(pos, net_pnl)[0],
+                    r_multiple=_risk_and_r(pos, net_pnl)[1],
                 )
                 self.state.closed_trades.append(asdict(closed_record))
                 msg = f"✅ Cerrada posición {pos['side']} en {symbol} a {live_price:.5f} | PnL: ${net_pnl:+.2f} USD ({reason})"
