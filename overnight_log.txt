@@ -187,3 +187,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 14:36:36] [3. Chimichurri] ✅ CERRADA BTC/USDT (SHORT) a 66054.01 | PnL: $+233.40 USD (Take Profit Alcanzado)
 [2026-11-14 14:36:36] [4. Francotirador] 🔒 Stop (Breakeven) en DOGE/USDT SHORT ajustado a 0.06191
 [2026-11-14 14:36:36] [5. Berserker] 🔒 Stop (Breakeven) en DOGE/USDT SHORT ajustado a 0.06191
+[2026-11-14 14:39:54] [7. Escape] ✅ CERRADA BTC/USDT (SHORT) a 65923.32 | PnL: $+201.68 USD (Take Profit Alcanzado)
