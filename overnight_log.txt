@@ -685,3 +685,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 20:45:43] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-14 20:45:43] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 98%) | Entrada: 0.00000386 | SL: 0.00000398 | TP: 0.00000365 | Tamaño: $2,284.64 USD (Riesgo controlado: $69.55) | OK riesgo 0.62% (dd 3.0%)
 [2026-11-14 20:45:43] 📊 Marcador 7 Opciones | 1. WF Base: $10,791.94 (3A/5C) | 2. WF+Impulso: $10,791.94 (3A/5C) | 3. Chimichurri: $11,971.68 (4A/4C) | 4. Francotirador: $11,197.97 (3A/3C) | 5. Berserker: $11,108.30 (4A/5C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
+[2026-11-14 20:51:07] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7179995177
+[2026-11-14 20:51:07] [2. WF+Impulso] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7179995177
+[2026-11-14 20:51:08] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT SHORT ajustado a 0.7201594212
+[2026-11-14 20:51:08] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7179995177
+[2026-11-14 20:51:08] [5. Berserker] 🔒 Stop (Trailing 1.3 ATR) en SUI/USDT SHORT ajustado a 0.716559582
+[2026-11-14 20:53:16] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7169995177
+[2026-11-14 20:53:16] [2. WF+Impulso] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7169995177
+[2026-11-14 20:53:17] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT SHORT ajustado a 0.7191594212
+[2026-11-14 20:53:17] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.7169995177
+[2026-11-14 20:53:17] [5. Berserker] 🔒 Stop (Trailing 1.3 ATR) en SUI/USDT SHORT ajustado a 0.715559582
