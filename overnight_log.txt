@@ -628,3 +628,25 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 20:06:27]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 20:06:27]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 20:06:27] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-14 20:16:07] ☁️ [GITHUB CLOUD] Cierre de vela #182 (7 Opciones) de la sesión #2...
+[2026-11-14 20:16:10]    🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:16:12]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 20:16:14]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 20:16:16]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 20:16:18]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 20:16:20]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 20:16:22]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 20:16:25] ✅ CERRADA AVAX/USDT (LONG) a 7.37 | PnL: $-287.86 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 20:16:25] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.728
+[2026-11-14 20:16:25] 💓 Cierre de Vela | Equity: $10,691.59 USD (Efectivo: $10,497.90 | Flotante: $+193.69 | Peak: $10,937.78) | Abiertas: 2 | Cerradas: 5
+[2026-11-14 20:16:25] [2. WF+Impulso] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:16:25] [2. WF+Impulso] ✅ CERRADA AVAX/USDT (LONG) a 7.37 | PnL: $-287.86 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 20:16:25] [2. WF+Impulso] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.728
+[2026-11-14 20:16:25] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:16:26] [3. Chimichurri] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.728
+[2026-11-14 20:16:26] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:16:26] [4. Francotirador] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.728
+[2026-11-14 20:16:26] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 20:16:26] [5. Berserker] ✅ CERRADA AVAX/USDT (LONG) a 7.37 | PnL: $-528.03 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-14 20:16:26] [5. Berserker] 🔒 Stop (Breakeven) en SUI/USDT SHORT ajustado a 0.728
+[2026-11-14 20:16:26] 📊 Marcador 7 Opciones | 1. WF Base: $10,691.59 (2A/5C) | 2. WF+Impulso: $10,691.59 (2A/5C) | 3. Chimichurri: $11,712.51 (3A/4C) | 4. Francotirador: $11,095.37 (2A/3C) | 5. Berserker: $10,974.50 (2A/5C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
