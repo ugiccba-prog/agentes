@@ -188,3 +188,19 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 14:36:36] [4. Francotirador] 🔒 Stop (Breakeven) en DOGE/USDT SHORT ajustado a 0.06191
 [2026-11-14 14:36:36] [5. Berserker] 🔒 Stop (Breakeven) en DOGE/USDT SHORT ajustado a 0.06191
 [2026-11-14 14:39:54] [7. Escape] ✅ CERRADA BTC/USDT (SHORT) a 65923.32 | PnL: $+201.68 USD (Take Profit Alcanzado)
+[2026-11-14 14:45:14] ☁️ [GITHUB CLOUD] Cierre de vela #93 (7 Opciones) de la sesión #1...
+[2026-11-14 14:45:17]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 14:45:20]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 14:45:22]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 14:45:25]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 14:45:28]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 14:45:30]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 14:45:33]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 14:45:35] 💓 Cierre de Vela | Equity: $10,565.44 USD (Efectivo: $10,372.04 | Flotante: $+193.40 | Peak: $10,740.50) | Abiertas: 2 | Cerradas: 1
+[2026-11-14 14:45:35] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 14:45:36] [4. Francotirador] 🎯 [Francotirador] PEPE/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-14 14:45:36] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 14:45:37] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 14:45:37] [7. Escape] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.06148000 | SL: 0.06218438 | TP: 0.05967609 | Tamaño: $23,954.78 USD (Riesgo controlado: $317.91) | OK riesgo 2.99% (dd 0.2%)
+[2026-11-14 14:45:37] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 90%) | Entrada: 0.00000415 | SL: 0.00000424 | TP: 0.00000396 | Tamaño: $12,428.71 USD (Riesgo controlado: $280.11) | OK riesgo 2.63% (dd 0.2%)
+[2026-11-14 14:45:37] 📊 Marcador 7 Opciones | 1. WF Base: $10,565.44 (2A/1C) | 2. WF+Impulso: $10,565.44 (2A/1C) | 3. Chimichurri: $10,566.41 (2A/2C) | 4. Francotirador: $10,344.97 (1A/1C) | 5. Berserker: $10,910.87 (2A/1C) | 6. Resorte: $9,795.46 (0A/1C) | 7. Escape: $10,589.68 (3A/3C)
