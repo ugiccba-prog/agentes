@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-14 00:58:58 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-14 01:00:28 UTC`
 
 ---
 
@@ -41,19 +41,19 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 00:23:50]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 00:23:50]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 00:23:50] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-14 00:30:56] ☁️ [GITHUB CLOUD] Cierre de vela #66 de la sesión #2...
-[2026-11-14 00:30:58]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-14 00:31:02]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-14 00:31:04]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-14 00:31:10]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-14 00:31:15] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
-[2026-11-14 00:45:28] ☁️ [GITHUB CLOUD] Cierre de vela #80 de la sesión #2...
-[2026-11-14 00:45:31]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-14 00:45:34]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-14 00:45:37]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-14 00:45:43]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-14 00:45:48] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-14 01:00:13]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:15]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:17]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:20]    🔎 [AVAX/USDT] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=1.16, Exp=+0.08R, WR=30.3%, Trades=33
+[2026-11-14 01:00:22]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:24]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:26]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:26]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:27]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:27]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:27]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:28]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:28]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:28]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 01:00:28] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 ```
