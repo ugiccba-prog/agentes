@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11591.2,
-  "equity_usd": 11847.82,
-  "realized_pnl_usd": 1591.2,
-  "unrealized_pnl_usd": 256.62,
+  "cash_balance_usd": 11913.34,
+  "equity_usd": 11913.34,
+  "realized_pnl_usd": 1913.34,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 11996.33,
   "day_start_equity_usd": 10000.0,
   "current_day_utc": "2026-11-14",
   "max_drawdown_pct": 2.0154497250409187,
-  "total_trades": 5,
-  "winning_trades": 5,
+  "total_trades": 6,
+  "winning_trades": 6,
   "losing_trades": 0,
-  "last_updated": "2026-11-14 22:05:28 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-143032",
-      "symbol": "DOGE/USDT",
-      "market": "CRYPTO",
-      "strategy": "chimichurri_alpha",
-      "side": "SHORT",
-      "entry_time": "2026-11-14 20:45:43 UTC",
-      "entry_price": 0.05898,
-      "current_price": 0.05661,
-      "size": 110985.41879,
-      "notional_usd": 6545.92,
-      "stop_loss": 0.0575486503,
-      "take_profit": 0.0561131664,
-      "initial_risk_dist": 0.0009945006,
-      "unrealized_pnl_usd": 256.62,
-      "unrealized_pnl_pct": 3.92,
-      "reason": "Chimichurri Alpha SHORT (ADX=43.0, Vol=2.01x, RSI=26.5, Ruptura Donchian)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "last_updated": "2026-11-14 22:08:45 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-130553",
@@ -123,6 +103,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 114.35,
       "r_multiple": 1.649
+    },
+    {
+      "id": "ORD-143032",
+      "symbol": "DOGE/USDT",
+      "market": "CRYPTO",
+      "strategy": "chimichurri_alpha",
+      "side": "SHORT",
+      "entry_time": "2026-11-14 20:45:43 UTC",
+      "exit_time": "2026-11-14 22:08:44 UTC",
+      "entry_price": 0.05898,
+      "exit_price": 0.05602,
+      "size": 110985.41879,
+      "pnl_usd": 322.14,
+      "pnl_pct": 4.92,
+      "exit_reason": "Take Profit Alcanzado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 110.38,
+      "r_multiple": 2.919
     }
   ],
   "excluded_trades": []

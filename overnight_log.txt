@@ -877,3 +877,5 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 22:04:24]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 22:04:24]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 22:04:24] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-14 22:08:44] [3. Chimichurri] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 64368.01
+[2026-11-14 22:08:45] [4. Francotirador] ✅ CERRADA DOGE/USDT (SHORT) a 0.05602 | PnL: $+322.14 USD (Take Profit Alcanzado)
