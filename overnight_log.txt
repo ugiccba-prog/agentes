@@ -936,3 +936,23 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 23:01:25] 💓 Cierre de Vela | Equity: $11,837.79 USD (Efectivo: $11,882.66 | Flotante: $-44.87 | Peak: $12,266.45) | Abiertas: 1 | Cerradas: 9
 [2026-11-14 23:01:27] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-14 23:01:28] 📊 Marcador 7 Opciones | 1. WF Base: $11,837.79 (1A/9C) | 2. WF+Impulso: $11,837.79 (1A/9C) | 3. Chimichurri: $13,354.84 (1A/8C) | 4. Francotirador: $11,913.34 (0A/6C) | 5. Berserker: $12,766.37 (2A/9C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,478.15 (2A/6C)
+[2026-11-14 23:04:43] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
+[2026-11-14 23:04:45]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-14 23:04:47]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:04:50]    🔎 [SOL/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-14 23:04:52]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-14 23:04:55]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:04:57]    🔎 [DOGE/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21
+[2026-11-14 23:05:00]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24
+[2026-11-14 23:05:04]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
+[2026-11-14 23:05:06]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:08]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
+[2026-11-14 23:05:11]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:11]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:11]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:12]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:12]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:12]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:12]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:13]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-14 23:05:13] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
