@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-14 07:27:12 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-14 07:30:35 UTC`
 
 ---
 
@@ -41,12 +41,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 07:02:08]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 07:02:08]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 07:02:08]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 07:02:09]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 07:02:09]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 07:02:09]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 07:02:09]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 07:02:09]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 07:02:09] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
@@ -56,4 +50,10 @@
 [2026-11-14 07:15:42]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-14 07:15:48]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-14 07:15:52] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-14 07:30:16] ☁️ [GITHUB CLOUD] Cierre de vela #141 de la sesión #4...
+[2026-11-14 07:30:18]    🛡️ [RiskManager] BTC/USDT SHORT bloqueado: R:R 2.00 < 2.0
+[2026-11-14 07:30:21]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 07:30:23]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 07:30:28]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 07:30:32] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
 ```
