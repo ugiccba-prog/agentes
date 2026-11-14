@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `5` | **Última actualización:** `2026-11-14 12:12:49 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `5` | **Última actualización:** `2026-11-14 12:16:38 UTC`
 
 ---
 
@@ -11,10 +11,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$10,005.02 USD`** (`+0.05%` / `$+5.02 USD`) |
-| **Pico Máximo (Peak Equity)** | `$10,005.43 USD` (Inicio Día UTC: `$10,000.00 USD`) |
+| **Equity Total en Vivo** | **`$10,033.92 USD`** (`+0.34%` / `$+33.92 USD`) |
+| **Pico Máximo (Peak Equity)** | `$10,033.92 USD` (Inicio Día UTC: `$10,000.00 USD`) |
 | **Efectivo Cerrado (Cash)** | `$10,000.00 USD` (PnL Realizado: `$+0.00 USD`) |
-| **PnL Flotante Actual** | `$+5.02 USD` |
+| **PnL Flotante Actual** | `$+33.92 USD` |
 | **Win Rate & Profit Factor Real** | `0.0%` (`0W / 0L` de `0`) · **PF `0.00`** |
 | **Meta Paper Trading (100 Trades)** | `0 / 100` cerrados |
 
@@ -26,8 +26,8 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `67232` | `67183` | `67655` (🛡️ Inicial) | `66441` | **$-11.14** (-0.03%) |
-| `BNB/USDT` | **SHORT** | `ema_pullback` | `617.13` | `615.33` | `621.69` (🛡️ Inicial) | `609.76` | **$+16.16** (+0.19%) |
+| `BTC/USDT` | **SHORT** | `ema_pullback` | `67232` | `67144` | `67655` (🛡️ Inicial) | `66441` | **$+12.57** (+0.03%) |
+| `BNB/USDT` | **SHORT** | `ema_pullback` | `617.13` | `614.95` | `621.69` (🛡️ Inicial) | `609.76` | **$+21.35** (+0.25%) |
 
 ---
 
@@ -42,12 +42,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-14 12:04:37]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 12:04:40]    🔎 [DOGE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 12:04:42]    🔎 [SUI/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 12:04:45]    🔎 [AVAX/USDT] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=1.16, Exp=+0.08R, WR=30.3%, Trades=33
-[2026-11-14 12:04:47]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-14 12:04:50]    🔎 [PEPE/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 12:04:52]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 12:04:53]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 12:04:53]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
@@ -57,4 +51,10 @@
 [2026-11-14 12:04:53]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 12:04:54]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-14 12:04:54] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-14 12:16:07] ☁️ [GITHUB CLOUD] Cierre de vela #171 de la sesión #5...
+[2026-11-14 12:16:10]    🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-14 12:16:15]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 12:16:18]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 12:16:25]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 12:16:34] 💓 Cierre de Vela | Equity: $10,033.92 USD (Efectivo: $10,000.00 | Flotante: $+33.92 | Peak: $10,033.92) | Abiertas: 2 | Cerradas: 0
 ```
