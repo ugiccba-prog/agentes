@@ -573,3 +573,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-14 19:15:39]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-14 19:15:41] 💓 Cierre de Vela | Equity: $10,660.83 USD (Efectivo: $10,785.76 | Flotante: $-124.93 | Peak: $10,937.78) | Abiertas: 2 | Cerradas: 4
 [2026-11-14 19:15:41] 📊 Marcador 7 Opciones | 1. WF Base: $10,660.83 (2A/4C) | 2. WF+Impulso: $10,660.83 (2A/4C) | 3. Chimichurri: $11,319.19 (1A/4C) | 4. Francotirador: $10,926.97 (1A/3C) | 5. Berserker: $10,996.90 (2A/4C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
+[2026-11-14 19:30:21] ☁️ [GITHUB CLOUD] Cierre de vela #140 (7 Opciones) de la sesión #2...
+[2026-11-14 19:30:23]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-14 19:30:25]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-14 19:30:28]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-14 19:30:30]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 19:30:32]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-14 19:30:34]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-14 19:30:36]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-14 19:30:38] 💓 Cierre de Vela | Equity: $10,634.00 USD (Efectivo: $10,785.76 | Flotante: $-151.76 | Peak: $10,937.78) | Abiertas: 2 | Cerradas: 4
+[2026-11-14 19:30:38] 📊 Marcador 7 Opciones | 1. WF Base: $10,634.00 (2A/4C) | 2. WF+Impulso: $10,634.00 (2A/4C) | 3. Chimichurri: $11,327.30 (1A/4C) | 4. Francotirador: $10,931.67 (1A/3C) | 5. Berserker: $10,946.30 (2A/4C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,085.51 (0A/6C)
