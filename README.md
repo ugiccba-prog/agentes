@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-14 19:18:50 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-14 19:21:58 UTC`
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,654.90` | **`$+654.90`** (`+6.55%`) | 🟢 `AVAX/USDT` LONG (`$-147.70`)<br>🔴 `BTC/USDT` SHORT (`$+16.85`) | `3W / 1L` (`4`) | `3.76` | `3.15%` |
-| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,654.90` | **`$+654.90`** (`+6.55%`) | 🟢 `AVAX/USDT` LONG (`$-147.70`)<br>🔴 `BTC/USDT` SHORT (`$+16.85`) | `3W / 1L` (`4`) | `3.76` | `3.15%` |
-| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$11,319.76` | **`$+1,319.76`** (`+13.20%`) | 🔴 `BTC/USDT` SHORT (`$+17.81`) | `4W / 0L` (`4`) | `99.00` | `2.35%` |
-| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$10,927.30` | **`$+927.30`** (`+9.27%`) | 🔴 `BTC/USDT` SHORT (`$+10.32`) | `3W / 0L` (`3`) | `99.00` | `1.65%` |
-| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$10,985.93` | **`$+985.93`** (`+9.86%`) | 🟢 `AVAX/USDT` LONG (`$-270.94`)<br>🔴 `BTC/USDT` SHORT (`$+27.86`) | `3W / 1L` (`4`) | `3.44` | `4.99%` |
+| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,647.03` | **`$+647.03`** (`+6.47%`) | 🟢 `AVAX/USDT` LONG (`$-195.14`)<br>🔴 `BTC/USDT` SHORT (`$+56.41`) | `3W / 1L` (`4`) | `3.76` | `3.15%` |
+| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,647.03` | **`$+647.03`** (`+6.47%`) | 🟢 `AVAX/USDT` LONG (`$-195.14`)<br>🔴 `BTC/USDT` SHORT (`$+56.41`) | `3W / 1L` (`4`) | `3.76` | `3.15%` |
+| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$11,361.60` | **`$+1,361.60`** (`+13.62%`) | 🔴 `BTC/USDT` SHORT (`$+59.65`) | `4W / 0L` (`4`) | `99.00` | `2.35%` |
+| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$10,951.55` | **`$+951.55`** (`+9.52%`) | 🔴 `BTC/USDT` SHORT (`$+34.57`) | `3W / 0L` (`3`) | `99.00` | `1.65%` |
+| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$10,964.35` | **`$+964.35`** (`+9.64%`) | 🟢 `AVAX/USDT` LONG (`$-357.95`)<br>🔴 `BTC/USDT` SHORT (`$+93.30`) | `3W / 1L` (`4`) | `3.44` | `4.99%` |
 | **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$9,143.55` | **`$-856.45`** (`-8.56%`) | ⚪ *Sin abiertas* | `0W / 4L` (`4`) | `0.00` | `8.56%` |
 | **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$12,085.51` | **`$+2,085.51`** (`+20.86%`) | ⚪ *Sin abiertas* | `6W / 0L` (`6`) | `99.00` | `3.70%` |
 
@@ -24,12 +24,12 @@
 
 | Mercado Activo | 1. WF Base | 2. WF+Impulso | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | 🔴 **SHORT** (`$+16.85`) | 🔴 **SHORT** (`$+16.85`) | 🔴 **SHORT** (`$+17.81`) | 🔴 **SHORT** (`$+10.32`) | 🔴 **SHORT** (`$+27.86`) | ⚪ Esperando | ⚪ Esperando |
+| `BTC/USDT` | 🔴 **SHORT** (`$+56.41`) | 🔴 **SHORT** (`$+56.41`) | 🔴 **SHORT** (`$+59.65`) | 🔴 **SHORT** (`$+34.57`) | 🔴 **SHORT** (`$+93.30`) | ⚪ Esperando | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `AVAX/USDT` | 🟢 **LONG** (`$-147.70`) | 🟢 **LONG** (`$-147.70`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-270.94`) | ⚪ Esperando | ⚪ Esperando |
+| `AVAX/USDT` | 🟢 **LONG** (`$-195.14`) | 🟢 **LONG** (`$-195.14`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-357.95`) | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
@@ -39,10 +39,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$10,654.90 USD`** (`+6.55%` / `$+654.90 USD`) |
+| **Equity Total en Vivo** | **`$10,647.03 USD`** (`+6.47%` / `$+647.03 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,937.78 USD` (Inicio Día UTC: `$10,000.00 USD`) |
 | **Efectivo Cerrado (Cash)** | `$10,785.76 USD` (PnL Realizado: `$+785.76 USD`) |
-| **PnL Flotante Actual** | `$-130.86 USD` |
+| **PnL Flotante Actual** | `$-138.73 USD` |
 | **Win Rate & Profit Factor Real** | `75.0%` (`3W / 1L` de `4`) · **PF `3.76`** |
 | **Meta Paper Trading (100 Trades)** | `4 / 100` cerrados |
 
@@ -54,8 +54,8 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `AVAX/USDT` | **LONG** | `bollinger_reversion` | `7.496` | `7.435` | `7.391` (🛡️ Inicial) | `7.7667` | **$-147.70** (-0.91%) |
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `65672` | `65561` | `66182` (🛡️ Inicial) | `64285` | **$+16.85** (+0.07%) |
+| `AVAX/USDT` | **LONG** | `bollinger_reversion` | `7.496` | `7.413` | `7.391` (🛡️ Inicial) | `7.7667` | **$-195.14** (-1.21%) |
+| `BTC/USDT` | **SHORT** | `ema_pullback` | `65672` | `65453` | `66182` (🛡️ Inicial) | `64285` | **$+56.41** (+0.23%) |
 
 ---
 
