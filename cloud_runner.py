@@ -9,6 +9,9 @@ from __future__ import annotations
 
 from paper_panel import apply_requests, acknowledge
 import requests
+from functools import lru_cache
+from market_data import get_historical_data
+from overnight_supervisor import _get_macro_bias_1h
 import argparse
 from datetime import datetime, timezone
 from pathlib import Path
@@ -148,6 +151,8 @@ def sync_to_github() -> bool:
                 "git",
                 "add",
                 "live_portfolio.json",
+                "paper_base.json",
+                "paper_momentum.json",
                 "adaptive_config.json",
                 "wf_params.json",
                 "overnight_log.txt",
@@ -178,6 +183,11 @@ def main() -> None:
     args = parser.parse_args()
 
     broker = LiveExecutionBroker(initial_balance_usd=10000.0)
+    comparisons = [LiveExecutionBroker(portfolio_file=Path(__file__).with_name(filename), paper_only=True)
+                   for filename in ("paper_base.json", "paper_momentum.json")]
+    quote = lru_cache(maxsize=None)(broker.get_live_price)
+    for account in comparisons:
+        account.get_live_price = quote
     rm = RiskManager()
     gate = NewCandleGate("15m")
     cfg = load_adaptive_config()
@@ -205,12 +215,20 @@ def main() -> None:
             done = apply_requests(broker, cfg, save_adaptive_config, run_self_correction_phase, log_event)
         except requests.RequestException as exc:
             log_event(f"Panel temporalmente inaccesible: {type(exc).__name__}")
+        quote.cache_clear()
         if first_tick or gate.is_new_closed_candle():
             log_event(f"☁️ [GITHUB CLOUD] Cierre de vela #{ticks} de la sesión #{session_num}...")
-            atr_map = run_trading_tick(broker, cfg, rm=rm, interval="15m")
+            history = lru_cache(maxsize=None)(get_historical_data)
+            macro = lru_cache(maxsize=None)(_get_macro_bias_1h)
+            atr_map = run_trading_tick(broker, cfg, rm=rm, history=history, macro=macro)
+            for index, account in enumerate(comparisons):
+                run_trading_tick(account, cfg, rm=rm, history=history, macro=macro,
+                                 extra_entry=bool(index), report=lambda message: None)
             first_tick = False
         else:
             events = broker.update_open_positions(atr_by_symbol=atr_map)
+            for account in comparisons:
+                account.update_open_positions(atr_by_symbol=atr_map)
             for ev in events:
                 log_event(ev)
 

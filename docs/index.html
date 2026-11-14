@@ -181,6 +181,12 @@
       <p id="profile-help"></p><div id="exits"></div><p id="receipt"></p>
       <small>Confirmá la solicitud con tu cuenta en GitHub. El agente la revisa en el siguiente ciclo. Los cierres se liquidan al precio disponible y suman el resultado al efectivo simulado.</small>
     </section>
+    <section class="card" style="margin:16px 0;padding:20px;overflow-x:auto">
+      <h2>Comparación de estrategias</h2>
+      <p>Dos carteras simuladas independientes de USD 10.000. La variante busca impulsos cuando la estrategia base espera.</p>
+      <table><thead><tr><th>Estrategia</th><th>Entradas</th><th>Cerradas</th><th>Resultado neto con abiertas</th><th>Peor caída</th></tr></thead><tbody id="comparison"></tbody></table>
+      <p id="comparison-note"></p>
+    </section>
     <div class="grid" id="kpi-grid"></div>
 
     <div class="section">
@@ -380,6 +386,20 @@
       if(!p.open_positions.length) exits.textContent='Sin posiciones para cerrar.';
       document.getElementById('receipt').textContent=cfg.panel_result?'Última solicitud #'+cfg.panel_result.id+' · '+cfg.panel_result.message:'';
     }
+    async function loadComparison() {
+      const note = document.getElementById('comparison-note');
+      try {
+        const accounts = await Promise.all(['paper_base.json','paper_momentum.json'].map(async file => (await fetchAsset(file)).json()));
+        const body = document.getElementById('comparison');
+        body.replaceChildren();
+        const counts = accounts.map(p => p.closed_trades.length + p.open_positions.length);
+        accounts.forEach((p,i) => {
+          const row = body.insertRow();
+          for (const value of [[ 'Base', 'Base + impulso'][i], counts[i], p.closed_trades.length, fmtUsd(p.equity_usd-p.initial_balance_usd,true), Number(p.max_drawdown_pct).toFixed(2)+' %']) row.insertCell().textContent=value;
+        });
+        note.textContent='Diferencia de entradas de la variante: '+(counts[1]-counts[0])+'. Último reporte: '+accounts[1].last_updated;
+      } catch { note.textContent='Comparación pendiente de actualización.'; }
+    }
     async function loadAll() {
       try {
         const [pRes, cRes, lRes] = await Promise.all([
@@ -391,6 +411,7 @@
         const cfg = await cRes.json();
         lastPortfolio = p;
         renderDesk(p,cfg);
+        loadComparison();
 
         const eq = Number(p.equity_usd || 0);
         const init = Number(p.initial_balance_usd || 10000);

@@ -91,6 +91,7 @@ class PortfolioState:
     peak_equity_usd: float = 10000.0
     day_start_equity_usd: float = 10000.0
     current_day_utc: str = ""
+    max_drawdown_pct: float = 0.0
     total_trades: int = 0
     winning_trades: int = 0
     losing_trades: int = 0
@@ -185,7 +186,8 @@ class LiveExecutionBroker:
       en `.env`, replica también las órdenes hacia el exchange/broker externo automáticamente.
     """
 
-    def __init__(self, initial_balance_usd: float = 10000.0) -> None:
+    def __init__(self, initial_balance_usd: float = 10000.0, *, portfolio_file=PORTFOLIO_FILE, paper_only=False) -> None:
+        self.portfolio_file = portfolio_file
         load_env_file()
         self.binance_key = os.environ.get("BINANCE_TESTNET_API_KEY", "").strip()
         self.binance_secret = os.environ.get("BINANCE_TESTNET_API_SECRET", "").strip()
@@ -194,12 +196,12 @@ class LiveExecutionBroker:
 
         self.binance_client = (
             BinanceTestnetConnector(self.binance_key, self.binance_secret)
-            if self.binance_key and self.binance_secret
+            if not paper_only and self.binance_key and self.binance_secret
             else None
         )
         self.oanda_client = (
             OandaForexDemoConnector(self.oanda_token, self.oanda_account)
-            if self.oanda_token and self.oanda_account
+            if not paper_only and self.oanda_token and self.oanda_account
             else None
         )
 
@@ -208,14 +210,16 @@ class LiveExecutionBroker:
     def _sync_watermarks(self, st: PortfolioState) -> None:
         today_utc = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
         st.peak_equity_usd = round(max(float(st.peak_equity_usd), float(st.equity_usd), float(st.initial_balance_usd)), 2)
+        if st.peak_equity_usd > 0:
+            st.max_drawdown_pct = max(st.max_drawdown_pct, 100 * (1 - st.equity_usd / st.peak_equity_usd))
         if st.current_day_utc != today_utc:
             st.current_day_utc = today_utc
             st.day_start_equity_usd = round(float(st.equity_usd), 2)
 
     def _load_or_init(self, initial_balance_usd: float) -> PortfolioState:
-        if PORTFOLIO_FILE.exists():
+        if self.portfolio_file.exists():
             try:
-                raw = json.loads(PORTFOLIO_FILE.read_text(encoding="utf-8"))
+                raw = json.loads(self.portfolio_file.read_text(encoding="utf-8"))
                 st = PortfolioState(**raw)
                 for trade in st.closed_trades.copy():
                     if (trade.get("id") == "ORD-144949" and trade.get("symbol") == "DOGE/USDT"
@@ -253,7 +257,7 @@ class LiveExecutionBroker:
         target = state or self.state
         self._sync_watermarks(target)
         target.last_updated = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-        PORTFOLIO_FILE.write_text(json.dumps(asdict(target), indent=2, ensure_ascii=False), encoding="utf-8")
+        self.portfolio_file.write_text(json.dumps(asdict(target), indent=2, ensure_ascii=False), encoding="utf-8")
 
     def reset_portfolio(self, initial_balance_usd: float = 10000.0) -> PortfolioState:
         now_utc = datetime.now(tz=timezone.utc)

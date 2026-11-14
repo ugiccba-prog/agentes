@@ -190,6 +190,7 @@ def run_trading_tick(
     cfg: dict,
     rm: RiskManager | None = None,
     interval: str = "15m",
+    *, extra_entry=False, history=get_historical_data, macro=_get_macro_bias_1h, report=log_event,
 ) -> dict[str, float]:
     """Evalúa señales al cierre de vela usando parámetros Walk-Forward y RiskManager."""
     rm = rm or RiskManager()
@@ -199,7 +200,7 @@ def run_trading_tick(
 
     for sym, sym_cfg in cfg.get("symbols", {}).items():
         try:
-            df_raw, _ = get_historical_data(sym, interval=interval, limit=300, use_cache=False, live_only=True)
+            df_raw, _ = history(sym, interval=interval, limit=300, use_cache=False, live_only=True)
             df_closed = closed_only(df_raw, interval)
             if df_closed is None or len(df_closed) < 60:
                 continue
@@ -217,7 +218,7 @@ def run_trading_tick(
             if not sym_cfg.get("enabled", True):
                 continue
 
-            macro_bias = _get_macro_bias_1h(sym)
+            macro_bias = macro(sym)
             decision = evaluate_latest_candle(
                 df_sig,
                 sl_atr_mult=float(sym_cfg.get("sl_atr_mult", 1.6)),
@@ -226,6 +227,15 @@ def run_trading_tick(
                 macro_bias=macro_bias,
             )
 
+            if (extra_entry and decision.action.startswith("HOLD")
+                    and not any(p["symbol"] == sym for p in broker.state.open_positions)):
+                strat_name = "momentum_shark"
+                decision = evaluate_latest_candle(
+                    generate_signals(df_ind, strategy_name=strat_name),
+                    sl_atr_mult=float(sym_cfg.get("sl_atr_mult", 1.6)),
+                    tp_atr_mult=float(sym_cfg.get("tp_atr_mult", 3.2)),
+                    lookback_bars=1, macro_bias=macro_bias,
+                )
             side = None
             if decision.action.startswith("LONG"):
                 side = "LONG"
@@ -233,12 +243,12 @@ def run_trading_tick(
                 side = "SHORT"
 
             if side is None:
-                log_event(f"   {sym} | Esperando señal de {strat_name}")
+                report(f"   {sym} | Esperando señal de {strat_name}")
             if side is not None:
                 existing = next((p for p in broker.state.open_positions if p['symbol'] == sym), None)
                 if (existing and existing['side'] != side and decision.confidence >= 86
                         and existing.get('broker_mode', '').startswith('Paper Trading')):
-                    log_event(broker.close_position_by_symbol(sym, reason='Señal contraria confirmada'))
+                    report(broker.close_position_by_symbol(sym, reason='Señal contraria confirmada'))
                     continue
                 st = broker.state
                 ok_rm, risk_rm, reason_rm = rm.decide(
@@ -254,7 +264,7 @@ def run_trading_tick(
                     confidence=decision.confidence,
                 )
                 if not ok_rm:
-                    log_event(f"   🛡️ [RiskManager] {sym} {side} bloqueado: {reason_rm}")
+                    report(f"   🛡️ [RiskManager] {sym} {side} bloqueado: {reason_rm}")
                     continue
 
                 ok, msg = broker.open_order(
@@ -268,16 +278,16 @@ def run_trading_tick(
                     reason=decision.reasons[0] if decision.reasons else reason_rm,
                     confidence=decision.confidence,
                 )
-                log_event(f"{sym} | {msg} | {reason_rm}")
+                report(f"{sym} | {msg} | {reason_rm}")
         except Exception as exc:
-            log_event(f"   ⚠️ Error en tick de {sym}: {exc}")
+            report(f"   ⚠️ Error en tick de {sym}: {exc}")
 
     events = broker.update_open_positions(atr_by_symbol=atr_by_symbol)
     for ev in events:
-        log_event(ev)
+        report(ev)
 
     st = broker.state
-    log_event(
+    report(
         f"💓 Cierre de Vela | Equity: ${st.equity_usd:,.2f} USD "
         f"(Efectivo: ${st.cash_balance_usd:,.2f} | Flotante: ${st.unrealized_pnl_usd:+,.2f} | "
         f"Peak: ${st.peak_equity_usd:,.2f}) | Abiertas: {len(st.open_positions)} | Cerradas: {st.total_trades}"

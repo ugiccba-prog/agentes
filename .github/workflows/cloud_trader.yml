@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/paper-reset-20261113'
       - 'paper_panel.py'
+      - 'cloud_runner.py'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
