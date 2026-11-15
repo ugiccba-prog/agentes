@@ -2708,3 +2708,16 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 23:06:28]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-15 23:06:28]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-15 23:06:28] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-15 23:15:17] ☁️ [GITHUB CLOUD] Cierre de vela #115 (7 Opciones) de la sesión #9...
+[2026-11-15 23:15:20]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 23:15:22]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 23:15:24]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-15 23:15:26]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 23:15:28]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 23:15:30]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 23:15:32]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 23:15:35] 💓 Cierre de Vela | Equity: $12,101.89 USD (Efectivo: $11,542.09 | Flotante: $+559.80 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 16
+[2026-11-15 23:15:35] [6. Resorte] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-15 23:15:35] [6. Resorte] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 23:15:35] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 23:15:38] 📊 Marcador 7 Opciones | 1. WF Base: $12,101.89 (3A/16C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,647.81 (5A/9C) | 7. Escape: $11,502.51 (0A/9C)
