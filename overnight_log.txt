@@ -1632,3 +1632,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 07:46:04]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-15 07:46:07] 💓 Cierre de Vela | Equity: $11,683.13 USD (Efectivo: $11,929.02 | Flotante: $-245.89 | Peak: $12,815.70) | Abiertas: 2 | Cerradas: 13
 [2026-11-15 07:46:11] 📊 Marcador 7 Opciones | 1. WF Base: $11,683.13 (2A/13C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,995.86 (3A/6C) | 7. Escape: $11,502.51 (0A/9C)
+[2026-11-15 07:51:48] [6. Resorte] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 71.24
