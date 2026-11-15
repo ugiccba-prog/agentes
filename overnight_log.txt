@@ -1136,3 +1136,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 01:08:28] [2. WF+Impulso] ✅ CERRADA AVAX/USDT (LONG) a 6.899 | PnL: $-261.26 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-15 01:08:29] [5. Berserker] ✅ CERRADA AVAX/USDT (LONG) a 6.899 | PnL: $-497.86 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-15 01:08:29] [7. Escape] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 70.07
+[2026-11-15 01:10:40] [4. Francotirador] 🔒 Stop (Breakeven) en BNB/USDT SHORT ajustado a 578.01
