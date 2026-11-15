@@ -1137,3 +1137,22 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 01:08:29] [5. Berserker] ✅ CERRADA AVAX/USDT (LONG) a 6.899 | PnL: $-497.86 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-15 01:08:29] [7. Escape] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 70.07
 [2026-11-15 01:10:40] [4. Francotirador] 🔒 Stop (Breakeven) en BNB/USDT SHORT ajustado a 578.01
+[2026-11-15 01:16:00] ☁️ [GITHUB CLOUD] Cierre de vela #12 (7 Opciones) de la sesión #4...
+[2026-11-15 01:16:03]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:16:06]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:16:09]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:16:12]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 01:16:15]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 01:16:18]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 01:16:21]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 01:16:23] 💓 Cierre de Vela | Equity: $12,165.51 USD (Efectivo: $11,621.40 | Flotante: $+544.11 | Peak: $12,377.73) | Abiertas: 2 | Cerradas: 10
+[2026-11-15 01:16:25] [2. WF+Impulso] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 98%) | Entrada: 571.94000000 | SL: 581.82152547 | TP: 555.20562703 | Tamaño: $13,729.31 USD (Riesgo controlado: $237.20) | OK riesgo 1.96% (dd 2.4%)
+[2026-11-15 01:16:25] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-15 01:16:26] [2. WF+Impulso] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 98%) | Entrada: 0.00000381 | SL: 0.00000393 | TP: 0.00000352 | Tamaño: $2,001.09 USD (Riesgo controlado: $70.05) | OK riesgo 0.58% (dd 2.4%)
+[2026-11-15 01:16:26] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 01:16:26] [3. Chimichurri] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 95%) | Entrada: 0.00000381 | SL: 0.00000393 | TP: 0.00000352 | Tamaño: $12,563.72 USD (Riesgo controlado: $405.86) | OK riesgo 3.00% (dd 2.4%)
+[2026-11-15 01:16:26] [5. Berserker] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 98%) | Entrada: 571.94000000 | SL: 581.82152547 | TP: 555.20562703 | Tamaño: $27,573.71 USD (Riesgo controlado: $476.40) | OK riesgo 3.65% (dd 3.6%)
+[2026-11-15 01:16:28] [5. Berserker] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 98%) | Entrada: 0.69000000 | SL: 0.70618972 | TP: 0.65940539 | Tamaño: $3,773.58 USD (Riesgo controlado: $88.54) | OK riesgo 0.68% (dd 3.6%)
+[2026-11-15 01:16:28] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.7% de 9.0%)
+[2026-11-15 01:16:28] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 62792.13000000 | SL: 63796.97330604 | TP: 60999.12192343 | Tamaño: $22,966.66 USD (Riesgo controlado: $367.53) | OK riesgo 3.00% (dd 4.2%)
+[2026-11-15 01:16:28] 📊 Marcador 7 Opciones | 1. WF Base: $12,165.51 (2A/10C) | 2. WF+Impulso: $12,149.78 (4A/10C) | 3. Chimichurri: $13,613.75 (3A/9C) | 4. Francotirador: $12,228.42 (3A/6C) | 5. Berserker: $13,170.84 (4A/11C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,275.99 (2A/7C)
