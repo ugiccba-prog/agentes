@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 9347.95,
-  "equity_usd": 9499.27,
-  "realized_pnl_usd": -652.05,
-  "unrealized_pnl_usd": 151.32,
+  "cash_balance_usd": 9511.5,
+  "equity_usd": 9511.5,
+  "realized_pnl_usd": -488.5,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 10000.0,
   "day_start_equity_usd": 9143.55,
   "current_day_utc": "2026-11-15",
   "max_drawdown_pct": 9.102700000000008,
-  "total_trades": 5,
-  "winning_trades": 1,
+  "total_trades": 6,
+  "winning_trades": 2,
   "losing_trades": 4,
-  "last_updated": "2026-11-15 02:58:54 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-36965",
-      "symbol": "AVAX/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "LONG",
-      "entry_time": "2026-11-15 02:00:36 UTC",
-      "entry_price": 6.843,
-      "current_price": 7.122,
-      "size": 556.27399,
-      "notional_usd": 3806.58,
-      "stop_loss": 6.843,
-      "take_profit": 7.143466999,
-      "initial_risk_dist": 0.1725899033,
-      "unrealized_pnl_usd": 151.32,
-      "unrealized_pnl_pct": 3.98,
-      "reason": "Rebote en Banda Inferior Bollinger (%B=-0.23) + Giro RSI (25.4)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "last_updated": "2026-11-15 03:02:28 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-848688",
@@ -123,6 +103,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 109.72,
       "r_multiple": 1.863
+    },
+    {
+      "id": "ORD-36965",
+      "symbol": "AVAX/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "LONG",
+      "entry_time": "2026-11-15 02:00:36 UTC",
+      "exit_time": "2026-11-15 03:01:25 UTC",
+      "entry_price": 6.843,
+      "exit_price": 7.144,
+      "size": 556.27399,
+      "pnl_usd": 163.55,
+      "pnl_pct": 4.3,
+      "exit_reason": "Take Profit Alcanzado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 96.01,
+      "r_multiple": 1.703
     }
   ],
   "excluded_trades": []
