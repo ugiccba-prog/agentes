@@ -1220,3 +1220,21 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 02:04:45] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-15 02:07:02] [4. Francotirador] ✅ CERRADA BNB/USDT (SHORT) a 578.42 | PnL: $-16.33 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-15 02:08:12] [6. Resorte] 🔒 Stop (Breakeven) en SOL/USDT LONG ajustado a 67.99
+[2026-11-15 02:11:36] ✅ CERRADA BTC/USDT (SHORT) a 63763.0 | PnL: $-25.51 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:11:39] [2. WF+Impulso] ✅ CERRADA BTC/USDT (SHORT) a 63763.0 | PnL: $-25.51 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:11:39] [3. Chimichurri] ✅ CERRADA BTC/USDT (SHORT) a 63763.0 | PnL: $-28.61 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:11:39] [4. Francotirador] ✅ CERRADA BTC/USDT (SHORT) a 63763.0 | PnL: $-10.12 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:11:40] [5. Berserker] ✅ CERRADA BTC/USDT (SHORT) a 63763.0 | PnL: $-41.98 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:43] ✅ CERRADA SOL/USDT (SHORT) a 70.09 | PnL: $-112.88 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:43] 🔒 Stop (Breakeven) en AVAX/USDT LONG ajustado a 6.843
+[2026-11-15 02:12:46] [2. WF+Impulso] ✅ CERRADA SOL/USDT (SHORT) a 70.09 | PnL: $-112.88 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:46] [2. WF+Impulso] ✅ CERRADA BNB/USDT (SHORT) a 584.21 | PnL: $-308.42 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:46] [3. Chimichurri] ✅ CERRADA SOL/USDT (SHORT) a 70.09 | PnL: $-124.09 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:46] [4. Francotirador] ✅ CERRADA SOL/USDT (SHORT) a 70.09 | PnL: $-49.96 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:47] [5. Berserker] ✅ CERRADA SOL/USDT (SHORT) a 70.09 | PnL: $-182.08 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:47] [5. Berserker] ✅ CERRADA BNB/USDT (SHORT) a 584.21 | PnL: $-619.42 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:47] [5. Berserker] ✅ CERRADA SUI/USDT (SHORT) a 0.7088 | PnL: $-106.64 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:47] [5. Berserker] 🔒 Stop (Breakeven) en AVAX/USDT LONG ajustado a 6.843
+[2026-11-15 02:12:47] [6. Resorte] 🔒 Stop (Breakeven) en AVAX/USDT LONG ajustado a 6.843
+[2026-11-15 02:12:49] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 70.09 | PnL: $-24.01 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 02:12:49] [7. Escape] ✅ CERRADA BTC/USDT (SHORT) a 64126.01 | PnL: $-511.09 USD (Stop Loss / Trailing Stop Ejecutado)
