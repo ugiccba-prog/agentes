@@ -1167,3 +1167,8 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 01:31:28] 💓 Cierre de Vela | Equity: $12,405.30 USD (Efectivo: $11,621.40 | Flotante: $+783.90 | Peak: $12,405.30) | Abiertas: 2 | Cerradas: 10
 [2026-11-15 01:31:32] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-15 01:31:32] 📊 Marcador 7 Opciones | 1. WF Base: $12,405.30 (2A/10C) | 2. WF+Impulso: $12,450.78 (4A/10C) | 3. Chimichurri: $13,912.45 (3A/9C) | 4. Francotirador: $12,368.79 (3A/6C) | 5. Berserker: $13,699.36 (4A/11C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,503.26 (2A/7C)
+[2026-11-15 01:34:52] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 69.75
+[2026-11-15 01:34:55] [2. WF+Impulso] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 69.75
+[2026-11-15 01:34:55] [3. Chimichurri] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 69.75
+[2026-11-15 01:34:55] [4. Francotirador] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 69.75
+[2026-11-15 01:34:57] [5. Berserker] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 69.75
