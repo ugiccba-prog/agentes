@@ -1271,3 +1271,20 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 02:31:23] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 20.6% desde el pico
 [2026-11-15 02:31:23] [7. Escape] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: pérdida diaria -5.1%
 [2026-11-15 02:31:23] 📊 Marcador 7 Opciones | 1. WF Base: $11,837.57 (3A/12C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,532.69 (1A/15C) | 6. Resorte: $9,487.03 (1A/5C) | 7. Escape: $11,502.51 (0A/9C)
+[2026-11-15 02:45:26] ☁️ [GITHUB CLOUD] Cierre de vela #90 (7 Opciones) de la sesión #4...
+[2026-11-15 02:45:29]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 02:45:32]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 02:45:35]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-15 02:45:38]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 02:45:41]    🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 02:45:44]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 02:45:47]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 02:45:51] 💓 Cierre de Vela | Equity: $11,912.92 USD (Efectivo: $11,483.01 | Flotante: $+429.91 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 12
+[2026-11-15 02:45:51] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-15 02:45:51] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-15 02:45:51] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-15 02:45:51] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-15 02:45:51] [4. Francotirador] 🎯 [Francotirador] SUI/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-15 02:45:51] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 20.6% desde el pico
+[2026-11-15 02:45:51] [7. Escape] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: pérdida diaria -5.1%
+[2026-11-15 02:45:51] 📊 Marcador 7 Opciones | 1. WF Base: $11,912.92 (3A/12C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,529.97 (1A/15C) | 6. Resorte: $9,484.81 (1A/5C) | 7. Escape: $11,502.51 (0A/9C)
