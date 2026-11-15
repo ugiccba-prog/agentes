@@ -1062,3 +1062,25 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 00:45:57]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-15 00:46:00] 💓 Cierre de Vela | Equity: $11,687.22 USD (Efectivo: $11,882.66 | Flotante: $-195.44 | Peak: $12,266.45) | Abiertas: 3 | Cerradas: 9
 [2026-11-15 00:46:01] 📊 Marcador 7 Opciones | 1. WF Base: $11,687.22 (3A/9C) | 2. WF+Impulso: $11,687.22 (3A/9C) | 3. Chimichurri: $12,823.41 (2A/9C) | 4. Francotirador: $11,779.02 (3A/6C) | 5. Berserker: $12,487.61 (3A/10C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,018.93 (1A/7C)
+[2026-11-15 01:01:11] ☁️ [GITHUB CLOUD] Cierre de vela #217 (7 Opciones) de la sesión #3...
+[2026-11-15 01:01:13]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:01:15]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:01:17]    🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:19]    🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:21]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:23]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 01:01:25]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 01:01:28] 💓 Cierre de Vela | Equity: $11,955.52 USD (Efectivo: $11,882.66 | Flotante: $+72.86 | Peak: $12,266.45) | Abiertas: 3 | Cerradas: 9
+[2026-11-15 01:01:28] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:28] [2. WF+Impulso] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:28] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:28] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:28] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:28] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.9% de 6.0%)
+[2026-11-15 01:01:28] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 01:01:28] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-15 01:01:28] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-15 01:01:29] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.9% de 9.0%)
+[2026-11-15 01:01:29] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.9% de 9.0%)
+[2026-11-15 01:01:29] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.9% de 9.0%)
+[2026-11-15 01:01:29] 📊 Marcador 7 Opciones | 1. WF Base: $11,955.52 (3A/9C) | 2. WF+Impulso: $11,955.52 (3A/9C) | 3. Chimichurri: $13,275.24 (2A/9C) | 4. Francotirador: $12,040.03 (3A/6C) | 5. Berserker: $12,886.11 (3A/10C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,226.95 (1A/7C)
