@@ -1105,3 +1105,30 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 01:03:36]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-15 01:03:36]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-15 01:03:36] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-15 01:03:37] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #4...
+[2026-11-15 01:03:40]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:03:43]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:03:46]    🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:03:49]    🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:03:52]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:03:55]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 01:03:57]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 01:04:02] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 63762.86
+[2026-11-15 01:04:02] 💓 Cierre de Vela | Equity: $12,218.49 USD (Efectivo: $11,882.66 | Flotante: $+335.83 | Peak: $12,266.45) | Abiertas: 3 | Cerradas: 9
+[2026-11-15 01:04:02] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:04:02] [2. WF+Impulso] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:04:02] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:04:02] [2. WF+Impulso] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 63762.86
+[2026-11-15 01:04:02] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:04:02] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:04:02] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (5.8% de 6.0%)
+[2026-11-15 01:04:02] [3. Chimichurri] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 63762.86
+[2026-11-15 01:04:02] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 01:04:02] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-15 01:04:02] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-15 01:04:03] [4. Francotirador] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 63762.86
+[2026-11-15 01:04:03] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.8% de 9.0%)
+[2026-11-15 01:04:03] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.8% de 9.0%)
+[2026-11-15 01:04:03] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.8% de 9.0%)
+[2026-11-15 01:04:03] [5. Berserker] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 63762.86
+[2026-11-15 01:04:03] 📊 Marcador 7 Opciones | 1. WF Base: $12,218.49 (3A/9C) | 2. WF+Impulso: $12,218.49 (3A/9C) | 3. Chimichurri: $13,667.45 (2A/9C) | 4. Francotirador: $12,258.41 (3A/6C) | 5. Berserker: $13,290.99 (3A/10C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,365.63 (1A/7C)
