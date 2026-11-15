@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-15 00:40:22 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-15 00:43:37 UTC`
 
 ---
 
@@ -10,13 +10,13 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$11,771.17` | **`$+1,771.17`** (`+17.71%`) | 🟢 `AVAX/USDT` LONG (`$-22.49`)<br>🔴 `BTC/USDT` SHORT (`$-22.96`)<br>🔴 `SOL/USDT` SHORT (`$-66.04`) | `6W / 3L` (`9`) | `3.12` | `4.35%` |
-| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$11,771.17` | **`$+1,771.17`** (`+17.71%`) | 🟢 `AVAX/USDT` LONG (`$-22.49`)<br>🔴 `BTC/USDT` SHORT (`$-22.96`)<br>🔴 `SOL/USDT` SHORT (`$-66.04`) | `6W / 3L` (`9`) | `3.12` | `4.35%` |
-| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$12,921.67` | **`$+2,921.67`** (`+29.22%`) | 🔴 `BTC/USDT` SHORT (`$-25.75`)<br>🔴 `SOL/USDT` SHORT (`$-72.60`) | `8W / 1L` (`9`) | `44.65` | `4.32%` |
-| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$11,832.87` | **`$+1,832.87`** (`+18.33%`) | 🔴 `BTC/USDT` SHORT (`$-9.11`)<br>🔴 `SOL/USDT` SHORT (`$-29.23`)<br>🔴 `BNB/USDT` SHORT (`$-42.13`) | `6W / 0L` (`6`) | `99.00` | `2.02%` |
-| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$12,623.26` | **`$+2,623.26`** (`+26.23%`) | 🟢 `AVAX/USDT` LONG (`$-42.86`)<br>🔴 `BTC/USDT` SHORT (`$-37.79`)<br>🔴 `SOL/USDT` SHORT (`$-106.53`) | `6W / 4L` (`10`) | `2.72` | `7.40%` |
+| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$11,742.51` | **`$+1,742.51`** (`+17.43%`) | 🟢 `AVAX/USDT` LONG (`$-46.37`)<br>🔴 `BTC/USDT` SHORT (`$-22.23`)<br>🔴 `SOL/USDT` SHORT (`$-71.55`) | `6W / 3L` (`9`) | `3.12` | `4.67%` |
+| **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$11,742.51` | **`$+1,742.51`** (`+17.43%`) | 🟢 `AVAX/USDT` LONG (`$-46.37`)<br>🔴 `BTC/USDT` SHORT (`$-22.23`)<br>🔴 `SOL/USDT` SHORT (`$-71.55`) | `6W / 3L` (`9`) | `3.12` | `4.67%` |
+| **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$12,916.43` | **`$+2,916.43`** (`+29.16%`) | 🔴 `BTC/USDT` SHORT (`$-24.94`)<br>🔴 `SOL/USDT` SHORT (`$-78.66`) | `8W / 1L` (`9`) | `44.65` | `5.17%` |
+| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$11,830.39` | **`$+1,830.39`** (`+18.30%`) | 🔴 `BTC/USDT` SHORT (`$-8.82`)<br>🔴 `SOL/USDT` SHORT (`$-31.67`)<br>🔴 `BNB/USDT` SHORT (`$-42.46`) | `6W / 0L` (`6`) | `99.00` | `2.02%` |
+| **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$12,570.07` | **`$+2,570.07`** (`+25.70%`) | 🟢 `AVAX/USDT` LONG (`$-88.36`)<br>🔴 `BTC/USDT` SHORT (`$-36.59`)<br>🔴 `SOL/USDT` SHORT (`$-115.42`) | `6W / 4L` (`10`) | `2.72` | `7.73%` |
 | **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$9,143.55` | **`$-856.45`** (`-8.56%`) | ⚪ *Sin abiertas* | `0W / 4L` (`4`) | `0.00` | `8.56%` |
-| **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$12,058.94` | **`$+2,058.94`** (`+20.59%`) | 🔴 `SOL/USDT` SHORT (`$+21.33`) | `6W / 1L` (`7`) | `43.54` | `7.02%` |
+| **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$12,053.60` | **`$+2,053.60`** (`+20.54%`) | 🔴 `SOL/USDT` SHORT (`$+15.99`) | `6W / 1L` (`7`) | `43.54` | `7.02%` |
 
 ---
 
@@ -24,12 +24,12 @@
 
 | Mercado Activo | 1. WF Base | 2. WF+Impulso | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | 🔴 **SHORT** (`$-22.96`) | 🔴 **SHORT** (`$-22.96`) | 🔴 **SHORT** (`$-25.75`) | 🔴 **SHORT** (`$-9.11`) | 🔴 **SHORT** (`$-37.79`) | ⚪ Esperando | ⚪ Esperando |
-| `SOL/USDT` | 🔴 **SHORT** (`$-66.04`) | 🔴 **SHORT** (`$-66.04`) | 🔴 **SHORT** (`$-72.60`) | 🔴 **SHORT** (`$-29.23`) | 🔴 **SHORT** (`$-106.53`) | ⚪ Esperando | 🔴 **SHORT** (`$+21.33`) |
-| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-42.13`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `BTC/USDT` | 🔴 **SHORT** (`$-22.23`) | 🔴 **SHORT** (`$-22.23`) | 🔴 **SHORT** (`$-24.94`) | 🔴 **SHORT** (`$-8.82`) | 🔴 **SHORT** (`$-36.59`) | ⚪ Esperando | ⚪ Esperando |
+| `SOL/USDT` | 🔴 **SHORT** (`$-71.55`) | 🔴 **SHORT** (`$-71.55`) | 🔴 **SHORT** (`$-78.66`) | 🔴 **SHORT** (`$-31.67`) | 🔴 **SHORT** (`$-115.42`) | ⚪ Esperando | 🔴 **SHORT** (`$+15.99`) |
+| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-42.46`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `AVAX/USDT` | 🟢 **LONG** (`$-22.49`) | 🟢 **LONG** (`$-22.49`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-42.86`) | ⚪ Esperando | ⚪ Esperando |
+| `AVAX/USDT` | 🟢 **LONG** (`$-46.37`) | 🟢 **LONG** (`$-46.37`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-88.36`) | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
@@ -39,10 +39,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$11,771.17 USD`** (`+17.71%` / `$+1,771.17 USD`) |
+| **Equity Total en Vivo** | **`$11,742.51 USD`** (`+17.43%` / `$+1,742.51 USD`) |
 | **Pico Máximo (Peak Equity)** | `$12,266.45 USD` (Inicio Día UTC: `$11,903.45 USD`) |
 | **Efectivo Cerrado (Cash)** | `$11,882.66 USD` (PnL Realizado: `$+1,882.66 USD`) |
-| **PnL Flotante Actual** | `$-111.49 USD` |
+| **PnL Flotante Actual** | `$-140.15 USD` |
 | **Win Rate & Profit Factor Real** | `66.7%` (`6W / 3L` de `9`) · **PF `3.12`** |
 | **Meta Paper Trading (100 Trades)** | `9 / 100` cerrados |
 
@@ -54,9 +54,9 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `AVAX/USDT` | **LONG** | `bollinger_reversion` | `7.067` | `7.059` | `6.8999` (🛡️ Inicial) | `7.4177` | **$-22.49** (-0.21%) |
-| `BTC/USDT` | **SHORT** | `ema_pullback` | `63763` | `63757` | `64635` (🛡️ Inicial) | `61898` | **$-22.96** (-0.09%) |
-| `SOL/USDT` | **SHORT** | `ema_pullback` | `69.75` | `69.92` | `71.04` (🛡️ Inicial) | `67.066` | **$-66.04** (-0.34%) |
+| `AVAX/USDT` | **LONG** | `bollinger_reversion` | `7.067` | `7.043` | `6.8999` (🛡️ Inicial) | `7.4177` | **$-46.37** (-0.44%) |
+| `BTC/USDT` | **SHORT** | `ema_pullback` | `63763` | `63755` | `64635` (🛡️ Inicial) | `61898` | **$-22.23** (-0.09%) |
+| `SOL/USDT` | **SHORT** | `ema_pullback` | `69.75` | `69.94` | `71.04` (🛡️ Inicial) | `67.066` | **$-71.55** (-0.37%) |
 
 ---
 
