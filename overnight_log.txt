@@ -1052,3 +1052,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 00:30:38] [5. Berserker] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT (Conv 98%) | Entrada: 69.75000000 | SL: 71.04030745 | TP: 67.06616050 | Tamaño: $30,981.81 USD (Riesgo controlado: $573.13) | OK riesgo 4.50% (dd 6.0%)
 [2026-11-15 00:30:38] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (9.0% de 9.0%)
 [2026-11-15 00:30:38] 📊 Marcador 7 Opciones | 1. WF Base: $11,791.64 (3A/9C) | 2. WF+Impulso: $11,791.64 (3A/9C) | 3. Chimichurri: $12,970.37 (2A/9C) | 4. Francotirador: $11,885.19 (3A/6C) | 5. Berserker: $12,649.21 (3A/10C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,104.27 (1A/7C)
+[2026-11-15 00:45:43] ☁️ [GITHUB CLOUD] Cierre de vela #203 (7 Opciones) de la sesión #3...
+[2026-11-15 00:45:45]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 00:45:47]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 00:45:49]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-15 00:45:51]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 00:45:53]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 00:45:55]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 00:45:57]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 00:46:00] 💓 Cierre de Vela | Equity: $11,687.22 USD (Efectivo: $11,882.66 | Flotante: $-195.44 | Peak: $12,266.45) | Abiertas: 3 | Cerradas: 9
+[2026-11-15 00:46:01] 📊 Marcador 7 Opciones | 1. WF Base: $11,687.22 (3A/9C) | 2. WF+Impulso: $11,687.22 (3A/9C) | 3. Chimichurri: $12,823.41 (2A/9C) | 4. Francotirador: $11,779.02 (3A/6C) | 5. Berserker: $12,487.61 (3A/10C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,018.93 (1A/7C)
