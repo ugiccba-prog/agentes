@@ -1132,3 +1132,7 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 01:04:03] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.8% de 9.0%)
 [2026-11-15 01:04:03] [5. Berserker] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 63762.86
 [2026-11-15 01:04:03] 📊 Marcador 7 Opciones | 1. WF Base: $12,218.49 (3A/9C) | 2. WF+Impulso: $12,218.49 (3A/9C) | 3. Chimichurri: $13,667.45 (2A/9C) | 4. Francotirador: $12,258.41 (3A/6C) | 5. Berserker: $13,290.99 (3A/10C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,365.63 (1A/7C)
+[2026-11-15 01:08:28] ✅ CERRADA AVAX/USDT (LONG) a 6.899 | PnL: $-261.26 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 01:08:28] [2. WF+Impulso] ✅ CERRADA AVAX/USDT (LONG) a 6.899 | PnL: $-261.26 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 01:08:29] [5. Berserker] ✅ CERRADA AVAX/USDT (LONG) a 6.899 | PnL: $-497.86 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-15 01:08:29] [7. Escape] 🔒 Stop (Breakeven) en SOL/USDT SHORT ajustado a 70.07
