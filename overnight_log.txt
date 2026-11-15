@@ -1377,3 +1377,17 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 03:46:29] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-15 03:46:33] [7. Escape] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: pérdida diaria -5.1%
 [2026-11-15 03:46:33] 📊 Marcador 7 Opciones | 1. WF Base: $12,231.93 (2A/13C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,339.78 (3A/6C) | 7. Escape: $11,502.51 (0A/9C)
+[2026-11-15 04:01:14] ☁️ [GITHUB CLOUD] Cierre de vela #157 (7 Opciones) de la sesión #4...
+[2026-11-15 04:01:17]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 04:01:20]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 04:01:23]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-15 04:01:25]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 04:01:28]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 04:01:31]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 04:01:34]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 04:01:37] 💓 Cierre de Vela | Equity: $12,159.48 USD (Efectivo: $11,929.02 | Flotante: $+230.46 | Peak: $12,815.70) | Abiertas: 2 | Cerradas: 13
+[2026-11-15 04:01:37] [6. Resorte] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 04:01:37] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (6.0% de 6.0%)
+[2026-11-15 04:01:37] [6. Resorte] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (6.0% de 6.0%)
+[2026-11-15 04:01:37] [6. Resorte] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (6.0% de 6.0%)
+[2026-11-15 04:01:42] 📊 Marcador 7 Opciones | 1. WF Base: $12,159.48 (2A/13C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,450.41 (3A/6C) | 7. Escape: $11,502.51 (0A/9C)
