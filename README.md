@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `7` | **Última actualización:** `2026-11-15 15:52:06 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `7` | **Última actualización:** `2026-11-15 15:55:24 UTC`
 
 ---
 
@@ -10,12 +10,12 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$12,195.13` | **`$+2,195.13`** (`+21.95%`) | 🟢 `DOGE/USDT` LONG (`$+27.42`)<br>🟢 `SUI/USDT` LONG (`$+59.90`)<br>🔴 `AVAX/USDT` SHORT (`$+178.78`) | `7W / 6L` (`13`) | `2.50` | `9.44%` |
+| **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$12,207.64` | **`$+2,207.64`** (`+22.08%`) | 🟢 `DOGE/USDT` LONG (`$+42.91`)<br>🟢 `SUI/USDT` LONG (`$+89.99`)<br>🔴 `AVAX/USDT` SHORT (`$+145.72`) | `7W / 6L` (`13`) | `2.50` | `9.44%` |
 | **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$11,093.77` | **`$+1,093.77`** (`+10.94%`) | ⚪ *Sin abiertas* | `6W / 8L` (`14`) | `1.65` | `14.25%` |
 | **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$12,359.88` | **`$+2,359.88`** (`+23.60%`) | ⚪ *Sin abiertas* | `8W / 4L` (`12`) | `4.24` | `14.56%` |
 | **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$11,836.93` | **`$+1,836.93`** (`+18.37%`) | ⚪ *Sin abiertas* | `6W / 3L` (`9`) | `25.04` | `5.93%` |
 | **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$11,562.64` | **`$+1,562.64`** (`+15.63%`) | ⚪ *Sin abiertas* | `7W / 9L` (`16`) | `1.51` | `20.90%` |
-| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$9,755.93` | **`$-244.07`** (`-2.44%`) | 🔴 `BTC/USDT` SHORT (`$+16.55`)<br>🔴 `BNB/USDT` SHORT (`$+24.75`)<br>🟢 `DOGE/USDT` LONG (`$+60.14`)<br>🔴 `SOL/USDT` SHORT (`$+133.52`)<br>🔴 `SUI/USDT` SHORT (`$+44.18`)<br>🟢 `AVAX/USDT` LONG (`$-12.49`) | `2W / 5L` (`7`) | `0.42` | `9.10%` |
+| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$9,753.52` | **`$-246.48`** (`-2.46%`) | 🔴 `BTC/USDT` SHORT (`$+8.17`)<br>🔴 `BNB/USDT` SHORT (`$+19.87`)<br>🟢 `DOGE/USDT` LONG (`$+72.42`)<br>🔴 `SOL/USDT` SHORT (`$+124.60`)<br>🔴 `SUI/USDT` SHORT (`$+36.03`)<br>🟢 `AVAX/USDT` LONG (`$+3.16`) | `2W / 5L` (`7`) | `0.42` | `9.10%` |
 | **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$11,502.51` | **`$+1,502.51`** (`+15.03%`) | ⚪ *Sin abiertas* | `6W / 3L` (`9`) | `3.58` | `10.77%` |
 
 ---
@@ -24,12 +24,12 @@
 
 | Mercado Activo | 1. WF Base | 2. WF+Impulso | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+16.55`) | ⚪ Esperando |
-| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+133.52`) | ⚪ Esperando |
-| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+24.75`) | ⚪ Esperando |
-| `DOGE/USDT` | 🟢 **LONG** (`$+27.42`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+60.14`) | ⚪ Esperando |
-| `SUI/USDT` | 🟢 **LONG** (`$+59.90`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+44.18`) | ⚪ Esperando |
-| `AVAX/USDT` | 🔴 **SHORT** (`$+178.78`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-12.49`) | ⚪ Esperando |
+| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+8.17`) | ⚪ Esperando |
+| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+124.60`) | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+19.87`) | ⚪ Esperando |
+| `DOGE/USDT` | 🟢 **LONG** (`$+42.91`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+72.42`) | ⚪ Esperando |
+| `SUI/USDT` | 🟢 **LONG** (`$+89.99`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+36.03`) | ⚪ Esperando |
+| `AVAX/USDT` | 🔴 **SHORT** (`$+145.72`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+3.16`) | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
@@ -39,10 +39,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$12,195.13 USD`** (`+21.95%` / `$+2,195.13 USD`) |
+| **Equity Total en Vivo** | **`$12,207.64 USD`** (`+22.08%` / `$+2,207.64 USD`) |
 | **Pico Máximo (Peak Equity)** | `$12,815.70 USD` (Inicio Día UTC: `$11,903.45 USD`) |
 | **Efectivo Cerrado (Cash)** | `$11,929.02 USD` (PnL Realizado: `$+1,929.02 USD`) |
-| **PnL Flotante Actual** | `$+266.11 USD` |
+| **PnL Flotante Actual** | `$+278.62 USD` |
 | **Win Rate & Profit Factor Real** | `53.8%` (`7W / 6L` de `13`) · **PF `2.50`** |
 | **Meta Paper Trading (100 Trades)** | `13 / 100` cerrados |
 
@@ -54,9 +54,9 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `DOGE/USDT` | **LONG** | `chimichurri_alpha` | `0.05829` | `0.05849` | `0.056453` (🛡️ Inicial) | `0.061772` | **$+27.42** (+0.24%) |
-| `SUI/USDT` | **LONG** | `chimichurri_alpha` | `0.7145` | `0.7184` | `0.7145` (🔒 BE/Trail) | `0.75012` | **$+59.90** (+0.45%) |
-| `AVAX/USDT` | **SHORT** | `bollinger_reversion` | `7.265` | `7.155` | `7.265` (🔒 BE/Trail) | `7.0433` | **$+178.78** (+1.41%) |
+| `DOGE/USDT` | **LONG** | `chimichurri_alpha` | `0.05829` | `0.05857` | `0.056453` (🛡️ Inicial) | `0.061772` | **$+42.91** (+0.38%) |
+| `SUI/USDT` | **LONG** | `chimichurri_alpha` | `0.7145` | `0.72` | `0.7145` (🔒 BE/Trail) | `0.75012` | **$+89.99** (+0.67%) |
+| `AVAX/USDT` | **SHORT** | `bollinger_reversion` | `7.265` | `7.174` | `7.265` (🔒 BE/Trail) | `7.0433` | **$+145.72** (+1.15%) |
 
 ---
 
