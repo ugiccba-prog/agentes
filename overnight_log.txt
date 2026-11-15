@@ -1156,3 +1156,14 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 01:16:28] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: bloque correlacionado CRYPTO corto al tope (8.7% de 9.0%)
 [2026-11-15 01:16:28] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 62792.13000000 | SL: 63796.97330604 | TP: 60999.12192343 | Tamaño: $22,966.66 USD (Riesgo controlado: $367.53) | OK riesgo 3.00% (dd 4.2%)
 [2026-11-15 01:16:28] 📊 Marcador 7 Opciones | 1. WF Base: $12,165.51 (2A/10C) | 2. WF+Impulso: $12,149.78 (4A/10C) | 3. Chimichurri: $13,613.75 (3A/9C) | 4. Francotirador: $12,228.42 (3A/6C) | 5. Berserker: $13,170.84 (4A/11C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,275.99 (2A/7C)
+[2026-11-15 01:31:05] ☁️ [GITHUB CLOUD] Cierre de vela #25 (7 Opciones) de la sesión #4...
+[2026-11-15 01:31:08]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:31:11]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:31:14]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-15 01:31:17]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 01:31:20]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 01:31:22]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 01:31:25]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 01:31:28] 💓 Cierre de Vela | Equity: $12,405.30 USD (Efectivo: $11,621.40 | Flotante: $+783.90 | Peak: $12,405.30) | Abiertas: 2 | Cerradas: 10
+[2026-11-15 01:31:32] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 01:31:32] 📊 Marcador 7 Opciones | 1. WF Base: $12,405.30 (2A/10C) | 2. WF+Impulso: $12,450.78 (4A/10C) | 3. Chimichurri: $13,912.45 (3A/9C) | 4. Francotirador: $12,368.79 (3A/6C) | 5. Berserker: $13,699.36 (4A/11C) | 6. Resorte: $9,143.55 (0A/4C) | 7. Escape: $12,503.26 (2A/7C)
