@@ -2732,3 +2732,19 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-15 23:31:26] 💓 Cierre de Vela | Equity: $12,095.77 USD (Efectivo: $11,542.09 | Flotante: $+553.68 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 16
 [2026-11-15 23:31:29] 📊 Marcador 7 Opciones | 1. WF Base: $12,095.77 (3A/16C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,687.23 (5A/9C) | 7. Escape: $11,502.51 (0A/9C)
 [2026-11-15 23:40:25] [6. Resorte] ✅ CERRADA DOGE/USDT (LONG) a 0.05989 | PnL: $+274.98 USD (Take Profit Alcanzado)
+[2026-11-15 23:45:53] ☁️ [GITHUB CLOUD] Cierre de vela #142 (7 Opciones) de la sesión #9...
+[2026-11-15 23:45:56]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-15 23:45:58]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-15 23:46:00]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-15 23:46:02]    🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-15 23:46:04]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-15 23:46:06]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-15 23:46:08]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-15 23:46:11] 💓 Cierre de Vela | Equity: $12,167.11 USD (Efectivo: $11,542.09 | Flotante: $+625.02 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 16
+[2026-11-15 23:46:11] [2. WF+Impulso] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-15 23:46:11] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-15 23:46:11] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-15 23:46:11] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-15 23:46:14] [7. Escape] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pérdida diaria -5.1%
+[2026-11-15 23:46:14] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pérdida diaria -5.1%
+[2026-11-15 23:46:14] 📊 Marcador 7 Opciones | 1. WF Base: $12,167.11 (3A/16C) | 2. WF+Impulso: $11,093.77 (0A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,718.09 (4A/10C) | 7. Escape: $11,502.51 (0A/9C)
