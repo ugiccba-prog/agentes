@@ -3239,3 +3239,21 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 06:07:49]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-16 06:07:49]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-16 06:07:49] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-16 06:14:46] [2. WF+Impulso] ✅ CERRADA AVAX/USDT (SHORT) a 7.086 | PnL: $+148.62 USD (Take Profit Alcanzado)
+[2026-11-16 06:15:48] ☁️ [GITHUB CLOUD] Cierre de vela #60 (7 Opciones) de la sesión #11...
+[2026-11-16 06:15:51]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:15:54]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:15:57]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:16:00]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 06:16:03]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 06:16:06]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-16 06:16:08]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-16 06:16:13] 💓 Cierre de Vela | Equity: $11,284.07 USD (Efectivo: $11,190.24 | Flotante: $+93.83 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 18
+[2026-11-16 06:16:13] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 06:16:14] [4. Francotirador] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 06:16:14] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-16 06:16:16] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 06:16:17] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT (Conv 90%) | Entrada: 70.94000000 | SL: 71.66712920 | TP: 69.39677127 | Tamaño: $8,689.58 USD (Riesgo controlado: $90.31) | OK riesgo 0.82% (dd 14.4%)
+[2026-11-16 06:16:17] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 4
+[2026-11-16 06:16:17] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 06:16:17] 📊 Marcador 7 Opciones | 1. WF Base: $11,284.07 (3A/18C) | 2. WF+Impulso: $11,059.03 (1A/16C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,830.12 (1A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,917.28 (3A/13C) | 7. Escape: $10,977.36 (4A/12C)
