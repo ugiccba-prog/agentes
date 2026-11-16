@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 10984.5,
-  "equity_usd": 10986.12,
+  "equity_usd": 10978.65,
   "realized_pnl_usd": 984.5,
-  "unrealized_pnl_usd": 1.62,
+  "unrealized_pnl_usd": -5.85,
   "peak_equity_usd": 12891.01,
   "day_start_equity_usd": 11502.51,
   "current_day_utc": "2026-11-16",
@@ -11,7 +11,7 @@
   "total_trades": 12,
   "winning_trades": 6,
   "losing_trades": 6,
-  "last_updated": "2026-11-16 05:12:21 UTC",
+  "last_updated": "2026-11-16 05:16:06 UTC",
   "open_positions": [
     {
       "id": "ORD-337148",
@@ -21,14 +21,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-16 04:45:37 UTC",
       "entry_price": 590.3,
-      "current_price": 589.66,
+      "current_price": 589.89,
       "size": 32.46991,
       "notional_usd": 19166.99,
       "stop_loss": 594.3595740854,
       "take_profit": 581.7020859023,
       "initial_risk_dist": 4.0595740854,
-      "unrealized_pnl_usd": 1.62,
-      "unrealized_pnl_pct": 0.01,
+      "unrealized_pnl_usd": -5.85,
+      "unrealized_pnl_pct": -0.03,
       "reason": "Ruptura Bajista de Bollinger con expansión MACD (RSI=41.0)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
