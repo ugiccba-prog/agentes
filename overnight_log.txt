@@ -4064,3 +4064,14 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 17:09:07] 💓 Cierre de Vela | Equity: $11,400.15 USD (Efectivo: $11,144.33 | Flotante: $+255.82 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 20
 [2026-11-16 17:09:10] [7. Escape] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-16 17:09:10] 📊 Marcador 7 Opciones | 1. WF Base: $11,400.15 (1A/20C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,143.93 (3A/18C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-16 17:15:35] ☁️ [GITHUB CLOUD] Cierre de vela #7 (7 Opciones) de la sesión #14...
+[2026-11-16 17:15:37]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 17:15:39]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 17:15:41]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-16 17:15:43]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 17:15:45]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 17:15:47]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-16 17:15:49]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-16 17:15:50] 💓 Cierre de Vela | Equity: $11,417.57 USD (Efectivo: $11,144.33 | Flotante: $+273.24 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 20
+[2026-11-16 17:15:53] [7. Escape] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-16 17:15:53] 📊 Marcador 7 Opciones | 1. WF Base: $11,417.57 (1A/20C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,118.16 (3A/18C) | 7. Escape: $10,337.67 (0A/16C)
