@@ -3178,3 +3178,19 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 05:15:59]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-16 05:16:03] 💓 Cierre de Vela | Equity: $11,439.47 USD (Efectivo: $11,190.24 | Flotante: $+249.23 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 18
 [2026-11-16 05:16:06] 📊 Marcador 7 Opciones | 1. WF Base: $11,439.47 (3A/18C) | 2. WF+Impulso: $10,997.19 (1A/15C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,796.60 (3A/13C) | 7. Escape: $10,978.65 (1A/12C)
+[2026-11-16 05:30:44] ☁️ [GITHUB CLOUD] Cierre de vela #22 (7 Opciones) de la sesión #11...
+[2026-11-16 05:30:47]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 05:30:50]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 05:30:53]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-16 05:30:56]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 05:30:59]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 05:31:03] AVAX/USDT | Precio fuera del margen de entrada en AVAX/USDT. | OK riesgo 0.90% (dd 10.1%)
+[2026-11-16 05:31:06]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-16 05:31:10] 💓 Cierre de Vela | Equity: $11,487.23 USD (Efectivo: $11,190.24 | Flotante: $+296.99 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 18
+[2026-11-16 05:31:10] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 15.4% desde el pico
+[2026-11-16 05:31:10] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-16 05:31:10] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-16 05:31:10] [6. Resorte] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 05:31:10] [6. Resorte] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 05:31:10] [6. Resorte] AVAX/USDT | Precio fuera del margen de entrada en AVAX/USDT. | OK riesgo 1.78% (dd 3.6%)
+[2026-11-16 05:31:12] 📊 Marcador 7 Opciones | 1. WF Base: $11,487.23 (3A/18C) | 2. WF+Impulso: $10,972.38 (1A/15C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,713.52 (3A/13C) | 7. Escape: $10,933.17 (1A/12C)
