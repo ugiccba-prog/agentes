@@ -3940,3 +3940,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 15:15:34] [6. Resorte] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-16 15:15:34] [6. Resorte] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 80%) | Entrada: 0.05852000 | SL: 0.05941365 | TP: 0.05663040 | Tamaño: $7,592.55 USD (Riesgo controlado: $115.94) | OK riesgo 1.10% (dd 0.0%)
 [2026-11-16 15:15:38] 📊 Marcador 7 Opciones | 1. WF Base: $11,177.56 (1A/20C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,568.99 (4A/17C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-16 15:31:04] ☁️ [GITHUB CLOUD] Cierre de vela #124 (7 Opciones) de la sesión #13...
+[2026-11-16 15:31:07]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 15:31:10]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 15:31:12]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-16 15:31:15]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 15:31:18]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 15:31:20]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-16 15:31:23]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-16 15:31:24] 💓 Cierre de Vela | Equity: $11,160.14 USD (Efectivo: $11,144.33 | Flotante: $+15.81 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 20
+[2026-11-16 15:31:28] 📊 Marcador 7 Opciones | 1. WF Base: $11,160.14 (1A/20C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,598.78 (4A/17C) | 7. Escape: $10,337.67 (0A/16C)
