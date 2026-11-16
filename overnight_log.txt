@@ -3474,3 +3474,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 09:07:20] 💓 Cierre de Vela | Equity: $11,272.18 USD (Efectivo: $11,190.24 | Flotante: $+81.94 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 18
 [2026-11-16 09:07:24] [6. Resorte] ✅ CERRADA DOGE/USDT (SHORT) a 0.05841 | PnL: $+284.42 USD (Take Profit Alcanzado)
 [2026-11-16 09:07:24] 📊 Marcador 7 Opciones | 1. WF Base: $11,272.18 (3A/18C) | 2. WF+Impulso: $11,212.26 (5A/16C) | 3. Chimichurri: $12,302.46 (1A/12C) | 4. Francotirador: $11,848.20 (1A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,923.50 (2A/15C) | 7. Escape: $10,698.32 (2A/14C)
+[2026-11-16 09:11:51] [2. WF+Impulso] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 64721.21
