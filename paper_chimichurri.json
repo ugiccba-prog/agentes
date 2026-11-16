@@ -1,18 +1,38 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 12359.88,
-  "equity_usd": 12359.88,
+  "equity_usd": 12326.65,
   "realized_pnl_usd": 2359.88,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -33.23,
   "peak_equity_usd": 14466.73,
   "day_start_equity_usd": 12359.88,
   "current_day_utc": "2026-11-16",
-  "max_drawdown_pct": 14.563415505784661,
+  "max_drawdown_pct": 14.793114961017451,
   "total_trades": 12,
   "winning_trades": 8,
   "losing_trades": 4,
-  "last_updated": "2026-11-16 07:14:08 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-16 07:18:05 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-340975",
+      "symbol": "PEPE/USDT",
+      "market": "CRYPTO",
+      "strategy": "chimichurri_alpha",
+      "side": "SHORT",
+      "entry_time": "2026-11-16 07:15:40 UTC",
+      "entry_price": 3.74e-06,
+      "current_price": 3.75e-06,
+      "size": 2417651308.00883,
+      "notional_usd": 9042.02,
+      "stop_loss": 3.8167e-06,
+      "take_profit": 3.5805e-06,
+      "initial_risk_dist": 7.67e-08,
+      "unrealized_pnl_usd": -33.23,
+      "unrealized_pnl_pct": -0.37,
+      "reason": "Chimichurri Alpha SHORT (ADX=24.1, Vol=2.21x, RSI=34.6, Ruptura Donchian)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-130516",
