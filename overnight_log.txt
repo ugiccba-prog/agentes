@@ -3257,3 +3257,18 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 06:16:17] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 4
 [2026-11-16 06:16:17] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-16 06:16:17] 📊 Marcador 7 Opciones | 1. WF Base: $11,284.07 (3A/18C) | 2. WF+Impulso: $11,059.03 (1A/16C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,830.12 (1A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,917.28 (3A/13C) | 7. Escape: $10,977.36 (4A/12C)
+[2026-11-16 06:31:11] ☁️ [GITHUB CLOUD] Cierre de vela #73 (7 Opciones) de la sesión #11...
+[2026-11-16 06:31:14]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:31:17]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:31:20]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:31:23]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 06:31:26]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 06:31:29]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-16 06:31:32]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-16 06:31:36] 💓 Cierre de Vela | Equity: $11,291.38 USD (Efectivo: $11,190.24 | Flotante: $+101.14 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 18
+[2026-11-16 06:31:37] [6. Resorte] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 06:31:37] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 06:31:37] [6. Resorte] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 80%) | Entrada: 0.71730000 | SL: 0.71059305 | TP: 0.73279046 | Tamaño: $17,288.63 USD (Riesgo controlado: $173.56) | OK riesgo 1.76% (dd 1.5%)
+[2026-11-16 06:31:39] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 06:31:39] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 4
+[2026-11-16 06:31:40] 📊 Marcador 7 Opciones | 1. WF Base: $11,291.38 (3A/18C) | 2. WF+Impulso: $11,059.03 (1A/16C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,830.12 (1A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,859.64 (4A/13C) | 7. Escape: $10,931.41 (4A/12C)
