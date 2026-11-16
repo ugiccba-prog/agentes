@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11692.28,
-  "equity_usd": 11577.0,
-  "realized_pnl_usd": 1692.28,
-  "unrealized_pnl_usd": -115.28,
+  "cash_balance_usd": 11486.61,
+  "equity_usd": 11486.61,
+  "realized_pnl_usd": 1486.61,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 12583.5,
   "day_start_equity_usd": 11836.93,
   "current_day_utc": "2026-11-16",
-  "max_drawdown_pct": 8.124448682798901,
-  "total_trades": 10,
+  "max_drawdown_pct": 8.716891167004404,
+  "total_trades": 11,
   "winning_trades": 6,
-  "losing_trades": 4,
-  "last_updated": "2026-11-16 14:32:17 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-879435",
-      "symbol": "PEPE/USDT",
-      "market": "CRYPTO",
-      "strategy": "volatility_breakout",
-      "side": "SHORT",
-      "entry_time": "2026-11-16 06:01:19 UTC",
-      "entry_price": 3.77e-06,
-      "current_price": 3.83e-06,
-      "size": 1806855866.73045,
-      "notional_usd": 6811.85,
-      "stop_loss": 3.8539e-06,
-      "take_profit": 3.5607e-06,
-      "initial_risk_dist": 8.39e-08,
-      "unrealized_pnl_usd": -115.28,
-      "unrealized_pnl_pct": -1.69,
-      "reason": "Ruptura Bajista de Bollinger con expansión MACD (RSI=38.6)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 5,
+  "last_updated": "2026-11-16 14:35:39 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-130553",
@@ -213,6 +193,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 126.24,
       "r_multiple": -1.146
+    },
+    {
+      "id": "ORD-879435",
+      "symbol": "PEPE/USDT",
+      "market": "CRYPTO",
+      "strategy": "volatility_breakout",
+      "side": "SHORT",
+      "entry_time": "2026-11-16 06:01:19 UTC",
+      "exit_time": "2026-11-16 14:34:33 UTC",
+      "entry_price": 3.77e-06,
+      "exit_price": 3.88e-06,
+      "size": 1806855866.73045,
+      "pnl_usd": -205.67,
+      "pnl_pct": -3.02,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 151.6,
+      "r_multiple": -1.357
     }
   ],
   "excluded_trades": []
