@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 11836.93,
-  "equity_usd": 11768.96,
+  "equity_usd": 11809.59,
   "realized_pnl_usd": 1836.93,
-  "unrealized_pnl_usd": -67.97,
+  "unrealized_pnl_usd": -27.34,
   "peak_equity_usd": 12583.5,
   "day_start_equity_usd": 11836.93,
   "current_day_utc": "2026-11-16",
@@ -11,7 +11,7 @@
   "total_trades": 9,
   "winning_trades": 6,
   "losing_trades": 3,
-  "last_updated": "2026-11-16 13:21:16 UTC",
+  "last_updated": "2026-11-16 13:24:44 UTC",
   "open_positions": [
     {
       "id": "ORD-879435",
@@ -40,14 +40,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-16 12:15:41 UTC",
       "entry_price": 70.9,
-      "current_price": 71.02,
+      "current_price": 70.84,
       "size": 225.60042,
       "notional_usd": 15995.07,
       "stop_loss": 71.4595692589,
       "take_profit": 69.1885127376,
       "initial_risk_dist": 0.5595692589,
-      "unrealized_pnl_usd": -43.08,
-      "unrealized_pnl_pct": -0.27,
+      "unrealized_pnl_usd": -2.45,
+      "unrealized_pnl_pct": -0.02,
       "reason": "Pullback Bajista bajo EMA rápida en tendencia estructural (RSI=41.6)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
