@@ -3687,3 +3687,16 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 12:15:41] [4. Francotirador] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT (Conv 94%) | Entrada: 70.90000000 | SL: 71.45956926 | TP: 69.18851274 | Tamaño: $15,995.07 USD (Riesgo controlado: $137.44) | OK riesgo 1.16% (dd 5.8%)
 [2026-11-16 12:15:41] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-16 12:15:43] 📊 Marcador 7 Opciones | 1. WF Base: $11,154.33 (1A/20C) | 2. WF+Impulso: $10,835.17 (2A/19C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,832.20 (2A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,989.56 (2A/15C) | 7. Escape: $10,573.32 (1A/15C)
+[2026-11-16 12:31:04] ☁️ [GITHUB CLOUD] Cierre de vela #181 (7 Opciones) de la sesión #12...
+[2026-11-16 12:31:06]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 12:31:07]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 12:31:09]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-16 12:31:11]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 12:31:13]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 12:31:14]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-16 12:31:16]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-16 12:31:17] 💓 Cierre de Vela | Equity: $11,107.88 USD (Efectivo: $11,144.33 | Flotante: $-36.45 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 20
+[2026-11-16 12:31:22] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 17.7% desde el pico
+[2026-11-16 12:31:22] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 17.7% desde el pico
+[2026-11-16 12:31:22] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 17.7% desde el pico
+[2026-11-16 12:31:22] 📊 Marcador 7 Opciones | 1. WF Base: $11,107.88 (1A/20C) | 2. WF+Impulso: $10,810.64 (2A/19C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,879.60 (2A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,029.90 (2A/15C) | 7. Escape: $10,573.32 (1A/15C)
