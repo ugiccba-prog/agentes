@@ -3925,3 +3925,18 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 15:09:46]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-16 15:09:46]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-16 15:09:46] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-16 15:15:13] ☁️ [GITHUB CLOUD] Cierre de vela #110 (7 Opciones) de la sesión #13...
+[2026-11-16 15:15:16]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 15:15:19]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 15:15:22]    🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: pérdida diaria -7.5%
+[2026-11-16 15:15:25]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 15:15:27]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 15:15:30]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-16 15:15:32]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-16 15:15:34] 💓 Cierre de Vela | Equity: $11,177.56 USD (Efectivo: $11,144.33 | Flotante: $+33.23 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 20
+[2026-11-16 15:15:34] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-16 15:15:34] [4. Francotirador] 🎯 [Francotirador] BNB/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-16 15:15:34] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-16 15:15:34] [6. Resorte] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-16 15:15:34] [6. Resorte] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 80%) | Entrada: 0.05852000 | SL: 0.05941365 | TP: 0.05663040 | Tamaño: $7,592.55 USD (Riesgo controlado: $115.94) | OK riesgo 1.10% (dd 0.0%)
+[2026-11-16 15:15:38] 📊 Marcador 7 Opciones | 1. WF Base: $11,177.56 (1A/20C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,568.99 (4A/17C) | 7. Escape: $10,337.67 (0A/16C)
