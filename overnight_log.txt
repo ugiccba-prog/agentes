@@ -3856,3 +3856,8 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 14:34:36] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 7.17102502
 [2026-11-16 14:34:36] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.88e-06 | PnL: $-223.41 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-16 14:35:42] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 7.17702502
+[2026-11-16 14:36:49] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0590748195
+[2026-11-16 14:36:49] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 7.18102502
+[2026-11-16 14:37:52] [2. WF+Impulso] ✅ CERRADA AVAX/USDT (LONG) a 7.277 | PnL: $+163.79 USD (Take Profit Alcanzado)
+[2026-11-16 14:37:54] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0592748195
+[2026-11-16 14:37:54] [6. Resorte] ✅ CERRADA AVAX/USDT (LONG) a 7.277 | PnL: $+318.08 USD (Take Profit Alcanzado)
