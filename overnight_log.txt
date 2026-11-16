@@ -2971,3 +2971,6 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 02:15:50] 📊 Marcador 7 Opciones | 1. WF Base: $12,003.12 (3A/16C) | 2. WF+Impulso: $11,034.49 (2A/14C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,783.79 (5A/11C) | 7. Escape: $11,077.79 (2A/10C)
 [2026-11-16 02:18:09] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 72.19 | PnL: $-161.96 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-16 02:20:28] [6. Resorte] 🔒 Stop (Breakeven) en SOL/USDT LONG ajustado a 71.42
+[2026-11-16 02:23:50] ✅ CERRADA AVAX/USDT (SHORT) a 7.263 | PnL: $-34.86 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-16 02:23:50] [2. WF+Impulso] ✅ CERRADA SUI/USDT (SHORT) a 0.7327 | PnL: $-175.94 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-16 02:23:55] [7. Escape] ✅ CERRADA DOGE/USDT (SHORT) a 0.05946 | PnL: $-170.53 USD (Stop Loss / Trailing Stop Ejecutado)
