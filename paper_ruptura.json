@@ -1,18 +1,38 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 10984.5,
-  "equity_usd": 10984.5,
+  "equity_usd": 10970.53,
   "realized_pnl_usd": 984.5,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -13.97,
   "peak_equity_usd": 12891.01,
   "day_start_equity_usd": 11502.51,
   "current_day_utc": "2026-11-16",
-  "max_drawdown_pct": 14.78945404588159,
+  "max_drawdown_pct": 14.955771502775972,
   "total_trades": 12,
   "winning_trades": 6,
   "losing_trades": 6,
-  "last_updated": "2026-11-16 04:44:11 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-16 04:47:53 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-337148",
+      "symbol": "BNB/USDT",
+      "market": "CRYPTO",
+      "strategy": "volatility_breakout",
+      "side": "SHORT",
+      "entry_time": "2026-11-16 04:45:37 UTC",
+      "entry_price": 590.3,
+      "current_price": 590.14,
+      "size": 32.46991,
+      "notional_usd": 19166.99,
+      "stop_loss": 594.3595740854,
+      "take_profit": 581.7020859023,
+      "initial_risk_dist": 4.0595740854,
+      "unrealized_pnl_usd": -13.97,
+      "unrealized_pnl_pct": -0.07,
+      "reason": "Ruptura Bajista de Bollinger con expansión MACD (RSI=41.0)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-848732",
