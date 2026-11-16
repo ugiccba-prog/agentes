@@ -3204,3 +3204,18 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 05:46:08]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-16 05:46:12] 💓 Cierre de Vela | Equity: $11,436.36 USD (Efectivo: $11,190.24 | Flotante: $+246.12 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 18
 [2026-11-16 05:46:16] 📊 Marcador 7 Opciones | 1. WF Base: $11,436.36 (3A/18C) | 2. WF+Impulso: $10,999.26 (1A/15C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,836.93 (0A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,782.65 (3A/13C) | 7. Escape: $10,973.13 (1A/12C)
+[2026-11-16 06:00:51] ☁️ [GITHUB CLOUD] Cierre de vela #48 (7 Opciones) de la sesión #11...
+[2026-11-16 06:00:54]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:00:57]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:01:00]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-16 06:01:03]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 06:01:06]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-16 06:01:09]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-16 06:01:12]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: pérdida diaria -5.8%
+[2026-11-16 06:01:16] 💓 Cierre de Vela | Equity: $11,359.22 USD (Efectivo: $11,190.24 | Flotante: $+168.98 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 18
+[2026-11-16 06:01:17] [2. WF+Impulso] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 97%) | Entrada: 0.00000377 | SL: 0.00000385 | TP: 0.00000360 | Tamaño: $7,422.60 USD (Riesgo controlado: $165.10) | OK riesgo 1.50% (dd 14.9%)
+[2026-11-16 06:01:19] [4. Francotirador] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 97%) | Entrada: 0.00000377 | SL: 0.00000385 | TP: 0.00000356 | Tamaño: $6,811.85 USD (Riesgo controlado: $151.51) | OK riesgo 1.28% (dd 5.9%)
+[2026-11-16 06:01:19] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-16 06:01:21] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 90%) | Entrada: 64422.61000000 | SL: 64901.00917062 | TP: 63587.97692511 | Tamaño: $19,946.83 USD (Riesgo controlado: $148.12) | OK riesgo 1.35% (dd 14.9%)
+[2026-11-16 06:01:21] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 97%) | Entrada: 0.00000377 | SL: 0.00000385 | TP: 0.00000360 | Tamaño: $7,399.45 USD (Riesgo controlado: $164.58) | OK riesgo 1.50% (dd 14.9%)
+[2026-11-16 06:01:21] 📊 Marcador 7 Opciones | 1. WF Base: $11,359.22 (3A/18C) | 2. WF+Impulso: $11,012.51 (2A/15C) | 3. Chimichurri: $12,359.88 (0A/12C) | 4. Francotirador: $11,830.12 (1A/9C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $9,897.77 (3A/13C) | 7. Escape: $10,976.65 (3A/12C)
