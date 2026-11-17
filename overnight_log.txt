@@ -4699,3 +4699,18 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 02:30:32]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-17 02:30:36] 💓 Cierre de Vela | Equity: $11,171.74 USD (Efectivo: $11,062.47 | Flotante: $+109.27 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 21
 [2026-11-17 02:30:39] 📊 Marcador 7 Opciones | 1. WF Base: $11,171.74 (3A/21C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,087.04 (4A/19C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 02:45:17] ☁️ [GITHUB CLOUD] Cierre de vela #82 (7 Opciones) de la sesión #16...
+[2026-11-17 02:45:20]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 02:45:23]    🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 02:45:26]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 02:45:29]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 02:45:32]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 02:45:35]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 02:45:38]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 02:45:43] 💓 Cierre de Vela | Equity: $11,180.36 USD (Efectivo: $11,062.47 | Flotante: $+117.89 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 21
+[2026-11-17 02:45:43] [2. WF+Impulso] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 02:45:43] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-17 02:45:43] [4. Francotirador] 🎯 [Francotirador] SOL/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-17 02:45:43] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 02:45:43] [6. Resorte] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 02:45:46] 📊 Marcador 7 Opciones | 1. WF Base: $11,180.36 (3A/21C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,040.10 (4A/19C) | 7. Escape: $10,337.67 (0A/16C)
