@@ -5461,3 +5461,20 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 12:16:37] [6. Resorte] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-17 12:16:37] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-17 12:16:41] 📊 Marcador 7 Opciones | 1. WF Base: $10,858.15 (2A/29C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,298.96 (1A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,194.73 (4A/20C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 12:28:00] [6. Resorte] ✅ CERRADA DOGE/USDT (SHORT) a 0.05955 | PnL: $-11.31 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-17 12:30:08] ☁️ [GITHUB CLOUD] Cierre de vela #168 (7 Opciones) de la sesión #18...
+[2026-11-17 12:30:11]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 12:30:14]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 12:30:16]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 12:30:19]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 12:30:21]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 12:30:24]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 12:30:27]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 12:30:29] 💓 Cierre de Vela | Equity: $10,987.05 USD (Efectivo: $10,746.36 | Flotante: $+240.69 | Peak: $12,815.70) | Abiertas: 2 | Cerradas: 29
+[2026-11-17 12:30:29] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 12:30:29] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 12:30:33] [7. Escape] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 12:30:33] [7. Escape] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 12:30:33] [7. Escape] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 12:30:33] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 12:30:33] 📊 Marcador 7 Opciones | 1. WF Base: $10,987.05 (2A/29C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,340.93 (1A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,234.28 (3A/21C) | 7. Escape: $10,337.67 (0A/16C)
