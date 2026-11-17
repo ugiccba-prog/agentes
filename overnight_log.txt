@@ -5547,3 +5547,21 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 13:11:44] [7. Escape] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 13:11:44] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 13:11:44] 📊 Marcador 7 Opciones | 1. WF Base: $11,149.52 (2A/29C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,401.27 (1A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,266.78 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 13:15:59] ☁️ [GITHUB CLOUD] Cierre de vela #5 (7 Opciones) de la sesión #19...
+[2026-11-17 13:16:01]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:16:03]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:16:05]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:16:07]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 13:16:10] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.73940000 | SL: 0.73338637 | TP: 0.75314034 | Tamaño: $20,539.38 USD (Riesgo controlado: $167.05) | OK riesgo 1.50% (dd 13.1%)
+[2026-11-17 13:16:12]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 13:16:14]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 13:16:16] 💓 Cierre de Vela | Equity: $11,113.74 USD (Efectivo: $10,746.36 | Flotante: $+367.38 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 29
+[2026-11-17 13:16:16] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 13:16:16] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-17 13:16:16] [4. Francotirador] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.73940000 | SL: 0.73338637 | TP: 0.75581001 | Tamaño: $9,247.84 USD (Riesgo controlado: $75.21) | OK riesgo 0.66% (dd 9.4%)
+[2026-11-17 13:16:16] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 13:16:18] [7. Escape] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 13:16:18] [7. Escape] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 13:16:18] 📊 Marcador 7 Opciones | 1. WF Base: $11,113.74 (3A/29C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,386.77 (2A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,290.64 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 13:17:21] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4232140014
+[2026-11-17 13:17:21] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4232140014
