@@ -4836,3 +4836,17 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 04:13:04]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-17 04:13:04] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-17 04:14:11] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.3185538061
+[2026-11-17 04:15:17] ☁️ [GITHUB CLOUD] Cierre de vela #157 (7 Opciones) de la sesión #16...
+[2026-11-17 04:15:20]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 04:15:22]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 04:15:25]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 04:15:28]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 04:15:31]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 04:15:34]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 04:15:37]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 04:15:42] 💓 Cierre de Vela | Equity: $11,392.21 USD (Efectivo: $11,035.46 | Flotante: $+356.75 | Peak: $12,815.70) | Abiertas: 4 | Cerradas: 22
+[2026-11-17 04:15:43] [6. Resorte] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 04:15:47] [7. Escape] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 04:15:47] [7. Escape] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 04:15:47] 📊 Marcador 7 Opciones | 1. WF Base: $11,392.21 (4A/22C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,473.39 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,144.87 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 04:18:04] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.3522285342
