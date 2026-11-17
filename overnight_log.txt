@@ -6187,3 +6187,22 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 21:30:59]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-17 21:30:59] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-17 21:31:06] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,065.56 (1A/18C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,293.80 (4A/23C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 21:45:42] ☁️ [GITHUB CLOUD] Cierre de vela #29 (7 Opciones) de la sesión #21...
+[2026-11-17 21:45:46]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 21:45:49]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 21:45:52]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 21:45:55]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 21:45:58]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 21:46:01]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-17 21:46:04]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 21:46:04] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-17 21:46:04] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 21:46:04] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: confianza 87 < 90
+[2026-11-17 21:46:06] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 21:46:06] [6. Resorte] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 21:46:06] [6. Resorte] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 21:46:06] [6. Resorte] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 21:46:06] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-17 21:46:06] [6. Resorte] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 21:46:06] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-17 21:46:12] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,081.76 (1A/18C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,132.54 (4A/23C) | 7. Escape: $10,337.67 (0A/16C)
