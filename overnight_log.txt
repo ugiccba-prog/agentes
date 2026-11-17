@@ -5104,3 +5104,37 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 08:00:28] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: confianza 89 < 90
 [2026-11-17 08:00:28] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-17 08:00:31] 📊 Marcador 7 Opciones | 1. WF Base: $11,230.99 (3A/24C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,416.57 (0A/12C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,244.99 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 08:13:54] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
+[2026-11-17 08:13:57]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-17 08:14:00]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:03]    🔎 [SOL/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-17 08:14:07]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-17 08:14:10]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:13]    🔎 [DOGE/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21
+[2026-11-17 08:14:16]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24
+[2026-11-17 08:14:19]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
+[2026-11-17 08:14:23]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:26]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
+[2026-11-17 08:14:29]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:29]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:30]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:30]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:30]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:30]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:30]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:30]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 08:14:30] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-17 08:15:31] ☁️ [GITHUB CLOUD] Cierre de vela #159 (7 Opciones) de la sesión #17...
+[2026-11-17 08:15:33]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 08:15:36]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 08:15:38]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 08:15:41]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 08:15:44]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 08:15:46]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 08:15:50] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 85%) | Entrada: 0.00000389 | SL: 0.00000395 | TP: 0.00000376 | Tamaño: $8,439.07 USD (Riesgo controlado: $134.57) | OK riesgo 1.20% (dd 12.5%)
+[2026-11-17 08:15:54] 💓 Cierre de Vela | Equity: $11,198.20 USD (Efectivo: $11,153.88 | Flotante: $+44.32 | Peak: $12,815.70) | Abiertas: 4 | Cerradas: 24
+[2026-11-17 08:15:54] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 08:15:54] [4. Francotirador] 🎯 [Francotirador] PEPE/USDT SHORT descartado: sin alineación Macro 1H (1)
+[2026-11-17 08:15:54] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 08:15:57] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 08:15:57] 📊 Marcador 7 Opciones | 1. WF Base: $11,198.20 (4A/24C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,416.57 (0A/12C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,275.58 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
