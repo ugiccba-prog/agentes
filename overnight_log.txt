@@ -6285,3 +6285,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 23:00:47] [6. Resorte] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-17 23:00:48] [6. Resorte] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 75%) | Entrada: 7.20100000 | SL: 7.28404600 | TP: 7.04058431 | Tamaño: $9,155.42 USD (Riesgo controlado: $105.59) | OK riesgo 0.94% (dd 0.5%)
 [2026-11-17 23:00:52] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,081.76 (1A/18C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,234.62 (4A/24C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 23:03:08] [6. Resorte] ✅ CERRADA BTC/USDT (SHORT) a 64902.01 | PnL: $-17.82 USD (Stop Loss / Trailing Stop Ejecutado)
