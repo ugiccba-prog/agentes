@@ -6288,3 +6288,5 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 23:03:08] [6. Resorte] ✅ CERRADA BTC/USDT (SHORT) a 64902.01 | PnL: $-17.82 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-17 23:05:22] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.857914254
 [2026-11-17 23:06:29] [6. Resorte] ✅ CERRADA SOL/USDT (LONG) a 74.9 | PnL: $+515.41 USD (Take Profit Alcanzado)
+[2026-11-17 23:09:42] [4. Francotirador] ✅ CERRADA PEPE/USDT (SHORT) a 3.87e-06 | PnL: $-108.30 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-17 23:09:45] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.7334135722

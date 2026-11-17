@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11133.37,
-  "equity_usd": 11065.56,
-  "realized_pnl_usd": 1133.37,
-  "unrealized_pnl_usd": -67.81,
+  "cash_balance_usd": 11025.07,
+  "equity_usd": 11025.07,
+  "realized_pnl_usd": 1025.07,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 12583.5,
   "day_start_equity_usd": 11486.61,
   "current_day_utc": "2026-11-17",
-  "max_drawdown_pct": 12.062939563714393,
-  "total_trades": 18,
+  "max_drawdown_pct": 12.38471013628959,
+  "total_trades": 19,
   "winning_trades": 7,
-  "losing_trades": 11,
-  "last_updated": "2026-11-17 23:07:30 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-926666",
-      "symbol": "PEPE/USDT",
-      "market": "CRYPTO",
-      "strategy": "volatility_breakout",
-      "side": "SHORT",
-      "entry_time": "2026-11-17 16:45:26 UTC",
-      "entry_price": 3.74e-06,
-      "current_price": 3.82e-06,
-      "size": 809359305.62644,
-      "notional_usd": 3027.0,
-      "stop_loss": 3.828e-06,
-      "take_profit": 3.5203e-06,
-      "initial_risk_dist": 8.8e-08,
-      "unrealized_pnl_usd": -67.81,
-      "unrealized_pnl_pct": -2.24,
-      "reason": "Ruptura Bajista de Bollinger con expansión MACD (RSI=33.3)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 12,
+  "last_updated": "2026-11-17 23:10:45 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-130553",
@@ -357,6 +337,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 71.31,
       "r_multiple": -0.049
+    },
+    {
+      "id": "ORD-926666",
+      "symbol": "PEPE/USDT",
+      "market": "CRYPTO",
+      "strategy": "volatility_breakout",
+      "side": "SHORT",
+      "entry_time": "2026-11-17 16:45:26 UTC",
+      "exit_time": "2026-11-17 23:09:40 UTC",
+      "entry_price": 3.74e-06,
+      "exit_price": 3.87e-06,
+      "size": 809359305.62644,
+      "pnl_usd": -108.3,
+      "pnl_pct": -3.58,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 71.22,
+      "r_multiple": -1.521
     }
   ],
   "excluded_trades": []
