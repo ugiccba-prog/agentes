@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `21` | **Última actualización:** `2026-11-17 23:10:48 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `21` | **Última actualización:** `2026-11-17 23:13:53 UTC`
 
 ---
 
@@ -15,7 +15,7 @@
 | **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$12,157.33` | **`$+2,157.33`** (`+21.57%`) | ⚪ *Sin abiertas* | `8W / 5L` (`13`) | `3.32` | `15.96%` |
 | **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$11,025.07` | **`$+1,025.07`** (`+10.25%`) | ⚪ *Sin abiertas* | `7W / 12L` (`19`) | `2.06` | `12.38%` |
 | **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$11,562.64` | **`$+1,562.64`** (`+15.63%`) | ⚪ *Sin abiertas* | `7W / 9L` (`16`) | `1.51` | `20.90%` |
-| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$11,491.65` | **`$+1,491.65`** (`+14.92%`) | 🟢 `SUI/USDT` LONG (`$+483.92`)<br>🔴 `AVAX/USDT` SHORT (`$-105.83`) | `9W / 17L` (`26`) | `1.73` | `9.10%` |
+| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$11,527.47` | **`$+1,527.47`** (`+15.27%`) | ⚪ *Sin abiertas* | `10W / 18L` (`28`) | `1.91` | `9.10%` |
 | **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$10,337.67` | **`$+337.67`** (`+3.38%`) | ⚪ *Sin abiertas* | `6W / 10L` (`16`) | `1.19` | `19.81%` |
 
 ---
@@ -28,8 +28,8 @@
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+483.92`) | ⚪ Esperando |
-| `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-105.83`) | ⚪ Esperando |
+| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
@@ -83,8 +83,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-17 23:00:28]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-17 23:00:30]    SOL/USDT | Esperando señal de ema_pullback
 [2026-11-17 23:00:33]    BNB/USDT | Esperando señal de ema_pullback
 [2026-11-17 23:00:36]    DOGE/USDT | Esperando señal de chimichurri_alpha
 [2026-11-17 23:00:39]    SUI/USDT | Esperando señal de chimichurri_alpha
@@ -103,4 +101,6 @@
 [2026-11-17 23:06:29] [6. Resorte] ✅ CERRADA SOL/USDT (LONG) a 74.9 | PnL: $+515.41 USD (Take Profit Alcanzado)
 [2026-11-17 23:09:42] [4. Francotirador] ✅ CERRADA PEPE/USDT (SHORT) a 3.87e-06 | PnL: $-108.30 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-17 23:09:45] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.7334135722
+[2026-11-17 23:11:53] [6. Resorte] ✅ CERRADA SUI/USDT (LONG) a 0.744 | PnL: $+557.90 USD (Take Profit Alcanzado)
+[2026-11-17 23:11:53] [6. Resorte] ✅ CERRADA AVAX/USDT (SHORT) a 7.307 | PnL: $-143.99 USD (Stop Loss / Trailing Stop Ejecutado)
 ```
