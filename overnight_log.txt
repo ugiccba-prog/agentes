@@ -5323,3 +5323,5 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 10:46:07] 💓 Cierre de Vela | Equity: $11,182.93 USD (Efectivo: $11,040.98 | Flotante: $+141.95 | Peak: $12,815.70) | Abiertas: 4 | Cerradas: 25
 [2026-11-17 10:46:11] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 10:46:11] 📊 Marcador 7 Opciones | 1. WF Base: $11,182.93 (4A/25C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,362.48 (1A/12C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,343.65 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 10:52:00] ✅ CERRADA SOL/USDT (LONG) a 72.14 | PnL: $-153.47 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-17 10:52:00] [4. Francotirador] ✅ CERRADA SOL/USDT (LONG) a 72.14 | PnL: $-83.92 USD (Stop Loss / Trailing Stop Ejecutado)
