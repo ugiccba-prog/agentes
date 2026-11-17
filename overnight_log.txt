@@ -5696,3 +5696,20 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 15:16:22]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-17 15:16:23] 💓 Cierre de Vela | Equity: $10,908.69 USD (Efectivo: $10,963.27 | Flotante: $-54.58 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 31
 [2026-11-17 15:16:25] 📊 Marcador 7 Opciones | 1. WF Base: $10,908.69 (1A/31C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,235.88 (0A/16C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,537.85 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 15:30:13] ☁️ [GITHUB CLOUD] Cierre de vela #126 (7 Opciones) de la sesión #19...
+[2026-11-17 15:30:17] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 94%) | Entrada: 65034.20000000 | SL: 64556.21819588 | TP: 65977.61295257 | Tamaño: $21,890.38 USD (Riesgo controlado: $160.89) | OK riesgo 1.47% (dd 14.6%)
+[2026-11-17 15:30:19]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 15:30:22] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 82%) | Entrada: 592.29000000 | SL: 588.96088324 | TP: 599.02976286 | Tamaño: $21,613.93 USD (Riesgo controlado: $121.49) | OK riesgo 1.11% (dd 14.6%)
+[2026-11-17 15:30:24]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 15:30:26]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 15:30:28]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 15:30:29]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 15:30:30] 💓 Cierre de Vela | Equity: $10,896.58 USD (Efectivo: $10,963.27 | Flotante: $-66.69 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 31
+[2026-11-17 15:30:30] [2. WF+Impulso] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 15:30:30] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 15:30:30] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-17 15:30:30] [4. Francotirador] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 94%) | Entrada: 65034.20000000 | SL: 64556.21819588 | TP: 66169.70891603 | Tamaño: $8,866.77 USD (Riesgo controlado: $65.17) | OK riesgo 0.58% (dd 10.7%)
+[2026-11-17 15:30:31] [4. Francotirador] 🎯 [Francotirador] BNB/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-17 15:30:31] [5. Berserker] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 15:30:31] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 15:30:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,896.58 (3A/31C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,227.01 (1A/16C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,369.18 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
