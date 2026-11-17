@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `19` | **Última actualización:** `2026-11-17 15:59:36 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `19` | **Última actualización:** `2026-11-17 16:03:07 UTC`
 
 ---
 
@@ -13,9 +13,9 @@
 | **1. WF Estricta (Base)** | `Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,480.05` | **`$+480.05`** (`+4.80%`) | ⚪ *Sin abiertas* | `10W / 24L` (`34`) | `1.14` | `18.22%` |
 | **2. WF + Impulso Shark** | `Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0` | `$10,806.21` | **`$+806.21`** (`+8.06%`) | ⚪ *Sin abiertas* | `8W / 13L` (`21`) | `1.35` | `17.14%` |
 | **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$12,157.33` | **`$+2,157.33`** (`+21.57%`) | ⚪ *Sin abiertas* | `8W / 5L` (`13`) | `3.32` | `15.96%` |
-| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$11,142.70` | **`$+1,142.70`** (`+11.43%`) | 🔴 `PEPE/USDT` SHORT (`$+5.83`) | `7W / 10L` (`17`) | `2.33` | `11.52%` |
+| **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$11,133.37` | **`$+1,133.37`** (`+11.33%`) | ⚪ *Sin abiertas* | `7W / 11L` (`18`) | `2.32` | `11.52%` |
 | **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$11,562.64` | **`$+1,562.64`** (`+15.63%`) | ⚪ *Sin abiertas* | `7W / 9L` (`16`) | `1.51` | `20.90%` |
-| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$10,808.34` | **`$+808.34`** (`+8.08%`) | 🔴 `BTC/USDT` SHORT (`$+136.15`)<br>🔴 `BNB/USDT` SHORT (`$+50.56`) | `8W / 15L` (`23`) | `1.41` | `9.10%` |
+| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$10,802.61` | **`$+802.61`** (`+8.03%`) | 🔴 `BTC/USDT` SHORT (`$+125.39`)<br>🔴 `BNB/USDT` SHORT (`$+47.28`)<br>🟢 `SOL/USDT` LONG (`$+1.64`)<br>🟢 `SUI/USDT` LONG (`$+6.68`) | `8W / 15L` (`23`) | `1.41` | `9.10%` |
 | **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$10,337.67` | **`$+337.67`** (`+3.38%`) | ⚪ *Sin abiertas* | `6W / 10L` (`16`) | `1.19` | `19.81%` |
 
 ---
@@ -24,13 +24,13 @@
 
 | Mercado Activo | 1. WF Base | 2. WF+Impulso | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+136.15`) | ⚪ Esperando |
-| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+50.56`) | ⚪ Esperando |
+| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+125.39`) | ⚪ Esperando |
+| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+1.64`) | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+47.28`) | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+6.68`) | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+5.83`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
 
@@ -83,24 +83,24 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-17 15:45:38]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
-[2026-11-17 15:45:38] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
-[2026-11-17 15:45:38] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
-[2026-11-17 15:45:38] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
-[2026-11-17 15:45:38] [4. Francotirador] 🎯 [Francotirador] BNB/USDT SHORT descartado: sin alineación Macro 1H (0)
-[2026-11-17 15:45:39] [4. Francotirador] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 97%) | Entrada: 0.00000375 | SL: 0.00000383 | TP: 0.00000356 | Tamaño: $3,495.63 USD (Riesgo controlado: $71.28) | OK riesgo 0.64% (dd 11.5%)
-[2026-11-17 15:45:39] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
-[2026-11-17 15:45:39] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
-[2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
-[2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
-[2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
-[2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
-[2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
-[2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
-[2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
-[2026-11-17 15:45:42] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,133.37 (1A/17C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,755.33 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
-[2026-11-17 15:46:47] [6. Resorte] ✅ CERRADA DOGE/USDT (SHORT) a 0.05816 | PnL: $+255.32 USD (Take Profit Alcanzado)
-[2026-11-17 15:49:57] [4. Francotirador] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 3.75e-06
-[2026-11-17 15:50:00] [6. Resorte] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 64882.0
-[2026-11-17 15:50:00] [6. Resorte] 🔒 Stop (Breakeven) en BNB/USDT SHORT ajustado a 593.69
+[2026-11-17 16:00:50]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-17 16:00:52]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-17 16:00:52] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-17 16:00:52] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 16:00:52] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 16:00:52] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-17 16:00:52] [4. Francotirador] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 16:00:53] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 16:00:53] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 16:00:54] [6. Resorte] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 80%) | Entrada: 72.47000000 | SL: 71.43232211 | TP: 74.62837002 | Tamaño: $15,851.63 USD (Riesgo controlado: $226.98) | OK riesgo 2.10% (dd 2.0%)
+[2026-11-17 16:00:55] [6. Resorte] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 80%) | Entrada: 0.71990000 | SL: 0.71039290 | TP: 0.74121476 | Tamaño: $17,187.10 USD (Riesgo controlado: $226.98) | OK riesgo 2.10% (dd 2.0%)
+[2026-11-17 16:00:55] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-17 16:00:57] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 16:00:57] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 16:00:57] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 16:00:57] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 16:00:57] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 16:00:57] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 16:00:57] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,142.70 (1A/17C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,789.78 (4A/23C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 16:01:59] [4. Francotirador] ✅ CERRADA PEPE/USDT (SHORT) a 3.75e-06 | PnL: $-3.50 USD (Stop Loss / Trailing Stop Ejecutado)
 ```
