@@ -6175,3 +6175,5 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 21:15:50] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-17 21:15:51] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-17 21:15:57] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,114.15 (1A/18C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,021.69 (4A/23C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 21:20:30] [6. Resorte] 🔒 Stop (Breakeven) en SOL/USDT LONG ajustado a 72.47
+[2026-11-17 21:20:30] [6. Resorte] 🔒 Stop (Breakeven) en SUI/USDT LONG ajustado a 0.7199
