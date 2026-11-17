@@ -5389,3 +5389,21 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 11:31:38] 📊 Marcador 7 Opciones | 1. WF Base: $11,009.18 (3A/27C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,285.85 (1A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,317.11 (4A/20C) | 7. Escape: $10,337.67 (0A/16C)
 [2026-11-17 11:33:51] 🔒 Stop (Breakeven) en SOL/USDT LONG ajustado a 72.72
 [2026-11-17 11:33:51] [4. Francotirador] 🔒 Stop (Breakeven) en SOL/USDT LONG ajustado a 72.72
+[2026-11-17 11:45:22] ☁️ [GITHUB CLOUD] Cierre de vela #130 (7 Opciones) de la sesión #18...
+[2026-11-17 11:45:25]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 11:45:27]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 11:45:30]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 11:45:34] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG (Conv 96%) | Entrada: 0.05930000 | SL: 0.05880781 | TP: 0.06050856 | Tamaño: $6,899.62 USD (Riesgo controlado: $64.17) | OK riesgo 0.58% (dd 14.1%)
+[2026-11-17 11:45:36]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 11:45:39]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 11:45:42]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 11:45:45] 💓 Cierre de Vela | Equity: $10,976.33 USD (Efectivo: $10,911.06 | Flotante: $+65.27 | Peak: $12,815.70) | Abiertas: 4 | Cerradas: 27
+[2026-11-17 11:45:45] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 11:45:45] [2. WF+Impulso] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 11:45:45] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-17 11:45:45] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-17 11:45:45] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 11:45:45] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 11:45:48] [7. Escape] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 11:45:48] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 11:45:48] 📊 Marcador 7 Opciones | 1. WF Base: $10,976.33 (4A/27C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,309.46 (1A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,261.67 (4A/20C) | 7. Escape: $10,337.67 (0A/16C)
