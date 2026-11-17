@@ -5943,3 +5943,33 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 18:01:26]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-17 18:01:26] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-17 18:01:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,154.64 (1A/18C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,782.21 (4A/23C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 18:12:33] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
+[2026-11-17 18:12:35]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-17 18:12:38]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:12:40]    🔎 [SOL/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-17 18:12:42]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-17 18:12:45]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:12:47]    🔎 [DOGE/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21
+[2026-11-17 18:12:49]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24
+[2026-11-17 18:12:52]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
+[2026-11-17 18:12:54]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:12:57]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
+[2026-11-17 18:12:59]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:12:59]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:12:59]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:12:59]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:12:59]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:13:00]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:13:00]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:13:00]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-17 18:13:00] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-17 18:15:06] ☁️ [GITHUB CLOUD] Cierre de vela #57 (7 Opciones) de la sesión #20...
+[2026-11-17 18:15:08]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 18:15:10]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 18:15:12]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 18:15:14]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 18:15:16]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 18:15:18]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 18:15:20]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 18:15:20] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-17 18:15:25] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,146.54 (1A/18C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,707.97 (4A/23C) | 7. Escape: $10,337.67 (0A/16C)
