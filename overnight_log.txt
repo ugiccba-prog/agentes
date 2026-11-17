@@ -4940,3 +4940,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 05:15:50] [6. Resorte] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-17 05:15:50] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-17 05:15:53] 📊 Marcador 7 Opciones | 1. WF Base: $11,360.46 (3A/23C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,444.98 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,161.41 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 05:30:32] ☁️ [GITHUB CLOUD] Cierre de vela #18 (7 Opciones) de la sesión #17...
+[2026-11-17 05:30:34]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 05:30:37]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 05:30:39]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 05:30:42]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 05:30:45]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 05:30:47]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 05:30:50]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 05:30:54] 💓 Cierre de Vela | Equity: $11,398.02 USD (Efectivo: $11,335.65 | Flotante: $+62.37 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 23
+[2026-11-17 05:30:58] 📊 Marcador 7 Opciones | 1. WF Base: $11,398.02 (3A/23C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,473.39 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,147.17 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
