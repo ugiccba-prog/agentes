@@ -7,11 +7,11 @@
   "peak_equity_usd": 12583.5,
   "day_start_equity_usd": 11486.61,
   "current_day_utc": "2026-11-17",
-  "max_drawdown_pct": 8.746692096793417,
+  "max_drawdown_pct": 8.821949378153937,
   "total_trades": 11,
   "winning_trades": 6,
   "losing_trades": 5,
-  "last_updated": "2026-11-17 03:41:00 UTC",
+  "last_updated": "2026-11-17 03:44:28 UTC",
   "open_positions": [
     {
       "id": "ORD-234409",
