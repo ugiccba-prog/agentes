@@ -4867,3 +4867,6 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 04:31:25] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-17 04:31:29] 📊 Marcador 7 Opciones | 1. WF Base: $11,288.09 (4A/22C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,454.45 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,153.49 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
 [2026-11-17 04:39:40] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.392426496
+[2026-11-17 04:40:52] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.402426496
+[2026-11-17 04:42:02] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.452426496
+[2026-11-17 04:43:12] ✅ CERRADA SOL/USDT (LONG) a 73.03 | PnL: $+300.19 USD (Take Profit Alcanzado)
