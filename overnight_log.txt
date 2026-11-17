@@ -5505,3 +5505,5 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 13:00:30] [7. Escape] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 13:00:30] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 13:00:30] 📊 Marcador 7 Opciones | 1. WF Base: $11,036.64 (2A/29C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,360.61 (1A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,216.15 (4A/21C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 13:02:45] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 7.1947271574
+[2026-11-17 13:05:00] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 7.1967271574
