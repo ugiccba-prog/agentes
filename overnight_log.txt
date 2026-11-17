@@ -4486,3 +4486,19 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-16 23:46:22]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-16 23:46:23] 💓 Cierre de Vela | Equity: $11,214.34 USD (Efectivo: $11,144.33 | Flotante: $+70.01 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 20
 [2026-11-16 23:46:27] 📊 Marcador 7 Opciones | 1. WF Base: $11,214.34 (1A/20C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,192.29 (4A/18C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 00:00:35] ☁️ [GITHUB CLOUD] Cierre de vela #153 (7 Opciones) de la sesión #15...
+[2026-11-17 00:00:38]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 00:00:41]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 00:00:43]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 00:00:46]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 00:00:49]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 00:00:51]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -6.9%
+[2026-11-17 00:00:54]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 00:00:55] 💓 Cierre de Vela | Equity: $11,264.66 USD (Efectivo: $11,144.33 | Flotante: $+120.33 | Peak: $12,815.70) | Abiertas: 1 | Cerradas: 20
+[2026-11-17 00:00:55] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 00:00:55] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-17 00:00:55] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-17 00:00:55] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 00:00:55] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 00:00:56] [6. Resorte] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 75%) | Entrada: 7.11900000 | SL: 7.05144454 | TP: 7.26259537 | Tamaño: $19,037.69 USD (Riesgo controlado: $182.19) | OK riesgo 1.80% (dd 5.7%)
+[2026-11-17 00:01:01] 📊 Marcador 7 Opciones | 1. WF Base: $11,264.66 (1A/20C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,486.61 (0A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,097.61 (5A/18C) | 7. Escape: $10,337.67 (0A/16C)
