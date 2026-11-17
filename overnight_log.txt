@@ -4851,3 +4851,18 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 04:15:47] 📊 Marcador 7 Opciones | 1. WF Base: $11,392.21 (4A/22C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,473.39 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,144.87 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
 [2026-11-17 04:18:04] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.3522285342
 [2026-11-17 04:20:26] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.3622285342
+[2026-11-17 04:30:58] ☁️ [GITHUB CLOUD] Cierre de vela #170 (7 Opciones) de la sesión #16...
+[2026-11-17 04:31:01]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 04:31:04]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 04:31:07]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 04:31:10]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 04:31:13]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 04:31:16]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 04:31:19]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 04:31:25] 💓 Cierre de Vela | Equity: $11,288.09 USD (Efectivo: $11,035.46 | Flotante: $+252.63 | Peak: $12,815.70) | Abiertas: 4 | Cerradas: 22
+[2026-11-17 04:31:25] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 04:31:25] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-17 04:31:25] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 04:31:25] [6. Resorte] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 04:31:25] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 04:31:29] 📊 Marcador 7 Opciones | 1. WF Base: $11,288.09 (4A/22C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,454.45 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,153.49 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
