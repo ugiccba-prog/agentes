@@ -5584,3 +5584,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 13:30:47] [7. Escape] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 13:30:47] 📊 Marcador 7 Opciones | 1. WF Base: $11,091.14 (2A/30C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,357.96 (2A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,303.28 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
 [2026-11-17 13:41:45] [4. Francotirador] ✅ CERRADA SOL/USDT (LONG) a 73.39 | PnL: $+78.33 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-17 13:46:03] ☁️ [GITHUB CLOUD] Cierre de vela #32 (7 Opciones) de la sesión #19...
+[2026-11-17 13:46:05]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:46:07]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:46:09]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:46:11]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 13:46:13]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 13:46:15]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 13:46:17]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 13:46:19] 💓 Cierre de Vela | Equity: $11,014.49 USD (Efectivo: $11,158.73 | Flotante: $-144.24 | Peak: $12,815.70) | Abiertas: 2 | Cerradas: 30
+[2026-11-17 13:46:22] 📊 Marcador 7 Opciones | 1. WF Base: $11,014.49 (2A/30C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,258.38 (1A/15C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,336.36 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
