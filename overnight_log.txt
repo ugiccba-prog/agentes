@@ -5182,3 +5182,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 09:01:11] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-17 09:01:14] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 09:01:14] 📊 Marcador 7 Opciones | 1. WF Base: $11,230.49 (4A/24C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,416.57 (0A/12C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,329.21 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 09:02:21] ✅ CERRADA BNB/USDT (LONG) a 590.24 | PnL: $-112.90 USD (Stop Loss / Trailing Stop Ejecutado)
