@@ -5376,3 +5376,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 11:16:19] [4. Francotirador] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 94%) | Entrada: 72.72000000 | SL: 72.22213767 | TP: 74.31241383 | Tamaño: $9,542.69 USD (Riesgo controlado: $65.33) | OK riesgo 0.58% (dd 10.5%)
 [2026-11-17 11:16:20] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-17 11:16:23] 📊 Marcador 7 Opciones | 1. WF Base: $10,919.00 (3A/27C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,262.04 (2A/13C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,342.60 (4A/20C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 11:17:30] [4. Francotirador] ✅ CERRADA DOGE/USDT (SHORT) a 0.05888 | PnL: $-87.10 USD (Stop Loss / Trailing Stop Ejecutado)
