@@ -1,18 +1,38 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 11416.57,
-  "equity_usd": 11416.57,
+  "equity_usd": 11413.19,
   "realized_pnl_usd": 1416.57,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -3.38,
   "peak_equity_usd": 12583.5,
   "day_start_equity_usd": 11486.61,
   "current_day_utc": "2026-11-17",
-  "max_drawdown_pct": 9.273493066317007,
+  "max_drawdown_pct": 9.371478523463272,
   "total_trades": 12,
   "winning_trades": 6,
   "losing_trades": 6,
-  "last_updated": "2026-11-17 09:59:46 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-17 10:03:35 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-675386",
+      "symbol": "SOL/USDT",
+      "market": "CRYPTO",
+      "strategy": "ema_pullback",
+      "side": "LONG",
+      "entry_time": "2026-11-17 10:01:15 UTC",
+      "entry_price": 72.63,
+      "current_price": 72.68,
+      "size": 149.21649,
+      "notional_usd": 10837.59,
+      "stop_loss": 72.186241353,
+      "take_profit": 74.0873575225,
+      "initial_risk_dist": 0.443758647,
+      "unrealized_pnl_usd": -3.38,
+      "unrealized_pnl_pct": -0.03,
+      "reason": "Pullback Alcista sobre EMA rápida en tendencia estructural (RSI=55.5)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-130553",
