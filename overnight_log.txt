@@ -5569,3 +5569,17 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 13:18:28] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4432140014
 [2026-11-17 13:21:45] ✅ CERRADA SOL/USDT (LONG) a 74.07 | PnL: $+412.37 USD (Take Profit Alcanzado)
 [2026-11-17 13:21:45] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4632140014
+[2026-11-17 13:28:21] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4732140014
+[2026-11-17 13:29:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4732140014
+[2026-11-17 13:30:29] ☁️ [GITHUB CLOUD] Cierre de vela #18 (7 Opciones) de la sesión #19...
+[2026-11-17 13:30:31]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:30:33]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:30:35]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 13:30:37]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 13:30:38]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 13:30:40]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 13:30:42]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 13:30:44] 💓 Cierre de Vela | Equity: $11,091.14 USD (Efectivo: $11,158.73 | Flotante: $-67.59 | Peak: $12,815.70) | Abiertas: 2 | Cerradas: 30
+[2026-11-17 13:30:45] [6. Resorte] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 13:30:47] [7. Escape] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-17 13:30:47] 📊 Marcador 7 Opciones | 1. WF Base: $11,091.14 (2A/30C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,357.96 (2A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,303.28 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
