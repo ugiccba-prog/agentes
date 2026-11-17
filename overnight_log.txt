@@ -5407,3 +5407,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 11:45:48] [7. Escape] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 11:45:48] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 11:45:48] 📊 Marcador 7 Opciones | 1. WF Base: $10,976.33 (4A/27C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,309.46 (1A/14C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,261.67 (4A/20C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 11:49:14] ✅ CERRADA AVAX/USDT (SHORT) a 7.241 | PnL: $-156.26 USD (Stop Loss / Trailing Stop Ejecutado)
