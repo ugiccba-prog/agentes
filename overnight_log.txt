@@ -5742,3 +5742,6 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 15:45:42] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 15:45:42] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,133.37 (1A/17C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,755.33 (3A/22C) | 7. Escape: $10,337.67 (0A/16C)
 [2026-11-17 15:46:47] [6. Resorte] ✅ CERRADA DOGE/USDT (SHORT) a 0.05816 | PnL: $+255.32 USD (Take Profit Alcanzado)
+[2026-11-17 15:49:57] [4. Francotirador] 🔒 Stop (Breakeven) en PEPE/USDT SHORT ajustado a 3.75e-06
+[2026-11-17 15:50:00] [6. Resorte] 🔒 Stop (Breakeven) en BTC/USDT SHORT ajustado a 64882.0
+[2026-11-17 15:50:00] [6. Resorte] 🔒 Stop (Breakeven) en BNB/USDT SHORT ajustado a 593.69
