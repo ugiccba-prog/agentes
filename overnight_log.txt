@@ -4925,3 +4925,18 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 05:10:58] 💓 Cierre de Vela | Equity: $11,336.52 USD (Efectivo: $11,335.65 | Flotante: $+0.87 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 23
 [2026-11-17 05:11:02] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-17 05:11:02] 📊 Marcador 7 Opciones | 1. WF Base: $11,336.52 (3A/23C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,435.51 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,151.77 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-17 05:15:27] ☁️ [GITHUB CLOUD] Cierre de vela #5 (7 Opciones) de la sesión #17...
+[2026-11-17 05:15:30]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 05:15:32]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 05:15:35]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-17 05:15:38]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 05:15:40]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 05:15:43]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 05:15:46]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 05:15:49] 💓 Cierre de Vela | Equity: $11,360.46 USD (Efectivo: $11,335.65 | Flotante: $+24.81 | Peak: $12,815.70) | Abiertas: 3 | Cerradas: 23
+[2026-11-17 05:15:49] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 05:15:49] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-17 05:15:49] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 05:15:50] [6. Resorte] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 05:15:50] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-17 05:15:53] 📊 Marcador 7 Opciones | 1. WF Base: $11,360.46 (3A/23C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,444.98 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,161.41 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
