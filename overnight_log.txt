@@ -5567,3 +5567,5 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 13:17:21] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4232140014
 [2026-11-17 13:18:28] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4432140014
 [2026-11-17 13:18:28] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4432140014
+[2026-11-17 13:21:45] ✅ CERRADA SOL/USDT (LONG) a 74.07 | PnL: $+412.37 USD (Take Profit Alcanzado)
+[2026-11-17 13:21:45] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 73.4632140014
