@@ -5051,3 +5051,16 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-17 07:12:56]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-17 07:12:56]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-17 07:12:56] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-17 07:15:05] ☁️ [GITHUB CLOUD] Cierre de vela #107 (7 Opciones) de la sesión #17...
+[2026-11-17 07:15:08]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-17 07:15:11]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-17 07:15:14] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 89%) | Entrada: 593.19000000 | SL: 590.49241577 | TP: 598.83177519 | Tamaño: $18,908.83 USD (Riesgo controlado: $86.35) | OK riesgo 0.77% (dd 12.4%)
+[2026-11-17 07:15:17]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 07:15:20]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-17 07:15:22]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-17 07:15:25]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-17 07:15:29] 💓 Cierre de Vela | Equity: $11,209.19 USD (Efectivo: $11,335.65 | Flotante: $-126.46 | Peak: $12,815.70) | Abiertas: 4 | Cerradas: 23
+[2026-11-17 07:15:29] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-17 07:15:29] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: confianza 89 < 90
+[2026-11-17 07:15:29] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-17 07:15:32] 📊 Marcador 7 Opciones | 1. WF Base: $11,209.19 (4A/23C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $11,435.51 (1A/11C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,334.52 (5A/19C) | 7. Escape: $10,337.67 (0A/16C)
