@@ -7828,3 +7828,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-18 20:19:21]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-18 20:19:21]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-18 20:19:21] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-18 20:25:33] [6. Resorte] ✅ CERRADA SOL/USDT (LONG) a 72.8 | PnL: $-46.13 USD (Stop Loss / Trailing Stop Ejecutado)

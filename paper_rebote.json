@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 12068.91,
-  "equity_usd": 12054.02,
-  "realized_pnl_usd": 2068.91,
-  "unrealized_pnl_usd": -14.89,
+  "cash_balance_usd": 12022.78,
+  "equity_usd": 12022.78,
+  "realized_pnl_usd": 2022.78,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 12799.87,
   "day_start_equity_usd": 11390.02,
   "current_day_utc": "2026-11-18",
   "max_drawdown_pct": 9.102700000000008,
-  "total_trades": 34,
+  "total_trades": 35,
   "winning_trades": 13,
-  "losing_trades": 21,
-  "last_updated": "2026-11-18 20:24:30 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-166641",
-      "symbol": "SOL/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "LONG",
-      "entry_time": "2026-11-18 17:16:06 UTC",
-      "entry_price": 72.86,
-      "current_price": 72.89,
-      "size": 347.3094,
-      "notional_usd": 25304.96,
-      "stop_loss": 72.86,
-      "take_profit": 74.6188548501,
-      "initial_risk_dist": 0.830795601,
-      "unrealized_pnl_usd": -14.89,
-      "unrealized_pnl_pct": -0.06,
-      "reason": "Rebote en Banda Inferior Bollinger (%B=0.08) + Giro RSI (33.9)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 22,
+  "last_updated": "2026-11-18 20:27:33 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-848688",
@@ -645,6 +625,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 217.38,
       "r_multiple": -0.129
+    },
+    {
+      "id": "ORD-166641",
+      "symbol": "SOL/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "LONG",
+      "entry_time": "2026-11-18 17:16:06 UTC",
+      "exit_time": "2026-11-18 20:25:32 UTC",
+      "entry_price": 72.86,
+      "exit_price": 72.8,
+      "size": 347.3094,
+      "pnl_usd": -46.13,
+      "pnl_pct": -0.18,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 288.54,
+      "r_multiple": -0.16
     }
   ],
   "excluded_trades": []
