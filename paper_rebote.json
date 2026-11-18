@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11635.87,
-  "equity_usd": 12070.44,
-  "realized_pnl_usd": 1635.87,
-  "unrealized_pnl_usd": 434.57,
+  "cash_balance_usd": 12096.86,
+  "equity_usd": 12096.86,
+  "realized_pnl_usd": 2096.86,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 12315.7,
   "day_start_equity_usd": 11390.02,
   "current_day_utc": "2026-11-18",
   "max_drawdown_pct": 9.102700000000008,
-  "total_trades": 32,
-  "winning_trades": 12,
+  "total_trades": 33,
+  "winning_trades": 13,
   "losing_trades": 20,
-  "last_updated": "2026-11-18 15:46:00 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-233239",
-      "symbol": "SOL/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "SHORT",
-      "entry_time": "2026-11-17 23:30:33 UTC",
-      "entry_price": 75.02,
-      "current_price": 73.3,
-      "size": 264.04076,
-      "notional_usd": 19808.34,
-      "stop_loss": 75.02,
-      "take_profit": 73.205422141,
-      "initial_risk_dist": 0.9168162784,
-      "unrealized_pnl_usd": 434.57,
-      "unrealized_pnl_pct": 2.19,
-      "reason": "Rechazo en Banda Superior Bollinger (%B=1.26) + Giro RSI (71.1)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "last_updated": "2026-11-18 15:49:06 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-848688",
@@ -609,6 +589,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 107.67,
       "r_multiple": -1.149
+    },
+    {
+      "id": "ORD-233239",
+      "symbol": "SOL/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "SHORT",
+      "entry_time": "2026-11-17 23:30:33 UTC",
+      "exit_time": "2026-11-18 15:48:04 UTC",
+      "entry_price": 75.02,
+      "exit_price": 73.2,
+      "size": 264.04076,
+      "pnl_usd": 460.99,
+      "pnl_pct": 2.33,
+      "exit_reason": "Take Profit Alcanzado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 242.08,
+      "r_multiple": 1.904
     }
   ],
   "excluded_trades": []
