@@ -7546,3 +7546,25 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-18 16:19:32]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-18 16:19:32]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-18 16:19:32] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-18 16:30:57] ☁️ [GITHUB CLOUD] Cierre de vela #177 (7 Opciones) de la sesión #25...
+[2026-11-18 16:31:00]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-18 16:31:03]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-18 16:31:06]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-18 16:31:09]    🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-18 16:31:12]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-18 16:31:15]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-18 16:31:18]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-18 16:31:18] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-18 16:31:18] [2. WF+Impulso] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-18 16:31:18] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-18 16:31:18] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-18 16:31:18] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-18 16:31:18] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-18 16:31:19] [4. Francotirador] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 98%) | Entrada: 0.05826000 | SL: 0.05900457 | TP: 0.05654140 | Tamaño: $5,570.46 USD (Riesgo controlado: $71.19) | OK riesgo 0.66% (dd 14.3%)
+[2026-11-18 16:31:21] [4. Francotirador] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 98%) | Entrada: 0.70860000 | SL: 0.71692217 | TP: 0.68922428 | Tamaño: $6,061.63 USD (Riesgo controlado: $71.19) | OK riesgo 0.66% (dd 14.3%)
+[2026-11-18 16:31:22] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-18 16:31:22] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-18 16:31:22] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-18 16:31:22] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-18 16:31:22] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-18 16:31:22] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,774.87 (3A/23C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,096.86 (0A/33C) | 7. Escape: $10,337.67 (0A/16C)
