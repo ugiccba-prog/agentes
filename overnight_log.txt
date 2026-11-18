@@ -7626,3 +7626,6 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-18 17:16:02] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-18 17:16:06] [6. Resorte] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 85%) | Entrada: 72.86000000 | SL: 72.02920440 | TP: 74.61885485 | Tamaño: $25,304.96 USD (Riesgo controlado: $288.54) | OK riesgo 2.40% (dd 2.4%)
 [2026-11-18 17:16:07] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,720.69 (3A/23C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,003.02 (2A/33C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-18 17:23:46] [4. Francotirador] ✅ CERRADA SUI/USDT (SHORT) a 0.7179 | PnL: $-85.66 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-18 17:23:48] [6. Resorte] 🔒 Stop (Breakeven) en SOL/USDT LONG ajustado a 72.86
+[2026-11-18 17:24:50] [4. Francotirador] ✅ CERRADA DOGE/USDT (SHORT) a 0.05906 | PnL: $-82.10 USD (Stop Loss / Trailing Stop Ejecutado)
