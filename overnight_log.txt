@@ -7107,3 +7107,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-18 10:46:14] [6. Resorte] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-18 10:46:18] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-18 10:46:18] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,843.92 (1A/22C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,990.27 (3A/28C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-18 10:50:41] [6. Resorte] ✅ CERRADA BNB/USDT (SHORT) a 590.54 | PnL: $+99.86 USD (Stop Loss / Trailing Stop Ejecutado)
