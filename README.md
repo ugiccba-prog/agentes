@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `27` | **Última actualización:** `2026-11-18 23:42:12 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `27` | **Última actualización:** `2026-11-18 23:45:34 UTC`
 
 ---
 
@@ -83,16 +83,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-18 23:17:28]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
-[2026-11-18 23:17:31]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:31]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:32]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:32]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:32]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:33]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:33]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:33]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-18 23:17:33] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-18 23:30:46] ☁️ [GITHUB CLOUD] Cierre de vela #130 (7 Opciones) de la sesión #27...
 [2026-11-18 23:30:48]    BTC/USDT | Esperando señal de ema_pullback
 [2026-11-18 23:30:51]    SOL/USDT | Esperando señal de ema_pullback
@@ -103,4 +93,14 @@
 [2026-11-18 23:31:03]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-18 23:31:03] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-18 23:31:03] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,022.78 (0A/35C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-18 23:45:15] ☁️ [GITHUB CLOUD] Cierre de vela #144 (7 Opciones) de la sesión #27...
+[2026-11-18 23:45:18]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-18 23:45:20]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-18 23:45:22]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-18 23:45:25]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 23:45:28]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 23:45:31]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-18 23:45:33]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-18 23:45:33] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-18 23:45:34] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,022.78 (0A/35C) | 7. Escape: $10,337.67 (0A/16C)
 ```
