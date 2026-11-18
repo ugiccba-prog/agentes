@@ -7582,3 +7582,15 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-18 16:45:54] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-18 16:45:54] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-18 16:45:54] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,799.29 (3A/23C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,096.86 (0A/33C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-18 17:01:06] ☁️ [GITHUB CLOUD] Cierre de vela #204 (7 Opciones) de la sesión #25...
+[2026-11-18 17:01:09]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-18 17:01:12]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-18 17:01:15]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-18 17:01:18]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 17:01:21]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 17:01:24]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-18 17:01:27]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-18 17:01:27] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-18 17:01:33] [6. Resorte] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 80%) | Entrada: 62794.01000000 | SL: 62258.81074735 | TP: 63802.50444552 | Tamaño: $25,504.89 USD (Riesgo controlado: $217.38) | OK riesgo 1.80% (dd 1.8%)
+[2026-11-18 17:01:34] [6. Resorte] SOL/USDT | Precio fuera del margen de entrada en SOL/USDT. | OK riesgo 2.10% (dd 1.8%)
+[2026-11-18 17:01:34] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,701.46 (3A/23C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,071.35 (1A/33C) | 7. Escape: $10,337.67 (0A/16C)
