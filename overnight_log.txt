@@ -6992,3 +6992,23 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-18 09:15:14]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-18 09:15:14]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-18 09:15:14] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-18 09:15:16] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #24...
+[2026-11-18 09:15:18]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-18 09:15:21]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-18 09:15:24]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-18 09:15:26]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 09:15:29]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 09:15:31]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-18 09:15:34]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-18 09:15:34] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-18 09:15:38] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,884.95 (1A/21C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,697.07 (3A/28C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-18 09:16:38] ☁️ [GITHUB CLOUD] Cierre de vela #2 (7 Opciones) de la sesión #24...
+[2026-11-18 09:16:43]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-18 09:16:45]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-18 09:16:50]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-18 09:16:52]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 09:16:55]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-18 09:16:58]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-18 09:17:00]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-18 09:17:00] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-18 09:17:04] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,893.94 (1A/21C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,642.66 (3A/28C) | 7. Escape: $10,337.67 (0A/16C)
