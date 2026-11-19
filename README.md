@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `32` | **Última actualización:** `2026-11-19 19:29:06 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `32` | **Última actualización:** `2026-11-19 19:32:23 UTC`
 
 ---
 
@@ -83,16 +83,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-19 19:20:31] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
-[2026-11-19 19:20:34]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-19 19:20:36]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-19 19:20:39]    🔎 [SOL/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-19 19:20:42]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-19 19:20:44]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-19 19:20:46]    🔎 [DOGE/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21
-[2026-11-19 19:20:49]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24
-[2026-11-19 19:20:51]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
-[2026-11-19 19:20:54]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-19 19:20:56]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
 [2026-11-19 19:20:58]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-19 19:20:59]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
@@ -103,4 +93,14 @@
 [2026-11-19 19:20:59]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-19 19:21:00]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-19 19:21:00] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-19 19:30:08] ☁️ [GITHUB CLOUD] Cierre de vela #127 (7 Opciones) de la sesión #32...
+[2026-11-19 19:30:10]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-19 19:30:12]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-19 19:30:14]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-19 19:30:16]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 19:30:18]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 19:30:20]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-19 19:30:22]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-19 19:30:22] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-19 19:30:22] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,177.10 (0A/41C) | 7. Escape: $10,337.67 (0A/16C)
 ```
