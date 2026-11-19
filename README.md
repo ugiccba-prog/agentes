@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `31` | **Última actualización:** `2026-11-19 16:43:43 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `31` | **Última actualización:** `2026-11-19 16:47:01 UTC`
 
 ---
 
@@ -83,24 +83,24 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-19 16:22:05]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-19 16:22:05]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-19 16:22:05] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-19 16:30:15] ☁️ [GITHUB CLOUD] Cierre de vela #185 (7 Opciones) de la sesión #31...
-[2026-11-19 16:30:17]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-19 16:30:19]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-19 16:30:21]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-19 16:30:23]    DOGE/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 16:30:25]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 16:30:28]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 18.2% desde el pico
-[2026-11-19 16:30:30]    PEPE/USDT | Esperando señal de volatility_breakout
-[2026-11-19 16:30:30] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
-[2026-11-19 16:30:30] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
-[2026-11-19 16:30:30] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (0)
 [2026-11-19 16:30:30] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-19 16:30:30] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
 [2026-11-19 16:30:30] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
 [2026-11-19 16:30:30] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
 [2026-11-19 16:30:30] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-19 16:30:30] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,177.10 (0A/41C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-19 16:45:46] ☁️ [GITHUB CLOUD] Cierre de vela #200 (7 Opciones) de la sesión #31...
+[2026-11-19 16:45:48]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-19 16:45:50]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-19 16:45:52]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-19 16:45:54]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 16:45:56]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 16:45:58]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-19 16:46:00]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-19 16:46:00] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-19 16:46:00] [6. Resorte] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-19 16:46:00] [6. Resorte] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-19 16:46:00] [6. Resorte] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-19 16:46:01] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-19 16:46:01] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,177.10 (0A/41C) | 7. Escape: $10,337.67 (0A/16C)
 ```
