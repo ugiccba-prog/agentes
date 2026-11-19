@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `27` | **Última actualización:** `2026-11-18 23:57:43 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `27` | **Última actualización:** `2026-11-19 00:01:06 UTC`
 
 ---
 
@@ -15,7 +15,7 @@
 | **3. Chimichurri Alpha (Tendencia)** | `Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x` | `$12,157.33` | **`$+2,157.33`** (`+21.57%`) | ⚪ *Sin abiertas* | `8W / 5L` (`13`) | `3.32` | `15.96%` |
 | **4. Francotirador (Alta Precisión)** | `Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x` | `$10,534.59` | **`$+534.59`** (`+5.35%`) | ⚪ *Sin abiertas* | `7W / 19L` (`26`) | `1.37` | `16.28%` |
 | **5. Berserker / Full Tiburón** | `Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR` | `$11,562.64` | **`$+1,562.64`** (`+15.63%`) | ⚪ *Sin abiertas* | `7W / 9L` (`16`) | `1.51` | `20.90%` |
-| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$12,022.78` | **`$+2,022.78`** (`+20.23%`) | ⚪ *Sin abiertas* | `13W / 22L` (`35`) | `1.97` | `9.10%` |
+| **6. Resorte** | `Busca el giro después de un movimiento extremo` | `$12,009.32` | **`$+2,009.32`** (`+20.09%`) | 🔴 `PEPE/USDT` SHORT (`$-13.46`) | `13W / 22L` (`35`) | `1.97` | `9.10%` |
 | **7. Escape** | `Sigue una ruptura con volatilidad y fuerza crecientes` | `$10,337.67` | **`$+337.67`** (`+3.38%`) | ⚪ *Sin abiertas* | `6W / 10L` (`16`) | `1.19` | `19.81%` |
 
 ---
@@ -30,7 +30,7 @@
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-13.46`) | ⚪ Esperando |
 
 ---
 
@@ -83,24 +83,24 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-18 23:30:46] ☁️ [GITHUB CLOUD] Cierre de vela #130 (7 Opciones) de la sesión #27...
-[2026-11-18 23:30:48]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-18 23:30:51]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-18 23:30:53]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-18 23:30:56]    DOGE/USDT | Esperando señal de chimichurri_alpha
-[2026-11-18 23:30:58]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-18 23:31:01]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-18 23:31:03]    PEPE/USDT | Esperando señal de volatility_breakout
-[2026-11-18 23:31:03] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
-[2026-11-18 23:31:03] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,022.78 (0A/35C) | 7. Escape: $10,337.67 (0A/16C)
-[2026-11-18 23:45:15] ☁️ [GITHUB CLOUD] Cierre de vela #144 (7 Opciones) de la sesión #27...
-[2026-11-18 23:45:18]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-18 23:45:20]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-18 23:45:22]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-18 23:45:25]    DOGE/USDT | Esperando señal de chimichurri_alpha
 [2026-11-18 23:45:28]    SUI/USDT | Esperando señal de chimichurri_alpha
 [2026-11-18 23:45:31]    AVAX/USDT | Esperando señal de bollinger_reversion
 [2026-11-18 23:45:33]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-18 23:45:33] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-18 23:45:34] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,022.78 (0A/35C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-19 00:00:46] ☁️ [GITHUB CLOUD] Cierre de vela #159 (7 Opciones) de la sesión #27...
+[2026-11-19 00:00:49]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-19 00:00:51]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-19 00:00:54]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-19 00:00:56]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 00:00:58]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 00:01:01]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-19 00:01:03]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-19 00:01:03] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-19 00:01:03] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-19 00:01:03] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: confianza 82 < 90
+[2026-11-19 00:01:03] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-19 00:01:05] [6. Resorte] AVAX/USDT | Precio fuera del margen de entrada en AVAX/USDT. | OK riesgo 2.22% (dd 6.1%)
+[2026-11-19 00:01:06] [6. Resorte] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 80%) | Entrada: 0.00000375 | SL: 0.00000382 | TP: 0.00000360 | Tamaño: $13,458.03 USD (Riesgo controlado: $252.48) | OK riesgo 2.10% (dd 6.1%)
+[2026-11-19 00:01:06] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,009.32 (1A/35C) | 7. Escape: $10,337.67 (0A/16C)
 ```
