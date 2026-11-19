@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `32` | **Última actualización:** `2026-11-19 17:27:21 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `32` | **Última actualización:** `2026-11-19 17:30:38 UTC`
 
 ---
 
@@ -83,19 +83,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-19 17:19:10]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-19 17:19:12]    PEPE/USDT | Esperando señal de volatility_breakout
-[2026-11-19 17:19:12] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
-[2026-11-19 17:19:12] [2. WF+Impulso] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
-[2026-11-19 17:19:12] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
-[2026-11-19 17:19:12] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
-[2026-11-19 17:19:12] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
-[2026-11-19 17:19:12] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
-[2026-11-19 17:19:12] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
-[2026-11-19 17:19:12] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT SHORT descartado: sin alineación Macro 1H (0)
-[2026-11-19 17:19:12] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.3% desde el pico
-[2026-11-19 17:19:13] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
-[2026-11-19 17:19:13] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
 [2026-11-19 17:19:13] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-19 17:19:13] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-19 17:19:13] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
@@ -103,4 +90,17 @@
 [2026-11-19 17:19:13] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-19 17:19:13] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
 [2026-11-19 17:19:13] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,177.10 (0A/41C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-19 17:30:23] ☁️ [GITHUB CLOUD] Cierre de vela #12 (7 Opciones) de la sesión #32...
+[2026-11-19 17:30:25]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-19 17:30:27]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-19 17:30:29]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-19 17:30:31]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 17:30:34]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 17:30:36]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-19 17:30:38]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-19 17:30:38] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-19 17:30:38] [6. Resorte] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-19 17:30:38] [6. Resorte] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-19 17:30:38] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-19 17:30:38] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,177.10 (0A/41C) | 7. Escape: $10,337.67 (0A/16C)
 ```
