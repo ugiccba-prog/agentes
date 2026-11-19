@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `27` | **Última actualización:** `2026-11-19 01:16:14 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `28` | **Última actualización:** `2026-11-19 01:17:05 UTC`
 
 ---
 
@@ -83,24 +83,24 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-19 01:00:46]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-19 01:00:49]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-19 01:00:52]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-19 01:00:54]    DOGE/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 01:00:56]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 01:00:59]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-19 01:01:01]    PEPE/USDT | Esperando señal de volatility_breakout
-[2026-11-19 01:01:01] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
-[2026-11-19 01:01:02] [6. Resorte] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 82%) | Entrada: 584.67000000 | SL: 587.66208065 | TP: 577.73807226 | Tamaño: $27,020.97 USD (Riesgo controlado: $148.92) | OK riesgo 1.24% (dd 6.2%)
-[2026-11-19 01:01:04] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,982.30 (2A/35C) | 7. Escape: $10,337.67 (0A/16C)
-[2026-11-19 01:15:53] ☁️ [GITHUB CLOUD] Cierre de vela #229 (7 Opciones) de la sesión #27...
-[2026-11-19 01:15:55]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-19 01:15:58]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-19 01:16:01]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-19 01:16:03]    DOGE/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 01:16:06]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 01:16:09]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-19 01:16:11]    PEPE/USDT | Esperando señal de volatility_breakout
-[2026-11-19 01:16:11] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
-[2026-11-19 01:16:14] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $12,038.25 (2A/35C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-19 01:16:35] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
+[2026-11-19 01:16:38]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-19 01:16:41]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:16:43]    🔎 [SOL/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-19 01:16:46]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
+[2026-11-19 01:16:48]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:16:51]    🔎 [DOGE/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21
+[2026-11-19 01:16:53]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24
+[2026-11-19 01:16:56]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
+[2026-11-19 01:16:58]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:01]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
+[2026-11-19 01:17:03]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:03]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:04]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:04]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:04]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:04]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:05]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:05]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-19 01:17:05] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 ```
