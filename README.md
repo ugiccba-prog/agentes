@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `29` | **Última actualización:** `2026-11-19 07:57:16 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `29` | **Última actualización:** `2026-11-19 08:00:33 UTC`
 
 ---
 
@@ -83,17 +83,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-19 07:30:24] ☁️ [GITHUB CLOUD] Cierre de vela #124 (7 Opciones) de la sesión #29...
-[2026-11-19 07:30:27]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-19 07:30:29]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-19 07:30:31]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-19 07:30:33]    DOGE/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 07:30:35]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-19 07:30:37]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-19 07:30:39]    PEPE/USDT | Esperando señal de volatility_breakout
-[2026-11-19 07:30:39] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
-[2026-11-19 07:30:39] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,477.85 (0A/39C) | 7. Escape: $10,337.67 (0A/16C)
-[2026-11-19 07:45:53] ☁️ [GITHUB CLOUD] Cierre de vela #139 (7 Opciones) de la sesión #29...
 [2026-11-19 07:45:55]    BTC/USDT | Esperando señal de ema_pullback
 [2026-11-19 07:45:57]    SOL/USDT | Esperando señal de ema_pullback
 [2026-11-19 07:45:59]    BNB/USDT | Esperando señal de ema_pullback
@@ -103,4 +92,15 @@
 [2026-11-19 07:46:07]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-19 07:46:07] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-19 07:46:08] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,477.85 (0A/39C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-19 08:00:19] ☁️ [GITHUB CLOUD] Cierre de vela #153 (7 Opciones) de la sesión #29...
+[2026-11-19 08:00:21]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-19 08:00:23]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-19 08:00:25]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-19 08:00:27]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 08:00:29]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-19 08:00:31]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-19 08:00:33]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-19 08:00:33] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-19 08:00:33] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-19 08:00:33] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,477.85 (0A/39C) | 7. Escape: $10,337.67 (0A/16C)
 ```
