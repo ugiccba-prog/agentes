@@ -8527,3 +8527,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-19 06:30:31] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-19 06:30:34] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,753.53 (3A/36C) | 7. Escape: $10,337.67 (0A/16C)
 [2026-11-19 06:32:40] [6. Resorte] ✅ CERRADA BNB/USDT (SHORT) a 589.34 | PnL: $-139.27 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-19 06:42:08] [6. Resorte] ✅ CERRADA PEPE/USDT (SHORT) a 3.83e-06 | PnL: $-300.71 USD (Stop Loss / Trailing Stop Ejecutado)
