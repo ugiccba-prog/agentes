@@ -5,13 +5,13 @@
   "realized_pnl_usd": 1177.1,
   "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 12799.87,
-  "day_start_equity_usd": 12022.78,
-  "current_day_utc": "2026-11-19",
+  "day_start_equity_usd": 11177.1,
+  "current_day_utc": "2026-11-20",
   "max_drawdown_pct": 12.678019386134398,
   "total_trades": 41,
   "winning_trades": 14,
   "losing_trades": 27,
-  "last_updated": "2026-11-19 23:58:32 UTC",
+  "last_updated": "2026-11-20 00:01:56 UTC",
   "open_positions": [],
   "closed_trades": [
     {
