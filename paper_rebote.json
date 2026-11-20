@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11248.3,
-  "equity_usd": 11147.23,
-  "realized_pnl_usd": 1248.3,
-  "unrealized_pnl_usd": -101.07,
+  "cash_balance_usd": 11118.95,
+  "equity_usd": 11118.95,
+  "realized_pnl_usd": 1118.95,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 12799.87,
   "day_start_equity_usd": 11177.1,
   "current_day_utc": "2026-11-20",
-  "max_drawdown_pct": 13.074195284795875,
-  "total_trades": 49,
+  "max_drawdown_pct": 13.132320875133885,
+  "total_trades": 50,
   "winning_trades": 16,
-  "losing_trades": 33,
-  "last_updated": "2026-11-20 20:33:33 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-164243",
-      "symbol": "AVAX/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "LONG",
-      "entry_time": "2026-11-20 16:46:04 UTC",
-      "entry_price": 6.52,
-      "current_price": 6.43,
-      "size": 1047.65994,
-      "notional_usd": 6830.74,
-      "stop_loss": 6.4034455433,
-      "take_profit": 6.76859327,
-      "initial_risk_dist": 0.1165544567,
-      "unrealized_pnl_usd": -101.07,
-      "unrealized_pnl_pct": -1.48,
-      "reason": "Rebote en Banda Inferior Bollinger (%B=0.08) + Giro RSI (29.5)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 34,
+  "last_updated": "2026-11-20 20:36:37 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-848688",
@@ -915,6 +895,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 140.27,
       "r_multiple": -1.127
+    },
+    {
+      "id": "ORD-164243",
+      "symbol": "AVAX/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "LONG",
+      "entry_time": "2026-11-20 16:46:04 UTC",
+      "exit_time": "2026-11-20 20:34:34 UTC",
+      "entry_price": 6.52,
+      "exit_price": 6.403,
+      "size": 1047.65994,
+      "pnl_usd": -129.35,
+      "pnl_pct": -1.89,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 122.11,
+      "r_multiple": -1.059
     }
   ],
   "excluded_trades": []
