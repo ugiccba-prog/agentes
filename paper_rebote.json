@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 11560.29,
-  "equity_usd": 11560.29,
+  "equity_usd": 11547.41,
   "realized_pnl_usd": 1560.29,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -12.88,
   "peak_equity_usd": 12799.87,
   "day_start_equity_usd": 11177.1,
   "current_day_utc": "2026-11-20",
@@ -11,8 +11,28 @@
   "total_trades": 46,
   "winning_trades": 16,
   "losing_trades": 30,
-  "last_updated": "2026-11-20 15:58:18 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-20 16:01:43 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-441980",
+      "symbol": "SOL/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "LONG",
+      "entry_time": "2026-11-20 16:00:41 UTC",
+      "entry_price": 68.32,
+      "current_price": 68.3,
+      "size": 145.86666,
+      "notional_usd": 9965.61,
+      "stop_loss": 67.3689706311,
+      "take_profit": 70.4213410874,
+      "initial_risk_dist": 0.9510293689,
+      "unrealized_pnl_usd": -12.88,
+      "unrealized_pnl_pct": -0.13,
+      "reason": "Rebote en Banda Inferior Bollinger (%B=-0.21) + Giro RSI (23.8)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-848688",
