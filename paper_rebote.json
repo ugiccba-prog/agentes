@@ -1,38 +1,18 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11701.09,
-  "equity_usd": 11597.48,
-  "realized_pnl_usd": 1701.09,
-  "unrealized_pnl_usd": -103.61,
+  "cash_balance_usd": 11560.29,
+  "equity_usd": 11560.29,
+  "realized_pnl_usd": 1560.29,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 12799.87,
   "day_start_equity_usd": 11177.1,
   "current_day_utc": "2026-11-20",
   "max_drawdown_pct": 13.074195284795875,
-  "total_trades": 45,
+  "total_trades": 46,
   "winning_trades": 16,
-  "losing_trades": 29,
-  "last_updated": "2026-11-20 15:14:07 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-772680",
-      "symbol": "PEPE/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "LONG",
-      "entry_time": "2026-11-20 02:46:12 UTC",
-      "entry_price": 3.56e-06,
-      "current_price": 3.48e-06,
-      "size": 1240502460.71424,
-      "notional_usd": 4416.19,
-      "stop_loss": 3.4654e-06,
-      "take_profit": 3.7568e-06,
-      "initial_risk_dist": 9.46e-08,
-      "unrealized_pnl_usd": -103.61,
-      "unrealized_pnl_pct": -2.35,
-      "reason": "Rebote en Banda Inferior Bollinger (%B=-0.25) + Giro RSI (27.7)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 30,
+  "last_updated": "2026-11-20 15:17:30 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-848688",
@@ -843,6 +823,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 101.03,
       "r_multiple": -0.278
+    },
+    {
+      "id": "ORD-772680",
+      "symbol": "PEPE/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "LONG",
+      "entry_time": "2026-11-20 02:46:12 UTC",
+      "exit_time": "2026-11-20 15:16:28 UTC",
+      "entry_price": 3.56e-06,
+      "exit_price": 3.45e-06,
+      "size": 1240502460.71424,
+      "pnl_usd": -140.8,
+      "pnl_pct": -3.19,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 117.35,
+      "r_multiple": -1.2
     }
   ],
   "excluded_trades": []
