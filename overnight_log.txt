@@ -10962,3 +10962,4 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-20 14:23:16]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-20 14:23:16]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-20 14:23:16] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-20 14:25:24] [6. Resorte] ✅ CERRADA BTC/USDT (SHORT) a 62122.11 | PnL: $-28.04 USD (Stop Loss / Trailing Stop Ejecutado)

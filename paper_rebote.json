@@ -1,17 +1,17 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11729.13,
-  "equity_usd": 11741.68,
-  "realized_pnl_usd": 1729.13,
-  "unrealized_pnl_usd": 12.55,
+  "cash_balance_usd": 11701.09,
+  "equity_usd": 11696.67,
+  "realized_pnl_usd": 1701.09,
+  "unrealized_pnl_usd": -4.42,
   "peak_equity_usd": 12799.87,
   "day_start_equity_usd": 11177.1,
   "current_day_utc": "2026-11-20",
   "max_drawdown_pct": 13.074195284795875,
-  "total_trades": 44,
+  "total_trades": 45,
   "winning_trades": 16,
-  "losing_trades": 28,
-  "last_updated": "2026-11-20 14:22:40 UTC",
+  "losing_trades": 29,
+  "last_updated": "2026-11-20 14:26:26 UTC",
   "open_positions": [
     {
       "id": "ORD-772680",
@@ -30,25 +30,6 @@
       "unrealized_pnl_usd": -4.42,
       "unrealized_pnl_pct": -0.1,
       "reason": "Rebote en Banda Inferior Bollinger (%B=-0.25) + Giro RSI (27.7)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    },
-    {
-      "id": "ORD-450967",
-      "symbol": "BTC/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "SHORT",
-      "entry_time": "2026-11-20 11:00:50 UTC",
-      "entry_price": 62076.37,
-      "current_price": 61949.1,
-      "size": 0.26001,
-      "notional_usd": 16140.5,
-      "stop_loss": 62076.37,
-      "take_profit": 61186.9715977505,
-      "initial_risk_dist": 388.5623087738,
-      "unrealized_pnl_usd": 16.97,
-      "unrealized_pnl_pct": 0.11,
-      "reason": "Rechazo en Banda Superior Bollinger (%B=1.20) + Giro RSI (54.8)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
   ],
@@ -844,6 +825,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 124.6,
       "r_multiple": 2.504
+    },
+    {
+      "id": "ORD-450967",
+      "symbol": "BTC/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "SHORT",
+      "entry_time": "2026-11-20 11:00:50 UTC",
+      "exit_time": "2026-11-20 14:25:21 UTC",
+      "entry_price": 62076.37,
+      "exit_price": 62122.11,
+      "size": 0.26001,
+      "pnl_usd": -28.04,
+      "pnl_pct": -0.17,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 101.03,
+      "r_multiple": -0.278
     }
   ],
   "excluded_trades": []
