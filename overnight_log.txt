@@ -10507,3 +10507,22 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-20 08:45:32]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-20 08:45:32] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-20 08:45:33] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,213.18 (1A/42C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-20 09:01:06] ☁️ [GITHUB CLOUD] Cierre de vela #208 (7 Opciones) de la sesión #35...
+[2026-11-20 09:01:08]    🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-20 09:01:11]    🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-20 09:01:13]    🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-20 09:01:15]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-20 09:01:18]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-20 09:01:20]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-20 09:01:22]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-20 09:01:22] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-20 09:01:22] [2. WF+Impulso] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-20 09:01:22] [2. WF+Impulso] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-20 09:01:22] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-20 09:01:22] [4. Francotirador] 🎯 [Francotirador] BTC/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-20 09:01:22] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: confianza 89 < 90
+[2026-11-20 09:01:22] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: confianza 89 < 90
+[2026-11-20 09:01:22] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-20 09:01:22] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-20 09:01:22] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-20 09:01:24] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,200.78 (1A/42C) | 7. Escape: $10,337.67 (0A/16C)
