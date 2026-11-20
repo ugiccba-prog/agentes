@@ -10748,3 +10748,17 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-20 12:07:26] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.8597576562
 [2026-11-20 12:08:30] [6. Resorte] ✅ CERRADA BNB/USDT (SHORT) a 565.72 | PnL: $+261.46 USD (Take Profit Alcanzado)
 [2026-11-20 12:08:30] [6. Resorte] ✅ CERRADA AVAX/USDT (SHORT) a 6.78 | PnL: $+312.07 USD (Take Profit Alcanzado)
+[2026-11-20 12:15:51] ☁️ [GITHUB CLOUD] Cierre de vela #163 (7 Opciones) de la sesión #36...
+[2026-11-20 12:15:53]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-20 12:15:55]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-20 12:15:57]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-20 12:15:59]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-20 12:16:01]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-20 12:16:03]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-20 12:16:05]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-20 12:16:05] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-20 12:16:07] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-20 12:16:07] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-20 12:16:07] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-20 12:16:07] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-20 12:16:07] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,869.19 (2A/44C) | 7. Escape: $10,337.67 (0A/16C)
