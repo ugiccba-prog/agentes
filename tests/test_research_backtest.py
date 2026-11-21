@@ -27,6 +27,26 @@ class ResearchBacktestTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Estrategia desconocida"):
             run(self.path, "not-a-strategy")
 
+    def test_synthetic_end_to_end_never_claims_validation(self):
+        from strategies import STRATEGY_CATALOG
+        import numpy as np
+        n = 850
+        x = np.arange(n, dtype=float)
+        close = 100 + 0.015 * x + 2.0 * np.sin(x / 13.0)
+        df = pd.DataFrame({
+            "timestamp": pd.date_range("2025-01-01", periods=n, freq="15min", tz="UTC"),
+            "open": close,
+            "high": close + 0.5,
+            "low": close - 0.5,
+            "close": close,
+            "volume": np.full(n, 1000.0),
+        })
+        df.to_csv(self.path, index=False)
+        result = run(self.path, next(iter(STRATEGY_CATALOG)))
+        self.assertEqual(result["status"], "experimental")
+        self.assertEqual(set(result["segments"]), {"train", "validation", "test"})
+        self.assertEqual(result["bars"], n)
+
     def test_rejects_duplicate_timestamps_before_simulation(self):
         from strategies import STRATEGY_CATALOG
         strategy = next(iter(STRATEGY_CATALOG))
