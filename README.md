@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `41` | **Última actualización:** `2026-11-21 08:29:38 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `41` | **Última actualización:** `2026-11-21 08:32:56 UTC`
 
 ---
 
@@ -83,24 +83,24 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-21 08:26:06] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
-[2026-11-21 08:26:09]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-21 08:26:12]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:15]    🔎 [SOL/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-21 08:26:18]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-21 08:26:20]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:22]    🔎 [DOGE/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21
-[2026-11-21 08:26:25]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24
-[2026-11-21 08:26:27]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
-[2026-11-21 08:26:29]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:32]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
-[2026-11-21 08:26:34]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 08:26:35] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-21 08:30:55]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-21 08:30:55] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-21 08:30:55] [2. WF+Impulso] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 08:30:55] [2. WF+Impulso] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 08:30:55] [2. WF+Impulso] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 08:30:55] [2. WF+Impulso] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 08:30:55] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-21 08:30:55] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-21 08:30:55] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-21 08:30:55] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-21 08:30:55] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 16.0% desde el pico
+[2026-11-21 08:30:55] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 16.3% desde el pico
+[2026-11-21 08:30:55] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 16.3% desde el pico
+[2026-11-21 08:30:55] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 16.3% desde el pico
+[2026-11-21 08:30:55] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 16.3% desde el pico
+[2026-11-21 08:30:55] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 08:30:55] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 08:30:55] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 08:30:55] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 08:30:55] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,554.07 (0A/54C) | 7. Escape: $10,337.67 (0A/16C)
 ```
