@@ -39,7 +39,7 @@ class ConservativeSimulatorTests(unittest.TestCase):
 
     def test_adverse_gap_fills_at_open(self):
         df = candles()
-        df.loc[201, ["open", "high", "low", "close"]] = [98.0, 99.0, 97.0, 98.0]
+        df.loc[202, ["open", "high", "low", "close"]] = [98.0, 99.0, 97.0, 98.0]
         rs = simulate(df, 1.0, 2.0, 0)
         self.assertEqual(len(rs), 1)
         self.assertAlmostEqual(rs[0], -2.0)
