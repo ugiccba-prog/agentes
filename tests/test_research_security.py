@@ -25,6 +25,15 @@ class GateTests(unittest.TestCase):
 
 
 class TransportTests(unittest.TestCase):
+    @patch("market_data.requests.get", side_effect=__import__("requests").exceptions.SSLError("bad certificate"))
+    def test_market_data_never_retries_without_tls(self, get):
+        from market_data import _http_get
+        import requests
+        with self.assertRaises(requests.exceptions.SSLError):
+            _http_get("https://example.invalid/data")
+        self.assertEqual(get.call_count, 1)
+        self.assertIs(get.call_args.kwargs["verify"], True)
+
     @patch("exchange_connector.requests.post")
     def test_binance_testnet_verifies_tls(self, post):
         post.return_value = Mock(status_code=200)
