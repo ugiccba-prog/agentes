@@ -64,3 +64,16 @@ El escaneo compara estrategias sobre el mismo test: **no elegir ganadores para o
 - `walk_forward.simulate` puede ajustar stops con el máximo/mínimo de la misma vela; verificar y corregir el orden de eventos intravela antes de interpretar métricas como resultados ejecutables.
 - `compute_indicators` utiliza `bfill()` para ATR inicial; en investigación estricta excluir el calentamiento y evitar toda fuga de información futura.
 - Los resultados del test se presentan solo como diagnóstico; no usarlos para optimizar parámetros ni promover estrategias.
+
+
+## Datos públicos y ejecución manual en GitHub Actions
+```bash
+python -m research.fetch_candles --symbol BTCUSDT --interval 15m --output research_data/BTCUSDT.csv
+python -m research.nightly --csv research_data/BTCUSDT.csv --output research_reports/scan.json --max-candidates 7
+```
+
+La descarga pública usa Binance Spot y consulta la hora del servidor para excluir la vela en formación. Requiere acceso de red a Binance, que puede estar bloqueado por región o disponibilidad del proveedor. Los resultados no deben interpretarse como cotizaciones ejecutables.
+
+El workflow `research-lab.yml` tiene un trabajo `manual-research` **optativo** con `workflow_dispatch`: primero corre los tests, luego descarga BTCUSDT y genera un artefacto JSON de siete días de retención. En GitHub, un workflow que existe solo en una rama no predeterminada puede no aparecer para lanzamiento manual hasta que GitHub lo reconozca en la rama principal; **no fusionar solo para habilitarlo**. Si no se puede disparar, ejecutar los comandos localmente. No se configuró cron nocturno.
+
+El reporte es exploratorio: los siete candidatos comparten el tramo test y sus resultados no se pueden usar para elegir un ganador sin una muestra posterior verdaderamente intocada. Se registra SHA-256 del CSV en los reportes individuales. Las pruebas unitarias usan datos sintéticos y HTTP simulado; falta verificar ejecución real de CI y resultados históricos antes de cualquier conclusión.
