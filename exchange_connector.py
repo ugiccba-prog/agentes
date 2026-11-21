@@ -145,7 +145,7 @@ class BinanceTestnetConnector:
         url = f"{self.base_url}{endpoint}?{signed_q}"
         headers = {"X-MBX-APIKEY": self.api_key}
         try:
-            resp = requests.post(url, headers=headers, timeout=10, verify=False)
+            resp = requests.post(url, headers=headers, timeout=10, verify=True)
             return {"ok": resp.status_code == 200, "status": resp.status_code, "data": resp.json()}
         except Exception as exc:
             return {"ok": False, "error": str(exc)}
@@ -180,7 +180,7 @@ class OandaForexDemoConnector:
         }
         url = f"{self.base_url}/accounts/{self.account_id}/orders"
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=10, verify=False)
+            resp = requests.post(url, headers=headers, json=payload, timeout=10, verify=True)
             return {"ok": resp.status_code in (200, 201), "status": resp.status_code, "data": resp.json()}
         except Exception as exc:
             return {"ok": False, "error": str(exc)}

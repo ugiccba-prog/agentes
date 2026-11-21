@@ -13,17 +13,11 @@ from typing import Literal
 import numpy as np
 import pandas as pd
 import requests
-import urllib3
-
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def _http_get(url: str, params: dict | None = None, headers: dict | None = None, timeout: int = 10) -> requests.Response:
-    """Realiza petición HTTP GET con fallback automático de certificado SSL en Windows/Python 3.15."""
-    try:
-        return requests.get(url, params=params, headers=headers, timeout=timeout)
-    except requests.exceptions.SSLError:
-        return requests.get(url, params=params, headers=headers, timeout=timeout, verify=False)
+    """Realiza petición HTTPS con validación TLS obligatoria; no degrada seguridad."""
+    return requests.get(url, params=params, headers=headers, timeout=timeout, verify=True)
 
 CACHE_DIR = Path(__file__).parent / "data_cache"
 CACHE_DIR.mkdir(exist_ok=True)
