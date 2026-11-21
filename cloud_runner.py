@@ -90,13 +90,15 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
         b_pct = (b_net / bs.initial_balance_usd * 100.0) if bs.initial_balance_usd else 0.0
         b_stats = _compute_real_stats(bs.closed_trades)
         open_txt = _format_open_summary(bs.open_positions)
+        dd_real = float(getattr(bs, "realized_max_drawdown_pct", bs.max_drawdown_pct))
+        status_note = " 🔄 Recup." if getattr(bs, "dd_recovery_mode", False) else ""
         comp_rows.append(
             f"| **{spec['name']}** | `{spec['rule_summary']}` | `${bs.equity_usd:,.2f}` | "
             f"**`${b_net:+,.2f}`** (`{b_pct:+.2f}%`) | {open_txt} | "
-            f"`{bs.winning_trades}W / {bs.losing_trades}L` (`{bs.total_trades}`) | `{b_stats['pf']:.2f}` | `{bs.max_drawdown_pct:.2f}%` |"
+            f"`{bs.winning_trades}W / {bs.losing_trades}L` (`{bs.total_trades}`) | `{b_stats['pf']:.2f}` | `{bs.max_drawdown_pct:.2f}%` / `{dd_real:.2f}%`{status_note} |"
         )
     comp_table = (
-        "| Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída |\n"
+        "| Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |\n"
         "|---|---|---|---|---|---|---|---|\n"
         + "\n".join(comp_rows)
     )
@@ -155,7 +157,7 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
     )
 
     active_syms = [
-        f"`{sym}` (`{sc.get('strategy')}`)"
+        f"`{sym}` (`{sc.get('strategy')}`{' · WF ✓' if sc.get('wf_approved') else ' · Canasta'})"
         for sym, sc in cfg.get("symbols", {}).items()
         if sc.get("enabled")
     ]
@@ -187,7 +189,7 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
 
 ---
 
-## 💰 Detalle Opción 1 (`1. WF Estricta (Base)` / `live_portfolio.json`)
+## 💰 Detalle Opción 1 (`1. WF Estricta v2 (Base)` / `live_portfolio.json`)
 
 | Métrica | Valor Actual |
 |---|---|

@@ -220,7 +220,7 @@
         </table>
       </div>
       <div style="margin-top:12px; padding-top:10px; border-top:1px solid var(--border);">
-        <div class="kpi-label" style="margin-bottom:4px;">🔬 Estudio A/B del Impulso (Opción 2 vs Base)</div>
+        <div class="kpi-label" style="margin-bottom:4px;">🔬 Comparativa Fase 2: Régimen Híbrido ADX (Opción 2) vs WF Estricta v2 (Opción 1)</div>
         <div id="extra-net" style="font-size:0.84rem;"></div>
         <div id="random-net" class="meta" style="margin-top:3px;"></div>
       </div>
@@ -239,7 +239,7 @@
             <tr>
               <th>Mercado Activo</th>
               <th>1. WF Base</th>
-              <th>2. WF + Impulso</th>
+              <th>2. Híbrido ADX</th>
               <th>3. Chimichurri</th>
               <th>4. Francotirador</th>
               <th>5. Berserker</th><th>6. Resorte</th><th>7. Escape</th>
@@ -357,13 +357,13 @@
   <script>
     const RAW_BASE = "https://raw.githubusercontent.com/ugiccba-prog/agentes/main/";
     const OPTIONS = [
-      { key: "base", name: "1. WF Estricta (Base)", shortName: "1. WF Base", file: "paper_base.json", rule: "Usa la estrategia que pasó la prueba histórica para ese mercado." },
-      { key: "momentum", name: "2. WF + Impulso Shark", shortName: "2. WF+Impulso", file: "paper_momentum.json", rule: "Cuando Base espera, busca un movimiento que gana velocidad." },
-      { key: "chimichurri", name: "3. Chimichurri Alpha", shortName: "3. Chimichurri", file: "paper_chimichurri.json", rule: "Sigue una tendencia cuando el precio rompe su rango y muestra fuerza." },
-      { key: "sniper", name: "4. Francotirador", shortName: "4. Francotirador", file: "paper_sniper.json", rule: "Espera una señal fuerte alineada con la tendencia de una hora." },
-      { key: "berserker", name: "5. Berserker / Tiburón", shortName: "5. Berserker", file: "paper_berserker.json", rule: "Acepta más señales de impulso y arriesga más dinero por entrada." },
-      {key:"rebote",name:"6. Resorte",shortName:"6. Resorte",file:"paper_rebote.json",rule:"Busca un rebote después de un precio extremo."},
-      {key:"ruptura",name:"7. Escape",shortName:"7. Escape",file:"paper_ruptura.json",rule:"Entra cuando el precio sale de su rango y el movimiento acelera."},
+      { key: "base", name: "1. WF Estricta v2 (Base)", shortName: "1. WF Base", file: "paper_base.json", rule: "Opera solo mercados aprobados por Walk-Forward OOS (sin forzados). Riesgo 1.5–2.5%, 4x." },
+      { key: "momentum", name: "2. Régimen Híbrido (ADX)", shortName: "2. Híbrido ADX", file: "paper_momentum.json", rule: "ADX >= 22 usa Chimichurri tendencia; ADX < 18 usa Resorte rango; 18–22 espera." },
+      { key: "chimichurri", name: "3. Chimichurri v2 (Tendencia)", shortName: "3. Chimichurri", file: "paper_chimichurri.json", rule: "Sigue tendencia fuerte (ADX >= 22 + Donchian) con objetivo ampliado >= 2.8R." },
+      { key: "sniper", name: "4. Francotirador v2 (Macro 1H)", shortName: "4. Francotirador", file: "paper_sniper.json", rule: "Confianza >= 85 alineada con Macro 1H, TP >= 2.6R, bloque cripto 3.0% y 3x." },
+      { key: "berserker", name: "5. Berserker v2 (Sin Impulso)", shortName: "5. Berserker", file: "paper_berserker.json", rule: "Régimen Híbrido ADX con riesgo 2.0–3.5%, 6x y límite cripto controlado (sin impulso shark)." },
+      { key: "rebote", name: "6. Resorte v2 (Rango ADX<20)", shortName: "6. Resorte", file: "paper_rebote.json", rule: "Reversión en bandas extremas filtrada por ADX < 20 para evitar días tendenciales." },
+      { key: "ruptura", name: "7. Escape v2 (Ruptura+ADX)", shortName: "7. Escape", file: "paper_ruptura.json", rule: "Ruptura Bollinger confirmada con ADX >= 20 y volumen >= 1.1x (TP >= 2.6R)." },
     ];
     let selectedOptionKey = "base";
     let currentFilter = "all";
@@ -493,7 +493,7 @@
     }
     const profile = document.getElementById('profile');
     function explainProfile() {
-      document.getElementById('profile-help').textContent = ['Riesgo base por entrada 1,5 % · exposición de riesgo total hasta 10 %.','Riesgo base 2,5 % · riesgo total hasta 14 %.','Riesgo base 1 % · riesgo total hasta 8 %.'][profile.selectedIndex];
+      document.getElementById('profile-help').textContent = ['Riesgo 1,5–2,5 % · palanca 4x · máx 2 cripto · exposición total hasta 7,5 %.','Riesgo 2,0–3,5 % · palanca 6x · máx 3 cripto · riesgo total hasta 10,5 %.','Riesgo 1,0–1,8 % · palanca 3x · máx 2 cripto · riesgo total hasta 6,0 %.'][profile.selectedIndex];
     }
     profile.onchange = explainProfile;
 
@@ -622,7 +622,7 @@
             <td>${openHtml}</td>
             <td>${st.wins.length}W / ${st.losses.length}L (${st.closed.length})</td>
             <td>${st.losses.length ? 'PF '+st.pf.toFixed(2) : 'PF: sin pérdidas para comparar'}</td>
-            <td>${Number(p.max_drawdown_pct || 0).toFixed(2)}%</td>
+            <td>${Number(p.max_drawdown_pct || 0).toFixed(2)}%${p.realized_max_drawdown_pct != null ? ` <span class="matrix-sub">Real: ${Number(p.realized_max_drawdown_pct).toFixed(2)}%</span>` : ""}</td>
           </tr>`;
       }).join("");
 
@@ -654,20 +654,25 @@
       const baseP = portfoliosByKey["base"];
       const momP = portfoliosByKey["momentum"];
       if (baseP && momP) {
+        const bSt = calcStats(baseP);
+        const mSt = calcStats(momP);
+        const bNet = Number(baseP.equity_usd || 10000) - Number(baseP.initial_balance_usd || 10000);
+        const mNet = Number(momP.equity_usd || 10000) - Number(momP.initial_balance_usd || 10000);
+        const bRealDd = Number(baseP.realized_max_drawdown_pct ?? baseP.max_drawdown_pct ?? 0);
+        const mRealDd = Number(momP.realized_max_drawdown_pct ?? momP.max_drawdown_pct ?? 0);
+        document.getElementById("extra-net").textContent =
+          `1. WF Base: ${fmtUsd(bNet, true)} (${bSt.closed.length} cierres, PF ${bSt.pf.toFixed(2)}, DD real ${bRealDd.toFixed(2)}%) · ` +
+          `2. Régimen Híbrido ADX: ${fmtUsd(mNet, true)} (${mSt.closed.length} cierres, PF ${mSt.pf.toFixed(2)}, DD real ${mRealDd.toFixed(2)}%).`;
         const extra = t => ["momentum_shark", "momentum_extra"].includes(t.strategy);
         const closed = (momP.closed_trades || []).filter(extra);
-        const opened = (momP.open_positions || []).filter(extra);
-        const sum = (rows, key) => rows.reduce((n, t) => n + Number(t[key] || 0), 0);
-        const dd = Number(momP.max_drawdown_pct || 0) - Number(baseP.max_drawdown_pct || 0);
-        document.getElementById("extra-net").textContent =
-          `${closed.length + opened.length} entradas adicionales · ${closed.length} cerradas · Neto realizado ${fmtUsd(sum(closed, "pnl_usd"), true)} · Flotante ${fmtUsd(sum(opened, "unrealized_pnl_usd"), true)} · Diferencia max DD ${dd.toFixed(2)} pp.`;
-        const ref = document.getElementById("random-net");
         const matches = closed.map(t => study?.controls?.[`${t.symbol}|${t.entry_time}|${t.id}`]).filter(Boolean);
+        const ref = document.getElementById("random-net");
         if (matches.length) {
+          const sum = (rows, key) => rows.reduce((n, t) => n + Number(t[key] || 0), 0);
           const sims = Array.from({ length: 200 }, (_, i) => matches.reduce((n, t) => n + t.random_net[i], 0)).sort((a, b) => a - b);
-          ref.textContent = `Cierres comparables: ${matches.length} de ${closed.length}. Impulso ${fmtUsd(sum(matches, "trade_net"), true)} · Mediana azar ${fmtUsd((sims[99] + sims[100]) / 2, true)}.`;
+          ref.textContent = `Referencia histórica: ${matches.length} cierres impulso ${fmtUsd(sum(matches, "trade_net"), true)} · Mediana azar ${fmtUsd((sims[99] + sims[100]) / 2, true)}.`;
         } else {
-          ref.textContent = "Referencia Monte Carlo esperando cierres adicionales con impulso.";
+          ref.textContent = `Diferencia neta Híbrido vs WF Estricta: ${fmtUsd(mNet - bNet, true)} · Fase 2 activa (BE +1.2R con colchón 0.15%, Trail +1.5R).`;
         }
         document.getElementById("comparison-note").textContent = `Última actualización: ${baseP.last_updated || "-"}`;
       }
@@ -712,7 +717,7 @@
         const syms = cfg.symbols || {};
         const activeChips = Object.entries(syms)
           .filter(([, v]) => v.enabled)
-          .map(([k, v]) => `<div class="chip">🟢 <strong>${k}</strong> · ${v.strategy}${v.backtest_profit_factor ? ` (PF ${Number(v.backtest_profit_factor).toFixed(2)})` : ""}</div>`);
+          .map(([k, v]) => `<div class="chip">${v.wf_approved ? "🟢" : "🟡"} <strong>${k}</strong> · ${v.strategy} (${v.wf_approved ? "WF ✓" : "Canasta"})${v.backtest_profit_factor ? ` · PF ${Number(v.backtest_profit_factor).toFixed(2)}` : ""}</div>`);
         document.getElementById("markets-chips").innerHTML = activeChips.length
           ? activeChips.join("")
           : `<div class="chip">⏸️ Sin mercados activos configurados</div>`;

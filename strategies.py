@@ -26,12 +26,103 @@ class SignalDecision:
 STRATEGY_CATALOG: dict[str, str] = {
     "confluence": "Agente Confluencia IA/Técnica (EMA + MACD + RSI + Bollinger)",
     "trend_macd": "Seguidor de Tendencia (Cruce EMA + Impulso MACD + RSI)",
-    "bollinger_reversion": "Reversión a la Media (Bandas de Bollinger + RSI Extremo)",
-    "volatility_breakout": "Ruptura de Volatilidad (Squeeze de Bollinger + MACD)",
+    "bollinger_reversion": "Reversión a la Media (Bandas de Bollinger + RSI Extremo + ADX < 20)",
+    "volatility_breakout": "Ruptura de Volatilidad (Squeeze de Bollinger + MACD + ADX/Volumen)",
     "ema_pullback": "Retroceso Institucional a la Media (Pullback EMA + RSI + MACD)",
     "momentum_shark": "Modo Tiburón Agresivo (Explosión de Momento + Aceleración MACD)",
     "chimichurri_alpha": "Chimichurri Quant Alpha (ADX + Donchian + Volumen + Confluencia)",
+    "regime_hybrid": "Régimen Híbrido ADX (Chimichurri en Tendencia >=22 + Resorte en Rango <18)",
 }
+
+
+def _eval_reversion_bar(
+    i: int,
+    close: np.ndarray,
+    open_p: np.ndarray,
+    rsi: np.ndarray,
+    bb_pct: np.ndarray,
+    bb_upper: np.ndarray,
+    bb_lower: np.ndarray,
+    adx: np.ndarray,
+    rsi_oversold: float,
+    rsi_overbought: float,
+    max_adx: float = 20.0,
+) -> tuple[int, float, str]:
+    """Evalúa reversión a la media en rango confirmado (ADX < max_adx)."""
+    if adx[i] >= max_adx:
+        return 0, 0.0, ""
+    touch_lower = (close[i - 1] <= bb_lower[i - 1] or bb_pct[i - 1] <= 0.12) and close[i] > open_p[i]
+    touch_upper = (close[i - 1] >= bb_upper[i - 1] or bb_pct[i - 1] >= 0.88) and close[i] < open_p[i]
+    if touch_lower and (rsi[i - 1] < rsi_oversold + 5 or rsi[i] < 42.0):
+        return (
+            1,
+            75.0,
+            f"Rebote en Banda Inferior Bollinger (%B={bb_pct[i - 1]:.2f}, ADX={adx[i]:.1f}) + Giro RSI ({rsi[i]:.1f})",
+        )
+    if touch_upper and (rsi[i - 1] > rsi_overbought - 5 or rsi[i] > 58.0):
+        return (
+            -1,
+            -75.0,
+            f"Rechazo en Banda Superior Bollinger (%B={bb_pct[i - 1]:.2f}, ADX={adx[i]:.1f}) + Giro RSI ({rsi[i]:.1f})",
+        )
+    return 0, 0.0, ""
+
+
+def _eval_chimichurri_bar(
+    i: int,
+    close: np.ndarray,
+    ema_fast: np.ndarray,
+    ema_slow: np.ndarray,
+    ema_trend: np.ndarray,
+    rsi: np.ndarray,
+    macd_hist: np.ndarray,
+    adx: np.ndarray,
+    plus_di: np.ndarray,
+    minus_di: np.ndarray,
+    vol_ratio: np.ndarray,
+    donchian_high: np.ndarray,
+    donchian_low: np.ndarray,
+) -> tuple[int, float, str]:
+    """Evalúa tendencia fuerte Chimichurri Alpha (ADX >= 22 + Donchian o pullback)."""
+    strong_trend = adx[i] >= 22.0
+    vol_ok = vol_ratio[i] >= 1.10 or vol_ratio[i] == 1.0
+
+    donchian_bull = close[i] > donchian_high[i] and plus_di[i] > minus_di[i] and macd_hist[i] > 0
+    donchian_bear = close[i] < donchian_low[i] and minus_di[i] > plus_di[i] and macd_hist[i] < 0
+
+    pullback_bull = (
+        strong_trend
+        and ema_fast[i] > ema_slow[i] > ema_trend[i]
+        and close[i - 1] <= ema_fast[i - 1]
+        and close[i] > ema_fast[i]
+        and macd_hist[i] > macd_hist[i - 1]
+        and 42.0 <= rsi[i] <= 68.0
+    )
+    pullback_bear = (
+        strong_trend
+        and ema_fast[i] < ema_slow[i] < ema_trend[i]
+        and close[i - 1] >= ema_fast[i - 1]
+        and close[i] < ema_fast[i]
+        and macd_hist[i] < macd_hist[i - 1]
+        and 32.0 <= rsi[i] <= 58.0
+    )
+
+    score_mag = min(98.0, 78.0 + (adx[i] - 20.0) * 0.6 + (10.0 if vol_ratio[i] >= 1.3 else 0.0))
+    if (donchian_bull and strong_trend and vol_ok and rsi[i] < 76.0) or pullback_bull:
+        return (
+            1,
+            score_mag,
+            f"Chimichurri Alpha LONG (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
+            f"RSI={rsi[i]:.1f}, {'Ruptura Donchian' if donchian_bull else 'Pullback Tendencia'})",
+        )
+    if (donchian_bear and strong_trend and vol_ok and rsi[i] > 24.0) or pullback_bear:
+        return (
+            -1,
+            -score_mag,
+            f"Chimichurri Alpha SHORT (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
+            f"RSI={rsi[i]:.1f}, {'Ruptura Donchian' if donchian_bear else 'Pullback Tendencia'})",
+        )
+    return 0, 0.0, ""
 
 
 def generate_signals(
@@ -127,31 +218,28 @@ def generate_signals(
                 reasons[i] = f"Cruce Bajista MACD/EMA a favor de EMA100 con RSI={rsi[i]:.1f}"
 
         elif strategy_name == "bollinger_reversion":
-            # Ideal para mercados laterales y Forex: rebote en banda extrema + giro de vela
-            touch_lower = (close[i - 1] <= bb_lower[i - 1] or bb_pct[i - 1] <= 0.12) and close[i] > open_p[i]
-            touch_upper = (close[i - 1] >= bb_upper[i - 1] or bb_pct[i - 1] >= 0.88) and close[i] < open_p[i]
-
-            if touch_lower and (rsi[i - 1] < rsi_oversold + 5 or rsi[i] < 42.0):
-                signals[i] = 1
-                scores[i] = 75.0
-                reasons[i] = f"Rebote en Banda Inferior Bollinger (%B={bb_pct[i - 1]:.2f}) + Giro RSI ({rsi[i]:.1f})"
-            elif touch_upper and (rsi[i - 1] > rsi_overbought - 5 or rsi[i] > 58.0):
-                signals[i] = -1
-                scores[i] = -75.0
-                reasons[i] = f"Rechazo en Banda Superior Bollinger (%B={bb_pct[i - 1]:.2f}) + Giro RSI ({rsi[i]:.1f})"
+            # Ideal para mercados laterales y Forex: rebote en banda extrema + giro de vela con ADX < 20
+            sig, sc, rsn = _eval_reversion_bar(
+                i, close, open_p, rsi, bb_pct, bb_upper, bb_lower, adx,
+                rsi_oversold, rsi_overbought, max_adx=20.0,
+            )
+            signals[i] = sig
+            scores[i] = sc
+            reasons[i] = rsn
 
         elif strategy_name == "volatility_breakout":
-            # Ruptura de banda con expansión de histograma MACD
+            # Ruptura de banda con expansión de histograma MACD + filtro ADX y volumen
             avg_width = np.mean(bb_width[max(20, i - 25) : i])
             expanding = bb_width[i] > avg_width * 1.02
-            if expanding and close[i] > bb_upper[i - 1] and macd_hist[i] > 0 and macd_hist[i] > macd_hist[i - 1] and rsi[i] < 76.0:
+            trend_vol_ok = adx[i] >= 20.0 and (vol_ratio[i] >= 1.10 or vol_ratio[i] == 1.0)
+            if trend_vol_ok and expanding and close[i] > bb_upper[i - 1] and macd_hist[i] > 0 and macd_hist[i] > macd_hist[i - 1] and rsi[i] < 76.0:
                 signals[i] = 1
                 scores[i] = 85.0
-                reasons[i] = f"Ruptura Alcista de Bollinger con expansión MACD (RSI={rsi[i]:.1f})"
-            elif expanding and close[i] < bb_lower[i - 1] and macd_hist[i] < 0 and macd_hist[i] < macd_hist[i - 1] and rsi[i] > 24.0:
+                reasons[i] = f"Ruptura Alcista de Bollinger con expansión MACD (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, RSI={rsi[i]:.1f})"
+            elif trend_vol_ok and expanding and close[i] < bb_lower[i - 1] and macd_hist[i] < 0 and macd_hist[i] < macd_hist[i - 1] and rsi[i] > 24.0:
                 signals[i] = -1
                 scores[i] = -85.0
-                reasons[i] = f"Ruptura Bajista de Bollinger con expansión MACD (RSI={rsi[i]:.1f})"
+                reasons[i] = f"Ruptura Bajista de Bollinger con expansión MACD (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, RSI={rsi[i]:.1f})"
 
         elif strategy_name == "ema_pullback":
             # Compra en retroceso a la EMA rápida dentro de tendencia alcista estructural (o venta en rebote a EMA en tendencia bajista)
@@ -212,43 +300,34 @@ def generate_signals(
 
         elif strategy_name == "chimichurri_alpha":
             # Régimen de Tendencia (ADX >= 22) + Ruptura Donchian o Pullback con Volumen
-            strong_trend = adx[i] >= 22.0
-            vol_ok = vol_ratio[i] >= 1.10 or vol_ratio[i] == 1.0  # Forex puede tener vol=0 -> 1.0
-
-            donchian_bull = close[i] > donchian_high[i] and plus_di[i] > minus_di[i] and macd_hist[i] > 0
-            donchian_bear = close[i] < donchian_low[i] and minus_di[i] > plus_di[i] and macd_hist[i] < 0
-
-            pullback_bull = (
-                strong_trend
-                and ema_fast[i] > ema_slow[i] > ema_trend[i]
-                and close[i - 1] <= ema_fast[i - 1]
-                and close[i] > ema_fast[i]
-                and macd_hist[i] > macd_hist[i - 1]
-                and 42.0 <= rsi[i] <= 68.0
+            sig, sc, rsn = _eval_chimichurri_bar(
+                i, close, ema_fast, ema_slow, ema_trend, rsi, macd_hist,
+                adx, plus_di, minus_di, vol_ratio, donchian_high, donchian_low,
             )
-            pullback_bear = (
-                strong_trend
-                and ema_fast[i] < ema_slow[i] < ema_trend[i]
-                and close[i - 1] >= ema_fast[i - 1]
-                and close[i] < ema_fast[i]
-                and macd_hist[i] < macd_hist[i - 1]
-                and 32.0 <= rsi[i] <= 58.0
-            )
+            signals[i] = sig
+            scores[i] = sc
+            reasons[i] = rsn
 
-            if (donchian_bull and strong_trend and vol_ok and rsi[i] < 76.0) or pullback_bull:
-                signals[i] = 1
-                scores[i] = min(98.0, 78.0 + (adx[i] - 20.0) * 0.6 + (10.0 if vol_ratio[i] >= 1.3 else 0.0))
-                reasons[i] = (
-                    f"Chimichurri Alpha LONG (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
-                    f"RSI={rsi[i]:.1f}, {'Ruptura Donchian' if donchian_bull else 'Pullback Tendencia'})"
+        elif strategy_name == "regime_hybrid":
+            # Tendencia fuerte (ADX >= 22) -> Chimichurri | Rango claro (ADX < 18) -> Resorte | 18..22 -> Zona muerta
+            if adx[i] >= 22.0:
+                sig, sc, rsn = _eval_chimichurri_bar(
+                    i, close, ema_fast, ema_slow, ema_trend, rsi, macd_hist,
+                    adx, plus_di, minus_di, vol_ratio, donchian_high, donchian_low,
                 )
-            elif (donchian_bear and strong_trend and vol_ok and rsi[i] > 24.0) or pullback_bear:
-                signals[i] = -1
-                scores[i] = -min(98.0, 78.0 + (adx[i] - 20.0) * 0.6 + (10.0 if vol_ratio[i] >= 1.3 else 0.0))
-                reasons[i] = (
-                    f"Chimichurri Alpha SHORT (ADX={adx[i]:.1f}, Vol={vol_ratio[i]:.2f}x, "
-                    f"RSI={rsi[i]:.1f}, {'Ruptura Donchian' if donchian_bear else 'Pullback Tendencia'})"
+                if sig != 0:
+                    signals[i] = sig
+                    scores[i] = sc
+                    reasons[i] = f"Régimen Híbrido [Tendencia ADX={adx[i]:.1f}] | {rsn}"
+            elif adx[i] < 18.0:
+                sig, sc, rsn = _eval_reversion_bar(
+                    i, close, open_p, rsi, bb_pct, bb_upper, bb_lower, adx,
+                    rsi_oversold, rsi_overbought, max_adx=18.0,
                 )
+                if sig != 0:
+                    signals[i] = sig
+                    scores[i] = sc
+                    reasons[i] = f"Régimen Híbrido [Rango ADX={adx[i]:.1f}] | {rsn}"
 
     data["signal"] = signals
     data["signal_score"] = scores

@@ -9,7 +9,7 @@ Conector de Ejecución en Tiempo Real para Cripto y Forex:
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import hashlib
 import hmac
 import math
@@ -97,9 +97,13 @@ class PortfolioState:
     realized_pnl_usd: float = 0.0
     unrealized_pnl_usd: float = 0.0
     peak_equity_usd: float = 10000.0
+    realized_peak_equity_usd: float = 10000.0
     day_start_equity_usd: float = 10000.0
     current_day_utc: str = ""
     max_drawdown_pct: float = 0.0
+    realized_max_drawdown_pct: float = 0.0
+    dd_halt_until_utc: str = ""
+    dd_recovery_mode: bool = False
     total_trades: int = 0
     winning_trades: int = 0
     losing_trades: int = 0
@@ -145,7 +149,7 @@ class BinanceTestnetConnector:
         url = f"{self.base_url}{endpoint}?{signed_q}"
         headers = {"X-MBX-APIKEY": self.api_key}
         try:
-            resp = requests.post(url, headers=headers, timeout=10, verify=False)
+            resp = requests.post(url, headers=headers, timeout=10, verify=True)
             return {"ok": resp.status_code == 200, "status": resp.status_code, "data": resp.json()}
         except Exception as exc:
             return {"ok": False, "error": str(exc)}
@@ -180,7 +184,7 @@ class OandaForexDemoConnector:
         }
         url = f"{self.base_url}/accounts/{self.account_id}/orders"
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=10, verify=False)
+            resp = requests.post(url, headers=headers, json=payload, timeout=10, verify=True)
             return {"ok": resp.status_code in (200, 201), "status": resp.status_code, "data": resp.json()}
         except Exception as exc:
             return {"ok": False, "error": str(exc)}
@@ -228,6 +232,18 @@ class LiveExecutionBroker:
         st.peak_equity_usd = round(max(float(st.peak_equity_usd), float(st.equity_usd), float(st.initial_balance_usd)), 2)
         if st.peak_equity_usd > 0:
             st.max_drawdown_pct = max(st.max_drawdown_pct, 100 * (1 - st.equity_usd / st.peak_equity_usd))
+        st.realized_peak_equity_usd = round(
+            max(float(st.realized_peak_equity_usd), float(st.cash_balance_usd), float(st.initial_balance_usd)),
+            2,
+        )
+        if st.realized_peak_equity_usd > 0:
+            st.realized_max_drawdown_pct = max(
+                float(st.realized_max_drawdown_pct),
+                100.0 * (1.0 - float(st.cash_balance_usd) / float(st.realized_peak_equity_usd)),
+            )
+            if st.dd_recovery_mode and float(st.cash_balance_usd) >= float(st.realized_peak_equity_usd) * 0.95:
+                st.dd_recovery_mode = False
+                st.dd_halt_until_utc = ""
         if st.current_day_utc != today_utc:
             st.current_day_utc = today_utc
             st.day_start_equity_usd = round(float(st.equity_usd), 2)
@@ -238,6 +254,18 @@ class LiveExecutionBroker:
                 raw = json.loads(self.portfolio_file.read_text(encoding="utf-8"))
                 known = {f for f in PortfolioState.__dataclass_fields__}
                 st = PortfolioState(**{k: v for k, v in raw.items() if k in known})
+                if "realized_peak_equity_usd" not in raw:
+                    running = float(st.initial_balance_usd)
+                    r_peak = running
+                    r_mdd = 0.0
+                    for tr in st.closed_trades:
+                        running += float(tr.get("pnl_usd", 0.0))
+                        if running > r_peak:
+                            r_peak = running
+                        if r_peak > 0:
+                            r_mdd = max(r_mdd, 100.0 * (1.0 - running / r_peak))
+                    st.realized_peak_equity_usd = round(r_peak, 2)
+                    st.realized_max_drawdown_pct = r_mdd
                 self._sync_watermarks(st)
                 return st
             except Exception:
@@ -249,6 +277,7 @@ class LiveExecutionBroker:
             cash_balance_usd=initial_balance_usd,
             equity_usd=initial_balance_usd,
             peak_equity_usd=initial_balance_usd,
+            realized_peak_equity_usd=initial_balance_usd,
             day_start_equity_usd=initial_balance_usd,
             current_day_utc=now_utc.strftime("%Y-%m-%d"),
             last_updated=now_str,
@@ -262,6 +291,16 @@ class LiveExecutionBroker:
         target.last_updated = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
         self.portfolio_file.write_text(json.dumps(asdict(target), indent=2, ensure_ascii=False), encoding="utf-8")
 
+    def activate_dd_cooldown(self, hours: float, now_utc: datetime | None = None) -> str:
+        """Activa pausa defensiva temporal por drawdown realizado y habilita modo recuperación posterior."""
+        now = now_utc or datetime.now(tz=timezone.utc)
+        until = now + timedelta(hours=float(hours))
+        until_str = until.strftime("%Y-%m-%d %H:%M:%S UTC")
+        self.state.dd_halt_until_utc = until_str
+        self.state.dd_recovery_mode = True
+        self.save()
+        return until_str
+
     def reset_portfolio(self, initial_balance_usd: float = 10000.0) -> PortfolioState:
         now_utc = datetime.now(tz=timezone.utc)
         now_str = now_utc.strftime("%Y-%m-%d %H:%M:%S UTC")
@@ -270,6 +309,10 @@ class LiveExecutionBroker:
             cash_balance_usd=initial_balance_usd,
             equity_usd=initial_balance_usd,
             peak_equity_usd=initial_balance_usd,
+            realized_peak_equity_usd=initial_balance_usd,
+            realized_max_drawdown_pct=0.0,
+            dd_halt_until_utc="",
+            dd_recovery_mode=False,
             day_start_equity_usd=initial_balance_usd,
             current_day_utc=now_utc.strftime("%Y-%m-%d"),
             last_updated=now_str,
@@ -352,7 +395,7 @@ class LiveExecutionBroker:
                     closed_reason = "Take Profit Alcanzado"
 
             if not closed_reason and init_risk > 0:
-                trail_mult = (self.risk_config or RiskConfig.from_adaptive_config()).trail_atr_mult
+                cfg_rm = self.risk_config or RiskConfig.from_adaptive_config()
                 managed_sl = RiskManager.manage_stop(
                     side=pos["side"],
                     entry=entry,
@@ -360,12 +403,24 @@ class LiveExecutionBroker:
                     sl=sl,
                     atr=atr_val,
                     initial_risk=init_risk,
-                    trail_atr_mult=trail_mult,
+                    trail_atr_mult=cfg_rm.trail_atr_mult,
+                    be_trigger_r=cfg_rm.be_trigger_r,
+                    be_buffer_pct=cfg_rm.be_buffer_pct,
+                    trail_trigger_r=cfg_rm.trail_trigger_r,
                 )
                 improved = (managed_sl > sl) if pos["side"] == "LONG" else (managed_sl < sl)
                 if improved:
                     pos["stop_loss"] = round(managed_sl, 10)
-                    label = "Breakeven" if abs(managed_sl - entry) < 1e-9 else f"Trailing {trail_mult:.1f} ATR"
+                    be_ref = (
+                        entry * (1.0 + cfg_rm.be_buffer_pct / 100.0)
+                        if pos["side"] == "LONG"
+                        else entry * (1.0 - cfg_rm.be_buffer_pct / 100.0)
+                    )
+                    label = (
+                        "Breakeven+"
+                        if abs(managed_sl - be_ref) <= max(1e-9, entry * 1e-6)
+                        else f"Trailing {cfg_rm.trail_atr_mult:.1f} ATR"
+                    )
                     events.append(f"🔒 Stop ({label}) en {sym} {pos['side']} ajustado a {pos['stop_loss']}")
 
             if closed_reason:

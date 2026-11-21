@@ -1,144 +1,193 @@
 {
   "BTC/USDT": {
-    "ts": 1795267411.6510363,
-    "schema": 2,
+    "ts": 1795286479.485515,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "ETH/USDT": {
-    "ts": 1795267415.6624837,
-    "schema": 2,
+    "ts": 1795286481.4455926,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "SOL/USDT": {
-    "ts": 1795267419.5538068,
-    "schema": 2,
+    "ts": 1795286484.2169528,
+    "schema": 3,
     "bars": 2499,
-    "params": {
-      "strategy": "trend_macd",
-      "ema_fast": 12,
-      "ema_slow": 26,
-      "sl_atr_mult": 1.2,
-      "tp_atr_mult": 2.4,
-      "train": {
-        "n": 36,
-        "expectancy": 0.23603959009517878,
-        "pf": 1.4418003045513876,
-        "win_rate": 0.4166666666666667,
-        "max_dd_r": 6.2526961650372215
-      },
-      "val": {
-        "n": 18,
-        "expectancy": 0.4461373673093118,
-        "pf": 2.139348140358994,
-        "win_rate": 0.4444444444444444,
-        "max_dd_r": 2.391921469082665
-      },
-      "test": {
-        "n": 27,
-        "expectancy": 0.17733000899886775,
-        "pf": 1.3342668017291772,
-        "win_rate": 0.37037037037037035,
-        "max_dd_r": 4.566602019002378
-      },
-      "oos": {
-        "n": 45,
-        "expectancy": 0.28485295232304536,
-        "pf": 1.5997767578530053,
-        "win_rate": 0.4,
-        "max_dd_r": 5.728612167591028
-      },
-      "schema": 2
-    }
+    "params": null
   },
   "BNB/USDT": {
-    "ts": 1795267423.2545075,
-    "schema": 2,
+    "ts": 1795286486.1249857,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "XRP/USDT": {
-    "ts": 1795267427.307243,
-    "schema": 2,
+    "ts": 1795286488.6061366,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "DOGE/USDT": {
-    "ts": 1795267430.9511027,
-    "schema": 2,
+    "ts": 1795286490.595725,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "SUI/USDT": {
-    "ts": 1795267434.5824463,
-    "schema": 2,
+    "ts": 1795286492.5354521,
+    "schema": 3,
     "bars": 2499,
-    "params": null
+    "params": {
+      "strategy": "chimichurri_alpha",
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "sl_atr_mult": 1.4,
+      "tp_atr_mult": 3.5,
+      "train": {
+        "n": 23,
+        "expectancy": 0.09412867717861506,
+        "pf": 1.1875124128454384,
+        "win_rate": 0.5652173913043478,
+        "max_dd_r": 4.337238148291448
+      },
+      "val": {
+        "n": 15,
+        "expectancy": 0.6065802149422391,
+        "pf": 2.1531089606159437,
+        "win_rate": 0.5333333333333333,
+        "max_dd_r": 4.575402140407432
+      },
+      "test": {
+        "n": 14,
+        "expectancy": 0.20031339976507612,
+        "pf": 1.308333517577158,
+        "win_rate": 0.42857142857142855,
+        "max_dd_r": 4.640873106246369
+      },
+      "oos": {
+        "n": 29,
+        "expectancy": 0.41045140761533283,
+        "pf": 1.7007634555493196,
+        "win_rate": 0.4827586206896552,
+        "max_dd_r": 5.61754677931094
+      },
+      "oos_double_cost": {
+        "n": 29,
+        "expectancy": 0.2844417955140068,
+        "pf": 1.434793796757766,
+        "win_rate": 0.4827586206896552,
+        "max_dd_r": 6.735093558621883
+      },
+      "schema": 3
+    }
   },
   "AVAX/USDT": {
-    "ts": 1795267438.285967,
-    "schema": 2,
+    "ts": 1795286494.4761462,
+    "schema": 3,
     "bars": 2499,
-    "params": null
+    "params": {
+      "strategy": "chimichurri_alpha",
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "sl_atr_mult": 1.4,
+      "tp_atr_mult": 3.5,
+      "train": {
+        "n": 25,
+        "expectancy": 0.11008884009509723,
+        "pf": 1.1807353056270788,
+        "win_rate": 0.48,
+        "max_dd_r": 7.146081757636898
+      },
+      "val": {
+        "n": 16,
+        "expectancy": 0.3075892393029392,
+        "pf": 1.6277673359082758,
+        "win_rate": 0.5625,
+        "max_dd_r": 3.3811043465204467
+      },
+      "test": {
+        "n": 8,
+        "expectancy": 0.1874174769828825,
+        "pf": 1.266759393566501,
+        "win_rate": 0.375,
+        "max_dd_r": 3.4441604753761945
+      },
+      "oos": {
+        "n": 24,
+        "expectancy": 0.2675319851962537,
+        "pf": 1.4770207654974858,
+        "win_rate": 0.5,
+        "max_dd_r": 3.444160475376194
+      },
+      "oos_double_cost": {
+        "n": 25,
+        "expectancy": 0.1423505236771037,
+        "pf": 1.2385184281846597,
+        "win_rate": 0.52,
+        "max_dd_r": 3.888320950752381
+      },
+      "schema": 3
+    }
   },
   "LINK/USDT": {
-    "ts": 1795267441.894013,
-    "schema": 2,
+    "ts": 1795286496.5256538,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "PEPE/USDT": {
-    "ts": 1795267445.5589104,
-    "schema": 2,
+    "ts": 1795286498.8776467,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "ADA/USDT": {
-    "ts": 1795267449.1786902,
-    "schema": 2,
+    "ts": 1795286500.8640025,
+    "schema": 3,
     "bars": 2499,
     "params": null
   },
   "XAU/USD": {
-    "ts": 1795267449.482756,
-    "schema": 2,
+    "ts": 1795286501.8464105,
+    "schema": 3,
     "bars": 2500,
     "params": null
   },
   "GBP/JPY": {
-    "ts": 1795267449.7746773,
-    "schema": 2,
+    "ts": 1795286502.7551765,
+    "schema": 3,
     "bars": 2500,
     "params": null
   },
   "EUR/JPY": {
-    "ts": 1795267450.0781941,
-    "schema": 2,
+    "ts": 1795286503.5064938,
+    "schema": 3,
     "bars": 2500,
     "params": null
   },
   "EUR/USD": {
-    "ts": 1795267450.364419,
-    "schema": 2,
+    "ts": 1795286504.2956429,
+    "schema": 3,
     "bars": 2500,
     "params": null
   },
   "GBP/USD": {
-    "ts": 1795267450.7066102,
-    "schema": 2,
+    "ts": 1795286505.1256356,
+    "schema": 3,
     "bars": 2500,
     "params": null
   },
   "USD/JPY": {
-    "ts": 1795267451.0190938,
-    "schema": 2,
+    "ts": 1795286506.2353864,
+    "schema": 3,
     "bars": 2500,
     "params": null
   },
   "AUD/USD": {
-    "ts": 1795267451.3221555,
-    "schema": 2,
+    "ts": 1795286506.925309,
+    "schema": 3,
     "bars": 2500,
     "params": null
   }

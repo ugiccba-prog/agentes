@@ -1,0 +1,217 @@
+{
+  "session_count": 44,
+  "corrections_applied": 1,
+  "global_risk_pct": 3.5,
+  "symbols": {
+    "BTC/USDT": {
+      "enabled": true,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "Canasta Compartida 7 Opciones (ema_pullback)"
+    },
+    "ETH/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "SOL/USDT": {
+      "enabled": true,
+      "strategy": "trend_macd",
+      "sl_atr_mult": 1.2,
+      "tp_atr_mult": 2.4,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "backtest_return_pct": 12.82,
+      "backtest_profit_factor": 1.6,
+      "backtest_win_rate": 40.0,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "WF OOS APROBADO (trend_macd) | PF=1.60, Exp=+0.28R, WR=40.0%, Trades=45"
+    },
+    "BNB/USDT": {
+      "enabled": true,
+      "strategy": "ema_pullback",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "Canasta Compartida 7 Opciones (ema_pullback)"
+    },
+    "XRP/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "DOGE/USDT": {
+      "enabled": true,
+      "strategy": "chimichurri_alpha",
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 4.0,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "Canasta Compartida 7 Opciones (chimichurri_alpha)"
+    },
+    "SUI/USDT": {
+      "enabled": true,
+      "strategy": "chimichurri_alpha",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "Canasta Compartida 7 Opciones (chimichurri_alpha)"
+    },
+    "AVAX/USDT": {
+      "enabled": true,
+      "strategy": "bollinger_reversion",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "Canasta Compartida 7 Opciones (bollinger_reversion)"
+    },
+    "LINK/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "PEPE/USDT": {
+      "enabled": true,
+      "strategy": "volatility_breakout",
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 4.0,
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "Canasta Compartida 7 Opciones (volatility_breakout)"
+    },
+    "ADA/USDT": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Binance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "XAU/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "GBP/JPY": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "EUR/JPY": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "EUR/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "GBP/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "USD/JPY": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    },
+    "AUD/USD": {
+      "enabled": false,
+      "strategy": "confluence",
+      "sl_atr_mult": 1.6,
+      "tp_atr_mult": 3.2,
+      "ema_fast": 12,
+      "ema_slow": 26,
+      "data_source": "Yahoo Finance API (En Vivo)",
+      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+    }
+  },
+  "last_updated": "2026-11-21 17:24:54 UTC",
+  "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
+  "risk_config": {
+    "base_risk_pct": 1.5,
+    "max_risk_pct": 3.0,
+    "min_risk_pct": 0.5,
+    "max_total_open_risk_pct": 10.0,
+    "max_leverage": 5.0,
+    "daily_loss_halt_pct": 5.0,
+    "min_rr": 2.0,
+    "min_confidence": 70.0,
+    "trail_atr_mult": 1.5,
+    "max_net_per_currency": 2,
+    "max_net_crypto": 4,
+    "max_open_positions": 8,
+    "dd_half_size_pct": 8.0,
+    "dd_halt_pct": 15.0,
+    "min_sl_pct": 0.08
+  },
+  "wf_config": {
+    "min_profit_factor_oos": 1.15,
+    "min_trades_train": 12,
+    "min_trades_oos": 8,
+    "top_k_candidates": 5,
+    "trail_atr_mult": 1.5
+  },
+  "trial_start_utc": "2026-11-14T13:01:29+00:00"
+}

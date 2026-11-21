@@ -98,6 +98,9 @@ def execute_live_cycle(
             sl=dec.stop_loss,
             tp=dec.take_profit,
             confidence=dec.confidence,
+            realized_peak_equity=st.realized_peak_equity_usd,
+            dd_halt_until_utc=st.dd_halt_until_utc,
+            dd_recovery_mode=st.dd_recovery_mode,
         )
         if ok_rm:
             ok, msg = broker.open_order(
@@ -115,7 +118,11 @@ def execute_live_cycle(
                 opened_events.append(msg)
                 print(f"   {msg}")
         else:
-            print(f"   ⛔ {sym} ({side}): {why}")
+            if why.startswith("FRENO_COOLDOWN"):
+                until = broker.activate_dd_cooldown(rm.cfg.dd_cooldown_hours)
+                print(f"   ⛔ {sym} ({side}): {why} (hasta {until})")
+            else:
+                print(f"   ⛔ {sym} ({side}): {why}")
 
     # 3. Actualizar valoración final de la cartera
     broker.update_open_positions(atr_by_symbol=atr_by_symbol)

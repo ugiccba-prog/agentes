@@ -75,7 +75,7 @@ def compute_indicators(
     tr2 = (high - prev_close).abs()
     tr3 = (low - prev_close).abs()
     true_range = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
-    out["atr"] = true_range.ewm(alpha=1.0 / atr_period, min_periods=atr_period, adjust=False).mean().bfill()
+    out["atr"] = true_range.ewm(alpha=1.0 / atr_period, min_periods=atr_period, adjust=False).mean()
 
     # 6. ADX (+DI, -DI, ADX) — Detector de régimen (Tendencia fuerte vs Rango)
     up_move = high.diff()
@@ -94,8 +94,8 @@ def compute_indicators(
     # 7. Volumen Relativo (Volumen actual vs media de 20 velas) y Canales de Donchian
     vol_sma = volume.rolling(window=20).mean().replace(0, np.nan)
     out["vol_ratio"] = (volume / vol_sma).fillna(1.0)
-    out["donchian_high"] = high.rolling(window=20).max().shift(1).bfill()
-    out["donchian_low"] = low.rolling(window=20).min().shift(1).bfill()
+    out["donchian_high"] = high.rolling(window=20, min_periods=20).max().shift(1)
+    out["donchian_low"] = low.rolling(window=20, min_periods=20).min().shift(1)
 
     # 8. Pendiente normalizada de tendencia (Fuerza direccional)
     out["trend_strength"] = ((out["ema_fast"] - out["ema_slow"]).abs() / out["atr"].replace(0, np.nan)).fillna(0.0)

@@ -34,26 +34,29 @@ import numpy as np
 import pandas as pd
 
 from indicators import compute_indicators
+from research.simulator import simulate as _conservative_simulate
 from strategies import STRATEGY_CATALOG, generate_signals
 
 CACHE_FILE = Path(__file__).with_name("wf_params.json")
 ADAPTIVE_CONFIG_FILE = Path(__file__).with_name("adaptive_config.json")
 
 EMA_PAIRS = [(9, 21), (12, 26), (20, 50)]
-SLTP_PAIRS = [(1.2, 2.4), (1.6, 3.2), (2.0, 4.0)]
+SLTP_PAIRS = [(1.4, 3.5), (1.6, 4.0), (2.0, 5.0)]
+WF_STRATEGIES = [s for s in STRATEGY_CATALOG if s != "momentum_shark"]
 
 
 @dataclass
 class WFConfig:
     train_frac: float = 0.50
     val_frac: float = 0.25
-    cost_pct_per_side: float = 0.03   # spread + comisión + slippage aprox, en % del precio
+    cost_pct_per_side: float = 0.06   # comisión real (0.05%) + slippage aprox, en % por lado
     min_trades_train: int = 12
     min_trades_oos: int = 8
     min_profit_factor_oos: float = 1.15
     max_age_days: float = 7.0
     top_k_candidates: int = 5
     trail_atr_mult: float = 1.5
+    require_double_cost_positive: bool = True
 
     @classmethod
     def from_adaptive_config(cls) -> "WFConfig":
@@ -75,7 +78,12 @@ class WFConfig:
         for k, v in raw.items():
             if k in valid_names and v is not None:
                 default_val = getattr(defaults, k)
-                kwargs[k] = int(v) if isinstance(default_val, int) else float(v)
+                if isinstance(default_val, bool):
+                    kwargs[k] = bool(v)
+                elif isinstance(default_val, int):
+                    kwargs[k] = int(v)
+                else:
+                    kwargs[k] = float(v)
         if "trail_atr_mult" not in kwargs and isinstance(risk_raw, dict) and risk_raw.get("trail_atr_mult") is not None:
             kwargs["trail_atr_mult"] = float(risk_raw["trail_atr_mult"])
         return cls(**kwargs)
@@ -89,56 +97,14 @@ def simulate(
     cost_pct: float,
     trail_atr_mult: float = 1.5,
 ) -> list[float]:
-    """
-    Devuelve los resultados de cada trade en múltiplos de R, netos de costos.
-    Señal en el cierre de la vela i -> entrada en la APERTURA de i+1 (sin look-ahead).
-    Si SL y TP caen en la misma vela, se asume SL primero (conservador).
-    Aplica breakeven en +1R y trailing stop de trail_atr_mult*ATR desde +2R.
-    Una posición a la vez por símbolo.
-    """
-    o = df["open"].to_numpy(float)
-    h = df["high"].to_numpy(float)
-    lo = df["low"].to_numpy(float)
-    c = df["close"].to_numpy(float)
-    atr = df["atr"].to_numpy(float)
-    sig = df["signal"].to_numpy(int)
-    n = len(df)
-
-    results: list[float] = []
-    i = 31
-    while i < n - 1:
-        s = sig[i]
-        if s == 0 or not np.isfinite(atr[i]) or atr[i] <= 0:
-            i += 1
-            continue
-        entry = o[i + 1]
-        risk = sl_mult * atr[i]
-        sl = entry - s * risk
-        tp = entry + s * tp_mult * atr[i]
-        cost_r = (2 * cost_pct / 100.0 * entry) / risk
-        r = None
-        j = i + 1
-        while j < n:
-            hit_sl = lo[j] <= sl if s == 1 else h[j] >= sl
-            hit_tp = h[j] >= tp if s == 1 else lo[j] <= tp
-            if hit_sl:
-                r = (sl - entry) / risk if s == 1 else (entry - sl) / risk
-                break
-            if hit_tp:
-                r = tp_mult / sl_mult
-                break
-            fav = max(h[j] - entry, c[j] - entry) if s == 1 else max(entry - lo[j], entry - c[j])
-            if fav >= risk:
-                sl = max(sl, entry) if s == 1 else min(sl, entry)
-            if fav >= 2.0 * risk and np.isfinite(atr[j]) and atr[j] > 0:
-                tr = (c[j] - trail_atr_mult * atr[j]) if s == 1 else (c[j] + trail_atr_mult * atr[j])
-                sl = max(sl, tr) if s == 1 else min(sl, tr)
-            j += 1
-        if r is None:  # no cerró antes de terminar la data: se ignora
-            break
-        results.append(r - cost_r)
-        i = j + 1
-    return results
+    """Delega al simulador conservador sin look-ahead (stops al cierre, fill al open en gaps)."""
+    return _conservative_simulate(
+        df,
+        sl_mult,
+        tp_mult,
+        cost_pct,
+        trail_atr_mult=trail_atr_mult,
+    )
 
 
 def metrics(rs: list[float]) -> dict:
@@ -160,7 +126,7 @@ def metrics(rs: list[float]) -> dict:
 
 
 # ---------------------------------------------------------------- walk-forward
-WF_SCHEMA_VERSION = 2  # v2: train / validación / test intocable (sin sesgo de selección en el test)
+WF_SCHEMA_VERSION = 3  # v3: simulador conservador + costos 0.06% + resistencia a doble costo OOS
 
 
 def _score(m: dict) -> float:
@@ -170,11 +136,12 @@ def _score(m: dict) -> float:
 def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> dict | None:
     """
     Tres tramos cronológicos:
-      TRAIN (50%)  -> se generan candidatos (las 63 combinaciones) y se quedan los top-k.
+      TRAIN (50%)  -> se generan candidatos y se quedan los top-k.
       VALID (25%)  -> entre esos top-k se elige UNO (acá sí hay selección).
       TEST  (25%)  -> el elegido se confirma en datos que nunca participaron de ninguna elección.
-    Se acepta solo si: el test no pierde (exp > 0) y el tramo fuera de muestra completo
-    (validación + test) supera los mínimos de trades, expectancy y profit factor.
+    Se acepta solo si: el test no pierde (exp > 0), el tramo fuera de muestra completo
+    (validación + test) supera los mínimos de trades, expectancy y profit factor,
+    y (si está activo) resiste doble costo OOS.
     """
     cfg = cfg or WFConfig.from_adaptive_config()
     n = len(df_raw)
@@ -186,8 +153,9 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
     candidates: list[tuple[float, dict, dict]] = []
     for (ef, es) in EMA_PAIRS:
         df_ind = compute_indicators(df_raw, ema_fast=ef, ema_slow=es)
-        for strat in STRATEGY_CATALOG:
+        for strat in WF_STRATEGIES:
             df_sig = generate_signals(df_ind, strategy_name=strat)
+            df_sig.loc[df_sig.index[:200], "signal"] = 0
             train = df_sig.iloc[:s_train]
             for (slm, tpm) in SLTP_PAIRS:
                 m = metrics(simulate(train, slm, tpm, cfg.cost_pct_per_side, cfg.trail_atr_mult))
@@ -206,6 +174,7 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
     for _, params, train_m in candidates[: max(1, cfg.top_k_candidates)]:
         df_ind = compute_indicators(df_raw, ema_fast=params["ema_fast"], ema_slow=params["ema_slow"])
         df_sig = generate_signals(df_ind, strategy_name=params["strategy"])
+        df_sig.loc[df_sig.index[:200], "signal"] = 0
         sim = lambda part: simulate(part, params["sl_atr_mult"], params["tp_atr_mult"],  # noqa: E731
                                     cfg.cost_pct_per_side, cfg.trail_atr_mult)
         val_rs = sim(df_sig.iloc[s_train:s_val])
@@ -227,7 +196,24 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
         return None
     if oos_m["n"] < cfg.min_trades_oos or oos_m["expectancy"] <= 0 or oos_m["pf"] < cfg.min_profit_factor_oos:
         return None
-    return {**params, "train": train_m, "val": val_m, "test": test_m, "oos": oos_m, "schema": WF_SCHEMA_VERSION}
+
+    val_rs_2x = simulate(df_sig.iloc[s_train:s_val], params["sl_atr_mult"], params["tp_atr_mult"],
+                         cfg.cost_pct_per_side * 2, cfg.trail_atr_mult)
+    test_rs_2x = simulate(df_sig.iloc[s_val:], params["sl_atr_mult"], params["tp_atr_mult"],
+                          cfg.cost_pct_per_side * 2, cfg.trail_atr_mult)
+    oos_double_m = metrics(val_rs_2x + test_rs_2x)
+    if cfg.require_double_cost_positive and oos_double_m["expectancy"] <= 0:
+        return None
+
+    return {
+        **params,
+        "train": train_m,
+        "val": val_m,
+        "test": test_m,
+        "oos": oos_m,
+        "oos_double_cost": oos_double_m,
+        "schema": WF_SCHEMA_VERSION,
+    }
 
 
 # ---------------------------------------------------------------- cache semanal

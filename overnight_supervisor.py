@@ -40,9 +40,9 @@ CORE_SHARED_BASKET: tuple[str, ...] = (
 )
 
 CORE_DEFAULT_STRATEGIES: dict[str, str] = {
-    "BTC/USDT": "ema_pullback",
-    "SOL/USDT": "ema_pullback",
-    "BNB/USDT": "ema_pullback",
+    "BTC/USDT": "chimichurri_alpha",
+    "SOL/USDT": "chimichurri_alpha",
+    "BNB/USDT": "chimichurri_alpha",
     "AVAX/USDT": "bollinger_reversion",
     "DOGE/USDT": "chimichurri_alpha",
     "SUI/USDT": "chimichurri_alpha",
@@ -52,125 +52,180 @@ CORE_DEFAULT_STRATEGIES: dict[str, str] = {
 OPTION_SPECS: list[dict] = [
     {
         "key": "base",
-        "name": "1. WF Estricta (Base)",
+        "name": "1. WF Estricta v2 (Base)",
         "short_name": "1. WF Base",
-        "rule_summary": "Estrategia WF/Canasta · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0",
+        "rule_summary": "Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2",
         "file": "paper_base.json",
+        "strict_wf_only": True,
         "extra_entry": False,
         "strategy_override": None,
+        "fallback_strategy": None,
         "require_macro_align": False,
+        "tp_rr_override": None,
         "risk_cfg": RiskConfig(
             base_risk_pct=1.5,
-            max_risk_pct=3.0,
-            max_leverage=5.0,
-            max_total_open_risk_pct=10.0,
-            min_rr=2.0,
-            min_confidence=70.0,
+            max_risk_pct=2.5,
+            max_leverage=4.0,
+            max_total_open_risk_pct=7.5,
+            min_rr=2.2,
+            min_confidence=72.0,
             trail_atr_mult=1.5,
-            max_net_crypto=4,
-            max_open_positions=8,
-            max_cluster_risk_pct=6.0,
+            max_net_crypto=2,
+            max_open_positions=6,
+            max_cluster_risk_pct=3.5,
         ),
     },
     {
         "key": "momentum",
-        "name": "2. WF + Impulso Shark",
-        "short_name": "2. WF+Impulso",
-        "rule_summary": "Base + Impulso Shark extra · Riesgo 1.5–3.0% · Apal. 5x · R:R >= 2.0",
+        "name": "2. Régimen Híbrido (ADX)",
+        "short_name": "2. Híbrido ADX",
+        "rule_summary": "ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2",
         "file": "paper_momentum.json",
-        "extra_entry": True,
-        "strategy_override": None,
+        "strict_wf_only": False,
+        "extra_entry": False,
+        "strategy_override": "regime_hybrid",
+        "fallback_strategy": None,
         "require_macro_align": False,
+        "tp_rr_override": None,
         "risk_cfg": RiskConfig(
             base_risk_pct=1.5,
-            max_risk_pct=3.0,
-            max_leverage=5.0,
-            max_total_open_risk_pct=10.0,
-            min_rr=2.0,
+            max_risk_pct=2.5,
+            max_leverage=4.0,
+            max_total_open_risk_pct=7.5,
+            min_rr=2.2,
             min_confidence=70.0,
             trail_atr_mult=1.5,
-            max_net_crypto=4,
-            max_open_positions=8,
-            max_cluster_risk_pct=6.0,
+            max_net_crypto=2,
+            max_open_positions=6,
+            max_cluster_risk_pct=3.5,
         ),
     },
     {
         "key": "chimichurri",
-        "name": "3. Chimichurri Alpha (Tendencia)",
+        "name": "3. Chimichurri v2 (Tendencia)",
         "short_name": "3. Chimichurri",
-        "rule_summary": "Fuerza chimichurri_alpha (Donchian+ADX>=22) · Trail 1.8 ATR · Apal. 5x",
+        "rule_summary": "chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x",
         "file": "paper_chimichurri.json",
+        "strict_wf_only": False,
         "extra_entry": False,
         "strategy_override": "chimichurri_alpha",
+        "fallback_strategy": None,
         "require_macro_align": False,
+        "tp_rr_override": 2.8,
         "risk_cfg": RiskConfig(
             base_risk_pct=1.5,
-            max_risk_pct=3.0,
-            max_leverage=5.0,
-            max_total_open_risk_pct=10.0,
-            min_rr=2.0,
-            min_confidence=70.0,
+            max_risk_pct=2.5,
+            max_leverage=4.0,
+            max_total_open_risk_pct=7.5,
+            min_rr=2.4,
+            min_confidence=72.0,
             trail_atr_mult=1.8,
-            max_net_crypto=4,
-            max_open_positions=8,
-            max_cluster_risk_pct=6.0,
+            max_net_crypto=2,
+            max_open_positions=6,
+            max_cluster_risk_pct=3.5,
         ),
     },
     {
         "key": "sniper",
-        "name": "4. Francotirador (Alta Precisión)",
+        "name": "4. Francotirador v2 (Macro 1H)",
         "short_name": "4. Francotirador",
-        "rule_summary": "Conf >= 90 · TP 2.5R (R:R >= 2.4) · Exige Macro 1H · Riesgo 1–2% · Apal. 3x",
+        "rule_summary": "Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%",
         "file": "paper_sniper.json",
+        "strict_wf_only": False,
         "extra_entry": False,
         "strategy_override": None,
+        "fallback_strategy": "chimichurri_alpha",
         "require_macro_align": True,
+        "tp_rr_override": 2.6,
         "risk_cfg": RiskConfig(
             base_risk_pct=1.0,
-            max_risk_pct=2.0,
+            max_risk_pct=1.8,
             max_leverage=3.0,
             max_total_open_risk_pct=6.0,
             min_rr=2.4,
-            min_confidence=90.0,
+            min_confidence=85.0,
             trail_atr_mult=1.5,
-            max_net_crypto=3,
+            max_net_crypto=2,
             max_open_positions=5,
-            max_cluster_risk_pct=4.0,
+            max_cluster_risk_pct=3.0,
         ),
     },
     {
         "key": "berserker",
-        "name": "5. Berserker / Full Tiburón",
+        "name": "5. Berserker v2 (Sin Impulso)",
         "short_name": "5. Berserker",
-        "rule_summary": "Impulso Shark + Riesgo 2.5–4.5% · Apal. 8x · Conf >= 65 · Trail 1.3 ATR",
+        "rule_summary": "Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR",
         "file": "paper_berserker.json",
-        "extra_entry": True,
-        "strategy_override": None,
+        "strict_wf_only": False,
+        "extra_entry": False,
+        "strategy_override": "regime_hybrid",
+        "fallback_strategy": None,
         "require_macro_align": False,
+        "tp_rr_override": None,
         "risk_cfg": RiskConfig(
-            base_risk_pct=2.5,
-            max_risk_pct=4.5,
-            max_leverage=8.0,
-            max_total_open_risk_pct=14.0,
-            min_rr=1.8,
-            min_confidence=65.0,
-            trail_atr_mult=1.3,
-            max_net_crypto=5,
-            max_open_positions=8,
-            max_cluster_risk_pct=9.0,
+            base_risk_pct=2.0,
+            max_risk_pct=3.5,
+            max_leverage=6.0,
+            max_total_open_risk_pct=10.5,
+            min_rr=2.0,
+            min_confidence=70.0,
+            trail_atr_mult=1.4,
+            max_net_crypto=3,
+            max_open_positions=6,
+            max_cluster_risk_pct=5.5,
+        ),
+    },
+    {
+        "key": "rebote",
+        "name": "6. Resorte v2 (Rango ADX<20)",
+        "short_name": "6. Resorte",
+        "rule_summary": "bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x",
+        "file": "paper_rebote.json",
+        "strict_wf_only": False,
+        "extra_entry": False,
+        "strategy_override": "bollinger_reversion",
+        "fallback_strategy": None,
+        "require_macro_align": False,
+        "tp_rr_override": None,
+        "risk_cfg": RiskConfig(
+            base_risk_pct=1.5,
+            max_risk_pct=2.5,
+            max_leverage=4.0,
+            max_total_open_risk_pct=7.5,
+            min_rr=2.0,
+            min_confidence=70.0,
+            trail_atr_mult=1.5,
+            max_net_crypto=2,
+            max_open_positions=6,
+            max_cluster_risk_pct=3.5,
+        ),
+    },
+    {
+        "key": "ruptura",
+        "name": "7. Escape v2 (Ruptura+ADX)",
+        "short_name": "7. Escape",
+        "rule_summary": "volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x",
+        "file": "paper_ruptura.json",
+        "strict_wf_only": False,
+        "extra_entry": False,
+        "strategy_override": "volatility_breakout",
+        "fallback_strategy": None,
+        "require_macro_align": False,
+        "tp_rr_override": 2.6,
+        "risk_cfg": RiskConfig(
+            base_risk_pct=1.5,
+            max_risk_pct=2.5,
+            max_leverage=4.0,
+            max_total_open_risk_pct=7.5,
+            min_rr=2.2,
+            min_confidence=70.0,
+            trail_atr_mult=1.5,
+            max_net_crypto=2,
+            max_open_positions=6,
+            max_cluster_risk_pct=3.5,
         ),
     },
 ]
-
-
-# Contraste de señal con el mismo presupuesto de riesgo que Base.
-for key, name, strategy, description in (
-    ("rebote", "6. Resorte", "bollinger_reversion", "Busca el giro después de un movimiento extremo"),
-    ("ruptura", "7. Escape", "volatility_breakout", "Sigue una ruptura con volatilidad y fuerza crecientes"),
-):
-    OPTION_SPECS.append(dict(OPTION_SPECS[0], key=key, name=name, short_name=name,
-                             file=f"paper_{key}.json", strategy_override=strategy,
-                             rule_summary=description))
 
 def log_event(message: str) -> None:
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -195,9 +250,10 @@ def load_adaptive_config() -> dict:
     for sym in DEFAULT_SYMBOLS:
         default_cfg["symbols"][sym] = {
             "enabled": True,
-            "strategy": "confluence",
+            "wf_approved": False,
+            "strategy": "chimichurri_alpha",
             "sl_atr_mult": 1.6,
-            "tp_atr_mult": 3.2,
+            "tp_atr_mult": 4.0,
             "ema_fast": 12,
             "ema_slow": 26,
             "risk_multiplier": 1.0,
@@ -235,12 +291,13 @@ def run_self_correction_phase(
             if df_closed is None or len(df_closed) < 800:
                 if sym in CORE_SHARED_BASKET:
                     existing_sym = cfg["symbols"].get(sym, {})
-                    kept_strat = str(existing_sym.get("strategy") or CORE_DEFAULT_STRATEGIES.get(sym, "ema_pullback"))
+                    kept_strat = str(existing_sym.get("strategy") or CORE_DEFAULT_STRATEGIES.get(sym, "chimichurri_alpha"))
                     cfg["symbols"][sym] = {
                         "enabled": True,
+                        "wf_approved": False,
                         "strategy": kept_strat,
                         "sl_atr_mult": float(existing_sym.get("sl_atr_mult", 1.6)),
-                        "tp_atr_mult": float(existing_sym.get("tp_atr_mult", 3.2)),
+                        "tp_atr_mult": float(existing_sym.get("tp_atr_mult", 4.0)),
                         "ema_fast": int(existing_sym.get("ema_fast", 12)),
                         "ema_slow": int(existing_sym.get("ema_slow", 26)),
                         "data_source": source,
@@ -253,9 +310,10 @@ def run_self_correction_phase(
                 )
                 cfg["symbols"][sym] = {
                     "enabled": False,
-                    "strategy": "confluence",
+                    "wf_approved": False,
+                    "strategy": "chimichurri_alpha",
                     "sl_atr_mult": 1.6,
-                    "tp_atr_mult": 3.2,
+                    "tp_atr_mult": 4.0,
                     "ema_fast": 12,
                     "ema_slow": 26,
                     "data_source": source,
@@ -265,33 +323,35 @@ def run_self_correction_phase(
 
             wf_params = get_validated_params(sym, df_closed, force=force)
             prev_enabled = cfg["symbols"].get(sym, {}).get("enabled")
-            prev_strat = cfg["symbols"].get(sym, {}).get("strategy", "confluence")
+            prev_strat = cfg["symbols"].get(sym, {}).get("strategy", "chimichurri_alpha")
 
             if wf_params is None:
                 if sym in CORE_SHARED_BASKET:
-                    kept_strat = CORE_DEFAULT_STRATEGIES.get(sym, prev_strat or "ema_pullback")
+                    kept_strat = CORE_DEFAULT_STRATEGIES.get(sym, prev_strat or "chimichurri_alpha")
                     existing_sym = cfg["symbols"].get(sym, {})
                     cfg["symbols"][sym] = {
                         "enabled": True,
+                        "wf_approved": False,
                         "strategy": kept_strat,
                         "sl_atr_mult": float(existing_sym.get("sl_atr_mult", 1.6)),
-                        "tp_atr_mult": float(existing_sym.get("tp_atr_mult", 3.2)),
+                        "tp_atr_mult": float(existing_sym.get("tp_atr_mult", 4.0)),
                         "ema_fast": int(existing_sym.get("ema_fast", 12)),
                         "ema_slow": int(existing_sym.get("ema_slow", 26)),
                         "data_source": source,
-                        "notes": f"Canasta Compartida 7 Opciones ({kept_strat})",
+                        "notes": f"Canasta Compartida sin WF ({kept_strat}; excluido de 1. WF Base)",
                     }
                     if prev_enabled is not True:
                         corrections_made += 1
-                    log_event(f"   🔎 [{sym}] -> ACTIVO (Canasta Compartida) | {kept_strat}")
+                    log_event(f"   🔎 [{sym}] -> ACTIVO (Canasta sin WF) | {kept_strat}")
                     continue
                 if prev_enabled is not False:
                     corrections_made += 1
                 cfg["symbols"][sym] = {
                     "enabled": False,
+                    "wf_approved": False,
                     "strategy": prev_strat,
                     "sl_atr_mult": 1.6,
-                    "tp_atr_mult": 3.2,
+                    "tp_atr_mult": 4.0,
                     "ema_fast": 12,
                     "ema_slow": 26,
                     "data_source": source,
@@ -317,6 +377,7 @@ def run_self_correction_phase(
             )
             cfg["symbols"][sym] = {
                 "enabled": True,
+                "wf_approved": True,
                 "strategy": new_strat,
                 "sl_atr_mult": sl_mult,
                 "tp_atr_mult": tp_mult,
@@ -366,9 +427,12 @@ def run_trading_tick(
     rm: RiskManager | None = None,
     interval: str = "15m",
     *,
+    strict_wf_only: bool = False,
     extra_entry: bool = False,
     strategy_override: str | None = None,
+    fallback_strategy: str | None = None,
     require_macro_align: bool = False,
+    tp_rr_override: float | None = None,
     lock_rm_config: bool = False,
     history=get_historical_data,
     macro=_get_macro_bias_1h,
@@ -384,7 +448,10 @@ def run_trading_tick(
     for sym, sym_cfg in cfg.get("symbols", {}).items():
         try:
             has_open = any(p["symbol"] == sym for p in broker.state.open_positions)
+            is_wf_approved = bool(sym_cfg.get("wf_approved", False))
             if not sym_cfg.get("enabled", True) and not has_open:
+                continue
+            if strict_wf_only and not is_wf_approved and not has_open:
                 continue
 
             df_raw, _ = history(sym, interval=interval, limit=300, use_cache=False, live_only=True)
@@ -397,18 +464,26 @@ def run_trading_tick(
                 ema_fast=int(sym_cfg.get("ema_fast", 12)),
                 ema_slow=int(sym_cfg.get("ema_slow", 26)),
             )
-            strat_name = strategy_override or str(sym_cfg.get("strategy", "confluence"))
+            if strategy_override:
+                strat_name = strategy_override
+            elif is_wf_approved:
+                strat_name = str(sym_cfg.get("strategy", "chimichurri_alpha"))
+            else:
+                strat_name = fallback_strategy or str(sym_cfg.get("strategy", "chimichurri_alpha"))
             df_sig = generate_signals(df_ind, strategy_name=strat_name)
             atr_val = float(df_sig.iloc[-1]["atr"])
             atr_by_symbol[sym] = atr_val
 
             if not sym_cfg.get("enabled", True):
                 continue
+            if strict_wf_only and not is_wf_approved:
+                continue
 
             macro_bias = macro(sym)
             sl_mult = float(sym_cfg.get("sl_atr_mult", 1.6))
-            base_tp_mult = float(sym_cfg.get("tp_atr_mult", 3.2))
-            tp_mult = max(base_tp_mult, round(sl_mult * max(rm.cfg.min_rr, 2.0) * 1.04, 3))
+            base_tp_mult = float(sym_cfg.get("tp_atr_mult", 4.0))
+            target_rr = max(rm.cfg.min_rr, tp_rr_override or 2.0)
+            tp_mult = max(base_tp_mult, round(sl_mult * target_rr * 1.04, 3))
             decision = evaluate_latest_candle(
                 df_sig,
                 sl_atr_mult=sl_mult,
@@ -468,9 +543,16 @@ def run_trading_tick(
                     sl=decision.stop_loss,
                     tp=decision.take_profit,
                     confidence=decision.confidence,
+                    realized_peak_equity=st.realized_peak_equity_usd,
+                    dd_halt_until_utc=st.dd_halt_until_utc,
+                    dd_recovery_mode=st.dd_recovery_mode,
                 )
                 if not ok_rm:
-                    report(f"   🛡️ [RiskManager] {sym} {side} bloqueado: {reason_rm}")
+                    if reason_rm.startswith("FRENO_COOLDOWN"):
+                        until = broker.activate_dd_cooldown(rm.cfg.dd_cooldown_hours)
+                        report(f"   🛡️ [RiskManager] {sym} {side} bloqueado: {reason_rm} (hasta {until})")
+                    else:
+                        report(f"   🛡️ [RiskManager] {sym} {side} bloqueado: {reason_rm}")
                     continue
 
                 ok, msg = broker.open_order(
@@ -505,7 +587,7 @@ def build_option_runners(
     base_dir: Path | None = None,
     shared_quote=None,
 ) -> tuple[list[tuple[dict, LiveExecutionBroker, RiskManager]], object]:
-    """Construye los 5 brokers y sus RiskManagers compartiendo un proveedor de precios al segundo."""
+    """Construye los 7 brokers y sus RiskManagers compartiendo un proveedor de precios al segundo."""
     root = base_dir or Path(__file__).parent
     runners: list[tuple[dict, LiveExecutionBroker, RiskManager]] = []
     quote_fn = shared_quote
@@ -532,7 +614,7 @@ def sync_base_to_live_portfolio(base_broker: LiveExecutionBroker, live_file: Pat
 
 
 def reset_all_portfolios(initial_balance_usd: float = 10000.0, base_dir: Path | None = None) -> None:
-    """Reinicia las 5 carteras, live_portfolio.json e impulse_study.json a cero ($10,000 USD)."""
+    """Reinicia las 7 carteras, live_portfolio.json e impulse_study.json a cero ($10,000 USD)."""
     root = base_dir or Path(__file__).parent
     for spec in OPTION_SPECS:
         b = LiveExecutionBroker(
@@ -557,7 +639,7 @@ def run_all_options_tick(
     macro=_get_macro_bias_1h,
     report=log_event,
 ) -> dict[str, float]:
-    """Ejecuta un cierre de vela sincronizado para las 5 opciones sobre los mismos datos."""
+    """Ejecuta un cierre de vela sincronizado para las 7 opciones sobre los mismos datos."""
     cached_hist = lru_cache(maxsize=None)(history)
     cached_macro = lru_cache(maxsize=None)(macro)
     atr_map: dict[str, float] = {}
@@ -576,9 +658,12 @@ def run_all_options_tick(
             cfg,
             rm=rm,
             interval=interval,
-            extra_entry=bool(spec["extra_entry"]),
-            strategy_override=spec["strategy_override"],
-            require_macro_align=bool(spec["require_macro_align"]),
+            strict_wf_only=bool(spec.get("strict_wf_only", False)),
+            extra_entry=bool(spec.get("extra_entry", False)),
+            strategy_override=spec.get("strategy_override"),
+            fallback_strategy=spec.get("fallback_strategy"),
+            require_macro_align=bool(spec.get("require_macro_align", False)),
+            tp_rr_override=spec.get("tp_rr_override"),
             lock_rm_config=True,
             history=cached_hist,
             macro=cached_macro,
@@ -611,7 +696,7 @@ def run_overnight_daemon(
 
     log_event("=" * 92)
     log_event(
-        f"🌙 INICIANDO SUPERVISOR 5 OPCIONES EN PARALELO (Canasta 7 Mercados + WF + RiskManager): "
+        f"🌙 INICIANDO SUPERVISOR 7 OPCIONES EN PARALELO (Fase 2 + WF v3 + RiskManager): "
         f"{trading_minutes} min Trading + {correction_minutes} min Auditoría | Tick SL/Trail: {tick_seconds}s"
     )
     log_event("=" * 92)

@@ -23,6 +23,7 @@ Uso en live_trader.py (dentro de execute_live_cycle, antes de broker.open_order)
 from __future__ import annotations
 
 from dataclasses import dataclass, fields
+from datetime import datetime, timezone
 import json
 from pathlib import Path
 
@@ -31,22 +32,26 @@ ADAPTIVE_CONFIG_FILE = Path(__file__).with_name("adaptive_config.json")
 
 @dataclass
 class RiskConfig:
-    base_risk_pct: float = 1.5        # riesgo base por trade (Violenta & Sagaz)
-    max_risk_pct: float = 3.0         # techo cuando todo acompaña
-    min_risk_pct: float = 0.5         # piso cuando el agente está golpeado
-    max_total_open_risk_pct: float = 10.0  # riesgo agregado de todas las abiertas
-    max_leverage: float = 5.0         # nocional total / equity
+    base_risk_pct: float = 1.5        # riesgo base por trade (Violenta & Sagaz v2)
+    max_risk_pct: float = 2.5         # techo cuando todo acompaña
+    min_risk_pct: float = 0.5         # piso en recuperación / tras cooldown
+    max_total_open_risk_pct: float = 7.5  # riesgo agregado de todas las abiertas
+    max_leverage: float = 4.0         # nocional total / equity
     min_rr: float = 2.0               # reward:risk mínimo
     max_net_per_currency: int = 2     # p.ej. no más de 2 posiciones netas en USD
-    max_net_crypto: int = 4
-    max_open_positions: int = 8
+    max_net_crypto: int = 2           # máx. 2 cripto netas en la misma dirección
+    max_open_positions: int = 6
     min_confidence: float = 70.0
     daily_loss_halt_pct: float = 5.0  # pérdida diaria que frena aperturas
-    dd_half_size_pct: float = 8.0     # drawdown desde el pico -> mitad de tamaño
-    dd_halt_pct: float = 15.0         # drawdown desde el pico -> no abrir más
+    dd_half_size_pct: float = 8.0     # drawdown realizado desde pico -> mitad de tamaño
+    dd_halt_pct: float = 15.0         # drawdown realizado desde pico -> pausa defensiva
+    dd_cooldown_hours: float = 24.0   # horas de pausa tras DD >= dd_halt_pct antes de reanudar a riesgo mínimo
     min_sl_pct: float = 0.08          # SL más chico que esto se lo come el spread
-    trail_atr_mult: float = 1.5       # multiplicador ATR para trailing desde +2R
-    max_cluster_risk_pct: float = 6.0  # riesgo máx. en un mismo bloque correlacionado (p.ej. cripto corta)
+    trail_atr_mult: float = 1.5       # multiplicador ATR para trailing desde +1.5R
+    be_trigger_r: float = 1.2         # mover a BE+buffer al alcanzar +1.2R
+    be_buffer_pct: float = 0.15       # colchón sobre entry que cubre 0.10% fee + slippage
+    trail_trigger_r: float = 1.5      # activar trailing stop desde +1.5R
+    max_cluster_risk_pct: float = 3.5  # riesgo máx. en un mismo bloque correlacionado (p.ej. cripto corta)
 
     @classmethod
     def from_adaptive_config(cls) -> "RiskConfig":
@@ -74,7 +79,12 @@ class RiskConfig:
             target_key = aliases.get(k, k)
             if target_key in valid_names and v is not None:
                 default_val = getattr(defaults, target_key)
-                kwargs[target_key] = int(v) if isinstance(default_val, int) else float(v)
+                if isinstance(default_val, bool):
+                    kwargs[target_key] = bool(v)
+                elif isinstance(default_val, int):
+                    kwargs[target_key] = int(v)
+                else:
+                    kwargs[target_key] = float(v)
         return cls(**kwargs)
 
 
@@ -87,14 +97,32 @@ def currency_exposure(symbol: str, side: str) -> dict[str, int]:
     return {base.upper(): sign, quote.upper(): -sign}
 
 
+def _parse_utc(ts_str: str) -> datetime | None:
+    if not ts_str:
+        return None
+    for fmt in ("%Y-%m-%d %H:%M:%S UTC", "%Y-%m-%dT%H:%M:%S%z"):
+        try:
+            dt = datetime.strptime(ts_str, fmt)
+            return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    try:
+        dt = datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
 class RiskManager:
     def __init__(self, cfg: RiskConfig | None = None) -> None:
         self.cfg = cfg or RiskConfig.from_adaptive_config()
 
     # ---------- sizing ----------
-    def _risk_pct(self, confidence: float, drawdown_pct: float) -> float:
+    def _risk_pct(self, confidence: float, drawdown_pct: float, dd_recovery_mode: bool = False) -> float:
         c = self.cfg
-        # confianza 70 -> base, 95+ -> techo (lineal)
+        if dd_recovery_mode or drawdown_pct >= c.dd_halt_pct:
+            return c.min_risk_pct
+        # confianza min_confidence -> base, +25 pts -> techo (lineal)
         t = max(0.0, min(1.0, (confidence - c.min_confidence) / 25.0))
         risk = c.base_risk_pct + t * (c.max_risk_pct - c.base_risk_pct)
         if drawdown_pct >= c.dd_half_size_pct:
@@ -115,15 +143,32 @@ class RiskManager:
         sl: float,
         tp: float,
         confidence: float,
+        realized_peak_equity: float | None = None,
+        dd_halt_until_utc: str = "",
+        dd_recovery_mode: bool = False,
+        now_utc: datetime | None = None,
     ) -> tuple[bool, float, str]:
         c = self.cfg
 
         if confidence < c.min_confidence:
             return False, 0.0, f"confianza {confidence:.0f} < {c.min_confidence:.0f}"
 
-        dd = (peak_equity - equity) / peak_equity * 100 if peak_equity > 0 else 0.0
-        if dd >= c.dd_halt_pct:
-            return False, 0.0, f"FRENO: drawdown {dd:.1f}% desde el pico"
+        effective_peak = (
+            realized_peak_equity
+            if (realized_peak_equity is not None and realized_peak_equity > 0)
+            else peak_equity
+        )
+        dd = (effective_peak - equity) / effective_peak * 100 if effective_peak > 0 else 0.0
+        if dd >= c.dd_halt_pct + 5.0:
+            return False, 0.0, f"FRENO EMERGENCIA: drawdown {dd:.1f}% desde pico realizado"
+
+        now = now_utc or datetime.now(tz=timezone.utc)
+        halt_until = _parse_utc(dd_halt_until_utc)
+        if halt_until is not None and now < halt_until:
+            return False, 0.0, f"FRENO: pausa defensiva por drawdown {dd:.1f}% (hasta {dd_halt_until_utc})"
+
+        if dd >= c.dd_halt_pct and not dd_recovery_mode:
+            return False, 0.0, f"FRENO_COOLDOWN: drawdown {dd:.1f}% desde pico realizado -> pausa {c.dd_cooldown_hours:.0f}h"
 
         day_pl = (equity - day_start_equity) / day_start_equity * 100 if day_start_equity > 0 else 0.0
         if day_pl <= -c.daily_loss_halt_pct:
@@ -152,7 +197,7 @@ class RiskManager:
             if abs(net.get(ccy, 0) + s) > limit:
                 return False, 0.0, f"exposición neta a {ccy} excedería {limit}"
 
-        risk = self._risk_pct(confidence, dd)
+        risk = self._risk_pct(confidence, dd, dd_recovery_mode=dd_recovery_mode)
 
         # riesgo total abierto (solo cuenta lo que realmente se puede perder:
         # una posición con stop en breakeven o trailing en ganancia no consume riesgo)
@@ -207,19 +252,21 @@ class RiskManager:
     def manage_stop(
         side: str, entry: float, price: float, sl: float, atr: float,
         initial_risk: float, trail_atr_mult: float = 1.5,
+        be_trigger_r: float = 1.2, be_buffer_pct: float = 0.15,
+        trail_trigger_r: float = 1.5,
     ) -> float:
         """
-        +1R  -> SL a breakeven.
-        +2R  -> trailing a trail_atr_mult * ATR del precio.
+        +1.2R -> SL a breakeven + colchón de comisiones (0.15% por defecto).
+        +1.5R -> trailing a trail_atr_mult * ATR del precio.
         Nunca empeora el SL. Pasar initial_risk = |entry - SL original|.
         """
         long = side.upper().startswith("LONG")
         moved = (price - entry) if long else (entry - price)
         new_sl = sl
-        if moved >= initial_risk:
-            be = entry
-            new_sl = max(sl, be) if long else min(sl, be)
-        if moved >= 2 * initial_risk:
+        if moved >= be_trigger_r * initial_risk:
+            be = entry * (1.0 + be_buffer_pct / 100.0) if long else entry * (1.0 - be_buffer_pct / 100.0)
+            new_sl = max(new_sl, be) if long else min(new_sl, be)
+        if moved >= trail_trigger_r * initial_risk and atr > 0:
             trail = price - trail_atr_mult * atr if long else price + trail_atr_mult * atr
             new_sl = max(new_sl, trail) if long else min(new_sl, trail)
         return new_sl

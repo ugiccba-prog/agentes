@@ -6,39 +6,45 @@ import requests
 PRESETS = {
     "🦈 Violenta & Sagaz (Recomendado)": {
         "base_risk_pct": 1.5,
-        "max_risk_pct": 3.0,
-        "max_leverage": 5.0,
-        "max_total_open_risk_pct": 10.0,
+        "max_risk_pct": 2.5,
+        "max_leverage": 4.0,
+        "max_total_open_risk_pct": 7.5,
         "daily_loss_limit_pct": 5.0,
-        "min_rr": 2.0,
-        "min_confidence": 70.0,
+        "min_rr": 2.2,
+        "min_confidence": 72.0,
         "trail_atr_mult": 1.5,
+        "max_net_crypto": 2,
+        "max_cluster_risk_pct": 3.5,
         "min_profit_factor_oos": 1.15,
         "min_trades_train": 12,
         "min_trades_oos": 8,
     },
     "🔥 Berserker / Full Tiburón": {
-        "base_risk_pct": 2.5,
-        "max_risk_pct": 4.5,
-        "max_leverage": 8.0,
-        "max_total_open_risk_pct": 14.0,
-        "daily_loss_limit_pct": 7.0,
-        "min_rr": 1.8,
-        "min_confidence": 65.0,
-        "trail_atr_mult": 1.3,
+        "base_risk_pct": 2.0,
+        "max_risk_pct": 3.5,
+        "max_leverage": 6.0,
+        "max_total_open_risk_pct": 10.5,
+        "daily_loss_limit_pct": 6.0,
+        "min_rr": 2.0,
+        "min_confidence": 70.0,
+        "trail_atr_mult": 1.4,
+        "max_net_crypto": 3,
+        "max_cluster_risk_pct": 5.5,
         "min_profit_factor_oos": 1.10,
         "min_trades_train": 10,
         "min_trades_oos": 6,
     },
     "🛡️ Conservador Institucional": {
         "base_risk_pct": 1.0,
-        "max_risk_pct": 2.0,
+        "max_risk_pct": 1.8,
         "max_leverage": 3.0,
-        "max_total_open_risk_pct": 8.0,
+        "max_total_open_risk_pct": 6.0,
         "daily_loss_limit_pct": 4.0,
-        "min_rr": 2.0,
-        "min_confidence": 70.0,
+        "min_rr": 2.2,
+        "min_confidence": 75.0,
         "trail_atr_mult": 1.5,
+        "max_net_crypto": 2,
+        "max_cluster_risk_pct": 3.0,
         "min_profit_factor_oos": 1.20,
         "min_trades_train": 15,
         "min_trades_oos": 10,
@@ -73,7 +79,8 @@ def apply_requests(broker, cfg, save, calibrate, log):
             for key in ("base_risk_pct","max_risk_pct","max_leverage","max_total_open_risk_pct","min_rr","min_confidence","trail_atr_mult"):
                 risk[key] = vals[key]
             risk["daily_loss_halt_pct"] = vals["daily_loss_limit_pct"]
-            risk["max_net_crypto"] = 4 if vals["max_leverage"] >= 5 else 3
+            risk["max_net_crypto"] = vals["max_net_crypto"]
+            risk["max_cluster_risk_pct"] = vals["max_cluster_risk_pct"]
             wf = cfg.setdefault("wf_config", {})
             for key in ("min_profit_factor_oos","min_trades_train","min_trades_oos","trail_atr_mult"):
                 wf[key] = vals[key]
