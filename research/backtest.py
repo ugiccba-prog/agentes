@@ -94,6 +94,8 @@ def main() -> None:
     report = run(args.csv, args.strategy)
     result = json.dumps(report, ensure_ascii=False, indent=2)
     if args.output:
+        if args.output.resolve() == args.csv.resolve():
+            parser.error("La salida no puede sobrescribir el CSV de entrada")
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(result + "\n", encoding="utf-8")
     else:
