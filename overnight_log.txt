@@ -11982,3 +11982,13 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-21 04:07:38] [6. Resorte] ✅ CERRADA BNB/USDT (LONG) a 511.44 | PnL: $-168.26 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-21 04:08:41] [6. Resorte] ✅ CERRADA SUI/USDT (LONG) a 0.5994 | PnL: $-145.61 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-21 04:09:43] [6. Resorte] ✅ CERRADA DOGE/USDT (LONG) a 0.05115 | PnL: $-123.15 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-21 04:15:53] ☁️ [GITHUB CLOUD] Cierre de vela #168 (7 Opciones) de la sesión #40...
+[2026-11-21 04:15:55]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:15:56]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:15:58]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:16:00]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 04:16:02]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 04:16:04]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-21 04:16:05]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-21 04:16:05] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-21 04:16:07] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,572.75 (1A/53C) | 7. Escape: $10,337.67 (0A/16C)
