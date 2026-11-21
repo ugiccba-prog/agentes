@@ -14,7 +14,8 @@ import pandas as pd
 
 from indicators import compute_indicators
 from strategies import STRATEGY_CATALOG, generate_signals
-from walk_forward import simulate, metrics
+from research.simulator import simulate
+from walk_forward import metrics
 
 REQUIRED = ("timestamp", "open", "high", "low", "close", "volume")
 
@@ -74,8 +75,8 @@ def run(csv_path: Path, strategy: str, *, ema_fast: int = 12,
         "status": "experimental",
         "limitations": [
             "Parámetros fijos; no realiza búsqueda de hiperparámetros ni walk-forward rodante",
-            "El simulador existente omite posiciones no cerradas al final de cada tramo",
-            "El simulador usa costos porcentuales aproximados, no fills reales",
+            "Las posiciones abiertas al final de cada tramo no se contabilizan como cerradas",
+            "El simulador conservador usa stops al siguiente cierre y costos estimados, no fills reales",
             "No acredita robustez, estrés, baseline ni tamaño de muestra suficiente",
             "No apto para habilitar ejecución real",
         ],
