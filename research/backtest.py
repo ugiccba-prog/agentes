@@ -48,6 +48,9 @@ def run(csv_path: Path, strategy: str, *, ema_fast: int = 12,
     # Indicadores calculados cronológicamente; parámetros FIJOS, sin selección sobre test.
     df = compute_indicators(df, ema_fast=ema_fast, ema_slow=ema_slow)
     df = generate_signals(df, strategy_name=strategy)
+    # Evitar que indicadores de calentamiento o rellenos retrospectivos generen operaciones.
+    # EMA200 necesita ~200 velas de historia antes de evaluar señales.
+    df.loc[df.index[:200], "signal"] = 0
     n = len(df)
     train_end, valid_end = int(n * 0.5), int(n * 0.75)
     parts = {"train": df.iloc[:train_end], "validation": df.iloc[train_end:valid_end],
