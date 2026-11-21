@@ -44,3 +44,23 @@ Investigar y validar estrategias candidatas con evidencia reproducible antes de 
 5. Integración visual después de verificar pruebas y revisar resultados.
 
 **Promoción a producción:** requiere revisión humana, tests verdes y decisión separada. Nunca fusionar automáticamente.
+
+
+## Ejecutar sin modificar carteras
+Preparar un CSV de velas **cerradas** con columnas `timestamp,open,high,low,close,volume`, en UTC, ordenado y sin duplicados, al menos 800 filas. No incluir claves API ni datos privados.
+
+```bash
+python -m unittest discover -s tests -p 'test_research*.py' -v
+python -m research.backtest datos/BTCUSDT.csv --strategy trend_macd --output research_reports/trend_macd.json
+python -m research.nightly --csv datos/BTCUSDT.csv --output research_reports/scan.json --max-candidates 7
+```
+
+El escaneo compara estrategias sobre el mismo test: **no elegir ganadores para operar** basándose en ese ranking. Para una validación seria, reservar datos nuevos y avanzar con walk-forward rodante, costos por activo, controles de fugas temporales y simulación de stops intravela. No hay descarga automática de precios ni programación nocturna en esta versión.
+
+### CI
+`.github/workflows/research-lab.yml` ejecuta pruebas en pushes a la rama de laboratorio y bajo `workflow_dispatch`. **No ejecuta operaciones ni modifica carteras**. Comprobar en GitHub Actions el estado verde antes de cualquier fusión.
+
+### Advertencias técnicas pendientes
+- `walk_forward.simulate` puede ajustar stops con el máximo/mínimo de la misma vela; verificar y corregir el orden de eventos intravela antes de interpretar métricas como resultados ejecutables.
+- `compute_indicators` utiliza `bfill()` para ATR inicial; en investigación estricta excluir el calentamiento y evitar toda fuga de información futura.
+- Los resultados del test se presentan solo como diagnóstico; no usarlos para optimizar parámetros ni promover estrategias.
