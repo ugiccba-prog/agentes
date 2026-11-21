@@ -4,6 +4,9 @@ on:
     branches:
       - feature/laboratorio-investigacion-20261120
   workflow_dispatch:
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: read
