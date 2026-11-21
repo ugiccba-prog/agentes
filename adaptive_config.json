@@ -1,6 +1,6 @@
 {
-  "session_count": 42,
-  "corrections_applied": 0,
+  "session_count": 43,
+  "corrections_applied": 1,
   "global_risk_pct": 3.5,
   "symbols": {
     "BTC/USDT": {
@@ -25,13 +25,16 @@
     },
     "SOL/USDT": {
       "enabled": true,
-      "strategy": "ema_pullback",
-      "sl_atr_mult": 1.6,
-      "tp_atr_mult": 3.2,
+      "strategy": "trend_macd",
+      "sl_atr_mult": 1.2,
+      "tp_atr_mult": 2.4,
       "ema_fast": 12,
       "ema_slow": 26,
+      "backtest_return_pct": 12.82,
+      "backtest_profit_factor": 1.6,
+      "backtest_win_rate": 40.0,
       "data_source": "Binance API (En Vivo)",
-      "notes": "Canasta Compartida 7 Opciones (ema_pullback)"
+      "notes": "WF OOS APROBADO (trend_macd) | PF=1.60, Exp=+0.28R, WR=40.0%, Trades=45"
     },
     "BNB/USDT": {
       "enabled": true,
@@ -60,11 +63,8 @@
       "tp_atr_mult": 4.0,
       "ema_fast": 12,
       "ema_slow": 26,
-      "backtest_return_pct": 2.63,
-      "backtest_profit_factor": 1.24,
-      "backtest_win_rate": 33.3,
       "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.24, Exp=+0.13R, WR=33.3%, Trades=21"
+      "notes": "Canasta Compartida 7 Opciones (chimichurri_alpha)"
     },
     "SUI/USDT": {
       "enabled": true,
@@ -73,11 +73,8 @@
       "tp_atr_mult": 3.2,
       "ema_fast": 9,
       "ema_slow": 21,
-      "backtest_return_pct": 8.47,
-      "backtest_profit_factor": 1.94,
-      "backtest_win_rate": 37.5,
       "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.94, Exp=+0.35R, WR=37.5%, Trades=24"
+      "notes": "Canasta Compartida 7 Opciones (chimichurri_alpha)"
     },
     "AVAX/USDT": {
       "enabled": true,
@@ -106,11 +103,8 @@
       "tp_atr_mult": 4.0,
       "ema_fast": 9,
       "ema_slow": 21,
-      "backtest_return_pct": 5.15,
-      "backtest_profit_factor": 1.35,
-      "backtest_win_rate": 33.3,
       "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30"
+      "notes": "Canasta Compartida 7 Opciones (volatility_breakout)"
     },
     "ADA/USDT": {
       "enabled": false,
@@ -193,7 +187,7 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-21 12:26:05 UTC",
+  "last_updated": "2026-11-21 13:24:11 UTC",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
   "risk_config": {
     "base_risk_pct": 1.5,
