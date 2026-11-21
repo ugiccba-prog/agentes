@@ -6,6 +6,7 @@ permanecen pendientes. NO promueve automáticamente una estrategia.
 """
 from __future__ import annotations
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -63,6 +64,7 @@ def run(csv_path: Path, strategy: str, *, ema_fast: int = 12,
     resilient = test["double_cost"]["expectancy"] > 0
     return {
         "strategy": strategy, "source_file": str(csv_path), "bars": n,
+        "source_sha256": hashlib.sha256(csv_path.read_bytes()).hexdigest(),
         "first_timestamp": dates.iloc[0].isoformat(),
         "last_timestamp": dates.iloc[-1].isoformat(),
         "parameters": {"ema_fast": ema_fast, "ema_slow": ema_slow,
