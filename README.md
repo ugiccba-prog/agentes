@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `40` | **Última actualización:** `2026-11-21 04:44:14 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `40` | **Última actualización:** `2026-11-21 04:47:30 UTC`
 
 ---
 
@@ -83,24 +83,24 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-21 04:25:42]    🔎 [PEPE/USDT] -> ACTIVO | WF OOS APROBADO (volatility_breakout) | PF=1.35, Exp=+0.17R, WR=33.3%, Trades=30
-[2026-11-21 04:25:44]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45]    🔎 [GBP/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45]    🔎 [GBP/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 04:25:45] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-21 04:30:50] ☁️ [GITHUB CLOUD] Cierre de vela #182 (7 Opciones) de la sesión #40...
-[2026-11-21 04:30:52]    BTC/USDT | Esperando señal de ema_pullback
-[2026-11-21 04:30:54]    SOL/USDT | Esperando señal de ema_pullback
-[2026-11-21 04:30:56]    BNB/USDT | Esperando señal de ema_pullback
-[2026-11-21 04:30:58]    DOGE/USDT | Esperando señal de chimichurri_alpha
-[2026-11-21 04:30:59]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-21 04:31:01]    AVAX/USDT | Esperando señal de bollinger_reversion
-[2026-11-21 04:31:03]    PEPE/USDT | Esperando señal de volatility_breakout
-[2026-11-21 04:31:03] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-21 04:31:03] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,554.07 (0A/54C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-21 04:45:16] ☁️ [GITHUB CLOUD] Cierre de vela #196 (7 Opciones) de la sesión #40...
+[2026-11-21 04:45:18]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:45:20]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:45:22]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:45:24]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 04:45:25]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 04:45:27]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-21 04:45:29]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-21 04:45:29] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-21 04:45:29] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 04:45:29] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-21 04:45:29] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 04:45:29] [6. Resorte] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: drawdown 17.5% desde el pico
+[2026-11-21 04:45:29] [6. Resorte] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: drawdown 17.5% desde el pico
+[2026-11-21 04:45:29] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: drawdown 17.5% desde el pico
+[2026-11-21 04:45:29] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: drawdown 17.5% desde el pico
+[2026-11-21 04:45:29] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 17.5% desde el pico
+[2026-11-21 04:45:29] [6. Resorte] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: drawdown 17.5% desde el pico
+[2026-11-21 04:45:29] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,554.07 (0A/54C) | 7. Escape: $10,337.67 (0A/16C)
 ```
