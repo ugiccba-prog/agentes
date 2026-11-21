@@ -19,8 +19,9 @@ class ResearchBacktestTests(unittest.TestCase):
 
     def test_rejects_missing_columns(self):
         pd.DataFrame({"timestamp": ["2026-01-01"]}).to_csv(self.path, index=False)
+        from strategies import STRATEGY_CATALOG
         with self.assertRaisesRegex(ValueError, "Columnas"):
-            run(self.path, "not-a-strategy")
+            run(self.path, next(iter(STRATEGY_CATALOG)))
 
     def test_invalid_strategy_rejected(self):
         with self.assertRaisesRegex(ValueError, "Estrategia desconocida"):
