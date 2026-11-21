@@ -29,6 +29,7 @@ def scan(csv_path: Path, *, max_candidates: int = 12) -> dict:
                 "test": result["segments"]["test"],
                 "checks": checks,
                 "parameters": result["parameters"],
+                "source_sha256": result["source_sha256"],
                 "limitations": result["limitations"],
             })
         except (ValueError, KeyError, TypeError, ArithmeticError) as exc:
