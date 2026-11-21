@@ -42,9 +42,13 @@ jobs:
         run: python -m research.fetch_candles --symbol BTCUSDT --interval 15m --output research_data/BTCUSDT.csv
       - name: Generate experimental report
         run: python -m research.nightly --csv research_data/BTCUSDT.csv --output research_reports/scan.json --max-candidates 7
+      - name: Create plain-Spanish report
+        run: python -m research.report research_reports/scan.json --output research_reports/scan.md
       - name: Upload research artifact
         uses: actions/upload-artifact@v4
         with:
           name: tiburon-experimental-research
-          path: research_reports/scan.json
+          path: |
+            research_reports/scan.json
+            research_reports/scan.md
           retention-days: 7
