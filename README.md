@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `43` | **Última actualización:** `2026-11-21 16:28:52 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `43` | **Última actualización:** `2026-11-21 16:32:15 UTC`
 
 ---
 
@@ -83,16 +83,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-21 16:26:11] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
-[2026-11-21 16:26:14]    🔎 [BTC/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-21 16:26:18]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 16:26:22]    🔎 [SOL/USDT] -> ACTIVO | WF OOS APROBADO (trend_macd) | PF=1.60, Exp=+0.28R, WR=40.0%, Trades=45
-[2026-11-21 16:26:25]    🔎 [BNB/USDT] -> ACTIVO (Canasta Compartida) | ema_pullback
-[2026-11-21 16:26:29]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-21 16:26:32]    🔎 [DOGE/USDT] -> ACTIVO (Canasta Compartida) | chimichurri_alpha
-[2026-11-21 16:26:36]    🔎 [SUI/USDT] -> ACTIVO (Canasta Compartida) | chimichurri_alpha
-[2026-11-21 16:26:39]    🔎 [AVAX/USDT] -> ACTIVO (Canasta Compartida) | bollinger_reversion
-[2026-11-21 16:26:43]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-21 16:26:47]    🔎 [PEPE/USDT] -> ACTIVO (Canasta Compartida) | volatility_breakout
 [2026-11-21 16:26:50]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-21 16:26:50]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
@@ -103,4 +93,14 @@
 [2026-11-21 16:26:51]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-21 16:26:51]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-21 16:26:51] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-21 16:30:53] ☁️ [GITHUB CLOUD] Cierre de vela #179 (7 Opciones) de la sesión #43...
+[2026-11-21 16:30:57]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-21 16:31:00]    SOL/USDT | Esperando señal de trend_macd
+[2026-11-21 16:31:03]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-21 16:31:06]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 16:31:09]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 16:31:12]    AVAX/USDT | Esperando señal de bollinger_reversion
+[2026-11-21 16:31:15]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-21 16:31:15] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-21 16:31:15] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,554.07 (0A/54C) | 7. Escape: $10,337.67 (0A/16C)
 ```
