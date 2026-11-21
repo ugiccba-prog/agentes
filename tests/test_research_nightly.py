@@ -18,6 +18,7 @@ class NightlyTests(unittest.TestCase):
             "preliminary_checks": {"test_profitable": True},
             "segments": {"test": {"n": 20}},
             "parameters": {},
+            "source_sha256": "synthetic-test-hash",
             "limitations": [],
         }
         report = scan(Path("sample.csv"), max_candidates=1)
