@@ -40,5 +40,23 @@ class TransportTests(unittest.TestCase):
         self.assertIs(post.call_args.kwargs["verify"], True)
 
 
+
+class PaperIsolationTests(unittest.TestCase):
+    @patch.dict("os.environ", {
+        "BINANCE_TESTNET_API_KEY": "dummy",
+        "BINANCE_TESTNET_API_SECRET": "dummy",
+        "OANDA_DEMO_API_TOKEN": "dummy",
+        "OANDA_DEMO_ACCOUNT_ID": "dummy",
+    })
+    def test_paper_only_never_initializes_external_connectors(self):
+        from tempfile import TemporaryDirectory
+        from pathlib import Path
+        from exchange_connector import LiveExecutionBroker
+        with TemporaryDirectory() as folder:
+            broker = LiveExecutionBroker(portfolio_file=Path(folder) / "paper.json", paper_only=True)
+            self.assertIsNone(broker.binance_client)
+            self.assertIsNone(broker.oanda_client)
+
+
 if __name__ == "__main__":
     unittest.main()
