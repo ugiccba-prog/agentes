@@ -17,9 +17,13 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Assert portfolio files are unchanged
+        run: python -m research.audit_changes --base origin/main
       - name: Install research dependencies
         run: python -m pip install pandas numpy requests urllib3
       - name: Compile research modules
