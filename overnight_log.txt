@@ -11956,3 +11956,26 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-21 03:45:41]    PEPE/USDT | Esperando señal de volatility_breakout
 [2026-11-21 03:45:41] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
 [2026-11-21 03:45:42] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,118.95 (0A/50C) | 7. Escape: $10,337.67 (0A/16C)
+[2026-11-21 04:00:55] ☁️ [GITHUB CLOUD] Cierre de vela #154 (7 Opciones) de la sesión #40...
+[2026-11-21 04:00:57]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:00:58]    SOL/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:01:00]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-21 04:01:02]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 04:01:04]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 04:01:05]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-21 04:01:07]    🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-21 04:01:07] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-21 04:01:07] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 04:01:07] [2. WF+Impulso] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 04:01:07] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-21 04:01:07] [4. Francotirador] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 16.3% desde el pico
+[2026-11-21 04:01:07] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 04:01:07] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 04:01:08] [6. Resorte] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 80%) | Entrada: 66.30000000 | SL: 65.36334110 | TP: 68.18665052 | Tamaño: $8,263.90 USD (Riesgo controlado: $116.75) | OK riesgo 1.05% (dd 13.1%)
+[2026-11-21 04:01:09] [6. Resorte] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 85%) | Entrada: 518.64000000 | SL: 512.52224618 | TP: 530.37932796 | Tamaño: $11,311.47 USD (Riesgo controlado: $133.43) | OK riesgo 1.20% (dd 13.1%)
+[2026-11-21 04:01:10] [6. Resorte] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG (Conv 80%) | Entrada: 0.05215000 | SL: 0.05115298 | TP: 0.05410061 | Tamaño: $6,106.64 USD (Riesgo controlado: $116.75) | OK riesgo 1.05% (dd 13.1%)
+[2026-11-21 04:01:11] [6. Resorte] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 85%) | Entrada: 0.61180000 | SL: 0.59988279 | TP: 0.63289181 | Tamaño: $6,849.83 USD (Riesgo controlado: $133.43) | OK riesgo 1.20% (dd 13.1%)
+[2026-11-21 04:01:11] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 4
+[2026-11-21 04:01:11] [6. Resorte] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 4
+[2026-11-21 04:01:11] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: drawdown 19.8% desde el pico
+[2026-11-21 04:01:11] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $11,086.42 (4A/50C) | 7. Escape: $10,337.67 (0A/16C)
