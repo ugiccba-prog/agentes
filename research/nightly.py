@@ -40,6 +40,8 @@ def scan(csv_path: Path, *, max_candidates: int = 12) -> dict:
         "source_csv": str(csv_path),
         "mode": "offline_research_only",
         "candidates": candidates,
+        "candidate_count": len(candidates),
+        "selection_policy": "descriptive_only_no_winner_selection",
         "note": "Exploración descriptiva: comparar muchas estrategias sobre un mismo test "
                 "introduce sesgo de selección. Resultados NO validados ni operables.",
     }
