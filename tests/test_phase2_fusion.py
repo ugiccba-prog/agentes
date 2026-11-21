@@ -267,11 +267,104 @@ class RiskManagerAndBrokerTests(unittest.TestCase):
         self.assertFalse(ok)
         self.assertIn("CRYPTO", why)
 
+    def test_forex_vs_crypto_min_sl_leverage_and_be_clamping(self):
+        rm = RiskManager(RiskConfig())
+        # GBP/USD en 15m: SL típico 0.064% (> 0.025% Forex) y nocional > 18k USD (usa palanca Forex 20x)
+        ok_fx, risk_fx, why_fx = rm.decide(
+            equity=10000.0,
+            peak_equity=10000.0,
+            day_start_equity=10000.0,
+            open_positions=[],
+            symbol="GBP/USD",
+            side="LONG",
+            entry=1.25000,
+            sl=1.24920,  # 0.064%
+            tp=1.25200,  # R:R = 2.5
+            confidence=75.0,
+        )
+        self.assertTrue(ok_fx, why_fx)
+        # Con SL 0.064%, tope 10x por posición (50% de 20x Forex) ajusta riesgo a 0.64% (>= min_risk_pct 0.5%)
+        # en vez de rechazarlo como haría el tope cripto 4x (0.115% < 0.5%).
+        self.assertAlmostEqual(risk_fx, 0.64, places=2)
+
+        ok_fx_full, risk_fx_full, why_fx_full = rm.decide(
+            equity=10000.0,
+            peak_equity=10000.0,
+            day_start_equity=10000.0,
+            open_positions=[],
+            symbol="GBP/USD",
+            side="LONG",
+            entry=1.25000,
+            sl=1.24800,  # 0.16% -> 1.5% riesgo requiere ~9.38x (< 10x cap)
+            tp=1.25500,  # R:R = 2.5
+            confidence=75.0,
+        )
+        self.assertTrue(ok_fx_full, why_fx_full)
+        self.assertGreaterEqual(risk_fx_full, 1.5)
+
+        # BTC/USDT con SL 0.05% (< 0.08% Cripto) debe seguir bloqueado
+        ok_btc, _, why_btc = rm.decide(
+            equity=10000.0,
+            peak_equity=10000.0,
+            day_start_equity=10000.0,
+            open_positions=[],
+            symbol="BTC/USDT",
+            side="LONG",
+            entry=100.0,
+            sl=99.95,  # 0.05%
+            tp=100.20,
+            confidence=85.0,
+        )
+        self.assertFalse(ok_btc)
+        self.assertIn("demasiado corto", why_btc)
+
+        # Breakeven Forex 0.03% y clamping si buffer exagerado superara price
+        sl_fx_be = RiskManager.manage_stop(
+            "LONG", entry=1.25000, price=1.25100, sl=1.24920, atr=0.0005,
+            initial_risk=0.0008, be_buffer_pct=0.03,
+        )
+        self.assertAlmostEqual(sl_fx_be, 1.25000 * 1.0003, places=6)
+
+        sl_clamped = RiskManager.manage_stop(
+            "LONG", entry=1.25000, price=1.25100, sl=1.24920, atr=0.0005,
+            initial_risk=0.0008, be_buffer_pct=0.15,  # 1.251875 > price (1.25100)
+        )
+        self.assertAlmostEqual(sl_clamped, 1.25000, places=6)
+
+        # LiveExecutionBroker.open_order respeta tope de palanca Forex (20x) sin recortar riesgo
+        with tempfile.TemporaryDirectory() as tmp:
+            broker = LiveExecutionBroker(
+                initial_balance_usd=10000.0,
+                portfolio_file=Path(tmp) / "fx.json",
+                paper_only=True,
+                risk_config=RiskConfig(),
+            )
+            broker.get_live_price = lambda sym: 1.25000
+            ok_ord, msg_ord = broker.open_order(
+                symbol="GBP/USD",
+                side="LONG",
+                strategy="chimichurri_alpha",
+                entry_price=1.25000,
+                stop_loss=1.24920,
+                take_profit=1.25200,
+                risk_pct=1.5,
+                reason="Test Forex leverage",
+                confidence=78.0,
+            )
+            self.assertTrue(ok_ord, msg_ord)
+            pos = broker.state.open_positions[0]
+            # 1.5% de $10,000 = $150 riesgo; con SL 0.064% -> nocional esperado ~$234,375 o cap 100k (20x * 0.5 * 10k)
+            # Lo clave: NO queda cappeado al tope cripto ($18,000 = 4x * 0.45 * 10k)
+            self.assertGreater(float(pos["notional_usd"]), 50000.0)
+
 
 class WalkForwardAndStrictBasketTests(unittest.TestCase):
-    def test_wf_v3_rejects_double_cost_failure_and_accepts_passing(self):
-        self.assertEqual(walk_forward.WF_SCHEMA_VERSION, 3)
-        self.assertAlmostEqual(walk_forward.WFConfig().cost_pct_per_side, 0.06)
+    def test_wf_v4_differentiated_costs_and_double_cost_gate(self):
+        self.assertEqual(walk_forward.WF_SCHEMA_VERSION, 4)
+        wf_cfg = walk_forward.WFConfig()
+        self.assertAlmostEqual(wf_cfg.cost_for_symbol("BTC/USDT"), 0.06)
+        self.assertAlmostEqual(wf_cfg.cost_for_symbol("GBP/JPY"), 0.012)
+        self.assertAlmostEqual(wf_cfg.cost_for_symbol("XAU/USD"), 0.012)
         self.assertNotIn("momentum_shark", walk_forward.WF_STRATEGIES)
 
         df = _make_ohlcv(900)
@@ -284,15 +377,16 @@ class WalkForwardAndStrictBasketTests(unittest.TestCase):
             return [1.2, -0.5, 1.5, -0.5, 1.1, 0.8]
 
         with patch("walk_forward.simulate", side_effect=fake_sim):
-            self.assertIsNone(walk_forward.walk_forward_select(df, cfg))
+            self.assertIsNone(walk_forward.walk_forward_select(df, cfg, symbol="BTC/USDT"))
 
         def fake_sim_pass(part, sl_mult, tp_mult, cost_pct, trail_atr_mult=1.5):
             return [1.2, -0.5, 1.5, -0.5, 1.1, 0.8] if cost_pct <= 0.08 else [0.4, -0.3, 0.6, -0.2, 0.5, 0.4]
 
         with patch("walk_forward.simulate", side_effect=fake_sim_pass):
-            res = walk_forward.walk_forward_select(df, cfg)
+            res = walk_forward.walk_forward_select(df, cfg, symbol="GBP/JPY")
             self.assertIsNotNone(res)
-            self.assertEqual(res["schema"], 3)
+            self.assertEqual(res["schema"], 4)
+            self.assertAlmostEqual(res["cost_pct_per_side"], 0.012)
             self.assertIn("oos_double_cost", res)
             self.assertGreater(res["oos_double_cost"]["expectancy"], 0.0)
 

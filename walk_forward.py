@@ -34,6 +34,7 @@ import numpy as np
 import pandas as pd
 
 from indicators import compute_indicators
+from market_data import get_market_type
 from research.simulator import simulate as _conservative_simulate
 from strategies import STRATEGY_CATALOG, generate_signals
 
@@ -49,7 +50,8 @@ WF_STRATEGIES = [s for s in STRATEGY_CATALOG if s != "momentum_shark"]
 class WFConfig:
     train_frac: float = 0.50
     val_frac: float = 0.25
-    cost_pct_per_side: float = 0.06   # comisión real (0.05%) + slippage aprox, en % por lado
+    cost_pct_per_side: float = 0.06         # Cripto: comisión real (0.05%) + slippage aprox por lado
+    cost_pct_per_side_forex: float = 0.012  # Forex/Oro: 0.01% fee + 0.002% slippage por lado
     min_trades_train: int = 12
     min_trades_oos: int = 8
     min_profit_factor_oos: float = 1.15
@@ -57,6 +59,12 @@ class WFConfig:
     top_k_candidates: int = 5
     trail_atr_mult: float = 1.5
     require_double_cost_positive: bool = True
+
+    def cost_for_symbol(self, symbol: str | None) -> float:
+        """Devuelve el costo realista por lado según el mercado (Cripto vs Forex/Oro)."""
+        if symbol and get_market_type(symbol) == "forex":
+            return self.cost_pct_per_side_forex
+        return self.cost_pct_per_side
 
     @classmethod
     def from_adaptive_config(cls) -> "WFConfig":
@@ -126,14 +134,18 @@ def metrics(rs: list[float]) -> dict:
 
 
 # ---------------------------------------------------------------- walk-forward
-WF_SCHEMA_VERSION = 3  # v3: simulador conservador + costos 0.06% + resistencia a doble costo OOS
+WF_SCHEMA_VERSION = 4  # v4: costos diferenciados Cripto (0.06%) vs Forex/Oro (0.012%) + doble costo OOS
 
 
 def _score(m: dict) -> float:
     return m["expectancy"] * math.sqrt(m["n"])
 
 
-def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> dict | None:
+def walk_forward_select(
+    df_raw: pd.DataFrame,
+    cfg: WFConfig | None = None,
+    symbol: str | None = None,
+) -> dict | None:
     """
     Tres tramos cronológicos:
       TRAIN (50%)  -> se generan candidatos y se quedan los top-k.
@@ -144,6 +156,7 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
     y (si está activo) resiste doble costo OOS.
     """
     cfg = cfg or WFConfig.from_adaptive_config()
+    cost_pct = cfg.cost_for_symbol(symbol)
     n = len(df_raw)
     if n < 800:
         return None
@@ -158,7 +171,7 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
             df_sig.loc[df_sig.index[:200], "signal"] = 0
             train = df_sig.iloc[:s_train]
             for (slm, tpm) in SLTP_PAIRS:
-                m = metrics(simulate(train, slm, tpm, cfg.cost_pct_per_side, cfg.trail_atr_mult))
+                m = metrics(simulate(train, slm, tpm, cost_pct, cfg.trail_atr_mult))
                 if m["n"] < cfg.min_trades_train or m["expectancy"] <= 0 or m["pf"] < 1.10:
                     continue
                 candidates.append(
@@ -176,7 +189,7 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
         df_sig = generate_signals(df_ind, strategy_name=params["strategy"])
         df_sig.loc[df_sig.index[:200], "signal"] = 0
         sim = lambda part: simulate(part, params["sl_atr_mult"], params["tp_atr_mult"],  # noqa: E731
-                                    cfg.cost_pct_per_side, cfg.trail_atr_mult)
+                                    cost_pct, cfg.trail_atr_mult)
         val_rs = sim(df_sig.iloc[s_train:s_val])
         val_m = metrics(val_rs)
         if val_m["n"] < 3 or val_m["expectancy"] <= 0:
@@ -188,7 +201,7 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
 
     params, train_m, val_m, val_rs, df_sig = chosen
     test_rs = simulate(df_sig.iloc[s_val:], params["sl_atr_mult"], params["tp_atr_mult"],
-                       cfg.cost_pct_per_side, cfg.trail_atr_mult)
+                       cost_pct, cfg.trail_atr_mult)
     test_m = metrics(test_rs)
     oos_m = metrics(val_rs + test_rs)  # todo lo que no es train
 
@@ -198,15 +211,16 @@ def walk_forward_select(df_raw: pd.DataFrame, cfg: WFConfig | None = None) -> di
         return None
 
     val_rs_2x = simulate(df_sig.iloc[s_train:s_val], params["sl_atr_mult"], params["tp_atr_mult"],
-                         cfg.cost_pct_per_side * 2, cfg.trail_atr_mult)
+                         cost_pct * 2, cfg.trail_atr_mult)
     test_rs_2x = simulate(df_sig.iloc[s_val:], params["sl_atr_mult"], params["tp_atr_mult"],
-                          cfg.cost_pct_per_side * 2, cfg.trail_atr_mult)
+                          cost_pct * 2, cfg.trail_atr_mult)
     oos_double_m = metrics(val_rs_2x + test_rs_2x)
     if cfg.require_double_cost_positive and oos_double_m["expectancy"] <= 0:
         return None
 
     return {
         **params,
+        "cost_pct_per_side": cost_pct,
         "train": train_m,
         "val": val_m,
         "test": test_m,
@@ -234,7 +248,7 @@ def get_validated_params(symbol: str, df_long: pd.DataFrame, force: bool = False
     if fresh and not force and entry.get("schema") == WF_SCHEMA_VERSION:
         return entry["params"]  # puede ser None (rechazado): no se recalcula por 7 días
 
-    params = walk_forward_select(df_long, cfg)
+    params = walk_forward_select(df_long, cfg, symbol=symbol)
     cache[symbol] = {"ts": time.time(), "schema": WF_SCHEMA_VERSION, "bars": len(df_long), "params": params}
     CACHE_FILE.write_text(json.dumps(cache, indent=2), encoding="utf-8")
     if params is None:

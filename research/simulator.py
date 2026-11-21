@@ -75,6 +75,7 @@ def simulate(
             favorable_close = side * (c[j] - entry)
             if favorable_close >= be_trigger_r * risk:
                 be_level = entry + side * entry * (buf_pct / 100.0)
+                be_level = min(be_level, c[j]) if side == 1 else max(be_level, c[j])
                 sl = max(sl, be_level) if side == 1 else min(sl, be_level)
             if favorable_close >= trail_trigger_r * risk and math.isfinite(atr[j]) and atr[j] > 0:
                 trail = c[j] - side * trail_atr_mult * atr[j]

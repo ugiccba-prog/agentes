@@ -11,6 +11,7 @@
     "min_risk_pct": 0.5,
     "max_total_open_risk_pct": 7.5,
     "max_leverage": 4.0,
+    "max_leverage_forex": 20.0,
     "daily_loss_halt_pct": 5.0,
     "min_rr": 2.2,
     "min_confidence": 72.0,
@@ -22,8 +23,10 @@
     "dd_halt_pct": 15.0,
     "dd_cooldown_hours": 24.0,
     "min_sl_pct": 0.08,
+    "min_sl_pct_forex": 0.025,
     "be_trigger_r": 1.2,
     "be_buffer_pct": 0.15,
+    "be_buffer_pct_forex": 0.03,
     "trail_trigger_r": 1.5,
     "max_cluster_risk_pct": 3.5
   },
@@ -34,6 +37,7 @@
     "top_k_candidates": 5,
     "trail_atr_mult": 1.5,
     "cost_pct_per_side": 0.06,
+    "cost_pct_per_side_forex": 0.012,
     "require_double_cost_positive": true
   },
   "symbols": {

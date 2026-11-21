@@ -30,13 +30,26 @@ from pathlib import Path
 ADAPTIVE_CONFIG_FILE = Path(__file__).with_name("adaptive_config.json")
 
 
+_CRYPTO_BASES = {"BTC", "ETH", "SOL", "BNB", "XRP", "DOGE", "SUI", "AVAX", "LINK", "PEPE", "ADA"}
+
+
+def _is_crypto_symbol(symbol: str) -> bool:
+    """Identifica pares cripto vs Forex/Oro sin introducir dependencias externas."""
+    upper = symbol.upper().strip()
+    if upper.endswith("/USDT") or upper.endswith("-USD"):
+        return True
+    base = upper.split("/", 1)[0]
+    return base in _CRYPTO_BASES
+
+
 @dataclass
 class RiskConfig:
     base_risk_pct: float = 1.5        # riesgo base por trade (Violenta & Sagaz v2)
     max_risk_pct: float = 2.5         # techo cuando todo acompaña
     min_risk_pct: float = 0.5         # piso en recuperación / tras cooldown
     max_total_open_risk_pct: float = 7.5  # riesgo agregado de todas las abiertas
-    max_leverage: float = 4.0         # nocional total / equity
+    max_leverage: float = 4.0         # nocional total / equity (Cripto)
+    max_leverage_forex: float = 20.0  # nocional total / equity (Forex/Oro)
     min_rr: float = 2.0               # reward:risk mínimo
     max_net_per_currency: int = 2     # p.ej. no más de 2 posiciones netas en USD
     max_net_crypto: int = 2           # máx. 2 cripto netas en la misma dirección
@@ -46,12 +59,44 @@ class RiskConfig:
     dd_half_size_pct: float = 8.0     # drawdown realizado desde pico -> mitad de tamaño
     dd_halt_pct: float = 15.0         # drawdown realizado desde pico -> pausa defensiva
     dd_cooldown_hours: float = 24.0   # horas de pausa tras DD >= dd_halt_pct antes de reanudar a riesgo mínimo
-    min_sl_pct: float = 0.08          # SL más chico que esto se lo come el spread
+    min_sl_pct: float = 0.08          # SL mínimo en Cripto
+    min_sl_pct_forex: float = 0.025   # SL mínimo en Forex/Oro (~2.5 pips en 15m)
     trail_atr_mult: float = 1.5       # multiplicador ATR para trailing desde +1.5R
     be_trigger_r: float = 1.2         # mover a BE+buffer al alcanzar +1.2R
-    be_buffer_pct: float = 0.15       # colchón sobre entry que cubre 0.10% fee + slippage
+    be_buffer_pct: float = 0.15       # colchón Cripto sobre entry (cubre 0.10% fee + slippage)
+    be_buffer_pct_forex: float = 0.03 # colchón Forex/Oro sobre entry (cubre 0.02% fee + spread)
     trail_trigger_r: float = 1.5      # activar trailing stop desde +1.5R
     max_cluster_risk_pct: float = 3.5  # riesgo máx. en un mismo bloque correlacionado (p.ej. cripto corta)
+
+    def effective_min_sl_pct(self, symbol: str) -> float:
+        """Stop loss mínimo (%) según mercado (Cripto vs Forex/Oro)."""
+        return self.min_sl_pct if _is_crypto_symbol(symbol) else self.min_sl_pct_forex
+
+    def effective_be_buffer_pct(self, market_or_symbol: str) -> float:
+        """Colchón de Breakeven (%) según mercado (`FOREX`/`CRYPTo` o símbolo)."""
+        val = market_or_symbol.strip()
+        if val.lower() == "forex":
+            return self.be_buffer_pct_forex
+        if "/" in val and not _is_crypto_symbol(val):
+            return self.be_buffer_pct_forex
+        return self.be_buffer_pct
+
+    def effective_max_leverage(self, symbol: str) -> float:
+        """Apalancamiento máximo según mercado (Cripto vs Forex/Oro)."""
+        return self.max_leverage if _is_crypto_symbol(symbol) else self.max_leverage_forex
+
+    def room_notional(self, equity: float, open_positions: list[dict], symbol: str) -> float:
+        """Presupuesto nocional disponible normalizado por apalancamiento de cada mercado."""
+        if equity <= 0:
+            return 0.0
+        used_frac = 0.0
+        for p in open_positions:
+            p_sym = str(p.get("symbol", ""))
+            p_lev = max(0.1, self.effective_max_leverage(p_sym))
+            used_frac += float(p.get("notional_usd", 0.0)) / (equity * p_lev)
+        sym_lev = max(0.1, self.effective_max_leverage(symbol))
+        per_pos_share = 0.45 if _is_crypto_symbol(symbol) else 0.50
+        return min(max(0.0, (1.0 - used_frac) * equity * sym_lev), equity * sym_lev * per_pos_share)
 
     @classmethod
     def from_adaptive_config(cls) -> "RiskConfig":
@@ -182,8 +227,9 @@ class RiskManager:
         sl_dist = abs(entry - sl)
         tp_dist = abs(tp - entry)
         sl_pct = sl_dist / entry * 100
-        if sl_pct < c.min_sl_pct:
-            return False, 0.0, f"SL {sl_pct:.3f}% demasiado corto (spread se lo come)"
+        min_sl = c.effective_min_sl_pct(symbol)
+        if sl_pct < min_sl:
+            return False, 0.0, f"SL {sl_pct:.3f}% demasiado corto (< {min_sl:.3f}%, spread se lo come)"
         if sl_dist <= 0 or tp_dist / sl_dist < c.min_rr:
             return False, 0.0, f"R:R {tp_dist / sl_dist if sl_dist else 0:.2f} < {c.min_rr}"
 
@@ -223,12 +269,11 @@ class RiskManager:
                 return False, 0.0, f"bloque correlacionado {ccy} {direction} al tope ({used_pct:.1f}% de {c.max_cluster_risk_pct}%)"
             risk = min(risk, room)
 
-        # apalancamiento total y tope por posición individual (máx 45% de la palanca total)
-        per_pos_cap = equity * c.max_leverage * 0.45
-        notional_open = sum(p["notional_usd"] for p in open_positions)
-        room_notional = min(max(0.0, c.max_leverage * equity - notional_open), per_pos_cap)
+        # apalancamiento total diferenciado por mercado (Cripto vs Forex/Oro)
+        sym_lev = c.effective_max_leverage(symbol)
+        room_notional = c.room_notional(equity, open_positions, symbol)
         if room_notional <= 0:
-            return False, 0.0, f"apalancamiento al tope ({c.max_leverage}x)"
+            return False, 0.0, f"apalancamiento al tope ({sym_lev:.0f}x)"
         notional_new = equity * risk / 100 / (sl_pct / 100)
         if notional_new > room_notional:
             risk = min(risk, room_notional * (sl_pct / 100) / equity * 100)
@@ -264,7 +309,11 @@ class RiskManager:
         moved = (price - entry) if long else (entry - price)
         new_sl = sl
         if moved >= be_trigger_r * initial_risk:
-            be = entry * (1.0 + be_buffer_pct / 100.0) if long else entry * (1.0 - be_buffer_pct / 100.0)
+            target_be = entry * (1.0 + be_buffer_pct / 100.0) if long else entry * (1.0 - be_buffer_pct / 100.0)
+            if long:
+                be = target_be if target_be < price else entry
+            else:
+                be = target_be if target_be > price else entry
             new_sl = max(new_sl, be) if long else min(new_sl, be)
         if moved >= trail_trigger_r * initial_risk and atr > 0:
             trail = price - trail_atr_mult * atr if long else price + trail_atr_mult * atr

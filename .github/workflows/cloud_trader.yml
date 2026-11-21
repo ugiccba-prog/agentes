@@ -6,6 +6,9 @@ on:
       - '.github/paper-reset-20261113'
       - 'paper_panel.py'
       - 'cloud_runner.py'
+      - 'walk_forward.py'
+      - 'risk_manager.py'
+      - 'exchange_connector.py'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:

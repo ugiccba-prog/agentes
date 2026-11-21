@@ -396,6 +396,7 @@ class LiveExecutionBroker:
 
             if not closed_reason and init_risk > 0:
                 cfg_rm = self.risk_config or RiskConfig.from_adaptive_config()
+                be_buf = cfg_rm.effective_be_buffer_pct(pos["market"])
                 managed_sl = RiskManager.manage_stop(
                     side=pos["side"],
                     entry=entry,
@@ -405,16 +406,16 @@ class LiveExecutionBroker:
                     initial_risk=init_risk,
                     trail_atr_mult=cfg_rm.trail_atr_mult,
                     be_trigger_r=cfg_rm.be_trigger_r,
-                    be_buffer_pct=cfg_rm.be_buffer_pct,
+                    be_buffer_pct=be_buf,
                     trail_trigger_r=cfg_rm.trail_trigger_r,
                 )
                 improved = (managed_sl > sl) if pos["side"] == "LONG" else (managed_sl < sl)
                 if improved:
                     pos["stop_loss"] = round(managed_sl, 10)
                     be_ref = (
-                        entry * (1.0 + cfg_rm.be_buffer_pct / 100.0)
+                        entry * (1.0 + be_buf / 100.0)
                         if pos["side"] == "LONG"
-                        else entry * (1.0 - cfg_rm.be_buffer_pct / 100.0)
+                        else entry * (1.0 - be_buf / 100.0)
                     )
                     label = (
                         "Breakeven+"
@@ -509,17 +510,16 @@ class LiveExecutionBroker:
         if stop_dist <= 0:
             return False, f"Distancia de Stop Loss inválida en {symbol}."
 
-        # Usar el risk_pct ya calibrado y limitado por RiskManager (tope de apalancamiento 3x)
+        # Usar el risk_pct ya calibrado y limitado por RiskManager (tope diferenciado Cripto vs Forex/Oro)
         market = get_market_type(symbol).upper()
         risk_usd = self.state.equity_usd * (risk_pct / 100.0)
         size = risk_usd / stop_dist
 
-        max_lev = (self.risk_config or RiskConfig.from_adaptive_config()).max_leverage
-        per_pos_cap = self.state.equity_usd * max_lev * 0.45
-        notional_open = sum(float(p.get("notional_usd", 0.0)) for p in self.state.open_positions)
-        room_notional = min(max(0.0, self.state.equity_usd * max_lev - notional_open), per_pos_cap)
+        cfg_rm = self.risk_config or RiskConfig.from_adaptive_config()
+        sym_lev = cfg_rm.effective_max_leverage(symbol)
+        room_notional = cfg_rm.room_notional(self.state.equity_usd, self.state.open_positions, symbol)
         if room_notional <= 0:
-            return False, f"Apalancamiento total al tope ({max_lev}x)."
+            return False, f"Apalancamiento total al tope ({sym_lev:.0f}x)."
         if size * entry_price > room_notional:
             size = room_notional / entry_price
 
