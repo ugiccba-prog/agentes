@@ -21,7 +21,7 @@ def simulate(df, sl_mult: float, tp_mult: float, cost_pct: float,
     signal = df["signal"].to_numpy(int)
     n = len(df)
     results = []
-    i = 200  # calentamiento: evita ATR inicial completado retrospectivamente
+    i = 31  # evita las primeras velas; ATR inicial se completa retrospectivamente
     while i < n - 1:
         side = signal[i]
         if side not in (-1, 1) or not math.isfinite(atr[i]) or atr[i] <= 0:
