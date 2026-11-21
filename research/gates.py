@@ -40,10 +40,10 @@ def evaluate(candidate: dict) -> dict:
     return {
         "candidate_id": candidate_id.strip(),
         "evaluated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "status": "validated" if approved else "experimental",
+        "status": "documented" if approved else "experimental",
         "all_gates_passed": approved,
         "gates": results,
-        "warning": "Validación documental; NO verifica por sí misma los resultados estadísticos ni autoriza trading real.",
+        "warning": "Documentación completa no implica validación estadística; NO autoriza trading real.",
     }
 
 
