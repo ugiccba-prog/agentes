@@ -51,6 +51,8 @@ def main() -> None:
     parser.add_argument("--max-candidates", type=int, default=12)
     args = parser.parse_args()
     report = scan(args.csv, max_candidates=args.max_candidates)
+    if args.output and args.output.resolve() == args.csv.resolve():
+        parser.error("La salida no puede sobrescribir el CSV de entrada")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Informe experimental guardado en {args.output}")
