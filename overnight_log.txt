@@ -12741,3 +12741,17 @@ Inicio de la prueba semanal: siete carteras paper.
 [2026-11-21 14:25:18]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-21 14:25:18]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-21 14:25:18] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-21 14:30:22] ☁️ [GITHUB CLOUD] Cierre de vela #64 (7 Opciones) de la sesión #43...
+[2026-11-21 14:30:25]    BTC/USDT | Esperando señal de ema_pullback
+[2026-11-21 14:30:28]    SOL/USDT | Esperando señal de trend_macd
+[2026-11-21 14:30:31]    BNB/USDT | Esperando señal de ema_pullback
+[2026-11-21 14:30:34]    DOGE/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 14:30:37]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-21 14:30:40]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 18.2% desde el pico
+[2026-11-21 14:30:44]    PEPE/USDT | Esperando señal de volatility_breakout
+[2026-11-21 14:30:44] 💓 Cierre de Vela | Equity: $10,480.05 USD (Efectivo: $10,480.05 | Flotante: $+0.00 | Peak: $12,815.70) | Abiertas: 0 | Cerradas: 34
+[2026-11-21 14:30:44] [2. WF+Impulso] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 16.5% desde el pico
+[2026-11-21 14:30:44] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-21 14:30:44] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 20.4% desde el pico
+[2026-11-21 14:30:44] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: drawdown 17.5% desde el pico
+[2026-11-21 14:30:44] 📊 Marcador 7 Opciones | 1. WF Base: $10,480.05 (0A/34C) | 2. WF+Impulso: $10,806.21 (0A/21C) | 3. Chimichurri: $12,157.33 (0A/13C) | 4. Francotirador: $10,534.59 (0A/26C) | 5. Berserker: $11,562.64 (0A/16C) | 6. Resorte: $10,554.07 (0A/54C) | 7. Escape: $10,337.67 (0A/16C)
