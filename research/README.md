@@ -77,3 +77,26 @@ La descarga pública usa Binance Spot y consulta la hora del servidor para exclu
 El workflow `research-lab.yml` tiene un trabajo `manual-research` **optativo** con `workflow_dispatch`: primero corre los tests, luego descarga BTCUSDT y genera un artefacto JSON de siete días de retención. En GitHub, un workflow que existe solo en una rama no predeterminada puede no aparecer para lanzamiento manual hasta que GitHub lo reconozca en la rama principal; **no fusionar solo para habilitarlo**. Si no se puede disparar, ejecutar los comandos localmente. No se configuró cron nocturno.
 
 El reporte es exploratorio: los siete candidatos comparten el tramo test y sus resultados no se pueden usar para elegir un ganador sin una muestra posterior verdaderamente intocada. Se registra SHA-256 del CSV en los reportes individuales. Las pruebas unitarias usan datos sintéticos y HTTP simulado; falta verificar ejecución real de CI y resultados históricos antes de cualquier conclusión.
+
+## Criterios de cierre antes de fusionar
+1. CI del PR en verde (incluida auditoría de archivos protegidos).
+2. Informe real reproducible con SHA-256 y al menos 800 velas cerradas.
+3. Revisión de errores de datos, costos, stops, gaps y sesgo de selección.
+4. Confirmación de que los archivos de carteras no aparecen en el diff.
+5. Revisión humana del PR y aprobación explícita antes de fusionar.
+
+**Estado:** el código del laboratorio está preparado, pero sin evidencia de ejecución de CI ni de backtest real no se considera validado. El job de investigación es manual, no nocturno automático. No se modifica `main` para activarlo.
+
+### Ejecución de cierre desde un equipo con acceso al repositorio
+```bash
+git fetch origin
+git checkout feature/laboratorio-investigacion-20261120
+python -m pip install pandas numpy requests urllib3
+python -m research.audit_changes --base origin/main
+python -m unittest discover -s tests -p 'test_research*.py' -v
+python -m research.fetch_candles --symbol BTCUSDT --interval 15m --output research_data/BTCUSDT.csv
+python -m research.nightly --csv research_data/BTCUSDT.csv --output research_reports/scan.json --max-candidates 7
+python -m research.report research_reports/scan.json --output research_reports/scan.md
+```
+
+Los informes generados son evidencia exploratoria, **no autorización para operar**. La disponibilidad de Binance depende de la conexión y jurisdicción.
