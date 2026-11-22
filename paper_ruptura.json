@@ -4,7 +4,7 @@
   "equity_usd": 10194.44,
   "realized_pnl_usd": -0.68,
   "unrealized_pnl_usd": 195.12,
-  "peak_equity_usd": 10236.78,
+  "peak_equity_usd": 10247.73,
   "realized_peak_equity_usd": 10000.0,
   "day_start_equity_usd": 10000.0,
   "current_day_utc": "2026-11-22",
@@ -15,7 +15,7 @@
   "total_trades": 1,
   "winning_trades": 0,
   "losing_trades": 1,
-  "last_updated": "2026-11-22 05:03:12 UTC",
+  "last_updated": "2026-11-22 05:06:26 UTC",
   "open_positions": [
     {
       "id": "ORD-85831",
@@ -28,7 +28,7 @@
       "current_price": 3.34e-06,
       "size": 5325443786.98225,
       "notional_usd": 18000.0,
-      "stop_loss": 3.4191e-06,
+      "stop_loss": 3.3749e-06,
       "take_profit": 3.2742e-06,
       "initial_risk_dist": 3.91e-08,
       "unrealized_pnl_usd": 195.12,
