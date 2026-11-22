@@ -828,3 +828,26 @@
 [2026-11-22 14:01:08]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-22 14:01:08] 💓 Cierre de Vela | Equity: $10,363.12 USD (Efectivo: $10,363.12 | Flotante: $+0.00 | Peak: $10,363.12) | Abiertas: 0 | Cerradas: 2
 [2026-11-22 14:01:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,363.12 (0A/2C) | 2. Híbrido ADX: $9,759.12 (0A/6C) | 3. Chimichurri: $9,960.01 (0A/6C) | 4. Francotirador: $9,785.51 (0A/1C) | 5. Berserker: $9,613.52 (0A/7C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,931.70 (0A/4C)
+[2026-11-22 14:15:32] ☁️ [GITHUB CLOUD] Cierre de vela #191 (7 Opciones) de la sesión #4...
+[2026-11-22 14:15:35] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.65960000 | SL: 0.65403540 | TP: 0.67351151 | Tamaño: $18,653.62 USD (Riesgo controlado: $157.42) | OK riesgo 1.52% (dd 0.0%)
+[2026-11-22 14:15:38] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 98%) | Entrada: 6.68000000 | SL: 6.63779617 | TP: 6.80650956 | Tamaño: $18,653.62 USD (Riesgo controlado: $134.51) | OK riesgo 1.30% (dd 0.0%)
+[2026-11-22 14:15:39]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 14:15:39]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 14:15:39] 💓 Cierre de Vela | Equity: $10,325.81 USD (Efectivo: $10,363.12 | Flotante: $-37.31 | Peak: $10,363.12) | Abiertas: 2 | Cerradas: 2
+[2026-11-22 14:15:44] [2. Híbrido ADX] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 70.35000000 | SL: 69.75058859 | TP: 71.84852852 | Tamaño: $17,566.42 USD (Riesgo controlado: $149.70) | OK riesgo 1.53% (dd 2.9%)
+[2026-11-22 14:15:48] [2. Híbrido ADX] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.65960000 | SL: 0.65403540 | TP: 0.67351151 | Tamaño: $17,566.42 USD (Riesgo controlado: $148.24) | OK riesgo 1.52% (dd 2.9%)
+[2026-11-22 14:15:48] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 14:15:50] [2. Híbrido ADX] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 14:15:50] [3. Chimichurri] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 70.35000000 | SL: 69.75058859 | TP: 72.09541109 | Tamaño: $17,928.02 USD (Riesgo controlado: $152.79) | OK riesgo 1.53% (dd 2.8%)
+[2026-11-22 14:15:51] [3. Chimichurri] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.65960000 | SL: 0.65403540 | TP: 0.67580492 | Tamaño: $17,928.02 USD (Riesgo controlado: $151.29) | OK riesgo 1.52% (dd 2.8%)
+[2026-11-22 14:15:51] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 14:15:51] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 14:15:51] [4. Francotirador] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 70.35000000 | SL: 69.75058859 | TP: 71.97065859 | Tamaño: $13,207.49 USD (Riesgo controlado: $112.53) | OK riesgo 1.15% (dd 2.1%)
+[2026-11-22 14:15:51] [4. Francotirador] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.65960000 | SL: 0.65403540 | TP: 0.67464828 | Tamaño: $13,210.44 USD (Riesgo controlado: $111.46) | OK riesgo 1.14% (dd 2.1%)
+[2026-11-22 14:15:51] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 14:15:51] [4. Francotirador] 🎯 [Francotirador] PEPE/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-22 14:15:51] [5. Berserker] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 70.35000000 | SL: 69.75058859 | TP: 71.84852852 | Tamaño: $25,956.50 USD (Riesgo controlado: $221.21) | OK riesgo 2.30% (dd 4.3%)
+[2026-11-22 14:15:51] [5. Berserker] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.65960000 | SL: 0.65403540 | TP: 0.67351151 | Tamaño: $25,956.50 USD (Riesgo controlado: $219.00) | OK riesgo 2.28% (dd 4.3%)
+[2026-11-22 14:15:51] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-22 14:15:52] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 80%) | Entrada: 0.00000342 | SL: 0.00000337 | TP: 0.00000354 | Tamaño: $5,768.12 USD (Riesgo controlado: $82.39) | OK riesgo 0.86% (dd 4.3%)
+[2026-11-22 14:15:52] 📊 Marcador 7 Opciones | 1. WF Base: $10,325.81 (2A/2C) | 2. Híbrido ADX: $9,723.99 (2A/6C) | 3. Chimichurri: $9,924.15 (2A/6C) | 4. Francotirador: $9,759.09 (2A/1C) | 5. Berserker: $9,555.84 (3A/7C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,931.70 (0A/4C)
