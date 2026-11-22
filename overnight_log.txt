@@ -479,3 +479,6 @@
 [2026-11-22 08:39:13] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6490581912
 [2026-11-22 08:39:13] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6480098295
 [2026-11-22 08:39:13] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6494076451
+[2026-11-22 08:42:29] [2. Híbrido ADX] ✅ CERRADA BTC/USDT (LONG) a 60053.3 | PnL: $+85.63 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 08:42:29] [5. Berserker] ✅ CERRADA BTC/USDT (LONG) a 60053.3 | PnL: $+127.89 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 08:43:34] [3. Chimichurri] ✅ CERRADA BTC/USDT (LONG) a 59915.61 | PnL: $+44.10 USD (Stop Loss / Trailing Stop Ejecutado)
