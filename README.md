@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-22 03:56:30 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-22 03:59:43 UTC`
 
 ---
 
@@ -11,12 +11,12 @@
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
 | **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,722.32` | **`$-277.68`** (`-2.78%`) | 🔴 `BNB/USDT` SHORT (`$-24.38`)<br>🔴 `DOGE/USDT` SHORT (`$-37.74`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$9,722.32` | **`$-277.68`** (`-2.78%`) | 🔴 `BNB/USDT` SHORT (`$-24.38`)<br>🔴 `DOGE/USDT` SHORT (`$-37.74`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
+| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,727.40` | **`$-272.60`** (`-2.73%`) | 🔴 `BNB/USDT` SHORT (`$-16.26`)<br>🔴 `DOGE/USDT` SHORT (`$-40.78`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$9,727.40` | **`$-272.60`** (`-2.73%`) | 🔴 `BNB/USDT` SHORT (`$-16.26`)<br>🔴 `DOGE/USDT` SHORT (`$-40.78`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,584.41` | **`$-415.59`** (`-4.16%`) | 🔴 `BNB/USDT` SHORT (`$-36.17`)<br>🔴 `DOGE/USDT` SHORT (`$-56.01`) | `0W / 1L` (`1`) | `0.00` | `5.07%` / `3.23%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,591.94` | **`$-408.06`** (`-4.08%`) | 🔴 `BNB/USDT` SHORT (`$-24.14`)<br>🔴 `DOGE/USDT` SHORT (`$-60.51`) | `0W / 1L` (`1`) | `0.00` | `5.07%` / `3.23%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,124.43` | **`$+124.43`** (`+1.24%`) | 🔴 `BNB/USDT` SHORT (`$+35.87`)<br>🔴 `PEPE/USDT` SHORT (`$+88.56`) | `0W / 0L` (`0`) | `0.00` | `1.10%` / `0.00%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,185.32` | **`$+185.32`** (`+1.85%`) | 🔴 `BNB/USDT` SHORT (`$+43.47`)<br>🔴 `PEPE/USDT` SHORT (`$+141.84`) | `0W / 0L` (`0`) | `0.00` | `1.14%` / `0.00%` |
 
 ---
 
@@ -26,11 +26,11 @@
 |---|---|---|---|---|---|---|---|
 | `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `BNB/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$-24.38`) | 🔴 **SHORT** (`$-24.38`) | ⚪ Esperando | 🔴 **SHORT** (`$-36.17`) | ⚪ Esperando | 🔴 **SHORT** (`$+35.87`) |
-| `DOGE/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$-37.74`) | 🔴 **SHORT** (`$-37.74`) | ⚪ Esperando | 🔴 **SHORT** (`$-56.01`) | ⚪ Esperando | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$-16.26`) | 🔴 **SHORT** (`$-16.26`) | ⚪ Esperando | 🔴 **SHORT** (`$-24.14`) | ⚪ Esperando | 🔴 **SHORT** (`$+43.47`) |
+| `DOGE/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$-40.78`) | 🔴 **SHORT** (`$-40.78`) | ⚪ Esperando | 🔴 **SHORT** (`$-60.51`) | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+88.56`) |
+| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+141.84`) |
 | `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
