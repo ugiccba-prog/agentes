@@ -458,3 +458,16 @@
 [2026-11-22 08:30:32] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 08:30:32] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-22 08:30:32] 📊 Marcador 7 Opciones | 1. WF Base: $10,084.62 (2A/0C) | 2. Híbrido ADX: $9,948.34 (2A/3C) | 3. Chimichurri: $9,927.02 (2A/3C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,885.58 (2A/4C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,141.16 (0A/2C)
+[2026-11-22 08:35:57] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6484581912
+[2026-11-22 08:35:58] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6484581912
+[2026-11-22 08:35:58] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT LONG ajustado a 59974.996681558
+[2026-11-22 08:35:58] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6474098295
+[2026-11-22 08:35:58] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT LONG ajustado a 59909.2860178696
+[2026-11-22 08:35:58] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6488076451
+[2026-11-22 08:35:58] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en BTC/USDT LONG ajustado a 59996.9002361208
+[2026-11-22 08:37:01] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6484581912
+[2026-11-22 08:37:03] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6484581912
+[2026-11-22 08:37:03] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT LONG ajustado a 60063.526681558
+[2026-11-22 08:37:03] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT LONG ajustado a 59997.8160178696
+[2026-11-22 08:37:03] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6488076451
+[2026-11-22 08:37:03] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en BTC/USDT LONG ajustado a 60085.4302361208
