@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-22 08:23:55 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `3` | **Última actualización:** `2026-11-22 08:27:01 UTC`
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,110.35` | **`$+110.35`** (`+1.10%`) | 🟢 `SUI/USDT` LONG (`$+110.35`) | `0W / 0L` (`0`) | `0.00` | `0.82%` / `0.00%` |
-| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,974.58` | **`$-25.42`** (`-0.25%`) | 🟢 `SUI/USDT` LONG (`$+108.87`) | `2W / 1L` (`3`) | `0.38` | `3.75%` / `2.16%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$9,953.20` | **`$-46.80`** (`-0.47%`) | 🟢 `SUI/USDT` LONG (`$+108.63`) | `2W / 1L` (`3`) | `0.28` | `3.75%` / `2.16%` |
+| **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,115.93` | **`$+115.93`** (`+1.16%`) | 🟢 `SUI/USDT` LONG (`$+115.93`) | `0W / 0L` (`0`) | `0.00` | `0.82%` / `0.00%` |
+| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,980.08` | **`$-19.92`** (`-0.20%`) | 🟢 `SUI/USDT` LONG (`$+114.37`) | `2W / 1L` (`3`) | `0.38` | `3.75%` / `2.16%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$9,958.70` | **`$-41.30`** (`-0.41%`) | 🟢 `SUI/USDT` LONG (`$+114.13`) | `2W / 1L` (`3`) | `0.28` | `3.75%` / `2.16%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,924.71` | **`$-75.29`** (`-0.75%`) | 🟢 `SUI/USDT` LONG (`$+161.90`) | `2W / 2L` (`4`) | `0.39` | `5.60%` / `3.23%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,932.90` | **`$-67.10`** (`-0.67%`) | 🟢 `SUI/USDT` LONG (`$+170.09`) | `2W / 2L` (`4`) | `0.39` | `5.60%` / `3.23%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
 | **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,141.16` | **`$+141.16`** (`+1.41%`) | ⚪ *Sin abiertas* | `1W / 1L` (`2`) | `208.59` | `2.06%` / `0.01%` |
 
@@ -28,7 +28,7 @@
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | 🟢 **LONG** (`$+110.35`) | 🟢 **LONG** (`$+108.87`) | 🟢 **LONG** (`$+108.63`) | ⚪ Esperando | 🟢 **LONG** (`$+161.90`) | ⚪ Esperando | ⚪ Esperando |
+| `SUI/USDT` | 🟢 **LONG** (`$+115.93`) | 🟢 **LONG** (`$+114.37`) | 🟢 **LONG** (`$+114.13`) | ⚪ Esperando | 🟢 **LONG** (`$+170.09`) | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
@@ -41,10 +41,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$10,110.35 USD`** (`+1.10%` / `$+110.35 USD`) |
+| **Equity Total en Vivo** | **`$10,115.93 USD`** (`+1.16%` / `$+115.93 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,194.05 USD` (Inicio Día UTC: `$10,000.00 USD`) |
 | **Efectivo Cerrado (Cash)** | `$10,000.00 USD` (PnL Realizado: `$+0.00 USD`) |
-| **PnL Flotante Actual** | `$+110.35 USD` |
+| **PnL Flotante Actual** | `$+115.93 USD` |
 | **Win Rate & Profit Factor Real** | `0.0%` (`0W / 0L` de `0`) · **PF `0.00`** |
 | **Meta Paper Trading (100 Trades)** | `0 / 100` cerrados |
 
@@ -56,7 +56,7 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `SUI/USDT` | **LONG** | `chimichurri_alpha` | `0.6448` | `0.6494` | `0.64784` (🔒 BE/Trail) | `0.65594` | **$+110.35** (+0.61%) |
+| `SUI/USDT` | **LONG** | `chimichurri_alpha` | `0.6448` | `0.6496` | `0.64784` (🔒 BE/Trail) | `0.65594` | **$+115.93** (+0.64%) |
 
 ---
 
