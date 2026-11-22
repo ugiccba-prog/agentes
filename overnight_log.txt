@@ -1398,3 +1398,4 @@
 [2026-11-22 23:00:25] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 23:00:25] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-22 23:00:27] 📊 Marcador 7 Opciones | 1. WF Base: $10,108.77 (1A/3C) | 2. Híbrido ADX: $9,562.92 (2A/7C) | 3. Chimichurri: $9,759.77 (2A/7C) | 4. Francotirador: $9,637.92 (2A/2C) | 5. Berserker: $9,246.62 (1A/9C) | 6. Resorte: $10,097.47 (2A/0C) | 7. Escape: $10,931.70 (0A/4C)
+[2026-11-22 23:02:40] [6. Resorte] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6525774
