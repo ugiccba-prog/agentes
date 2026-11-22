@@ -259,3 +259,4 @@
 [2026-11-22 05:31:02] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 05:31:02] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 3
 [2026-11-22 05:31:04] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,966.14 (2A/1C) | 3. Chimichurri: $9,966.14 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,928.54 (3A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,247.73 (1A/1C)
+[2026-11-22 05:39:48] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.054117096
