@@ -150,3 +150,12 @@
 [2026-11-22 03:55:26]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 03:55:26]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 03:55:26] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-22 04:00:45] ☁️ [GITHUB CLOUD] Cierre de vela #61 (7 Opciones) de la sesión #2...
+[2026-11-22 04:00:48]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 04:00:50]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 04:00:51]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 04:00:51]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 04:00:51] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-22 04:01:06] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 04:01:07] [7. Escape] ✅ CERRADA BNB/USDT (SHORT) a 543.11 | PnL: $-0.68 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 04:01:07] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,649.92 (2A/1C) | 3. Chimichurri: $9,649.92 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,476.97 (2A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,034.60 (1A/1C)
