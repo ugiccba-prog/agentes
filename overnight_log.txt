@@ -1375,3 +1375,17 @@
 [2026-11-22 22:55:28]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 22:55:28]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 22:55:28] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-22 22:55:31] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #7...
+[2026-11-22 22:55:33]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 22:55:34]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 22:55:35]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 22:55:35]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 22:55:36] 💓 Cierre de Vela | Equity: $10,097.60 USD (Efectivo: $10,174.87 | Flotante: $-77.27 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 3
+[2026-11-22 22:55:44] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 22:55:44] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 22:55:48] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pérdida diaria -7.1%
+[2026-11-22 22:55:48] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -7.1%
+[2026-11-22 22:55:48] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 22:55:48] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 22:55:48] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 22:55:50] 📊 Marcador 7 Opciones | 1. WF Base: $10,097.60 (1A/3C) | 2. Híbrido ADX: $9,522.36 (2A/7C) | 3. Chimichurri: $9,718.37 (2A/7C) | 4. Francotirador: $9,607.32 (2A/2C) | 5. Berserker: $9,217.11 (1A/9C) | 6. Resorte: $10,045.72 (2A/0C) | 7. Escape: $10,931.70 (0A/4C)
