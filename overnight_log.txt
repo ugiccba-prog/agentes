@@ -374,3 +374,10 @@
 [2026-11-22 07:16:22] [4. Francotirador] 🎯 [Francotirador] SUI/USDT SHORT descartado: sin alineación Macro 1H (0)
 [2026-11-22 07:16:22] [5. Berserker] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 1.70% (dd 2.1%)
 [2026-11-22 07:16:24] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,865.71 (0A/3C) | 3. Chimichurri: $9,844.57 (0A/3C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,790.86 (1A/3C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,141.16 (0A/2C)
+[2026-11-22 07:30:54] ☁️ [GITHUB CLOUD] Cierre de vela #35 (7 Opciones) de la sesión #3...
+[2026-11-22 07:30:57]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 07:31:00]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 07:31:00]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 07:31:01]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 07:31:01] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-22 07:31:17] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,865.71 (0A/3C) | 3. Chimichurri: $9,844.57 (0A/3C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,793.82 (1A/3C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,141.16 (0A/2C)
