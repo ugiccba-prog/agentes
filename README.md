@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-22 12:27:08 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-22 12:30:26 UTC`
 
 ---
 
@@ -72,13 +72,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-22 12:00:42] ☁️ [GITHUB CLOUD] Cierre de vela #62 (7 Opciones) de la sesión #4...
-[2026-11-22 12:00:44]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-22 12:00:46]    AVAX/USDT | Esperando señal de chimichurri_alpha
-[2026-11-22 12:00:47]    GBP/JPY | Esperando señal de bollinger_reversion
-[2026-11-22 12:00:47]    GBP/USD | Esperando señal de chimichurri_alpha
-[2026-11-22 12:00:47] 💓 Cierre de Vela | Equity: $10,363.12 USD (Efectivo: $10,363.12 | Flotante: $+0.00 | Peak: $10,363.12) | Abiertas: 0 | Cerradas: 2
-[2026-11-22 12:01:00] 📊 Marcador 7 Opciones | 1. WF Base: $10,363.12 (0A/2C) | 2. Híbrido ADX: $9,759.12 (0A/6C) | 3. Chimichurri: $9,960.01 (0A/6C) | 4. Francotirador: $9,785.51 (0A/1C) | 5. Berserker: $9,613.52 (0A/7C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,630.75 (2A/2C)
 [2026-11-22 12:12:32] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.656689182
 [2026-11-22 12:14:37] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.657089182
 [2026-11-22 12:15:39] ☁️ [GITHUB CLOUD] Cierre de vela #76 (7 Opciones) de la sesión #4...
@@ -92,4 +85,11 @@
 [2026-11-22 12:15:57] 📊 Marcador 7 Opciones | 1. WF Base: $10,363.12 (0A/2C) | 2. Híbrido ADX: $9,759.12 (0A/6C) | 3. Chimichurri: $9,960.01 (0A/6C) | 4. Francotirador: $9,785.51 (0A/1C) | 5. Berserker: $9,613.52 (0A/7C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,875.67 (1A/3C)
 [2026-11-22 12:16:58] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6594292404
 [2026-11-22 12:18:00] [7. Escape] ✅ CERRADA SUI/USDT (LONG) a 0.6668 | PnL: $+444.01 USD (Take Profit Alcanzado)
+[2026-11-22 12:30:10] ☁️ [GITHUB CLOUD] Cierre de vela #90 (7 Opciones) de la sesión #4...
+[2026-11-22 12:30:13]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 12:30:15]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 12:30:15]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 12:30:16]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 12:30:16] 💓 Cierre de Vela | Equity: $10,363.12 USD (Efectivo: $10,363.12 | Flotante: $+0.00 | Peak: $10,363.12) | Abiertas: 0 | Cerradas: 2
+[2026-11-22 12:30:26] 📊 Marcador 7 Opciones | 1. WF Base: $10,363.12 (0A/2C) | 2. Híbrido ADX: $9,759.12 (0A/6C) | 3. Chimichurri: $9,960.01 (0A/6C) | 4. Francotirador: $9,785.51 (0A/1C) | 5. Berserker: $9,613.52 (0A/7C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,931.70 (0A/4C)
 ```
