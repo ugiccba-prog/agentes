@@ -985,3 +985,18 @@
 [2026-11-22 15:56:50]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 15:56:50]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 15:56:50] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-22 16:01:12] ☁️ [GITHUB CLOUD] Cierre de vela #58 (7 Opciones) de la sesión #5...
+[2026-11-22 16:01:15]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 16:01:18]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 16:01:19]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 16:01:19]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 16:01:22] 💓 Cierre de Vela | Equity: $10,288.96 USD (Efectivo: $10,363.12 | Flotante: $-74.16 | Peak: $10,367.75) | Abiertas: 2 | Cerradas: 2
+[2026-11-22 16:01:25] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 16:01:34] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 16:01:38] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 16:01:38] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 16:01:38] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 16:01:38] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 16:01:38] [5. Berserker] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-22 16:01:38] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-22 16:01:39] 📊 Marcador 7 Opciones | 1. WF Base: $10,288.96 (2A/2C) | 2. Híbrido ADX: $9,686.39 (2A/6C) | 3. Chimichurri: $9,885.78 (2A/6C) | 4. Francotirador: $9,730.82 (2A/1C) | 5. Berserker: $9,500.28 (3A/7C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,931.70 (0A/4C)
