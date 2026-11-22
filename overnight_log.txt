@@ -129,3 +129,4 @@
 [2026-11-22 03:46:13] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 03:46:13] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 03:46:15] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,837.86 (2A/1C) | 3. Chimichurri: $9,837.86 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,755.86 (2A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,161.57 (2A/0C)
+[2026-11-22 03:48:24] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 542.814555
