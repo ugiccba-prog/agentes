@@ -431,3 +431,30 @@
 [2026-11-22 08:21:51] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6478395906
 [2026-11-22 08:21:51] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6469275087
 [2026-11-22 08:21:51] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6481436179
+[2026-11-22 08:30:06] ☁️ [GITHUB CLOUD] Cierre de vela #90 (7 Opciones) de la sesión #3...
+[2026-11-22 08:30:10]    🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 08:30:14] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 95%) | Entrada: 6.59500000 | SL: 6.55302725 | TP: 6.69293189 | Tamaño: $17,355.50 USD (Riesgo controlado: $110.46) | OK riesgo 1.09% (dd -1.2%)
+[2026-11-22 08:30:14]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 08:30:14]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 08:30:16] 💓 Cierre de Vela | Equity: $10,084.62 USD (Efectivo: $10,000.00 | Flotante: $+84.62 | Peak: $10,194.05) | Abiertas: 2 | Cerradas: 0
+[2026-11-22 08:30:20] [2. Híbrido ADX] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 98%) | Entrada: 59709.03000000 | SL: 59358.57312700 | TP: 60788.59218251 | Tamaño: $17,979.01 USD (Riesgo controlado: $122.96) | OK riesgo 1.23% (dd 0.1%)
+[2026-11-22 08:30:26] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 08:30:29] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 08:30:29] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 08:30:29] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 08:30:31] [3. Chimichurri] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 98%) | Entrada: 59709.03000000 | SL: 59358.57312700 | TP: 60956.87478208 | Tamaño: $17,940.49 USD (Riesgo controlado: $122.69) | OK riesgo 1.23% (dd 0.3%)
+[2026-11-22 08:30:31] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 08:30:31] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 08:30:31] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 08:30:31] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-22 08:30:32] [4. Francotirador] 🎯 [Francotirador] BTC/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-22 08:30:32] [4. Francotirador] 🎯 [Francotirador] BNB/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-22 08:30:32] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-22 08:30:32] [4. Francotirador] 🎯 [Francotirador] SUI/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-22 08:30:32] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-22 08:30:32] [5. Berserker] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 98%) | Entrada: 59709.03000000 | SL: 59358.57312700 | TP: 60788.59218251 | Tamaño: $26,851.99 USD (Riesgo controlado: $183.59) | OK riesgo 1.85% (dd 0.5%)
+[2026-11-22 08:30:32] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-22 08:30:32] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-22 08:30:32] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 08:30:32] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-22 08:30:32] 📊 Marcador 7 Opciones | 1. WF Base: $10,084.62 (2A/0C) | 2. Híbrido ADX: $9,948.34 (2A/3C) | 3. Chimichurri: $9,927.02 (2A/3C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,885.58 (2A/4C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,141.16 (0A/2C)
