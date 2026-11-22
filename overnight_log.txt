@@ -471,3 +471,11 @@
 [2026-11-22 08:37:03] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT LONG ajustado a 59997.8160178696
 [2026-11-22 08:37:03] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6488076451
 [2026-11-22 08:37:03] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en BTC/USDT LONG ajustado a 60085.4302361208
+[2026-11-22 08:38:07] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6485581912
+[2026-11-22 08:38:09] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6485581912
+[2026-11-22 08:38:09] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6475098295
+[2026-11-22 08:38:09] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6489076451
+[2026-11-22 08:39:12] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6490581912
+[2026-11-22 08:39:13] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6490581912
+[2026-11-22 08:39:13] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6480098295
+[2026-11-22 08:39:13] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6494076451
