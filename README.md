@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-22 12:11:28 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `4` | **Última actualización:** `2026-11-22 12:14:37 UTC`
 
 ---
 
@@ -16,7 +16,7 @@
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$9,785.51` | **`$-214.49`** (`-2.14%`) | ⚪ *Sin abiertas* | `0W / 1L` (`1`) | `0.00` | `2.41%` / `2.14%` |
 | **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,613.52` | **`$-386.48`** (`-3.86%`) | ⚪ *Sin abiertas* | `4W / 3L` (`7`) | `0.53` | `7.39%` / `4.29%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,724.46` | **`$+724.46`** (`+7.24%`) | 🟢 `AVAX/USDT` LONG (`$+270.96`)<br>🟢 `SUI/USDT` LONG (`$+312.34`) | `1W / 1L` (`2`) | `208.59` | `2.64%` / `0.01%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,746.57` | **`$+746.57`** (`+7.47%`) | 🟢 `AVAX/USDT` LONG (`$+279.06`)<br>🟢 `SUI/USDT` LONG (`$+326.35`) | `1W / 1L` (`2`) | `208.59` | `2.64%` / `0.01%` |
 
 ---
 
@@ -28,8 +28,8 @@
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+312.34`) |
-| `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+270.96`) |
+| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+326.35`) |
+| `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+279.06`) |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
@@ -72,8 +72,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-22 11:55:17]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.82, Exp=+0.45R, WR=51.7%, Trades=29
-[2026-11-22 11:55:19]    🔎 [AVAX/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.48, Exp=+0.27R, WR=50.0%, Trades=24
 [2026-11-22 11:55:22]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 11:55:24]    🔎 [PEPE/USDT] -> ACTIVO (Canasta sin WF) | volatility_breakout
 [2026-11-22 11:55:27]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
@@ -92,4 +90,6 @@
 [2026-11-22 12:00:47]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-22 12:00:47] 💓 Cierre de Vela | Equity: $10,363.12 USD (Efectivo: $10,363.12 | Flotante: $+0.00 | Peak: $10,363.12) | Abiertas: 0 | Cerradas: 2
 [2026-11-22 12:01:00] 📊 Marcador 7 Opciones | 1. WF Base: $10,363.12 (0A/2C) | 2. Híbrido ADX: $9,759.12 (0A/6C) | 3. Chimichurri: $9,960.01 (0A/6C) | 4. Francotirador: $9,785.51 (0A/1C) | 5. Berserker: $9,613.52 (0A/7C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,630.75 (2A/2C)
+[2026-11-22 12:12:32] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.656689182
+[2026-11-22 12:14:37] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.657089182
 ```
