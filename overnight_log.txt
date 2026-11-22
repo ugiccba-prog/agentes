@@ -223,3 +223,20 @@
 [2026-11-22 05:16:28] [5. Berserker] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 58938.93000000 | SL: 59331.34602857 | TP: 58095.68492858 | Tamaño: $8,470.48 USD (Riesgo controlado: $56.40) | OK riesgo 0.57% (dd 1.7%)
 [2026-11-22 05:16:28] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 05:16:30] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,918.16 (2A/1C) | 3. Chimichurri: $9,918.16 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,866.56 (3A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,194.44 (1A/1C)
+[2026-11-22 05:17:34] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 540.80757
+[2026-11-22 05:17:34] [3. Chimichurri] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 540.80757
+[2026-11-22 05:17:35] [5. Berserker] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 540.80757
+[2026-11-22 05:18:39] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 539.8546845227
+[2026-11-22 05:18:39] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05423852
+[2026-11-22 05:18:39] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BNB/USDT SHORT ajustado a 540.3636214272
+[2026-11-22 05:18:39] [3. Chimichurri] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05423852
+[2026-11-22 05:18:40] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en BNB/USDT SHORT ajustado a 539.6850388878
+[2026-11-22 05:18:40] [5. Berserker] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05423852
+[2026-11-22 05:18:42] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT SHORT ajustado a 3.3567e-06
+[2026-11-22 05:19:45] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 539.5346845227
+[2026-11-22 05:19:45] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.054117096
+[2026-11-22 05:19:45] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BNB/USDT SHORT ajustado a 540.0436214272
+[2026-11-22 05:19:45] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en DOGE/USDT SHORT ajustado a 0.0541765152
+[2026-11-22 05:19:46] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en BNB/USDT SHORT ajustado a 539.3650388878
+[2026-11-22 05:19:46] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en DOGE/USDT SHORT ajustado a 0.0540972896
+[2026-11-22 05:19:47] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT SHORT ajustado a 3.3467e-06
