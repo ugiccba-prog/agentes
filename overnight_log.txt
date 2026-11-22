@@ -304,3 +304,6 @@
 [2026-11-22 06:02:43] [5. Berserker] ✅ CERRADA BNB/USDT (SHORT) a 539.46 | PnL: $+74.94 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-22 06:03:46] [2. Híbrido ADX] ✅ CERRADA BNB/USDT (SHORT) a 539.6 | PnL: $+46.13 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-22 06:03:47] [5. Berserker] ✅ CERRADA DOGE/USDT (SHORT) a 0.05409 | PnL: $+79.18 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 06:04:50] [2. Híbrido ADX] ✅ CERRADA DOGE/USDT (SHORT) a 0.05415 | PnL: $+35.14 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 06:04:51] [3. Chimichurri] ✅ CERRADA BNB/USDT (SHORT) a 540.18 | PnL: $+28.03 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 06:05:54] [3. Chimichurri] ✅ CERRADA DOGE/USDT (SHORT) a 0.05416 | PnL: $+32.10 USD (Stop Loss / Trailing Stop Ejecutado)
