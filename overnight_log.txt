@@ -482,3 +482,19 @@
 [2026-11-22 08:42:29] [2. Híbrido ADX] ✅ CERRADA BTC/USDT (LONG) a 60053.3 | PnL: $+85.63 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-22 08:42:29] [5. Berserker] ✅ CERRADA BTC/USDT (LONG) a 60053.3 | PnL: $+127.89 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-22 08:43:34] [3. Chimichurri] ✅ CERRADA BTC/USDT (LONG) a 59915.61 | PnL: $+44.10 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 08:45:38] ☁️ [GITHUB CLOUD] Cierre de vela #104 (7 Opciones) de la sesión #3...
+[2026-11-22 08:45:41]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 08:45:44]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 08:45:44]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 08:45:45]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 08:45:47] 💓 Cierre de Vela | Equity: $10,079.52 USD (Efectivo: $10,000.00 | Flotante: $+79.52 | Peak: $10,337.55) | Abiertas: 2 | Cerradas: 0
+[2026-11-22 08:45:57] [2. Híbrido ADX] BNB/USDT | Precio fuera del margen de entrada en BNB/USDT. | OK riesgo 1.19% (dd -1.0%)
+[2026-11-22 08:46:03] [3. Chimichurri] BNB/USDT | Precio fuera del margen de entrada en BNB/USDT. | OK riesgo 1.19% (dd -0.3%)
+[2026-11-22 08:46:03] [4. Francotirador] 🎯 [Francotirador] BNB/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-22 08:46:03] [5. Berserker] BNB/USDT | Precio fuera del margen de entrada en BNB/USDT. | OK riesgo 1.79% (dd -1.1%)
+[2026-11-22 08:46:03] [5. Berserker] ✅ CERRADA SUI/USDT (LONG) a 0.6492 | PnL: $+153.71 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 08:46:03] [7. Escape] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 1.43% (dd 0.0%)
+[2026-11-22 08:46:03] [7. Escape] AVAX/USDT | Precio fuera del margen de entrada en AVAX/USDT. | OK riesgo 1.16% (dd 0.0%)
+[2026-11-22 08:46:03] 📊 Marcador 7 Opciones | 1. WF Base: $10,079.52 (2A/0C) | 2. Híbrido ADX: $10,054.70 (1A/4C) | 3. Chimichurri: $9,991.81 (1A/4C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $10,044.41 (0A/6C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,141.16 (0A/2C)
+[2026-11-22 08:47:07] ✅ CERRADA SUI/USDT (LONG) a 0.6489 | PnL: $+96.40 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 08:47:07] [2. Híbrido ADX] ✅ CERRADA SUI/USDT (LONG) a 0.6489 | PnL: $+95.10 USD (Stop Loss / Trailing Stop Ejecutado)
