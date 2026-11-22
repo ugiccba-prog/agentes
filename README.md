@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-22 03:42:43 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-22 03:46:15 UTC`
 
 ---
 
@@ -11,12 +11,12 @@
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
 | **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,838.56` | **`$-161.44`** (`-1.61%`) | 🔴 `BNB/USDT` SHORT (`$+18.99`)<br>🔴 `DOGE/USDT` SHORT (`$+35.14`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$9,838.56` | **`$-161.44`** (`-1.61%`) | 🔴 `BNB/USDT` SHORT (`$+18.99`)<br>🔴 `DOGE/USDT` SHORT (`$+35.14`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
+| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,837.86` | **`$-162.14`** (`-1.62%`) | 🔴 `BNB/USDT` SHORT (`$+15.24`)<br>🔴 `DOGE/USDT` SHORT (`$+38.17`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$9,837.86` | **`$-162.14`** (`-1.62%`) | 🔴 `BNB/USDT` SHORT (`$+15.24`)<br>🔴 `DOGE/USDT` SHORT (`$+38.17`) | `0W / 1L` (`1`) | `0.00` | `3.39%` / `2.16%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,756.91` | **`$-243.09`** (`-2.43%`) | 🔴 `BNB/USDT` SHORT (`$+28.18`)<br>🔴 `DOGE/USDT` SHORT (`$+52.14`) | `0W / 1L` (`1`) | `0.00` | `5.07%` / `3.23%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,755.86` | **`$-244.14`** (`-2.44%`) | 🔴 `BNB/USDT` SHORT (`$+22.62`)<br>🔴 `DOGE/USDT` SHORT (`$+56.65`) | `0W / 1L` (`1`) | `0.00` | `5.07%` / `3.23%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,165.08` | **`$+165.08`** (`+1.65%`) | 🔴 `BNB/USDT` SHORT (`$+76.52`)<br>🔴 `PEPE/USDT` SHORT (`$+88.56`) | `0W / 0L` (`0`) | `0.00` | `1.09%` / `0.00%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,161.57` | **`$+161.57`** (`+1.62%`) | 🔴 `BNB/USDT` SHORT (`$+73.01`)<br>🔴 `PEPE/USDT` SHORT (`$+88.56`) | `0W / 0L` (`0`) | `0.00` | `1.09%` / `0.00%` |
 
 ---
 
@@ -26,8 +26,8 @@
 |---|---|---|---|---|---|---|---|
 | `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `BNB/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$+18.99`) | 🔴 **SHORT** (`$+18.99`) | ⚪ Esperando | 🔴 **SHORT** (`$+28.18`) | ⚪ Esperando | 🔴 **SHORT** (`$+76.52`) |
-| `DOGE/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$+35.14`) | 🔴 **SHORT** (`$+35.14`) | ⚪ Esperando | 🔴 **SHORT** (`$+52.14`) | ⚪ Esperando | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$+15.24`) | 🔴 **SHORT** (`$+15.24`) | ⚪ Esperando | 🔴 **SHORT** (`$+22.62`) | ⚪ Esperando | 🔴 **SHORT** (`$+73.01`) |
+| `DOGE/USDT` | ⚪ Esperando | 🔴 **SHORT** (`$+38.17`) | 🔴 **SHORT** (`$+38.17`) | ⚪ Esperando | 🔴 **SHORT** (`$+56.65`) | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+88.56`) |
@@ -71,18 +71,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-22 03:15:29] [3. Chimichurri] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 95%) | Entrada: 0.05432000 | SL: 0.05463690 | TP: 0.05347546 | Tamaño: $16,486.32 USD (Riesgo controlado: $96.18) | OK riesgo 0.98% (dd 2.2%)
-[2026-11-22 03:15:29] [4. Francotirador] 🎯 [Francotirador] BNB/USDT SHORT descartado: sin alineación Macro 1H (0)
-[2026-11-22 03:15:29] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT SHORT descartado: sin alineación Macro 1H (0)
-[2026-11-22 03:15:29] [5. Berserker] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 95%) | Entrada: 541.62000000 | SL: 544.33433016 | TP: 535.21917461 | Tamaño: $25,062.77 USD (Riesgo controlado: $125.60) | OK riesgo 1.30% (dd 3.2%)
-[2026-11-22 03:15:29] [5. Berserker] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 95%) | Entrada: 0.05432000 | SL: 0.05463690 | TP: 0.05359774 | Tamaño: $24,465.19 USD (Riesgo controlado: $142.73) | OK riesgo 1.48% (dd 3.2%)
-[2026-11-22 03:15:29] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
-[2026-11-22 03:15:29] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
-[2026-11-22 03:15:29] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
-[2026-11-22 03:15:29] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
-[2026-11-22 03:15:30] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,751.07 (2A/1C) | 3. Chimichurri: $9,751.07 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,627.06 (2A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,078.17 (2A/0C)
-[2026-11-22 03:30:31] ☁️ [GITHUB CLOUD] Cierre de vela #34 (7 Opciones) de la sesión #2...
-[2026-11-22 03:30:34]    SUI/USDT | Esperando señal de chimichurri_alpha
 [2026-11-22 03:30:36]    AVAX/USDT | Esperando señal de chimichurri_alpha
 [2026-11-22 03:30:37]    GBP/JPY | Esperando señal de bollinger_reversion
 [2026-11-22 03:30:37]    GBP/USD | Esperando señal de chimichurri_alpha
@@ -91,4 +79,16 @@
 [2026-11-22 03:30:52] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-22 03:30:52] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 03:30:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,707.66 (2A/1C) | 3. Chimichurri: $9,707.66 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,562.65 (2A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,110.69 (2A/0C)
+[2026-11-22 03:45:53] ☁️ [GITHUB CLOUD] Cierre de vela #48 (7 Opciones) de la sesión #2...
+[2026-11-22 03:45:55]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 03:45:58]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 03:45:58]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 03:45:59]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 03:45:59] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-22 03:46:06] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:13] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:13] [4. Francotirador] 🎯 [Francotirador] BNB/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-22 03:46:13] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:13] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:15] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,837.86 (2A/1C) | 3. Chimichurri: $9,837.86 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,755.86 (2A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,161.57 (2A/0C)
 ```

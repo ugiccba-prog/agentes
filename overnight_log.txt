@@ -117,3 +117,15 @@
 [2026-11-22 03:30:52] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-22 03:30:52] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-22 03:30:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,707.66 (2A/1C) | 3. Chimichurri: $9,707.66 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,562.65 (2A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,110.69 (2A/0C)
+[2026-11-22 03:45:53] ☁️ [GITHUB CLOUD] Cierre de vela #48 (7 Opciones) de la sesión #2...
+[2026-11-22 03:45:55]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 03:45:58]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-22 03:45:58]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-22 03:45:59]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-22 03:45:59] 💓 Cierre de Vela | Equity: $10,000.00 USD (Efectivo: $10,000.00 | Flotante: $+0.00 | Peak: $10,000.00) | Abiertas: 0 | Cerradas: 0
+[2026-11-22 03:46:06] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:13] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:13] [4. Francotirador] 🎯 [Francotirador] BNB/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-22 03:46:13] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:13] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-22 03:46:15] 📊 Marcador 7 Opciones | 1. WF Base: $10,000.00 (0A/0C) | 2. Híbrido ADX: $9,837.86 (2A/1C) | 3. Chimichurri: $9,837.86 (2A/1C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,755.86 (2A/1C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,161.57 (2A/0C)
