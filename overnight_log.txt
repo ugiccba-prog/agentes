@@ -564,3 +564,8 @@
 [2026-11-22 09:53:26] [3. Chimichurri] ✅ CERRADA SUI/USDT (LONG) a 0.6585 | PnL: $+358.59 USD (Take Profit Alcanzado)
 [2026-11-22 09:53:26] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.6251035319
 [2026-11-22 09:53:26] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6526044536
+[2026-11-22 09:54:29] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.6261035319
+[2026-11-22 09:54:32] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.6261035319
+[2026-11-22 09:56:38] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.6371035319
+[2026-11-22 09:56:41] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.6371035319
+[2026-11-22 09:56:41] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6546044536
