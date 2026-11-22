@@ -1,6 +1,6 @@
 {
-  "session_count": 1,
-  "corrections_applied": 1,
+  "session_count": 2,
+  "corrections_applied": 3,
   "global_risk_pct": 1.5,
   "phase": "Fase 2 — Fusión Laboratorio + Regímenes ADX",
   "preset_name": "🦈 Violenta & Sagaz (Recomendado)",
@@ -115,11 +115,11 @@
       "tp_atr_mult": 3.5,
       "ema_fast": 9,
       "ema_slow": 21,
-      "backtest_return_pct": 11.9,
-      "backtest_profit_factor": 1.7,
-      "backtest_win_rate": 48.3,
+      "backtest_return_pct": 13.05,
+      "backtest_profit_factor": 1.82,
+      "backtest_win_rate": 51.7,
       "data_source": "Binance API (En Vivo)",
-      "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.70, Exp=+0.41R, WR=48.3%, Trades=29"
+      "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.82, Exp=+0.45R, WR=51.7%, Trades=29"
     },
     "AVAX/USDT": {
       "enabled": true,
@@ -180,15 +180,18 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "GBP/JPY": {
-      "enabled": false,
-      "wf_approved": false,
-      "strategy": "chimichurri_alpha",
-      "sl_atr_mult": 1.6,
-      "tp_atr_mult": 4.0,
-      "ema_fast": 12,
-      "ema_slow": 26,
+      "enabled": true,
+      "wf_approved": true,
+      "strategy": "bollinger_reversion",
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 5.0,
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "backtest_return_pct": 5.96,
+      "backtest_profit_factor": 2.67,
+      "backtest_win_rate": 66.7,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "WF OOS APROBADO (bollinger_reversion) | PF=2.67, Exp=+0.66R, WR=66.7%, Trades=9"
     },
     "EUR/JPY": {
       "enabled": false,
@@ -213,15 +216,18 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     },
     "GBP/USD": {
-      "enabled": false,
-      "wf_approved": false,
+      "enabled": true,
+      "wf_approved": true,
       "strategy": "chimichurri_alpha",
-      "sl_atr_mult": 1.6,
-      "tp_atr_mult": 4.0,
-      "ema_fast": 12,
-      "ema_slow": 26,
+      "sl_atr_mult": 2.0,
+      "tp_atr_mult": 5.0,
+      "ema_fast": 20,
+      "ema_slow": 50,
+      "backtest_return_pct": 6.28,
+      "backtest_profit_factor": 1.46,
+      "backtest_win_rate": 52.0,
       "data_source": "Yahoo Finance API (En Vivo)",
-      "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
+      "notes": "WF OOS APROBADO (chimichurri_alpha) | PF=1.46, Exp=+0.25R, WR=52.0%, Trades=25"
     },
     "USD/JPY": {
       "enabled": false,
@@ -246,5 +252,5 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-21 18:41:46 UTC"
+  "last_updated": "2026-11-22 02:54:22 UTC"
 }
