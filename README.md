@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-22 06:51:27 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `2` | **Última actualización:** `2026-11-22 06:53:31 UTC`
 
 ---
 
@@ -14,7 +14,7 @@
 | **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,865.71` | **`$-134.29`** (`-1.34%`) | ⚪ *Sin abiertas* | `2W / 1L` (`3`) | `0.38` | `3.75%` / `2.16%` |
 | **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$9,844.57` | **`$-155.43`** (`-1.55%`) | ⚪ *Sin abiertas* | `2W / 1L` (`3`) | `0.28` | `3.75%` / `2.16%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,792.37` | **`$-207.63`** (`-2.08%`) | 🔴 `BTC/USDT` SHORT (`$-38.34`) | `2W / 1L` (`3`) | `0.48` | `5.60%` / `3.23%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,800.52` | **`$-199.48`** (`-1.99%`) | 🔴 `BTC/USDT` SHORT (`$-30.19`) | `2W / 1L` (`3`) | `0.48` | `5.60%` / `3.23%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$10,000.00` | **`$+0.00`** (`+0.00%`) | ⚪ *Sin abiertas* | `0W / 0L` (`0`) | `0.00` | `0.00%` / `0.00%` |
 | **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$10,141.16` | **`$+141.16`** (`+1.41%`) | ⚪ *Sin abiertas* | `1W / 1L` (`2`) | `208.59` | `2.06%` / `0.01%` |
 
@@ -24,7 +24,7 @@
 
 | Mercado Activo | 1. WF Base | 2. Híbrido ADX | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-38.34`) | ⚪ Esperando | ⚪ Esperando |
+| `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-30.19`) | ⚪ Esperando | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
