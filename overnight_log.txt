@@ -427,3 +427,7 @@
 [2026-11-22 08:15:34] [5. Berserker] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.64480000 | SL: 0.64104362 | TP: 0.65594096 | Tamaño: $26,409.56 USD (Riesgo controlado: $174.21) | OK riesgo 1.78% (dd 2.2%)
 [2026-11-22 08:15:35] 📊 Marcador 7 Opciones | 1. WF Base: $9,982.00 (1A/0C) | 2. Híbrido ADX: $9,847.95 (1A/3C) | 3. Chimichurri: $9,826.85 (1A/3C) | 4. Francotirador: $10,000.00 (0A/0C) | 5. Berserker: $9,748.22 (2A/3C) | 6. Resorte: $10,000.00 (0A/0C) | 7. Escape: $10,141.16 (0A/2C)
 [2026-11-22 08:17:42] [5. Berserker] ✅ CERRADA BTC/USDT (SHORT) a 59352.21 | PnL: $-67.90 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-22 08:21:51] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6478395906
+[2026-11-22 08:21:51] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6478395906
+[2026-11-22 08:21:51] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6469275087
+[2026-11-22 08:21:51] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6481436179
