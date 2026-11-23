@@ -2775,3 +2775,18 @@
 [2026-11-23 13:53:48] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3066743059
 [2026-11-23 13:53:48] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/USD SHORT ajustado a 1.3066005667
 [2026-11-23 13:53:48] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3066743059
+[2026-11-23 13:55:56] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6698032
+[2026-11-23 13:55:58] [3. Chimichurri] ✅ CERRADA GBP/JPY (SHORT) a 207.82400512695312 | PnL: $+57.60 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 13:55:58] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6698032
+[2026-11-23 13:57:00] ✅ CERRADA SUI/USDT (LONG) a 0.6869 | PnL: $+429.10 USD (Take Profit Alcanzado)
+[2026-11-23 13:57:00] ✅ CERRADA GBP/USD (SHORT) a 1.3073091506958008 | PnL: $+54.58 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 13:57:01] [2. Híbrido ADX] ✅ CERRADA DOGE/USDT (LONG) a 0.05695 | PnL: $+328.27 USD (Take Profit Alcanzado)
+[2026-11-23 13:57:01] [2. Híbrido ADX] ✅ CERRADA GBP/USD (SHORT) a 1.3073091506958008 | PnL: $+51.75 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 13:57:01] [3. Chimichurri] ✅ CERRADA GBP/USD (SHORT) a 1.3073091506958008 | PnL: $+53.81 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 13:57:01] [4. Francotirador] ✅ CERRADA DOGE/USDT (LONG) a 0.05695 | PnL: $+243.67 USD (Take Profit Alcanzado)
+[2026-11-23 13:57:01] [4. Francotirador] ✅ CERRADA GBP/USD (SHORT) a 1.3073091506958008 | PnL: $+38.58 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 13:57:01] [5. Berserker] ✅ CERRADA DOGE/USDT (LONG) a 0.05695 | PnL: $+488.25 USD (Take Profit Alcanzado)
+[2026-11-23 13:57:01] [5. Berserker] ✅ CERRADA SUI/USDT (LONG) a 0.6869 | PnL: $+265.91 USD (Take Profit Alcanzado)
+[2026-11-23 13:57:01] [5. Berserker] ✅ CERRADA GBP/USD (SHORT) a 1.3073091506958008 | PnL: $+52.63 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 13:57:01] [7. Escape] ✅ CERRADA GBP/USD (SHORT) a 1.3073091506958008 | PnL: $+60.96 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 13:57:01] [7. Escape] ✅ CERRADA GBP/JPY (SHORT) a 208.01600646972656 | PnL: $-72.99 USD (Stop Loss / Trailing Stop Ejecutado)
