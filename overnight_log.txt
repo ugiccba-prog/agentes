@@ -2837,3 +2837,14 @@
 [2026-11-23 14:31:06]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-23 14:31:06] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
 [2026-11-23 14:31:18] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,149.14 (0A/15C) | 3. Chimichurri: $10,261.26 (0A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,426.82 (0A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,444.68 (0A/13C)
+[2026-11-23 14:45:32] ☁️ [GITHUB CLOUD] Cierre de vela #208 (7 Opciones) de la sesión #10...
+[2026-11-23 14:45:35]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 14:45:38]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 14:45:39]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 14:45:40]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 14:45:40] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
+[2026-11-23 14:45:52] [2. Híbrido ADX] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 98%) | Entrada: 208.00300598 | SL: 208.51294504 | TP: 206.88212713 | Tamaño: $92,731.78 USD (Riesgo controlado: $227.34) | OK riesgo 2.24% (dd 0.0%)
+[2026-11-23 14:45:52] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 98%) | Entrada: 208.00300598 | SL: 208.51294504 | TP: 206.69015657 | Tamaño: $93,756.21 USD (Riesgo controlado: $229.85) | OK riesgo 2.24% (dd 1.9%)
+[2026-11-23 14:45:52] [5. Berserker] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 98%) | Entrada: 208.00300598 | SL: 208.51294504 | TP: 206.88212713 | Tamaño: $119,086.15 USD (Riesgo controlado: $291.95) | OK riesgo 2.80% (dd 0.0%)
+[2026-11-23 14:45:54] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 98%) | Entrada: 0.00000370 | SL: 0.00000360 | TP: 0.00000392 | Tamaño: $10,958.26 USD (Riesgo controlado: $286.12) | OK riesgo 2.50% (dd 0.1%)
+[2026-11-23 14:45:54] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,130.59 (1A/15C) | 3. Chimichurri: $10,242.51 (1A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,403.00 (1A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,433.72 (1A/13C)
