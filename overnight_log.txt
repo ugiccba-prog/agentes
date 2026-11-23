@@ -2347,3 +2347,5 @@
 [2026-11-23 08:31:30] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.6575797211
 [2026-11-23 08:31:31] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.8412733975
 [2026-11-23 08:32:32] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.9212733975
+[2026-11-23 08:37:42] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 208.7596042423
+[2026-11-23 08:38:43] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 208.8136050968
