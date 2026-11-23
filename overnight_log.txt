@@ -2512,3 +2512,14 @@
 [2026-11-23 10:56:34]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 10:56:34]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 10:56:34] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-23 10:56:36] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #10...
+[2026-11-23 10:56:38]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 10:56:41]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 10:56:41]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 10:56:42]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 10:56:43] 💓 Cierre de Vela | Equity: $10,065.68 USD (Efectivo: $10,067.29 | Flotante: $-1.61 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 8
+[2026-11-23 10:56:52] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 10:56:56] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 10:56:58] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 10:56:58] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-23 10:56:58] 📊 Marcador 7 Opciones | 1. WF Base: $10,065.68 (2A/8C) | 2. Híbrido ADX: $9,817.36 (2A/12C) | 3. Chimichurri: $10,303.03 (2A/11C) | 4. Francotirador: $9,735.90 (2A/4C) | 5. Berserker: $9,710.60 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,971.79 (1A/9C)
