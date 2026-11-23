@@ -1749,3 +1749,15 @@
 [2026-11-23 03:37:58] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT LONG ajustado a 71.0956621666
 [2026-11-23 03:37:58] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.2080518055
 [2026-11-23 03:37:58] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SOL/USDT LONG ajustado a 71.2455150184
+[2026-11-23 03:45:15] ☁️ [GITHUB CLOUD] Cierre de vela #47 (7 Opciones) de la sesión #8...
+[2026-11-23 03:45:18]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 03:45:21]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 03:45:21]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 03:45:22]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 03:45:22] 💓 Cierre de Vela | Equity: $9,891.67 USD (Efectivo: $9,887.27 | Flotante: $+4.40 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 5
+[2026-11-23 03:45:39] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 90%) | Entrada: 71.27000000 | SL: 70.70602496 | TP: 73.05411002 | Tamaño: $19,160.06 USD (Riesgo controlado: $170.31) | OK riesgo 1.60% (dd 2.6%)
+[2026-11-23 03:45:39] [7. Escape] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 03:45:39] 📊 Marcador 7 Opciones | 1. WF Base: $9,891.67 (1A/5C) | 2. Híbrido ADX: $9,774.43 (2A/8C) | 3. Chimichurri: $9,975.64 (2A/8C) | 4. Francotirador: $9,817.26 (1A/3C) | 5. Berserker: $9,655.61 (2A/9C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,625.32 (2A/7C)
+[2026-11-23 03:46:41] [2. Híbrido ADX] ✅ CERRADA SOL/USDT (LONG) a 71.2 | PnL: $+194.57 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 03:46:41] [4. Francotirador] ✅ CERRADA SOL/USDT (LONG) a 71.2 | PnL: $+146.29 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 03:46:41] [5. Berserker] ✅ CERRADA SOL/USDT (LONG) a 71.2 | PnL: $+287.50 USD (Stop Loss / Trailing Stop Ejecutado)
