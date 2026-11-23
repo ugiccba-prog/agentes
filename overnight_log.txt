@@ -2614,3 +2614,9 @@
 [2026-11-23 12:00:44] 📊 Marcador 7 Opciones | 1. WF Base: $10,183.81 (2A/8C) | 2. Híbrido ADX: $9,840.95 (2A/12C) | 3. Chimichurri: $10,315.92 (2A/11C) | 4. Francotirador: $9,753.41 (2A/4C) | 5. Berserker: $9,759.40 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,032.03 (2A/9C)
 [2026-11-23 12:07:18] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
 [2026-11-23 12:07:22] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:08:25] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:08:29] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:09:31] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:09:35] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:10:37] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:10:41] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
