@@ -1995,3 +1995,9 @@
 [2026-11-23 06:15:33]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-23 06:15:35] 💓 Cierre de Vela | Equity: $10,098.29 USD (Efectivo: $9,887.27 | Flotante: $+211.02 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 5
 [2026-11-23 06:15:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,098.29 (2A/5C) | 2. Híbrido ADX: $9,928.36 (3A/9C) | 3. Chimichurri: $10,282.72 (2A/9C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,791.03 (3A/10C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,956.88 (2A/7C)
+[2026-11-23 06:23:30] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3118414655
+[2026-11-23 06:23:31] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3118414655
+[2026-11-23 06:23:31] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3117115706
+[2026-11-23 06:23:33] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3118414655
+[2026-11-23 06:25:41] [2. Híbrido ADX] ✅ CERRADA PEPE/USDT (LONG) a 3.42e-06 | PnL: $-67.78 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 06:25:42] [5. Berserker] ✅ CERRADA PEPE/USDT (LONG) a 3.42e-06 | PnL: $-115.82 USD (Stop Loss / Trailing Stop Ejecutado)
