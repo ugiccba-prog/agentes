@@ -3120,3 +3120,10 @@
 [2026-11-23 19:00:36] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.5179868731
 [2026-11-23 19:00:36] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY SHORT ajustado a 207.5755851022
 [2026-11-23 19:00:36] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,475.25 (1A/15C) | 3. Chimichurri: $10,590.97 (1A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,845.61 (1A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,346.99 (1A/15C)
+[2026-11-23 19:15:54] ☁️ [GITHUB CLOUD] Cierre de vela #18 (7 Opciones) de la sesión #12...
+[2026-11-23 19:15:57]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 19:15:59]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 19:16:00]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 19:16:01]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 19:16:01] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
+[2026-11-23 19:16:14] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,469.01 (1A/15C) | 3. Chimichurri: $10,584.66 (1A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,837.59 (1A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,342.78 (1A/15C)
