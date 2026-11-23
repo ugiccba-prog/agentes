@@ -2957,3 +2957,18 @@
 [2026-11-23 16:39:09] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 207.9406050796
 [2026-11-23 16:39:09] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 207.9406050796
 [2026-11-23 16:39:09] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 207.9406050796
+[2026-11-23 16:43:14] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.5999792364
+[2026-11-23 16:43:14] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY SHORT ajustado a 207.6733747419
+[2026-11-23 16:43:14] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/JPY SHORT ajustado a 207.5755140679
+[2026-11-23 16:43:14] [7. Escape] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 207.6726801102
+[2026-11-23 16:45:15] ☁️ [GITHUB CLOUD] Cierre de vela #102 (7 Opciones) de la sesión #11...
+[2026-11-23 16:45:18]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 16:45:21]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 16:45:21]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 16:45:22]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 16:45:22] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
+[2026-11-23 16:45:35] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 16:45:35] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 16:45:36] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 16:45:36] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 16:45:36] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,466.33 (1A/15C) | 3. Chimichurri: $10,581.96 (1A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,834.16 (1A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,340.98 (1A/15C)
