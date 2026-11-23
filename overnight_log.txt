@@ -1869,3 +1869,43 @@
 [2026-11-23 05:44:38] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 05:44:38] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 05:44:39] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:45:41] ☁️ [GITHUB CLOUD] Cierre de vela #157 (7 Opciones) de la sesión #8...
+[2026-11-23 05:45:44]    🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:45:47]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 05:45:48]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 05:45:48]    🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:45:49] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3108030265
+[2026-11-23 05:45:49] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:45:49] 💓 Cierre de Vela | Equity: $10,155.23 USD (Efectivo: $9,887.27 | Flotante: $+267.96 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 5
+[2026-11-23 05:45:55] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 05:46:01] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:46:05] [2. Híbrido ADX] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 91%) | Entrada: 0.00000347 | SL: 0.00000342 | TP: 0.00000359 | Tamaño: $4,400.75 USD (Riesgo controlado: $62.91) | OK riesgo 0.63% (dd 0.4%)
+[2026-11-23 05:46:05] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:46:05] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:46:05] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:46:05] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 05:46:05] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 05:46:05] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:46:07] [3. Chimichurri] ✅ CERRADA SOL/USDT (LONG) a 72.17 | PnL: $+445.65 USD (Take Profit Alcanzado)
+[2026-11-23 05:46:07] [4. Francotirador] SOL/USDT | Precio fuera del margen de entrada en SOL/USDT. | OK riesgo 1.10% (dd 2.0%)
+[2026-11-23 05:46:07] [4. Francotirador] 🎯 [Francotirador] SUI/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-23 05:46:07] [4. Francotirador] 🎯 [Francotirador] PEPE/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-23 05:46:07] [4. Francotirador] 🎯 [Francotirador] GBP/USD LONG descartado: sin alineación Macro 1H (0)
+[2026-11-23 05:46:07] [5. Berserker] SOL/USDT | Precio fuera del margen de entrada en SOL/USDT. | OK riesgo 0.62% (dd 0.8%)
+[2026-11-23 05:46:07] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:46:07] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 91%) | Entrada: 0.00000347 | SL: 0.00000342 | TP: 0.00000359 | Tamaño: $7,519.78 USD (Riesgo controlado: $107.52) | OK riesgo 1.08% (dd 0.8%)
+[2026-11-23 05:46:07] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 05:46:07] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:46:07] [7. Escape] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 05:46:07] [7. Escape] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 05:46:07] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 05:46:07] [7. Escape] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 05:46:07] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.6186843575
+[2026-11-23 05:46:07] 📊 Marcador 7 Opciones | 1. WF Base: $10,155.23 (2A/5C) | 2. Híbrido ADX: $10,019.78 (3A/9C) | 3. Chimichurri: $10,292.78 (1A/9C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,969.72 (3A/10C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,963.13 (2A/7C)
+[2026-11-23 05:47:09] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:47:10] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:47:10] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:48:14] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:48:15] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:48:15] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 05:48:17] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.6312733975
