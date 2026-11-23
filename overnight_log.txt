@@ -1507,3 +1507,18 @@
 [2026-11-23 00:57:34]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 00:57:34]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 00:57:34] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-23 01:00:45] ☁️ [GITHUB CLOUD] Cierre de vela #112 (7 Opciones) de la sesión #7...
+[2026-11-23 01:00:48]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 01:00:50]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 01:00:50]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 01:00:50]    🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 01:00:52] 💓 Cierre de Vela | Equity: $10,087.16 USD (Efectivo: $10,174.87 | Flotante: $-87.71 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 3
+[2026-11-23 01:01:00] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 01:01:02] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 01:01:04] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 01:01:04] [4. Francotirador] 🎯 [Francotirador] GBP/USD LONG descartado: sin alineación Macro 1H (0)
+[2026-11-23 01:01:04] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 01:01:04] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 01:01:05] [6. Resorte] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 1.01% (dd 0.0%)
+[2026-11-23 01:01:05] [7. Escape] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 01:01:06] 📊 Marcador 7 Opciones | 1. WF Base: $10,087.16 (2A/3C) | 2. Híbrido ADX: $9,683.42 (2A/7C) | 3. Chimichurri: $9,882.75 (2A/7C) | 4. Francotirador: $9,728.81 (2A/2C) | 5. Berserker: $9,346.33 (2A/9C) | 6. Resorte: $10,002.84 (0A/2C) | 7. Escape: $10,850.40 (2A/4C)
