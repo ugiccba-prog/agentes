@@ -2201,3 +2201,5 @@
 [2026-11-23 07:30:37] 💓 Cierre de Vela | Equity: $10,144.14 USD (Efectivo: $10,051.75 | Flotante: $+92.39 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 6
 [2026-11-23 07:30:47] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 07:30:48] 📊 Marcador 7 Opciones | 1. WF Base: $10,144.14 (2A/6C) | 2. Híbrido ADX: $9,936.43 (1A/11C) | 3. Chimichurri: $10,338.83 (1A/10C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,854.64 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,985.29 (1A/8C)
+[2026-11-23 07:31:51] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:34:02] Panel temporalmente inaccesible: ConnectTimeout
