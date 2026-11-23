@@ -1713,3 +1713,10 @@
 [2026-11-23 03:14:15] [4. Francotirador] 🔒 Stop (Breakeven+) en SOL/USDT LONG ajustado a 70.455525
 [2026-11-23 03:14:16] [5. Berserker] 🔒 Stop (Breakeven+) en SOL/USDT LONG ajustado a 70.455525
 [2026-11-23 03:14:16] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 70.6349874047
+[2026-11-23 03:15:17] ☁️ [GITHUB CLOUD] Cierre de vela #19 (7 Opciones) de la sesión #8...
+[2026-11-23 03:15:20]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 03:15:23]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 03:15:24]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 03:15:24]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 03:15:24] 💓 Cierre de Vela | Equity: $9,897.54 USD (Efectivo: $9,887.27 | Flotante: $+10.27 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 5
+[2026-11-23 03:15:41] 📊 Marcador 7 Opciones | 1. WF Base: $9,897.54 (1A/5C) | 2. Híbrido ADX: $9,695.90 (2A/8C) | 3. Chimichurri: $9,895.49 (2A/8C) | 4. Francotirador: $9,753.46 (1A/3C) | 5. Berserker: $9,522.34 (2A/9C) | 6. Resorte: $9,983.53 (1A/3C) | 7. Escape: $10,651.53 (1A/7C)
