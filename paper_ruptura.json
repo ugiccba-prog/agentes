@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 10696.27,
-  "equity_usd": 10690.27,
+  "equity_usd": 10677.58,
   "realized_pnl_usd": 696.27,
-  "unrealized_pnl_usd": -6.0,
+  "unrealized_pnl_usd": -18.69,
   "peak_equity_usd": 10944.52,
   "realized_peak_equity_usd": 10931.7,
   "day_start_equity_usd": 10931.7,
@@ -15,7 +15,7 @@
   "total_trades": 6,
   "winning_trades": 3,
   "losing_trades": 3,
-  "last_updated": "2026-11-23 01:48:28 UTC",
+  "last_updated": "2026-11-23 01:51:34 UTC",
   "open_positions": [
     {
       "id": "ORD-579959",
@@ -25,14 +25,14 @@
       "side": "LONG",
       "entry_time": "2026-11-23 01:16:19 UTC",
       "entry_price": 1.3108392954,
-      "current_price": 1.3110283613204956,
+      "current_price": 1.3108737468719482,
       "size": 82090.45943,
       "notional_usd": 107607.4,
       "stop_loss": 1.3098875037,
       "take_profit": 1.3139220487,
       "initial_risk_dist": 0.0009517917,
-      "unrealized_pnl_usd": -6.0,
-      "unrealized_pnl_pct": -0.01,
+      "unrealized_pnl_usd": -18.69,
+      "unrealized_pnl_pct": -0.02,
       "reason": "Ruptura Alcista de Bollinger con expansión MACD (ADX=30.9, Vol=1.00x, RSI=64.5)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
