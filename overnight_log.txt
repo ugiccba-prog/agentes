@@ -2001,3 +2001,18 @@
 [2026-11-23 06:23:33] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3118414655
 [2026-11-23 06:25:41] [2. Híbrido ADX] ✅ CERRADA PEPE/USDT (LONG) a 3.42e-06 | PnL: $-67.78 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-23 06:25:42] [5. Berserker] ✅ CERRADA PEPE/USDT (LONG) a 3.42e-06 | PnL: $-115.82 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 06:31:01] ☁️ [GITHUB CLOUD] Cierre de vela #197 (7 Opciones) de la sesión #8...
+[2026-11-23 06:31:05]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 06:31:08]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 06:31:08]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 06:31:08]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 06:31:10] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.311846691
+[2026-11-23 06:31:10] 💓 Cierre de Vela | Equity: $10,096.54 USD (Efectivo: $9,887.27 | Flotante: $+209.27 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 5
+[2026-11-23 06:31:26] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.311846691
+[2026-11-23 06:31:26] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3117212744
+[2026-11-23 06:31:27] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.311846691
+[2026-11-23 06:31:27] 📊 Marcador 7 Opciones | 1. WF Base: $10,096.54 (2A/5C) | 2. Híbrido ADX: $9,902.03 (2A/10C) | 3. Chimichurri: $10,328.63 (2A/9C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,777.62 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,902.29 (2A/7C)
+[2026-11-23 06:32:29] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3119500455
+[2026-11-23 06:32:29] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3119500455
+[2026-11-23 06:32:30] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3118246289
+[2026-11-23 06:32:31] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3119500455
