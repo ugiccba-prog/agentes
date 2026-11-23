@@ -2218,3 +2218,21 @@
 [2026-11-23 07:42:48] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 07:42:48] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 07:42:49] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:43:52] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:43:52] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:43:53] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:44:55] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:44:55] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:44:55] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:46:04] Panel temporalmente inaccesible: ConnectTimeout
+[2026-11-23 07:46:04] ☁️ [GITHUB CLOUD] Cierre de vela #45 (7 Opciones) de la sesión #9...
+[2026-11-23 07:46:05]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 07:46:07]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 07:46:07]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 07:46:08]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 07:46:09] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:46:09] 💓 Cierre de Vela | Equity: $10,202.01 USD (Efectivo: $10,051.75 | Flotante: $+150.26 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 6
+[2026-11-23 07:46:18] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:46:18] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:46:18] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:46:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,202.01 (2A/6C) | 2. Híbrido ADX: $9,988.24 (1A/11C) | 3. Chimichurri: $10,336.50 (1A/10C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,928.49 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,979.92 (1A/8C)
