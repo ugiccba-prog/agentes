@@ -1522,3 +1522,8 @@
 [2026-11-23 01:01:05] [6. Resorte] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 1.01% (dd 0.0%)
 [2026-11-23 01:01:05] [7. Escape] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-23 01:01:06] 📊 Marcador 7 Opciones | 1. WF Base: $10,087.16 (2A/3C) | 2. Híbrido ADX: $9,683.42 (2A/7C) | 3. Chimichurri: $9,882.75 (2A/7C) | 4. Francotirador: $9,728.81 (2A/2C) | 5. Berserker: $9,346.33 (2A/9C) | 6. Resorte: $10,002.84 (0A/2C) | 7. Escape: $10,850.40 (2A/4C)
+[2026-11-23 01:07:34] ✅ CERRADA AVAX/USDT (LONG) a 6.633 | PnL: $-149.83 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 01:07:36] [2. Híbrido ADX] ✅ CERRADA BNB/USDT (LONG) a 558.05 | PnL: $+7.45 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 01:07:36] [3. Chimichurri] ✅ CERRADA BNB/USDT (LONG) a 558.05 | PnL: $+7.61 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 01:07:36] [4. Francotirador] ✅ CERRADA BNB/USDT (LONG) a 558.05 | PnL: $+5.64 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 01:09:44] [7. Escape] ✅ CERRADA BNB/USDT (LONG) a 557.87 | PnL: $-98.73 USD (Stop Loss / Trailing Stop Ejecutado)
