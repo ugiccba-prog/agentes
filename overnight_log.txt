@@ -1444,3 +1444,11 @@
 [2026-11-22 23:56:27]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 23:56:27]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-22 23:56:27] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-23 00:00:45] ☁️ [GITHUB CLOUD] Cierre de vela #59 (7 Opciones) de la sesión #7...
+[2026-11-23 00:00:47]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 00:00:49]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 00:00:49]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 00:00:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 00:00:50] 💓 Cierre de Vela | Equity: $10,175.75 USD (Efectivo: $10,174.87 | Flotante: $+0.88 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 3
+[2026-11-23 00:01:05] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 92%) | Entrada: 61273.00000000 | SL: 60907.40319516 | TP: 62254.37116110 | Tamaño: $19,567.07 USD (Riesgo controlado: $116.75) | OK riesgo 1.07% (dd 0.0%)
+[2026-11-23 00:01:05] 📊 Marcador 7 Opciones | 1. WF Base: $10,175.75 (1A/3C) | 2. Híbrido ADX: $9,724.33 (2A/7C) | 3. Chimichurri: $9,924.50 (2A/7C) | 4. Francotirador: $9,759.66 (2A/2C) | 5. Berserker: $9,372.00 (1A/9C) | 6. Resorte: $10,209.86 (2A/0C) | 7. Escape: $10,912.13 (1A/4C)
