@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `11` | **Última actualización:** `2026-11-23 17:29:42 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `11` | **Última actualización:** `2026-11-23 17:33:05 UTC`
 
 ---
 
@@ -11,12 +11,12 @@
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
 | **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,794.68` | **`$+794.68`** (`+7.95%`) | ⚪ *Sin abiertas* | `7W / 4L` (`11`) | `2.42` | `6.32%` / `4.59%` |
-| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,399.46` | **`$+399.46`** (`+3.99%`) | 🔴 `GBP/JPY` SHORT (`$+250.32`) | `10W / 5L` (`15`) | `1.17` | `8.47%` / `4.62%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$10,514.34` | **`$+514.34`** (`+5.14%`) | 🔴 `GBP/JPY` SHORT (`$+253.08`) | `10W / 5L` (`15`) | `1.26` | `6.39%` / `4.57%` |
+| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,377.60` | **`$+377.60`** (`+3.78%`) | 🔴 `GBP/JPY` SHORT (`$+228.46`) | `10W / 5L` (`15`) | `1.17` | `8.47%` / `4.62%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$10,492.25` | **`$+492.25`** (`+4.92%`) | 🔴 `GBP/JPY` SHORT (`$+230.99`) | `10W / 5L` (`15`) | `1.26` | `6.39%` / `4.57%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$9,982.36` | **`$-17.64`** (`-0.18%`) | ⚪ *Sin abiertas* | `4W / 3L` (`7`) | `0.96` | `5.03%` / `3.48%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$10,748.27` | **`$+748.27`** (`+7.48%`) | 🔴 `GBP/JPY` SHORT (`$+321.45`) | `10W / 7L` (`17`) | `1.28` | `12.49%` / `7.79%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$10,720.21` | **`$+720.21`** (`+7.20%`) | 🔴 `GBP/JPY` SHORT (`$+293.39`) | `10W / 7L` (`17`) | `1.28` | `12.49%` / `7.79%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,896.82` | **`$-103.18`** (`-1.03%`) | ⚪ *Sin abiertas* | `3W / 2L` (`5`) | `0.74` | `3.90%` / `2.37%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,295.90` | **`$+1,295.90`** (`+12.96%`) | 🔴 `GBP/JPY` SHORT (`$+88.20`) | `9W / 6L` (`15`) | `2.89` | `5.97%` / `2.67%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,281.17` | **`$+1,281.17`** (`+12.81%`) | 🔴 `GBP/JPY` SHORT (`$+73.47`) | `9W / 6L` (`15`) | `2.89` | `5.97%` / `2.67%` |
 
 ---
 
@@ -31,7 +31,7 @@
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/JPY` | ⚪ Esperando | 🔴 **SHORT** (`$+250.32`) | 🔴 **SHORT** (`$+253.08`) | ⚪ Esperando | 🔴 **SHORT** (`$+321.45`) | ⚪ Esperando | 🔴 **SHORT** (`$+88.20`) |
+| `GBP/JPY` | ⚪ Esperando | 🔴 **SHORT** (`$+228.46`) | 🔴 **SHORT** (`$+230.99`) | ⚪ Esperando | 🔴 **SHORT** (`$+293.39`) | ⚪ Esperando | 🔴 **SHORT** (`$+73.47`) |
 | `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
@@ -81,13 +81,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-23 16:59:28]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-23 16:59:28]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-23 16:59:28]    🔎 [GBP/USD] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.46, Exp=+0.25R, WR=52.0%, Trades=25
-[2026-11-23 16:59:29]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-23 16:59:29]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-23 16:59:29] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
-[2026-11-23 17:00:29] ☁️ [GITHUB CLOUD] Cierre de vela #116 (7 Opciones) de la sesión #11...
 [2026-11-23 17:00:32]    SUI/USDT | Esperando señal de chimichurri_alpha
 [2026-11-23 17:00:35]    AVAX/USDT | Esperando señal de chimichurri_alpha
 [2026-11-23 17:00:36]    GBP/JPY | Esperando señal de bollinger_reversion
@@ -101,4 +94,11 @@
 [2026-11-23 17:15:13]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-23 17:15:13] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
 [2026-11-23 17:15:27] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,363.79 (1A/15C) | 3. Chimichurri: $10,478.28 (1A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,702.47 (1A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,271.85 (1A/15C)
+[2026-11-23 17:30:44] ☁️ [GITHUB CLOUD] Cierre de vela #145 (7 Opciones) de la sesión #11...
+[2026-11-23 17:30:47]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 17:30:49]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 17:30:50]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 17:30:50]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 17:30:50] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
+[2026-11-23 17:31:04] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,391.87 (1A/15C) | 3. Chimichurri: $10,506.67 (1A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,738.53 (1A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,290.78 (1A/15C)
 ```
