@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 10426.82,
-  "equity_usd": 10820.99,
+  "equity_usd": 10834.16,
   "realized_pnl_usd": 426.82,
-  "unrealized_pnl_usd": 394.17,
+  "unrealized_pnl_usd": 407.34,
   "peak_equity_usd": 10849.05,
   "realized_peak_equity_usd": 10426.82,
   "day_start_equity_usd": 9372.0,
@@ -15,7 +15,7 @@
   "total_trades": 17,
   "winning_trades": 10,
   "losing_trades": 7,
-  "last_updated": "2026-11-23 18:45:48 UTC",
+  "last_updated": "2026-11-23 18:48:51 UTC",
   "open_positions": [
     {
       "id": "ORD-152544",
@@ -25,14 +25,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-23 14:45:52 UTC",
       "entry_price": 208.0030059814,
-      "current_price": 207.2729949951172,
+      "current_price": 207.25,
       "size": 572.52127,
       "notional_usd": 119086.15,
       "stop_loss": 207.5245003562,
       "take_profit": 206.8821271349,
       "initial_risk_dist": 0.509939063,
-      "unrealized_pnl_usd": 394.17,
-      "unrealized_pnl_pct": 0.33,
+      "unrealized_pnl_usd": 407.34,
+      "unrealized_pnl_pct": 0.34,
       "reason": "Régimen Híbrido [Tendencia ADX=38.0] | Chimichurri Alpha SHORT (ADX=38.0, Vol=1.00x, RSI=41.5, Pullback Tendencia)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
