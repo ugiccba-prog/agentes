@@ -2193,3 +2193,11 @@
 [2026-11-23 07:27:25] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 07:27:25] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 07:27:25] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:30:32] ☁️ [GITHUB CLOUD] Cierre de vela #33 (7 Opciones) de la sesión #9...
+[2026-11-23 07:30:34]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 07:30:36]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 07:30:36]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 07:30:36]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 07:30:37] 💓 Cierre de Vela | Equity: $10,144.14 USD (Efectivo: $10,051.75 | Flotante: $+92.39 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 6
+[2026-11-23 07:30:47] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:30:48] 📊 Marcador 7 Opciones | 1. WF Base: $10,144.14 (2A/6C) | 2. Híbrido ADX: $9,936.43 (1A/11C) | 3. Chimichurri: $10,338.83 (1A/10C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,854.64 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,985.29 (1A/8C)
