@@ -3420,3 +3420,11 @@
 [2026-11-23 23:00:35] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 23:00:35] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -6.0%
 [2026-11-23 23:00:36] 📊 Marcador 7 Opciones | 1. WF Base: $10,799.82 (2A/11C) | 2. Híbrido ADX: $10,639.20 (2A/16C) | 3. Chimichurri: $10,576.71 (2A/16C) | 4. Francotirador: $9,973.24 (1A/7C) | 5. Berserker: $11,049.12 (3A/18C) | 6. Resorte: $9,606.28 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
+[2026-11-23 23:15:37] ☁️ [GITHUB CLOUD] Cierre de vela #17 (7 Opciones) de la sesión #13...
+[2026-11-23 23:15:39]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 23:15:41]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 23:15:41]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 23:15:42]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 23:15:43] 💓 Cierre de Vela | Equity: $10,732.79 USD (Efectivo: $10,794.68 | Flotante: $-61.89 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 11
+[2026-11-23 23:15:55] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -5.8%
+[2026-11-23 23:15:56] 📊 Marcador 7 Opciones | 1. WF Base: $10,732.79 (2A/11C) | 2. Híbrido ADX: $10,573.03 (2A/16C) | 3. Chimichurri: $10,612.29 (2A/16C) | 4. Francotirador: $9,981.04 (1A/7C) | 5. Berserker: $10,951.59 (3A/18C) | 6. Resorte: $9,612.06 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
