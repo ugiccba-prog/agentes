@@ -1467,3 +1467,10 @@
 [2026-11-23 00:15:48] [7. Escape] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 92%) | Entrada: 560.13000000 | SL: 557.97323392 | TP: 567.18359379 | Tamaño: $19,617.12 USD (Riesgo controlado: $87.08) | OK riesgo 0.80% (dd 0.3%)
 [2026-11-23 00:15:48] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-23 00:15:49] 📊 Marcador 7 Opciones | 1. WF Base: $10,164.59 (1A/3C) | 2. Híbrido ADX: $9,738.00 (2A/7C) | 3. Chimichurri: $9,938.45 (2A/7C) | 4. Francotirador: $9,769.96 (2A/2C) | 5. Berserker: $9,363.29 (2A/9C) | 6. Resorte: $10,145.47 (2A/0C) | 7. Escape: $10,876.24 (2A/4C)
+[2026-11-23 00:30:14] ☁️ [GITHUB CLOUD] Cierre de vela #85 (7 Opciones) de la sesión #7...
+[2026-11-23 00:30:16]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 00:30:18]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 00:30:18]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 00:30:18]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 00:30:19] 💓 Cierre de Vela | Equity: $10,119.93 USD (Efectivo: $10,174.87 | Flotante: $-54.94 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 3
+[2026-11-23 00:30:34] 📊 Marcador 7 Opciones | 1. WF Base: $10,119.93 (1A/3C) | 2. Híbrido ADX: $9,703.44 (2A/7C) | 3. Chimichurri: $9,903.18 (2A/7C) | 4. Francotirador: $9,743.95 (2A/2C) | 5. Berserker: $9,298.75 (2A/9C) | 6. Resorte: $10,106.93 (2A/0C) | 7. Escape: $10,884.96 (2A/4C)
