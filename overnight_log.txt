@@ -1909,3 +1909,6 @@
 [2026-11-23 05:48:15] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 05:48:15] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 05:48:17] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.6312733975
+[2026-11-23 05:50:27] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3112325472
+[2026-11-23 05:50:27] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3112325472
+[2026-11-23 05:50:28] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3112325472
