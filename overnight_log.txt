@@ -2320,3 +2320,6 @@
 [2026-11-23 08:08:10] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/JPY LONG ajustado a 208.6098795815
 [2026-11-23 08:08:10] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6649861525
 [2026-11-23 08:08:11] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.7812733975
+[2026-11-23 08:09:14] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/JPY LONG ajustado a 208.6538706703
+[2026-11-23 08:09:14] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.8112733975
+[2026-11-23 08:10:16] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/JPY LONG ajustado a 208.6818705483
