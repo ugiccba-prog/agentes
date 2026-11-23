@@ -2236,3 +2236,5 @@
 [2026-11-23 07:46:18] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 07:46:18] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 07:46:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,202.01 (2A/6C) | 2. Híbrido ADX: $9,988.24 (1A/11C) | 3. Chimichurri: $10,336.50 (1A/10C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,928.49 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,979.92 (1A/8C)
+[2026-11-23 07:48:32] ⚠️ Aviso en sync_to_github: Command '['git', 'pull', '--rebase', 'origin', 'main']' returned non-zero exit status 1.
+[2026-11-23 07:49:40] Panel temporalmente inaccesible: ConnectTimeout
