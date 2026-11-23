@@ -2542,3 +2542,30 @@
 [2026-11-23 11:16:16] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: apalancamiento al tope (25x)
 [2026-11-23 11:16:16] [7. Escape] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 11:16:16] 📊 Marcador 7 Opciones | 1. WF Base: $10,082.34 (2A/8C) | 2. Híbrido ADX: $9,803.26 (2A/12C) | 3. Chimichurri: $10,276.66 (2A/11C) | 4. Francotirador: $9,725.44 (2A/4C) | 5. Berserker: $9,669.78 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,025.17 (1A/9C)
+[2026-11-23 11:30:32] ☁️ [GITHUB CLOUD] Cierre de vela #31 (7 Opciones) de la sesión #10...
+[2026-11-23 11:30:34]    🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 11:30:37]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:30:37]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 11:30:38]    🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 11:30:39] 💓 Cierre de Vela | Equity: $10,128.64 USD (Efectivo: $10,067.29 | Flotante: $+61.35 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 8
+[2026-11-23 11:30:44] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:49] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:49] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:51] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:30:51] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:30:54] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 11:30:54] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:54] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:54] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:30:54] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:30:55] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:55] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:55] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 11:30:55] [4. Francotirador] 🎯 [Francotirador] GBP/USD SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-23 11:30:55] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-23 11:30:55] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 11:30:55] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-23 11:30:55] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:30:55] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:30:55] [7. Escape] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 11:30:55] 📊 Marcador 7 Opciones | 1. WF Base: $10,128.64 (2A/8C) | 2. Híbrido ADX: $9,876.72 (2A/12C) | 3. Chimichurri: $10,363.90 (2A/11C) | 4. Francotirador: $9,779.96 (2A/4C) | 5. Berserker: $9,800.41 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,038.14 (1A/9C)
