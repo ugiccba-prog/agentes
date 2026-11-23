@@ -1539,3 +1539,10 @@
 [2026-11-23 01:16:19] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-23 01:16:19] [7. Escape] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 90%) | Entrada: 1.31083930 | SL: 1.30988750 | TP: 1.31392205 | Tamaño: $107,607.40 USD (Riesgo controlado: $89.42) | OK riesgo 0.83% (dd 1.6%)
 [2026-11-23 01:16:20] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.48 (1A/4C) | 2. Híbrido ADX: $9,634.77 (2A/8C) | 3. Chimichurri: $9,833.11 (2A/8C) | 4. Francotirador: $9,706.55 (1A/3C) | 5. Berserker: $9,342.24 (2A/9C) | 6. Resorte: $10,002.84 (0A/2C) | 7. Escape: $10,713.69 (2A/5C)
+[2026-11-23 01:31:06] ☁️ [GITHUB CLOUD] Cierre de vela #140 (7 Opciones) de la sesión #7...
+[2026-11-23 01:31:09]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 01:31:11]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 01:31:11]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 01:31:11]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 01:31:11] 💓 Cierre de Vela | Equity: $10,042.36 USD (Efectivo: $10,025.04 | Flotante: $+17.32 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 4
+[2026-11-23 01:31:24] 📊 Marcador 7 Opciones | 1. WF Base: $10,042.36 (1A/4C) | 2. Híbrido ADX: $9,651.08 (2A/8C) | 3. Chimichurri: $9,849.76 (2A/8C) | 4. Francotirador: $9,714.05 (1A/3C) | 5. Berserker: $9,406.58 (2A/9C) | 6. Resorte: $10,002.84 (0A/2C) | 7. Escape: $10,793.81 (2A/5C)
