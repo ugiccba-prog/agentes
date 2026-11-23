@@ -2669,3 +2669,30 @@
 [2026-11-23 12:43:22] [7. Escape] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 208.291497705
 [2026-11-23 12:44:24] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3096691557
 [2026-11-23 12:44:27] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3096691557
+[2026-11-23 12:45:29] ☁️ [GITHUB CLOUD] Cierre de vela #97 (7 Opciones) de la sesión #10...
+[2026-11-23 12:45:32]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 12:45:35]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 12:45:35]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 12:45:36]    🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 12:45:37] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3096608268
+[2026-11-23 12:45:37] 💓 Cierre de Vela | Equity: $10,181.49 USD (Efectivo: $10,067.29 | Flotante: $+114.20 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 8
+[2026-11-23 12:45:49] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 12:45:49] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 12:45:52] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 87%) | Entrada: 207.99600220 | SL: 208.30960683 | TP: 207.20402073 | Tamaño: $91,867.26 USD (Riesgo controlado: $138.51) | OK riesgo 1.36% (dd 2.5%)
+[2026-11-23 12:45:52] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 12:45:52] [4. Francotirador] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 12:45:52] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: apalancamiento al tope (25x)
+[2026-11-23 12:45:52] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: apalancamiento al tope (25x)
+[2026-11-23 12:45:52] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 12:45:52] [7. Escape] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 12:45:52] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3096608268
+[2026-11-23 12:45:52] 📊 Marcador 7 Opciones | 1. WF Base: $10,181.49 (2A/8C) | 2. Híbrido ADX: $9,766.22 (2A/12C) | 3. Chimichurri: $10,177.78 (2A/12C) | 4. Francotirador: $9,697.95 (2A/4C) | 5. Berserker: $9,596.38 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,334.50 (2A/9C)
+[2026-11-23 12:46:55] ✅ CERRADA GBP/USD (SHORT) a 1.3074629306793213 | PnL: $+243.71 USD (Take Profit Alcanzado)
+[2026-11-23 12:46:57] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3083774196
+[2026-11-23 12:46:57] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 208.0619666297
+[2026-11-23 12:48:01] [2. Híbrido ADX] ✅ CERRADA BTC/USDT (LONG) a 61097.16 | PnL: $-140.16 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 12:48:02] [3. Chimichurri] ✅ CERRADA BTC/USDT (LONG) a 61097.16 | PnL: $-149.39 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 12:48:02] [4. Francotirador] ✅ CERRADA BTC/USDT (LONG) a 61097.16 | PnL: $-104.01 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 12:48:02] [5. Berserker] ✅ CERRADA BTC/USDT (LONG) a 61097.16 | PnL: $-208.53 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 12:48:02] [7. Escape] ✅ CERRADA GBP/USD (SHORT) a 1.3070186376571655 | PnL: $+304.59 USD (Take Profit Alcanzado)
+[2026-11-23 12:48:02] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 208.0379645545
