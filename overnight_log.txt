@@ -3329,3 +3329,8 @@
 [2026-11-23 22:01:03]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 22:01:03]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 22:01:03] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-23 22:04:13] [2. Híbrido ADX] ✅ CERRADA GBP/JPY (SHORT) a 206.87399291992188 | PnL: $+484.84 USD (Take Profit Alcanzado)
+[2026-11-23 22:04:13] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY SHORT ajustado a 207.1039387578
+[2026-11-23 22:04:13] [5. Berserker] ✅ CERRADA GBP/JPY (SHORT) a 206.87399291992188 | PnL: $+622.63 USD (Take Profit Alcanzado)
+[2026-11-23 22:04:16] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.0656144515
+[2026-11-23 22:05:20] [7. Escape] ✅ CERRADA GBP/JPY (SHORT) a 207.08299255371094 | PnL: $+183.47 USD (Stop Loss / Trailing Stop Ejecutado)
