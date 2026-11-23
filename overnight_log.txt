@@ -2333,3 +2333,6 @@
 [2026-11-23 08:15:43] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 08:15:43] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 08:15:44] 📊 Marcador 7 Opciones | 1. WF Base: $10,082.30 (1A/7C) | 2. Híbrido ADX: $9,924.09 (1A/11C) | 3. Chimichurri: $10,371.48 (1A/10C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,875.84 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,947.68 (1A/8C)
+[2026-11-23 08:19:54] ✅ CERRADA SUI/USDT (LONG) a 0.6646 | PnL: $+98.55 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 08:19:54] [2. Híbrido ADX] ✅ CERRADA SUI/USDT (LONG) a 0.6646 | PnL: $+97.20 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 08:19:54] [5. Berserker] ✅ CERRADA SUI/USDT (LONG) a 0.6646 | PnL: $+143.84 USD (Stop Loss / Trailing Stop Ejecutado)
