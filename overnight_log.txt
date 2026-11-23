@@ -1610,3 +1610,35 @@
 [2026-11-23 02:30:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,078.81 (1A/4C) | 2. Híbrido ADX: $9,575.54 (2A/8C) | 3. Chimichurri: $9,772.66 (2A/8C) | 4. Francotirador: $9,627.73 (1A/3C) | 5. Berserker: $9,234.12 (2A/9C) | 6. Resorte: $9,915.91 (1A/2C) | 7. Escape: $10,778.42 (2A/6C)
 [2026-11-23 02:42:40] [6. Resorte] ✅ CERRADA DOGE/USDT (LONG) a 0.05439 | PnL: $-162.42 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-23 02:42:41] [7. Escape] 🔒 Stop (Breakeven+) en SUI/USDT SHORT ajustado a 0.6464289
+[2026-11-23 02:45:48] ☁️ [GITHUB CLOUD] Cierre de vela #209 (7 Opciones) de la sesión #7...
+[2026-11-23 02:45:52] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 98%) | Entrada: 0.64300000 | SL: 0.64739408 | TP: 0.63306481 | Tamaño: $16,888.17 USD (Riesgo controlado: $115.41) | OK riesgo 1.15% (dd 2.8%)
+[2026-11-23 02:45:54]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:45:54]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 02:45:55]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 02:45:55] 💓 Cierre de Vela | Equity: $10,054.86 USD (Efectivo: $10,025.04 | Flotante: $+29.82 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 4
+[2026-11-23 02:45:57] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:01] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:03] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:03] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:03] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [4. Francotirador] 🎯 [Francotirador] BTC/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-23 02:46:06] [4. Francotirador] 🎯 [Francotirador] BNB/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-23 02:46:06] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-23 02:46:06] [4. Francotirador] 🎯 [Francotirador] SUI/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-23 02:46:06] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-23 02:46:06] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:06] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:07] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:07] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:07] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:07] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 02:46:07] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:46:07] 📊 Marcador 7 Opciones | 1. WF Base: $10,054.86 (2A/4C) | 2. Híbrido ADX: $9,515.52 (2A/8C) | 3. Chimichurri: $9,711.41 (2A/8C) | 4. Francotirador: $9,588.33 (1A/3C) | 5. Berserker: $9,183.73 (2A/9C) | 6. Resorte: $9,840.42 (0A/3C) | 7. Escape: $10,813.72 (2A/6C)
