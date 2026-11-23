@@ -2569,3 +2569,19 @@
 [2026-11-23 11:30:55] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-23 11:30:55] [7. Escape] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 11:30:55] 📊 Marcador 7 Opciones | 1. WF Base: $10,128.64 (2A/8C) | 2. Híbrido ADX: $9,876.72 (2A/12C) | 3. Chimichurri: $10,363.90 (2A/11C) | 4. Francotirador: $9,779.96 (2A/4C) | 5. Berserker: $9,800.41 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,038.14 (1A/9C)
+[2026-11-23 11:45:09] ☁️ [GITHUB CLOUD] Cierre de vela #44 (7 Opciones) de la sesión #10...
+[2026-11-23 11:45:11]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 11:45:14]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 11:45:14]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 11:45:15]    🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 11:45:16] 💓 Cierre de Vela | Equity: $10,264.07 USD (Efectivo: $10,067.29 | Flotante: $+196.78 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 8
+[2026-11-23 11:45:28] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:45:28] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:45:30] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:45:30] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:45:31] [4. Francotirador] 🎯 [Francotirador] GBP/USD SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-23 11:45:31] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:45:31] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 11:45:32] [7. Escape] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 85%) | Entrada: 208.35400391 | SL: 208.60499549 | TP: 207.63084256 | Tamaño: $110,770.50 USD (Riesgo controlado: $139.79) | OK riesgo 1.26% (dd -0.6%)
+[2026-11-23 11:45:32] [7. Escape] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 11:45:32] 📊 Marcador 7 Opciones | 1. WF Base: $10,264.07 (2A/8C) | 2. Híbrido ADX: $9,898.81 (2A/12C) | 3. Chimichurri: $10,422.98 (2A/11C) | 4. Francotirador: $9,796.35 (2A/4C) | 5. Berserker: $9,892.77 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,059.22 (2A/9C)
