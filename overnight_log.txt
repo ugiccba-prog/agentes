@@ -2117,3 +2117,6 @@
 [2026-11-23 07:00:57] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 07:00:58] 📊 Marcador 7 Opciones | 1. WF Base: $10,130.47 (2A/6C) | 2. Híbrido ADX: $9,936.15 (2A/10C) | 3. Chimichurri: $10,392.47 (2A/9C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,826.07 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,007.37 (2A/7C)
 [2026-11-23 07:01:59] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:03:03] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:04:05] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:05:07] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
