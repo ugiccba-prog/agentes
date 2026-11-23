@@ -2414,3 +2414,15 @@
 [2026-11-23 09:17:11] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.1312733975
 [2026-11-23 09:18:15] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.1712733975
 [2026-11-23 09:19:19] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.2012733975
+[2026-11-23 09:31:05] ☁️ [GITHUB CLOUD] Cierre de vela #140 (7 Opciones) de la sesión #9...
+[2026-11-23 09:31:07]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 09:31:09]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 09:31:09]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 09:31:09]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 09:31:10] 💓 Cierre de Vela | Equity: $10,090.21 USD (Efectivo: $10,067.29 | Flotante: $+22.92 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 8
+[2026-11-23 09:31:14] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 09:31:21] [3. Chimichurri] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 72.73000000 | SL: 72.16982658 | TP: 74.20467998 | Tamaño: $17,515.11 USD (Riesgo controlado: $134.90) | OK riesgo 1.29% (dd -0.2%)
+[2026-11-23 09:31:22] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-23 09:31:22] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: exposición neta a CRYPTO excedería 3
+[2026-11-23 09:31:22] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 72.2423374167
+[2026-11-23 09:31:22] 📊 Marcador 7 Opciones | 1. WF Base: $10,090.21 (1A/8C) | 2. Híbrido ADX: $9,902.69 (2A/12C) | 3. Chimichurri: $10,454.39 (2A/11C) | 4. Francotirador: $9,799.23 (2A/4C) | 5. Berserker: $9,832.97 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,154.58 (1A/8C)
