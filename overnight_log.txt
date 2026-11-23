@@ -2642,3 +2642,5 @@
 [2026-11-23 12:16:31] [7. Escape] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 12:16:31] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
 [2026-11-23 12:16:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,245.52 (2A/8C) | 2. Híbrido ADX: $9,811.99 (2A/12C) | 3. Chimichurri: $10,281.27 (2A/11C) | 4. Francotirador: $9,731.92 (2A/4C) | 5. Berserker: $9,740.74 (3A/13C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,142.65 (2A/9C)
+[2026-11-23 12:26:28] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:26:31] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
