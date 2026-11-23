@@ -2296,3 +2296,14 @@
 [2026-11-23 08:01:52] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 08:01:52] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 08:01:52] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:02:56] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:02:56] ✅ CERRADA GBP/USD (LONG) a 1.3119571208953857 | PnL: $-83.01 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 08:02:56] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:02:56] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:03:58] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:03:58] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:03:58] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:05:01] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:05:01] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:05:01] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 08:05:01] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
