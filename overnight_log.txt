@@ -2662,3 +2662,10 @@
 [2026-11-23 12:41:08] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3100804278
 [2026-11-23 12:41:11] [3. Chimichurri] ✅ CERRADA SOL/USDT (LONG) a 72.15 | PnL: $-157.12 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-23 12:41:12] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3100804278
+[2026-11-23 12:42:15] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3099947163
+[2026-11-23 12:42:18] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3099947163
+[2026-11-23 12:43:20] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3098918387
+[2026-11-23 12:43:22] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3098918387
+[2026-11-23 12:43:22] [7. Escape] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 208.291497705
+[2026-11-23 12:44:24] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3096691557
+[2026-11-23 12:44:27] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3096691557
