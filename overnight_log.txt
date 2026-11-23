@@ -1705,3 +1705,5 @@
 [2026-11-23 03:00:35] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 03:00:35] [6. Resorte] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 75%) | Entrada: 70.28000000 | SL: 69.78398656 | TP: 71.48503359 | Tamaño: $17,358.86 USD (Riesgo controlado: $122.51) | OK riesgo 1.24% (dd 1.6%)
 [2026-11-23 03:00:35] 📊 Marcador 7 Opciones | 1. WF Base: $10,007.63 (2A/4C) | 2. Híbrido ADX: $9,536.20 (2A/8C) | 3. Chimichurri: $9,732.51 (2A/8C) | 4. Francotirador: $9,631.49 (1A/3C) | 5. Berserker: $9,266.29 (2A/9C) | 6. Resorte: $9,823.06 (1A/3C) | 7. Escape: $10,759.92 (2A/6C)
+[2026-11-23 03:05:54] ✅ CERRADA SUI/USDT (SHORT) a 0.6476 | PnL: $-137.77 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 03:05:56] [7. Escape] ✅ CERRADA SUI/USDT (SHORT) a 0.6476 | PnL: $-21.81 USD (Stop Loss / Trailing Stop Ejecutado)
