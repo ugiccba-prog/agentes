@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `10` | **Última actualización:** `2026-11-23 14:28:57 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `10` | **Última actualización:** `2026-11-23 14:32:18 UTC`
 
 ---
 
@@ -81,13 +81,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-23 14:01:41] ☁️ [GITHUB CLOUD] Cierre de vela #166 (7 Opciones) de la sesión #10...
-[2026-11-23 14:01:43]    SUI/USDT | Esperando señal de chimichurri_alpha
-[2026-11-23 14:01:45]    AVAX/USDT | Esperando señal de chimichurri_alpha
-[2026-11-23 14:01:46]    GBP/JPY | Esperando señal de bollinger_reversion
-[2026-11-23 14:01:47] GBP/USD | Precio fuera del margen de entrada en GBP/USD. | OK riesgo 1.26% (dd 0.0%)
-[2026-11-23 14:01:47] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
-[2026-11-23 14:01:58] [2. Híbrido ADX] GBP/USD | Precio fuera del margen de entrada en GBP/USD. | OK riesgo 1.26% (dd 0.0%)
 [2026-11-23 14:01:58] [3. Chimichurri] GBP/USD | Precio fuera del margen de entrada en GBP/USD. | OK riesgo 1.26% (dd 1.9%)
 [2026-11-23 14:01:58] [4. Francotirador] GBP/USD | Precio fuera del margen de entrada en GBP/USD. | OK riesgo 0.95% (dd 0.2%)
 [2026-11-23 14:01:59] [5. Berserker] GBP/USD | Precio fuera del margen de entrada en GBP/USD. | OK riesgo 1.58% (dd 0.0%)
@@ -101,4 +94,11 @@
 [2026-11-23 14:15:31] [6. Resorte] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 80%) | Entrada: 576.23000000 | SL: 582.70377116 | TP: 563.02057210 | Tamaño: $15,825.59 USD (Riesgo controlado: $177.80) | OK riesgo 1.75% (dd 0.0%)
 [2026-11-23 14:15:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,149.14 (0A/15C) | 3. Chimichurri: $10,261.26 (0A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,426.82 (0A/17C) | 6. Resorte: $10,120.76 (1A/4C) | 7. Escape: $11,444.68 (0A/13C)
 [2026-11-23 14:25:54] [6. Resorte] ✅ CERRADA BNB/USDT (SHORT) a 584.38 | PnL: $-239.77 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 14:30:59] ☁️ [GITHUB CLOUD] Cierre de vela #194 (7 Opciones) de la sesión #10...
+[2026-11-23 14:31:02]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 14:31:04]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 14:31:05]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 14:31:06]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 14:31:06] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
+[2026-11-23 14:31:18] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,149.14 (0A/15C) | 3. Chimichurri: $10,261.26 (0A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,426.82 (0A/17C) | 6. Resorte: $9,896.82 (0A/5C) | 7. Escape: $11,444.68 (0A/13C)
 ```
