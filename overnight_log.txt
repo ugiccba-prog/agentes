@@ -2741,3 +2741,14 @@
 [2026-11-23 13:15:49] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-23 13:15:50] [7. Escape] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 90%) | Entrada: 207.92599487 | SL: 208.25219473 | TP: 207.04027674 | Tamaño: $115,311.40 USD (Riesgo controlado: $181.50) | OK riesgo 1.57% (dd -0.6%)
 [2026-11-23 13:15:50] 📊 Marcador 7 Opciones | 1. WF Base: $10,357.37 (2A/9C) | 2. Híbrido ADX: $9,812.66 (2A/13C) | 3. Chimichurri: $10,226.78 (2A/13C) | 4. Francotirador: $9,732.63 (2A/5C) | 5. Berserker: $9,643.92 (3A/14C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,506.58 (2A/11C)
+[2026-11-23 13:30:43] ☁️ [GITHUB CLOUD] Cierre de vela #138 (7 Opciones) de la sesión #10...
+[2026-11-23 13:30:45]    🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 13:30:48]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 13:30:48]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 13:30:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 13:30:50] 💓 Cierre de Vela | Equity: $10,350.01 USD (Efectivo: $10,311.00 | Flotante: $+39.01 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 9
+[2026-11-23 13:30:59] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 13:31:03] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 13:31:03] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 13:31:03] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 13:31:03] 📊 Marcador 7 Opciones | 1. WF Base: $10,350.01 (2A/9C) | 2. Híbrido ADX: $9,793.09 (2A/13C) | 3. Chimichurri: $10,216.22 (2A/13C) | 4. Francotirador: $9,718.06 (2A/5C) | 5. Berserker: $9,625.97 (3A/14C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,495.11 (2A/11C)
