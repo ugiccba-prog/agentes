@@ -2030,3 +2030,26 @@
 [2026-11-23 06:41:04] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 06:41:06] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3121740397
 [2026-11-23 06:42:08] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:43:13] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3122429427
+[2026-11-23 06:43:13] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3122429427
+[2026-11-23 06:43:13] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3121175261
+[2026-11-23 06:43:14] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3122429427
+[2026-11-23 06:44:17] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:45:18] ☁️ [GITHUB CLOUD] Cierre de vela #210 (7 Opciones) de la sesión #8...
+[2026-11-23 06:45:22]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 06:45:25]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 06:45:25]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 06:45:25]    🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 06:45:27] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 06:45:27] 💓 Cierre de Vela | Equity: $10,185.15 USD (Efectivo: $9,887.27 | Flotante: $+297.88 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 5
+[2026-11-23 06:45:42] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 06:45:42] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 06:45:42] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 06:45:42] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 06:45:42] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 06:45:43] [4. Francotirador] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 06:45:43] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 06:45:43] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 06:45:43] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:45:43] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 06:45:44] 📊 Marcador 7 Opciones | 1. WF Base: $10,185.15 (2A/5C) | 2. Híbrido ADX: $9,991.57 (2A/10C) | 3. Chimichurri: $10,386.26 (2A/9C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,910.88 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,978.95 (2A/7C)
