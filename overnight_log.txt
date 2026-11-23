@@ -2024,3 +2024,9 @@
 [2026-11-23 06:37:51] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3121395882
 [2026-11-23 06:37:51] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3120141716
 [2026-11-23 06:37:53] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3121395882
+[2026-11-23 06:41:04] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3121740397
+[2026-11-23 06:41:04] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3121740397
+[2026-11-23 06:41:04] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3120486231
+[2026-11-23 06:41:04] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:41:06] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3121740397
+[2026-11-23 06:42:08] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
