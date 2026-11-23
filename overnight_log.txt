@@ -2759,3 +2759,19 @@
 [2026-11-23 13:46:06]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-23 13:46:07] 💓 Cierre de Vela | Equity: $10,376.62 USD (Efectivo: $10,311.00 | Flotante: $+65.62 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 9
 [2026-11-23 13:46:21] 📊 Marcador 7 Opciones | 1. WF Base: $10,376.62 (2A/9C) | 2. Híbrido ADX: $9,788.00 (2A/13C) | 3. Chimichurri: $10,288.19 (2A/13C) | 4. Francotirador: $9,714.31 (2A/5C) | 5. Berserker: $9,624.90 (3A/14C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,584.34 (2A/11C)
+[2026-11-23 13:51:41] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 207.9336033966
+[2026-11-23 13:52:44] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.307874398
+[2026-11-23 13:52:45] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.307874398
+[2026-11-23 13:52:45] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY SHORT ajustado a 207.7646998918
+[2026-11-23 13:52:45] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.307874398
+[2026-11-23 13:52:45] [4. Francotirador] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.307874398
+[2026-11-23 13:52:45] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.307874398
+[2026-11-23 13:52:45] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.307874398
+[2026-11-23 13:52:45] [7. Escape] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 207.8636170745
+[2026-11-23 13:53:47] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3066743059
+[2026-11-23 13:53:48] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3066743059
+[2026-11-23 13:53:48] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY SHORT ajustado a 207.7397059953
+[2026-11-23 13:53:48] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD SHORT ajustado a 1.3068955235
+[2026-11-23 13:53:48] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3066743059
+[2026-11-23 13:53:48] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/USD SHORT ajustado a 1.3066005667
+[2026-11-23 13:53:48] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3066743059
