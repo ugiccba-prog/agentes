@@ -3237,3 +3237,12 @@
 [2026-11-23 20:45:26] [4. Francotirador] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 98%) | Entrada: 1.30332208 | SL: 1.30459841 | TP: 1.29955694 | Tamaño: $74,867.70 USD (Riesgo controlado: $78.16) | OK riesgo 0.78% (dd 0.2%)
 [2026-11-23 20:45:26] [5. Berserker] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 98%) | Entrada: 1.30332208 | SL: 1.30459841 | TP: 1.29983460 | Tamaño: $136,099.75 USD (Riesgo controlado: $142.09) | OK riesgo 1.31% (dd -4.4%)
 [2026-11-23 20:45:29] 📊 Marcador 7 Opciones | 1. WF Base: $10,773.09 (1A/11C) | 2. Híbrido ADX: $10,496.14 (2A/15C) | 3. Chimichurri: $10,612.10 (2A/15C) | 4. Francotirador: $9,967.39 (1A/7C) | 5. Berserker: $10,872.21 (2A/17C) | 6. Resorte: $9,715.14 (2A/5C) | 7. Escape: $11,375.24 (1A/15C)
+[2026-11-23 20:50:47] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.3495380944
+[2026-11-23 20:50:47] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY SHORT ajustado a 207.3948454936
+[2026-11-23 20:51:51] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.341542489
+[2026-11-23 20:51:51] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY SHORT ajustado a 207.3868498881
+[2026-11-23 20:51:51] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/JPY SHORT ajustado a 207.3264400226
+[2026-11-23 20:51:54] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.341542489
+[2026-11-23 20:52:55] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.341542489
+[2026-11-23 20:52:55] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/JPY SHORT ajustado a 207.3264400226
+[2026-11-23 20:52:57] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY SHORT ajustado a 207.341542489
