@@ -1695,3 +1695,13 @@
 [2026-11-23 02:55:59] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-23 02:55:59] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-23 02:55:59] 📊 Marcador 7 Opciones | 1. WF Base: $10,065.23 (2A/4C) | 2. Híbrido ADX: $9,497.72 (2A/8C) | 3. Chimichurri: $9,693.24 (2A/8C) | 4. Francotirador: $9,592.08 (1A/3C) | 5. Berserker: $9,184.34 (2A/9C) | 6. Resorte: $9,840.42 (0A/3C) | 7. Escape: $10,819.22 (2A/6C)
+[2026-11-23 03:00:11] ☁️ [GITHUB CLOUD] Cierre de vela #5 (7 Opciones) de la sesión #8...
+[2026-11-23 03:00:14]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 03:00:17]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 03:00:17]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 03:00:17]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 03:00:19] 💓 Cierre de Vela | Equity: $10,007.63 USD (Efectivo: $10,025.04 | Flotante: $-17.41 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 4
+[2026-11-23 03:00:25] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 03:00:35] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 03:00:35] [6. Resorte] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 75%) | Entrada: 70.28000000 | SL: 69.78398656 | TP: 71.48503359 | Tamaño: $17,358.86 USD (Riesgo controlado: $122.51) | OK riesgo 1.24% (dd 1.6%)
+[2026-11-23 03:00:35] 📊 Marcador 7 Opciones | 1. WF Base: $10,007.63 (2A/4C) | 2. Híbrido ADX: $9,536.20 (2A/8C) | 3. Chimichurri: $9,732.51 (2A/8C) | 4. Francotirador: $9,631.49 (1A/3C) | 5. Berserker: $9,266.29 (2A/9C) | 6. Resorte: $9,823.06 (1A/3C) | 7. Escape: $10,759.92 (2A/6C)
