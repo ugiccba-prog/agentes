@@ -2336,3 +2336,4 @@
 [2026-11-23 08:19:54] ✅ CERRADA SUI/USDT (LONG) a 0.6646 | PnL: $+98.55 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-23 08:19:54] [2. Híbrido ADX] ✅ CERRADA SUI/USDT (LONG) a 0.6646 | PnL: $+97.20 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-23 08:19:54] [5. Berserker] ✅ CERRADA SUI/USDT (LONG) a 0.6646 | PnL: $+143.84 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 08:21:59] [5. Berserker] ✅ CERRADA GBP/JPY (LONG) a 208.67999267578125 | PnL: $+251.53 USD (Stop Loss / Trailing Stop Ejecutado)
