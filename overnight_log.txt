@@ -1452,3 +1452,6 @@
 [2026-11-23 00:00:50] 💓 Cierre de Vela | Equity: $10,175.75 USD (Efectivo: $10,174.87 | Flotante: $+0.88 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 3
 [2026-11-23 00:01:05] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 92%) | Entrada: 61273.00000000 | SL: 60907.40319516 | TP: 62254.37116110 | Tamaño: $19,567.07 USD (Riesgo controlado: $116.75) | OK riesgo 1.07% (dd 0.0%)
 [2026-11-23 00:01:05] 📊 Marcador 7 Opciones | 1. WF Base: $10,175.75 (1A/3C) | 2. Híbrido ADX: $9,724.33 (2A/7C) | 3. Chimichurri: $9,924.50 (2A/7C) | 4. Francotirador: $9,759.66 (2A/2C) | 5. Berserker: $9,372.00 (1A/9C) | 6. Resorte: $10,209.86 (2A/0C) | 7. Escape: $10,912.13 (1A/4C)
+[2026-11-23 00:12:11] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en BNB/USDT LONG ajustado a 558.085875
+[2026-11-23 00:12:11] [3. Chimichurri] 🔒 Stop (Breakeven+) en BNB/USDT LONG ajustado a 558.085875
+[2026-11-23 00:12:11] [4. Francotirador] 🔒 Stop (Breakeven+) en BNB/USDT LONG ajustado a 558.085875
