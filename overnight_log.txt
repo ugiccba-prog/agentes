@@ -3226,3 +3226,14 @@
 [2026-11-23 20:31:00]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-23 20:31:00] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
 [2026-11-23 20:31:16] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,502.00 (1A/15C) | 3. Chimichurri: $10,618.02 (1A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,879.97 (1A/17C) | 6. Resorte: $9,778.52 (2A/5C) | 7. Escape: $11,365.02 (1A/15C)
+[2026-11-23 20:45:05] ☁️ [GITHUB CLOUD] Cierre de vela #101 (7 Opciones) de la sesión #12...
+[2026-11-23 20:45:08]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 20:45:11]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 20:45:11]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 20:45:12] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 98%) | Entrada: 1.30332208 | SL: 1.30459841 | TP: 1.29983460 | Tamaño: $107,946.80 USD (Riesgo controlado: $112.70) | OK riesgo 1.04% (dd 0.0%)
+[2026-11-23 20:45:12] 💓 Cierre de Vela | Equity: $10,773.09 USD (Efectivo: $10,794.68 | Flotante: $-21.59 | Peak: $10,794.68) | Abiertas: 1 | Cerradas: 11
+[2026-11-23 20:45:26] [2. Híbrido ADX] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 98%) | Entrada: 1.30332208 | SL: 1.30459841 | TP: 1.29983460 | Tamaño: $105,082.40 USD (Riesgo controlado: $109.71) | OK riesgo 1.04% (dd -3.5%)
+[2026-11-23 20:45:26] [3. Chimichurri] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 98%) | Entrada: 1.30332208 | SL: 1.30459841 | TP: 1.29927384 | Tamaño: $106,243.30 USD (Riesgo controlado: $110.92) | OK riesgo 1.04% (dd -1.6%)
+[2026-11-23 20:45:26] [4. Francotirador] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 98%) | Entrada: 1.30332208 | SL: 1.30459841 | TP: 1.29955694 | Tamaño: $74,867.70 USD (Riesgo controlado: $78.16) | OK riesgo 0.78% (dd 0.2%)
+[2026-11-23 20:45:26] [5. Berserker] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 98%) | Entrada: 1.30332208 | SL: 1.30459841 | TP: 1.29983460 | Tamaño: $136,099.75 USD (Riesgo controlado: $142.09) | OK riesgo 1.31% (dd -4.4%)
+[2026-11-23 20:45:29] 📊 Marcador 7 Opciones | 1. WF Base: $10,773.09 (1A/11C) | 2. Híbrido ADX: $10,496.14 (2A/15C) | 3. Chimichurri: $10,612.10 (2A/15C) | 4. Francotirador: $9,967.39 (1A/7C) | 5. Berserker: $10,872.21 (2A/17C) | 6. Resorte: $9,715.14 (2A/5C) | 7. Escape: $11,375.24 (1A/15C)
