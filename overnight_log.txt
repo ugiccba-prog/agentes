@@ -2090,3 +2090,17 @@
 [2026-11-23 06:56:16]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 06:56:16]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-23 06:56:16] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-23 06:56:18] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #9...
+[2026-11-23 06:56:20]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 06:56:22]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 06:56:22]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 06:56:23] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 98%) | Entrada: 1.31276667 | SL: 1.31204802 | TP: 1.31498554 | Tamaño: $101,653.10 USD (Riesgo controlado: $64.96) | OK riesgo 0.64% (dd 1.9%)
+[2026-11-23 06:56:23] 💓 Cierre de Vela | Equity: $10,177.50 USD (Efectivo: $10,051.75 | Flotante: $+125.75 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 6
+[2026-11-23 06:56:32] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 06:56:33] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-23 06:56:33] [4. Francotirador] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 06:56:33] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-23 06:56:33] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:56:34] 📊 Marcador 7 Opciones | 1. WF Base: $10,177.50 (2A/6C) | 2. Híbrido ADX: $9,982.82 (2A/10C) | 3. Chimichurri: $10,378.17 (2A/9C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,898.50 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,025.75 (2A/7C)
+[2026-11-23 06:57:35] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:58:37] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
