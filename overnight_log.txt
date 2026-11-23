@@ -2655,3 +2655,10 @@
 [2026-11-23 12:36:47] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
 [2026-11-23 12:37:49] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
 [2026-11-23 12:37:53] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:38:56] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:39:00] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:40:02] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:40:06] [7. Escape] 🔒 Stop (Breakeven+) en GBP/USD SHORT ajustado a 1.3105148067
+[2026-11-23 12:41:08] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3100804278
+[2026-11-23 12:41:11] [3. Chimichurri] ✅ CERRADA SOL/USDT (LONG) a 72.15 | PnL: $-157.12 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 12:41:12] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD SHORT ajustado a 1.3100804278
