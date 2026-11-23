@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `10` | **Última actualización:** `2026-11-23 14:22:47 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `10` | **Última actualización:** `2026-11-23 14:25:54 UTC`
 
 ---
 
@@ -15,7 +15,7 @@
 | **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$10,261.26` | **`$+261.26`** (`+2.61%`) | ⚪ *Sin abiertas* | `10W / 5L` (`15`) | `1.26` | `6.39%` / `4.57%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$9,982.36` | **`$-17.64`** (`-0.18%`) | ⚪ *Sin abiertas* | `4W / 3L` (`7`) | `0.96` | `5.03%` / `3.48%` |
 | **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$10,426.82` | **`$+426.82`** (`+4.27%`) | ⚪ *Sin abiertas* | `10W / 7L` (`17`) | `1.28` | `12.49%` / `7.79%` |
-| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$10,007.28` | **`$+7.28`** (`+0.07%`) | 🔴 `BNB/USDT` SHORT (`$-129.31`) | `3W / 1L` (`4`) | `1.84` | `3.90%` / `1.62%` |
+| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,896.82` | **`$-103.18`** (`-1.03%`) | ⚪ *Sin abiertas* | `3W / 2L` (`5`) | `0.74` | `3.90%` / `2.37%` |
 | **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,444.68` | **`$+1,444.68`** (`+14.45%`) | ⚪ *Sin abiertas* | `8W / 5L` (`13`) | `5.37` | `3.88%` / `2.35%` |
 
 ---
@@ -26,7 +26,7 @@
 |---|---|---|---|---|---|---|---|
 | `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-129.31`) | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
@@ -81,7 +81,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-23 14:00:39] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-23 14:01:41] ☁️ [GITHUB CLOUD] Cierre de vela #166 (7 Opciones) de la sesión #10...
 [2026-11-23 14:01:43]    SUI/USDT | Esperando señal de chimichurri_alpha
 [2026-11-23 14:01:45]    AVAX/USDT | Esperando señal de chimichurri_alpha
@@ -101,4 +100,5 @@
 [2026-11-23 14:15:17] 💓 Cierre de Vela | Equity: $10,794.68 USD (Efectivo: $10,794.68 | Flotante: $+0.00 | Peak: $10,794.68) | Abiertas: 0 | Cerradas: 11
 [2026-11-23 14:15:31] [6. Resorte] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 80%) | Entrada: 576.23000000 | SL: 582.70377116 | TP: 563.02057210 | Tamaño: $15,825.59 USD (Riesgo controlado: $177.80) | OK riesgo 1.75% (dd 0.0%)
 [2026-11-23 14:15:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,794.68 (0A/11C) | 2. Híbrido ADX: $10,149.14 (0A/15C) | 3. Chimichurri: $10,261.26 (0A/15C) | 4. Francotirador: $9,982.36 (0A/7C) | 5. Berserker: $10,426.82 (0A/17C) | 6. Resorte: $10,120.76 (1A/4C) | 7. Escape: $11,444.68 (0A/13C)
+[2026-11-23 14:25:54] [6. Resorte] ✅ CERRADA BNB/USDT (SHORT) a 584.38 | PnL: $-239.77 USD (Stop Loss / Trailing Stop Ejecutado)
 ```
