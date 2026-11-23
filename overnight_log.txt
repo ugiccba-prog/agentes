@@ -1730,3 +1730,7 @@
 [2026-11-23 03:21:57] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT LONG ajustado a 70.9156621666
 [2026-11-23 03:21:57] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.0280518055
 [2026-11-23 03:21:57] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SOL/USDT LONG ajustado a 71.0655150184
+[2026-11-23 03:25:05] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.0880518055
+[2026-11-23 03:25:05] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT LONG ajustado a 70.9756621666
+[2026-11-23 03:25:05] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.0880518055
+[2026-11-23 03:25:05] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SOL/USDT LONG ajustado a 71.1255150184
