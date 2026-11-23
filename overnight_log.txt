@@ -2053,3 +2053,13 @@
 [2026-11-23 06:45:43] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 06:45:43] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 06:45:44] 📊 Marcador 7 Opciones | 1. WF Base: $10,185.15 (2A/5C) | 2. Híbrido ADX: $9,991.57 (2A/10C) | 3. Chimichurri: $10,386.26 (2A/9C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,910.88 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $10,978.95 (2A/7C)
+[2026-11-23 06:46:48] ✅ CERRADA GBP/USD (LONG) a 1.3130769729614258 | PnL: $+164.48 USD (Take Profit Alcanzado)
+[2026-11-23 06:46:48] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3124448309
+[2026-11-23 06:46:48] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3123184025
+[2026-11-23 06:46:48] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:46:49] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3124448309
+[2026-11-23 06:47:51] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3125654707
+[2026-11-23 06:47:51] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3124390423
+[2026-11-23 06:47:51] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 06:47:53] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3125654707
+[2026-11-23 06:48:55] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
