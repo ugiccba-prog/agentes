@@ -1586,3 +1586,12 @@
 [2026-11-23 02:00:36] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-23 02:00:38] [7. Escape] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 90%) | Entrada: 0.64740000 | SL: 0.65186372 | TP: 0.63755139 | Tamaño: $16,662.93 USD (Riesgo controlado: $114.89) | OK riesgo 1.07% (dd 2.1%)
 [2026-11-23 02:00:38] 📊 Marcador 7 Opciones | 1. WF Base: $10,058.82 (1A/4C) | 2. Híbrido ADX: $9,583.96 (2A/8C) | 3. Chimichurri: $9,781.25 (2A/8C) | 4. Francotirador: $9,650.25 (1A/3C) | 5. Berserker: $9,299.79 (2A/9C) | 6. Resorte: $10,002.84 (0A/2C) | 7. Escape: $10,684.90 (2A/6C)
+[2026-11-23 02:15:22] ☁️ [GITHUB CLOUD] Cierre de vela #181 (7 Opciones) de la sesión #7...
+[2026-11-23 02:15:24]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 02:15:26]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 02:15:26]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 02:15:27]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 02:15:27] 💓 Cierre de Vela | Equity: $10,028.26 USD (Efectivo: $10,025.04 | Flotante: $+3.22 | Peak: $10,480.03) | Abiertas: 1 | Cerradas: 4
+[2026-11-23 02:15:39] [6. Resorte] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG (Conv 80%) | Entrada: 0.05483000 | SL: 0.05455442 | TP: 0.05565895 | Tamaño: $18,005.11 USD (Riesgo controlado: $103.53) | OK riesgo 1.04% (dd 0.0%)
+[2026-11-23 02:15:39] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-23 02:15:40] 📊 Marcador 7 Opciones | 1. WF Base: $10,028.26 (1A/4C) | 2. Híbrido ADX: $9,556.04 (2A/8C) | 3. Chimichurri: $9,752.75 (2A/8C) | 4. Francotirador: $9,654.00 (1A/3C) | 5. Berserker: $9,282.94 (2A/9C) | 6. Resorte: $9,984.83 (1A/2C) | 7. Escape: $10,643.07 (2A/6C)
