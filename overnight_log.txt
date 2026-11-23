@@ -2307,3 +2307,16 @@
 [2026-11-23 08:05:01] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 08:05:01] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 08:05:01] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:06:05] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:06:05] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:06:05] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 08:06:05] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 08:07:07] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6634280206
+[2026-11-23 08:07:07] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6634280206
+[2026-11-23 08:07:08] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 08:07:08] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6637861525
+[2026-11-23 08:08:10] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6646280206
+[2026-11-23 08:08:10] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6646280206
+[2026-11-23 08:08:10] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/JPY LONG ajustado a 208.6098795815
+[2026-11-23 08:08:10] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6649861525
+[2026-11-23 08:08:11] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 71.7812733975
