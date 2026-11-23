@@ -2145,3 +2145,25 @@
 [2026-11-23 07:14:34] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
 [2026-11-23 07:14:34] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
 [2026-11-23 07:14:34] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:15:36] ☁️ [GITHUB CLOUD] Cierre de vela #19 (7 Opciones) de la sesión #9...
+[2026-11-23 07:15:38]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 07:15:40]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-23 07:15:40]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-23 07:15:41]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-23 07:15:42] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:15:42] 💓 Cierre de Vela | Equity: $10,159.49 USD (Efectivo: $10,051.75 | Flotante: $+107.74 | Peak: $10,480.03) | Abiertas: 2 | Cerradas: 6
+[2026-11-23 07:15:51] [2. Híbrido ADX] ✅ CERRADA GBP/USD (LONG) a 1.312404751777649 | PnL: $+96.00 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 07:15:51] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:15:51] [3. Chimichurri] ✅ CERRADA GBP/USD (LONG) a 1.312404751777649 | PnL: $+97.97 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 07:15:51] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:15:51] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:15:52] [7. Escape] ✅ CERRADA GBP/USD (LONG) a 1.312404751777649 | PnL: $+106.97 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-23 07:15:52] 📊 Marcador 7 Opciones | 1. WF Base: $10,159.49 (2A/6C) | 2. Híbrido ADX: $9,966.03 (1A/11C) | 3. Chimichurri: $10,378.01 (1A/10C) | 4. Francotirador: $9,804.12 (0A/4C) | 5. Berserker: $9,945.79 (2A/11C) | 6. Resorte: $10,136.59 (0A/4C) | 7. Escape: $11,017.54 (1A/8C)
+[2026-11-23 07:16:54] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:16:54] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:16:54] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:16:54] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:17:56] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:17:56] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
+[2026-11-23 07:17:56] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 208.2544589432
+[2026-11-23 07:17:56] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66099
