@@ -4474,3 +4474,4 @@
 [2026-11-24 13:30:58] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
 [2026-11-24 13:31:17] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-24 13:31:20] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,495.90 (3A/23C) | 4. Francotirador: $10,514.43 (2A/13C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,441.30 (0A/10C) | 7. Escape: $12,029.00 (2A/21C)
+[2026-11-24 13:33:32] [3. Chimichurri] ✅ CERRADA GBP/USD (LONG) a 1.3092432022094727 | PnL: $+182.93 USD (Stop Loss / Trailing Stop Ejecutado)
