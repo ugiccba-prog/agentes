@@ -4125,3 +4125,7 @@
 [2026-11-24 09:31:13] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-24 09:31:14] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 207.839728736
 [2026-11-24 09:31:14] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,729.58 (2A/20C) | 4. Francotirador: $10,091.32 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,437.78 (2A/19C)
+[2026-11-24 09:32:18] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.8446770467
+[2026-11-24 09:32:20] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 207.8917306891
+[2026-11-24 09:33:22] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.8856774129
+[2026-11-24 09:33:25] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 207.9327310553
