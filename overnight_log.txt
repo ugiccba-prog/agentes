@@ -3727,3 +3727,4 @@
 [2026-11-24 03:17:35] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59917.1173397571
 [2026-11-24 03:20:50] [4. Francotirador] ✅ CERRADA BTC/USDT (SHORT) a 59950.0 | PnL: $+36.95 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-24 03:20:50] [7. Escape] ✅ CERRADA BTC/USDT (SHORT) a 59950.0 | PnL: $+56.94 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 03:27:16] [4. Francotirador] ✅ CERRADA BNB/USDT (SHORT) a 549.85 | PnL: $+3.39 USD (Stop Loss / Trailing Stop Ejecutado)
