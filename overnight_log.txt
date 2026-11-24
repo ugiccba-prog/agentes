@@ -4466,3 +4466,11 @@
 [2026-11-24 13:16:11] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
 [2026-11-24 13:16:12] [7. Escape] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 98%) | Entrada: 6.57300000 | SL: 6.63350437 | TP: 6.39085747 | Tamaño: $21,838.57 USD (Riesgo controlado: $217.78) | OK riesgo 1.80% (dd -2.5%)
 [2026-11-24 13:16:14] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,580.09 (3A/23C) | 4. Francotirador: $10,580.83 (2A/13C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,441.30 (0A/10C) | 7. Escape: $12,144.93 (2A/21C)
+[2026-11-24 13:30:51] ☁️ [GITHUB CLOUD] Cierre de vela #134 (7 Opciones) de la sesión #16...
+[2026-11-24 13:30:54]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 13:30:57]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 13:30:57]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 13:30:58]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 13:30:58] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-24 13:31:17] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 13:31:20] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,495.90 (3A/23C) | 4. Francotirador: $10,514.43 (2A/13C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,441.30 (0A/10C) | 7. Escape: $12,029.00 (2A/21C)
