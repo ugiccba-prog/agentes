@@ -3626,3 +3626,5 @@
 [2026-11-24 02:45:28] [7. Escape] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 90%) | Entrada: 551.81000000 | SL: 556.47267300 | TP: 540.12923536 | Tamaño: $19,399.20 USD (Riesgo controlado: $163.92) | OK riesgo 1.44% (dd 1.1%)
 [2026-11-24 02:45:28] 📊 Marcador 7 Opciones | 1. WF Base: $10,335.88 (1A/13C) | 2. Híbrido ADX: $9,985.18 (2A/18C) | 3. Chimichurri: $10,622.01 (2A/17C) | 4. Francotirador: $9,890.21 (0A/8C) | 5. Berserker: $10,166.75 (3A/20C) | 6. Resorte: $9,675.30 (1A/7C) | 7. Escape: $11,371.77 (1A/16C)
 [2026-11-24 02:47:38] [6. Resorte] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05693447
+[2026-11-24 02:50:55] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566854563
+[2026-11-24 02:52:00] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566754563
