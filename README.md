@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-24 05:12:12 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `14` | **Última actualización:** `2026-11-24 05:15:35 UTC`
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,102.65` | **`$+102.65`** (`+1.03%`) | 🟢 `GBP/USD` LONG (`$-54.90`) | `7W / 7L` (`14`) | `1.13` | `7.62%` / `5.90%` |
-| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,847.52` | **`$-152.48`** (`-1.52%`) | 🔴 `GBP/JPY` SHORT (`$-101.87`) | `11W / 8L` (`19`) | `0.97` | `8.47%` / `6.44%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$10,393.86` | **`$+393.86`** (`+3.94%`) | 🔴 `GBP/JPY` SHORT (`$-101.86`)<br>🔴 `SOL/USDT` SHORT (`$-98.43`) | `12W / 7L` (`19`) | `1.50` | `6.39%` / `4.57%` |
-| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$9,860.87` | **`$-139.13`** (`-1.39%`) | 🔴 `SOL/USDT` SHORT (`$-69.68`) | `6W / 4L` (`10`) | `0.87` | `5.03%` / `3.48%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,983.45` | **`$-16.55`** (`-0.17%`) | 🔴 `GBP/JPY` SHORT (`$-130.14`) | `12W / 10L` (`22`) | `1.05` | `12.49%` / `8.94%` |
+| **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,089.89` | **`$+89.89`** (`+0.90%`) | 🟢 `GBP/USD` LONG (`$-67.66`) | `7W / 7L` (`14`) | `1.13` | `7.62%` / `5.90%` |
+| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,825.60` | **`$-174.40`** (`-1.74%`) | 🔴 `GBP/JPY` SHORT (`$-123.79`) | `11W / 8L` (`19`) | `0.97` | `8.47%` / `6.44%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$10,356.86` | **`$+356.86`** (`+3.57%`) | 🔴 `GBP/JPY` SHORT (`$-123.77`)<br>🔴 `SOL/USDT` SHORT (`$-113.51`) | `12W / 7L` (`19`) | `1.50` | `6.39%` / `4.57%` |
+| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$9,850.19` | **`$-149.81`** (`-1.50%`) | 🔴 `SOL/USDT` SHORT (`$-80.36`) | `6W / 4L` (`10`) | `0.87` | `5.03%` / `3.48%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,955.45` | **`$-44.55`** (`-0.45%`) | 🔴 `GBP/JPY` SHORT (`$-158.14`) | `12W / 10L` (`22`) | `1.05` | `12.49%` / `8.94%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,622.57` | **`$-377.43`** (`-3.77%`) | ⚪ *Sin abiertas* | `4W / 5L` (`9`) | `0.62` | `6.47%` / `6.10%` |
 | **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,452.28` | **`$+1,452.28`** (`+14.52%`) | ⚪ *Sin abiertas* | `12W / 6L` (`18`) | `3.28` | `5.97%` / `2.67%` |
 
@@ -25,14 +25,14 @@
 | Mercado Activo | 1. WF Base | 2. Híbrido ADX | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
 | `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-98.43`) | 🔴 **SHORT** (`$-69.68`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-113.51`) | 🔴 **SHORT** (`$-80.36`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/JPY` | ⚪ Esperando | 🔴 **SHORT** (`$-101.87`) | 🔴 **SHORT** (`$-101.86`) | ⚪ Esperando | 🔴 **SHORT** (`$-130.14`) | ⚪ Esperando | ⚪ Esperando |
-| `GBP/USD` | 🟢 **LONG** (`$-54.90`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `GBP/JPY` | ⚪ Esperando | 🔴 **SHORT** (`$-123.79`) | 🔴 **SHORT** (`$-123.77`) | ⚪ Esperando | 🔴 **SHORT** (`$-158.14`) | ⚪ Esperando | ⚪ Esperando |
+| `GBP/USD` | 🟢 **LONG** (`$-67.66`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
 
@@ -41,10 +41,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$10,102.65 USD`** (`+1.03%` / `$+102.65 USD`) |
+| **Equity Total en Vivo** | **`$10,089.89 USD`** (`+0.90%` / `$+89.89 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,892.88 USD` (Inicio Día UTC: `$10,620.84 USD`) |
 | **Efectivo Cerrado (Cash)** | `$10,157.55 USD` (PnL Realizado: `$+157.55 USD`) |
-| **PnL Flotante Actual** | `$-54.90 USD` |
+| **PnL Flotante Actual** | `$-67.66 USD` |
 | **Win Rate & Profit Factor Real** | `50.0%` (`7W / 7L` de `14`) · **PF `1.13`** |
 | **Meta Paper Trading (100 Trades)** | `14 / 100` cerrados |
 
@@ -56,7 +56,7 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `GBP/USD` | **LONG** | `chimichurri_alpha` | `1.3048` | `1.3042` | `1.3033` (🛡️ Inicial) | `1.3076` | **$-54.90** (-0.06%) |
+| `GBP/USD` | **LONG** | `chimichurri_alpha` | `1.3048` | `1.304` | `1.3033` (🛡️ Inicial) | `1.3076` | **$-67.66** (-0.08%) |
 
 ---
 
@@ -84,13 +84,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-24 05:00:22]    🔎 [GBP/JPY] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=2.67, Exp=+0.66R, WR=66.7%, Trades=9
-[2026-11-24 05:00:23]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-24 05:00:23]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-24 05:00:23]    🔎 [GBP/USD] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.46, Exp=+0.25R, WR=52.0%, Trades=25
-[2026-11-24 05:00:23]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-24 05:00:23]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
-[2026-11-24 05:00:23] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-24 05:01:23] ☁️ [GITHUB CLOUD] Cierre de vela #116 (7 Opciones) de la sesión #14...
 [2026-11-24 05:01:26]    SUI/USDT | Esperando señal de chimichurri_alpha
 [2026-11-24 05:01:27]    AVAX/USDT | Esperando señal de chimichurri_alpha
@@ -104,4 +97,11 @@
 [2026-11-24 05:01:40] [6. Resorte] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 75%) | Entrada: 0.00000350 | SL: 0.00000356 | TP: 0.00000335 | Tamaño: $9,830.70 USD (Riesgo controlado: $167.09) | OK riesgo 1.70% (dd 3.0%)
 [2026-11-24 05:01:40] 📊 Marcador 7 Opciones | 1. WF Base: $10,085.26 (1A/14C) | 2. Híbrido ADX: $9,875.43 (1A/19C) | 3. Chimichurri: $10,502.22 (2A/19C) | 4. Francotirador: $9,917.83 (1A/10C) | 5. Berserker: $10,019.10 (1A/22C) | 6. Resorte: $9,819.28 (1A/8C) | 7. Escape: $11,452.28 (0A/18C)
 [2026-11-24 05:11:10] [6. Resorte] ✅ CERRADA PEPE/USDT (SHORT) a 3.57e-06 | PnL: $-206.54 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 05:15:18] ☁️ [GITHUB CLOUD] Cierre de vela #129 (7 Opciones) de la sesión #14...
+[2026-11-24 05:15:20]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 05:15:22]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 05:15:23]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 05:15:23]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 05:15:23] 💓 Cierre de Vela | Equity: $10,089.89 USD (Efectivo: $10,157.55 | Flotante: $-67.66 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 14
+[2026-11-24 05:15:35] 📊 Marcador 7 Opciones | 1. WF Base: $10,089.89 (1A/14C) | 2. Híbrido ADX: $9,825.60 (1A/19C) | 3. Chimichurri: $10,356.86 (2A/19C) | 4. Francotirador: $9,850.19 (1A/10C) | 5. Berserker: $9,955.45 (1A/22C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,452.28 (0A/18C)
 ```
