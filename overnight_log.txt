@@ -4205,3 +4205,19 @@
 [2026-11-24 10:31:05] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,920.85 (2A/21C) | 4. Francotirador: $10,184.20 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,702.95 (2A/20C)
 [2026-11-24 10:37:35] [3. Chimichurri] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 71.39275
 [2026-11-24 10:37:37] [4. Francotirador] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 71.39275
+[2026-11-24 10:45:10] ☁️ [GITHUB CLOUD] Cierre de vela #204 (7 Opciones) de la sesión #15...
+[2026-11-24 10:45:13]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -5.5%
+[2026-11-24 10:45:16]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 10:45:16]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 10:45:17]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 10:45:17] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-24 10:45:20] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 10:45:28] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 10:45:31] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 10:45:31] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 10:45:33] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 10:45:33] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 10:45:34] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60062.6330297444
+[2026-11-24 10:45:34] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 10:45:34] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 10:45:36] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,986.12 (2A/21C) | 4. Francotirador: $10,250.02 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,789.94 (2A/20C)
