@@ -3568,3 +3568,37 @@
 [2026-11-24 01:46:05] 💓 Cierre de Vela | Equity: $10,379.96 USD (Efectivo: $10,398.90 | Flotante: $-18.94 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 13
 [2026-11-24 01:46:18] [6. Resorte] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 75%) | Entrada: 0.05702000 | SL: 0.05761249 | TP: 0.05581878 | Tamaño: $15,113.41 USD (Riesgo controlado: $157.04) | OK riesgo 1.62% (dd 4.1%)
 [2026-11-24 01:46:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,379.96 (1A/13C) | 2. Híbrido ADX: $10,214.48 (2A/18C) | 3. Chimichurri: $10,321.39 (2A/17C) | 4. Francotirador: $9,890.21 (0A/8C) | 5. Berserker: $10,420.08 (3A/20C) | 6. Resorte: $9,684.44 (2A/6C) | 7. Escape: $11,391.17 (0A/16C)
+[2026-11-24 02:00:27] ☁️ [GITHUB CLOUD] Cierre de vela #167 (7 Opciones) de la sesión #13...
+[2026-11-24 02:00:29]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 02:00:31]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 02:00:32]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 02:00:33]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 02:00:33] 💓 Cierre de Vela | Equity: $10,367.19 USD (Efectivo: $10,398.90 | Flotante: $-31.71 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 13
+[2026-11-24 02:00:37] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 02:00:43] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 02:00:45] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 02:00:45] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 02:00:46] [4. Francotirador] 🎯 [Francotirador] SOL/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-24 02:00:46] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 02:00:46] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 02:00:48] 📊 Marcador 7 Opciones | 1. WF Base: $10,367.19 (1A/13C) | 2. Híbrido ADX: $10,134.80 (2A/18C) | 3. Chimichurri: $10,511.61 (2A/17C) | 4. Francotirador: $9,890.21 (0A/8C) | 5. Berserker: $10,329.86 (3A/20C) | 6. Resorte: $9,689.72 (2A/6C) | 7. Escape: $11,391.17 (0A/16C)
+[2026-11-24 02:00:48] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
+[2026-11-24 02:00:50]    🔎 [BTC/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-24 02:00:53]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:00:55]    🔎 [SOL/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-24 02:00:58]    🔎 [BNB/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-24 02:01:00]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:03]    🔎 [DOGE/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-24 02:01:05]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.82, Exp=+0.45R, WR=51.7%, Trades=29
+[2026-11-24 02:01:07]    🔎 [AVAX/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.48, Exp=+0.27R, WR=50.0%, Trades=24
+[2026-11-24 02:01:10]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:12]    🔎 [PEPE/USDT] -> ACTIVO (Canasta sin WF) | volatility_breakout
+[2026-11-24 02:01:15]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:15]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:15]    🔎 [GBP/JPY] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=2.67, Exp=+0.66R, WR=66.7%, Trades=9
+[2026-11-24 02:01:16]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:16]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:16]    🔎 [GBP/USD] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.46, Exp=+0.25R, WR=52.0%, Trades=25
+[2026-11-24 02:01:16]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:17]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-24 02:01:17] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
