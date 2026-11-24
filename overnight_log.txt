@@ -3691,3 +3691,37 @@
 [2026-11-24 03:06:31] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 550.982285
 [2026-11-24 03:06:31] [7. Escape] 🔒 Stop (Breakeven+) en BTC/USDT SHORT ajustado a 60086.325115
 [2026-11-24 03:07:35] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 550.982285
+[2026-11-24 03:15:06] ☁️ [GITHUB CLOUD] Cierre de vela #16 (7 Opciones) de la sesión #14...
+[2026-11-24 03:15:09] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 95%) | Entrada: 0.65980000 | SL: 0.66797930 | TP: 0.64145176 | Tamaño: $17,188.89 USD (Riesgo controlado: $213.08) | OK riesgo 2.07% (dd 4.5%)
+[2026-11-24 03:15:12]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 03:15:12]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 03:15:12]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 03:15:12] 💓 Cierre de Vela | Equity: $10,296.67 USD (Efectivo: $10,398.90 | Flotante: $-102.23 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 13
+[2026-11-24 03:15:16] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: pérdida diaria -5.1%
+[2026-11-24 03:15:18] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: pérdida diaria -5.1%
+[2026-11-24 03:15:20] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -5.1%
+[2026-11-24 03:15:22] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO: pérdida diaria -5.1%
+[2026-11-24 03:15:23] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 03:15:23] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 03:15:23] [3. Chimichurri] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 95%) | Entrada: 0.65980000 | SL: 0.66797930 | TP: 0.63832800 | Tamaño: $4,683.48 USD (Riesgo controlado: $58.06) | OK riesgo 0.54% (dd -1.9%)
+[2026-11-24 03:15:23] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 03:15:24] [4. Francotirador] 🎯 [Francotirador] SOL/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-24 03:15:24] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 03:15:24] [4. Francotirador] 🎯 [Francotirador] SUI/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-24 03:15:25] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60067.4269494079
+[2026-11-24 03:15:26] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-24 03:15:26] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-24 03:15:26] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-24 03:15:26] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO: pérdida diaria -6.2%
+[2026-11-24 03:15:26] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 03:15:26] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 03:15:26] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 03:15:26] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 550.982285
+[2026-11-24 03:15:26] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60067.4269494079
+[2026-11-24 03:15:26] 📊 Marcador 7 Opciones | 1. WF Base: $10,296.67 (2A/13C) | 2. Híbrido ADX: $9,931.23 (1A/19C) | 3. Chimichurri: $10,835.64 (3A/17C) | 4. Francotirador: $10,113.43 (2A/8C) | 5. Berserker: $10,128.97 (2A/21C) | 6. Resorte: $9,829.11 (0A/8C) | 7. Escape: $11,771.09 (2A/16C)
+[2026-11-24 03:16:30] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59938.5373397571
+[2026-11-24 03:16:30] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 550.982285
+[2026-11-24 03:16:30] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59938.5373397571
+[2026-11-24 03:17:35] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59917.1173397571
+[2026-11-24 03:17:35] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 550.982285
+[2026-11-24 03:17:35] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59917.1173397571
