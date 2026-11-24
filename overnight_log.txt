@@ -4251,3 +4251,24 @@
 [2026-11-24 10:59:41]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 10:59:41]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 10:59:41] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-24 10:59:43] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #16...
+[2026-11-24 10:59:46]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -5.5%
+[2026-11-24 10:59:49]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 10:59:49]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 10:59:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 10:59:49] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-24 10:59:52] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 11:00:06] [2. Híbrido ADX] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 11:00:09] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 11:00:10] [6. Resorte] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 75%) | Entrada: 0.00000348 | SL: 0.00000342 | TP: 0.00000362 | Tamaño: $9,942.19 USD (Riesgo controlado: $163.58) | OK riesgo 1.70% (dd 5.1%)
+[2026-11-24 11:00:12] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,010.42 (2A/21C) | 4. Francotirador: $10,219.12 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,612.63 (1A/9C) | 7. Escape: $11,747.46 (2A/20C)
+[2026-11-24 11:01:12] ☁️ [GITHUB CLOUD] Cierre de vela #2 (7 Opciones) de la sesión #16...
+[2026-11-24 11:01:15]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 11:01:18]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 11:01:18]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 11:01:19]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 11:01:19] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-24 11:01:33] [2. Híbrido ADX] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 11:01:36] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 11:01:36] [6. Resorte] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 11:01:39] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,034.44 (2A/21C) | 4. Francotirador: $10,240.35 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,612.63 (1A/9C) | 7. Escape: $11,785.36 (2A/20C)
