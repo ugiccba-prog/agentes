@@ -4710,3 +4710,10 @@
 [2026-11-24 17:02:17]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 17:02:17] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-24 17:13:23] [7. Escape] ✅ CERRADA AVAX/USDT (SHORT) a 6.574 | PnL: $-25.16 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 17:15:29] ☁️ [GITHUB CLOUD] Cierre de vela #119 (7 Opciones) de la sesión #17...
+[2026-11-24 17:15:32]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 17:15:35]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 17:15:35]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 17:15:36]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 17:15:36] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-24 17:15:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,270.74 (3A/25C) | 4. Francotirador: $10,228.88 (2A/15C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,441.30 (0A/10C) | 7. Escape: $11,879.98 (1A/23C)
