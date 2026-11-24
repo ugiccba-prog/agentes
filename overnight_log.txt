@@ -3652,3 +3652,32 @@
 [2026-11-24 02:58:22]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 02:58:23]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 02:58:23] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-24 02:58:25] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #14...
+[2026-11-24 02:58:27]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 02:58:29]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 02:58:29]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 02:58:29]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 02:58:29] 💓 Cierre de Vela | Equity: $10,333.56 USD (Efectivo: $10,398.90 | Flotante: $-65.34 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 13
+[2026-11-24 02:58:41] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 02:58:42] 📊 Marcador 7 Opciones | 1. WF Base: $10,333.56 (1A/13C) | 2. Híbrido ADX: $9,893.86 (1A/19C) | 3. Chimichurri: $10,658.32 (2A/17C) | 4. Francotirador: $9,890.21 (0A/8C) | 5. Berserker: $10,044.52 (2A/21C) | 6. Resorte: $9,752.20 (1A/7C) | 7. Escape: $11,425.94 (1A/16C)
+[2026-11-24 03:00:46] ☁️ [GITHUB CLOUD] Cierre de vela #3 (7 Opciones) de la sesión #14...
+[2026-11-24 03:00:48]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 03:00:50]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 03:00:50]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 03:00:51]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 03:00:51] 💓 Cierre de Vela | Equity: $10,334.72 USD (Efectivo: $10,398.90 | Flotante: $-64.18 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 13
+[2026-11-24 03:00:53] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-24 03:00:55] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-24 03:00:57] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-24 03:01:01] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 03:01:01] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 03:01:01] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 03:01:03] [4. Francotirador] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 60176.59000000 | SL: 60595.90449574 | TP: 58666.23409464 | Tamaño: $13,351.78 USD (Riesgo controlado: $115.81) | OK riesgo 1.17% (dd 1.1%)
+[2026-11-24 03:01:03] [4. Francotirador] 🎯 [Francotirador] SOL/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-24 03:01:04] [4. Francotirador] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 98%) | Entrada: 550.54000000 | SL: 554.14033922 | TP: 537.84258284 | Tamaño: $13,351.78 USD (Riesgo controlado: $106.91) | OK riesgo 1.08% (dd 1.1%)
+[2026-11-24 03:01:04] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-24 03:01:04] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-24 03:01:04] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: pérdida diaria -7.0%
+[2026-11-24 03:01:05] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 97%) | Entrada: 60176.59000000 | SL: 60595.90449574 | TP: 58666.23409464 | Tamaño: $20,577.46 USD (Riesgo controlado: $178.45) | OK riesgo 1.56% (dd 0.7%)
+[2026-11-24 03:01:05] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 03:01:05] 📊 Marcador 7 Opciones | 1. WF Base: $10,334.72 (1A/13C) | 2. Híbrido ADX: $9,893.86 (1A/19C) | 3. Chimichurri: $10,665.68 (2A/17C) | 4. Francotirador: $9,863.51 (2A/8C) | 5. Berserker: $10,046.39 (2A/21C) | 6. Resorte: $9,744.25 (1A/7C) | 7. Escape: $11,395.86 (2A/16C)
