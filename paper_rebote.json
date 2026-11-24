@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 9829.11,
-  "equity_usd": 9829.11,
+  "equity_usd": 9763.08,
   "realized_pnl_usd": -170.89,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -66.03,
   "peak_equity_usd": 10218.73,
   "realized_peak_equity_usd": 10136.59,
   "day_start_equity_usd": 9583.15,
@@ -15,8 +15,28 @@
   "total_trades": 8,
   "winning_trades": 4,
   "losing_trades": 4,
-  "last_updated": "2026-11-24 04:58:49 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-24 05:02:43 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-500724",
+      "symbol": "PEPE/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "SHORT",
+      "entry_time": "2026-11-24 05:01:40 UTC",
+      "entry_price": 3.5e-06,
+      "current_price": 3.52e-06,
+      "size": 2808770654.2341,
+      "notional_usd": 9830.7,
+      "stop_loss": 3.5595e-06,
+      "take_profit": 3.3513e-06,
+      "initial_risk_dist": 5.95e-08,
+      "unrealized_pnl_usd": -66.03,
+      "unrealized_pnl_pct": -0.67,
+      "reason": "Rechazo en Banda Superior Bollinger (%B=0.95, ADX=18.2) + Giro RSI (56.5)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-533693",
