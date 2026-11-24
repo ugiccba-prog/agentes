@@ -3728,3 +3728,12 @@
 [2026-11-24 03:20:50] [4. Francotirador] ✅ CERRADA BTC/USDT (SHORT) a 59950.0 | PnL: $+36.95 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-24 03:20:50] [7. Escape] ✅ CERRADA BTC/USDT (SHORT) a 59950.0 | PnL: $+56.94 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-24 03:27:16] [4. Francotirador] ✅ CERRADA BNB/USDT (SHORT) a 549.85 | PnL: $+3.39 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 03:29:24] [5. Berserker] ✅ CERRADA SOL/USDT (SHORT) a 71.03 | PnL: $+51.52 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 03:29:24] [7. Escape] ✅ CERRADA BNB/USDT (SHORT) a 551.14 | PnL: $+4.17 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 03:30:25] ☁️ [GITHUB CLOUD] Cierre de vela #30 (7 Opciones) de la sesión #14...
+[2026-11-24 03:30:27]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 03:30:29]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 03:30:29]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 03:30:30]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 03:30:31] 💓 Cierre de Vela | Equity: $10,103.79 USD (Efectivo: $10,398.90 | Flotante: $-295.11 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 13
+[2026-11-24 03:30:42] 📊 Marcador 7 Opciones | 1. WF Base: $10,103.79 (2A/13C) | 2. Híbrido ADX: $9,911.30 (1A/19C) | 3. Chimichurri: $10,594.01 (3A/17C) | 4. Francotirador: $9,930.55 (0A/10C) | 5. Berserker: $10,064.93 (1A/22C) | 6. Resorte: $9,829.11 (0A/8C) | 7. Escape: $11,452.28 (0A/18C)
