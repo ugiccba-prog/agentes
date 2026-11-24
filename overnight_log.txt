@@ -4227,3 +4227,6 @@
 [2026-11-24 10:50:59] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 71.0929185829
 [2026-11-24 10:51:00] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 70.9457654857
 [2026-11-24 10:51:00] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59997.2709652707
+[2026-11-24 10:53:11] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 70.9229185829
+[2026-11-24 10:53:12] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 70.7757654857
+[2026-11-24 10:53:12] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59873.5809652707
