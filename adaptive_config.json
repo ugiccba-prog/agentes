@@ -1,5 +1,5 @@
 {
-  "session_count": 17,
+  "session_count": 18,
   "corrections_applied": 3,
   "global_risk_pct": 1.5,
   "phase": "Fase 2 — Fusión Laboratorio + Regímenes ADX",
@@ -252,5 +252,5 @@
       "notes": "RECHAZADO por Walk-Forward OOS (sin edge estadístico validado)"
     }
   },
-  "last_updated": "2026-11-24 18:03:13 UTC"
+  "last_updated": "2026-11-24 19:02:00 UTC"
 }
