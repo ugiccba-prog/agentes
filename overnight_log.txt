@@ -4145,3 +4145,7 @@
 [2026-11-24 09:49:03] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 207.9877150527
 [2026-11-24 09:50:05] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.9742625799
 [2026-11-24 09:50:07] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.0207198135
+[2026-11-24 09:52:15] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.9842570867
+[2026-11-24 09:52:18] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.0307143203
+[2026-11-24 09:53:20] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 208.0302623357
+[2026-11-24 09:53:23] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.0767195693
