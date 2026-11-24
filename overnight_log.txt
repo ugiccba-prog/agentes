@@ -3546,3 +3546,17 @@
 [2026-11-24 01:27:27] [3. Chimichurri] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-130.77 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-24 01:27:27] [4. Francotirador] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-92.15 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-24 01:27:27] [5. Berserker] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-167.52 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 01:30:37] ☁️ [GITHUB CLOUD] Cierre de vela #140 (7 Opciones) de la sesión #13...
+[2026-11-24 01:30:39]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 01:30:42]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 01:30:42]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 01:30:43] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 80%) | Entrada: 1.30475056 | SL: 1.30333962 | TP: 1.30756320 | Tamaño: $88,950.32 USD (Riesgo controlado: $96.19) | OK riesgo 0.93% (dd 3.7%)
+[2026-11-24 01:30:43] 💓 Cierre de Vela | Equity: $10,381.11 USD (Efectivo: $10,398.90 | Flotante: $-17.79 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 13
+[2026-11-24 01:30:54] [2. Híbrido ADX] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 98%) | Entrada: 207.19099426 | SL: 207.53079056 | TP: 206.31704368 | Tamaño: $103,226.40 USD (Riesgo controlado: $172.80) | OK riesgo 1.67% (dd 2.9%)
+[2026-11-24 01:30:54] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-24 01:30:55] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 98%) | Entrada: 207.19099426 | SL: 207.53079056 | TP: 206.17416833 | Tamaño: $103,216.00 USD (Riesgo controlado: $172.78) | OK riesgo 1.67% (dd 2.9%)
+[2026-11-24 01:30:55] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-24 01:30:56] [4. Francotirador] 🎯 [Francotirador] GBP/USD LONG descartado: sin alineación Macro 1H (0)
+[2026-11-24 01:30:56] [5. Berserker] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 98%) | Entrada: 207.19099426 | SL: 207.53079056 | TP: 206.31704368 | Tamaño: $131,873.00 USD (Riesgo controlado: $220.70) | OK riesgo 2.09% (dd 4.5%)
+[2026-11-24 01:30:56] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-24 01:30:57] 📊 Marcador 7 Opciones | 1. WF Base: $10,381.11 (1A/13C) | 2. Híbrido ADX: $10,255.34 (2A/18C) | 3. Chimichurri: $10,315.67 (2A/17C) | 4. Francotirador: $9,890.21 (0A/8C) | 5. Berserker: $10,460.46 (3A/20C) | 6. Resorte: $9,715.89 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
