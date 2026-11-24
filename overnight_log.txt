@@ -3629,3 +3629,5 @@
 [2026-11-24 02:50:55] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566854563
 [2026-11-24 02:52:00] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566754563
 [2026-11-24 02:53:07] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0565654563
+[2026-11-24 02:57:26] [2. Híbrido ADX] ✅ CERRADA PEPE/USDT (LONG) a 3.43e-06 | PnL: $-296.23 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 02:57:27] [5. Berserker] ✅ CERRADA PEPE/USDT (LONG) a 3.43e-06 | PnL: $-423.75 USD (Stop Loss / Trailing Stop Ejecutado)
