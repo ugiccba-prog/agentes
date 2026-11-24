@@ -4104,3 +4104,5 @@
 [2026-11-24 09:15:36] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
 [2026-11-24 09:15:38] [7. Escape] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT SHORT (Conv 97%) | Entrada: 0.65940000 | SL: 0.66609719 | TP: 0.64351146 | Tamaño: $18,797.67 USD (Riesgo controlado: $190.92) | OK riesgo 1.66% (dd 0.3%)
 [2026-11-24 09:15:38] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,729.11 (2A/20C) | 4. Francotirador: $10,164.81 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,449.98 (2A/19C)
+[2026-11-24 09:22:08] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.724348296
+[2026-11-24 09:22:11] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 207.7717906942
