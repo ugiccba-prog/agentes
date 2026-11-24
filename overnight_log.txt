@@ -3835,3 +3835,13 @@
 [2026-11-24 05:15:23]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-24 05:15:23] 💓 Cierre de Vela | Equity: $10,089.89 USD (Efectivo: $10,157.55 | Flotante: $-67.66 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 14
 [2026-11-24 05:15:35] 📊 Marcador 7 Opciones | 1. WF Base: $10,089.89 (1A/14C) | 2. Híbrido ADX: $9,825.60 (1A/19C) | 3. Chimichurri: $10,356.86 (2A/19C) | 4. Francotirador: $9,850.19 (1A/10C) | 5. Berserker: $9,955.45 (1A/22C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,452.28 (0A/18C)
+[2026-11-24 05:30:07] ☁️ [GITHUB CLOUD] Cierre de vela #143 (7 Opciones) de la sesión #14...
+[2026-11-24 05:30:09]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 05:30:11]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 05:30:11]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 05:30:12]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 05:30:12] 💓 Cierre de Vela | Equity: $10,123.52 USD (Efectivo: $10,157.55 | Flotante: $-34.03 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 14
+[2026-11-24 05:30:22] [2. Híbrido ADX] ✅ Cerrada posición SHORT en GBP/JPY a 207.54500 | PnL: $-197.03 USD (Señal contraria confirmada)
+[2026-11-24 05:30:23] [3. Chimichurri] ✅ Cerrada posición SHORT en GBP/JPY a 207.54500 | PnL: $-197.01 USD (Señal contraria confirmada)
+[2026-11-24 05:30:23] [5. Berserker] ✅ Cerrada posición SHORT en GBP/JPY a 207.54500 | PnL: $-251.71 USD (Señal contraria confirmada)
+[2026-11-24 05:30:23] 📊 Marcador 7 Opciones | 1. WF Base: $10,123.52 (1A/14C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,318.83 (1A/20C) | 4. Francotirador: $9,875.11 (1A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,452.28 (0A/18C)
