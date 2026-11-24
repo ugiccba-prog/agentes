@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11452.28,
-  "equity_usd": 11471.41,
-  "realized_pnl_usd": 1452.28,
-  "unrealized_pnl_usd": 19.13,
+  "cash_balance_usd": 11305.8,
+  "equity_usd": 11413.07,
+  "realized_pnl_usd": 1305.8,
+  "unrealized_pnl_usd": 107.27,
   "peak_equity_usd": 11906.09,
   "realized_peak_equity_usd": 11514.68,
   "day_start_equity_usd": 11391.17,
@@ -12,10 +12,10 @@
   "realized_max_drawdown_pct": 2.6659881125658647,
   "dd_halt_until_utc": "",
   "dd_recovery_mode": false,
-  "total_trades": 18,
+  "total_trades": 19,
   "winning_trades": 12,
-  "losing_trades": 6,
-  "last_updated": "2026-11-24 08:43:58 UTC",
+  "losing_trades": 7,
+  "last_updated": "2026-11-24 08:47:35 UTC",
   "open_positions": [
     {
       "id": "ORD-170631",
@@ -34,25 +34,6 @@
       "unrealized_pnl_usd": 107.27,
       "unrealized_pnl_pct": 0.09,
       "reason": "Ruptura Alcista de Bollinger con expansión MACD (ADX=28.2, Vol=1.00x, RSI=66.4)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    },
-    {
-      "id": "ORD-53602",
-      "symbol": "AVAX/USDT",
-      "market": "CRYPTO",
-      "strategy": "volatility_breakout",
-      "side": "SHORT",
-      "entry_time": "2026-11-24 08:30:53 UTC",
-      "entry_price": 6.708,
-      "current_price": 6.73,
-      "size": 3068.98927,
-      "notional_usd": 20586.78,
-      "stop_loss": 6.7473296753,
-      "take_profit": 6.560894178,
-      "initial_risk_dist": 0.0393296753,
-      "unrealized_pnl_usd": -88.14,
-      "unrealized_pnl_pct": -0.43,
-      "reason": "Ruptura Bajista de Bollinger con expansión MACD (ADX=26.1, Vol=2.21x, RSI=34.3)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
   ],
@@ -380,6 +361,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 163.92,
       "r_multiple": 0.025
+    },
+    {
+      "id": "ORD-53602",
+      "symbol": "AVAX/USDT",
+      "market": "CRYPTO",
+      "strategy": "volatility_breakout",
+      "side": "SHORT",
+      "entry_time": "2026-11-24 08:30:53 UTC",
+      "exit_time": "2026-11-24 08:47:34 UTC",
+      "entry_price": 6.708,
+      "exit_price": 6.749,
+      "size": 3068.98927,
+      "pnl_usd": -146.48,
+      "pnl_pct": -0.71,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 120.7,
+      "r_multiple": -1.214
     }
   ],
   "excluded_trades": []
