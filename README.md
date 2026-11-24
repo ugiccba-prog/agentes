@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-24 12:47:23 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-24 12:50:39 UTC`
 
 ---
 
@@ -12,11 +12,11 @@
 |---|---|---|---|---|---|---|---|
 | **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,036.61` | **`$+36.61`** (`+0.37%`) | ⚪ *Sin abiertas* | `7W / 8L` (`15`) | `1.03` | `7.86%` / `7.02%` |
 | **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,752.36` | **`$-247.64`** (`-2.48%`) | ⚪ *Sin abiertas* | `11W / 9L` (`20`) | `0.86` | `9.11%` / `8.29%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,117.40` | **`$+1,117.40`** (`+11.17%`) | 🟢 `GBP/USD` LONG (`$+214.50`)<br>🔴 `AVAX/USDT` SHORT (`$-25.33`) | `14W / 8L` (`22`) | `1.67` | `6.39%` / `4.57%` |
-| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,148.26` | **`$+148.26`** (`+1.48%`) | 🔴 `AVAX/USDT` SHORT (`$-17.47`) | `8W / 4L` (`12`) | `1.30` | `5.03%` / `3.48%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,139.14` | **`$+1,139.14`** (`+11.39%`) | 🟢 `GBP/USD` LONG (`$+221.69`)<br>🔴 `AVAX/USDT` SHORT (`$-10.78`) | `14W / 8L` (`22`) | `1.67` | `6.39%` / `4.57%` |
+| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,158.29` | **`$+158.29`** (`+1.58%`) | 🔴 `AVAX/USDT` SHORT (`$-7.44`) | `8W / 4L` (`12`) | `1.30` | `5.03%` / `3.48%` |
 | **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,861.88` | **`$-138.12`** (`-1.38%`) | ⚪ *Sin abiertas* | `12W / 11L` (`23`) | `0.95` | `12.49%` / `10.75%` |
-| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,498.41` | **`$-501.59`** (`-5.02%`) | 🟢 `PEPE/USDT` LONG (`$-124.16`) | `4W / 5L` (`9`) | `0.62` | `7.33%` / `6.10%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,887.26` | **`$+1,887.26`** (`+18.87%`) | 🔴 `SUI/USDT` SHORT (`$+55.36`) | `14W / 7L` (`21`) | `3.34` | `5.97%` / `2.67%` |
+| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,526.96` | **`$-473.04`** (`-4.73%`) | 🟢 `PEPE/USDT` LONG (`$-95.61`) | `4W / 5L` (`9`) | `0.62` | `7.33%` / `6.10%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,895.81` | **`$+1,895.81`** (`+18.96%`) | 🔴 `SUI/USDT` SHORT (`$+63.91`) | `14W / 7L` (`21`) | `3.34` | `5.97%` / `2.67%` |
 
 ---
 
@@ -28,11 +28,11 @@
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+55.36`) |
-| `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-25.33`) | 🔴 **SHORT** (`$-17.47`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-124.16`) | ⚪ Esperando |
+| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+63.91`) |
+| `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-10.78`) | 🔴 **SHORT** (`$-7.44`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-95.61`) | ⚪ Esperando |
 | `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+214.50`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+221.69`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
 
@@ -85,8 +85,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-24 12:16:08] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
-[2026-11-24 12:16:11] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,048.62 (2A/22C) | 4. Francotirador: $10,152.27 (1A/12C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,555.52 (1A/9C) | 7. Escape: $11,881.55 (1A/21C)
 [2026-11-24 12:30:15] ☁️ [GITHUB CLOUD] Cierre de vela #81 (7 Opciones) de la sesión #16...
 [2026-11-24 12:30:19]    SUI/USDT | Esperando señal de chimichurri_alpha
 [2026-11-24 12:30:22]    AVAX/USDT | Esperando señal de chimichurri_alpha
@@ -105,4 +103,6 @@
 [2026-11-24 12:46:15] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3084151491
 [2026-11-24 12:46:18] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,113.07 (2A/22C) | 4. Francotirador: $10,146.25 (1A/12C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,498.41 (1A/9C) | 7. Escape: $11,881.55 (1A/21C)
 [2026-11-24 12:47:20] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.308432196
+[2026-11-24 12:48:27] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3084838136
+[2026-11-24 12:49:32] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3085695251
 ```
