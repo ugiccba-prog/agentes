@@ -4141,3 +4141,7 @@
 [2026-11-24 09:45:46] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,744.48 (2A/20C) | 4. Francotirador: $10,063.93 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,462.98 (2A/19C)
 [2026-11-24 09:47:53] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.9022563543
 [2026-11-24 09:47:56] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 207.9487135879
+[2026-11-24 09:49:00] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.9412578191
+[2026-11-24 09:49:03] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 207.9877150527
+[2026-11-24 09:50:05] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 207.9742625799
+[2026-11-24 09:50:07] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.0207198135
