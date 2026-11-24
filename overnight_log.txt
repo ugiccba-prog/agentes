@@ -4075,3 +4075,4 @@
 [2026-11-24 09:01:24]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 09:01:24]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 09:01:24] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-24 09:12:04] [4. Francotirador] 🔒 Stop (Breakeven+) en BTC/USDT SHORT ajustado a 60357.22815
