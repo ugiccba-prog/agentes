@@ -3472,3 +3472,13 @@
 [2026-11-24 00:01:05]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-24 00:01:06] 💓 Cierre de Vela | Equity: $10,620.84 USD (Efectivo: $10,794.68 | Flotante: $-173.84 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 11
 [2026-11-24 00:01:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,620.84 (2A/11C) | 2. Híbrido ADX: $10,463.17 (2A/16C) | 3. Chimichurri: $10,593.46 (2A/16C) | 4. Francotirador: $9,955.67 (1A/7C) | 5. Berserker: $10,796.27 (3A/18C) | 6. Resorte: $9,583.15 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
+[2026-11-24 00:15:14] ☁️ [GITHUB CLOUD] Cierre de vela #71 (7 Opciones) de la sesión #13...
+[2026-11-24 00:15:17]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 00:15:19]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 00:15:19]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 00:15:20]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 00:15:21] 💓 Cierre de Vela | Equity: $10,584.89 USD (Efectivo: $10,794.68 | Flotante: $-209.79 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 11
+[2026-11-24 00:15:32] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 00:15:32] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-24 00:15:33] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: apalancamiento al tope (25x)
+[2026-11-24 00:15:35] 📊 Marcador 7 Opciones | 1. WF Base: $10,584.89 (2A/11C) | 2. Híbrido ADX: $10,427.87 (2A/16C) | 3. Chimichurri: $10,554.34 (2A/16C) | 4. Francotirador: $9,948.83 (1A/7C) | 5. Berserker: $10,737.07 (3A/18C) | 6. Resorte: $9,606.03 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
