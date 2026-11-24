@@ -3560,3 +3560,11 @@
 [2026-11-24 01:30:56] [5. Berserker] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 98%) | Entrada: 207.19099426 | SL: 207.53079056 | TP: 206.31704368 | Tamaño: $131,873.00 USD (Riesgo controlado: $220.70) | OK riesgo 2.09% (dd 4.5%)
 [2026-11-24 01:30:56] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-24 01:30:57] 📊 Marcador 7 Opciones | 1. WF Base: $10,381.11 (1A/13C) | 2. Híbrido ADX: $10,255.34 (2A/18C) | 3. Chimichurri: $10,315.67 (2A/17C) | 4. Francotirador: $9,890.21 (0A/8C) | 5. Berserker: $10,460.46 (3A/20C) | 6. Resorte: $9,715.89 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
+[2026-11-24 01:45:59] ☁️ [GITHUB CLOUD] Cierre de vela #154 (7 Opciones) de la sesión #13...
+[2026-11-24 01:46:01]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 01:46:03]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 01:46:04]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 01:46:04]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 01:46:05] 💓 Cierre de Vela | Equity: $10,379.96 USD (Efectivo: $10,398.90 | Flotante: $-18.94 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 13
+[2026-11-24 01:46:18] [6. Resorte] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 75%) | Entrada: 0.05702000 | SL: 0.05761249 | TP: 0.05581878 | Tamaño: $15,113.41 USD (Riesgo controlado: $157.04) | OK riesgo 1.62% (dd 4.1%)
+[2026-11-24 01:46:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,379.96 (1A/13C) | 2. Híbrido ADX: $10,214.48 (2A/18C) | 3. Chimichurri: $10,321.39 (2A/17C) | 4. Francotirador: $9,890.21 (0A/8C) | 5. Berserker: $10,420.08 (3A/20C) | 6. Resorte: $9,684.44 (2A/6C) | 7. Escape: $11,391.17 (0A/16C)
