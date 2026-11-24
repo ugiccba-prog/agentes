@@ -3541,3 +3541,8 @@
 [2026-11-24 01:15:36] [4. Francotirador] 🎯 [Francotirador] PEPE/USDT LONG descartado: sin alineación Macro 1H (0)
 [2026-11-24 01:15:36] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 96%) | Entrada: 0.00000349 | SL: 0.00000343 | TP: 0.00000363 | Tamaño: $23,304.09 USD (Riesgo controlado: $368.46) | OK riesgo 3.50% (dd 4.7%)
 [2026-11-24 01:15:37] 📊 Marcador 7 Opciones | 1. WF Base: $10,458.07 (1A/12C) | 2. Híbrido ADX: $10,286.94 (2A/17C) | 3. Chimichurri: $10,401.91 (2A/16C) | 4. Francotirador: $9,931.25 (1A/7C) | 5. Berserker: $10,496.57 (3A/19C) | 6. Resorte: $9,701.31 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
+[2026-11-24 01:27:24] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-132.86 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 01:27:26] [2. Híbrido ADX] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-129.34 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 01:27:27] [3. Chimichurri] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-130.77 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 01:27:27] [4. Francotirador] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-92.15 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 01:27:27] [5. Berserker] ✅ CERRADA GBP/USD (SHORT) a 1.304665446281433 | PnL: $-167.52 USD (Stop Loss / Trailing Stop Ejecutado)
