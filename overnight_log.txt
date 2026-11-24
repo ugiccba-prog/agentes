@@ -3827,3 +3827,4 @@
 [2026-11-24 05:01:39] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: pérdida diaria -7.1%
 [2026-11-24 05:01:40] [6. Resorte] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 75%) | Entrada: 0.00000350 | SL: 0.00000356 | TP: 0.00000335 | Tamaño: $9,830.70 USD (Riesgo controlado: $167.09) | OK riesgo 1.70% (dd 3.0%)
 [2026-11-24 05:01:40] 📊 Marcador 7 Opciones | 1. WF Base: $10,085.26 (1A/14C) | 2. Híbrido ADX: $9,875.43 (1A/19C) | 3. Chimichurri: $10,502.22 (2A/19C) | 4. Francotirador: $9,917.83 (1A/10C) | 5. Berserker: $10,019.10 (1A/22C) | 6. Resorte: $9,819.28 (1A/8C) | 7. Escape: $11,452.28 (0A/18C)
+[2026-11-24 05:11:10] [6. Resorte] ✅ CERRADA PEPE/USDT (SHORT) a 3.57e-06 | PnL: $-206.54 USD (Stop Loss / Trailing Stop Ejecutado)

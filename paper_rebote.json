@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 9829.11,
-  "equity_usd": 9706.87,
-  "realized_pnl_usd": -170.89,
-  "unrealized_pnl_usd": -122.24,
+  "cash_balance_usd": 9622.57,
+  "equity_usd": 9622.57,
+  "realized_pnl_usd": -377.43,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 10218.73,
   "realized_peak_equity_usd": 10136.59,
   "day_start_equity_usd": 9583.15,
@@ -12,31 +12,11 @@
   "realized_max_drawdown_pct": 6.102150723270839,
   "dd_halt_until_utc": "",
   "dd_recovery_mode": false,
-  "total_trades": 8,
+  "total_trades": 9,
   "winning_trades": 4,
-  "losing_trades": 4,
-  "last_updated": "2026-11-24 05:09:03 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-500724",
-      "symbol": "PEPE/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "SHORT",
-      "entry_time": "2026-11-24 05:01:40 UTC",
-      "entry_price": 3.5e-06,
-      "current_price": 3.54e-06,
-      "size": 2808770654.2341,
-      "notional_usd": 9830.7,
-      "stop_loss": 3.5595e-06,
-      "take_profit": 3.3513e-06,
-      "initial_risk_dist": 5.95e-08,
-      "unrealized_pnl_usd": -122.24,
-      "unrealized_pnl_pct": -1.24,
-      "reason": "Rechazo en Banda Superior Bollinger (%B=0.95, ADX=18.2) + Giro RSI (56.5)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 5,
+  "last_updated": "2026-11-24 05:12:12 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-533693",
@@ -181,6 +161,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 157.04,
       "r_multiple": 1.981
+    },
+    {
+      "id": "ORD-500724",
+      "symbol": "PEPE/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "SHORT",
+      "entry_time": "2026-11-24 05:01:40 UTC",
+      "exit_time": "2026-11-24 05:11:09 UTC",
+      "entry_price": 3.5e-06,
+      "exit_price": 3.57e-06,
+      "size": 2808770654.2341,
+      "pnl_usd": -206.54,
+      "pnl_pct": -2.1,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 167.12,
+      "r_multiple": -1.236
     }
   ],
   "excluded_trades": []
