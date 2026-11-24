@@ -4709,3 +4709,4 @@
 [2026-11-24 17:02:16]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 17:02:17]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 17:02:17] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-24 17:13:23] [7. Escape] ✅ CERRADA AVAX/USDT (SHORT) a 6.574 | PnL: $-25.16 USD (Stop Loss / Trailing Stop Ejecutado)
