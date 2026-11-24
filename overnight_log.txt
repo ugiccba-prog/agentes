@@ -4017,3 +4017,11 @@
 [2026-11-24 08:15:21]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-24 08:15:21] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
 [2026-11-24 08:15:38] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,461.86 (2A/20C) | 4. Francotirador: $9,954.46 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,524.80 (1A/18C)
+[2026-11-24 08:30:27] ☁️ [GITHUB CLOUD] Cierre de vela #84 (7 Opciones) de la sesión #15...
+[2026-11-24 08:30:30]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 08:30:33]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 08:30:34]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 08:30:34]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 08:30:34] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-24 08:30:53] [7. Escape] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 95%) | Entrada: 6.70800000 | SL: 6.74732968 | TP: 6.56089418 | Tamaño: $20,586.78 USD (Riesgo controlado: $154.74) | OK riesgo 1.35% (dd 0.7%)
+[2026-11-24 08:30:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,495.35 (2A/20C) | 4. Francotirador: $10,012.27 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,482.70 (2A/18C)
