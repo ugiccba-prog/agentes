@@ -4424,3 +4424,9 @@
 [2026-11-24 13:10:24] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.6540983169
 [2026-11-24 13:11:26] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en AVAX/USDT SHORT ajustado a 6.6932214326
 [2026-11-24 13:11:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6823511938
+[2026-11-24 13:12:32] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en AVAX/USDT SHORT ajustado a 6.6332214326
+[2026-11-24 13:12:33] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6223511938
+[2026-11-24 13:12:33] [4. Francotirador] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.055486645
+[2026-11-24 13:12:35] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.6516983169
+[2026-11-24 13:13:37] [3. Chimichurri] ✅ CERRADA AVAX/USDT (SHORT) a 6.545 | PnL: $+454.77 USD (Take Profit Alcanzado)
+[2026-11-24 13:13:38] [4. Francotirador] ✅ CERRADA AVAX/USDT (SHORT) a 6.545 | PnL: $+313.76 USD (Take Profit Alcanzado)
