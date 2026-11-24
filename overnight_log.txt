@@ -4306,3 +4306,9 @@
 [2026-11-24 11:45:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,108.81 (2A/21C) | 4. Francotirador: $10,195.98 (1A/11C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,555.52 (1A/9C) | 7. Escape: $11,917.73 (2A/20C)
 [2026-11-24 11:46:55] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.307188709
 [2026-11-24 11:46:55] [4. Francotirador] ✅ CERRADA SOL/USDT (SHORT) a 70.65 | PnL: $+138.58 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 11:48:01] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.307188709
+[2026-11-24 11:49:06] [3. Chimichurri] ✅ CERRADA SOL/USDT (SHORT) a 70.79 | PnL: $+160.55 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 11:49:06] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.307188709
+[2026-11-24 11:49:09] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3074704926
+[2026-11-24 11:50:10] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3073898698
+[2026-11-24 11:50:13] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3075731318
