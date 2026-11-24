@@ -3628,3 +3628,4 @@
 [2026-11-24 02:47:38] [6. Resorte] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05693447
 [2026-11-24 02:50:55] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566854563
 [2026-11-24 02:52:00] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566754563
+[2026-11-24 02:53:07] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0565654563
