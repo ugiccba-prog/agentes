@@ -4221,3 +4221,9 @@
 [2026-11-24 10:45:34] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
 [2026-11-24 10:45:34] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
 [2026-11-24 10:45:36] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,986.12 (2A/21C) | 4. Francotirador: $10,250.02 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,789.94 (2A/20C)
+[2026-11-24 10:49:54] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 71.1829185829
+[2026-11-24 10:49:56] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 71.0357654857
+[2026-11-24 10:49:56] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60045.5709652707
+[2026-11-24 10:50:59] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 71.0929185829
+[2026-11-24 10:51:00] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 70.9457654857
+[2026-11-24 10:51:00] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59997.2709652707
