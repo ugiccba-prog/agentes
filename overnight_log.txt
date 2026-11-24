@@ -3530,3 +3530,14 @@
 [2026-11-24 01:01:21]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-24 01:01:21] 💓 Cierre de Vela | Equity: $10,452.44 USD (Efectivo: $10,531.76 | Flotante: $-79.32 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 12
 [2026-11-24 01:01:34] 📊 Marcador 7 Opciones | 1. WF Base: $10,452.44 (1A/12C) | 2. Híbrido ADX: $10,297.75 (1A/17C) | 3. Chimichurri: $10,447.86 (2A/16C) | 4. Francotirador: $9,927.35 (1A/7C) | 5. Berserker: $10,525.85 (2A/19C) | 6. Resorte: $9,664.10 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
+[2026-11-24 01:15:18] ☁️ [GITHUB CLOUD] Cierre de vela #126 (7 Opciones) de la sesión #13...
+[2026-11-24 01:15:20]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 01:15:22]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 01:15:22]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 01:15:23]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 01:15:23] 💓 Cierre de Vela | Equity: $10,458.07 USD (Efectivo: $10,531.76 | Flotante: $-73.69 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 12
+[2026-11-24 01:15:35] [2. Híbrido ADX] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 96%) | Entrada: 0.00000349 | SL: 0.00000343 | TP: 0.00000363 | Tamaño: $16,291.42 USD (Riesgo controlado: $257.58) | OK riesgo 2.50% (dd 3.1%)
+[2026-11-24 01:15:35] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-24 01:15:36] [4. Francotirador] 🎯 [Francotirador] PEPE/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-24 01:15:36] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 96%) | Entrada: 0.00000349 | SL: 0.00000343 | TP: 0.00000363 | Tamaño: $23,304.09 USD (Riesgo controlado: $368.46) | OK riesgo 3.50% (dd 4.7%)
+[2026-11-24 01:15:37] 📊 Marcador 7 Opciones | 1. WF Base: $10,458.07 (1A/12C) | 2. Híbrido ADX: $10,286.94 (2A/17C) | 3. Chimichurri: $10,401.91 (2A/16C) | 4. Francotirador: $9,931.25 (1A/7C) | 5. Berserker: $10,496.57 (3A/19C) | 6. Resorte: $9,701.31 (1A/6C) | 7. Escape: $11,391.17 (0A/16C)
