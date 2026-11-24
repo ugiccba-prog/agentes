@@ -4418,3 +4418,9 @@
 [2026-11-24 13:02:34] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3089014107
 [2026-11-24 13:05:54] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3091761881
 [2026-11-24 13:07:01] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3093650156
+[2026-11-24 13:09:18] [6. Resorte] ✅ CERRADA PEPE/USDT (LONG) a 3.42e-06 | PnL: $-181.27 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 13:10:21] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en AVAX/USDT SHORT ajustado a 6.6932214326
+[2026-11-24 13:10:23] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6823511938
+[2026-11-24 13:10:24] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT SHORT ajustado a 0.6540983169
+[2026-11-24 13:11:26] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en AVAX/USDT SHORT ajustado a 6.6932214326
+[2026-11-24 13:11:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6823511938
