@@ -4033,3 +4033,7 @@
 [2026-11-24 08:46:12] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
 [2026-11-24 08:46:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,458.34 (2A/20C) | 4. Francotirador: $9,883.82 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,428.97 (2A/18C)
 [2026-11-24 08:47:35] [7. Escape] ✅ CERRADA AVAX/USDT (SHORT) a 6.749 | PnL: $-146.48 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-24 08:52:54] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 207.6672772262
+[2026-11-24 08:52:55] [7. Escape] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 207.6672772262
+[2026-11-24 08:53:57] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 207.6672772262
+[2026-11-24 08:53:58] [7. Escape] 🔒 Stop (Breakeven+) en GBP/JPY LONG ajustado a 207.6672772262
