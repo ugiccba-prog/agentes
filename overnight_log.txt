@@ -3845,3 +3845,14 @@
 [2026-11-24 05:30:23] [3. Chimichurri] ✅ Cerrada posición SHORT en GBP/JPY a 207.54500 | PnL: $-197.01 USD (Señal contraria confirmada)
 [2026-11-24 05:30:23] [5. Berserker] ✅ Cerrada posición SHORT en GBP/JPY a 207.54500 | PnL: $-251.71 USD (Señal contraria confirmada)
 [2026-11-24 05:30:23] 📊 Marcador 7 Opciones | 1. WF Base: $10,123.52 (1A/14C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,318.83 (1A/20C) | 4. Francotirador: $9,875.11 (1A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,452.28 (0A/18C)
+[2026-11-24 05:45:54] ☁️ [GITHUB CLOUD] Cierre de vela #158 (7 Opciones) de la sesión #14...
+[2026-11-24 05:45:56]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 05:45:58]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 05:45:58]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 05:45:58]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 05:45:58] 💓 Cierre de Vela | Equity: $10,116.56 USD (Efectivo: $10,157.55 | Flotante: $-40.99 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 14
+[2026-11-24 05:46:09] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 05:46:09] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG (Conv 88%) | Entrada: 207.60499573 | SL: 207.36030674 | TP: 208.37232766 | Tamaño: $102,786.00 USD (Riesgo controlado: $128.07) | OK riesgo 1.25% (dd 3.6%)
+[2026-11-24 05:46:10] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 05:46:10] [7. Escape] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG (Conv 90%) | Entrada: 207.60499573 | SL: 207.36030674 | TP: 208.31851878 | Tamaño: $114,522.80 USD (Riesgo controlado: $142.70) | OK riesgo 1.25% (dd 0.5%)
+[2026-11-24 05:46:10] 📊 Marcador 7 Opciones | 1. WF Base: $10,116.56 (1A/14C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,255.53 (2A/20C) | 4. Francotirador: $9,844.85 (1A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,429.38 (1A/18C)
