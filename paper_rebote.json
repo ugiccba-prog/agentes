@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 9518.04,
-  "equity_usd": 9768.11,
-  "realized_pnl_usd": -481.96,
-  "unrealized_pnl_usd": 250.07,
+  "cash_balance_usd": 9829.11,
+  "equity_usd": 9829.11,
+  "realized_pnl_usd": -170.89,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 10218.73,
   "realized_peak_equity_usd": 10136.59,
   "day_start_equity_usd": 9583.15,
@@ -12,31 +12,11 @@
   "realized_max_drawdown_pct": 6.102150723270839,
   "dd_halt_until_utc": "",
   "dd_recovery_mode": false,
-  "total_trades": 7,
-  "winning_trades": 3,
+  "total_trades": 8,
+  "winning_trades": 4,
   "losing_trades": 4,
-  "last_updated": "2026-11-24 03:04:21 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-778799",
-      "symbol": "DOGE/USDT",
-      "market": "CRYPTO",
-      "strategy": "bollinger_reversion",
-      "side": "SHORT",
-      "entry_time": "2026-11-24 01:46:18 UTC",
-      "entry_price": 0.05702,
-      "current_price": 0.05602,
-      "size": 265054.4957,
-      "notional_usd": 15113.41,
-      "stop_loss": 0.0565654563,
-      "take_profit": 0.0558187832,
-      "initial_risk_dist": 0.0005924867,
-      "unrealized_pnl_usd": 250.07,
-      "unrealized_pnl_pct": 1.65,
-      "reason": "Rechazo en Banda Superior Bollinger (%B=1.07, ADX=18.4) + Giro RSI (58.7)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "last_updated": "2026-11-24 03:07:35 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-533693",
@@ -163,6 +143,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 168.25,
       "r_multiple": -1.097
+    },
+    {
+      "id": "ORD-778799",
+      "symbol": "DOGE/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "SHORT",
+      "entry_time": "2026-11-24 01:46:18 UTC",
+      "exit_time": "2026-11-24 03:05:26 UTC",
+      "entry_price": 0.05702,
+      "exit_price": 0.05579,
+      "size": 265054.4957,
+      "pnl_usd": 311.07,
+      "pnl_pct": 2.06,
+      "exit_reason": "Take Profit Alcanzado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 157.04,
+      "r_multiple": 1.981
     }
   ],
   "excluded_trades": []

@@ -3681,3 +3681,13 @@
 [2026-11-24 03:01:05] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 97%) | Entrada: 60176.59000000 | SL: 60595.90449574 | TP: 58666.23409464 | Tamaño: $20,577.46 USD (Riesgo controlado: $178.45) | OK riesgo 1.56% (dd 0.7%)
 [2026-11-24 03:01:05] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-24 03:01:05] 📊 Marcador 7 Opciones | 1. WF Base: $10,334.72 (1A/13C) | 2. Híbrido ADX: $9,893.86 (1A/19C) | 3. Chimichurri: $10,665.68 (2A/17C) | 4. Francotirador: $9,863.51 (2A/8C) | 5. Berserker: $10,046.39 (2A/21C) | 6. Resorte: $9,744.25 (1A/7C) | 7. Escape: $11,395.86 (2A/16C)
+[2026-11-24 03:05:24] [3. Chimichurri] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 71.822105
+[2026-11-24 03:05:26] [5. Berserker] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 71.822105
+[2026-11-24 03:05:28] [6. Resorte] ✅ CERRADA DOGE/USDT (SHORT) a 0.05579 | PnL: $+311.07 USD (Take Profit Alcanzado)
+[2026-11-24 03:06:29] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 71.2120631104
+[2026-11-24 03:06:31] [4. Francotirador] 🔒 Stop (Breakeven+) en BTC/USDT SHORT ajustado a 60086.325115
+[2026-11-24 03:06:31] [4. Francotirador] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 549.71419
+[2026-11-24 03:06:31] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SOL/USDT SHORT ajustado a 70.987160197
+[2026-11-24 03:06:31] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 550.982285
+[2026-11-24 03:06:31] [7. Escape] 🔒 Stop (Breakeven+) en BTC/USDT SHORT ajustado a 60086.325115
+[2026-11-24 03:07:35] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 550.982285
