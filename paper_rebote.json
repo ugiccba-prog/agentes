@@ -8,14 +8,14 @@
   "realized_peak_equity_usd": 10136.59,
   "day_start_equity_usd": 9583.15,
   "current_day_utc": "2026-11-24",
-  "max_drawdown_pct": 7.049016854344914,
+  "max_drawdown_pct": 7.3285036398847865,
   "realized_max_drawdown_pct": 6.102150723270839,
   "dd_halt_until_utc": "",
   "dd_recovery_mode": false,
   "total_trades": 9,
   "winning_trades": 4,
   "losing_trades": 5,
-  "last_updated": "2026-11-24 12:33:57 UTC",
+  "last_updated": "2026-11-24 12:37:12 UTC",
   "open_positions": [
     {
       "id": "ORD-10808",
