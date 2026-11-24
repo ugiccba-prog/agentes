@@ -3943,3 +3943,18 @@
 [2026-11-24 06:58:55]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 06:58:55]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-24 06:58:55] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-24 06:58:56] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #15...
+[2026-11-24 06:58:59]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 06:59:02]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 06:59:03]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 06:59:03]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 06:59:03] 💓 Cierre de Vela | Equity: $10,060.92 USD (Efectivo: $10,157.55 | Flotante: $-96.63 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 14
+[2026-11-24 06:59:21] 📊 Marcador 7 Opciones | 1. WF Base: $10,060.92 (1A/14C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,304.12 (2A/20C) | 4. Francotirador: $9,824.57 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,477.91 (1A/18C)
+[2026-11-24 07:00:21] ☁️ [GITHUB CLOUD] Cierre de vela #2 (7 Opciones) de la sesión #15...
+[2026-11-24 07:00:24]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 07:00:27]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 07:00:28]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 07:00:28]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 07:00:28] 💓 Cierre de Vela | Equity: $10,050.49 USD (Efectivo: $10,157.55 | Flotante: $-107.06 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 14
+[2026-11-24 07:00:46] 📊 Marcador 7 Opciones | 1. WF Base: $10,050.49 (1A/14C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $10,298.83 (2A/20C) | 4. Francotirador: $9,842.48 (2A/10C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,622.57 (0A/9C) | 7. Escape: $11,460.82 (1A/18C)
+[2026-11-24 07:01:46] ✅ CERRADA GBP/USD (LONG) a 1.3032373189926147 | PnL: $-120.94 USD (Stop Loss / Trailing Stop Ejecutado)
