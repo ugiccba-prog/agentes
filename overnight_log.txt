@@ -4594,3 +4594,25 @@
 [2026-11-24 15:16:28] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT (Conv 98%) | Entrada: 69.16000000 | SL: 70.15583892 | TP: 66.94898803 | Tamaño: $15,350.21 USD (Riesgo controlado: $221.03) | OK riesgo 1.83% (dd -0.8%)
 [2026-11-24 15:16:28] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-24 15:16:30] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,350.64 (3A/25C) | 4. Francotirador: $10,324.14 (2A/15C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,441.30 (0A/10C) | 7. Escape: $12,072.87 (2A/22C)
+[2026-11-24 15:30:50] ☁️ [GITHUB CLOUD] Cierre de vela #28 (7 Opciones) de la sesión #17...
+[2026-11-24 15:30:53]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -5.5%
+[2026-11-24 15:30:56]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-24 15:30:56]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-24 15:30:57]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-24 15:30:57] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-24 15:31:04] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 15:31:09] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 15:31:09] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-24 15:31:12] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 15:31:12] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 15:31:12] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 15:31:15] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 15:31:15] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 15:31:15] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 15:31:16] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 15:31:16] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 15:31:16] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pérdida diaria -8.7%
+[2026-11-24 15:31:16] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-24 15:31:16] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 15:31:16] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-24 15:31:18] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,366.26 (3A/25C) | 4. Francotirador: $10,339.11 (2A/15C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,441.30 (0A/10C) | 7. Escape: $12,103.97 (2A/22C)
