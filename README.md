@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-24 11:56:36 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `16` | **Última actualización:** `2026-11-24 11:59:48 UTC`
 
 ---
 
@@ -12,11 +12,11 @@
 |---|---|---|---|---|---|---|---|
 | **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,036.61` | **`$+36.61`** (`+0.37%`) | ⚪ *Sin abiertas* | `7W / 8L` (`15`) | `1.03` | `7.86%` / `7.02%` |
 | **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,752.36` | **`$-247.64`** (`-2.48%`) | ⚪ *Sin abiertas* | `11W / 9L` (`20`) | `0.86` | `9.11%` / `8.29%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,079.60` | **`$+1,079.60`** (`+10.80%`) | 🟢 `GBP/USD` LONG (`$+151.37`) | `14W / 8L` (`22`) | `1.67` | `6.39%` / `4.57%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,105.42` | **`$+1,105.42`** (`+11.05%`) | 🟢 `GBP/USD` LONG (`$+177.19`) | `14W / 8L` (`22`) | `1.67` | `6.39%` / `4.57%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,165.73` | **`$+165.73`** (`+1.66%`) | ⚪ *Sin abiertas* | `8W / 4L` (`12`) | `1.30` | `5.03%` / `3.48%` |
 | **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,861.88` | **`$-138.12`** (`-1.38%`) | ⚪ *Sin abiertas* | `12W / 11L` (`23`) | `0.95` | `12.49%` / `10.75%` |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,641.18` | **`$-358.82`** (`-3.59%`) | 🟢 `PEPE/USDT` LONG (`$+18.61`) | `4W / 5L` (`9`) | `0.62` | `6.77%` / `6.10%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,847.19` | **`$+1,847.19`** (`+18.47%`) | 🔴 `SUI/USDT` SHORT (`$-44.47`)<br>🟢 `GBP/USD` LONG (`$+186.25`) | `13W / 7L` (`20`) | `3.17` | `5.97%` / `2.67%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,840.56` | **`$+1,840.56`** (`+18.41%`) | 🔴 `SUI/USDT` SHORT (`$-78.69`)<br>🟢 `GBP/USD` LONG (`$+213.84`) | `13W / 7L` (`20`) | `3.17` | `5.97%` / `2.67%` |
 
 ---
 
@@ -28,11 +28,11 @@
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-44.47`) |
+| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-78.69`) |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+18.61`) | ⚪ Esperando |
 | `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+151.37`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+186.25`) |
+| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+177.19`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+213.84`) |
 
 ---
 
@@ -85,12 +85,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-24 11:45:34]    GBP/USD | Esperando señal de chimichurri_alpha
-[2026-11-24 11:45:34] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
-[2026-11-24 11:45:50] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.307188709
-[2026-11-24 11:45:53] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3073677342
-[2026-11-24 11:45:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,108.81 (2A/21C) | 4. Francotirador: $10,195.98 (1A/11C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,555.52 (1A/9C) | 7. Escape: $11,917.73 (2A/20C)
-[2026-11-24 11:46:55] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.307188709
 [2026-11-24 11:46:55] [4. Francotirador] ✅ CERRADA SOL/USDT (SHORT) a 70.65 | PnL: $+138.58 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-24 11:48:01] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.307188709
 [2026-11-24 11:49:06] [3. Chimichurri] ✅ CERRADA SOL/USDT (SHORT) a 70.79 | PnL: $+160.55 USD (Stop Loss / Trailing Stop Ejecutado)
@@ -105,4 +99,10 @@
 [2026-11-24 11:55:29] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3077496434
 [2026-11-24 11:56:33] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3077666904
 [2026-11-24 11:56:36] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3079499524
+[2026-11-24 11:57:38] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3077838565
+[2026-11-24 11:57:41] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3079671185
+[2026-11-24 11:58:42] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3079379941
+[2026-11-24 11:58:45] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3081212561
+[2026-11-24 11:59:45] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/USD LONG ajustado a 1.3080750848
+[2026-11-24 11:59:48] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3082583468
 ```
