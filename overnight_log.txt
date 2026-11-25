@@ -6176,3 +6176,5 @@
 [2026-11-25 19:08:10] [3. Chimichurri] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
 [2026-11-25 19:09:14] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
 [2026-11-25 19:09:15] [3. Chimichurri] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
+[2026-11-25 19:10:21] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6500256898
+[2026-11-25 19:10:22] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6480308278
