@@ -5291,3 +5291,15 @@
 [2026-11-25 03:03:46]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 03:03:46]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 03:03:46] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 03:03:47] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #20...
+[2026-11-25 03:03:50]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 03:03:53]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 03:03:54] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG (Conv 75%) | Entrada: 208.48899841 | SL: 208.24698557 | TP: 209.12201513 | Tamaño: $101,040.20 USD (Riesgo controlado: $121.15) | OK riesgo 1.20% (dd 6.4%)
+[2026-11-25 03:03:54]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 03:03:56] 💓 Cierre de Vela | Equity: $10,091.44 USD (Efectivo: $10,036.61 | Flotante: $+54.83 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 15
+[2026-11-25 03:04:10] [2. Híbrido ADX] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 03:04:15] [4. Francotirador] 🎯 [Francotirador] GBP/JPY LONG descartado: sin alineación Macro 1H (0)
+[2026-11-25 03:04:17] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 03:04:17] [6. Resorte] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 03:04:17] [6. Resorte] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG (Conv 75%) | Entrada: 208.48899841 | SL: 208.24698557 | TP: 209.12201513 | Tamaño: $94,284.00 USD (Riesgo controlado: $113.05) | OK riesgo 1.20% (dd 7.0%)
+[2026-11-25 03:04:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,091.44 (2A/15C) | 2. Híbrido ADX: $9,571.85 (3A/22C) | 3. Chimichurri: $11,281.95 (3A/26C) | 4. Francotirador: $10,472.39 (2A/15C) | 5. Berserker: $9,485.72 (3A/26C) | 6. Resorte: $9,409.54 (2A/13C) | 7. Escape: $12,078.25 (2A/23C)
