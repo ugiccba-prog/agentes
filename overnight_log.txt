@@ -5707,3 +5707,24 @@
 [2026-11-25 09:16:15] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-25 09:16:16] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-25 09:16:17] 📊 Marcador 7 Opciones | 1. WF Base: $9,696.50 (2A/17C) | 2. Híbrido ADX: $9,094.61 (2A/27C) | 3. Chimichurri: $11,242.90 (2A/29C) | 4. Francotirador: $10,668.66 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,395.71 (1A/17C) | 7. Escape: $11,464.44 (2A/27C)
+[2026-11-25 09:29:32] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 68.5703187814
+[2026-11-25 09:29:33] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.3835989845
+[2026-11-25 09:29:33] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.3835989845
+[2026-11-25 09:30:33] ☁️ [GITHUB CLOUD] Cierre de vela #131 (7 Opciones) de la sesión #21...
+[2026-11-25 09:30:35]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 09:30:37]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 09:30:37]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 09:30:38]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 09:30:39] 💓 Cierre de Vela | Equity: $9,833.28 USD (Efectivo: $9,747.51 | Flotante: $+85.77 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 17
+[2026-11-25 09:30:49] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pérdida diaria -6.7%
+[2026-11-25 09:30:51] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO: pérdida diaria -6.7%
+[2026-11-25 09:30:52] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 09:30:52] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 80%) | Entrada: 208.15400696 | SL: 208.47902258 | TP: 207.11366535 | Tamaño: $39,470.65 USD (Riesgo controlado: $66.21) | OK riesgo 0.58% (dd 1.8%)
+[2026-11-25 09:30:54] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 68.2209175737
+[2026-11-25 09:30:54] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 09:30:55] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.1007646448
+[2026-11-25 09:30:55] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 09:30:55] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 09:30:55] [7. Escape] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 92%) | Entrada: 0.05398000 | SL: 0.05439611 | TP: 0.05278088 | Tamaño: $16,038.75 USD (Riesgo controlado: $129.62) | OK riesgo 1.12% (dd 3.3%)
+[2026-11-25 09:30:55] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.1007646448
+[2026-11-25 09:30:55] 📊 Marcador 7 Opciones | 1. WF Base: $9,833.28 (2A/17C) | 2. Híbrido ADX: $9,103.61 (2A/27C) | 3. Chimichurri: $11,340.58 (3A/29C) | 4. Francotirador: $10,731.35 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,323.65 (1A/17C) | 7. Escape: $11,570.23 (3A/27C)
