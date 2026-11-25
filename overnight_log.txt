@@ -5432,3 +5432,10 @@
 [2026-11-25 05:06:33]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 05:06:33]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 05:06:33] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 05:15:21] ☁️ [GITHUB CLOUD] Cierre de vela #114 (7 Opciones) de la sesión #20...
+[2026-11-25 05:15:24]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 05:15:27]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 05:15:28]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 05:15:28]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 05:15:29] 💓 Cierre de Vela | Equity: $9,901.34 USD (Efectivo: $9,898.07 | Flotante: $+3.27 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 16
+[2026-11-25 05:15:49] 📊 Marcador 7 Opciones | 1. WF Base: $9,901.34 (2A/16C) | 2. Híbrido ADX: $9,223.35 (2A/25C) | 3. Chimichurri: $11,294.80 (3A/26C) | 4. Francotirador: $10,422.40 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,565.76 (2A/14C) | 7. Escape: $11,832.71 (2A/24C)
