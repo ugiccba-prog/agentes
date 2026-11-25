@@ -6178,3 +6178,15 @@
 [2026-11-25 19:09:15] [3. Chimichurri] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
 [2026-11-25 19:10:21] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6500256898
 [2026-11-25 19:10:22] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6480308278
+[2026-11-25 19:15:45] ☁️ [GITHUB CLOUD] Cierre de vela #9 (7 Opciones) de la sesión #23...
+[2026-11-25 19:15:47]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 19:15:49]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 19:15:49]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 19:15:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 19:15:51] 🔒 Stop (Trailing 1.5 ATR) en SUI/USDT LONG ajustado a 0.6504702834
+[2026-11-25 19:15:51] 💓 Cierre de Vela | Equity: $9,903.25 USD (Efectivo: $9,554.43 | Flotante: $+348.82 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 21
+[2026-11-25 19:16:01] [3. Chimichurri] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.054591765
+[2026-11-25 19:16:01] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6485043401
+[2026-11-25 19:16:02] [6. Resorte] ✅ CERRADA BTC/USDT (SHORT) a 60022.83 | PnL: $-109.27 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 19:16:03] [7. Escape] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.054591765
+[2026-11-25 19:16:03] 📊 Marcador 7 Opciones | 1. WF Base: $9,903.25 (3A/21C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $12,131.80 (3A/34C) | 4. Francotirador: $10,643.13 (1A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,353.99 (3A/30C)
