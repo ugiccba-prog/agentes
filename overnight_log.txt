@@ -5518,3 +5518,4 @@
 [2026-11-25 06:45:34] 💓 Cierre de Vela | Equity: $9,785.36 USD (Efectivo: $9,898.07 | Flotante: $-112.71 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 16
 [2026-11-25 06:45:54] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 85%) | Entrada: 0.00000353 | SL: 0.00000347 | TP: 0.00000368 | Tamaño: $15,386.50 USD (Riesgo controlado: $246.84) | OK riesgo 2.10% (dd 1.8%)
 [2026-11-25 06:45:54] 📊 Marcador 7 Opciones | 1. WF Base: $9,785.36 (2A/16C) | 2. Híbrido ADX: $9,170.61 (1A/26C) | 3. Chimichurri: $11,125.98 (3A/26C) | 4. Francotirador: $10,344.16 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,396.17 (2A/15C) | 7. Escape: $11,736.77 (2A/25C)
+[2026-11-25 06:57:15] [3. Chimichurri] ✅ CERRADA GBP/JPY (LONG) a 208.35000610351562 | PnL: $-248.40 USD (Stop Loss / Trailing Stop Ejecutado)
