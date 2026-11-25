@@ -5519,3 +5519,13 @@
 [2026-11-25 06:45:54] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 85%) | Entrada: 0.00000353 | SL: 0.00000347 | TP: 0.00000368 | Tamaño: $15,386.50 USD (Riesgo controlado: $246.84) | OK riesgo 2.10% (dd 1.8%)
 [2026-11-25 06:45:54] 📊 Marcador 7 Opciones | 1. WF Base: $9,785.36 (2A/16C) | 2. Híbrido ADX: $9,170.61 (1A/26C) | 3. Chimichurri: $11,125.98 (3A/26C) | 4. Francotirador: $10,344.16 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,396.17 (2A/15C) | 7. Escape: $11,736.77 (2A/25C)
 [2026-11-25 06:57:15] [3. Chimichurri] ✅ CERRADA GBP/JPY (LONG) a 208.35000610351562 | PnL: $-248.40 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 07:00:35] ☁️ [GITHUB CLOUD] Cierre de vela #205 (7 Opciones) de la sesión #20...
+[2026-11-25 07:00:39]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:00:41]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:00:42]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 07:00:42]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 07:00:44] 💓 Cierre de Vela | Equity: $9,736.45 USD (Efectivo: $9,898.07 | Flotante: $-161.62 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 16
+[2026-11-25 07:01:04] [7. Escape] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 85%) | Entrada: 208.27799988 | SL: 208.57454874 | TP: 207.63913127 | Tamaño: $68,354.81 USD (Riesgo controlado: $97.32) | OK riesgo 0.83% (dd 2.3%)
+[2026-11-25 07:01:04] 📊 Marcador 7 Opciones | 1. WF Base: $9,736.45 (2A/16C) | 2. Híbrido ADX: $9,202.20 (1A/26C) | 3. Chimichurri: $11,115.57 (2A/27C) | 4. Francotirador: $10,372.03 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,396.31 (2A/15C) | 7. Escape: $11,653.73 (3A/25C)
+[2026-11-25 07:02:06] ✅ CERRADA GBP/JPY (LONG) a 208.22000122070312 | PnL: $-150.56 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 07:02:12] [6. Resorte] ✅ CERRADA GBP/JPY (LONG) a 208.22000122070312 | PnL: $-140.49 USD (Stop Loss / Trailing Stop Ejecutado)
