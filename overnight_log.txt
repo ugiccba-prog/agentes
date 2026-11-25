@@ -5510,3 +5510,11 @@
 [2026-11-25 06:30:46] [5. Berserker] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-25 06:30:47] [6. Resorte] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 80%) | Entrada: 0.00000352 | SL: 0.00000357 | TP: 0.00000337 | Tamaño: $13,388.71 USD (Riesgo controlado: $179.89) | OK riesgo 1.90% (dd 6.6%)
 [2026-11-25 06:30:47] 📊 Marcador 7 Opciones | 1. WF Base: $9,816.51 (2A/16C) | 2. Híbrido ADX: $9,194.76 (1A/26C) | 3. Chimichurri: $11,213.69 (3A/26C) | 4. Francotirador: $10,408.72 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,440.10 (2A/15C) | 7. Escape: $11,801.01 (1A/25C)
+[2026-11-25 06:45:26] ☁️ [GITHUB CLOUD] Cierre de vela #192 (7 Opciones) de la sesión #20...
+[2026-11-25 06:45:29]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 06:45:32]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 06:45:32]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 06:45:32]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 06:45:34] 💓 Cierre de Vela | Equity: $9,785.36 USD (Efectivo: $9,898.07 | Flotante: $-112.71 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 16
+[2026-11-25 06:45:54] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 85%) | Entrada: 0.00000353 | SL: 0.00000347 | TP: 0.00000368 | Tamaño: $15,386.50 USD (Riesgo controlado: $246.84) | OK riesgo 2.10% (dd 1.8%)
+[2026-11-25 06:45:54] 📊 Marcador 7 Opciones | 1. WF Base: $9,785.36 (2A/16C) | 2. Híbrido ADX: $9,170.61 (1A/26C) | 3. Chimichurri: $11,125.98 (3A/26C) | 4. Francotirador: $10,344.16 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,396.17 (2A/15C) | 7. Escape: $11,736.77 (2A/25C)
