@@ -5217,3 +5217,6 @@
 [2026-11-25 02:06:40]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 02:06:40]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 02:06:40] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 02:07:46] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.3858024871
+[2026-11-25 02:08:51] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.3458024871
+[2026-11-25 02:09:56] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.3058024871
