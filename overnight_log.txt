@@ -5605,3 +5605,20 @@
 [2026-11-25 07:46:02] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-25 07:46:02] 📊 Marcador 7 Opciones | 1. WF Base: $9,782.90 (1A/17C) | 2. Híbrido ADX: $9,257.93 (2A/26C) | 3. Chimichurri: $11,401.42 (3A/27C) | 4. Francotirador: $10,581.34 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,560.36 (1A/16C) | 7. Escape: $11,637.43 (2A/26C)
 [2026-11-25 07:54:58] [3. Chimichurri] ✅ CERRADA SUI/USDT (SHORT) a 0.6417 | PnL: $+42.21 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 07:59:24] [6. Resorte] ✅ CERRADA PEPE/USDT (SHORT) a 3.49e-06 | PnL: $+100.78 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 08:00:24] ☁️ [GITHUB CLOUD] Cierre de vela #51 (7 Opciones) de la sesión #21...
+[2026-11-25 08:00:27]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 08:00:29]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 08:00:29]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 08:00:29] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 92%) | Entrada: 1.30696750 | SL: 1.30828941 | TP: 1.30437993 | Tamaño: $82,746.27 USD (Riesgo controlado: $83.69) | OK riesgo 0.85% (dd 9.3%)
+[2026-11-25 08:00:30] 💓 Cierre de Vela | Equity: $9,756.79 USD (Efectivo: $9,747.51 | Flotante: $+9.28 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 17
+[2026-11-25 08:00:39] [2. Híbrido ADX] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 80%) | Entrada: 0.64160000 | SL: 0.63564255 | TP: 0.65334362 | Tamaño: $7,141.46 USD (Riesgo controlado: $66.31) | OK riesgo 0.71% (dd 12.5%)
+[2026-11-25 08:00:41] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-25 08:00:42] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-25 08:00:43] [4. Francotirador] 🎯 [Francotirador] GBP/USD SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-25 08:00:44] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 08:00:44] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 08:00:44] [6. Resorte] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 80%) | Entrada: 0.64160000 | SL: 0.63564255 | TP: 0.65334362 | Tamaño: $14,456.23 USD (Riesgo controlado: $134.23) | OK riesgo 1.42% (dd 6.8%)
+[2026-11-25 08:00:44] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 08:00:44] [7. Escape] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 90%) | Entrada: 1.30696750 | SL: 1.30828941 | TP: 1.30415206 | Tamaño: $74,515.80 USD (Riesgo controlado: $75.37) | OK riesgo 0.65% (dd 2.5%)
+[2026-11-25 08:00:44] 📊 Marcador 7 Opciones | 1. WF Base: $9,756.79 (2A/17C) | 2. Híbrido ADX: $9,255.27 (3A/26C) | 3. Chimichurri: $11,386.29 (2A/28C) | 4. Francotirador: $10,606.36 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,431.74 (1A/17C) | 7. Escape: $11,631.73 (3A/26C)
