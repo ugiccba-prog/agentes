@@ -5223,3 +5223,22 @@
 [2026-11-25 02:11:02] [5. Berserker] ✅ CERRADA PEPE/USDT (LONG) a 3.41e-06 | PnL: $-138.76 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 02:11:02] [6. Resorte] ✅ CERRADA SOL/USDT (SHORT) a 68.74 | PnL: $+242.89 USD (Take Profit Alcanzado)
 [2026-11-25 02:11:02] [6. Resorte] ✅ CERRADA PEPE/USDT (LONG) a 3.41e-06 | PnL: $-93.22 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 02:15:18] ☁️ [GITHUB CLOUD] Cierre de vela #176 (7 Opciones) de la sesión #19...
+[2026-11-25 02:15:19]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 02:15:22] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 98%) | Entrada: 6.49200000 | SL: 6.53832630 | TP: 6.39018424 | Tamaño: $16,498.18 USD (Riesgo controlado: $117.73) | OK riesgo 1.17% (dd 7.0%)
+[2026-11-25 02:15:22]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 02:15:23]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 02:15:23] 💓 Cierre de Vela | Equity: $10,020.11 USD (Efectivo: $10,036.61 | Flotante: $-16.50 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 15
+[2026-11-25 02:15:29] [2. Híbrido ADX] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 98%) | Entrada: 541.00000000 | SL: 544.78432396 | TP: 533.88419011 | Tamaño: $14,086.52 USD (Riesgo controlado: $98.54) | OK riesgo 1.03% (dd 10.5%)
+[2026-11-25 02:15:31] [2. Híbrido ADX] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 98%) | Entrada: 6.49200000 | SL: 6.53832630 | TP: 6.39018424 | Tamaño: $15,649.60 USD (Riesgo controlado: $111.67) | OK riesgo 1.17% (dd 10.5%)
+[2026-11-25 02:15:33] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 02:15:33] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 02:15:35] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 02:15:35] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 02:15:35] [5. Berserker] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 98%) | Entrada: 541.00000000 | SL: 544.78432396 | TP: 533.88419011 | Tamaño: $20,868.62 USD (Riesgo controlado: $145.98) | OK riesgo 1.55% (dd 14.9%)
+[2026-11-25 02:15:35] [5. Berserker] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 98%) | Entrada: 6.49200000 | SL: 6.53832630 | TP: 6.39018424 | Tamaño: $23,066.51 USD (Riesgo controlado: $164.60) | OK riesgo 1.75% (dd 14.9%)
+[2026-11-25 02:15:36] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 02:15:36] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 02:15:36] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 02:15:36] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 02:15:36] 📊 Marcador 7 Opciones | 1. WF Base: $10,020.11 (1A/15C) | 2. Híbrido ADX: $9,490.64 (2A/22C) | 3. Chimichurri: $11,357.82 (3A/26C) | 4. Francotirador: $10,420.44 (2A/15C) | 5. Berserker: $9,361.80 (2A/26C) | 6. Resorte: $9,486.86 (0A/13C) | 7. Escape: $12,015.57 (2A/23C)
