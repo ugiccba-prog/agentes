@@ -5467,3 +5467,23 @@
 [2026-11-25 06:01:12]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-25 06:01:13] 💓 Cierre de Vela | Equity: $9,889.15 USD (Efectivo: $9,898.07 | Flotante: $-8.92 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 16
 [2026-11-25 06:01:32] 📊 Marcador 7 Opciones | 1. WF Base: $9,889.15 (2A/16C) | 2. Híbrido ADX: $9,198.48 (1A/26C) | 3. Chimichurri: $11,285.11 (3A/26C) | 4. Francotirador: $10,415.29 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,517.70 (1A/15C) | 7. Escape: $11,798.79 (1A/25C)
+[2026-11-25 06:07:06] 🛠️ INICIANDO FASE DE VALIDACIÓN WALK-FORWARD (50% Train / 25% Val / 25% Test)...
+[2026-11-25 06:07:10]    🔎 [BTC/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-25 06:07:13]    🔎 [ETH/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:16]    🔎 [SOL/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-25 06:07:20]    🔎 [BNB/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-25 06:07:24]    🔎 [XRP/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:27]    🔎 [DOGE/USDT] -> ACTIVO (Canasta sin WF) | chimichurri_alpha
+[2026-11-25 06:07:31]    🔎 [SUI/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.82, Exp=+0.45R, WR=51.7%, Trades=29
+[2026-11-25 06:07:34]    🔎 [AVAX/USDT] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.48, Exp=+0.27R, WR=50.0%, Trades=24
+[2026-11-25 06:07:38]    🔎 [LINK/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:41]    🔎 [PEPE/USDT] -> ACTIVO (Canasta sin WF) | volatility_breakout
+[2026-11-25 06:07:45]    🔎 [ADA/USDT] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:45]    🔎 [XAU/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:45]    🔎 [GBP/JPY] -> ACTIVO | WF OOS APROBADO (bollinger_reversion) | PF=2.67, Exp=+0.66R, WR=66.7%, Trades=9
+[2026-11-25 06:07:45]    🔎 [EUR/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:45]    🔎 [EUR/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:46]    🔎 [GBP/USD] -> ACTIVO | WF OOS APROBADO (chimichurri_alpha) | PF=1.46, Exp=+0.25R, WR=52.0%, Trades=25
+[2026-11-25 06:07:46]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:46]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
+[2026-11-25 06:07:46] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
