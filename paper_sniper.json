@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 10832.77,
-  "equity_usd": 10731.5,
-  "realized_pnl_usd": 832.77,
-  "unrealized_pnl_usd": -101.27,
+  "cash_balance_usd": 10657.73,
+  "equity_usd": 10657.73,
+  "realized_pnl_usd": 657.73,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 11002.12,
   "realized_peak_equity_usd": 11002.12,
   "day_start_equity_usd": 10141.57,
@@ -12,31 +12,11 @@
   "realized_max_drawdown_pct": 3.478099999999995,
   "dd_halt_until_utc": "",
   "dd_recovery_mode": false,
-  "total_trades": 18,
+  "total_trades": 19,
   "winning_trades": 12,
-  "losing_trades": 6,
-  "last_updated": "2026-11-25 17:05:25 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-190591",
-      "symbol": "SOL/USDT",
-      "market": "CRYPTO",
-      "strategy": "chimichurri_alpha",
-      "side": "SHORT",
-      "entry_time": "2026-11-25 16:46:30 UTC",
-      "entry_price": 67.52,
-      "current_price": 68.18,
-      "size": 139.13178,
-      "notional_usd": 9394.18,
-      "stop_loss": 68.3653328592,
-      "take_profit": 64.382568782,
-      "initial_risk_dist": 0.8453328592,
-      "unrealized_pnl_usd": -101.27,
-      "unrealized_pnl_pct": -1.08,
-      "reason": "Chimichurri Alpha SHORT (ADX=23.6, Vol=0.47x, RSI=47.1, Pullback Tendencia)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 7,
+  "last_updated": "2026-11-25 17:09:13 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-882651",
@@ -361,6 +341,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 152.05,
       "r_multiple": -1.114
+    },
+    {
+      "id": "ORD-190591",
+      "symbol": "SOL/USDT",
+      "market": "CRYPTO",
+      "strategy": "chimichurri_alpha",
+      "side": "SHORT",
+      "entry_time": "2026-11-25 16:46:30 UTC",
+      "exit_time": "2026-11-25 17:09:13 UTC",
+      "entry_price": 67.52,
+      "exit_price": 68.71,
+      "size": 139.13178,
+      "pnl_usd": -175.04,
+      "pnl_pct": -1.86,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 117.61,
+      "r_multiple": -1.488
     }
   ],
   "excluded_trades": []
