@@ -5166,3 +5166,16 @@
 [2026-11-25 01:15:18]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-25 01:15:18] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
 [2026-11-25 01:15:33] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,776.62 (2A/20C) | 3. Chimichurri: $11,091.47 (3A/26C) | 4. Francotirador: $10,189.69 (2A/15C) | 5. Berserker: $9,886.08 (3A/23C) | 6. Resorte: $9,511.75 (3A/10C) | 7. Escape: $11,817.80 (1A/23C)
+[2026-11-25 01:30:57] ☁️ [GITHUB CLOUD] Cierre de vela #136 (7 Opciones) de la sesión #19...
+[2026-11-25 01:30:59]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 01:31:01]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 01:31:01]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 01:31:01]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 01:31:01] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-25 01:31:16] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,616.61 (2A/20C) | 3. Chimichurri: $11,189.63 (3A/26C) | 4. Francotirador: $10,264.15 (2A/15C) | 5. Berserker: $9,667.17 (3A/23C) | 6. Resorte: $9,476.56 (3A/10C) | 7. Escape: $11,875.54 (1A/23C)
+[2026-11-25 01:33:23] [2. Híbrido ADX] ✅ CERRADA BTC/USDT (LONG) a 59282.74 | PnL: $-106.76 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 01:33:23] [2. Híbrido ADX] ✅ CERRADA BNB/USDT (LONG) a 543.11 | PnL: $-125.22 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 01:33:27] [5. Berserker] ✅ CERRADA BTC/USDT (LONG) a 59282.74 | PnL: $-146.06 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 01:33:27] [5. Berserker] ✅ CERRADA BNB/USDT (LONG) a 543.11 | PnL: $-171.32 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 01:33:27] [6. Resorte] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 69.845075
+[2026-11-25 01:33:27] [6. Resorte] ✅ CERRADA BTC/USDT (LONG) a 59282.74 | PnL: $-104.11 USD (Stop Loss / Trailing Stop Ejecutado)
