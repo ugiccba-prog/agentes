@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `19` | **Última actualización:** `2026-11-25 01:23:16 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `19` | **Última actualización:** `2026-11-25 01:26:35 UTC`
 
 ---
 
@@ -11,11 +11,11 @@
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
 | **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,036.61` | **`$+36.61`** (`+0.37%`) | ⚪ *Sin abiertas* | `7W / 8L` (`15`) | `1.03` | `7.86%` / `7.02%` |
-| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,620.06` | **`$-379.94`** (`-3.80%`) | 🟢 `BTC/USDT` LONG (`$-60.96`)<br>🟢 `BNB/USDT` LONG (`$-71.34`) | `11W / 9L` (`20`) | `0.86` | `10.35%` / `8.29%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,134.25` | **`$+1,134.25`** (`+11.34%`) | 🟢 `GBP/JPY` LONG (`$-59.60`)<br>🔴 `SOL/USDT` SHORT (`$-91.80`)<br>🔴 `SUI/USDT` SHORT (`$+18.84`) | `16W / 10L` (`26`) | `1.75` | `6.39%` / `4.57%` |
-| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,245.80` | **`$+245.80`** (`+2.46%`) | 🔴 `SOL/USDT` SHORT (`$-54.33`)<br>🔴 `DOGE/USDT` SHORT (`$-45.20`) | `10W / 5L` (`15`) | `1.51` | `5.46%` / `3.48%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,671.90` | **`$-328.10`** (`-3.28%`) | 🟢 `BTC/USDT` LONG (`$-83.40`)<br>🟢 `BNB/USDT` LONG (`$-97.60`)<br>🟢 `PEPE/USDT` LONG (`$-8.98`) | `12W / 11L` (`23`) | `0.95` | `13.68%` / `10.75%` |
-| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,465.31` | **`$-534.69`** (`-5.35%`) | 🔴 `SOL/USDT` SHORT (`$+89.50`)<br>🟢 `BTC/USDT` LONG (`$-59.45`)<br>🟢 `PEPE/USDT` LONG (`$-6.04`) | `4W / 6L` (`10`) | `0.52` | `7.75%` / `6.86%` |
+| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,634.04` | **`$-365.96`** (`-3.66%`) | 🟢 `BTC/USDT` LONG (`$-53.76`)<br>🟢 `BNB/USDT` LONG (`$-64.57`) | `11W / 9L` (`20`) | `0.86` | `10.55%` / `8.29%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,165.10` | **`$+1,165.10`** (`+11.65%`) | 🟢 `GBP/JPY` LONG (`$-25.70`)<br>🔴 `SOL/USDT` SHORT (`$-91.80`)<br>🔴 `SUI/USDT` SHORT (`$+15.79`) | `16W / 10L` (`26`) | `1.75` | `6.39%` / `4.57%` |
+| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,239.77` | **`$+239.77`** (`+2.40%`) | 🔴 `SOL/USDT` SHORT (`$-54.33`)<br>🔴 `DOGE/USDT` SHORT (`$-51.23`) | `10W / 5L` (`15`) | `1.51` | `5.46%` / `3.48%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,742.93` | **`$-257.07`** (`-2.57%`) | 🟢 `BTC/USDT` LONG (`$-73.54`)<br>🟢 `BNB/USDT` LONG (`$-88.33`)<br>🟢 `PEPE/USDT` LONG (`$+42.93`) | `12W / 11L` (`23`) | `0.95` | `13.69%` / `10.75%` |
+| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,507.21` | **`$-492.79`** (`-4.93%`) | 🔴 `SOL/USDT` SHORT (`$+89.50`)<br>🟢 `BTC/USDT` LONG (`$-52.42`)<br>🟢 `PEPE/USDT` LONG (`$+28.84`) | `4W / 6L` (`10`) | `0.52` | `7.75%` / `6.86%` |
 | **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,859.99` | **`$+1,859.99`** (`+18.60%`) | 🔴 `SOL/USDT` SHORT (`$-81.97`) | `15W / 8L` (`23`) | `3.40` | `5.97%` / `2.67%` |
 
 ---
@@ -24,14 +24,14 @@
 
 | Mercado Activo | 1. WF Base | 2. Híbrido ADX | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-60.96`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-83.40`) | 🟢 **LONG** (`$-59.45`) | ⚪ Esperando |
+| `BTC/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-53.76`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-73.54`) | 🟢 **LONG** (`$-52.42`) | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-91.80`) | 🔴 **SHORT** (`$-54.33`) | ⚪ Esperando | 🔴 **SHORT** (`$+89.50`) | 🔴 **SHORT** (`$-81.97`) |
-| `BNB/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-71.34`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-97.60`) | ⚪ Esperando | ⚪ Esperando |
-| `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-45.20`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+18.84`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-64.57`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-88.33`) | ⚪ Esperando | ⚪ Esperando |
+| `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-51.23`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$+15.79`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-8.98`) | 🟢 **LONG** (`$-6.04`) | ⚪ Esperando |
-| `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-59.60`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+42.93`) | 🟢 **LONG** (`$+28.84`) | ⚪ Esperando |
+| `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-25.70`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
