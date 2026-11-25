@@ -5374,3 +5374,13 @@
 [2026-11-25 04:13:39] ✅ CERRADA AVAX/USDT (SHORT) a 6.54 | PnL: $-138.54 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 04:13:39] [2. Híbrido ADX] ✅ CERRADA AVAX/USDT (SHORT) a 6.54 | PnL: $-131.42 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 04:13:43] [5. Berserker] ✅ CERRADA AVAX/USDT (SHORT) a 6.54 | PnL: $-193.70 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 04:15:50] ☁️ [GITHUB CLOUD] Cierre de vela #62 (7 Opciones) de la sesión #20...
+[2026-11-25 04:15:53]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 04:15:55]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 04:15:56]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 04:15:56]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 04:15:56] 💓 Cierre de Vela | Equity: $9,920.02 USD (Efectivo: $9,898.07 | Flotante: $+21.95 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 16
+[2026-11-25 04:16:12] [2. Híbrido ADX] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 75%) | Entrada: 1.30924320 | SL: 1.30851928 | TP: 1.31141309 | Tamaño: $93,112.70 USD (Riesgo controlado: $58.75) | OK riesgo 0.63% (dd 12.4%)
+[2026-11-25 04:16:16] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 04:16:16] [6. Resorte] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 75%) | Entrada: 1.30924320 | SL: 1.30851928 | TP: 1.31141309 | Tamaño: $95,826.30 USD (Riesgo controlado: $60.47) | OK riesgo 0.63% (dd 5.5%)
+[2026-11-25 04:16:16] 📊 Marcador 7 Opciones | 1. WF Base: $9,920.02 (1A/16C) | 2. Híbrido ADX: $9,292.65 (1A/25C) | 3. Chimichurri: $11,073.43 (3A/26C) | 4. Francotirador: $10,307.71 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,560.30 (2A/14C) | 7. Escape: $11,702.95 (2A/24C)
