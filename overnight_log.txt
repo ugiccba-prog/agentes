@@ -6116,3 +6116,5 @@
 [2026-11-25 18:45:33] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-25 18:45:36] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-25 18:45:38] 📊 Marcador 7 Opciones | 1. WF Base: $9,790.13 (3A/21C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,906.49 (3A/34C) | 4. Francotirador: $10,631.63 (1A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,058.14 (2A/19C) | 7. Escape: $12,134.92 (3A/30C)
+[2026-11-25 18:46:43] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
+[2026-11-25 18:46:44] [3. Chimichurri] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
