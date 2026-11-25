@@ -5604,3 +5604,4 @@
 [2026-11-25 07:46:01] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-25 07:46:02] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-25 07:46:02] 📊 Marcador 7 Opciones | 1. WF Base: $9,782.90 (1A/17C) | 2. Híbrido ADX: $9,257.93 (2A/26C) | 3. Chimichurri: $11,401.42 (3A/27C) | 4. Francotirador: $10,581.34 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,560.36 (1A/16C) | 7. Escape: $11,637.43 (2A/26C)
+[2026-11-25 07:54:58] [3. Chimichurri] ✅ CERRADA SUI/USDT (SHORT) a 0.6417 | PnL: $+42.21 USD (Stop Loss / Trailing Stop Ejecutado)
