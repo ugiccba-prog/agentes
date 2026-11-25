@@ -5260,3 +5260,13 @@
 [2026-11-25 02:45:39] 💓 Cierre de Vela | Equity: $10,063.34 USD (Efectivo: $10,036.61 | Flotante: $+26.73 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 15
 [2026-11-25 02:45:52] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-25 02:45:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,063.34 (1A/15C) | 2. Híbrido ADX: $9,509.24 (2A/22C) | 3. Chimichurri: $11,322.27 (3A/26C) | 4. Francotirador: $10,416.81 (2A/15C) | 5. Berserker: $9,389.05 (2A/26C) | 6. Resorte: $9,486.86 (0A/13C) | 7. Escape: $11,977.72 (2A/23C)
+[2026-11-25 03:00:09] ☁️ [GITHUB CLOUD] Cierre de vela #216 (7 Opciones) de la sesión #19...
+[2026-11-25 03:00:10]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 03:00:12]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 03:00:12]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 03:00:13]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 03:00:14] 💓 Cierre de Vela | Equity: $10,073.51 USD (Efectivo: $10,036.61 | Flotante: $+36.90 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 15
+[2026-11-25 03:00:23] [2. Híbrido ADX] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 75%) | Entrada: 0.00000343 | SL: 0.00000339 | TP: 0.00000356 | Tamaño: $7,491.48 USD (Riesgo controlado: $80.89) | OK riesgo 0.85% (dd 10.5%)
+[2026-11-25 03:00:27] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 75%) | Entrada: 0.00000343 | SL: 0.00000339 | TP: 0.00000356 | Tamaño: $10,010.97 USD (Riesgo controlado: $108.09) | OK riesgo 1.15% (dd 14.9%)
+[2026-11-25 03:00:27] [6. Resorte] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 75%) | Entrada: 0.00000343 | SL: 0.00000339 | TP: 0.00000356 | Tamaño: $14,937.16 USD (Riesgo controlado: $161.28) | OK riesgo 1.70% (dd 6.4%)
+[2026-11-25 03:00:29] 📊 Marcador 7 Opciones | 1. WF Base: $10,073.51 (1A/15C) | 2. Híbrido ADX: $9,532.24 (3A/22C) | 3. Chimichurri: $11,212.98 (3A/26C) | 4. Francotirador: $10,415.34 (2A/15C) | 5. Berserker: $9,424.13 (3A/26C) | 6. Resorte: $9,471.92 (1A/13C) | 7. Escape: $11,999.19 (2A/23C)
