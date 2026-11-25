@@ -5371,3 +5371,6 @@
 [2026-11-25 04:04:50]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 04:04:50]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 04:04:50] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 04:13:39] ✅ CERRADA AVAX/USDT (SHORT) a 6.54 | PnL: $-138.54 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 04:13:39] [2. Híbrido ADX] ✅ CERRADA AVAX/USDT (SHORT) a 6.54 | PnL: $-131.42 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 04:13:43] [5. Berserker] ✅ CERRADA AVAX/USDT (SHORT) a 6.54 | PnL: $-193.70 USD (Stop Loss / Trailing Stop Ejecutado)
