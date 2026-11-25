@@ -5970,3 +5970,5 @@
 [2026-11-25 17:02:11] ✅ CERRADA SUI/USDT (SHORT) a 0.634 | PnL: $-136.87 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 17:02:12] [3. Chimichurri] ✅ CERRADA SUI/USDT (SHORT) a 0.634 | PnL: $-186.42 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 17:02:12] [4. Francotirador] ✅ CERRADA SUI/USDT (SHORT) a 0.634 | PnL: $-169.35 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 17:04:21] ✅ CERRADA AVAX/USDT (SHORT) a 6.404 | PnL: $-147.58 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 17:04:23] [3. Chimichurri] ✅ CERRADA GBP/JPY (SHORT) a 208.09800720214844 | PnL: $+2.73 USD (Stop Loss / Trailing Stop Ejecutado)
