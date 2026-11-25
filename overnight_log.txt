@@ -5550,3 +5550,14 @@
 [2026-11-25 07:04:07]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 07:04:07]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 07:04:07] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 07:04:10] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #21...
+[2026-11-25 07:04:12]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:04:14]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:04:14]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 07:04:14]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 07:04:15] 💓 Cierre de Vela | Equity: $9,693.05 USD (Efectivo: $9,747.51 | Flotante: $-54.46 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 17
+[2026-11-25 07:04:25] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO: pérdida diaria -5.7%
+[2026-11-25 07:04:25] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 80%) | Entrada: 208.21200562 | SL: 208.42621955 | TP: 207.40824211 | Tamaño: $103,357.25 USD (Riesgo controlado: $129.17) | OK riesgo 1.16% (dd 4.0%)
+[2026-11-25 07:04:28] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 07:04:29] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 07:04:29] 📊 Marcador 7 Opciones | 1. WF Base: $9,693.05 (1A/17C) | 2. Híbrido ADX: $9,187.33 (1A/26C) | 3. Chimichurri: $11,078.86 (3A/27C) | 4. Francotirador: $10,358.09 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,332.03 (1A/16C) | 7. Escape: $11,710.08 (3A/25C)
