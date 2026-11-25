@@ -6470,3 +6470,5 @@
 [2026-11-25 23:51:07] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6597455911
 [2026-11-25 23:53:21] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.5806866557
 [2026-11-25 23:53:25] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6599455911
+[2026-11-25 23:55:39] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.5856866557
+[2026-11-25 23:55:42] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6608455911
