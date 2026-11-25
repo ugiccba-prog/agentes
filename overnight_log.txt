@@ -5188,3 +5188,12 @@
 [2026-11-25 01:45:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,520.38 (0A/22C) | 3. Chimichurri: $11,238.57 (3A/26C) | 4. Francotirador: $10,323.90 (2A/15C) | 5. Berserker: $9,483.61 (1A/25C) | 6. Resorte: $9,434.78 (2A/11C) | 7. Escape: $11,911.07 (1A/23C)
 [2026-11-25 01:51:58] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.5658024871
 [2026-11-25 01:53:02] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.5158024871
+[2026-11-25 02:00:32] ☁️ [GITHUB CLOUD] Cierre de vela #163 (7 Opciones) de la sesión #19...
+[2026-11-25 02:00:33]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 02:00:35]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 02:00:35]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 02:00:36]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 02:00:36] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-25 02:00:48] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.4371070256
+[2026-11-25 02:00:49] [7. Escape] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 97%) | Entrada: 59226.92000000 | SL: 59634.16851658 | TP: 58292.82391080 | Tamaño: $19,093.81 USD (Riesgo controlado: $131.29) | OK riesgo 1.10% (dd 0.3%)
+[2026-11-25 02:00:49] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,520.38 (0A/22C) | 3. Chimichurri: $11,300.28 (3A/26C) | 4. Francotirador: $10,384.82 (2A/15C) | 5. Berserker: $9,457.65 (1A/25C) | 6. Resorte: $9,470.60 (2A/11C) | 7. Escape: $11,947.49 (2A/23C)
