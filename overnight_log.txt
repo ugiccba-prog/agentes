@@ -5311,3 +5311,12 @@
 [2026-11-25 03:16:09] 💓 Cierre de Vela | Equity: $9,984.90 USD (Efectivo: $10,036.61 | Flotante: $-51.71 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 15
 [2026-11-25 03:16:31] [7. Escape] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 85%) | Entrada: 208.52099609 | SL: 208.76191141 | TP: 207.86215715 | Tamaño: $63,985.30 USD (Riesgo controlado: $74.52) | OK riesgo 0.63% (dd 1.3%)
 [2026-11-25 03:16:32] 📊 Marcador 7 Opciones | 1. WF Base: $9,984.90 (2A/15C) | 2. Híbrido ADX: $9,462.39 (3A/22C) | 3. Chimichurri: $11,085.70 (3A/26C) | 4. Francotirador: $10,312.37 (2A/15C) | 5. Berserker: $9,311.75 (3A/26C) | 6. Resorte: $9,598.12 (2A/13C) | 7. Escape: $11,798.03 (3A/23C)
+[2026-11-25 03:19:59] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.4351e-06
+[2026-11-25 03:20:03] [5. Berserker] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.4351e-06
+[2026-11-25 03:20:03] [6. Resorte] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.4351e-06
+[2026-11-25 03:21:09] [2. Híbrido ADX] ✅ CERRADA BNB/USDT (SHORT) a 544.83 | PnL: $-113.86 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 03:21:09] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT LONG ajustado a 3.4553e-06
+[2026-11-25 03:21:14] [5. Berserker] ✅ CERRADA BNB/USDT (SHORT) a 544.83 | PnL: $-168.68 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 03:21:14] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en PEPE/USDT LONG ajustado a 3.4576e-06
+[2026-11-25 03:21:14] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT LONG ajustado a 3.4553e-06
+[2026-11-25 03:21:15] [7. Escape] ✅ CERRADA BTC/USDT (SHORT) a 59645.21 | PnL: $-154.01 USD (Stop Loss / Trailing Stop Ejecutado)
