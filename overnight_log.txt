@@ -5877,3 +5877,10 @@
 [2026-11-25 15:16:38] 📊 Marcador 7 Opciones | 1. WF Base: $9,998.01 (1A/18C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,987.46 (1A/31C) | 4. Francotirador: $11,002.12 (0A/17C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,184.94 (0A/19C) | 7. Escape: $12,053.17 (2A/28C)
 [2026-11-25 15:17:41] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0533600994
 [2026-11-25 15:19:47] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0532500994
+[2026-11-25 15:30:15] ☁️ [GITHUB CLOUD] Cierre de vela #23 (7 Opciones) de la sesión #22...
+[2026-11-25 15:30:19]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 15:30:22]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 15:30:22]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 15:30:22]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 15:30:23] 💓 Cierre de Vela | Equity: $10,025.01 USD (Efectivo: $9,970.24 | Flotante: $+54.77 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 18
+[2026-11-25 15:30:40] 📊 Marcador 7 Opciones | 1. WF Base: $10,025.01 (1A/18C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,996.95 (1A/31C) | 4. Francotirador: $11,002.12 (0A/17C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,184.94 (0A/19C) | 7. Escape: $12,006.14 (2A/28C)
