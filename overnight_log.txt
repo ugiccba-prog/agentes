@@ -5394,3 +5394,14 @@
 [2026-11-25 04:30:50] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-25 04:30:50] [6. Resorte] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-25 04:30:51] 📊 Marcador 7 Opciones | 1. WF Base: $9,925.35 (1A/16C) | 2. Híbrido ADX: $9,301.18 (1A/25C) | 3. Chimichurri: $11,188.28 (3A/26C) | 4. Francotirador: $10,380.26 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,574.06 (2A/14C) | 7. Escape: $11,781.74 (2A/24C)
+[2026-11-25 04:46:05] ☁️ [GITHUB CLOUD] Cierre de vela #89 (7 Opciones) de la sesión #20...
+[2026-11-25 04:46:08]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 04:46:12] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 88%) | Entrada: 6.49100000 | SL: 6.54624082 | TP: 6.38789796 | Tamaño: $12,402.54 USD (Riesgo controlado: $105.55) | OK riesgo 1.06% (dd 8.2%)
+[2026-11-25 04:46:13]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 04:46:13]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 04:46:13] 💓 Cierre de Vela | Equity: $9,909.07 USD (Efectivo: $9,898.07 | Flotante: $+11.00 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 16
+[2026-11-25 04:46:25] [2. Híbrido ADX] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 88%) | Entrada: 6.49100000 | SL: 6.54624082 | TP: 6.38789796 | Tamaño: $12,056.23 USD (Riesgo controlado: $102.60) | OK riesgo 1.10% (dd 12.7%)
+[2026-11-25 04:46:28] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 04:46:31] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 04:46:32] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 04:46:32] 📊 Marcador 7 Opciones | 1. WF Base: $9,909.07 (2A/16C) | 2. Híbrido ADX: $9,278.16 (2A/25C) | 3. Chimichurri: $11,303.12 (3A/26C) | 4. Francotirador: $10,464.34 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,559.15 (2A/14C) | 7. Escape: $11,868.58 (2A/24C)
