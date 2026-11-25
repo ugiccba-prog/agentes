@@ -5568,3 +5568,19 @@
 [2026-11-25 07:15:29]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-25 07:15:30] 💓 Cierre de Vela | Equity: $9,694.96 USD (Efectivo: $9,747.51 | Flotante: $-52.55 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 17
 [2026-11-25 07:15:44] 📊 Marcador 7 Opciones | 1. WF Base: $9,694.96 (1A/17C) | 2. Híbrido ADX: $9,189.19 (1A/26C) | 3. Chimichurri: $11,003.33 (3A/27C) | 4. Francotirador: $10,357.56 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,408.14 (1A/16C) | 7. Escape: $11,575.61 (3A/25C)
+[2026-11-25 07:31:08] ☁️ [GITHUB CLOUD] Cierre de vela #25 (7 Opciones) de la sesión #21...
+[2026-11-25 07:31:10]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:31:12]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:31:12]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 07:31:13] GBP/USD | Precio fuera del margen de entrada en GBP/USD. | OK riesgo 0.75% (dd 10.0%)
+[2026-11-25 07:31:14] 💓 Cierre de Vela | Equity: $9,721.73 USD (Efectivo: $9,747.51 | Flotante: $-25.78 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 17
+[2026-11-25 07:31:16] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pérdida diaria -5.5%
+[2026-11-25 07:31:23] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: FRENO: pérdida diaria -5.5%
+[2026-11-25 07:31:23] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 07:31:23] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-25 07:31:25] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 07:31:25] [4. Francotirador] 🎯 [Francotirador] GBP/USD SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-25 07:31:26] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 07:31:26] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 07:31:27] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 07:31:27] 📊 Marcador 7 Opciones | 1. WF Base: $9,721.73 (1A/17C) | 2. Híbrido ADX: $9,215.21 (1A/26C) | 3. Chimichurri: $11,226.37 (3A/27C) | 4. Francotirador: $10,435.11 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,446.20 (1A/16C) | 7. Escape: $11,678.55 (3A/25C)
