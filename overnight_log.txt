@@ -6200,3 +6200,9 @@
 [2026-11-25 19:18:13] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en DOGE/USDT LONG ajustado a 0.0549287038
 [2026-11-25 19:18:13] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6527043401
 [2026-11-25 19:18:13] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0551089198
+[2026-11-25 19:22:30] ✅ CERRADA SUI/USDT (LONG) a 0.6684 | PnL: $+267.69 USD (Take Profit Alcanzado)
+[2026-11-25 19:22:30] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.5487237977
+[2026-11-25 19:22:31] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en DOGE/USDT LONG ajustado a 0.0551587038
+[2026-11-25 19:22:31] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6566043401
+[2026-11-25 19:22:32] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 69.645443623
+[2026-11-25 19:22:32] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0553389198
