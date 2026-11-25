@@ -5919,3 +5919,4 @@
 [2026-11-25 16:07:06]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 16:07:07]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 16:07:07] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 16:13:14] [3. Chimichurri] 🔒 Stop (Breakeven+) en GBP/JPY SHORT ajustado a 208.0915607559
