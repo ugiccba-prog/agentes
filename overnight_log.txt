@@ -5323,3 +5323,14 @@
 [2026-11-25 03:22:20] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT LONG ajustado a 3.4553e-06
 [2026-11-25 03:22:24] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en PEPE/USDT LONG ajustado a 3.4576e-06
 [2026-11-25 03:22:24] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT LONG ajustado a 3.4553e-06
+[2026-11-25 03:30:15] ☁️ [GITHUB CLOUD] Cierre de vela #23 (7 Opciones) de la sesión #20...
+[2026-11-25 03:30:19]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 03:30:22]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 03:30:22]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 03:30:22]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 03:30:24] 💓 Cierre de Vela | Equity: $9,994.96 USD (Efectivo: $10,036.61 | Flotante: $-41.65 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 15
+[2026-11-25 03:30:38] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-25 03:30:44] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO_COOLDOWN: drawdown 16.2% desde pico realizado -> pausa 24h (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 03:30:44] [6. Resorte] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-25 03:30:44] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 03:30:44] 📊 Marcador 7 Opciones | 1. WF Base: $9,994.96 (2A/15C) | 2. Híbrido ADX: $9,417.52 (2A/23C) | 3. Chimichurri: $11,141.91 (3A/26C) | 4. Francotirador: $10,336.06 (2A/15C) | 5. Berserker: $9,245.29 (2A/27C) | 6. Resorte: $9,609.87 (2A/13C) | 7. Escape: $11,760.71 (2A/24C)
