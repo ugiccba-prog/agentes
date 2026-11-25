@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 9311.27,
-  "equity_usd": 9304.84,
+  "equity_usd": 9309.72,
   "realized_pnl_usd": -688.73,
-  "unrealized_pnl_usd": -6.43,
+  "unrealized_pnl_usd": -1.55,
   "peak_equity_usd": 10730.43,
   "realized_peak_equity_usd": 10633.98,
   "day_start_equity_usd": 9752.36,
@@ -15,7 +15,7 @@
   "total_trades": 25,
   "winning_trades": 12,
   "losing_trades": 13,
-  "last_updated": "2026-11-25 04:34:03 UTC",
+  "last_updated": "2026-11-25 04:37:20 UTC",
   "open_positions": [
     {
       "id": "ORD-172024",
@@ -25,14 +25,14 @@
       "side": "LONG",
       "entry_time": "2026-11-25 04:16:12 UTC",
       "entry_price": 1.3092432022,
-      "current_price": 1.3094146251678467,
+      "current_price": 1.309483289718628,
       "size": 71119.48326,
       "notional_usd": 93112.7,
       "stop_loss": 1.3085192759,
       "take_profit": 1.3114130897,
       "initial_risk_dist": 0.0007239264,
-      "unrealized_pnl_usd": -6.43,
-      "unrealized_pnl_pct": -0.01,
+      "unrealized_pnl_usd": -1.55,
+      "unrealized_pnl_pct": -0.0,
       "reason": "Régimen Híbrido [Rango ADX=16.5] | Rebote en Banda Inferior Bollinger (%B=-0.10, ADX=16.5) + Giro RSI (33.9)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
