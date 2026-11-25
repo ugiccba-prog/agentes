@@ -5866,3 +5866,13 @@
 [2026-11-25 15:12:54] [4. Francotirador] ✅ CERRADA SOL/USDT (SHORT) a 66.89 | PnL: $+323.91 USD (Take Profit Alcanzado)
 [2026-11-25 15:12:56] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 66.89 | PnL: $+488.73 USD (Take Profit Alcanzado)
 [2026-11-25 15:12:56] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0533900994
+[2026-11-25 15:16:08] ☁️ [GITHUB CLOUD] Cierre de vela #10 (7 Opciones) de la sesión #22...
+[2026-11-25 15:16:12]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 15:16:15]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 15:16:15]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 15:16:16]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 15:16:16] 💓 Cierre de Vela | Equity: $9,998.01 USD (Efectivo: $9,970.24 | Flotante: $+27.77 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 18
+[2026-11-25 15:16:36] [3. Chimichurri] ✅ CERRADA SOL/USDT (SHORT) a 66.71 | PnL: $+592.10 USD (Take Profit Alcanzado)
+[2026-11-25 15:16:36] [3. Chimichurri] ✅ CERRADA BTC/USDT (SHORT) a 57754.16 | PnL: $+447.08 USD (Take Profit Alcanzado)
+[2026-11-25 15:16:38] 📊 Marcador 7 Opciones | 1. WF Base: $9,998.01 (1A/18C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,987.46 (1A/31C) | 4. Francotirador: $11,002.12 (0A/17C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,184.94 (0A/19C) | 7. Escape: $12,053.17 (2A/28C)
+[2026-11-25 15:17:41] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0533600994
