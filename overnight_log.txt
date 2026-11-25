@@ -5220,3 +5220,6 @@
 [2026-11-25 02:07:46] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.3858024871
 [2026-11-25 02:08:51] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.3458024871
 [2026-11-25 02:09:56] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 69.3058024871
+[2026-11-25 02:11:02] [5. Berserker] ✅ CERRADA PEPE/USDT (LONG) a 3.41e-06 | PnL: $-138.76 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 02:11:02] [6. Resorte] ✅ CERRADA SOL/USDT (SHORT) a 68.74 | PnL: $+242.89 USD (Take Profit Alcanzado)
+[2026-11-25 02:11:02] [6. Resorte] ✅ CERRADA PEPE/USDT (LONG) a 3.41e-06 | PnL: $-93.22 USD (Stop Loss / Trailing Stop Ejecutado)
