@@ -5179,3 +5179,10 @@
 [2026-11-25 01:33:27] [5. Berserker] ✅ CERRADA BNB/USDT (LONG) a 543.11 | PnL: $-171.32 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 01:33:27] [6. Resorte] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 69.845075
 [2026-11-25 01:33:27] [6. Resorte] ✅ CERRADA BTC/USDT (LONG) a 59282.74 | PnL: $-104.11 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 01:45:14] ☁️ [GITHUB CLOUD] Cierre de vela #149 (7 Opciones) de la sesión #19...
+[2026-11-25 01:45:15]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 01:45:17]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 01:45:17]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 01:45:18]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 01:45:18] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-25 01:45:31] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,520.38 (0A/22C) | 3. Chimichurri: $11,238.57 (3A/26C) | 4. Francotirador: $10,323.90 (2A/15C) | 5. Berserker: $9,483.61 (1A/25C) | 6. Resorte: $9,434.78 (2A/11C) | 7. Escape: $11,911.07 (1A/23C)
