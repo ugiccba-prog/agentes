@@ -5884,3 +5884,4 @@
 [2026-11-25 15:30:22]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-25 15:30:23] 💓 Cierre de Vela | Equity: $10,025.01 USD (Efectivo: $9,970.24 | Flotante: $+54.77 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 18
 [2026-11-25 15:30:40] 📊 Marcador 7 Opciones | 1. WF Base: $10,025.01 (1A/18C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,996.95 (1A/31C) | 4. Francotirador: $11,002.12 (0A/17C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,184.94 (0A/19C) | 7. Escape: $12,006.14 (2A/28C)
+[2026-11-25 15:34:51] [7. Escape] ✅ CERRADA DOGE/USDT (SHORT) a 0.05335 | PnL: $+171.24 USD (Stop Loss / Trailing Stop Ejecutado)
