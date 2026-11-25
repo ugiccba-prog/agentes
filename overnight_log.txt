@@ -5320,3 +5320,6 @@
 [2026-11-25 03:21:14] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en PEPE/USDT LONG ajustado a 3.4576e-06
 [2026-11-25 03:21:14] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT LONG ajustado a 3.4553e-06
 [2026-11-25 03:21:15] [7. Escape] ✅ CERRADA BTC/USDT (SHORT) a 59645.21 | PnL: $-154.01 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 03:22:20] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT LONG ajustado a 3.4553e-06
+[2026-11-25 03:22:24] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en PEPE/USDT LONG ajustado a 3.4576e-06
+[2026-11-25 03:22:24] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT LONG ajustado a 3.4553e-06
