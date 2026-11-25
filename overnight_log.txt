@@ -5862,3 +5862,7 @@
 [2026-11-25 15:10:43] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 67.8835989845
 [2026-11-25 15:10:43] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0534700994
 [2026-11-25 15:11:47] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 58344.999439309
+[2026-11-25 15:12:54] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 68.0103187814
+[2026-11-25 15:12:54] [4. Francotirador] ✅ CERRADA SOL/USDT (SHORT) a 66.89 | PnL: $+323.91 USD (Take Profit Alcanzado)
+[2026-11-25 15:12:56] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 66.89 | PnL: $+488.73 USD (Take Profit Alcanzado)
+[2026-11-25 15:12:56] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0533900994
