@@ -5592,3 +5592,15 @@
 [2026-11-25 07:36:56] [7. Escape] ✅ CERRADA PEPE/USDT (LONG) a 3.45e-06 | PnL: $-363.91 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 07:38:01] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT SHORT ajustado a 0.6416031797
 [2026-11-25 07:38:04] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en PEPE/USDT SHORT ajustado a 3.4843e-06
+[2026-11-25 07:45:40] ☁️ [GITHUB CLOUD] Cierre de vela #38 (7 Opciones) de la sesión #21...
+[2026-11-25 07:45:43]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:45:45]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 07:45:45]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 07:45:46]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 07:45:47] 💓 Cierre de Vela | Equity: $9,782.90 USD (Efectivo: $9,747.51 | Flotante: $+35.39 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 17
+[2026-11-25 07:45:50] [2. Híbrido ADX] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 58860.82000000 | SL: 59212.73790933 | TP: 57769.06522667 | Tamaño: $16,744.59 USD (Riesgo controlado: $116.28) | OK riesgo 1.25% (dd 12.5%)
+[2026-11-25 07:45:58] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 07:46:00] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 07:46:01] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 07:46:02] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 07:46:02] 📊 Marcador 7 Opciones | 1. WF Base: $9,782.90 (1A/17C) | 2. Híbrido ADX: $9,257.93 (2A/26C) | 3. Chimichurri: $11,401.42 (3A/27C) | 4. Francotirador: $10,581.34 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,560.36 (1A/16C) | 7. Escape: $11,637.43 (2A/26C)
