@@ -5849,3 +5849,16 @@
 [2026-11-25 15:08:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0538932413
 [2026-11-25 15:08:29] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.0735989845
 [2026-11-25 15:08:29] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0536000994
+[2026-11-25 15:09:34] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 68.2103187814
+[2026-11-25 15:09:36] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.0235989845
+[2026-11-25 15:09:36] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0538432413
+[2026-11-25 15:09:37] [6. Resorte] ✅ CERRADA PEPE/USDT (LONG) a 3.39e-06 | PnL: $-91.41 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 15:09:37] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.0235989845
+[2026-11-25 15:09:37] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0535500994
+[2026-11-25 15:10:41] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SOL/USDT SHORT ajustado a 68.0703187814
+[2026-11-25 15:10:41] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 58408.719439309
+[2026-11-25 15:10:43] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 67.8835989845
+[2026-11-25 15:10:43] [4. Francotirador] ✅ CERRADA DOGE/USDT (SHORT) a 0.05308 | PnL: $+332.88 USD (Take Profit Alcanzado)
+[2026-11-25 15:10:43] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 67.8835989845
+[2026-11-25 15:10:43] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0534700994
+[2026-11-25 15:11:47] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 58344.999439309
