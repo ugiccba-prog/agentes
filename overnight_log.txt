@@ -6089,3 +6089,18 @@
 [2026-11-25 18:17:59] [3. Chimichurri] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
 [2026-11-25 18:19:07] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
 [2026-11-25 18:19:09] [3. Chimichurri] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.6447657
+[2026-11-25 18:30:46] ☁️ [GITHUB CLOUD] Cierre de vela #183 (7 Opciones) de la sesión #22...
+[2026-11-25 18:30:49]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 18:30:52]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 18:30:52]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 18:30:53]    🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 18:30:56] 💓 Cierre de Vela | Equity: $9,729.80 USD (Efectivo: $9,554.43 | Flotante: $+175.37 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 21
+[2026-11-25 18:31:11] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-25 18:31:11] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-25 18:31:11] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 18:31:11] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-25 18:31:13] [4. Francotirador] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 96%) | Entrada: 1.31285286 | SL: 1.31086111 | TP: 1.31760006 | Tamaño: $72,989.87 USD (Riesgo controlado: $110.73) | OK riesgo 1.04% (dd 3.1%)
+[2026-11-25 18:31:13] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 18:31:13] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 18:31:16] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-25 18:31:17] 📊 Marcador 7 Opciones | 1. WF Base: $9,729.80 (3A/21C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,763.39 (3A/34C) | 4. Francotirador: $10,643.13 (1A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,082.89 (2A/19C) | 7. Escape: $12,057.06 (3A/30C)
