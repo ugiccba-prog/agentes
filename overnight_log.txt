@@ -6320,3 +6320,12 @@
 [2026-11-25 21:16:18] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en DOGE/USDT LONG ajustado a 0.0552934731
 [2026-11-25 21:16:19] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0554162276
 [2026-11-25 21:16:19] 📊 Marcador 7 Opciones | 1. WF Base: $9,984.16 (2A/22C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $12,254.85 (3A/34C) | 4. Francotirador: $10,584.73 (1A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,366.23 (3A/30C)
+[2026-11-25 21:30:16] ☁️ [GITHUB CLOUD] Cierre de vela #131 (7 Opciones) de la sesión #23...
+[2026-11-25 21:30:18]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 21:30:20]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 21:30:21]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 21:30:21]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 21:30:22] 💓 Cierre de Vela | Equity: $9,971.56 USD (Efectivo: $9,822.12 | Flotante: $+149.44 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 22
+[2026-11-25 21:30:33] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en DOGE/USDT LONG ajustado a 0.055315225
+[2026-11-25 21:30:34] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0554343542
+[2026-11-25 21:30:34] 📊 Marcador 7 Opciones | 1. WF Base: $9,971.56 (2A/22C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $12,233.66 (3A/34C) | 4. Francotirador: $10,578.04 (1A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,374.11 (3A/30C)
