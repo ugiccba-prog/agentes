@@ -5252,3 +5252,11 @@
 [2026-11-25 02:31:18] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-25 02:31:18] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-25 02:31:19] 📊 Marcador 7 Opciones | 1. WF Base: $10,027.74 (1A/15C) | 2. Híbrido ADX: $9,457.76 (2A/22C) | 3. Chimichurri: $11,380.30 (3A/26C) | 4. Francotirador: $10,409.16 (2A/15C) | 5. Berserker: $9,313.04 (2A/26C) | 6. Resorte: $9,486.86 (0A/13C) | 7. Escape: $11,982.43 (2A/23C)
+[2026-11-25 02:45:34] ☁️ [GITHUB CLOUD] Cierre de vela #203 (7 Opciones) de la sesión #19...
+[2026-11-25 02:45:36]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 02:45:38]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 02:45:38]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 02:45:38]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 02:45:39] 💓 Cierre de Vela | Equity: $10,063.34 USD (Efectivo: $10,036.61 | Flotante: $+26.73 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 15
+[2026-11-25 02:45:52] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 02:45:53] 📊 Marcador 7 Opciones | 1. WF Base: $10,063.34 (1A/15C) | 2. Híbrido ADX: $9,509.24 (2A/22C) | 3. Chimichurri: $11,322.27 (3A/26C) | 4. Francotirador: $10,416.81 (2A/15C) | 5. Berserker: $9,389.05 (2A/26C) | 6. Resorte: $9,486.86 (0A/13C) | 7. Escape: $11,977.72 (2A/23C)
