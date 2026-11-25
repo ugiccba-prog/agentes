@@ -6468,3 +6468,5 @@
 [2026-11-25 23:46:35] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-25 23:46:37] 📊 Marcador 7 Opciones | 1. WF Base: $9,962.85 (2A/22C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $12,152.31 (3A/34C) | 4. Francotirador: $10,537.97 (2A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,257.99 (3A/30C)
 [2026-11-25 23:51:07] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6597455911
+[2026-11-25 23:53:21] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.5806866557
+[2026-11-25 23:53:25] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6599455911
