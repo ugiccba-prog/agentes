@@ -5584,3 +5584,9 @@
 [2026-11-25 07:31:26] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-25 07:31:27] [7. Escape] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-25 07:31:27] 📊 Marcador 7 Opciones | 1. WF Base: $9,721.73 (1A/17C) | 2. Híbrido ADX: $9,215.21 (1A/26C) | 3. Chimichurri: $11,226.37 (3A/27C) | 4. Francotirador: $10,435.11 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,446.20 (1A/16C) | 7. Escape: $11,678.55 (3A/25C)
+[2026-11-25 07:36:54] [3. Chimichurri] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 69.05626
+[2026-11-25 07:36:54] [3. Chimichurri] 🔒 Stop (Breakeven+) en SUI/USDT SHORT ajustado a 0.64553025
+[2026-11-25 07:36:55] [4. Francotirador] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 69.05626
+[2026-11-25 07:36:56] [6. Resorte] 🔒 Stop (Breakeven+) en PEPE/USDT SHORT ajustado a 3.5147e-06
+[2026-11-25 07:36:56] [7. Escape] 🔒 Stop (Breakeven+) en SOL/USDT SHORT ajustado a 69.05626
+[2026-11-25 07:36:56] [7. Escape] ✅ CERRADA PEPE/USDT (LONG) a 3.45e-06 | PnL: $-363.91 USD (Stop Loss / Trailing Stop Ejecutado)
