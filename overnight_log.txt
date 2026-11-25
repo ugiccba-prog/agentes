@@ -5830,3 +5830,22 @@
 [2026-11-25 15:05:43]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 15:05:43]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 15:05:43] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 15:05:45] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #22...
+[2026-11-25 15:05:48]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 15:05:51]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 15:05:51]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 15:05:52]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 15:05:54] ✅ CERRADA AVAX/USDT (SHORT) a 6.368 | PnL: $+222.73 USD (Take Profit Alcanzado)
+[2026-11-25 15:05:54] 💓 Cierre de Vela | Equity: $10,004.50 USD (Efectivo: $9,970.24 | Flotante: $+34.26 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 18
+[2026-11-25 15:06:09] [2. Híbrido ADX] ✅ CERRADA AVAX/USDT (SHORT) a 6.368 | PnL: $+216.52 USD (Take Profit Alcanzado)
+[2026-11-25 15:06:12] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 58985.3312255082
+[2026-11-25 15:06:14] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0539643031
+[2026-11-25 15:06:15] [7. Escape] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05389903
+[2026-11-25 15:06:15] 📊 Marcador 7 Opciones | 1. WF Base: $10,004.50 (1A/18C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,615.07 (3A/29C) | 4. Francotirador: $10,866.34 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,222.27 (1A/18C) | 7. Escape: $11,793.44 (3A/27C)
+[2026-11-25 15:07:19] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 58670.299439309
+[2026-11-25 15:07:22] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0536900994
+[2026-11-25 15:08:26] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en BTC/USDT SHORT ajustado a 58473.129439309
+[2026-11-25 15:08:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.0735989845
+[2026-11-25 15:08:27] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0538932413
+[2026-11-25 15:08:29] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT SHORT ajustado a 68.0735989845
+[2026-11-25 15:08:29] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0536000994
