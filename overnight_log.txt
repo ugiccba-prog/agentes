@@ -5731,3 +5731,19 @@
 [2026-11-25 09:40:49] [2. Híbrido ADX] ✅ CERRADA SUI/USDT (LONG) a 0.6347 | PnL: $-83.90 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 09:40:52] [4. Francotirador] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.054707815
 [2026-11-25 09:40:52] [6. Resorte] ✅ CERRADA SUI/USDT (LONG) a 0.6347 | PnL: $-169.85 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 09:45:10] ☁️ [GITHUB CLOUD] Cierre de vela #144 (7 Opciones) de la sesión #21...
+[2026-11-25 09:45:12]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 09:45:14]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 09:45:14]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 09:45:14]    🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 09:45:15] 💓 Cierre de Vela | Equity: $9,853.56 USD (Efectivo: $9,747.51 | Flotante: $+106.05 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 17
+[2026-11-25 09:45:23] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-25 09:45:25] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: FRENO: pérdida diaria -6.8%
+[2026-11-25 09:45:25] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 09:45:25] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-25 09:45:27] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 09:45:27] [4. Francotirador] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-25 09:45:28] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 09:45:28] [5. Berserker] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 09:45:28] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 09:45:28] 📊 Marcador 7 Opciones | 1. WF Base: $9,853.56 (2A/17C) | 2. Híbrido ADX: $9,082.11 (1A/28C) | 3. Chimichurri: $11,347.88 (3A/29C) | 4. Francotirador: $10,746.51 (2A/15C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,276.35 (0A/18C) | 7. Escape: $11,609.09 (3A/27C)
