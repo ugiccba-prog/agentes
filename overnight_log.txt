@@ -6074,3 +6074,14 @@
 [2026-11-25 18:09:32]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 18:09:32]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-25 18:09:32] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-25 18:15:13] ☁️ [GITHUB CLOUD] Cierre de vela #170 (7 Opciones) de la sesión #22...
+[2026-11-25 18:15:16]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 18:15:19]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 18:15:19]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 18:15:19]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 18:15:23] 💓 Cierre de Vela | Equity: $9,680.22 USD (Efectivo: $9,554.43 | Flotante: $+125.79 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 21
+[2026-11-25 18:15:37] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-25 18:15:37] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 18:15:39] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 18:15:42] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-25 18:15:44] 📊 Marcador 7 Opciones | 1. WF Base: $9,680.22 (3A/21C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,641.18 (3A/34C) | 4. Francotirador: $10,657.73 (0A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,056.90 (2A/19C) | 7. Escape: $12,019.41 (3A/30C)
