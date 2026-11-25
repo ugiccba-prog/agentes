@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `19` | **Última actualización:** `2026-11-25 00:46:06 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `19` | **Última actualización:** `2026-11-25 00:49:22 UTC`
 
 ---
 
@@ -11,11 +11,11 @@
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
 | **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$10,036.61` | **`$+36.61`** (`+0.37%`) | ⚪ *Sin abiertas* | `7W / 8L` (`15`) | `1.03` | `7.86%` / `7.02%` |
-| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,718.04` | **`$-281.96`** (`-2.82%`) | 🟢 `BTC/USDT` LONG (`$-17.48`)<br>🟢 `BNB/USDT` LONG (`$-16.84`) | `11W / 9L` (`20`) | `0.86` | `9.43%` / `8.29%` |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,105.47` | **`$+1,105.47`** (`+11.05%`) | 🟢 `GBP/JPY` LONG (`$+4.17`)<br>🔴 `SOL/USDT` SHORT (`$-158.94`)<br>🔴 `SUI/USDT` SHORT (`$-6.57`) | `16W / 10L` (`26`) | `1.75` | `6.39%` / `4.57%` |
-| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,165.84` | **`$+165.84`** (`+1.66%`) | 🔴 `SOL/USDT` SHORT (`$-94.06`)<br>🔴 `DOGE/USDT` SHORT (`$-85.42`) | `10W / 5L` (`15`) | `1.51` | `5.46%` / `3.48%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,814.93` | **`$-185.07`** (`-1.85%`) | 🟢 `BTC/USDT` LONG (`$-23.91`)<br>🟢 `BNB/USDT` LONG (`$-23.04`) | `12W / 11L` (`23`) | `0.95` | `12.49%` / `10.75%` |
-| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,456.23` | **`$-543.77`** (`-5.44%`) | 🔴 `SOL/USDT` SHORT (`$+31.97`)<br>🟢 `BTC/USDT` LONG (`$-17.04`) | `4W / 6L` (`10`) | `0.52` | `7.75%` / `6.86%` |
+| **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,732.28` | **`$-267.72`** (`-2.68%`) | 🟢 `BTC/USDT` LONG (`$-8.48`)<br>🟢 `BNB/USDT` LONG (`$-11.61`) | `11W / 9L` (`20`) | `0.86` | `9.61%` / `8.29%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,107.49` | **`$+1,107.49`** (`+11.07%`) | 🟢 `GBP/JPY` LONG (`$+7.21`)<br>🔴 `SOL/USDT` SHORT (`$-158.94`)<br>🔴 `SUI/USDT` SHORT (`$-7.58`) | `16W / 10L` (`26`) | `1.75` | `6.39%` / `4.57%` |
+| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,163.83` | **`$+163.83`** (`+1.64%`) | 🔴 `SOL/USDT` SHORT (`$-94.06`)<br>🔴 `DOGE/USDT` SHORT (`$-87.43`) | `10W / 5L` (`15`) | `1.51` | `5.46%` / `3.48%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$9,834.40` | **`$-165.60`** (`-1.66%`) | 🟢 `BTC/USDT` LONG (`$-11.60`)<br>🟢 `BNB/USDT` LONG (`$-15.88`) | `12W / 11L` (`23`) | `0.95` | `12.61%` / `10.75%` |
+| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,465.01` | **`$-534.99`** (`-5.35%`) | 🔴 `SOL/USDT` SHORT (`$+31.97`)<br>🟢 `BTC/USDT` LONG (`$-8.27`) | `4W / 6L` (`10`) | `0.52` | `7.75%` / `6.86%` |
 | **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,800.03` | **`$+1,800.03`** (`+18.00%`) | 🔴 `SOL/USDT` SHORT (`$-141.93`) | `15W / 8L` (`23`) | `3.40` | `5.97%` / `2.67%` |
 
 ---
@@ -24,14 +24,14 @@
 
 | Mercado Activo | 1. WF Base | 2. Híbrido ADX | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
-| `BTC/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-17.48`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-23.91`) | 🟢 **LONG** (`$-17.04`) | ⚪ Esperando |
+| `BTC/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-8.48`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-11.60`) | 🟢 **LONG** (`$-8.27`) | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-158.94`) | 🔴 **SHORT** (`$-94.06`) | ⚪ Esperando | 🔴 **SHORT** (`$+31.97`) | 🔴 **SHORT** (`$-141.93`) |
-| `BNB/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-16.84`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-23.04`) | ⚪ Esperando | ⚪ Esperando |
-| `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-85.42`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-6.57`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | 🟢 **LONG** (`$-11.61`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-15.88`) | ⚪ Esperando | ⚪ Esperando |
+| `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-87.43`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-7.58`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+4.17`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+7.21`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 
 ---
