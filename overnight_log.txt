@@ -5994,3 +5994,27 @@
 [2026-11-25 17:08:11] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-25 17:09:13] [3. Chimichurri] ✅ CERRADA SOL/USDT (SHORT) a 68.71 | PnL: $-376.78 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-25 17:09:13] [4. Francotirador] ✅ CERRADA SOL/USDT (SHORT) a 68.71 | PnL: $-175.04 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-25 17:15:18] ☁️ [GITHUB CLOUD] Cierre de vela #120 (7 Opciones) de la sesión #22...
+[2026-11-25 17:15:23] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.64380000 | SL: 0.63311731 | TP: 0.66665673 | Tamaño: $7,197.56 USD (Riesgo controlado: $119.43) | OK riesgo 1.25% (dd 11.5%)
+[2026-11-25 17:15:27] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 98%) | Entrada: 6.47300000 | SL: 6.37389524 | TP: 6.67526190 | Tamaño: $7,800.56 USD (Riesgo controlado: $119.43) | OK riesgo 1.25% (dd 11.5%)
+[2026-11-25 17:15:28]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 17:15:28]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 17:15:28] 💓 Cierre de Vela | Equity: $9,539.43 USD (Efectivo: $9,554.43 | Flotante: $-15.00 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 21
+[2026-11-25 17:15:40] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-25 17:15:40] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-25 17:15:40] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-25 17:15:45] [3. Chimichurri] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG (Conv 98%) | Entrada: 0.05451000 | SL: 0.05354885 | TP: 0.05672197 | Tamaño: $16,150.61 USD (Riesgo controlado: $284.78) | OK riesgo 2.50% (dd 4.7%)
+[2026-11-25 17:15:45] [3. Chimichurri] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.64380000 | SL: 0.63311731 | TP: 0.67060617 | Tamaño: $6,864.91 USD (Riesgo controlado: $113.91) | OK riesgo 1.00% (dd 4.7%)
+[2026-11-25 17:15:45] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 17:15:45] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-25 17:15:45] [4. Francotirador] 🎯 [Francotirador] SUI/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-25 17:15:45] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (-1)
+[2026-11-25 17:15:45] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 17:15:45] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 17:15:45] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 17:15:47] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 85%) | Entrada: 68.82000000 | SL: 67.46047320 | TP: 71.60692059 | Tamaño: $12,508.88 USD (Riesgo controlado: $247.11) | OK riesgo 2.10% (dd 1.7%)
+[2026-11-25 17:15:47] [7. Escape] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG (Conv 95%) | Entrada: 0.05451000 | SL: 0.05354885 | TP: 0.05655315 | Tamaño: $9,342.96 USD (Riesgo controlado: $164.74) | OK riesgo 1.40% (dd 1.7%)
+[2026-11-25 17:15:47] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 17:15:47] [7. Escape] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 17:15:47] [7. Escape] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 85%) | Entrada: 1.31106269 | SL: 1.30894349 | TP: 1.31641153 | Tamaño: $111,964.10 USD (Riesgo controlado: $180.98) | OK riesgo 1.54% (dd 1.7%)
+[2026-11-25 17:15:47] 📊 Marcador 7 Opciones | 1. WF Base: $9,539.43 (2A/21C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $11,368.06 (2A/34C) | 4. Francotirador: $10,657.73 (0A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $9,184.94 (0A/19C) | 7. Escape: $11,722.94 (3A/30C)
