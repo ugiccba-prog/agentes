@@ -6211,3 +6211,15 @@
 [2026-11-25 19:23:37] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6575043401
 [2026-11-25 19:23:38] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 69.755443623
 [2026-11-25 19:23:38] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0553689198
+[2026-11-25 19:31:07] ☁️ [GITHUB CLOUD] Cierre de vela #23 (7 Opciones) de la sesión #23...
+[2026-11-25 19:31:09]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 19:31:11]    🛡️ [RiskManager] AVAX/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-25 19:31:11]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 19:31:11]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 19:31:12] 💓 Cierre de Vela | Equity: $10,022.04 USD (Efectivo: $9,822.12 | Flotante: $+199.92 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 22
+[2026-11-25 19:31:19] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pérdida diaria -5.4%
+[2026-11-25 19:31:21] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 19:31:23] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT LONG descartado: sin alineación Macro 1H (0)
+[2026-11-25 19:31:23] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-25 19:31:23] [7. Escape] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-25 19:31:24] 📊 Marcador 7 Opciones | 1. WF Base: $10,022.04 (2A/22C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $12,241.97 (3A/34C) | 4. Francotirador: $10,649.84 (1A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,447.50 (3A/30C)
