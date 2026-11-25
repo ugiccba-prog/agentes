@@ -5116,3 +5116,16 @@
 [2026-11-25 00:30:47]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-25 00:30:47] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
 [2026-11-25 00:30:59] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,752.36 (0A/20C) | 3. Chimichurri: $11,103.87 (3A/26C) | 4. Francotirador: $10,180.32 (2A/15C) | 5. Berserker: $9,861.88 (0A/23C) | 6. Resorte: $9,479.67 (1A/10C) | 7. Escape: $11,806.70 (1A/23C)
+[2026-11-25 00:45:47] ☁️ [GITHUB CLOUD] Cierre de vela #96 (7 Opciones) de la sesión #19...
+[2026-11-25 00:45:49]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 00:45:50]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-25 00:45:51]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-25 00:45:51]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-25 00:45:51] 💓 Cierre de Vela | Equity: $10,036.61 USD (Efectivo: $10,036.61 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 15
+[2026-11-25 00:45:54] [2. Híbrido ADX] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 75%) | Entrada: 59587.28000000 | SL: 59304.66580486 | TP: 60407.18048786 | Tamaño: $17,477.86 USD (Riesgo controlado: $82.90) | OK riesgo 0.85% (dd 8.3%)
+[2026-11-25 00:45:59] [2. Híbrido ADX] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 75%) | Entrada: 546.63000000 | SL: 543.93913621 | TP: 553.21715949 | Tamaño: $16,839.55 USD (Riesgo controlado: $82.90) | OK riesgo 0.85% (dd 8.3%)
+[2026-11-25 00:46:05] [5. Berserker] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 75%) | Entrada: 59587.28000000 | SL: 59304.66580486 | TP: 60407.18048786 | Tamaño: $23,912.07 USD (Riesgo controlado: $113.41) | OK riesgo 1.15% (dd 10.7%)
+[2026-11-25 00:46:05] [5. Berserker] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 75%) | Entrada: 546.63000000 | SL: 543.93913621 | TP: 553.21715949 | Tamaño: $23,038.77 USD (Riesgo controlado: $113.41) | OK riesgo 1.15% (dd 10.7%)
+[2026-11-25 00:46:06] [6. Resorte] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 75%) | Entrada: 59587.28000000 | SL: 59304.66580486 | TP: 60407.18048786 | Tamaño: $17,044.22 USD (Riesgo controlado: $90.05) | OK riesgo 0.95% (dd 6.6%)
+[2026-11-25 00:46:06] [6. Resorte] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-25 00:46:06] 📊 Marcador 7 Opciones | 1. WF Base: $10,036.61 (0A/15C) | 2. Híbrido ADX: $9,718.04 (2A/20C) | 3. Chimichurri: $11,105.47 (3A/26C) | 4. Francotirador: $10,165.84 (2A/15C) | 5. Berserker: $9,814.93 (2A/23C) | 6. Resorte: $9,456.23 (2A/10C) | 7. Escape: $11,800.03 (1A/23C)
