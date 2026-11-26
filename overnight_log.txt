@@ -7892,3 +7892,4 @@
 [2026-11-26 23:00:51] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60692.9129465129
 [2026-11-26 23:00:52] [7. Escape] GBP/JPY | Precio fuera del margen de entrada en GBP/JPY. | OK riesgo 0.90% (dd 3.5%)
 [2026-11-26 23:00:52] 📊 Marcador 7 Opciones | 1. WF Base: $9,725.55 (1A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,565.37 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,980.04 (2A/28C) | 7. Escape: $12,111.36 (1A/36C)
+[2026-11-26 23:09:24] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6150370645
