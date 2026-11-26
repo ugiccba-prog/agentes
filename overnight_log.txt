@@ -6531,3 +6531,4 @@
 [2026-11-26 00:17:27] [3. Chimichurri] ✅ CERRADA DOGE/USDT (LONG) a 0.05698 | PnL: $+715.31 USD (Take Profit Alcanzado)
 [2026-11-26 00:17:28] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT LONG ajustado a 557.6728289864
 [2026-11-26 00:17:30] [7. Escape] ✅ CERRADA DOGE/USDT (LONG) a 0.05698 | PnL: $+413.80 USD (Take Profit Alcanzado)
+[2026-11-26 00:21:50] [4. Francotirador] ✅ CERRADA BNB/USDT (LONG) a 557.54 | PnL: $+102.41 USD (Stop Loss / Trailing Stop Ejecutado)
