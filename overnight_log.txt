@@ -7222,3 +7222,13 @@
 [2026-11-26 11:45:29] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-26 11:45:31] [6. Resorte] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-26 11:45:32] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,709.90 (2A/41C) | 4. Francotirador: $10,457.55 (1A/23C) | 5. Berserker: $8,953.77 (3A/34C) | 6. Resorte: $8,851.50 (2A/24C) | 7. Escape: $12,496.51 (1A/33C)
+[2026-11-26 12:00:42] ☁️ [GITHUB CLOUD] Cierre de vela #48 (7 Opciones) de la sesión #27...
+[2026-11-26 12:00:45]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 12:00:48]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 12:00:48]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 12:00:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 12:00:49] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 12:01:05] [4. Francotirador] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:01:07] [5. Berserker] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:01:07] [5. Berserker] 🔒 Stop (Breakeven+) en SUI/USDT LONG ajustado a 0.66709915
+[2026-11-26 12:01:08] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,747.06 (2A/41C) | 4. Francotirador: $10,485.07 (1A/23C) | 5. Berserker: $9,004.68 (3A/34C) | 6. Resorte: $8,873.05 (2A/24C) | 7. Escape: $12,489.18 (1A/33C)
