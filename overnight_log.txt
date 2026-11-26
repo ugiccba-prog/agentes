@@ -6845,3 +6845,13 @@
 [2026-11-26 06:11:34]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 06:11:34]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 06:11:34] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-26 06:15:44] ☁️ [GITHUB CLOUD] Cierre de vela #175 (7 Opciones) de la sesión #25...
+[2026-11-26 06:15:48]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 06:15:51]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 06:15:51]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 06:15:51]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 06:15:51] 💓 Cierre de Vela | Equity: $9,988.19 USD (Efectivo: $10,063.65 | Flotante: $-75.46 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 23
+[2026-11-26 06:16:08] 📊 Marcador 7 Opciones | 1. WF Base: $9,988.19 (1A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,076.86 (2A/38C) | 4. Francotirador: $10,521.67 (1A/21C) | 5. Berserker: $9,036.74 (2A/29C) | 6. Resorte: $8,965.33 (1A/21C) | 7. Escape: $12,424.83 (1A/32C)
+[2026-11-26 06:17:10] [3. Chimichurri] ✅ CERRADA SOL/USDT (LONG) a 70.59 | PnL: $-204.45 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 06:17:10] [4. Francotirador] ✅ CERRADA SOL/USDT (LONG) a 70.59 | PnL: $-133.25 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 06:17:10] [5. Berserker] ✅ CERRADA SOL/USDT (LONG) a 70.59 | PnL: $-62.35 USD (Stop Loss / Trailing Stop Ejecutado)
