@@ -7882,3 +7882,13 @@
 [2026-11-26 22:45:39] 📊 Marcador 7 Opciones | 1. WF Base: $9,723.68 (1A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,563.50 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,868.01 (2A/28C) | 7. Escape: $12,161.23 (1A/36C)
 [2026-11-26 22:55:15] [6. Resorte] 🔒 Stop (Breakeven+) en AVAX/USDT SHORT ajustado a 6.638028
 [2026-11-26 22:57:22] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60728.0576009982
+[2026-11-26 23:00:31] ☁️ [GITHUB CLOUD] Cierre de vela #213 (7 Opciones) de la sesión #29...
+[2026-11-26 23:00:33]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 23:00:36]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 23:00:36]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 23:00:37]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 23:00:37] 💓 Cierre de Vela | Equity: $9,725.55 USD (Efectivo: $9,743.17 | Flotante: $-17.62 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 26
+[2026-11-26 23:00:51] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6210370645
+[2026-11-26 23:00:51] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60692.9129465129
+[2026-11-26 23:00:52] [7. Escape] GBP/JPY | Precio fuera del margen de entrada en GBP/JPY. | OK riesgo 0.90% (dd 3.5%)
+[2026-11-26 23:00:52] 📊 Marcador 7 Opciones | 1. WF Base: $9,725.55 (1A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,565.37 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,980.04 (2A/28C) | 7. Escape: $12,111.36 (1A/36C)
