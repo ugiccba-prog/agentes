@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `26` | **Última actualización:** `2026-11-26 09:47:27 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `26` | **Última actualización:** `2026-11-26 09:50:44 UTC`
 
 ---
 
@@ -10,13 +10,13 @@
 
 | Opción | Regla / Perfil | Equity Actual | Resultado Neto | Qué Hay Abierto Ahora | Cerradas (W/L) | PF | Peor Caída (Tot / Real) |
 |---|---|---|---|---|---|---|---|
-| **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,892.71` | **`$-107.29`** (`-1.07%`) | 🟢 `GBP/USD` LONG (`$-40.92`)<br>🟢 `AVAX/USDT` LONG (`$-17.27`) | `10W / 14L` (`24`) | `0.98` | `12.88%` / `11.49%` |
+| **1. WF Estricta v2 (Base)** | `Solo mercados aprobados WF OOS (sin forzados) · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,884.18` | **`$-115.82`** (`-1.16%`) | 🟢 `GBP/USD` LONG (`$-41.69`)<br>🟢 `AVAX/USDT` LONG (`$-25.02`) | `10W / 14L` (`24`) | `0.98` | `12.88%` / `11.49%` |
 | **2. Régimen Híbrido (ADX)** | `ADX >= 22 Chimichurri + ADX < 18 Resorte · Riesgo 1.5–2.5% · 4x · R:R >= 2.2` | `$9,001.19` | **`$-998.81`** (`-9.99%`) | ⚪ *Sin abiertas* | `13W / 18L` (`31`) | `0.64` | `16.12%` / `15.35%` 🔄 Recup. |
-| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,704.28` | **`$+1,704.28`** (`+17.04%`) | 🟢 `GBP/JPY` LONG (`$+138.16`)<br>🟢 `DOGE/USDT` LONG (`$+1.15`) | `22W / 19L` (`41`) | `1.45` | `7.66%` / `6.72%` |
-| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,522.11` | **`$+522.11`** (`+5.22%`) | 🟢 `DOGE/USDT` LONG (`$+38.37`)<br>🟢 `AVAX/USDT` LONG (`$-13.76`) | `13W / 9L` (`22`) | `1.39` | `5.46%` / `4.59%` |
-| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$8,928.88` | **`$-1,071.12`** (`-10.71%`) | 🟢 `DOGE/USDT` LONG (`$+24.32`)<br>🟢 `AVAX/USDT` LONG (`$-9.33`)<br>🔴 `GBP/USD` SHORT (`$-17.46`) | `14W / 19L` (`33`) | `0.71` | `20.35%` / `19.17%` 🔄 Recup. |
-| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$8,853.80` | **`$-1,146.20`** (`-11.46%`) | 🟢 `BNB/USDT` LONG (`$-12.26`)<br>🔴 `GBP/USD` SHORT (`$-27.11`) | `8W / 15L` (`23`) | `0.48` | `13.36%` / `12.27%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$12,442.96` | **`$+2,442.96`** (`+24.43%`) | 🟢 `GBP/USD` LONG (`$-28.26`)<br>🔴 `BNB/USDT` SHORT (`$-47.89`) | `19W / 13L` (`32`) | `2.53` | `8.16%` / `6.20%` |
+| **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,710.96` | **`$+1,710.96`** (`+17.11%`) | 🟢 `GBP/JPY` LONG (`$+169.98`)<br>🟢 `DOGE/USDT` LONG (`$-23.98`) | `22W / 19L` (`41`) | `1.45` | `7.66%` / `6.72%` |
+| **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,498.42` | **`$+498.42`** (`+4.98%`) | 🟢 `DOGE/USDT` LONG (`$+20.86`)<br>🟢 `AVAX/USDT` LONG (`$-19.93`) | `13W / 9L` (`22`) | `1.39` | `5.46%` / `4.59%` |
+| **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$8,914.35` | **`$-1,085.65`** (`-10.86%`) | 🟢 `DOGE/USDT` LONG (`$+13.22`)<br>🟢 `AVAX/USDT` LONG (`$-13.52`)<br>🔴 `GBP/USD` SHORT (`$-16.70`) | `14W / 19L` (`33`) | `0.71` | `20.41%` / `19.17%` 🔄 Recup. |
+| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$8,842.37` | **`$-1,157.63`** (`-11.58%`) | 🟢 `BNB/USDT` LONG (`$-24.87`)<br>🔴 `GBP/USD` SHORT (`$-25.94`) | `8W / 15L` (`23`) | `0.48` | `13.47%` / `12.27%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$12,462.50` | **`$+2,462.50`** (`+24.62%`) | 🟢 `GBP/USD` LONG (`$-29.73`)<br>🔴 `BNB/USDT` SHORT (`$-26.87`) | `19W / 13L` (`32`) | `2.53` | `8.16%` / `6.20%` |
 
 ---
 
@@ -26,13 +26,13 @@
 |---|---|---|---|---|---|---|---|
 | `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-12.26`) | 🔴 **SHORT** (`$-47.89`) |
-| `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+1.15`) | 🟢 **LONG** (`$+38.37`) | 🟢 **LONG** (`$+24.32`) | ⚪ Esperando | ⚪ Esperando |
+| `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-24.87`) | 🔴 **SHORT** (`$-26.87`) |
+| `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-23.98`) | 🟢 **LONG** (`$+20.86`) | 🟢 **LONG** (`$+13.22`) | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `AVAX/USDT` | 🟢 **LONG** (`$-17.27`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-13.76`) | 🟢 **LONG** (`$-9.33`) | ⚪ Esperando | ⚪ Esperando |
+| `AVAX/USDT` | 🟢 **LONG** (`$-25.02`) | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-19.93`) | 🟢 **LONG** (`$-13.52`) | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+138.16`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/USD` | 🟢 **LONG** (`$-40.92`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-17.46`) | 🔴 **SHORT** (`$-27.11`) | 🟢 **LONG** (`$-28.26`) |
+| `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+169.98`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
+| `GBP/USD` | 🟢 **LONG** (`$-41.69`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-16.70`) | 🔴 **SHORT** (`$-25.94`) | 🟢 **LONG** (`$-29.73`) |
 
 ---
 
@@ -41,10 +41,10 @@
 | Métrica | Valor Actual |
 |---|---|
 | **Capital Inicial** | `$10,000.00 USD` |
-| **Equity Total en Vivo** | **`$9,892.71 USD`** (`-1.07%` / `$-107.29 USD`) |
+| **Equity Total en Vivo** | **`$9,884.18 USD`** (`-1.16%` / `$-115.82 USD`) |
 | **Pico Máximo (Peak Equity)** | `$10,892.88 USD` (Inicio Día UTC: `$9,966.67 USD`) |
 | **Efectivo Cerrado (Cash)** | `$9,950.90 USD` (PnL Realizado: `$-49.10 USD`) |
-| **PnL Flotante Actual** | `$-58.19 USD` |
+| **PnL Flotante Actual** | `$-66.72 USD` |
 | **Win Rate & Profit Factor Real** | `41.7%` (`10W / 14L` de `24`) · **PF `0.98`** |
 | **Meta Paper Trading (100 Trades)** | `24 / 100` cerrados |
 
@@ -56,8 +56,8 @@
 
 | Par | Lado | Estrategia | Entrada | Actual | Stop Loss | Take Profit | PnL Flotante |
 |---|---|---|---|---|---|---|---|
-| `GBP/USD` | **LONG** | `chimichurri_alpha` | `1.3116` | `1.311` | `1.3097` (🛡️ Inicial) | `1.3168` | **$-40.92** (-0.07%) |
-| `AVAX/USDT` | **LONG** | `chimichurri_alpha` | `6.678` | `6.678` | `6.646` (🛡️ Inicial) | `6.7545` | **$-17.27** (-0.10%) |
+| `GBP/USD` | **LONG** | `chimichurri_alpha` | `1.3116` | `1.311` | `1.3097` (🛡️ Inicial) | `1.3168` | **$-41.69** (-0.07%) |
+| `AVAX/USDT` | **LONG** | `chimichurri_alpha` | `6.678` | `6.675` | `6.646` (🛡️ Inicial) | `6.7545` | **$-25.02** (-0.14%) |
 
 ---
 
