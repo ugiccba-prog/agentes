@@ -7134,3 +7134,11 @@
 [2026-11-26 10:41:34] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 552.6679357786
 [2026-11-26 10:42:39] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 552.3679357786
 [2026-11-26 10:43:43] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 552.3079357786
+[2026-11-26 10:45:48] ☁️ [GITHUB CLOUD] Cierre de vela #196 (7 Opciones) de la sesión #26...
+[2026-11-26 10:45:51]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 10:45:55]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 10:45:55]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 10:45:55]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 10:45:55] 💓 Cierre de Vela | Equity: $9,814.53 USD (Efectivo: $9,843.16 | Flotante: $-28.63 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 25
+[2026-11-26 10:46:13] 📊 Marcador 7 Opciones | 1. WF Base: $9,814.53 (1A/25C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,715.42 (2A/41C) | 4. Francotirador: $10,389.99 (1A/23C) | 5. Berserker: $8,829.95 (2A/34C) | 6. Resorte: $8,750.77 (1A/24C) | 7. Escape: $12,663.72 (2A/32C)
+[2026-11-26 10:48:20] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 552.2179357786
