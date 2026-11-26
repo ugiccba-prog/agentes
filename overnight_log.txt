@@ -6944,3 +6944,7 @@
 [2026-11-26 07:31:32] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3104252582
 [2026-11-26 07:31:32] [6. Resorte] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3104252582
 [2026-11-26 07:31:32] 📊 Marcador 7 Opciones | 1. WF Base: $10,031.76 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,136.24 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,076.42 (3A/30C) | 6. Resorte: $9,034.74 (1A/21C) | 7. Escape: $12,511.40 (1A/32C)
+[2026-11-26 07:34:45] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/USD LONG ajustado a 1.3108015641
+[2026-11-26 07:34:45] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3107644856
+[2026-11-26 07:35:48] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/USD LONG ajustado a 1.3108187302
+[2026-11-26 07:35:48] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3107816517
