@@ -6509,3 +6509,22 @@
 [2026-11-26 00:09:17] [3. Chimichurri] ✅ CERRADA SUI/USDT (LONG) a 0.6718 | PnL: $+291.55 USD (Take Profit Alcanzado)
 [2026-11-26 00:10:23] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.598530466
 [2026-11-26 00:11:29] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.607530466
+[2026-11-26 00:13:43] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.622530466
+[2026-11-26 00:14:49] ✅ CERRADA AVAX/USDT (LONG) a 6.68 | PnL: $+241.53 USD (Take Profit Alcanzado)
+[2026-11-26 00:14:52] [4. Francotirador] 🔒 Stop (Breakeven+) en BNB/USDT LONG ajustado a 553.839515
+[2026-11-26 00:14:54] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 69.845443623
+[2026-11-26 00:14:54] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0556489198
+[2026-11-26 00:15:54] ☁️ [GITHUB CLOUD] Cierre de vela #60 (7 Opciones) de la sesión #24...
+[2026-11-26 00:15:57]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 00:16:00]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 00:16:00]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 00:16:01]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 00:16:01] 💓 Cierre de Vela | Equity: $10,037.32 USD (Efectivo: $10,063.65 | Flotante: $-26.33 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 23
+[2026-11-26 00:16:05] [2. Híbrido ADX] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 98%) | Entrada: 60984.15000000 | SL: 60466.33321767 | TP: 62204.35195583 | Tamaño: $13,575.38 USD (Riesgo controlado: $115.27) | OK riesgo 1.25% (dd 13.3%)
+[2026-11-26 00:16:17] [3. Chimichurri] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT LONG (Conv 98%) | Entrada: 60984.15000000 | SL: 60466.33321767 | TP: 62408.87951806 | Tamaño: $13,392.96 USD (Riesgo controlado: $113.72) | OK riesgo 0.92% (dd -3.8%)
+[2026-11-26 00:16:19] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en DOGE/USDT LONG ajustado a 0.0559874887
+[2026-11-26 00:16:19] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-26 00:16:20] [5. Berserker] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-26 00:16:22] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en SOL/USDT LONG ajustado a 70.4861213719
+[2026-11-26 00:16:22] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0560795739
+[2026-11-26 00:16:22] 📊 Marcador 7 Opciones | 1. WF Base: $10,037.32 (1A/23C) | 2. Híbrido ADX: $9,207.91 (1A/29C) | 3. Chimichurri: $12,389.61 (3A/35C) | 4. Francotirador: $10,676.59 (2A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,510.57 (3A/30C)
