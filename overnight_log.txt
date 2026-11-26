@@ -7936,3 +7936,14 @@
 [2026-11-26 23:18:48] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6104987027
 [2026-11-26 23:19:53] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.6094987027
 [2026-11-26 23:19:53] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60676.0676009982
+[2026-11-26 23:30:46] ☁️ [GITHUB CLOUD] Cierre de vela #19 (7 Opciones) de la sesión #30...
+[2026-11-26 23:30:49]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 23:30:52]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 23:30:52]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 23:30:52]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 23:30:54] 💓 Cierre de Vela | Equity: $9,731.40 USD (Efectivo: $9,743.17 | Flotante: $-11.77 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 26
+[2026-11-26 23:31:00] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 23:31:09] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-26 23:31:11] [6. Resorte] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 75%) | Entrada: 70.99000000 | SL: 70.50740263 | TP: 72.02149343 | Tamaño: $8,136.56 USD (Riesgo controlado: $55.31) | OK riesgo 0.62% (dd 11.3%)
+[2026-11-26 23:31:16] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 90%) | Entrada: 0.00000345 | SL: 0.00000348 | TP: 0.00000333 | Tamaño: $21,845.32 USD (Riesgo controlado: $257.29) | OK riesgo 2.12% (dd 3.7%)
+[2026-11-26 23:31:16] 📊 Marcador 7 Opciones | 1. WF Base: $9,731.40 (2A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,601.40 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,965.26 (3A/28C) | 7. Escape: $12,118.85 (2A/36C)

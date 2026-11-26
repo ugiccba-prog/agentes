@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 12190.96,
-  "equity_usd": 12136.29,
+  "equity_usd": 12177.79,
   "realized_pnl_usd": 2190.96,
-  "unrealized_pnl_usd": -54.67,
+  "unrealized_pnl_usd": -13.17,
   "peak_equity_usd": 12696.81,
   "realized_peak_equity_usd": 12605.43,
   "day_start_equity_usd": 12298.19,
@@ -15,7 +15,7 @@
   "total_trades": 36,
   "winning_trades": 20,
   "losing_trades": 16,
-  "last_updated": "2026-11-26 23:29:44 UTC",
+  "last_updated": "2026-11-26 23:33:34 UTC",
   "open_positions": [
     {
       "id": "ORD-947333",
@@ -34,6 +34,25 @@
       "unrealized_pnl_usd": -54.67,
       "unrealized_pnl_pct": -0.05,
       "reason": "Ruptura Alcista de Bollinger con expansión MACD (ADX=22.0, Vol=1.00x, RSI=69.8)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    },
+    {
+      "id": "ORD-876375",
+      "symbol": "PEPE/USDT",
+      "market": "CRYPTO",
+      "strategy": "volatility_breakout",
+      "side": "SHORT",
+      "entry_time": "2026-11-26 23:31:16 UTC",
+      "entry_price": 3.45e-06,
+      "current_price": 3.44e-06,
+      "size": 6331977391.30435,
+      "notional_usd": 21845.32,
+      "stop_loss": 3.4805e-06,
+      "take_profit": 3.3305e-06,
+      "initial_risk_dist": 3.05e-08,
+      "unrealized_pnl_usd": 41.51,
+      "unrealized_pnl_pct": 0.19,
+      "reason": "Ruptura Bajista de Bollinger con expansión MACD (ADX=21.8, Vol=1.99x, RSI=29.3)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
   ],
