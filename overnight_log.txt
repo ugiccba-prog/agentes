@@ -6743,3 +6743,15 @@
 [2026-11-26 04:08:30]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 04:08:30]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 04:08:30] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-26 04:15:48] ☁️ [GITHUB CLOUD] Cierre de vela #64 (7 Opciones) de la sesión #25...
+[2026-11-26 04:15:51]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 04:15:54]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 04:15:55]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 04:15:55]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 04:15:55] 💓 Cierre de Vela | Equity: $9,990.49 USD (Efectivo: $10,063.65 | Flotante: $-73.16 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 23
+[2026-11-26 04:16:01] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 04:16:11] [3. Chimichurri] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 71.18000000 | SL: 70.69876652 | TP: 72.85512298 | Tamaño: $22,020.21 USD (Riesgo controlado: $170.41) | OK riesgo 1.39% (dd 1.3%)
+[2026-11-26 04:16:11] [4. Francotirador] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 71.18000000 | SL: 70.69876652 | TP: 72.74039752 | Tamaño: $14,351.50 USD (Riesgo controlado: $110.98) | OK riesgo 1.04% (dd 3.4%)
+[2026-11-26 04:16:11] [5. Berserker] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 71.18000000 | SL: 70.69876652 | TP: 72.62808369 | Tamaño: $6,714.82 USD (Riesgo controlado: $45.40) | OK riesgo 0.50% (dd 17.8%)
+[2026-11-26 04:16:11] [6. Resorte] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 04:16:11] 📊 Marcador 7 Opciones | 1. WF Base: $9,990.49 (1A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,215.64 (2A/38C) | 4. Francotirador: $10,616.39 (1A/21C) | 5. Berserker: $9,083.81 (2A/29C) | 6. Resorte: $8,968.86 (1A/21C) | 7. Escape: $12,507.35 (2A/31C)
