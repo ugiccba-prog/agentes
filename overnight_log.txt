@@ -7005,3 +7005,19 @@
 [2026-11-26 08:30:34]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-26 08:30:36] 💓 Cierre de Vela | Equity: $9,964.62 USD (Efectivo: $10,063.65 | Flotante: $-99.03 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
 [2026-11-26 08:30:54] 📊 Marcador 7 Opciones | 1. WF Base: $9,964.62 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,808.35 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $8,977.34 (2A/31C) | 6. Resorte: $8,963.84 (1A/22C) | 7. Escape: $12,452.77 (2A/32C)
+[2026-11-26 08:46:06] ☁️ [GITHUB CLOUD] Cierre de vela #89 (7 Opciones) de la sesión #26...
+[2026-11-26 08:46:09]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 08:46:11]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 08:46:12]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 08:46:12]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 08:46:14] 💓 Cierre de Vela | Equity: $9,914.34 USD (Efectivo: $10,063.65 | Flotante: $-149.31 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
+[2026-11-26 08:46:25] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 08:46:28] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: apalancamiento al tope (4x)
+[2026-11-26 08:46:31] [4. Francotirador] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG (Conv 88%) | Entrada: 0.05661000 | SL: 0.05632797 | TP: 0.05740957 | Tamaño: $14,171.61 USD (Riesgo controlado: $73.06) | OK riesgo 0.70% (dd 4.6%)
+[2026-11-26 08:46:31] [5. Berserker] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT LONG (Conv 88%) | Entrada: 0.05661000 | SL: 0.05632797 | TP: 0.05735007 | Tamaño: $8,980.93 USD (Riesgo controlado: $44.74) | OK riesgo 0.50% (dd 19.0%)
+[2026-11-26 08:46:33] 📊 Marcador 7 Opciones | 1. WF Base: $9,914.34 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,730.70 (3A/39C) | 4. Francotirador: $10,483.32 (1A/22C) | 5. Berserker: $8,938.27 (3A/31C) | 6. Resorte: $8,966.19 (1A/22C) | 7. Escape: $12,442.56 (2A/32C)
+[2026-11-26 08:47:35] ✅ CERRADA AVAX/USDT (SHORT) a 6.675 | PnL: $-112.75 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 08:47:36] [3. Chimichurri] ✅ CERRADA PEPE/USDT (SHORT) a 3.55e-06 | PnL: $-337.80 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 08:47:36] [3. Chimichurri] ✅ CERRADA AVAX/USDT (SHORT) a 6.675 | PnL: $-79.77 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 08:47:38] [5. Berserker] ✅ CERRADA PEPE/USDT (SHORT) a 3.55e-06 | PnL: $-50.43 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 08:47:38] [5. Berserker] ✅ CERRADA AVAX/USDT (SHORT) a 6.675 | PnL: $-53.74 USD (Stop Loss / Trailing Stop Ejecutado)
