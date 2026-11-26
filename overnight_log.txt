@@ -6550,3 +6550,5 @@
 [2026-11-26 00:46:02] [4. Francotirador] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-26 00:46:02] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
 [2026-11-26 00:46:03] 📊 Marcador 7 Opciones | 1. WF Base: $10,035.78 (1A/23C) | 2. Híbrido ADX: $9,099.27 (2A/29C) | 3. Chimichurri: $12,374.71 (3A/36C) | 4. Francotirador: $10,658.45 (1A/20C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,524.87 (2A/31C)
+[2026-11-26 00:54:36] [2. Híbrido ADX] ✅ CERRADA BTC/USDT (LONG) a 60459.68 | PnL: $-130.27 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 00:54:37] [3. Chimichurri] ✅ CERRADA BTC/USDT (LONG) a 60459.68 | PnL: $-128.51 USD (Stop Loss / Trailing Stop Ejecutado)
