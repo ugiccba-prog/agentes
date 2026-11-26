@@ -7530,3 +7530,11 @@
 [2026-11-26 16:45:11]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-26 16:45:11] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
 [2026-11-26 16:45:24] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,617.77 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,773.85 (1A/26C) | 7. Escape: $12,180.14 (2A/35C)
+[2026-11-26 17:00:13] ☁️ [GITHUB CLOUD] Cierre de vela #103 (7 Opciones) de la sesión #28...
+[2026-11-26 17:00:15]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 17:00:17]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 17:00:18]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 17:00:18]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 17:00:18] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 17:00:31] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,612.15 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,785.18 (1A/26C) | 7. Escape: $12,140.14 (2A/35C)
+[2026-11-26 17:01:34] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.5e-06 | PnL: $-98.94 USD (Stop Loss / Trailing Stop Ejecutado)
