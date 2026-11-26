@@ -6956,3 +6956,5 @@
 [2026-11-26 07:45:30] 💓 Cierre de Vela | Equity: $9,984.55 USD (Efectivo: $10,063.65 | Flotante: $-79.10 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
 [2026-11-26 07:45:47] [6. Resorte] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-26 07:45:47] 📊 Marcador 7 Opciones | 1. WF Base: $9,984.55 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,988.75 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,041.29 (3A/30C) | 6. Resorte: $9,037.09 (1A/21C) | 7. Escape: $12,514.33 (1A/32C)
+[2026-11-26 07:47:56] [5. Berserker] ✅ CERRADA GBP/USD (LONG) a 1.3104099035263062 | PnL: $+6.18 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 07:47:56] [6. Resorte] ✅ CERRADA GBP/USD (LONG) a 1.3104099035263062 | PnL: $+7.92 USD (Stop Loss / Trailing Stop Ejecutado)
