@@ -6958,3 +6958,16 @@
 [2026-11-26 07:45:47] 📊 Marcador 7 Opciones | 1. WF Base: $9,984.55 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,988.75 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,041.29 (3A/30C) | 6. Resorte: $9,037.09 (1A/21C) | 7. Escape: $12,514.33 (1A/32C)
 [2026-11-26 07:47:56] [5. Berserker] ✅ CERRADA GBP/USD (LONG) a 1.3104099035263062 | PnL: $+6.18 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-26 07:47:56] [6. Resorte] ✅ CERRADA GBP/USD (LONG) a 1.3104099035263062 | PnL: $+7.92 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 08:00:43] ☁️ [GITHUB CLOUD] Cierre de vela #49 (7 Opciones) de la sesión #26...
+[2026-11-26 08:00:46]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 08:00:49]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 08:00:50] GBP/JPY | Precio fuera del margen de entrada en GBP/JPY. | OK riesgo 0.55% (dd 7.5%)
+[2026-11-26 08:00:50]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 08:00:52] 💓 Cierre de Vela | Equity: $9,980.46 USD (Efectivo: $10,063.65 | Flotante: $-83.19 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
+[2026-11-26 08:01:06] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 08:01:08] [4. Francotirador] 🎯 [Francotirador] GBP/JPY SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-26 08:01:08] [5. Berserker] GBP/JPY | Precio fuera del margen de entrada en GBP/JPY. | OK riesgo 0.50% (dd 18.5%)
+[2026-11-26 08:01:08] [6. Resorte] GBP/JPY | Precio fuera del margen de entrada en GBP/JPY. | OK riesgo 0.85% (dd 11.4%)
+[2026-11-26 08:01:08] [6. Resorte] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 75%) | Entrada: 1.31075335 | SL: 1.31149138 | TP: 1.30830744 | Tamaño: $89,782.70 USD (Riesgo controlado: $62.31) | OK riesgo 0.69% (dd 11.4%)
+[2026-11-26 08:01:09] [7. Escape] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT SHORT (Conv 85%) | Entrada: 554.87000000 | SL: 556.86246483 | TP: 547.14951071 | Tamaño: $22,420.13 USD (Riesgo controlado: $106.12) | OK riesgo 0.85% (dd 0.5%)
+[2026-11-26 08:01:09] 📊 Marcador 7 Opciones | 1. WF Base: $9,980.46 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,931.39 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $8,997.52 (2A/31C) | 6. Resorte: $8,960.31 (1A/22C) | 7. Escape: $12,447.87 (2A/32C)
