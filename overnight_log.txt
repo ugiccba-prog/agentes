@@ -7277,3 +7277,10 @@
 [2026-11-26 12:16:23] [5. Berserker] ✅ CERRADA SUI/USDT (LONG) a 0.6687 | PnL: $+22.98 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-26 12:16:23] [6. Resorte] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-26 12:16:25] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,722.68 (2A/41C) | 4. Francotirador: $10,447.54 (1A/23C) | 5. Berserker: $8,932.93 (2A/35C) | 6. Resorte: $8,830.92 (2A/24C) | 7. Escape: $12,515.57 (1A/33C)
+[2026-11-26 12:30:15] ☁️ [GITHUB CLOUD] Cierre de vela #74 (7 Opciones) de la sesión #27...
+[2026-11-26 12:30:19]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 12:30:22]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 12:30:22]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 12:30:22]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 12:30:22] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 12:30:40] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,693.01 (2A/41C) | 4. Francotirador: $10,427.52 (1A/23C) | 5. Berserker: $8,902.24 (2A/35C) | 6. Resorte: $8,778.94 (2A/24C) | 7. Escape: $12,550.76 (1A/33C)
