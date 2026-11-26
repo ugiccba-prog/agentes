@@ -7178,3 +7178,15 @@
 [2026-11-26 11:07:59]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 11:07:59]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 11:07:59] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-26 11:08:01] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #27...
+[2026-11-26 11:08:04]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 11:08:07]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 11:08:07]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 11:08:07]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 11:08:07] 💓 Cierre de Vela | Equity: $9,786.88 USD (Efectivo: $9,843.16 | Flotante: $-56.28 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 25
+[2026-11-26 11:08:19] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 11:08:25] [5. Berserker] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 75%) | Entrada: 0.66610000 | SL: 0.66237228 | TP: 0.67611930 | Tamaño: $7,921.02 USD (Riesgo controlado: $44.33) | OK riesgo 0.50% (dd 19.8%)
+[2026-11-26 11:08:25] [6. Resorte] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 11:08:25] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-26 11:08:27] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-26 11:08:27] 📊 Marcador 7 Opciones | 1. WF Base: $9,786.88 (1A/25C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,678.48 (2A/41C) | 4. Francotirador: $10,405.00 (1A/23C) | 5. Berserker: $8,858.57 (3A/34C) | 6. Resorte: $8,774.68 (2A/24C) | 7. Escape: $12,605.63 (2A/32C)
