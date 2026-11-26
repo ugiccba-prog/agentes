@@ -7638,3 +7638,4 @@
 [2026-11-26 18:45:36] [6. Resorte] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 75%) | Entrada: 6.64800000 | SL: 6.68721786 | TP: 6.54995535 | Tamaño: $12,242.69 USD (Riesgo controlado: $72.22) | OK riesgo 0.82% (dd 12.9%)
 [2026-11-26 18:45:37] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT LONG ajustado a 551.4080855592
 [2026-11-26 18:45:37] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,621.05 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,810.98 (3A/26C) | 7. Escape: $12,148.03 (1A/36C)
+[2026-11-26 18:46:43] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT LONG ajustado a 551.5115383489
