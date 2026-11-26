@@ -7125,3 +7125,5 @@
 [2026-11-26 10:30:39] 📊 Marcador 7 Opciones | 1. WF Base: $9,887.11 (2A/24C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,765.54 (2A/41C) | 4. Francotirador: $10,488.56 (2A/22C) | 5. Berserker: $8,889.53 (3A/33C) | 6. Resorte: $8,759.33 (2A/23C) | 7. Escape: $12,589.51 (2A/32C)
 [2026-11-26 10:32:51] [6. Resorte] ✅ CERRADA BNB/USDT (LONG) a 552.02 | PnL: $-96.64 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-26 10:32:51] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 554.037695
+[2026-11-26 10:36:09] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 553.3279357786
+[2026-11-26 10:38:19] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 553.2379357786
