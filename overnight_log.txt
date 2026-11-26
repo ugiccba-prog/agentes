@@ -6507,3 +6507,5 @@
 [2026-11-26 00:08:12] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-26 00:09:14] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.593530466
 [2026-11-26 00:09:17] [3. Chimichurri] ✅ CERRADA SUI/USDT (LONG) a 0.6718 | PnL: $+291.55 USD (Take Profit Alcanzado)
+[2026-11-26 00:10:23] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.598530466
+[2026-11-26 00:11:29] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT LONG ajustado a 6.607530466
