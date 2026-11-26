@@ -6539,3 +6539,14 @@
 [2026-11-26 00:30:29]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-26 00:30:29] 💓 Cierre de Vela | Equity: $10,030.41 USD (Efectivo: $10,063.65 | Flotante: $-33.24 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 23
 [2026-11-26 00:30:47] 📊 Marcador 7 Opciones | 1. WF Base: $10,030.41 (1A/23C) | 2. Híbrido ADX: $9,169.90 (1A/29C) | 3. Chimichurri: $12,424.86 (2A/36C) | 4. Francotirador: $10,651.76 (1A/20C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,567.29 (2A/31C)
+[2026-11-26 00:45:38] ☁️ [GITHUB CLOUD] Cierre de vela #87 (7 Opciones) de la sesión #24...
+[2026-11-26 00:45:41]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 00:45:45]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 00:45:45]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 00:45:45]    🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 00:45:45] 💓 Cierre de Vela | Equity: $10,035.78 USD (Efectivo: $10,063.65 | Flotante: $-27.87 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 23
+[2026-11-26 00:46:00] [2. Híbrido ADX] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 95%) | Entrada: 1.31128621 | SL: 1.31032874 | TP: 1.31398070 | Tamaño: $91,306.20 USD (Riesgo controlado: $72.68) | OK riesgo 0.80% (dd 14.1%)
+[2026-11-26 00:46:02] [3. Chimichurri] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 95%) | Entrada: 1.31128621 | SL: 1.31032874 | TP: 1.31441059 | Tamaño: $83,614.13 USD (Riesgo controlado: $66.48) | OK riesgo 0.54% (dd -0.0%)
+[2026-11-26 00:46:02] [4. Francotirador] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 00:46:02] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pausa defensiva por drawdown 17.7% (hasta 2026-11-26 03:30:44 UTC)
+[2026-11-26 00:46:03] 📊 Marcador 7 Opciones | 1. WF Base: $10,035.78 (1A/23C) | 2. Híbrido ADX: $9,099.27 (2A/29C) | 3. Chimichurri: $12,374.71 (3A/36C) | 4. Francotirador: $10,658.45 (1A/20C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,524.87 (2A/31C)
