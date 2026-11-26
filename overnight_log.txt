@@ -6909,3 +6909,18 @@
 [2026-11-26 07:07:54]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 07:07:55]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 07:07:55] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-26 07:07:56] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #26...
+[2026-11-26 07:07:59]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 07:08:02]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 07:08:02]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 07:08:03]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 07:08:04] 💓 Cierre de Vela | Equity: $9,962.86 USD (Efectivo: $10,063.65 | Flotante: $-100.79 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
+[2026-11-26 07:08:16] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 07:08:16] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 07:08:19] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-26 07:08:19] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 07:08:20] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT SHORT descartado: sin alineación Macro 1H (1)
+[2026-11-26 07:08:20] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT SHORT descartado: sin alineación Macro 1H (1)
+[2026-11-26 07:08:22] [5. Berserker] DOGE/USDT | Precio fuera del margen de entrada en DOGE/USDT. | OK riesgo 0.50% (dd 18.4%)
+[2026-11-26 07:08:22] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 07:08:22] 📊 Marcador 7 Opciones | 1. WF Base: $9,962.86 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,990.21 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,004.65 (3A/30C) | 6. Resorte: $8,966.50 (1A/21C) | 7. Escape: $12,426.30 (1A/32C)
