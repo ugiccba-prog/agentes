@@ -6931,3 +6931,16 @@
 [2026-11-26 07:15:54]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-26 07:15:55] 💓 Cierre de Vela | Equity: $9,948.87 USD (Efectivo: $10,063.65 | Flotante: $-114.78 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
 [2026-11-26 07:16:12] 📊 Marcador 7 Opciones | 1. WF Base: $9,948.87 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,905.52 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $8,996.65 (3A/30C) | 6. Resorte: $8,978.27 (1A/21C) | 7. Escape: $12,440.96 (1A/32C)
+[2026-11-26 07:31:07] ☁️ [GITHUB CLOUD] Cierre de vela #22 (7 Opciones) de la sesión #26...
+[2026-11-26 07:31:10]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 07:31:13]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 07:31:13]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 07:31:13]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 07:31:15] 💓 Cierre de Vela | Equity: $10,031.76 USD (Efectivo: $10,063.65 | Flotante: $-31.89 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
+[2026-11-26 07:31:20] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 07:31:29] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-26 07:31:32] [4. Francotirador] SOL/USDT | Precio fuera del margen de entrada en SOL/USDT. | OK riesgo 0.87% (dd 4.6%)
+[2026-11-26 07:31:32] [5. Berserker] SOL/USDT | Precio fuera del margen de entrada en SOL/USDT. | OK riesgo 0.50% (dd 18.2%)
+[2026-11-26 07:31:32] [5. Berserker] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3104252582
+[2026-11-26 07:31:32] [6. Resorte] 🔒 Stop (Breakeven+) en GBP/USD LONG ajustado a 1.3104252582
+[2026-11-26 07:31:32] 📊 Marcador 7 Opciones | 1. WF Base: $10,031.76 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,136.24 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,076.42 (3A/30C) | 6. Resorte: $9,034.74 (1A/21C) | 7. Escape: $12,511.40 (1A/32C)
