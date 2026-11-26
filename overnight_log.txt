@@ -7370,3 +7370,4 @@
 [2026-11-26 14:11:29]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 14:11:29]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 14:11:29] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-26 14:12:34] [6. Resorte] 🔒 Stop (Breakeven+) en BNB/USDT LONG ajustado a 551.656245
