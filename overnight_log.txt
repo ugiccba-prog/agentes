@@ -7797,3 +7797,13 @@
 [2026-11-26 21:31:03]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-26 21:31:03] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
 [2026-11-26 21:31:16] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,617.30 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,753.49 (1A/28C) | 7. Escape: $12,139.23 (1A/36C)
+[2026-11-26 21:45:53] ☁️ [GITHUB CLOUD] Cierre de vela #145 (7 Opciones) de la sesión #29...
+[2026-11-26 21:45:55]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 21:45:58]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 21:45:58]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 21:45:59]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 21:45:59] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 21:46:01] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 21:46:10] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-26 21:46:12] [6. Resorte] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 75%) | Entrada: 60878.49000000 | SL: 61140.95144106 | TP: 60286.31639734 | Tamaño: $14,656.34 USD (Riesgo controlado: $63.19) | OK riesgo 0.72% (dd 13.7%)
+[2026-11-26 21:46:13] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,613.56 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,736.99 (2A/28C) | 7. Escape: $12,142.15 (1A/36C)
