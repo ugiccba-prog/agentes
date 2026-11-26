@@ -7371,3 +7371,11 @@
 [2026-11-26 14:11:29]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 14:11:29] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
 [2026-11-26 14:12:34] [6. Resorte] 🔒 Stop (Breakeven+) en BNB/USDT LONG ajustado a 551.656245
+[2026-11-26 14:15:43] ☁️ [GITHUB CLOUD] Cierre de vela #169 (7 Opciones) de la sesión #27...
+[2026-11-26 14:15:46]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 14:15:49]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 14:15:49]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 14:15:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 14:15:49] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 14:16:09] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 90%) | Entrada: 71.41000000 | SL: 71.00225186 | TP: 72.51244904 | Tamaño: $22,779.02 USD (Riesgo controlado: $130.09) | OK riesgo 1.03% (dd -0.4%)
+[2026-11-26 14:16:09] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,841.91 (2A/41C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,840.31 (0A/37C) | 6. Resorte: $8,757.56 (1A/25C) | 7. Escape: $12,623.41 (2A/33C)
