@@ -7127,3 +7127,8 @@
 [2026-11-26 10:32:51] [7. Escape] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 554.037695
 [2026-11-26 10:36:09] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 553.3279357786
 [2026-11-26 10:38:19] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 553.2379357786
+[2026-11-26 10:40:28] ✅ CERRADA AVAX/USDT (LONG) a 6.643 | PnL: $-107.74 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 10:40:29] [4. Francotirador] ✅ CERRADA AVAX/USDT (LONG) a 6.643 | PnL: $-85.82 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 10:40:29] [5. Berserker] ✅ CERRADA AVAX/USDT (LONG) a 6.643 | PnL: $-58.19 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 10:40:31] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 553.0879357786
+[2026-11-26 10:41:34] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 552.6679357786
