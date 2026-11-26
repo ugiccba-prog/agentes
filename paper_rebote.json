@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 8978.27,
-  "equity_usd": 8939.12,
+  "equity_usd": 8957.95,
   "realized_pnl_usd": -1021.73,
-  "unrealized_pnl_usd": -39.15,
+  "unrealized_pnl_usd": -20.32,
   "peak_equity_usd": 10218.73,
   "realized_peak_equity_usd": 10136.59,
   "day_start_equity_usd": 8970.35,
@@ -15,7 +15,7 @@
   "total_trades": 22,
   "winning_trades": 8,
   "losing_trades": 14,
-  "last_updated": "2026-11-26 08:57:14 UTC",
+  "last_updated": "2026-11-26 09:00:47 UTC",
   "open_positions": [
     {
       "id": "ORD-68238",
@@ -25,14 +25,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-26 08:01:08 UTC",
       "entry_price": 1.3107533455,
-      "current_price": 1.3110626935958862,
+      "current_price": 1.3107877969741821,
       "size": 68497.02143,
       "notional_usd": 89782.7,
       "stop_loss": 1.3114913835,
       "take_profit": 1.3083074355,
       "initial_risk_dist": 0.0007380381,
-      "unrealized_pnl_usd": -39.15,
-      "unrealized_pnl_pct": -0.04,
+      "unrealized_pnl_usd": -20.32,
+      "unrealized_pnl_pct": -0.02,
       "reason": "Rechazo en Banda Superior Bollinger (%B=1.20, ADX=18.5) + Giro RSI (50.1)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
