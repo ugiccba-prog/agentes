@@ -10,12 +10,12 @@
   "current_day_utc": "2026-11-26",
   "max_drawdown_pct": 16.115290813136095,
   "realized_max_drawdown_pct": 15.354458067440401,
-  "dd_halt_until_utc": "",
-  "dd_recovery_mode": false,
+  "dd_halt_until_utc": "2026-11-27 04:00:29 UTC",
+  "dd_recovery_mode": true,
   "total_trades": 31,
   "winning_trades": 13,
   "losing_trades": 18,
-  "last_updated": "2026-11-26 03:58:03 UTC",
+  "last_updated": "2026-11-26 04:01:32 UTC",
   "open_positions": [],
   "closed_trades": [
     {

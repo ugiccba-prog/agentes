@@ -6713,3 +6713,13 @@
 [2026-11-26 03:45:17]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-26 03:45:17] 💓 Cierre de Vela | Equity: $9,969.79 USD (Efectivo: $10,063.65 | Flotante: $-93.86 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 23
 [2026-11-26 03:45:33] 📊 Marcador 7 Opciones | 1. WF Base: $9,969.79 (1A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,246.08 (1A/38C) | 4. Francotirador: $10,630.74 (0A/21C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,458.70 (2A/31C)
+[2026-11-26 04:00:08] ☁️ [GITHUB CLOUD] Cierre de vela #50 (7 Opciones) de la sesión #25...
+[2026-11-26 04:00:11]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 04:00:14]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 04:00:15]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 04:00:15]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 04:00:15] 💓 Cierre de Vela | Equity: $9,979.75 USD (Efectivo: $10,063.65 | Flotante: $-83.90 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 23
+[2026-11-26 04:00:29] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO_COOLDOWN: drawdown 15.4% desde pico realizado -> pausa 24h (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 04:00:30] [5. Berserker] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 82%) | Entrada: 1.31003225 | SL: 1.30918216 | TP: 1.31221756 | Tamaño: $70,053.53 USD (Riesgo controlado: $45.46) | OK riesgo 0.50% (dd 17.7%)
+[2026-11-26 04:00:30] [6. Resorte] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 82%) | Entrada: 1.31003225 | SL: 1.30918216 | TP: 1.31221756 | Tamaño: $89,703.50 USD (Riesgo controlado: $59.38) | OK riesgo 0.66% (dd 11.5%)
+[2026-11-26 04:00:31] 📊 Marcador 7 Opciones | 1. WF Base: $9,979.75 (1A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,243.74 (1A/38C) | 4. Francotirador: $10,630.74 (0A/21C) | 5. Berserker: $9,077.68 (1A/29C) | 6. Resorte: $8,952.41 (1A/21C) | 7. Escape: $12,470.48 (2A/31C)
