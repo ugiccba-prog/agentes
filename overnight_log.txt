@@ -7240,3 +7240,9 @@
 [2026-11-26 12:03:18] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en SUI/USDT LONG ajustado a 0.6691871174
 [2026-11-26 12:04:21] [4. Francotirador] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
 [2026-11-26 12:04:23] [5. Berserker] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:05:28] [4. Francotirador] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:05:29] [5. Berserker] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:06:33] [4. Francotirador] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:06:34] [5. Berserker] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:07:38] [4. Francotirador] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
+[2026-11-26 12:07:39] [5. Berserker] 🔒 Stop (Breakeven+) en DOGE/USDT LONG ajustado a 0.056694915
