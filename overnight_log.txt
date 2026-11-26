@@ -7455,3 +7455,16 @@
 [2026-11-26 15:15:29] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-26 15:15:29] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-26 15:15:30] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,716.42 (2A/42C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,820.49 (3A/37C) | 6. Resorte: $8,710.07 (0A/26C) | 7. Escape: $12,376.49 (2A/34C)
+[2026-11-26 15:30:29] ☁️ [GITHUB CLOUD] Cierre de vela #21 (7 Opciones) de la sesión #28...
+[2026-11-26 15:30:31]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 15:30:34]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 15:30:34]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 15:30:34]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 15:30:34] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 15:30:49] [6. Resorte] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 75%) | Entrada: 548.16000000 | SL: 545.02564091 | TP: 555.68089774 | Tamaño: $12,947.89 USD (Riesgo controlado: $74.04) | OK riesgo 0.85% (dd 14.1%)
+[2026-11-26 15:30:49] [7. Escape] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 15:30:49] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-26 15:30:49] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-26 15:30:49] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-26 15:30:50] [7. Escape] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 90%) | Entrada: 0.00000344 | SL: 0.00000350 | TP: 0.00000329 | Tamaño: $5,362.63 USD (Riesgo controlado: $87.02) | OK riesgo 0.71% (dd 2.4%)
+[2026-11-26 15:30:50] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,664.29 (2A/42C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,779.94 (3A/37C) | 6. Resorte: $8,697.12 (1A/26C) | 7. Escape: $12,299.17 (3A/34C)
