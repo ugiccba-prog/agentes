@@ -6948,3 +6948,11 @@
 [2026-11-26 07:34:45] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3107644856
 [2026-11-26 07:35:48] [5. Berserker] 🔒 Stop (Trailing 1.4 ATR) en GBP/USD LONG ajustado a 1.3108187302
 [2026-11-26 07:35:48] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3107816517
+[2026-11-26 07:45:21] ☁️ [GITHUB CLOUD] Cierre de vela #35 (7 Opciones) de la sesión #26...
+[2026-11-26 07:45:25]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 07:45:28]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 07:45:28]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 07:45:29]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 07:45:30] 💓 Cierre de Vela | Equity: $9,984.55 USD (Efectivo: $10,063.65 | Flotante: $-79.10 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
+[2026-11-26 07:45:47] [6. Resorte] 🛡️ [RiskManager] GBP/USD SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 07:45:47] 📊 Marcador 7 Opciones | 1. WF Base: $9,984.55 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,988.75 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,041.29 (3A/30C) | 6. Resorte: $9,037.09 (1A/21C) | 7. Escape: $12,514.33 (1A/32C)
