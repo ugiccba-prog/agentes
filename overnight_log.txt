@@ -7734,3 +7734,4 @@
 [2026-11-26 20:10:24]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 20:10:25]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-26 20:10:25] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-26 20:12:33] [6. Resorte] ✅ CERRADA BNB/USDT (LONG) a 555.79 | PnL: $+167.19 USD (Take Profit Alcanzado)
