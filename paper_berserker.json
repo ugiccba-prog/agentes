@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 8873.16,
-  "equity_usd": 8923.55,
+  "equity_usd": 8937.79,
   "realized_pnl_usd": -1126.84,
-  "unrealized_pnl_usd": 50.39,
+  "unrealized_pnl_usd": 64.63,
   "peak_equity_usd": 11200.5,
   "realized_peak_equity_usd": 11049.45,
   "day_start_equity_usd": 9091.69,
@@ -15,7 +15,7 @@
   "total_trades": 34,
   "winning_trades": 14,
   "losing_trades": 20,
-  "last_updated": "2026-11-26 11:20:46 UTC",
+  "last_updated": "2026-11-26 11:24:03 UTC",
   "open_positions": [
     {
       "id": "ORD-791567",
@@ -44,14 +44,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-26 09:46:21 UTC",
       "entry_price": 1.3108564615,
-      "current_price": 1.3103240728378296,
+      "current_price": 1.3099979162216187,
       "size": 43675.51225,
       "notional_usd": 57252.33,
       "stop_loss": 1.3118804415,
       "take_profit": 1.3082965116,
       "initial_risk_dist": 0.00102398,
-      "unrealized_pnl_usd": 11.8,
-      "unrealized_pnl_pct": 0.02,
+      "unrealized_pnl_usd": 26.05,
+      "unrealized_pnl_pct": 0.05,
       "reason": "Régimen Híbrido [Rango ADX=16.2] | Rechazo en Banda Superior Bollinger (%B=1.00, ADX=16.2) + Giro RSI (52.0)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     },
