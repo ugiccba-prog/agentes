@@ -6482,3 +6482,5 @@
 [2026-11-26 00:00:40] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT LONG ajustado a 0.0556291565
 [2026-11-26 00:00:40] 📊 Marcador 7 Opciones | 1. WF Base: $9,966.67 (2A/22C) | 2. Híbrido ADX: $9,221.49 (0A/29C) | 3. Chimichurri: $12,237.25 (3A/34C) | 4. Francotirador: $10,556.44 (2A/19C) | 5. Berserker: $9,091.69 (0A/29C) | 6. Resorte: $8,970.35 (0A/21C) | 7. Escape: $12,298.19 (3A/30C)
 [2026-11-26 00:01:46] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6614751917
+[2026-11-26 00:02:55] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6614751917
+[2026-11-26 00:04:03] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en SUI/USDT LONG ajustado a 0.6619751917
