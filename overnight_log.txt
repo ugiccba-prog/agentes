@@ -6873,3 +6873,18 @@
 [2026-11-26 06:46:25] [4. Francotirador] 🎯 [Francotirador] PEPE/USDT SHORT descartado: sin alineación Macro 1H (1)
 [2026-11-26 06:46:25] [5. Berserker] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT SHORT (Conv 98%) | Entrada: 0.00000348 | SL: 0.00000355 | TP: 0.00000335 | Tamaño: $2,387.32 USD (Riesgo controlado: $45.07) | OK riesgo 0.50% (dd 18.4%)
 [2026-11-26 06:46:25] 📊 Marcador 7 Opciones | 1. WF Base: $9,979.75 (1A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,070.55 (2A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,012.94 (2A/30C) | 6. Resorte: $8,952.41 (1A/21C) | 7. Escape: $12,408.72 (1A/32C)
+[2026-11-26 07:01:03] ☁️ [GITHUB CLOUD] Cierre de vela #218 (7 Opciones) de la sesión #25...
+[2026-11-26 07:01:06]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 07:01:10] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 98%) | Entrada: 6.64000000 | SL: 6.67495549 | TP: 6.54911127 | Tamaño: $17,971.85 USD (Riesgo controlado: $97.35) | OK riesgo 0.97% (dd 7.5%)
+[2026-11-26 07:01:10]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 07:01:10]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 07:01:11] 💓 Cierre de Vela | Equity: $9,967.92 USD (Efectivo: $10,063.65 | Flotante: $-95.73 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 23
+[2026-11-26 07:01:22] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 07:01:22] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 07:01:27] [3. Chimichurri] DOGE/USDT | Precio fuera del margen de entrada en DOGE/USDT. | OK riesgo 0.61% (dd 2.8%)
+[2026-11-26 07:01:27] [3. Chimichurri] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 98%) | Entrada: 6.64000000 | SL: 6.67495549 | TP: 6.53429247 | Tamaño: $12,715.33 USD (Riesgo controlado: $68.81) | OK riesgo 0.57% (dd 2.8%)
+[2026-11-26 07:01:28] [4. Francotirador] 🎯 [Francotirador] DOGE/USDT SHORT descartado: sin alineación Macro 1H (1)
+[2026-11-26 07:01:28] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT SHORT descartado: sin alineación Macro 1H (1)
+[2026-11-26 07:01:29] [5. Berserker] DOGE/USDT | Precio fuera del margen de entrada en DOGE/USDT. | OK riesgo 0.50% (dd 18.4%)
+[2026-11-26 07:01:29] [5. Berserker] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT SHORT (Conv 98%) | Entrada: 6.64000000 | SL: 6.67495549 | TP: 6.54911127 | Tamaño: $8,565.54 USD (Riesgo controlado: $45.09) | OK riesgo 0.50% (dd 18.4%)
+[2026-11-26 07:01:29] 📊 Marcador 7 Opciones | 1. WF Base: $9,967.92 (2A/23C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $12,004.85 (3A/39C) | 4. Francotirador: $10,497.49 (0A/22C) | 5. Berserker: $9,004.86 (3A/30C) | 6. Resorte: $8,961.81 (1A/21C) | 7. Escape: $12,420.44 (1A/32C)
