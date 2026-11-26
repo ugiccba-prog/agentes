@@ -7212,3 +7212,13 @@
 [2026-11-26 11:30:57] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-26 11:30:58] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,667.76 (2A/41C) | 4. Francotirador: $10,427.52 (1A/23C) | 5. Berserker: $8,923.04 (3A/34C) | 6. Resorte: $8,831.00 (2A/24C) | 7. Escape: $12,533.24 (2A/32C)
 [2026-11-26 11:42:59] [7. Escape] ✅ CERRADA BNB/USDT (SHORT) a 552.18 | PnL: $+86.33 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-26 11:45:06] ☁️ [GITHUB CLOUD] Cierre de vela #34 (7 Opciones) de la sesión #27...
+[2026-11-26 11:45:09]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 11:45:12]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 11:45:12]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 11:45:12]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 11:45:12] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 11:45:27] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 11:45:29] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 11:45:31] [6. Resorte] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 11:45:32] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,709.90 (2A/41C) | 4. Francotirador: $10,457.55 (1A/23C) | 5. Berserker: $8,953.77 (3A/34C) | 6. Resorte: $8,851.50 (2A/24C) | 7. Escape: $12,496.51 (1A/33C)
