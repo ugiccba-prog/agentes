@@ -7855,3 +7855,14 @@
 [2026-11-26 22:16:08] [6. Resorte] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-26 22:16:09] [6. Resorte] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-26 22:16:11] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,534.49 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,854.93 (2A/28C) | 7. Escape: $12,142.15 (1A/36C)
+[2026-11-26 22:31:07] ☁️ [GITHUB CLOUD] Cierre de vela #186 (7 Opciones) de la sesión #29...
+[2026-11-26 22:31:09]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 22:31:12]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 22:31:12] GBP/JPY | Precio fuera del margen de entrada en GBP/JPY. | OK riesgo 0.81% (dd 9.7%)
+[2026-11-26 22:31:13]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 22:31:13] 💓 Cierre de Vela | Equity: $9,743.17 USD (Efectivo: $9,743.17 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 26
+[2026-11-26 22:31:25] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 22:31:25] [4. Francotirador] 🎯 [Francotirador] GBP/JPY LONG descartado: sin alineación Macro 1H (0)
+[2026-11-26 22:31:25] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-26 22:31:25] [6. Resorte] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-26 22:31:28] 📊 Marcador 7 Opciones | 1. WF Base: $9,743.17 (0A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,542.92 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,883.27 (2A/28C) | 7. Escape: $12,145.09 (1A/36C)
