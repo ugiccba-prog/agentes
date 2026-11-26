@@ -7082,3 +7082,10 @@
 [2026-11-26 09:46:22] [6. Resorte] BNB/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BNB/USDT LONG (Conv 87%) | Entrada: 555.45000000 | SL: 552.30472256 | TP: 561.56319361 | Tamaño: $13,475.05 USD (Riesgo controlado: $76.30) | OK riesgo 0.86% (dd 12.3%)
 [2026-11-26 09:46:22] [6. Resorte] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD SHORT (Conv 75%) | Entrada: 1.31085646 | SL: 1.31188044 | TP: 1.30829651 | Tamaño: $88,914.34 USD (Riesgo controlado: $69.46) | OK riesgo 0.78% (dd 12.3%)
 [2026-11-26 09:46:23] 📊 Marcador 7 Opciones | 1. WF Base: $9,886.56 (2A/24C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,693.96 (2A/41C) | 4. Francotirador: $10,507.09 (2A/22C) | 5. Berserker: $8,925.38 (3A/33C) | 6. Resorte: $8,861.92 (2A/23C) | 7. Escape: $12,433.23 (2A/32C)
+[2026-11-26 10:00:29] ☁️ [GITHUB CLOUD] Cierre de vela #156 (7 Opciones) de la sesión #26...
+[2026-11-26 10:00:32]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 10:00:35]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 10:00:35]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 10:00:36]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 10:00:37] 💓 Cierre de Vela | Equity: $9,891.66 USD (Efectivo: $9,950.90 | Flotante: $-59.24 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 24
+[2026-11-26 10:00:55] 📊 Marcador 7 Opciones | 1. WF Base: $9,891.66 (2A/24C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,676.78 (2A/41C) | 4. Francotirador: $10,487.52 (2A/22C) | 5. Berserker: $8,905.37 (3A/33C) | 6. Resorte: $8,810.01 (2A/23C) | 7. Escape: $12,515.02 (2A/32C)
