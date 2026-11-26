@@ -7190,3 +7190,15 @@
 [2026-11-26 11:08:25] [6. Resorte] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-26 11:08:27] [7. Escape] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: poco margen de apalancamiento restante
 [2026-11-26 11:08:27] 📊 Marcador 7 Opciones | 1. WF Base: $9,786.88 (1A/25C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,678.48 (2A/41C) | 4. Francotirador: $10,405.00 (1A/23C) | 5. Berserker: $8,858.57 (3A/34C) | 6. Resorte: $8,774.68 (2A/24C) | 7. Escape: $12,605.63 (2A/32C)
+[2026-11-26 11:16:00] ☁️ [GITHUB CLOUD] Cierre de vela #8 (7 Opciones) de la sesión #27...
+[2026-11-26 11:16:03]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 11:16:06]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-26 11:16:07]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-26 11:16:07]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-26 11:16:07] 💓 Cierre de Vela | Equity: $9,792.26 USD (Efectivo: $9,843.16 | Flotante: $-50.90 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 25
+[2026-11-26 11:16:19] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-26 11:16:22] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 11:16:24] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 11:16:24] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-26 11:16:25] [6. Resorte] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-26 11:16:27] 📊 Marcador 7 Opciones | 1. WF Base: $9,792.26 (1A/25C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,692.07 (2A/41C) | 4. Francotirador: $10,420.02 (1A/23C) | 5. Berserker: $8,875.90 (3A/34C) | 6. Resorte: $8,775.97 (2A/24C) | 7. Escape: $12,602.56 (2A/32C)
