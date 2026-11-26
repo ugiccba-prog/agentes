@@ -7880,3 +7880,5 @@
 [2026-11-26 22:45:37] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-26 22:45:37] [6. Resorte] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-26 22:45:39] 📊 Marcador 7 Opciones | 1. WF Base: $9,723.68 (1A/26C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,563.50 (1A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,868.01 (2A/28C) | 7. Escape: $12,161.23 (1A/36C)
+[2026-11-26 22:55:15] [6. Resorte] 🔒 Stop (Breakeven+) en AVAX/USDT SHORT ajustado a 6.638028
+[2026-11-26 22:57:22] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 60728.0576009982
