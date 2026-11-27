@@ -8861,3 +8861,19 @@
 [2026-11-27 13:31:08] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-27 13:31:08] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
 [2026-11-27 13:31:08] 📊 Marcador 7 Opciones | 1. WF Base: $9,581.72 (2A/29C) | 2. Híbrido ADX: $8,958.63 (2A/33C) | 3. Chimichurri: $11,778.45 (2A/45C) | 4. Francotirador: $10,345.61 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $11,934.71 (1A/39C)
+[2026-11-27 13:45:26] ☁️ [GITHUB CLOUD] Cierre de vela #135 (7 Opciones) de la sesión #33...
+[2026-11-27 13:45:28]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 13:45:31]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 13:45:32]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 13:45:32]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 13:45:35] 💓 Cierre de Vela | Equity: $9,647.67 USD (Efectivo: $9,615.67 | Flotante: $+32.00 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
+[2026-11-27 13:45:45] [2. Híbrido ADX] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 13:45:47] [2. Híbrido ADX] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 13:45:50] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 13:45:50] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 13:45:50] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 13:45:50] [4. Francotirador] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 13:45:50] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 13:45:50] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 13:45:50] [6. Resorte] GBP/USD | Precio fuera del margen de entrada en GBP/USD. | OK riesgo 0.85% (dd 10.1%)
+[2026-11-27 13:45:50] 📊 Marcador 7 Opciones | 1. WF Base: $9,647.67 (2A/29C) | 2. Híbrido ADX: $8,976.79 (2A/33C) | 3. Chimichurri: $11,838.41 (2A/45C) | 4. Francotirador: $10,395.61 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,002.25 (1A/39C)
