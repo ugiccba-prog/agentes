@@ -8179,3 +8179,8 @@
 [2026-11-27 03:03:03] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8052670355
 [2026-11-27 03:03:05] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
 [2026-11-27 03:04:05] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8152768011
+[2026-11-27 03:05:09] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8402706976
+[2026-11-27 03:06:11] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8632656927
+[2026-11-27 03:06:13] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 208.8335201496
+[2026-11-27 03:07:13] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8962704535
+[2026-11-27 03:07:15] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 208.8665249104
