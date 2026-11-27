@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 9342.22,
-  "equity_usd": 9267.98,
+  "equity_usd": 9270.42,
   "realized_pnl_usd": -657.78,
-  "unrealized_pnl_usd": -74.24,
+  "unrealized_pnl_usd": -71.8,
   "peak_equity_usd": 10892.88,
   "realized_peak_equity_usd": 10794.68,
   "day_start_equity_usd": 9693.25,
@@ -15,7 +15,7 @@
   "total_trades": 31,
   "winning_trades": 11,
   "losing_trades": 20,
-  "last_updated": "2026-11-27 19:06:54 UTC",
+  "last_updated": "2026-11-27 19:10:00 UTC",
   "open_positions": [
     {
       "id": "ORD-312320",
@@ -25,14 +25,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-27 18:15:12 UTC",
       "entry_price": 1.3096033335,
-      "current_price": 1.3094146251678467,
+      "current_price": 1.3093804121017456,
       "size": 71336.25703,
       "notional_usd": 93422.2,
       "stop_loss": 1.3106985181,
       "take_profit": 1.3066254633,
       "initial_risk_dist": 0.0010951846,
-      "unrealized_pnl_usd": -5.22,
-      "unrealized_pnl_pct": -0.01,
+      "unrealized_pnl_usd": -2.78,
+      "unrealized_pnl_pct": -0.0,
       "reason": "Chimichurri Alpha SHORT (ADX=26.9, Vol=1.00x, RSI=34.6, Ruptura Donchian)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     },
