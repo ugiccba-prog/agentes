@@ -8658,3 +8658,24 @@
 [2026-11-27 10:27:42] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2966539974
 [2026-11-27 10:27:42] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 209.2657839913
 [2026-11-27 10:27:42] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2966539974
+[2026-11-27 10:29:53] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.3066485043
+[2026-11-27 10:29:53] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 209.2757784981
+[2026-11-27 10:29:53] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.3066485043
+[2026-11-27 10:30:53] ☁️ [GITHUB CLOUD] Cierre de vela #182 (7 Opciones) de la sesión #32...
+[2026-11-27 10:30:55]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 10:30:57]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 10:30:58]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 10:30:58]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 10:31:00] 💓 Cierre de Vela | Equity: $9,733.39 USD (Efectivo: $9,615.67 | Flotante: $+117.72 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
+[2026-11-27 10:31:02] [2. Híbrido ADX] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 10:31:06] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 10:31:12] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.3096190635
+[2026-11-27 10:31:12] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 10:31:12] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 10:31:12] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 209.2765416555
+[2026-11-27 10:31:12] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 10:31:12] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 10:31:12] [5. Berserker] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 10:31:12] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 10:31:12] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.3096190635
+[2026-11-27 10:31:12] 📊 Marcador 7 Opciones | 1. WF Base: $9,733.39 (2A/29C) | 2. Híbrido ADX: $9,098.21 (4A/31C) | 3. Chimichurri: $11,970.16 (3A/44C) | 4. Francotirador: $10,418.03 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,190.05 (2A/38C)
