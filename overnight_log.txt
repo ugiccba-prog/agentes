@@ -8915,3 +8915,8 @@
 [2026-11-27 14:15:56] [4. Francotirador] ✅ CERRADA PEPE/USDT (LONG) a 3.61e-06 | PnL: $-11.31 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 14:15:56] 📊 Marcador 7 Opciones | 1. WF Base: $9,551.03 (2A/29C) | 2. Híbrido ADX: $8,939.60 (1A/34C) | 3. Chimichurri: $11,717.32 (2A/45C) | 4. Francotirador: $10,293.74 (1A/26C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,034.36 (1A/32C) | 7. Escape: $11,974.34 (1A/39C)
 [2026-11-27 14:22:36] [3. Chimichurri] ✅ CERRADA PEPE/USDT (LONG) a 3.6e-06 | PnL: $-17.37 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 14:25:52] ✅ CERRADA SUI/USDT (LONG) a 0.682 | PnL: $-125.59 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 14:25:54] [6. Resorte] ✅ CERRADA GBP/USD (LONG) a 1.3110626935958862 | PnL: $-91.06 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 14:26:57] [2. Híbrido ADX] ✅ CERRADA SOL/USDT (LONG) a 72.72 | PnL: $-55.96 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 14:26:57] [3. Chimichurri] ✅ CERRADA SOL/USDT (LONG) a 72.72 | PnL: $-76.70 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 14:26:57] [4. Francotirador] ✅ CERRADA SOL/USDT (LONG) a 72.72 | PnL: $-122.07 USD (Stop Loss / Trailing Stop Ejecutado)
