@@ -8074,3 +8074,6 @@
 [2026-11-27 02:02:34] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3111342985
 [2026-11-27 02:04:39] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3111859161
 [2026-11-27 02:05:42] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3112030823
+[2026-11-27 02:06:45] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.3112548191
+[2026-11-27 02:07:47] [6. Resorte] ✅ CERRADA SOL/USDT (LONG) a 72.24 | PnL: $+135.06 USD (Take Profit Alcanzado)
+[2026-11-27 02:07:47] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en GBP/USD LONG ajustado a 1.311340769
