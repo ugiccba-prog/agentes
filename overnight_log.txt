@@ -8842,3 +8842,11 @@
 [2026-11-27 13:13:49]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 13:13:50]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 13:13:50] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-27 13:15:57] ☁️ [GITHUB CLOUD] Cierre de vela #109 (7 Opciones) de la sesión #33...
+[2026-11-27 13:16:01]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 13:16:03]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 13:16:04]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 13:16:04]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 13:16:07] 💓 Cierre de Vela | Equity: $9,590.09 USD (Efectivo: $9,615.67 | Flotante: $-25.58 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
+[2026-11-27 13:16:23] 📊 Marcador 7 Opciones | 1. WF Base: $9,590.09 (2A/29C) | 2. Híbrido ADX: $8,990.07 (3A/32C) | 3. Chimichurri: $11,825.50 (2A/45C) | 4. Francotirador: $10,375.05 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,002.25 (1A/39C)
+[2026-11-27 13:18:35] [2. Híbrido ADX] ✅ CERRADA GBP/USD (LONG) a 1.3111143112182617 | PnL: $-72.09 USD (Stop Loss / Trailing Stop Ejecutado)
