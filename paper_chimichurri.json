@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 11673.91,
-  "equity_usd": 11845.27,
-  "realized_pnl_usd": 1673.91,
-  "unrealized_pnl_usd": 171.36,
+  "cash_balance_usd": 11713.87,
+  "equity_usd": 11796.14,
+  "realized_pnl_usd": 1713.87,
+  "unrealized_pnl_usd": 82.27,
   "peak_equity_usd": 12608.96,
   "realized_peak_equity_usd": 12397.94,
   "day_start_equity_usd": 11620.11,
@@ -12,10 +12,10 @@
   "realized_max_drawdown_pct": 7.727896731231154,
   "dd_halt_until_utc": "",
   "dd_recovery_mode": false,
-  "total_trades": 44,
-  "winning_trades": 24,
+  "total_trades": 45,
+  "winning_trades": 25,
   "losing_trades": 20,
-  "last_updated": "2026-11-27 11:45:09 UTC",
+  "last_updated": "2026-11-27 11:48:49 UTC",
   "open_positions": [
     {
       "id": "ORD-662842",
@@ -37,25 +37,6 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     },
     {
-      "id": "ORD-461906",
-      "symbol": "GBP/JPY",
-      "market": "FOREX",
-      "strategy": "chimichurri_alpha",
-      "side": "LONG",
-      "entry_time": "2026-11-27 05:31:01 UTC",
-      "entry_price": 209.1089935303,
-      "current_price": 209.29299926757812,
-      "size": 486.24825,
-      "notional_usd": 101678.88,
-      "stop_loss": 209.2805394583,
-      "take_profit": 209.6331182821,
-      "initial_risk_dist": 0.2149177789,
-      "unrealized_pnl_usd": 69.13,
-      "unrealized_pnl_pct": 0.07,
-      "reason": "Chimichurri Alpha LONG (ADX=23.0, Vol=1.00x, RSI=67.8, Ruptura Donchian)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    },
-    {
       "id": "ORD-449664",
       "symbol": "SOL/USDT",
       "market": "CRYPTO",
@@ -63,14 +44,14 @@
       "side": "LONG",
       "entry_time": "2026-11-27 08:00:49 UTC",
       "entry_price": 73.3,
-      "current_price": 73.16,
+      "current_price": 72.99,
       "size": 117.45956,
       "notional_usd": 8609.79,
       "stop_loss": 72.7757637042,
       "take_profit": 74.7873918138,
       "initial_risk_dist": 0.5242362958,
-      "unrealized_pnl_usd": -25.05,
-      "unrealized_pnl_pct": -0.29,
+      "unrealized_pnl_usd": -45.0,
+      "unrealized_pnl_pct": -0.52,
       "reason": "Chimichurri Alpha LONG (ADX=44.0, Vol=1.21x, RSI=66.0, Pullback Tendencia)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
@@ -867,6 +848,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 206.42,
       "r_multiple": 1.134
+    },
+    {
+      "id": "ORD-461906",
+      "symbol": "GBP/JPY",
+      "market": "FOREX",
+      "strategy": "chimichurri_alpha",
+      "side": "LONG",
+      "entry_time": "2026-11-27 05:31:01 UTC",
+      "exit_time": "2026-11-27 11:46:36 UTC",
+      "entry_price": 209.1089935303,
+      "exit_price": 209.23300170898438,
+      "size": 486.24825,
+      "pnl_usd": 39.96,
+      "pnl_pct": 0.04,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 104.5,
+      "r_multiple": 0.382
     }
   ],
   "excluded_trades": []
