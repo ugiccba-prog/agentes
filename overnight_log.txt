@@ -9017,3 +9017,4 @@
 [2026-11-27 15:37:09] [2. Híbrido ADX] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-15.40 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 15:37:09] [3. Chimichurri] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-100.48 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 15:37:10] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-103.83 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 15:38:13] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 72.28 | PnL: $-133.62 USD (Stop Loss / Trailing Stop Ejecutado)

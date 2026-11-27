@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `34` | **Última actualización:** `2026-11-27 15:37:10 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `34` | **Última actualización:** `2026-11-27 15:40:14 UTC`
 
 ---
 
@@ -15,8 +15,8 @@
 | **3. Chimichurri v2 (Tendencia)** | `chimichurri_alpha (ADX >= 22) · TP >= 2.8R · Trail 1.8 ATR · Riesgo 1.5–2.5% · 4x` | `$11,519.32` | **`$+1,519.32`** (`+15.19%`) | ⚪ *Sin abiertas* | `25W / 23L` (`48`) | `1.40` | `9.08%` / `7.73%` |
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,215.27` | **`$+215.27`** (`+2.15%`) | ⚪ *Sin abiertas* | `14W / 13L` (`27`) | `1.14` | `7.15%` / `7.15%` |
 | **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$8,680.36` | **`$-1,319.64`** (`-13.20%`) | ⚪ *Sin abiertas* | `16W / 24L` (`40`) | `0.67` | `22.50%` / `21.44%` 🔄 Recup. |
-| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$8,880.78` | **`$-1,119.22`** (`-11.19%`) | 🟢 `GBP/USD` LONG (`$-41.61`) | `14W / 20L` (`34`) | `0.59` | `14.89%` / `14.92%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,680.35` | **`$+1,680.35`** (`+16.80%`) | 🟢 `GBP/USD` LONG (`$-73.74`)<br>🔴 `SOL/USDT` SHORT (`$-118.26`) | `21W / 19L` (`40`) | `1.76` | `8.16%` / `6.20%` |
+| **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$8,892.06` | **`$-1,107.94`** (`-11.08%`) | 🟢 `GBP/USD` LONG (`$-30.33`) | `14W / 20L` (`34`) | `0.59` | `14.89%` / `14.92%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$11,682.59` | **`$+1,682.59`** (`+16.83%`) | 🟢 `GBP/USD` LONG (`$-56.14`) | `21W / 20L` (`41`) | `1.67` | `8.16%` / `6.88%` |
 
 ---
 
@@ -25,14 +25,14 @@
 | Mercado Activo | 1. WF Base | 2. Híbrido ADX | 3. Chimichurri | 4. Francotirador | 5. Berserker | 6. Resorte | 7. Escape |
 |---|---|---|---|---|---|---|---|
 | `BTC/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🔴 **SHORT** (`$-118.26`) |
+| `SOL/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `BNB/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `DOGE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `SUI/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-41.61`) | 🟢 **LONG** (`$-73.74`) |
+| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-30.33`) | 🟢 **LONG** (`$-56.14`) |
 
 ---
 
@@ -85,7 +85,6 @@
 ## 📜 Últimos Eventos de la Bitácora (`overnight_log.txt`)
 
 ```text
-[2026-11-27 15:15:49] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
 [2026-11-27 15:16:00] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT (Conv 95%) | Entrada: 71.22000000 | SL: 72.26106682 | TP: 69.10892808 | Tamaño: $8,408.52 USD (Riesgo controlado: $122.91) | OK riesgo 1.02% (dd 4.4%)
 [2026-11-27 15:16:00] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
 [2026-11-27 15:16:00] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
@@ -105,4 +104,5 @@
 [2026-11-27 15:37:09] [2. Híbrido ADX] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-15.40 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 15:37:09] [3. Chimichurri] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-100.48 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 15:37:10] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-103.83 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 15:38:13] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 72.28 | PnL: $-133.62 USD (Stop Loss / Trailing Stop Ejecutado)
 ```
