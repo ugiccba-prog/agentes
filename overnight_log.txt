@@ -8242,3 +8242,13 @@
 [2026-11-27 03:16:22] 📊 Marcador 7 Opciones | 1. WF Base: $9,700.66 (2A/27C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,713.63 (2A/43C) | 4. Francotirador: $10,376.29 (1A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,243.06 (2A/37C)
 [2026-11-27 03:17:24] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
 [2026-11-27 03:19:30] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
+[2026-11-27 03:30:57] ☁️ [GITHUB CLOUD] Cierre de vela #19 (7 Opciones) de la sesión #31...
+[2026-11-27 03:31:00]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 03:31:03]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 03:31:04]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 03:31:04]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 03:31:04] 💓 Cierre de Vela | Equity: $9,665.60 USD (Efectivo: $9,604.57 | Flotante: $+61.03 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 27
+[2026-11-27 03:31:21] [7. Escape] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 03:31:21] 📊 Marcador 7 Opciones | 1. WF Base: $9,665.60 (2A/27C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,691.63 (2A/43C) | 4. Francotirador: $10,365.81 (1A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,226.88 (2A/37C)
+[2026-11-27 03:32:23] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
+[2026-11-27 03:33:25] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
