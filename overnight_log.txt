@@ -9318,3 +9318,17 @@
 [2026-11-27 20:46:18] [4. Francotirador] 🎯 [Francotirador] SOL/USDT SHORT descartado: sin alineación Macro 1H (0)
 [2026-11-27 20:46:18] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
 [2026-11-27 20:46:19] 📊 Marcador 7 Opciones | 1. WF Base: $9,235.03 (3A/31C) | 2. Híbrido ADX: $8,825.41 (4A/36C) | 3. Chimichurri: $11,431.85 (2A/48C) | 4. Francotirador: $10,184.58 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,603.44 (1A/41C)
+[2026-11-27 21:00:27] ☁️ [GITHUB CLOUD] Cierre de vela #98 (7 Opciones) de la sesión #35...
+[2026-11-27 21:00:30]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 21:00:33]    🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 21:00:33]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 21:00:34]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 21:00:37] 💓 Cierre de Vela | Equity: $9,260.57 USD (Efectivo: $9,342.22 | Flotante: $-81.65 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 31
+[2026-11-27 21:00:49] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 21:00:51] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 21:00:53] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-27 21:00:53] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 21:00:53] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-27 21:00:53] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 21:00:53] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 21:00:53] 📊 Marcador 7 Opciones | 1. WF Base: $9,260.57 (3A/31C) | 2. Híbrido ADX: $8,840.59 (4A/36C) | 3. Chimichurri: $11,475.95 (2A/48C) | 4. Francotirador: $10,198.23 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,577.07 (1A/41C)
