@@ -9246,3 +9246,14 @@
 [2026-11-27 19:45:40]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-27 19:45:42] 💓 Cierre de Vela | Equity: $9,244.61 USD (Efectivo: $9,342.22 | Flotante: $-97.61 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 31
 [2026-11-27 19:45:57] 📊 Marcador 7 Opciones | 1. WF Base: $9,244.61 (2A/31C) | 2. Híbrido ADX: $8,832.85 (3A/36C) | 3. Chimichurri: $11,467.61 (2A/48C) | 4. Francotirador: $10,201.96 (1A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,588.79 (1A/41C)
+[2026-11-27 20:00:31] ☁️ [GITHUB CLOUD] Cierre de vela #45 (7 Opciones) de la sesión #35...
+[2026-11-27 20:00:35]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 20:00:38]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 20:00:38]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 20:00:38]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 20:00:40] 💓 Cierre de Vela | Equity: $9,273.10 USD (Efectivo: $9,342.22 | Flotante: $-69.12 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 31
+[2026-11-27 20:00:44] [2. Híbrido ADX] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 59868.43000000 | SL: 60346.97157552 | TP: 58818.72606120 | Tamaño: $5,526.26 USD (Riesgo controlado: $44.17) | OK riesgo 0.50% (dd 16.9%)
+[2026-11-27 20:00:56] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-27 20:00:56] [4. Francotirador] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 59868.43000000 | SL: 60346.97157552 | TP: 58729.76034019 | Tamaño: $12,557.81 USD (Riesgo controlado: $100.38) | OK riesgo 0.98% (dd 7.3%)
+[2026-11-27 20:00:56] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 20:00:57] 📊 Marcador 7 Opciones | 1. WF Base: $9,273.10 (2A/31C) | 2. Híbrido ADX: $8,831.01 (4A/36C) | 3. Chimichurri: $11,435.85 (2A/48C) | 4. Francotirador: $10,182.37 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,599.04 (1A/41C)
