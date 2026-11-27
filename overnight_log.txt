@@ -8992,3 +8992,17 @@
 [2026-11-27 15:12:30]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-27 15:12:30] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
 [2026-11-27 15:12:40] 📊 Marcador 7 Opciones | 1. WF Base: $9,342.22 (0A/31C) | 2. Híbrido ADX: $8,927.53 (1A/35C) | 3. Chimichurri: $11,775.78 (1A/47C) | 4. Francotirador: $10,215.27 (0A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,956.37 (1A/33C) | 7. Escape: $12,100.29 (2A/39C)
+[2026-11-27 15:15:45] ☁️ [GITHUB CLOUD] Cierre de vela #4 (7 Opciones) de la sesión #34...
+[2026-11-27 15:15:46]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 15:15:48]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 15:15:48]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 15:15:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 15:15:49] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
+[2026-11-27 15:16:00] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT SHORT (Conv 95%) | Entrada: 71.22000000 | SL: 72.26106682 | TP: 69.10892808 | Tamaño: $8,408.52 USD (Riesgo controlado: $122.91) | OK riesgo 1.02% (dd 4.4%)
+[2026-11-27 15:16:00] [7. Escape] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 15:16:00] [7. Escape] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 15:16:00] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 15:16:00] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 15:16:00] [7. Escape] 🛡️ [RiskManager] PEPE/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 15:16:00] 📊 Marcador 7 Opciones | 1. WF Base: $9,342.22 (0A/31C) | 2. Híbrido ADX: $8,927.53 (1A/35C) | 3. Chimichurri: $11,775.78 (1A/47C) | 4. Francotirador: $10,215.27 (0A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,924.74 (1A/33C) | 7. Escape: $12,052.27 (3A/39C)
+[2026-11-27 15:17:01] [6. Resorte] ✅ CERRADA GBP/USD (LONG) a 1.3103927373886108 | PnL: $-95.26 USD (Stop Loss / Trailing Stop Ejecutado)
