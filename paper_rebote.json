@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 8922.39,
-  "equity_usd": 8846.97,
-  "realized_pnl_usd": -1077.61,
-  "unrealized_pnl_usd": -75.42,
+  "cash_balance_usd": 8831.95,
+  "equity_usd": 8831.95,
+  "realized_pnl_usd": -1168.05,
+  "unrealized_pnl_usd": 0.0,
   "peak_equity_usd": 10218.73,
   "realized_peak_equity_usd": 10136.59,
   "day_start_equity_usd": 8932.62,
@@ -12,31 +12,11 @@
   "realized_max_drawdown_pct": 14.918725133402855,
   "dd_halt_until_utc": "",
   "dd_recovery_mode": false,
-  "total_trades": 34,
+  "total_trades": 35,
   "winning_trades": 14,
-  "losing_trades": 20,
-  "last_updated": "2026-11-27 17:45:19 UTC",
-  "open_positions": [
-    {
-      "id": "ORD-451965",
-      "symbol": "GBP/USD",
-      "market": "FOREX",
-      "strategy": "bollinger_reversion",
-      "side": "LONG",
-      "entry_time": "2026-11-27 15:30:51 UTC",
-      "entry_price": 1.3109596968,
-      "current_price": 1.3098434209823608,
-      "size": 54718.6858,
-      "notional_usd": 71733.99,
-      "stop_loss": 1.3095736928,
-      "take_profit": 1.3140633833,
-      "initial_risk_dist": 0.001386004,
-      "unrealized_pnl_usd": -75.42,
-      "unrealized_pnl_pct": -0.11,
-      "reason": "Rebote en Banda Inferior Bollinger (%B=0.09, ADX=19.0) + Giro RSI (38.9)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    }
-  ],
+  "losing_trades": 21,
+  "last_updated": "2026-11-27 17:48:23 UTC",
+  "open_positions": [],
   "closed_trades": [
     {
       "id": "ORD-533693",
@@ -649,6 +629,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 76.65,
       "r_multiple": -1.243
+    },
+    {
+      "id": "ORD-451965",
+      "symbol": "GBP/USD",
+      "market": "FOREX",
+      "strategy": "bollinger_reversion",
+      "side": "LONG",
+      "entry_time": "2026-11-27 15:30:51 UTC",
+      "exit_time": "2026-11-27 17:48:23 UTC",
+      "entry_price": 1.3109596968,
+      "exit_price": 1.309569001197815,
+      "size": 54718.6858,
+      "pnl_usd": -90.44,
+      "pnl_pct": -0.13,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 75.84,
+      "r_multiple": -1.192
     }
   ],
   "excluded_trades": []
