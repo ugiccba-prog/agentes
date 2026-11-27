@@ -8263,3 +8263,4 @@
 [2026-11-27 03:46:17] 📊 Marcador 7 Opciones | 1. WF Base: $9,644.55 (2A/27C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,635.47 (2A/43C) | 4. Francotirador: $10,355.32 (1A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,150.21 (2A/37C)
 [2026-11-27 03:47:19] ✅ CERRADA GBP/USD (LONG) a 1.3120776414871216 | PnL: $-86.15 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 03:47:20] [4. Francotirador] ✅ CERRADA GBP/USD (LONG) a 1.3120776414871216 | PnL: $-68.87 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 03:52:31] ✅ CERRADA GBP/JPY (LONG) a 208.89500427246094 | PnL: $+97.25 USD (Stop Loss / Trailing Stop Ejecutado)
