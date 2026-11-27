@@ -8689,3 +8689,14 @@
 [2026-11-27 10:45:21]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-27 10:45:23] 💓 Cierre de Vela | Equity: $9,788.18 USD (Efectivo: $9,615.67 | Flotante: $+172.51 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
 [2026-11-27 10:45:35] 📊 Marcador 7 Opciones | 1. WF Base: $9,788.18 (2A/29C) | 2. Híbrido ADX: $9,105.75 (4A/31C) | 3. Chimichurri: $12,002.89 (3A/44C) | 4. Francotirador: $10,445.61 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,186.70 (2A/38C)
+[2026-11-27 11:00:46] ☁️ [GITHUB CLOUD] Cierre de vela #209 (7 Opciones) de la sesión #32...
+[2026-11-27 11:00:48]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 11:00:50]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 11:00:50]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 11:00:50]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 11:00:52] 💓 Cierre de Vela | Equity: $9,682.70 USD (Efectivo: $9,615.67 | Flotante: $+67.03 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
+[2026-11-27 11:00:58] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 11:01:05] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 11:01:05] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 11:01:05] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 11:01:05] 📊 Marcador 7 Opciones | 1. WF Base: $9,682.70 (2A/29C) | 2. Híbrido ADX: $9,084.26 (4A/31C) | 3. Chimichurri: $11,967.66 (3A/44C) | 4. Francotirador: $10,411.97 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,172.04 (2A/38C)
