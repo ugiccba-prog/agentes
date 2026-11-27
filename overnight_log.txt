@@ -8253,3 +8253,4 @@
 [2026-11-27 03:32:23] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
 [2026-11-27 03:33:25] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
 [2026-11-27 03:34:29] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
+[2026-11-27 03:39:40] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
