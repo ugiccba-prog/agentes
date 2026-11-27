@@ -8264,3 +8264,4 @@
 [2026-11-27 03:47:19] ✅ CERRADA GBP/USD (LONG) a 1.3120776414871216 | PnL: $-86.15 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 03:47:20] [4. Francotirador] ✅ CERRADA GBP/USD (LONG) a 1.3120776414871216 | PnL: $-68.87 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 03:52:31] ✅ CERRADA GBP/JPY (LONG) a 208.89500427246094 | PnL: $+97.25 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 03:56:43] [3. Chimichurri] ✅ CERRADA GBP/JPY (LONG) a 208.88099670410156 | PnL: $+234.07 USD (Stop Loss / Trailing Stop Ejecutado)
