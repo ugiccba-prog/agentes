@@ -8208,3 +8208,20 @@
 [2026-11-27 03:11:27]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 03:11:27]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 03:11:27] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-27 03:11:29] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #31...
+[2026-11-27 03:11:32]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 03:11:35]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 03:11:35]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 03:11:35] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 87%) | Entrada: 1.31305969 | SL: 1.31208636 | TP: 1.31525185 | Tamaño: $90,893.55 USD (Riesgo controlado: $67.38) | OK riesgo 0.69% (dd 9.4%)
+[2026-11-27 03:11:35] 💓 Cierre de Vela | Equity: $9,744.80 USD (Efectivo: $9,604.57 | Flotante: $+140.23 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 27
+[2026-11-27 03:11:50] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-27 03:11:50] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-27 03:11:50] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 03:11:50] [3. Chimichurri] 🛡️ [RiskManager] GBP/USD LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 03:11:51] [4. Francotirador] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 87%) | Entrada: 1.31305969 | SL: 1.31208636 | TP: 1.31543635 | Tamaño: $72,657.51 USD (Riesgo controlado: $53.86) | OK riesgo 0.52% (dd 5.3%)
+[2026-11-27 03:11:51] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 03:11:51] [5. Berserker] 🛡️ [RiskManager] GBP/USD LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 03:11:51] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 03:11:51] [7. Escape] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 03:11:51] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
+[2026-11-27 03:11:51] 📊 Marcador 7 Opciones | 1. WF Base: $9,744.80 (2A/27C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,772.60 (2A/43C) | 4. Francotirador: $10,402.99 (1A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,344.76 (2A/37C)
