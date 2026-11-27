@@ -8652,3 +8652,9 @@
 [2026-11-27 10:25:30] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2786486264
 [2026-11-27 10:25:30] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 209.2477786202
 [2026-11-27 10:25:30] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2786486264
+[2026-11-27 10:26:37] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2856524105
+[2026-11-27 10:26:37] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 209.2547824044
+[2026-11-27 10:26:37] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2856524105
+[2026-11-27 10:27:42] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2966539974
+[2026-11-27 10:27:42] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 209.2657839913
+[2026-11-27 10:27:42] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.2966539974
