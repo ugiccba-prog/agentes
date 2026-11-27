@@ -8474,3 +8474,18 @@
 [2026-11-27 07:45:47]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-27 07:45:47] 💓 Cierre de Vela | Equity: $9,615.67 USD (Efectivo: $9,615.67 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 29
 [2026-11-27 07:45:59] 📊 Marcador 7 Opciones | 1. WF Base: $9,615.67 (0A/29C) | 2. Híbrido ADX: $8,975.26 (1A/31C) | 3. Chimichurri: $11,548.12 (2A/44C) | 4. Francotirador: $10,348.65 (0A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $11,898.75 (2A/38C)
+[2026-11-27 08:00:31] ☁️ [GITHUB CLOUD] Cierre de vela #47 (7 Opciones) de la sesión #32...
+[2026-11-27 08:00:34]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 08:00:36]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 08:00:36]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 08:00:36]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 08:00:36] 💓 Cierre de Vela | Equity: $9,615.67 USD (Efectivo: $9,615.67 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 29
+[2026-11-27 08:00:42] [2. Híbrido ADX] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 73.30000000 | SL: 72.77576370 | TP: 74.57559074 | Tamaño: $6,281.31 USD (Riesgo controlado: $44.92) | OK riesgo 0.50% (dd 15.5%)
+[2026-11-27 08:00:49] [2. Híbrido ADX] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 98%) | Entrada: 0.00000361 | SL: 0.00000356 | TP: 0.00000373 | Tamaño: $3,467.23 USD (Riesgo controlado: $44.92) | OK riesgo 0.50% (dd 15.5%)
+[2026-11-27 08:00:49] [3. Chimichurri] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 73.30000000 | SL: 72.77576370 | TP: 74.78739181 | Tamaño: $8,609.79 USD (Riesgo controlado: $61.58) | OK riesgo 0.53% (dd 6.3%)
+[2026-11-27 08:00:49] [3. Chimichurri] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 08:00:49] [4. Francotirador] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 98%) | Entrada: 73.30000000 | SL: 72.77576370 | TP: 74.68036638 | Tamaño: $13,702.84 USD (Riesgo controlado: $98.00) | OK riesgo 0.95% (dd 5.9%)
+[2026-11-27 08:00:49] [4. Francotirador] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 98%) | Entrada: 0.00000361 | SL: 0.00000356 | TP: 0.00000374 | Tamaño: $11,309.85 USD (Riesgo controlado: $146.54) | OK riesgo 1.42% (dd 5.9%)
+[2026-11-27 08:00:49] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 08:00:49] [5. Berserker] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 08:00:50] 📊 Marcador 7 Opciones | 1. WF Base: $9,615.67 (0A/29C) | 2. Híbrido ADX: $8,978.08 (3A/31C) | 3. Chimichurri: $11,665.12 (3A/44C) | 4. Francotirador: $10,323.64 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $11,955.57 (2A/38C)
