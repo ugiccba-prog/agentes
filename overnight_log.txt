@@ -8348,3 +8348,14 @@
 [2026-11-27 05:15:51]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-27 05:15:51] 💓 Cierre de Vela | Equity: $9,615.67 USD (Efectivo: $9,615.67 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 29
 [2026-11-27 05:16:07] 📊 Marcador 7 Opciones | 1. WF Base: $9,615.67 (0A/29C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,511.90 (1A/44C) | 4. Francotirador: $10,348.65 (0A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $11,967.25 (1A/38C)
+[2026-11-27 05:30:40] ☁️ [GITHUB CLOUD] Cierre de vela #130 (7 Opciones) de la sesión #31...
+[2026-11-27 05:30:43]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 05:30:46]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 05:30:46]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 05:30:47]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 05:30:47] 💓 Cierre de Vela | Equity: $9,615.67 USD (Efectivo: $9,615.67 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 29
+[2026-11-27 05:31:01] [2. Híbrido ADX] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG (Conv 87%) | Entrada: 209.10899353 | SL: 208.89407575 | TP: 209.55528456 | Tamaño: $43,789.53 USD (Riesgo controlado: $45.01) | OK riesgo 0.50% (dd 15.4%)
+[2026-11-27 05:31:01] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG (Conv 87%) | Entrada: 209.10899353 | SL: 208.89407575 | TP: 209.63311828 | Tamaño: $101,678.88 USD (Riesgo controlado: $104.50) | OK riesgo 0.90% (dd 6.8%)
+[2026-11-27 05:31:03] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 05:31:03] [7. Escape] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY LONG (Conv 92%) | Entrada: 209.10899353 | SL: 208.89407575 | TP: 209.59382359 | Tamaño: $105,764.65 USD (Riesgo controlado: $108.70) | OK riesgo 0.90% (dd 4.6%)
+[2026-11-27 05:31:03] 📊 Marcador 7 Opciones | 1. WF Base: $9,615.67 (0A/29C) | 2. Híbrido ADX: $8,992.43 (1A/31C) | 3. Chimichurri: $11,587.99 (2A/44C) | 4. Francotirador: $10,348.65 (0A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,019.66 (2A/38C)
