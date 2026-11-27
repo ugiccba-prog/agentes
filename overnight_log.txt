@@ -8152,3 +8152,18 @@
 [2026-11-27 02:35:12] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7625672529
 [2026-11-27 02:43:33] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.768563957
 [2026-11-27 02:44:35] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7945649336
+[2026-11-27 02:45:39] ☁️ [GITHUB CLOUD] Cierre de vela #196 (7 Opciones) de la sesión #30...
+[2026-11-27 02:45:42]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 02:45:45]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 02:45:45]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 02:45:45]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 02:45:46] 💓 Cierre de Vela | Equity: $9,723.76 USD (Efectivo: $9,604.57 | Flotante: $+119.19 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 27
+[2026-11-27 02:46:00] [2. Híbrido ADX] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO: pausa defensiva por drawdown 15.4% (hasta 2026-11-27 04:00:29 UTC)
+[2026-11-27 02:46:00] [3. Chimichurri] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 02:46:02] [5. Berserker] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 02:46:02] [7. Escape] 🛡️ [RiskManager] BTC/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 02:46:02] [7. Escape] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 02:46:02] [7. Escape] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 02:46:02] [7. Escape] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 02:46:02] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
+[2026-11-27 02:46:02] 📊 Marcador 7 Opciones | 1. WF Base: $9,723.76 (1A/27C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,588.66 (2A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,139.73 (2A/37C)
