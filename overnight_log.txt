@@ -8150,3 +8150,5 @@
 [2026-11-27 02:33:07] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7615601728
 [2026-11-27 02:34:09] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7615601728
 [2026-11-27 02:35:12] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7625672529
+[2026-11-27 02:43:33] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.768563957
+[2026-11-27 02:44:35] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7945649336
