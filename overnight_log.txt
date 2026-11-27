@@ -8509,3 +8509,22 @@
 [2026-11-27 08:12:55]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 08:12:55]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 08:12:55] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-27 08:16:04] ☁️ [GITHUB CLOUD] Cierre de vela #61 (7 Opciones) de la sesión #32...
+[2026-11-27 08:16:07] SUI/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SUI/USDT LONG (Conv 98%) | Entrada: 0.68710000 | SL: 0.68207303 | TP: 0.69721742 | Tamaño: $14,917.26 USD (Riesgo controlado: $109.14) | OK riesgo 1.13% (dd 10.9%)
+[2026-11-27 08:16:10] AVAX/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> AVAX/USDT LONG (Conv 98%) | Entrada: 6.77700000 | SL: 6.73526852 | TP: 6.86382870 | Tamaño: $15,240.63 USD (Riesgo controlado: $93.85) | OK riesgo 0.98% (dd 10.9%)
+[2026-11-27 08:16:11]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 08:16:11]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 08:16:11] 💓 Cierre de Vela | Equity: $9,585.51 USD (Efectivo: $9,615.67 | Flotante: $-30.16 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
+[2026-11-27 08:16:17] [2. Híbrido ADX] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:19] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:19] [2. Híbrido ADX] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:23] [3. Chimichurri] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:23] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:23] [3. Chimichurri] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:23] [4. Francotirador] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:23] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:23] [4. Francotirador] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 08:16:23] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 08:16:23] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 08:16:23] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 08:16:24] 📊 Marcador 7 Opciones | 1. WF Base: $9,585.51 (2A/29C) | 2. Híbrido ADX: $9,017.16 (3A/31C) | 3. Chimichurri: $11,774.46 (3A/44C) | 4. Francotirador: $10,371.77 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,056.73 (2A/38C)
