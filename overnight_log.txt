@@ -8147,3 +8147,6 @@
 [2026-11-27 02:31:03] [7. Escape] 🛡️ [RiskManager] PEPE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-27 02:31:03] [7. Escape] 🛡️ [RiskManager] GBP/JPY LONG bloqueado: poco margen de apalancamiento restante
 [2026-11-27 02:31:03] 📊 Marcador 7 Opciones | 1. WF Base: $9,708.82 (1A/27C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,670.12 (2A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,200.41 (2A/37C)
+[2026-11-27 02:33:07] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7615601728
+[2026-11-27 02:34:09] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7615601728
+[2026-11-27 02:35:12] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.7625672529
