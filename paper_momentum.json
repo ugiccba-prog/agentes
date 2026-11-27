@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 9001.19,
-  "equity_usd": 8992.85,
+  "equity_usd": 8988.45,
   "realized_pnl_usd": -998.81,
-  "unrealized_pnl_usd": -8.34,
+  "unrealized_pnl_usd": -12.74,
   "peak_equity_usd": 10730.43,
   "realized_peak_equity_usd": 10633.98,
   "day_start_equity_usd": 9001.19,
@@ -15,7 +15,7 @@
   "total_trades": 31,
   "winning_trades": 13,
   "losing_trades": 18,
-  "last_updated": "2026-11-27 06:40:55 UTC",
+  "last_updated": "2026-11-27 06:44:03 UTC",
   "open_positions": [
     {
       "id": "ORD-461853",
@@ -25,14 +25,14 @@
       "side": "LONG",
       "entry_time": "2026-11-27 05:31:01 UTC",
       "entry_price": 209.1089935303,
-      "current_price": 209.11099243164062,
+      "current_price": 209.08999633789062,
       "size": 209.41008,
       "notional_usd": 43789.53,
       "stop_loss": 208.8940757514,
       "take_profit": 209.5552845596,
       "initial_risk_dist": 0.2149177789,
-      "unrealized_pnl_usd": -8.34,
-      "unrealized_pnl_pct": -0.02,
+      "unrealized_pnl_usd": -12.74,
+      "unrealized_pnl_pct": -0.03,
       "reason": "Régimen Híbrido [Tendencia ADX=23.0] | Chimichurri Alpha LONG (ADX=23.0, Vol=1.00x, RSI=67.8, Ruptura Donchian)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
