@@ -8679,3 +8679,6 @@
 [2026-11-27 10:31:12] [5. Berserker] 🛡️ [RiskManager] BNB/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
 [2026-11-27 10:31:12] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.3096190635
 [2026-11-27 10:31:12] 📊 Marcador 7 Opciones | 1. WF Base: $9,733.39 (2A/29C) | 2. Híbrido ADX: $9,098.21 (4A/31C) | 3. Chimichurri: $11,970.16 (3A/44C) | 4. Francotirador: $10,418.03 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,190.05 (2A/38C)
+[2026-11-27 10:42:03] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.3136168663
+[2026-11-27 10:42:03] [3. Chimichurri] 🔒 Stop (Trailing 1.8 ATR) en GBP/JPY LONG ajustado a 209.2805394583
+[2026-11-27 10:42:03] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 209.3136168663
