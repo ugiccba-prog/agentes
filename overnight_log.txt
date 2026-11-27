@@ -8850,3 +8850,14 @@
 [2026-11-27 13:16:07] 💓 Cierre de Vela | Equity: $9,590.09 USD (Efectivo: $9,615.67 | Flotante: $-25.58 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
 [2026-11-27 13:16:23] 📊 Marcador 7 Opciones | 1. WF Base: $9,590.09 (2A/29C) | 2. Híbrido ADX: $8,990.07 (3A/32C) | 3. Chimichurri: $11,825.50 (2A/45C) | 4. Francotirador: $10,375.05 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,002.25 (1A/39C)
 [2026-11-27 13:18:35] [2. Híbrido ADX] ✅ CERRADA GBP/USD (LONG) a 1.3111143112182617 | PnL: $-72.09 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 13:30:43] ☁️ [GITHUB CLOUD] Cierre de vela #122 (7 Opciones) de la sesión #33...
+[2026-11-27 13:30:45]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 13:30:48]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 13:30:49]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 13:30:49]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 13:30:52] 💓 Cierre de Vela | Equity: $9,581.72 USD (Efectivo: $9,615.67 | Flotante: $-33.95 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
+[2026-11-27 13:30:57] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 13:31:08] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 13:31:08] [4. Francotirador] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: ya hay posición abierta en este símbolo
+[2026-11-27 13:31:08] [5. Berserker] 🛡️ [RiskManager] SOL/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 13:31:08] 📊 Marcador 7 Opciones | 1. WF Base: $9,581.72 (2A/29C) | 2. Híbrido ADX: $8,958.63 (2A/33C) | 3. Chimichurri: $11,778.45 (2A/45C) | 4. Francotirador: $10,345.61 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $11,934.71 (1A/39C)
