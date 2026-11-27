@@ -8528,3 +8528,10 @@
 [2026-11-27 08:16:23] [5. Berserker] 🛡️ [RiskManager] SUI/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
 [2026-11-27 08:16:23] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT LONG bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
 [2026-11-27 08:16:24] 📊 Marcador 7 Opciones | 1. WF Base: $9,585.51 (2A/29C) | 2. Híbrido ADX: $9,017.16 (3A/31C) | 3. Chimichurri: $11,774.46 (3A/44C) | 4. Francotirador: $10,371.77 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,056.73 (2A/38C)
+[2026-11-27 08:30:28] ☁️ [GITHUB CLOUD] Cierre de vela #74 (7 Opciones) de la sesión #32...
+[2026-11-27 08:30:30]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 08:30:32]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 08:30:32]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 08:30:33]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 08:30:35] 💓 Cierre de Vela | Equity: $9,589.70 USD (Efectivo: $9,615.67 | Flotante: $-25.97 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 29
+[2026-11-27 08:30:47] 📊 Marcador 7 Opciones | 1. WF Base: $9,589.70 (2A/29C) | 2. Híbrido ADX: $8,987.10 (3A/31C) | 3. Chimichurri: $11,694.22 (3A/44C) | 4. Francotirador: $10,304.95 (2A/25C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $11,993.64 (2A/38C)
