@@ -8920,3 +8920,19 @@
 [2026-11-27 14:26:57] [2. Híbrido ADX] ✅ CERRADA SOL/USDT (LONG) a 72.72 | PnL: $-55.96 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 14:26:57] [3. Chimichurri] ✅ CERRADA SOL/USDT (LONG) a 72.72 | PnL: $-76.70 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 14:26:57] [4. Francotirador] ✅ CERRADA SOL/USDT (LONG) a 72.72 | PnL: $-122.07 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 14:31:07] ☁️ [GITHUB CLOUD] Cierre de vela #175 (7 Opciones) de la sesión #33...
+[2026-11-27 14:31:11] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 1.05% (dd 12.7%)
+[2026-11-27 14:31:15] ✅ Cerrada posición LONG en AVAX/USDT a 6.71800 | PnL: $-147.86 USD (Señal contraria confirmada)
+[2026-11-27 14:31:15]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 14:31:15]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 14:31:15] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
+[2026-11-27 14:31:26] [2. Híbrido ADX] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 0.50% (dd 16.3%)
+[2026-11-27 14:31:26] [2. Híbrido ADX] AVAX/USDT | Precio fuera del margen de entrada en AVAX/USDT. | OK riesgo 0.50% (dd 16.3%)
+[2026-11-27 14:31:28] [3. Chimichurri] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 1.05% (dd 6.3%)
+[2026-11-27 14:31:28] [3. Chimichurri] AVAX/USDT | Precio fuera del margen de entrada en AVAX/USDT. | OK riesgo 0.87% (dd 6.3%)
+[2026-11-27 14:31:28] [4. Francotirador] 🎯 [Francotirador] SUI/USDT SHORT descartado: sin alineación Macro 1H (1)
+[2026-11-27 14:31:28] [4. Francotirador] 🎯 [Francotirador] AVAX/USDT SHORT descartado: sin alineación Macro 1H (1)
+[2026-11-27 14:31:28] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 14:31:28] [5. Berserker] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 14:31:28] [7. Escape] SUI/USDT | Precio fuera del margen de entrada en SUI/USDT. | OK riesgo 1.05% (dd 5.1%)
+[2026-11-27 14:31:28] 📊 Marcador 7 Opciones | 1. WF Base: $9,342.22 (0A/31C) | 2. Híbrido ADX: $8,903.63 (0A/35C) | 3. Chimichurri: $11,619.80 (0A/47C) | 4. Francotirador: $10,215.27 (0A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,017.65 (0A/33C) | 7. Escape: $11,991.96 (1A/39C)
