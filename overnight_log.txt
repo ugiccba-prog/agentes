@@ -9014,3 +9014,6 @@
 [2026-11-27 15:30:41] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
 [2026-11-27 15:30:51] [6. Resorte] GBP/USD | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/USD LONG (Conv 75%) | Entrada: 1.31095970 | SL: 1.30957369 | TP: 1.31406338 | Tamaño: $71,733.99 USD (Riesgo controlado: $75.84) | OK riesgo 0.85% (dd 12.0%)
 [2026-11-27 15:30:52] 📊 Marcador 7 Opciones | 1. WF Base: $9,342.22 (0A/31C) | 2. Híbrido ADX: $8,914.43 (1A/35C) | 3. Chimichurri: $11,690.29 (1A/47C) | 4. Francotirador: $10,215.27 (0A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,908.04 (1A/34C) | 7. Escape: $11,950.36 (3A/39C)
+[2026-11-27 15:37:09] [2. Híbrido ADX] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-15.40 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 15:37:09] [3. Chimichurri] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-100.48 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 15:37:10] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-103.83 USD (Stop Loss / Trailing Stop Ejecutado)
