@@ -9307,3 +9307,14 @@
 [2026-11-27 20:30:15]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-27 20:30:19] 💓 Cierre de Vela | Equity: $9,244.19 USD (Efectivo: $9,342.22 | Flotante: $-98.03 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 31
 [2026-11-27 20:30:36] 📊 Marcador 7 Opciones | 1. WF Base: $9,244.19 (3A/31C) | 2. Híbrido ADX: $8,831.69 (4A/36C) | 3. Chimichurri: $11,432.83 (2A/48C) | 4. Francotirador: $10,194.16 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,601.97 (1A/41C)
+[2026-11-27 20:45:50] ☁️ [GITHUB CLOUD] Cierre de vela #85 (7 Opciones) de la sesión #35...
+[2026-11-27 20:45:54]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 20:45:57]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 20:45:57]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 20:45:58]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 20:46:01] 💓 Cierre de Vela | Equity: $9,235.03 USD (Efectivo: $9,342.22 | Flotante: $-107.19 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 31
+[2026-11-27 20:46:07] [2. Híbrido ADX] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: exposición neta a CRYPTO excedería 2
+[2026-11-27 20:46:18] [3. Chimichurri] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-27 20:46:18] [4. Francotirador] 🎯 [Francotirador] SOL/USDT SHORT descartado: sin alineación Macro 1H (0)
+[2026-11-27 20:46:18] [5. Berserker] 🛡️ [RiskManager] SOL/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 20:46:19] 📊 Marcador 7 Opciones | 1. WF Base: $9,235.03 (3A/31C) | 2. Híbrido ADX: $8,825.41 (4A/36C) | 3. Chimichurri: $11,431.85 (2A/48C) | 4. Francotirador: $10,184.58 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,603.44 (1A/41C)
