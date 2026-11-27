@@ -2,7 +2,7 @@
 
 > 📱 **LINK PÚBLICO PARA EL CELULAR (Funciona con tu PC apagada):**  
 > 👉 **https://ugiccba-prog.github.io/agentes/**  
-> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `31` | **Última actualización:** `2026-11-27 04:15:47 UTC`
+> 🟢 **Modo Activo:** `🦈 Violenta & Sagaz (Recomendado)` | **Sesión #:** `31` | **Última actualización:** `2026-11-27 04:18:54 UTC`
 
 ---
 
@@ -16,7 +16,7 @@
 | **4. Francotirador v2 (Macro 1H)** | `Conf >= 85 · Exige Macro 1H · TP >= 2.6R · Riesgo 1.0–1.8% · 3x · Bloque 3.0%` | `$10,348.65` | **`$+348.65`** (`+3.49%`) | ⚪ *Sin abiertas* | `14W / 11L` (`25`) | `1.24` | `5.94%` / `5.94%` |
 | **5. Berserker v2 (Sin Impulso)** | `Régimen Híbrido ADX · Riesgo 2.0–3.5% · Apal. 6x · Conf >= 70 · Trail 1.4 ATR` | `$8,680.36` | **`$-1,319.64`** (`-13.20%`) | ⚪ *Sin abiertas* | `16W / 24L` (`40`) | `0.67` | `22.50%` / `21.44%` 🔄 Recup. |
 | **6. Resorte v2 (Rango ADX<20)** | `bollinger_reversion filtrada por ADX < 20 (solo rango) · R:R >= 2.0 · 4x` | `$9,108.71` | **`$-891.29`** (`-8.91%`) | ⚪ *Sin abiertas* | `14W / 18L` (`32`) | `0.63` | `14.89%` / `14.92%` |
-| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$12,106.12` | **`$+2,106.12`** (`+21.06%`) | 🟢 `GBP/USD` LONG (`$+30.48`)<br>🟢 `PEPE/USDT` LONG (`$+159.93`) | `20W / 17L` (`37`) | `1.82` | `8.16%` / `6.20%` |
+| **7. Escape v2 (Ruptura+ADX)** | `volatility_breakout (ADX >= 20 + Volumen >= 1.1x) · TP >= 2.6R · 4x` | `$12,111.99` | **`$+2,111.99`** (`+21.12%`) | 🟢 `GBP/USD` LONG (`$+36.35`)<br>🟢 `PEPE/USDT` LONG (`$+159.93`) | `20W / 17L` (`37`) | `1.82` | `8.16%` / `6.20%` |
 
 ---
 
@@ -32,7 +32,7 @@
 | `AVAX/USDT` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
 | `PEPE/USDT` | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$-65.58`) | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+159.93`) |
 | `GBP/JPY` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando |
-| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+30.48`) |
+| `GBP/USD` | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | ⚪ Esperando | 🟢 **LONG** (`$+36.35`) |
 
 ---
 
