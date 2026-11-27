@@ -9018,3 +9018,10 @@
 [2026-11-27 15:37:09] [3. Chimichurri] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-100.48 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 15:37:10] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.53e-06 | PnL: $-103.83 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 15:38:13] [7. Escape] ✅ CERRADA SOL/USDT (SHORT) a 72.28 | PnL: $-133.62 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-27 15:45:20] ☁️ [GITHUB CLOUD] Cierre de vela #32 (7 Opciones) de la sesión #34...
+[2026-11-27 15:45:22]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 15:45:24]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 15:45:24]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 15:45:24]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 15:45:24] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
+[2026-11-27 15:45:34] 📊 Marcador 7 Opciones | 1. WF Base: $9,342.22 (0A/31C) | 2. Híbrido ADX: $8,888.23 (0A/36C) | 3. Chimichurri: $11,519.32 (0A/48C) | 4. Francotirador: $10,215.27 (0A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,880.78 (1A/34C) | 7. Escape: $11,664.99 (1A/41C)
