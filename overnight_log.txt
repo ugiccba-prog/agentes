@@ -9115,3 +9115,13 @@
 [2026-11-27 17:30:43]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-27 17:30:43] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
 [2026-11-27 17:30:52] 📊 Marcador 7 Opciones | 1. WF Base: $9,342.22 (0A/31C) | 2. Híbrido ADX: $8,888.23 (0A/36C) | 3. Chimichurri: $11,519.32 (0A/48C) | 4. Francotirador: $10,215.27 (0A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,887.36 (1A/34C) | 7. Escape: $11,675.26 (1A/41C)
+[2026-11-27 17:45:06] ☁️ [GITHUB CLOUD] Cierre de vela #147 (7 Opciones) de la sesión #34...
+[2026-11-27 17:45:08]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 17:45:09]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 17:45:09]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 17:45:10]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 17:45:10] 💓 Cierre de Vela | Equity: $9,342.22 USD (Efectivo: $9,342.22 | Flotante: $+0.00 | Peak: $10,892.88) | Abiertas: 0 | Cerradas: 31
+[2026-11-27 17:45:19] [2. Híbrido ADX] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 80%) | Entrada: 208.89399719 | SL: 209.13370833 | TP: 208.32622874 | Tamaño: $38,727.82 USD (Riesgo controlado: $44.44) | OK riesgo 0.50% (dd 16.4%)
+[2026-11-27 17:45:19] [3. Chimichurri] GBP/JPY | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> GBP/JPY SHORT (Conv 80%) | Entrada: 208.89399719 | SL: 209.13370833 | TP: 208.23117685 | Tamaño: $110,823.96 USD (Riesgo controlado: $127.17) | OK riesgo 1.10% (dd 7.1%)
+[2026-11-27 17:45:19] [5. Berserker] 🛡️ [RiskManager] GBP/JPY SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-27 17:45:19] 📊 Marcador 7 Opciones | 1. WF Base: $9,342.22 (0A/31C) | 2. Híbrido ADX: $8,880.48 (1A/36C) | 3. Chimichurri: $11,497.16 (1A/48C) | 4. Francotirador: $10,215.27 (0A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,846.97 (1A/34C) | 7. Escape: $11,612.22 (1A/41C)
