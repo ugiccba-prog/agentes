@@ -8175,3 +8175,7 @@
 [2026-11-27 03:00:43] 💓 Cierre de Vela | Equity: $9,717.69 USD (Efectivo: $9,604.57 | Flotante: $+113.12 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 27
 [2026-11-27 03:00:59] [7. Escape] 🛡️ [RiskManager] GBP/USD LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-27 03:00:59] 📊 Marcador 7 Opciones | 1. WF Base: $9,717.69 (1A/27C) | 2. Híbrido ADX: $9,001.19 (0A/31C) | 3. Chimichurri: $11,534.36 (2A/43C) | 4. Francotirador: $10,417.52 (0A/24C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,108.71 (0A/32C) | 7. Escape: $12,057.16 (2A/37C)
+[2026-11-27 03:02:01] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8002774115
+[2026-11-27 03:03:03] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8052670355
+[2026-11-27 03:03:05] [7. Escape] 🔒 Stop (Breakeven+) en PEPE/USDT LONG ajustado a 3.5653e-06
+[2026-11-27 03:04:05] 🔒 Stop (Trailing 1.5 ATR) en GBP/JPY LONG ajustado a 208.8152768011
