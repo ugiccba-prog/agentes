@@ -9461,3 +9461,17 @@
 [2026-11-27 23:13:49]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 23:13:49]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-27 23:13:49] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-27 23:13:51] ☁️ [GITHUB CLOUD] Cierre de vela #1 (7 Opciones) de la sesión #36...
+[2026-11-27 23:13:53]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 23:13:56]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 23:13:56]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 23:13:56]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 23:13:59] 💓 Cierre de Vela | Equity: $9,349.79 USD (Efectivo: $9,342.22 | Flotante: $+7.57 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 31
+[2026-11-27 23:14:13] 📊 Marcador 7 Opciones | 1. WF Base: $9,349.79 (3A/31C) | 2. Híbrido ADX: $8,839.56 (4A/36C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,183.42 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,616.62 (1A/41C)
+[2026-11-27 23:15:13] ☁️ [GITHUB CLOUD] Cierre de vela #2 (7 Opciones) de la sesión #36...
+[2026-11-27 23:15:16]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 23:15:19]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-27 23:15:19]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-27 23:15:19]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-27 23:15:22] 💓 Cierre de Vela | Equity: $9,353.53 USD (Efectivo: $9,342.22 | Flotante: $+11.31 | Peak: $10,892.88) | Abiertas: 3 | Cerradas: 31
+[2026-11-27 23:15:37] 📊 Marcador 7 Opciones | 1. WF Base: $9,353.53 (3A/31C) | 2. Híbrido ADX: $8,841.05 (4A/36C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,185.31 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,831.95 (0A/35C) | 7. Escape: $11,616.62 (1A/41C)
