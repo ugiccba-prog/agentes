@@ -8914,3 +8914,4 @@
 [2026-11-27 14:15:56] [2. Híbrido ADX] ✅ CERRADA PEPE/USDT (LONG) a 3.61e-06 | PnL: $-3.47 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 14:15:56] [4. Francotirador] ✅ CERRADA PEPE/USDT (LONG) a 3.61e-06 | PnL: $-11.31 USD (Stop Loss / Trailing Stop Ejecutado)
 [2026-11-27 14:15:56] 📊 Marcador 7 Opciones | 1. WF Base: $9,551.03 (2A/29C) | 2. Híbrido ADX: $8,939.60 (1A/34C) | 3. Chimichurri: $11,717.32 (2A/45C) | 4. Francotirador: $10,293.74 (1A/26C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $9,034.36 (1A/32C) | 7. Escape: $11,974.34 (1A/39C)
+[2026-11-27 14:22:36] [3. Chimichurri] ✅ CERRADA PEPE/USDT (LONG) a 3.6e-06 | PnL: $-17.37 USD (Stop Loss / Trailing Stop Ejecutado)
