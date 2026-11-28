@@ -10314,3 +10314,12 @@
 [2026-11-28 13:46:19] 📊 Marcador 7 Opciones | 1. WF Base: $9,345.57 (2A/33C) | 2. Híbrido ADX: $8,981.03 (3A/41C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,336.07 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,940.39 (0A/38C) | 7. Escape: $11,589.81 (2A/43C)
 [2026-11-28 13:47:21] ✅ CERRADA AVAX/USDT (SHORT) a 6.447 | PnL: $+167.78 USD (Take Profit Alcanzado)
 [2026-11-28 13:47:24] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566224866
+[2026-11-28 14:00:09] ☁️ [GITHUB CLOUD] Cierre de vela #38 (7 Opciones) de la sesión #40...
+[2026-11-28 14:00:13]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 14:00:16]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 14:00:16]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-28 14:00:17]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-28 14:00:17] 💓 Cierre de Vela | Equity: $9,352.71 USD (Efectivo: $9,392.20 | Flotante: $-39.49 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 34
+[2026-11-28 14:00:35] [7. Escape] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 14:00:35] [7. Escape] 🛡️ [RiskManager] AVAX/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 14:00:36] 📊 Marcador 7 Opciones | 1. WF Base: $9,352.71 (1A/34C) | 2. Híbrido ADX: $8,979.65 (3A/41C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,326.64 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,940.39 (0A/38C) | 7. Escape: $11,586.67 (2A/43C)
