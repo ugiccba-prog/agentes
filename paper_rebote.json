@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
   "cash_balance_usd": 8831.95,
-  "equity_usd": 8831.95,
+  "equity_usd": 8818.65,
   "realized_pnl_usd": -1168.05,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": -13.3,
   "peak_equity_usd": 10218.73,
   "realized_peak_equity_usd": 10136.59,
   "day_start_equity_usd": 8831.95,
@@ -15,8 +15,28 @@
   "total_trades": 35,
   "winning_trades": 14,
   "losing_trades": 21,
-  "last_updated": "2026-11-28 00:43:29 UTC",
-  "open_positions": [],
+  "last_updated": "2026-11-28 00:47:03 UTC",
+  "open_positions": [
+    {
+      "id": "ORD-758541",
+      "symbol": "BNB/USDT",
+      "market": "CRYPTO",
+      "strategy": "bollinger_reversion",
+      "side": "SHORT",
+      "entry_time": "2026-11-28 00:45:58 UTC",
+      "entry_price": 555.29,
+      "current_price": 555.24,
+      "size": 26.31475,
+      "notional_usd": 14612.32,
+      "stop_loss": 557.5286344076,
+      "take_profit": 550.323413981,
+      "initial_risk_dist": 2.2386344076,
+      "unrealized_pnl_usd": -13.3,
+      "unrealized_pnl_pct": -0.09,
+      "reason": "Rechazo en Banda Superior Bollinger (%B=1.05, ADX=17.7) + Giro RSI (58.3)",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
+    }
+  ],
   "closed_trades": [
     {
       "id": "ORD-533693",
