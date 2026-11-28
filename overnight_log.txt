@@ -9895,3 +9895,6 @@
 [2026-11-28 07:00:41] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-28 07:00:41] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
 [2026-11-28 07:00:44] 📊 Marcador 7 Opciones | 1. WF Base: $9,138.46 (2A/33C) | 2. Híbrido ADX: $8,814.04 (3A/39C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,192.64 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,864.83 (1A/37C) | 7. Escape: $11,385.64 (3A/42C)
+[2026-11-28 07:06:14] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 552.5487197571
+[2026-11-28 07:08:25] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59600.7838322785
+[2026-11-28 07:08:26] [6. Resorte] ✅ CERRADA BNB/USDT (SHORT) a 549.53 | PnL: $+137.04 USD (Take Profit Alcanzado)
