@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 8888.9,
-  "equity_usd": 8940.37,
-  "realized_pnl_usd": -1111.1,
-  "unrealized_pnl_usd": 51.47,
+  "cash_balance_usd": 8981.31,
+  "equity_usd": 8985.18,
+  "realized_pnl_usd": -1018.69,
+  "unrealized_pnl_usd": 3.87,
   "peak_equity_usd": 10730.43,
   "realized_peak_equity_usd": 10633.98,
   "day_start_equity_usd": 8801.25,
@@ -12,10 +12,10 @@
   "realized_max_drawdown_pct": 17.204564988837657,
   "dd_halt_until_utc": "2026-11-27 04:00:29 UTC",
   "dd_recovery_mode": true,
-  "total_trades": 40,
-  "winning_trades": 16,
+  "total_trades": 41,
+  "winning_trades": 17,
   "losing_trades": 24,
-  "last_updated": "2026-11-28 13:41:35 UTC",
+  "last_updated": "2026-11-28 13:44:50 UTC",
   "open_positions": [
     {
       "id": "ORD-519337",
@@ -56,25 +56,6 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     },
     {
-      "id": "ORD-742812",
-      "symbol": "BTC/USDT",
-      "market": "CRYPTO",
-      "strategy": "regime_hybrid",
-      "side": "SHORT",
-      "entry_time": "2026-11-28 08:15:42 UTC",
-      "entry_price": 59674.0,
-      "current_price": 59162.96,
-      "size": 0.15437,
-      "notional_usd": 9212.15,
-      "stop_loss": 59368.425276844,
-      "take_profit": 59030.815928416,
-      "initial_risk_dist": 286.3096286336,
-      "unrealized_pnl_usd": 69.72,
-      "unrealized_pnl_pct": 0.76,
-      "reason": "Régimen Híbrido [Tendencia ADX=33.0] | Chimichurri Alpha SHORT (ADX=33.0, Vol=1.41x, RSI=40.1, Pullback Tendencia)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    },
-    {
       "id": "ORD-65527",
       "symbol": "DOGE/USDT",
       "market": "CRYPTO",
@@ -82,14 +63,14 @@
       "side": "SHORT",
       "entry_time": "2026-11-28 12:31:05 UTC",
       "entry_price": 0.05672,
-      "current_price": 0.05644,
+      "current_price": 0.05628,
       "size": 138128.82385,
       "notional_usd": 7834.67,
       "stop_loss": 0.05663492,
       "take_profit": 0.0558453544,
       "initial_risk_dist": 0.0003218582,
-      "unrealized_pnl_usd": 30.86,
-      "unrealized_pnl_pct": 0.39,
+      "unrealized_pnl_usd": 52.97,
+      "unrealized_pnl_pct": 0.68,
       "reason": "Régimen Híbrido [Tendencia ADX=32.0] | Chimichurri Alpha SHORT (ADX=32.0, Vol=0.27x, RSI=40.2, Pullback Tendencia)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
@@ -814,6 +795,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 44.13,
       "r_multiple": 0.29
+    },
+    {
+      "id": "ORD-742812",
+      "symbol": "BTC/USDT",
+      "market": "CRYPTO",
+      "strategy": "regime_hybrid",
+      "side": "SHORT",
+      "entry_time": "2026-11-28 08:15:42 UTC",
+      "exit_time": "2026-11-28 13:42:39 UTC",
+      "entry_price": 59674.0,
+      "exit_price": 59016.0,
+      "size": 0.15437,
+      "pnl_usd": 92.41,
+      "pnl_pct": 1.0,
+      "exit_reason": "Take Profit Alcanzado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 44.2,
+      "r_multiple": 2.091
     }
   ],
   "excluded_trades": []

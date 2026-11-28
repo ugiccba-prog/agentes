@@ -10282,3 +10282,8 @@
 [2026-11-28 13:40:30] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05663492
 [2026-11-28 13:40:30] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59548.6427270483
 [2026-11-28 13:40:30] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566624866
+[2026-11-28 13:42:39] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.4778290328
+[2026-11-28 13:42:42] [2. Híbrido ADX] ✅ CERRADA BTC/USDT (SHORT) a 59016.0 | PnL: $+92.41 USD (Take Profit Alcanzado)
+[2026-11-28 13:42:42] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59464.6327270483
+[2026-11-28 13:42:42] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566424866
+[2026-11-28 13:43:47] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59464.1727270483
