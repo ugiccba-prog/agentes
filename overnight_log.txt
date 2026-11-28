@@ -9642,3 +9642,4 @@
 [2026-11-28 02:31:18] [6. Resorte] 🛡️ [RiskManager] BNB/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
 [2026-11-28 02:31:19] [6. Resorte] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 80%) | Entrada: 0.05787000 | SL: 0.05823035 | TP: 0.05721412 | Tamaño: $12,743.42 USD (Riesgo controlado: $79.35) | OK riesgo 0.90% (dd 13.2%)
 [2026-11-28 02:31:21] 📊 Marcador 7 Opciones | 1. WF Base: $9,184.93 (1A/33C) | 2. Híbrido ADX: $8,744.71 (3A/38C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,120.47 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,793.54 (2A/35C) | 7. Escape: $11,505.89 (2A/41C)
+[2026-11-28 02:33:34] [7. Escape] ✅ CERRADA SOL/USDT (LONG) a 71.74 | PnL: $-158.72 USD (Stop Loss / Trailing Stop Ejecutado)
