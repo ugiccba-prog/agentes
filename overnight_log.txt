@@ -10277,3 +10277,8 @@
 [2026-11-28 13:37:14] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0567624866
 [2026-11-28 13:38:16] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.4928290328
 [2026-11-28 13:38:19] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0567324866
+[2026-11-28 13:40:27] 🔒 Stop (Trailing 1.5 ATR) en AVAX/USDT SHORT ajustado a 6.4868290328
+[2026-11-28 13:40:30] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59368.425276844
+[2026-11-28 13:40:30] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en DOGE/USDT SHORT ajustado a 0.05663492
+[2026-11-28 13:40:30] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59548.6427270483
+[2026-11-28 13:40:30] [7. Escape] 🔒 Stop (Trailing 1.5 ATR) en DOGE/USDT SHORT ajustado a 0.0566624866
