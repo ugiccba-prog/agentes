@@ -9884,3 +9884,14 @@
 [2026-11-28 06:45:52]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-28 06:45:53] 💓 Cierre de Vela | Equity: $9,143.22 USD (Efectivo: $9,224.42 | Flotante: $-81.20 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 33
 [2026-11-28 06:46:07] 📊 Marcador 7 Opciones | 1. WF Base: $9,143.22 (2A/33C) | 2. Híbrido ADX: $8,827.01 (2A/39C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,172.42 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,854.29 (1A/37C) | 7. Escape: $11,391.94 (3A/42C)
+[2026-11-28 07:00:23] ☁️ [GITHUB CLOUD] Cierre de vela #92 (7 Opciones) de la sesión #38...
+[2026-11-28 07:00:26]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 07:00:28]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 07:00:28]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-28 07:00:29]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-28 07:00:30] 💓 Cierre de Vela | Equity: $9,138.46 USD (Efectivo: $9,224.42 | Flotante: $-85.96 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 33
+[2026-11-28 07:00:33] [2. Híbrido ADX] BTC/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> BTC/USDT SHORT (Conv 98%) | Entrada: 59762.13000000 | SL: 59965.49408776 | TP: 59208.56978059 | Tamaño: $12,969.86 USD (Riesgo controlado: $44.14) | OK riesgo 0.50% (dd 17.0%)
+[2026-11-28 07:00:41] [3. Chimichurri] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 07:00:41] [4. Francotirador] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: ya hay posición abierta en este símbolo
+[2026-11-28 07:00:41] [5. Berserker] 🛡️ [RiskManager] BTC/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-28 07:00:44] 📊 Marcador 7 Opciones | 1. WF Base: $9,138.46 (2A/33C) | 2. Híbrido ADX: $8,814.04 (3A/39C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,192.64 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,864.83 (1A/37C) | 7. Escape: $11,385.64 (3A/42C)
