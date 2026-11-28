@@ -10114,3 +10114,4 @@
 [2026-11-28 10:46:07] 💓 Cierre de Vela | Equity: $9,221.78 USD (Efectivo: $9,224.42 | Flotante: $-2.64 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 33
 [2026-11-28 10:46:21] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59447.5791766967
 [2026-11-28 10:46:22] 📊 Marcador 7 Opciones | 1. WF Base: $9,221.78 (2A/33C) | 2. Híbrido ADX: $8,901.36 (3A/40C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,307.31 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,940.39 (0A/38C) | 7. Escape: $11,517.40 (2A/43C)
+[2026-11-28 10:50:42] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59426.895276844
