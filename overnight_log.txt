@@ -9603,3 +9603,11 @@
 [2026-11-28 02:00:34]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-28 02:00:34] 💓 Cierre de Vela | Equity: $9,184.93 USD (Efectivo: $9,224.42 | Flotante: $-39.49 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 33
 [2026-11-28 02:00:50] 📊 Marcador 7 Opciones | 1. WF Base: $9,184.93 (1A/33C) | 2. Híbrido ADX: $8,755.34 (2A/38C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,100.92 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,786.53 (1A/35C) | 7. Escape: $11,616.62 (1A/41C)
+[2026-11-28 02:15:45] ☁️ [GITHUB CLOUD] Cierre de vela #53 (7 Opciones) de la sesión #37...
+[2026-11-28 02:15:47]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 02:15:52]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 02:15:53]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-28 02:15:54]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-28 02:15:54] 💓 Cierre de Vela | Equity: $9,184.93 USD (Efectivo: $9,224.42 | Flotante: $-39.49 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 33
+[2026-11-28 02:16:11] [7. Escape] SOL/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> SOL/USDT LONG (Conv 90%) | Entrada: 72.23000000 | SL: 71.81910599 | TP: 73.30391718 | Tamaño: $20,400.14 USD (Riesgo controlado: $116.05) | OK riesgo 1.00% (dd 7.8%)
+[2026-11-28 02:16:11] 📊 Marcador 7 Opciones | 1. WF Base: $9,184.93 (1A/33C) | 2. Híbrido ADX: $8,755.34 (2A/38C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,093.96 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,779.16 (1A/35C) | 7. Escape: $11,596.22 (2A/41C)
