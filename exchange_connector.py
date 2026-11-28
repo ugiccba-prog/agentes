@@ -21,6 +21,7 @@ from urllib.parse import urlencode
 
 from market_data import _http_get, get_historical_data, get_market_type
 from risk_manager import RiskConfig, RiskManager
+import pandas as pd
 import requests
 
 PORTFOLIO_FILE = Path(__file__).parent / "live_portfolio.json"
@@ -61,6 +62,7 @@ class OpenPosition:
     unrealized_pnl_pct: float
     reason: str
     broker_mode: str
+    stop_since_utc: str = ""  # desde cuándo rigen el SL/TP actuales (entrada o último ajuste del stop)
 
 
 @dataclass
@@ -81,6 +83,92 @@ class ClosedLiveTrade:
     broker_mode: str
     risk_usd: float = 0.0      # riesgo inicial en USD (distancia SL inicial * tamaño)
     r_multiple: float = 0.0    # resultado en múltiplos de R: la métrica honesta para comparar estrategias
+
+
+PATH_MINUTES = 240  # velas de 1m que se miran hacia atrás para detectar toques de SL/TP entre pulsos
+STOP_SLIPPAGE_PCT = {"crypto": 0.01, "forex": 0.002}  # slippage adverso de una orden stop (% del precio)
+_TS_FMT = "%Y-%m-%d %H:%M:%S UTC"
+
+
+def _parse_ts(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.strptime(value, _TS_FMT).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+def resolve_resting_exit(
+    side: str,
+    stop_loss: float,
+    take_profit: float,
+    bars,
+    since: datetime,
+    slippage_pct: float = 0.0,
+) -> tuple[float, str] | None:
+    """
+    Simula SL y TP como órdenes en reposo sobre velas de 1 minuto que abrieron desde `since`
+    (el momento desde el que rigen los niveles actuales: la entrada o el último ajuste del stop).
+
+    - Solo cuentan velas que empezaron en o después de `since`: las anteriores incluyen precio
+      previo a la entrada o comparado contra otro stop, y no pueden disparar nada.
+    - Revisar de nuevo velas ya vistas con el mismo stop es idempotente (si lo hubieran tocado, la
+      posición ya estaría cerrada), así que no quedan huecos entre pulsos.
+    - Stop primero si stop y objetivo caen en la misma vela (conservador, igual que research/simulator.py).
+    - Gap adverso (la vela abre más allá del stop): fill a la apertura.
+    - Toque intravela del stop: fill al precio del stop con slippage adverso.
+    - Take profit: fill exacto al TP (orden límite), nunca mejor.
+    Devuelve (precio, motivo) o None si no se tocó nada.
+    """
+    if bars is None or len(bars) == 0:
+        return None
+    try:
+        ts = pd.to_datetime(bars["timestamp"], utc=True)
+        opens = bars["open"].to_numpy(float)
+        highs = bars["high"].to_numpy(float)
+        lows = bars["low"].to_numpy(float)
+    except (KeyError, TypeError, ValueError):
+        return None
+    since_ts = pd.Timestamp(since)
+    if since_ts.tzinfo is None:
+        since_ts = since_ts.tz_localize("UTC")
+    long = side.upper().startswith("LONG")
+    slip = max(0.0, float(slippage_pct)) / 100.0
+    for t, o, h, lo in zip(ts, opens, highs, lows):
+        if t < since_ts or not (math.isfinite(o) and math.isfinite(h) and math.isfinite(lo)):
+            continue
+        if long:
+            if o <= stop_loss:
+                return o, "Stop Loss / Trailing Stop Ejecutado (gap a la apertura)"
+            if lo <= stop_loss:
+                return stop_loss * (1.0 - slip), "Stop Loss / Trailing Stop Ejecutado (intravela 1m)"
+            if h >= take_profit:
+                return take_profit, "Take Profit Alcanzado"
+        else:
+            if o >= stop_loss:
+                return o, "Stop Loss / Trailing Stop Ejecutado (gap a la apertura)"
+            if h >= stop_loss:
+                return stop_loss * (1.0 + slip), "Stop Loss / Trailing Stop Ejecutado (intravela 1m)"
+            if lo <= take_profit:
+                return take_profit, "Take Profit Alcanzado"
+    return None
+
+
+def shared_path_provider(fetch, ttl_seconds: float = 30.0):
+    """Comparte el recorrido de 1m entre las 7 opciones: una sola descarga por mercado cada `ttl_seconds`."""
+    cache: dict[tuple[str, int], object] = {}
+
+    def provider(symbol: str):
+        bucket = int(time.time() // ttl_seconds)
+        key = (symbol, bucket)
+        if key not in cache:
+            for old in [k for k in cache if k[1] != bucket]:
+                del cache[old]
+            cache[key] = fetch(symbol)
+        return cache[key]
+
+    return provider
 
 
 def _risk_and_r(pos: dict, net_pnl: float) -> tuple[float, float]:
@@ -344,6 +432,14 @@ class LiveExecutionBroker:
         price = float(df["close"].iloc[-1])
         return price if math.isfinite(price) and price > 0 else None
 
+    def get_price_path(self, symbol: str):
+        """Velas de 1 minuto recientes (incluye la vela en curso) para simular SL/TP en reposo."""
+        try:
+            df, _ = get_historical_data(symbol, interval="1m", limit=PATH_MINUTES, use_cache=False, live_only=True)
+        except Exception:
+            return None
+        return None if df is None or df.empty else df
+
     def update_open_positions(self, atr_by_symbol: dict[str, float] | None = None) -> list[str]:
         """
         Actualiza el precio en vivo de cada posición abierta, verifica si se alcanzó
@@ -369,30 +465,49 @@ class LiveExecutionBroker:
             sl = float(pos["stop_loss"])
             tp = float(pos["take_profit"])
             init_risk = float(pos.get("initial_risk_dist", abs(entry - sl)))
-
-            raw_pnl = (live_price - entry) * size * side_mult
             market = pos["market"].lower()
             fee_rate = 0.0005 if market == "crypto" else 0.0001
-            fees = (entry * size + live_price * size) * fee_rate
-            net_pnl = raw_pnl - fees
             notional = entry * size
+
+            # 1) SL/TP como órdenes en reposo: revisar el recorrido de 1m desde que rige el stop actual.
+            #    Atrapa mechas entre pulsos y llena al nivel de la orden (no al precio que se vio tarde).
+            closed_reason = ""
+            exit_price = live_price
+            since = _parse_ts(pos.get("stop_since_utc"))
+            if since is None:
+                # Posición de una versión anterior: se empieza a seguir desde ahora, sin cierres
+                # retroactivos por mechas viejas.
+                pos["stop_since_utc"] = now_str
+            else:
+                hit = resolve_resting_exit(
+                    pos["side"], sl, tp, self.get_price_path(sym), since,
+                    slippage_pct=STOP_SLIPPAGE_PCT.get(market, 0.0),
+                )
+                if hit is not None:
+                    exit_price, closed_reason = hit
+            # 2) Respaldo sin recorrido: stop al precio visto (conservador); TP nunca mejor que el TP.
+            if not closed_reason:
+                if pos["side"] == "LONG":
+                    if live_price <= sl:
+                        closed_reason = "Stop Loss / Trailing Stop Ejecutado"
+                    elif live_price >= tp:
+                        closed_reason, exit_price = "Take Profit Alcanzado", tp
+                else:  # SHORT
+                    if live_price >= sl:
+                        closed_reason = "Stop Loss / Trailing Stop Ejecutado"
+                    elif live_price <= tp:
+                        closed_reason, exit_price = "Take Profit Alcanzado", tp
+
+            mark = exit_price if closed_reason else live_price
+            raw_pnl = (mark - entry) * size * side_mult
+            fees = (entry * size + mark * size) * fee_rate
+            net_pnl = raw_pnl - fees
             pnl_pct = (net_pnl / notional * 100.0) if notional > 0 else 0.0
 
             pos["unrealized_pnl_usd"] = round(net_pnl, 2)
             pos["unrealized_pnl_pct"] = round(pnl_pct, 2)
 
-            closed_reason = ""
             atr_val = (atr_by_symbol or {}).get(sym, init_risk / 1.6)
-            if pos["side"] == "LONG":
-                if live_price <= sl:
-                    closed_reason = "Stop Loss / Trailing Stop Ejecutado"
-                elif live_price >= tp:
-                    closed_reason = "Take Profit Alcanzado"
-            else:  # SHORT
-                if live_price >= sl:
-                    closed_reason = "Stop Loss / Trailing Stop Ejecutado"
-                elif live_price <= tp:
-                    closed_reason = "Take Profit Alcanzado"
 
             if not closed_reason and init_risk > 0:
                 cfg_rm = self.risk_config or RiskConfig.from_adaptive_config()
@@ -412,6 +527,7 @@ class LiveExecutionBroker:
                 improved = (managed_sl > sl) if pos["side"] == "LONG" else (managed_sl < sl)
                 if improved:
                     pos["stop_loss"] = round(managed_sl, 10)
+                    pos["stop_since_utc"] = now_str  # el stop nuevo solo responde por velas futuras
                     be_ref = (
                         entry * (1.0 + be_buf / 100.0)
                         if pos["side"] == "LONG"
@@ -442,7 +558,7 @@ class LiveExecutionBroker:
                     entry_time=pos["entry_time"],
                     exit_time=now_str,
                     entry_price=entry,
-                    exit_price=live_price,
+                    exit_price=round(exit_price, 10),
                     size=size,
                     pnl_usd=round(net_pnl, 2),
                     pnl_pct=round(pnl_pct, 2),
@@ -453,7 +569,7 @@ class LiveExecutionBroker:
                 )
                 self.state.closed_trades.append(asdict(closed_record))
                 events.append(
-                    f"✅ CERRADA {sym} ({pos['side']}) a {live_price} | PnL: ${net_pnl:+.2f} USD ({closed_reason})"
+                    f"✅ CERRADA {sym} ({pos['side']}) a {exit_price:.10g} | PnL: ${net_pnl:+.2f} USD ({closed_reason})"
                 )
             else:
                 unrealized_total += net_pnl
@@ -554,6 +670,7 @@ class LiveExecutionBroker:
             unrealized_pnl_pct=0.0,
             reason=reason,
             broker_mode=broker_mode,
+            stop_since_utc=now_str,
         )
         self.state.open_positions.append(asdict(new_pos))
         self.save()
@@ -611,6 +728,7 @@ class LiveExecutionBroker:
                 pos["size"] = new_size
                 pos["notional_usd"] = round(new_size * live_price, 2)
                 pos["pyramid_count"] = 1
+                pos["stop_since_utc"] = datetime.now(tz=timezone.utc).strftime(_TS_FMT)
                 if side == "LONG":
                     pos["stop_loss"] = max(sl, round(new_entry + 0.05 * init_risk, 10))
                     pos["take_profit"] = max(float(pos["take_profit"]), round(live_price + 3.2 * atr_val, 10))

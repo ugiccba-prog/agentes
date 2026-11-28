@@ -27,6 +27,8 @@ from datetime import datetime, timezone
 import json
 from pathlib import Path
 
+import numpy as np
+
 ADAPTIVE_CONFIG_FILE = Path(__file__).with_name("adaptive_config.json")
 
 
@@ -67,6 +69,15 @@ class RiskConfig:
     be_buffer_pct_forex: float = 0.03 # colchón Forex/Oro sobre entry (cubre 0.02% fee + spread)
     trail_trigger_r: float = 1.5      # activar trailing stop desde +1.5R
     max_cluster_risk_pct: float = 3.5  # riesgo máx. en un mismo bloque correlacionado (p.ej. cripto corta)
+    # Costos ida y vuelta que cobra el broker paper (comisión x2 + slippage del stop), en % del precio.
+    round_trip_cost_pct: float = 0.11        # Cripto: 0.05% + 0.05% + 0.01% slippage
+    round_trip_cost_pct_forex: float = 0.022  # Forex/Oro: 0.01% + 0.01% + 0.002% slippage
+    max_cost_r: float = 0.35          # rechazar si los costos se comen más de 0.35R del riesgo
+    max_tick_frac_of_stop: float = 0.10  # rechazar si un solo tick de precio es >= 10% del stop
+
+    def effective_round_trip_cost_pct(self, symbol: str) -> float:
+        """Costo ida y vuelta estimado (%) según mercado (Cripto vs Forex/Oro)."""
+        return self.round_trip_cost_pct if _is_crypto_symbol(symbol) else self.round_trip_cost_pct_forex
 
     def effective_min_sl_pct(self, symbol: str) -> float:
         """Stop loss mínimo (%) según mercado (Cripto vs Forex/Oro)."""
@@ -133,6 +144,24 @@ class RiskConfig:
         return cls(**kwargs)
 
 
+def estimate_price_tick(prices) -> float | None:
+    """
+    Estima el tick mínimo de precio a partir de cotizaciones reales (menor salto positivo entre
+    precios distintos). Si los datos traen ruido de punto flotante el tick sale más chico, nunca
+    más grande, así que el filtro de granularidad solo puede fallar hacia el lado permisivo.
+    """
+    try:
+        arr = np.asarray(prices, dtype=float).ravel()
+    except (TypeError, ValueError):
+        return None
+    arr = np.unique(arr[np.isfinite(arr) & (arr > 0)])
+    if arr.size < 3:
+        return None
+    diffs = np.diff(arr)
+    diffs = diffs[diffs > 0]
+    return float(diffs.min()) if diffs.size else None
+
+
 def currency_exposure(symbol: str, side: str) -> dict[str, int]:
     """LONG EUR/USD = +EUR, -USD. Cripto /USDT se agrupa como CRYPTO."""
     sign = 1 if side.upper().startswith("LONG") else -1
@@ -192,6 +221,7 @@ class RiskManager:
         dd_halt_until_utc: str = "",
         dd_recovery_mode: bool = False,
         now_utc: datetime | None = None,
+        price_tick: float | None = None,
     ) -> tuple[bool, float, str]:
         c = self.cfg
 
@@ -232,6 +262,20 @@ class RiskManager:
             return False, 0.0, f"SL {sl_pct:.3f}% demasiado corto (< {min_sl:.3f}%, spread se lo come)"
         if sl_dist <= 0 or tp_dist / sl_dist < c.min_rr:
             return False, 0.0, f"R:R {tp_dist / sl_dist if sl_dist else 0:.2f} < {c.min_rr}"
+
+        # Costos en múltiplos de R: con stops cortos la comisión sola puede comerse media operación.
+        cost_r = (c.effective_round_trip_cost_pct(symbol) / 100.0) * entry / sl_dist
+        if cost_r > c.max_cost_r:
+            return False, 0.0, f"costos {cost_r:.2f}R > {c.max_cost_r:.2f}R del riesgo (stop demasiado corto para las comisiones)"
+
+        # Granularidad: si un tick es una fracción grande del stop, las señales y el stop son ruido de redondeo.
+        if price_tick is not None and price_tick > 0:
+            tick_frac = price_tick / sl_dist
+            if tick_frac >= c.max_tick_frac_of_stop:
+                return False, 0.0, (
+                    f"precio demasiado granular: 1 tick = {tick_frac * 100:.0f}% del stop "
+                    f"(máx {c.max_tick_frac_of_stop * 100:.0f}%)"
+                )
 
         # exposición neta por moneda / cripto
         net: dict[str, int] = {}
