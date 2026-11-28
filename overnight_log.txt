@@ -10154,3 +10154,12 @@
 [2026-11-28 11:20:16]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-28 11:20:17]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-28 11:20:17] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-28 11:31:06] ☁️ [GITHUB CLOUD] Cierre de vela #119 (7 Opciones) de la sesión #39...
+[2026-11-28 11:31:08]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 11:31:11]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 11:31:12]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-28 11:31:12]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-28 11:31:13] 💓 Cierre de Vela | Equity: $9,245.59 USD (Efectivo: $9,224.42 | Flotante: $+21.17 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 33
+[2026-11-28 11:31:29] 📊 Marcador 7 Opciones | 1. WF Base: $9,245.59 (2A/33C) | 2. Híbrido ADX: $8,902.24 (3A/40C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,308.51 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,940.39 (0A/38C) | 7. Escape: $11,457.57 (2A/43C)
+[2026-11-28 11:32:33] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59372.735276844
+[2026-11-28 11:32:33] [4. Francotirador] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59552.9527270483
