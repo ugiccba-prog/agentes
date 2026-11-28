@@ -10204,3 +10204,14 @@
 [2026-11-28 12:21:01]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-28 12:21:02]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-28 12:21:02] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-28 12:30:46] ☁️ [GITHUB CLOUD] Cierre de vela #172 (7 Opciones) de la sesión #39...
+[2026-11-28 12:30:49]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 12:30:51]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 12:30:52]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-28 12:30:52]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-28 12:30:54] 💓 Cierre de Vela | Equity: $9,197.98 USD (Efectivo: $9,224.42 | Flotante: $-26.44 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 33
+[2026-11-28 12:31:05] [2. Híbrido ADX] DOGE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> DOGE/USDT SHORT (Conv 97%) | Entrada: 0.05672000 | SL: 0.05704186 | TP: 0.05584535 | Tamaño: $7,834.67 USD (Riesgo controlado: $44.46) | OK riesgo 0.50% (dd 16.4%)
+[2026-11-28 12:31:09] [3. Chimichurri] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 12:31:09] [4. Francotirador] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 12:31:09] [5. Berserker] 🛡️ [RiskManager] DOGE/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-28 12:31:09] 📊 Marcador 7 Opciones | 1. WF Base: $9,197.98 (2A/33C) | 2. Híbrido ADX: $8,879.39 (4A/40C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,288.11 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,940.39 (0A/38C) | 7. Escape: $11,460.72 (2A/43C)
