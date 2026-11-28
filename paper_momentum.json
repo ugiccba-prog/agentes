@@ -1,9 +1,9 @@
 {
   "initial_balance_usd": 10000.0,
-  "cash_balance_usd": 8876.12,
-  "equity_usd": 8864.68,
-  "realized_pnl_usd": -1123.88,
-  "unrealized_pnl_usd": -11.44,
+  "cash_balance_usd": 8888.9,
+  "equity_usd": 8839.79,
+  "realized_pnl_usd": -1111.1,
+  "unrealized_pnl_usd": -49.11,
   "peak_equity_usd": 10730.43,
   "realized_peak_equity_usd": 10633.98,
   "day_start_equity_usd": 8801.25,
@@ -12,10 +12,10 @@
   "realized_max_drawdown_pct": 17.204564988837657,
   "dd_halt_until_utc": "2026-11-27 04:00:29 UTC",
   "dd_recovery_mode": true,
-  "total_trades": 39,
-  "winning_trades": 15,
+  "total_trades": 40,
+  "winning_trades": 16,
   "losing_trades": 24,
-  "last_updated": "2026-11-28 07:11:42 UTC",
+  "last_updated": "2026-11-28 07:14:57 UTC",
   "open_positions": [
     {
       "id": "ORD-519337",
@@ -53,25 +53,6 @@
       "unrealized_pnl_usd": -22.45,
       "unrealized_pnl_pct": -0.04,
       "reason": "Régimen Híbrido [Tendencia ADX=26.9] | Chimichurri Alpha SHORT (ADX=26.9, Vol=1.00x, RSI=34.6, Ruptura Donchian)",
-      "broker_mode": "Paper Trading En Vivo (Datos Reales)"
-    },
-    {
-      "id": "ORD-233142",
-      "symbol": "BTC/USDT",
-      "market": "CRYPTO",
-      "strategy": "regime_hybrid",
-      "side": "SHORT",
-      "entry_time": "2026-11-28 07:00:33 UTC",
-      "entry_price": 59762.13,
-      "current_price": 59528.92,
-      "size": 0.21702,
-      "notional_usd": 12969.86,
-      "stop_loss": 59600.7838322785,
-      "take_profit": 59208.5697805907,
-      "initial_risk_dist": 203.3640877637,
-      "unrealized_pnl_usd": 37.67,
-      "unrealized_pnl_pct": 0.29,
-      "reason": "Régimen Híbrido [Tendencia ADX=24.1] | Chimichurri Alpha SHORT (ADX=24.1, Vol=1.47x, RSI=40.1, Pullback Tendencia)",
       "broker_mode": "Paper Trading En Vivo (Datos Reales)"
     }
   ],
@@ -777,6 +758,24 @@
       "broker_mode": "Paper Trading En Vivo (Datos Reales)",
       "risk_usd": 43.78,
       "r_multiple": 1.637
+    },
+    {
+      "id": "ORD-233142",
+      "symbol": "BTC/USDT",
+      "market": "CRYPTO",
+      "strategy": "regime_hybrid",
+      "side": "SHORT",
+      "entry_time": "2026-11-28 07:00:33 UTC",
+      "exit_time": "2026-11-28 07:12:48 UTC",
+      "entry_price": 59762.13,
+      "exit_price": 59643.55,
+      "size": 0.21702,
+      "pnl_usd": 12.78,
+      "pnl_pct": 0.1,
+      "exit_reason": "Stop Loss / Trailing Stop Ejecutado",
+      "broker_mode": "Paper Trading En Vivo (Datos Reales)",
+      "risk_usd": 44.13,
+      "r_multiple": 0.29
     }
   ],
   "excluded_trades": []

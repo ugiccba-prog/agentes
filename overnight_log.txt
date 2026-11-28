@@ -9898,3 +9898,5 @@
 [2026-11-28 07:06:14] [6. Resorte] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 552.5487197571
 [2026-11-28 07:08:25] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BTC/USDT SHORT ajustado a 59600.7838322785
 [2026-11-28 07:08:26] [6. Resorte] ✅ CERRADA BNB/USDT (SHORT) a 549.53 | PnL: $+137.04 USD (Take Profit Alcanzado)
+[2026-11-28 07:12:49] [2. Híbrido ADX] ✅ CERRADA BTC/USDT (SHORT) a 59643.55 | PnL: $+12.78 USD (Stop Loss / Trailing Stop Ejecutado)
+[2026-11-28 07:12:51] [7. Escape] ✅ CERRADA PEPE/USDT (SHORT) a 3.5e-06 | PnL: $-70.55 USD (Stop Loss / Trailing Stop Ejecutado)
