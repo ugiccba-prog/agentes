@@ -9990,3 +9990,14 @@
 [2026-11-28 08:30:20]    GBP/USD | Esperando señal de chimichurri_alpha
 [2026-11-28 08:30:21] 💓 Cierre de Vela | Equity: $9,164.65 USD (Efectivo: $9,224.42 | Flotante: $-59.77 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 33
 [2026-11-28 08:30:34] 📊 Marcador 7 Opciones | 1. WF Base: $9,164.65 (2A/33C) | 2. Híbrido ADX: $8,828.65 (3A/40C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,208.51 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,940.39 (0A/38C) | 7. Escape: $11,410.34 (2A/43C)
+[2026-11-28 08:45:34] ☁️ [GITHUB CLOUD] Cierre de vela #187 (7 Opciones) de la sesión #38...
+[2026-11-28 08:45:36]    🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO: pausa defensiva por drawdown 14.7% (hasta 2026-11-29 08:15:35 UTC)
+[2026-11-28 08:45:38]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 08:45:39]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-28 08:45:39]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-28 08:45:40] 💓 Cierre de Vela | Equity: $9,217.02 USD (Efectivo: $9,224.42 | Flotante: $-7.40 | Peak: $10,892.88) | Abiertas: 2 | Cerradas: 33
+[2026-11-28 08:45:48] [2. Híbrido ADX] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 08:45:51] [3. Chimichurri] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 08:45:52] [4. Francotirador] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: poco margen de apalancamiento restante
+[2026-11-28 08:45:52] [5. Berserker] 🛡️ [RiskManager] SUI/USDT SHORT bloqueado: FRENO EMERGENCIA: drawdown 21.4% desde pico realizado
+[2026-11-28 08:45:53] 📊 Marcador 7 Opciones | 1. WF Base: $9,217.02 (2A/33C) | 2. Híbrido ADX: $8,840.39 (3A/40C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,224.46 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,940.39 (0A/38C) | 7. Escape: $11,470.17 (2A/43C)
