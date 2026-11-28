@@ -15,7 +15,7 @@
   "total_trades": 38,
   "winning_trades": 14,
   "losing_trades": 24,
-  "last_updated": "2026-11-28 05:09:34 UTC",
+  "last_updated": "2026-11-28 05:12:46 UTC",
   "open_positions": [
     {
       "id": "ORD-519337",
@@ -66,7 +66,7 @@
       "current_price": 552.62,
       "size": 19.12914,
       "notional_usd": 10630.25,
-      "stop_loss": 554.876435,
+      "stop_loss": 554.1954526621,
       "take_profit": 551.4587929011,
       "initial_risk_dist": 2.2884828396,
       "unrealized_pnl_usd": 48.51,

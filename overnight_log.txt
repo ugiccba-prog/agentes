@@ -9760,3 +9760,5 @@
 [2026-11-28 05:00:48] 💓 Cierre de Vela | Equity: $9,184.93 USD (Efectivo: $9,224.42 | Flotante: $-39.49 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 33
 [2026-11-28 05:01:04] 📊 Marcador 7 Opciones | 1. WF Base: $9,184.93 (1A/33C) | 2. Híbrido ADX: $8,772.47 (3A/38C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,150.69 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,815.86 (1A/37C) | 7. Escape: $11,457.90 (1A/42C)
 [2026-11-28 05:08:30] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 554.876435
+[2026-11-28 05:10:39] [2. Híbrido ADX] 🔒 Stop (Trailing 1.5 ATR) en BNB/USDT SHORT ajustado a 554.1954526621
+[2026-11-28 05:10:40] [6. Resorte] 🔒 Stop (Breakeven+) en BNB/USDT SHORT ajustado a 554.457065
