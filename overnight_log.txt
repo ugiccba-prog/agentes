@@ -9701,3 +9701,10 @@
 [2026-11-28 03:45:35] [6. Resorte] 🛡️ [RiskManager] DOGE/USDT LONG bloqueado: ya hay posición abierta en este símbolo
 [2026-11-28 03:45:36] [6. Resorte] PEPE/USDT | 🚀 ORDEN ABIERTA [Paper Trading En Vivo (Datos Reales)] -> PEPE/USDT LONG (Conv 75%) | Entrada: 0.00000351 | SL: 0.00000348 | TP: 0.00000362 | Tamaño: $8,128.90 USD (Riesgo controlado: $75.40) | OK riesgo 0.85% (dd 12.5%)
 [2026-11-28 03:45:37] 📊 Marcador 7 Opciones | 1. WF Base: $9,184.93 (1A/33C) | 2. Híbrido ADX: $8,762.13 (3A/38C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,150.21 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,871.06 (3A/35C) | 7. Escape: $11,457.90 (1A/42C)
+[2026-11-28 04:01:08] ☁️ [GITHUB CLOUD] Cierre de vela #146 (7 Opciones) de la sesión #37...
+[2026-11-28 04:01:10]    SUI/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 04:01:13]    AVAX/USDT | Esperando señal de chimichurri_alpha
+[2026-11-28 04:01:13]    GBP/JPY | Esperando señal de bollinger_reversion
+[2026-11-28 04:01:14]    GBP/USD | Esperando señal de chimichurri_alpha
+[2026-11-28 04:01:14] 💓 Cierre de Vela | Equity: $9,184.93 USD (Efectivo: $9,224.42 | Flotante: $-39.49 | Peak: $10,892.88) | Abiertas: 1 | Cerradas: 33
+[2026-11-28 04:01:32] 📊 Marcador 7 Opciones | 1. WF Base: $9,184.93 (1A/33C) | 2. Híbrido ADX: $8,741.84 (3A/38C) | 3. Chimichurri: $11,394.42 (2A/48C) | 4. Francotirador: $10,126.57 (2A/27C) | 5. Berserker: $8,680.36 (0A/40C) | 6. Resorte: $8,872.93 (3A/35C) | 7. Escape: $11,457.90 (1A/42C)
