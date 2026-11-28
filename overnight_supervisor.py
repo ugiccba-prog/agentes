@@ -19,10 +19,10 @@ import time
 import traceback
 
 from candle_clock import NewCandleGate, closed_only
-from exchange_connector import LiveExecutionBroker, PORTFOLIO_FILE
+from exchange_connector import LiveExecutionBroker, PORTFOLIO_FILE, shared_path_provider
 from indicators import compute_indicators
 from market_data import DEFAULT_SYMBOLS, get_historical_data
-from risk_manager import RiskConfig, RiskManager
+from risk_manager import RiskConfig, RiskManager, estimate_price_tick
 from strategies import evaluate_latest_candle, generate_signals
 from walk_forward import get_validated_params
 
@@ -548,6 +548,7 @@ def run_trading_tick(
                     realized_peak_equity=st.realized_peak_equity_usd,
                     dd_halt_until_utc=st.dd_halt_until_utc,
                     dd_recovery_mode=st.dd_recovery_mode,
+                    price_tick=estimate_price_tick(df_closed[["open", "high", "low", "close"]].to_numpy()),
                 )
                 if not ok_rm:
                     if reason_rm.startswith("FRENO_COOLDOWN"):
@@ -593,6 +594,7 @@ def build_option_runners(
     root = base_dir or Path(__file__).parent
     runners: list[tuple[dict, LiveExecutionBroker, RiskManager]] = []
     quote_fn = shared_quote
+    path_fn = None
     for spec in OPTION_SPECS:
         broker = LiveExecutionBroker(
             initial_balance_usd=10000.0,
@@ -602,7 +604,10 @@ def build_option_runners(
         )
         if quote_fn is None:
             quote_fn = lru_cache(maxsize=None)(broker.get_live_price)
+        if path_fn is None:
+            path_fn = shared_path_provider(broker.get_price_path)
         broker.get_live_price = quote_fn
+        broker.get_price_path = path_fn
         rm = RiskManager(spec["risk_cfg"])
         runners.append((spec, broker, rm))
     return runners, quote_fn
@@ -671,8 +676,10 @@ def run_all_options_tick(
             macro=cached_macro,
             report=opt_report,
         )
-        if not atr_map and tick_atr:
-            atr_map = tick_atr
+        # El ATR depende solo del mercado: juntar el de todas las opciones. Antes se usaba solo el mapa
+        # de la primera opción con datos (la Base, que salta los mercados sin WF), y el trailing de las
+        # demás opciones en esos mercados caía a un ATR estimado viejo entre cierres de vela.
+        atr_map.update(tick_atr or {})
 
     if runners:
         sync_base_to_live_portfolio(runners[0][1])

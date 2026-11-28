@@ -131,6 +131,7 @@ def fetch_yahoo_chart(symbol: str, interval: str = "1h", limit: int = 1000) -> p
     """Descarga datos OHLCV reales desde la API pública v8 de Yahoo Finance (ideal para Forex y Cripto)."""
     yahoo_sym = DEFAULT_SYMBOLS.get(symbol, {}).get("yahoo", symbol)
     interval_map = {
+        "1m": ("1m", "1d"),  # recorrido intravela para simular stops/TP en reposo
         "15m": ("15m", "60d"),
         "1h": ("1h", "180d"),
         "4h": ("1h", "365d"),  # Se re-muestrea a 4h si es necesario

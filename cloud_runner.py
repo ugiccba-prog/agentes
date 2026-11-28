@@ -15,6 +15,7 @@ from market_data import get_historical_data
 from overnight_supervisor import _get_macro_bias_1h
 import argparse
 from datetime import datetime, timezone
+import math
 from pathlib import Path
 import subprocess
 import time
@@ -42,6 +43,58 @@ def _compute_real_stats(closed_trades: list[dict]) -> dict[str, float]:
     gross_loss = abs(sum(float(t.get("pnl_usd", 0.0)) for t in closed_trades if float(t.get("pnl_usd", 0.0)) <= 0))
     pf = (gross_win / gross_loss) if gross_loss > 0 else (99.0 if gross_win > 0 else 0.0)
     return {"gross_win": gross_win, "gross_loss": gross_loss, "pf": pf}
+
+
+def _r_stats(closed_trades: list[dict]) -> dict:
+    """
+    Lectura estadística en múltiplos de R: bruto, costos pagados, neto y expectativa con IC 90%
+    (aprox. normal). Sirve para no confundir una racha con una ventaja: con 30-50 operaciones
+    el intervalo suele incluir el cero.
+    """
+    net_rs: list[float] = []
+    cost_r = 0.0
+    for t in closed_trades:
+        risk_usd = float(t.get("risk_usd", 0.0) or 0.0)
+        if risk_usd <= 0:
+            continue
+        fee_rate = 0.0005 if str(t.get("market", "")).lower() == "crypto" else 0.0001
+        size = float(t.get("size", 0.0))
+        fees = (float(t.get("entry_price", 0.0)) + float(t.get("exit_price", 0.0))) * size * fee_rate
+        cost_r += fees / risk_usd
+        net_rs.append(float(t.get("r_multiple", 0.0)))
+    n = len(net_rs)
+    net = sum(net_rs)
+    out = {"n": n, "net_r": net, "cost_r": cost_r, "gross_r": net + cost_r,
+           "exp_r": (net / n) if n else 0.0, "lo": None, "hi": None}
+    if n >= 2:
+        mean = out["exp_r"]
+        var = sum((r - mean) ** 2 for r in net_rs) / (n - 1)
+        half = 1.645 * math.sqrt(var / n)
+        out["lo"], out["hi"] = mean - half, mean + half
+    if out["lo"] is None or n < 15:
+        out["verdict"] = "⏳ Muestra chica"
+    elif out["lo"] > 0:
+        out["verdict"] = "✅ Ventaja positiva"
+    elif out["hi"] < 0:
+        out["verdict"] = "❌ Pierde de verdad"
+    else:
+        out["verdict"] = "⚪ No se distingue de cero"
+    return out
+
+
+def _format_stats_table(runners) -> str:
+    rows = []
+    for spec, b in runners:
+        s = _r_stats(b.state.closed_trades)
+        ic = f"[{s['lo']:+.2f}, {s['hi']:+.2f}]" if s["lo"] is not None else "-"
+        rows.append(
+            f"| **{spec['short_name']}** | `{s['n']}` | `{s['gross_r']:+.1f}R` | `-{s['cost_r']:.1f}R` | "
+            f"**`{s['net_r']:+.1f}R`** | `{s['exp_r']:+.3f}R` | `{ic}` | {s['verdict']} |"
+        )
+    return (
+        "| Opción | Trades | Bruto | Costos pagados | Neto | Expectativa por trade | IC 90% | Lectura |\n"
+        "|---|---|---|---|---|---|---|---|\n" + "\n".join(rows)
+    )
 
 
 def _normalize_runners(target) -> list[tuple[dict, LiveExecutionBroker]]:
@@ -102,6 +155,7 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
         "|---|---|---|---|---|---|---|---|\n"
         + "\n".join(comp_rows)
     )
+    stats_table = _format_stats_table(runners)
 
     enabled_syms = [sym for sym, sc in cfg.get("symbols", {}).items() if sc.get("enabled")]
     matrix_header = "| Mercado Activo | " + " | ".join(spec["short_name"] for spec, _ in runners) + " |"
@@ -180,6 +234,14 @@ def update_live_readme(runners_or_broker, cfg: dict) -> None:
 ## 🏆 Comparativa en Vivo: 7 Opciones Corriendo sobre los Mismos Mercados ($10,000 USD c/u)
 
 {comp_table}
+
+---
+
+## 📐 Lectura Estadística (en múltiplos de R, después de costos)
+
+{stats_table}
+
+> **Cómo leerla:** *Bruto* es lo que ganaron las señales; *Costos* son las comisiones pagadas medidas en R. Si el IC 90% incluye el cero, la diferencia todavía puede ser suerte: hacen falta más operaciones antes de elegir una opción. Las 7 opciones comparten mercados y muchas señales, así que no son 7 pruebas independientes.
 
 ---
 
