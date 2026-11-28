@@ -10095,3 +10095,4 @@
 [2026-11-28 10:19:33]    🔎 [USD/JPY] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-28 10:19:34]    🔎 [AUD/USD] -> PAUSADO | Walk-Forward OOS rechazado
 [2026-11-28 10:19:34] ✅ FASE WALK-FORWARD COMPLETADA (0 ajustes aplicados).
+[2026-11-28 10:28:15] [2. Híbrido ADX] 🔒 Stop (Breakeven+) en BTC/USDT SHORT ajustado a 59584.489
